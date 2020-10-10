@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202010090153
+! Version: 202010100121
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20660
+! Lenth = 20680
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -110,6 +110,7 @@
 ###eis_pad1
 ###eis_pad2
 ###everydayadv_mask
+###fixed-bottom-modal[style="right: 82.5px; display: block;"]
 ###fk_faiVisitStateAd
 ###flashad
 ###floatAD_l
@@ -803,6 +804,7 @@
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
+##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
 ##div#ad_id
 ##div#xinxi
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -2659,6 +2661,7 @@ $websocket,domain=5nj.com|cechi8.com
 5253.com###android-qr
 526bt.com###slider
 526bt.com,eroacg.com,laod.cn,ninpang.com,xiaohutuwb.com,zhangjunseo.com,zhujiceping.com##.tg-site
+5278.cc#%#//scriptlet("prevent-window-open", "1", "88p2p.com")
 528500.com###wp > div[align="center"]
 52biquge.com##[onclick*="app"]
 52biquge.com##a[href^="http://html.350.com/"]
@@ -3292,6 +3295,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||cdn.doublemax.net/js/rwd_cap.js$domain=ibf.tw
 @@||cdn.jsdelivr.net^$script,domain=35xs.co
 @@||cdn.optimizely.com/js/*.js$domain=kktv.me
+@@||cdn.runative-syndicate.com/sdk/*/n.js$domain=onemanhua.com
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xiaoshuo.org|49zw.com|biququ.info|tsxsw.net|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=dybee.tv
 @@||cdn.staticfile.org^$script,domain=rijutv.com
@@ -3637,6 +3641,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||ntou.edu.tw/bin/showads.
 @@||ntu.edu.tw/modules/banner.php
 @@||ntust.edu.tw/bin/showads.
+@@||ohmanhua.com/js/*.js
 @@||oiihk.com^$generichide
 @@||olgame.tw^$generichide
 @@||omtrdc.net/m2/hsbcbankhase/mbox/ajax?$domain=hangseng.com
@@ -3701,6 +3706,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||right.com.cn/forum/*300*250$image
 @@||rmdown.com/ads.js
+@@||runative-syndicate.com/do2/*$domain=onemanhua.com
 @@||ruten.com.tw/ahd/fetch_ad.php
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
 @@||s.pacn.ws^*/generate-captcha?$domain=dmhy.org
@@ -4887,6 +4893,10 @@ cnzol.com#?#li:-abp-has(> a[href*="mmtp.net"])
 cnzol.com#?#li:-abp-has(> a[href*="tu."])
 co188.com##.suspen
 cocomanhua.com#@#.gg1000
+cocomanhua.com,ohmanhua.com,onemanhua.com#%#//scriptlet("prevent-setTimeout", "checkSiteNormalLoad")
+cocomanhua.com,ohmanhua.com,onemanhua.com#%#//scriptlet("set-constant", "NativeAd", "noopFunc")
+cocomanhua.com,ohmanhua.com,onemanhua.com#%#//scriptlet("set-constant", "__jsadsuccess", "true")
+cocomanhua.com,ohmanhua.com,onemanhua.com#@#.adBanner
 codeceo.com##div[style="width:970px;margin:0 auto"]
 codeceo.com,fuli8.net##.widget_text:first-child
 codeforge.cn##.webnotice-right
@@ -5962,9 +5972,11 @@ hbee.edu.cn#@#.headerad
 hboav.com###AdTitle
 hboav.com###AdTitle + table
 hboav.com###inplayer
-hboav.com##.cc5278_banner_ad
-hboav.com##script + div[class="cc5278_banner_ad"]
+hboav.com##style + script + div[class="cc5278_banner_ad"]
+hboav.com#$?#.cc5278_banner_ad { remove: true; }
+hboav.com#%#//scriptlet("set-constant", "onload", "null")
 hboav.com#@#.close_box0
+hboav.com#@#script + div[class="cc5278_banner_ad"]
 hc360.com###endAccessories1
 hc360.com###endAdBanner
 hc360.com###newAppBox
@@ -7435,9 +7447,12 @@ offcn.com##.jlstc
 ofweek.com###\5f ad-2100
 ofweek.com###ad-2100
 ofweek.com###flybox-db
+ohmanhua.com#%#//scriptlet("abort-on-property-write", "__DOMAIN")
 oilchem.net##.LzAdv
 olevod.com##.ad-corner
 oneinstack.com##.sidebar > .widget:last-child
+onemanhua.com##body > div[style^="position: fixed;"][style*="z-index:"]
+onemanhua.com##div[id^="rn_ad_native"]
 onlinedown.net##.downgs
 onlinedown.net##.gaosu + #down_url
 onlinedown.net##a.qrcode_show
@@ -7978,10 +7993,7 @@ shenchuang.com###all
 shenchuang.com##.MainR_ad3
 shfq.com##.index_banner_ad
 shhgg.in###TopTipHolder
-shm.com.cn##.guanggaowei2
-shm.com.cn##.guanggaowei3
 shm.com.cn##.w1000.surround
-shm.com.cn##div[id^="baidu_clb_slot_"]
 shmet.com##.spb-biz-cont
 shouji56.com###gg_top_banner
 shouji56.com##.adv01 + a
@@ -10364,6 +10376,7 @@ zznews.cn##.ad:not([style])
 ||4gtv.tv/4gTV_OTT.json
 ||4hw.com.cn/js/common.js
 ||4k123.com/data/attachment/portal/201712/20/194208ao9pevvvg0xr0n1p.jpg
+||4kfv18.cn^
 ||4kt2.com^$subdocument
 ||4kyu.cn^
 ||4paradigm.com^$domain=sina.com.cn
@@ -12310,6 +12323,7 @@ zznews.cn##.ad:not([style])
 ||c.jsbgh.cn^$third-party
 ||c.lbsbbw.cn^$third-party
 ||c.mipcdn.com/static/*/mip-ad/mip-ad.js
+||c.mipcdn.com^$domain=manhuabei.com
 ||c.mnjkw.cn^
 ||c.pcswtw.cn^$third-party
 ||c.rssnzw.cn^$third-party
@@ -13580,6 +13594,7 @@ zznews.cn##.ad:not([style])
 ||enohb.com^
 ||enread.com/img/185-50.gif
 ||ent1.12584.cn^
+||ent1.qunchua.cn^
 ||ent1.qunchua.com^
 ||entry.baidu.com/rp/home?
 ||enyayinxiang.com^
@@ -15261,6 +15276,7 @@ zznews.cn##.ad:not([style])
 ||jianbangjiaoyu.com^
 ||jiandan100.cn/images/site/union/
 ||jianduankm.com^
+||jiangboshidai.com^
 ||jiangchunli.cn^
 ||jianglishi.cn/statics/statics/js/code_
 ||jianglishi.cn^$third-party
@@ -17868,6 +17884,7 @@ zznews.cn##.ad:not([style])
 ||shoudian.org/diantong/laoma
 ||shouji.com.cn/static/v1/js/appinfo.js
 ||shoujigushi.net^$third-party
+||shoukuoedu.com^
 ||shouwangba.cn^
 ||shouyoutv.com/assets/api/web/v4/js/global_head.js
 ||shouyouyou.com^
@@ -18347,7 +18364,7 @@ zznews.cn##.ad:not([style])
 ||szkaidi.cn/statics/g
 ||sznews.com/*.files/$image,object
 ||sznews.com/s?z=
-||szonline.net/zhongyuan
+||szonline.net/static/js/ads.js
 ||szpl0.com^
 ||szqifu.com^
 ||szrk3.com^
@@ -18455,6 +18472,7 @@ zznews.cn##.ad:not([style])
 ||techug.com/mug/
 ||techweb.com.cn^*aliyun
 ||tellvi.cn^$third-party
+||tencent.xn--io0a7i^
 ||tengfangyun.com/attachment/*/w_1200
 ||tengfun.com/attachment/*/w_1200
 ||tengtv.com/skin/xin/Picture/img
@@ -20294,6 +20312,7 @@ zznews.cn##.ad:not([style])
 ||zd518.cn/bf-
 ||zd518.cn/template/qpg6080/
 ||zd6789.com^$third-party
+||zdcj.net/html/weibo
 ||zdcj.net^*/ad
 ||zdface.com/js/m/zw_banner.js
 ||zdisk.cn/mip/bnmanhua.
@@ -20480,6 +20499,7 @@ zznews.cn##.ad:not([style])
 ||zlauk.cn^
 ||zlfhe8.cn^
 ||zlongad.com^$third-party
+||zlyk.com/dp.js
 ||zmgod.com^
 ||zmlfk.com^
 ||zmlled.cn^
