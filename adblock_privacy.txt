@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202010120155
+! Version: 202010130111
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23830
+! Lenth = 23849
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1084,6 +1084,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /analytics-event-adapter.
 /analytics-event.
 /analytics-events-
+/analytics-facade.
 /analytics-gcp.
 /analytics-helper.
 /analytics-ingestion/*
@@ -2358,7 +2359,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /fingerprint3.js
 /fingerprint3.min.js
 /fingerprintjs2.
-/firebase-analytics.js
 /firestats/*
 /firm_tracking.js
 /fkounter/*
@@ -2391,6 +2391,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /fpcookie?
 /fpcount.exe
 /fps/check.
+/fptrk.min.js
 /fpv2.js
 /freecgi/count.cgi?
 /friendbuy.min.js
@@ -4058,6 +4059,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /rum.min.
 /rum/id?
 /rum_analytics/*
+/rum_cmp?
 /rumstat.
 /rumtag.
 /runtimejs/intercept/*
@@ -5673,6 +5675,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||77.91.202.130/js/20050/xiti.js$domain=custojusto.pt
 @@||79423.analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
 @@||79423.analytics.edgekey.net^|
+@@||9cdn.net^*/js/tracking/$script,domain=nine.com.au
 @@||a.klaviyo.com/forms/api/*/full-forms?company_id=$domain=complyfoam.com
 @@||a.klaviyo.com/onsite/api/*/modules?company_id=$domain=complyfoam.com
 @@||a.visualrevenue.com/vrs.js$domain=nydailynews.com
@@ -5761,6 +5764,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||amplitude.com/libs/amplitude-$script,domain=loom.com
 @@||ampproject.org/v0/amp-analytics-$script,domain=cnnespanol.cnn.com
 @@||ampproject.org/v0/amp-geo-$script,domain=pantagraph.com|tasty.co
+@@||analytics.amplitude.com^$~third-party
 @@||analytics.atomiconline.com/services/jquery.js
 @@||analytics.cervell.io/api/collect/connect$domain=cildimveben.com
 @@||analytics.cervell.io/api/product/getProduct/$domain=cildimveben.com
@@ -6048,7 +6052,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||chartbeat.com/*/chartbeat/$~third-party
 @@||chartbeat.com/js/chartbeat.js$domain=salon.com
 @@||chatzy.com/?jsonp:$script
-@@||check.ddos-guard.net/check.js$script,domain=doxbin.org
+@@||check.ddos-guard.net/check.js$script
 @@||chessfriends.com/js/live/GoogleAnalytics.js?$~third-party
 @@||chiptec.net/skin/*/GoogleAnalyticsPlus/$script
 @@||cio.com/js/demandbase.js?
@@ -6592,7 +6596,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtag/js^$domain=timparty.tim.it
 @@||googletagmanager.com/gtm.js$domain=20min.ch
 @@||googletagmanager.com/gtm.js$domain=accupass.com
-@@||googletagmanager.com/gtm.js$domain=action.com|ads.spotify.com|adsoup.com|aim.steelseries.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nytimes.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|realestate.co.nz|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|weightwatchers.com|woodlanddirect.com|wwe.com
+@@||googletagmanager.com/gtm.js$domain=action.com|ads.spotify.com|adsoup.com|aim.steelseries.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|insideevs.com|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nytimes.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|realestate.co.nz|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|weightwatchers.com|woodlanddirect.com|wwe.com
 @@||googletagmanager.com/gtm.js$domain=ads.allegro.pl
 @@||googletagmanager.com/gtm.js$domain=amd.com
 @@||googletagmanager.com/gtm.js$domain=argeweb.nl
@@ -6607,7 +6611,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=blokker.nl
 @@||googletagmanager.com/gtm.js$domain=blue-tomato.com
 @@||googletagmanager.com/gtm.js$domain=braun.com
-@@||googletagmanager.com/gtm.js$domain=bunte.de|finanzen.net|radiorur.de|saturn.at|sport1.de
+@@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.net|radiorur.de|saturn.at|sport1.de
 @@||googletagmanager.com/gtm.js$domain=bunte.de|stiefelparadies.de
 @@||googletagmanager.com/gtm.js$domain=cabinet.planetakino.ua
 @@||googletagmanager.com/gtm.js$domain=capital.fr
@@ -6769,8 +6773,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||graphracer.com/js/libs/heatmap.js
 @@||gruposantander.es^*/scripts/log.js
 @@||gstatic.com^*/analytics.js$domain=google.com
-@@||gstatic.com^*/firebase-analytics.js$script,domain=999.md|audiomack.com|games.com|google.com
-@@||gstatic.com^*/firebase-analytics.js$script,domain=leememas.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||guidestar.org/ga.$~third-party,xmlhttprequest
 @@||guim.co.uk/flash/video/embedded/player-$object,domain=thedailywh.at
@@ -6928,7 +6930,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||latimes.com/hive/javascripts/loggingService.js
 @@||lazada.co.th/js/tracking.js
 @@||legendstracking.com/js/legends-tracking.js
-@@||leiki.com/focus/$script,domain=anna.fi|como.fi|episodi.fi|fum.fi|inferno.fi|kaksplus.fi|rumba.fi|soundi.fi|tilt.fi
+@@||leiki.com/focus/$script,domain=anna.fi|como.fi|episodi.fi|fum.fi|inferno.fi|kaksplus.fi|rumba.fi|seura.fi|soundi.fi|tilt.fi
 @@||lekane.net/lekane/dialogue-tracking.js?$script
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
 @@||lenovo.com^*/GoogleAnalytics.js
@@ -7292,7 +7294,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
 @@||quantcast.mgr.consensu.org/tcfv2/cmp2.js$script,domain=cnews.fr
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com|mirror.co.uk
 @@||quantserve.com/quant.js$domain=apps.facebook.com|caranddriver.com|g4tv.com|nymag.com|salon.com|theblaze.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|nymag.com
 @@||quattroruote.it^*/webtrekk_mediaTracking.min.js$script,~third-party
@@ -7488,6 +7490,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||spot.im^*/ab_test/$xmlhttprequest
 @@||sptmr.ru/sportmaster.ru/js/modules/gtm.js$script,domain=sportmaster.ru
 @@||src.fedoraproject.org/static/issues_stats.js?
+@@||src.litix.io/core/*/mux.js$domain=kanald.com.tr
 @@||src.litix.io/videojs/*/videojs-mux.js$domain=dplay.co.uk
 @@||ssl.google-analytics.com/ga.js$domain=gmail.com
 @@||ssp.rambler.ru/acp/capirs_main.$script,domain=afisha.ru
@@ -7570,6 +7573,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||tablespoon.com/library/js/TBSP_ntpagetag.js
 @@||tablica.pl^*/xtcore.js
 @@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|entrepreneur.com|foxsports.com
+@@||taboola.com/libtrc/impl.$script,domain=bild.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|stylebook.de|techbook.de
 @@||tag.aticdn.net/*/smarttag.js$domain=compteczam.fr
 @@||tag.aticdn.net/*/smarttag.js$domain=rte.ie
 @@||tag.aticdn.net^*/smarttag.js$domain=mon.compteczam.fr
@@ -7644,7 +7648,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||trc.taboola.com/msn-msn/*$domain=msn.com
 @@||trc.taboola.com/samsung-browser-feed$domain=samsung.com|thestartmagazine.com
 @@||trc.taboolasyndication.com^$domain=bloomberg.com|breitbart.com|nme.com|slatev.com
-@@||treg.hearstnp.com/treg.js$script,domain=sfchronicle.com|sfgate.com
 @@||try.abtasty.com/403fb16c20596e4691fbe9ec5db9720e.js$domain=shop.euromaster.de
 @@||try.abtasty.com/78cb84f9b3158bdce6932109a6d7c7c1.js$domain=tf1.fr
 @@||turkcelltvplus.com.tr^*/google_analytics/main.js?
@@ -8552,6 +8555,7 @@ znak.com##.relap
 ||adku.com^$third-party
 ||adlc-exchange.toast.com/sendid?sid=
 ||adless.io^$third-party
+||adlibris.com/pixel.gif
 ||adlog.com.com^
 ||adm24.de/hp_counter/$third-party
 ||admantx.com^$third-party
@@ -8933,6 +8937,7 @@ znak.com##.relap
 ||amazonaws.com/pixelpop/app/pixelpop-
 ||amazonaws.com/prod/entities
 ||amazonaws.com/prod/main?ref=$image,third-party
+||amazonaws.com/prod/report-only
 ||amazonaws.com/reachpeople^
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||amazonaws.com/statics.reedge.com/
@@ -9011,6 +9016,7 @@ znak.com##.relap
 ||analyticcdn.globalmailer.com^
 ||analytics*.carambo.la^
 ||analytics*.clickdimensions.com^
+||analytics-api.a-f.io^
 ||analytics-beacon-*.amazonaws.com^
 ||analytics-cdiscount.com^$third-party
 ||analytics-cms.whitebeard.me/js/
@@ -9035,6 +9041,7 @@ znak.com##.relap
 ||analytics.163.com^
 ||analytics.247sports.com^
 ||analytics.30m.com^
+||analytics.a-f.io^
 ||analytics.aasaam.com^
 ||analytics.ad.daum.net^
 ||analytics.adfreetime.com^
@@ -13008,6 +13015,7 @@ znak.com##.relap
 ||events.kaloo.ga^$third-party
 ||events.launchdarkly.com^$third-party
 ||events.lbesecapi.com^
+||events.mapbox.com^
 ||events.matterport.com^
 ||events.mediarithmics.com^
 ||events.medio.com^
@@ -13655,6 +13663,7 @@ znak.com##.relap
 ||g3763602365.co^
 ||g3961686700.co^
 ||g4159771035.co^
+||g4357855370.co^
 ||g4p.redtram.com^
 ||ga-analytics.com^$third-party
 ||ga-beacon.appspot.com^
@@ -13941,6 +13950,7 @@ znak.com##.relap
 ||global.canon/00cmn/js/en/analytics.js
 ||global.canon^*/analytics.js
 ||global.cmcs.service.amazonsilk.com/metrics
+||global.px.quantserve.com^
 ||global.ssl.fastly.net^$script,domain=wayfair.de
 ||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|theadvertiser.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||global.sueddeutsche.de/globalassets/standalone/szstats/configuration.json
@@ -14329,7 +14339,6 @@ znak.com##.relap
 ||heapanalytics.com/h?$image
 ||heapanalytics.com^$third-party
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
-||hearstnp.com/treg.js
 ||heartbeat.flickr.com^
 ||hearthorn.com^$third-party
 ||heatmap.it^$third-party
@@ -14844,6 +14853,7 @@ znak.com##.relap
 ||imwalking.de/servlet/LandmarkServlet?clientId
 ||imx.comedycentral.com^
 ||in.cuebiq.com^
+||inapps.appsflyer.com^
 ||inaudium.com^$third-party
 ||inbox.lv^*/ga.js
 ||inboxtag.com/tag.swf
@@ -15852,11 +15862,13 @@ znak.com##.relap
 ||log.outbrain.com^$domain=autobild.de|focus.de|metal-hammer.de|musikexpress.de|rollingstone.de|widgets.outbrain.com
 ||log.outbrain.com^$domain=focus.de
 ||log.outbrainimg.com^
+||log.particlenews.com^
 ||log.pinterest.com^
 ||log.pinterest.com^$third-party
 ||log.player.cntv.cn/stat.html?
 ||log.popin.cc^
 ||log.prezi.com^
+||log.propermessage.io^
 ||log.quora.com^
 ||log.reformal.ru^
 ||log.ren.tv^
@@ -15885,6 +15897,7 @@ znak.com##.relap
 ||log1.17173.com^
 ||log1.24liveplus.com^
 ||log2.musical.ly^
+||log2.spotify.com^
 ||logaholic.com^$third-party
 ||logbor.com^$third-party
 ||logcollector.viewster.com^
@@ -16064,6 +16077,7 @@ znak.com##.relap
 ||m6r.eu^$third-party
 ||m6web.fr/statsd/
 ||ma-petite-recette.fr/visites
+||ma.redhat.com^
 ||ma.register.it^
 ||mabaya.com^$third-party
 ||mabipa.com^$third-party
@@ -17969,6 +17983,7 @@ znak.com##.relap
 ||pixel.redditmedia.com^
 ||pixel.roymorgan.com^
 ||pixel.s3xified.com^
+||pixel.safe-installation.com^
 ||pixel.safe-installation.com^$third-party
 ||pixel.sojern.com^
 ||pixel.solvemedia.com^
@@ -19917,7 +19932,7 @@ znak.com##.relap
 ||sovereignbank.com/utils/track.asp
 ||sovetnik.net/count
 ||sp-mms.weather.com^
-||sp-prod.net^$third-party,domain=~autobild.de|~bild.de|~boerse-online.de|~bz-berlin.de|~caramia.de|~computerbild.de|~edelblech.de|~finanzen.at|~finanzen.ch|~finanzen.net|~gofeminin.de|~idealo.at|~idealo.co.uk|~idealo.de|~idealo.es|~idealo.fr|~idealo.it|~immonet.de|~kombi.de|~metal-hammer.de|~musikexpress.de|~n24.de|~onmeda.de|~rollingstone.de|~sportbild.de|~stylebook.de|~transfermarkt.de|~travelbook.de|~welt.de|~wieistmeineip.at|~wieistmeineip.ch|~wieistmeineip.de|~zuio.tv
+||sp-prod.net^$third-party,domain=~autobild.de|~bild.de|~boerse-online.de|~bz-berlin.de|~caramia.de|~computerbild.de|~edelblech.de|~finanzen.at|~finanzen.ch|~finanzen.net|~fitbook.de|~gofeminin.de|~idealo.at|~idealo.co.uk|~idealo.de|~idealo.es|~idealo.fr|~idealo.it|~immonet.de|~kombi.de|~metal-hammer.de|~musikexpress.de|~n24.de|~onmeda.de|~rollingstone.de|~sportbild.de|~stylebook.de|~techbook.de|~transfermarkt.de|~travelbook.de|~welt.de|~wieistmeineip.at|~wieistmeineip.ch|~wieistmeineip.de|~zuio.tv
 ||sp.app.com^
 ||sp.argusleader.com^
 ||sp.azcentral.com^
@@ -20749,6 +20764,7 @@ znak.com##.relap
 ||sts.batmobi.net^
 ||sts.eccmp.com^
 ||sts.eccmp.com^$third-party
+||stubhub.com/bfx/api/logging
 ||studyisland.com^*/ga.js
 ||stuff.afterdawn.com/views.cfm
 ||stuff.co.nz/track/
@@ -21828,6 +21844,7 @@ znak.com##.relap
 ||tracker.softcube.com^$third-party
 ||tracker.stats.in.th^$third-party
 ||tracker.stileo.it^
+||tracker.thinkermail.com^
 ||tracker.thinkindot.com^
 ||tracker.timesgroup.com^
 ||tracker.tiu.ru^
@@ -22162,10 +22179,10 @@ znak.com##.relap
 ||trinklink1.s3.amazonaws.com/trinklink.js
 ||triond.com/cntimp?
 ||tripadvisor.*/PageMoniker?
-||tripadvisor.com/actionrecord
-||tripadvisor.com/cookiepingback?
-||tripadvisor.com/garecord
-||tripadvisor.com/impressionrecord
+||tripadvisor.*/actionrecord
+||tripadvisor.*/cookiepingback?
+||tripadvisor.*/garecord
+||tripadvisor.*/impressionrecord
 ||tripadvisor.com/uvpages/page_moniker.html
 ||triptease.io^$third-party
 ||triptease.net^$third-party
@@ -22324,6 +22341,7 @@ znak.com##.relap
 ||tutorthing.com^$third-party
 ||tuttogratis.it/gopix.php?
 ||tuttomercatoweb.com/pixel
+||tv-asahi.co.jp/official/logging?
 ||tv.sohu.com/upload/trace/
 ||tv8.com.tr/Ajax/icerik/save_video_event
 ||tvigle.ru/track/
@@ -23788,6 +23806,7 @@ znak.com##.relap
 ||zminer.zaloapp.com^
 ||znq9.destinia.mx^
 ||zonastat.com/installer.html?param=
+||zone-telechargement.al/analytics/
 ||zone-telechargement.ninja/bypassmajs
 ||zonecss.fr/images/stat_robocop.gif?
 ||zonecss.fr/images/statscreen.gif?
