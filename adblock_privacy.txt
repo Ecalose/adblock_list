@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202010130111
+! Version: 202010140106
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23849
+! Lenth = 23855
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -6823,6 +6823,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||images.apple.com/metrics/scripts/s_code_h.js$domain=apple.com
 @@||imaster.space^$websocket
 @@||img.blesk.cz/js/base-cz/gemius.js
+@@||imgur.com/min/px.js$~third-party
 @@||imprentaonline.net^*/js/gtm.min.js$~third-party
 @@||imrworldwide.com/crossdomain.xml$domain=sbs.com.au
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=europafm.com
@@ -7294,7 +7295,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
 @@||quantcast.mgr.consensu.org/tcfv2/cmp2.js$script,domain=cnews.fr
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com|mirror.co.uk
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com|mirror.co.uk|tumblr.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|caranddriver.com|g4tv.com|nymag.com|salon.com|theblaze.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|nymag.com
 @@||quattroruote.it^*/webtrekk_mediaTracking.min.js$script,~third-party
@@ -7428,7 +7429,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||securemetrics.apple.com/b/ss/$image
 @@||seewhy.com^$domain=nixon.com
 @@||segment-data.zqtk.net^$domain=wsj.com
-@@||segment.com/analytics.js/*/analytics.min.js$script
 @@||segment.com/v1/projects/$xmlhttprequest,domain=benchling.com
 @@||segment.io/analytics.js/*/analytics.min.js$script
 @@||segment.io/v1/$xmlhttprequest,domain=greentoe.com
@@ -7440,6 +7440,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||segmentify.com//get/key/v1.json$domain=flo.com.tr
 @@||segundamano.mx^*/tealium.js
 @@||sellpoint.net/smart_button/$script,domain=walmart.com
+@@||serve-ts.amagi.tv^*/beacon?$xmlhttprequest,domain=watch.truecrimenetworktv.com
 @@||serverfault.com/tags/$~third-party,xmlhttprequest
 @@||service.collarity.com/cust/nbcu/ucs.js$xmlhttprequest
 @@||service.maxymiser.net/api/eu/mediamarkt.tr/*/mmapi.js$domain=mediamarkt.com.tr
@@ -8938,6 +8939,7 @@ znak.com##.relap
 ||amazonaws.com/prod/entities
 ||amazonaws.com/prod/main?ref=$image,third-party
 ||amazonaws.com/prod/report-only
+||amazonaws.com/production_beacon
 ||amazonaws.com/reachpeople^
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||amazonaws.com/statics.reedge.com/
@@ -13314,6 +13316,7 @@ znak.com##.relap
 ||finn.no/clientstats.html
 ||finn.no/ec/REK^
 ||fireball.de/statistikframe.asp?
+||firebaselogging-pa.googleapis.com^
 ||firebaselogging.googleapis.com^
 ||firecrux.com/track/$xmlhttprequest
 ||firefoxchina.cn/*/trac.js
@@ -18241,7 +18244,7 @@ znak.com##.relap
 ||prisjakt.nu/js.php?p=trafikfonden
 ||prism.app-us1.com^$script,third-party
 ||prism.pandora.tv^
-||privacy-mgmt.com^$script,third-party,domain=~11freunde.de|~faz.net|~tvspielfilm.de|~vip.de
+||privacy-mgmt.com^$script,third-party,domain=~11freunde.de|~boerse-online.de|~faz.net|~finanzen.at|~finanzen.net|~tvspielfilm.de|~vip.de
 ||privacy-policy.truste.com^$third-party
 ||privacy.www.nu.nl/pixel^
 ||privacytool.org/AnonymityChecker/js/fontdetect.js$third-party
@@ -19932,7 +19935,7 @@ znak.com##.relap
 ||sovereignbank.com/utils/track.asp
 ||sovetnik.net/count
 ||sp-mms.weather.com^
-||sp-prod.net^$third-party,domain=~autobild.de|~bild.de|~boerse-online.de|~bz-berlin.de|~caramia.de|~computerbild.de|~edelblech.de|~finanzen.at|~finanzen.ch|~finanzen.net|~fitbook.de|~gofeminin.de|~idealo.at|~idealo.co.uk|~idealo.de|~idealo.es|~idealo.fr|~idealo.it|~immonet.de|~kombi.de|~metal-hammer.de|~musikexpress.de|~n24.de|~onmeda.de|~rollingstone.de|~sportbild.de|~stylebook.de|~techbook.de|~transfermarkt.de|~travelbook.de|~welt.de|~wieistmeineip.at|~wieistmeineip.ch|~wieistmeineip.de|~zuio.tv
+||sp-prod.net^$third-party,domain=~autobild.de|~bild.de|~boerse-online.de|~bz-berlin.de|~caramia.de|~computerbild.de|~edelblech.de|~finanzen.at|~finanzen.ch|~finanzen.net|~fitbook.de|~gofeminin.de|~idealo.at|~idealo.co.uk|~idealo.de|~idealo.es|~idealo.fr|~idealo.it|~immonet.de|~kombi.de|~metal-hammer.de|~musikexpress.de|~myhomebook.de|~n24.de|~onmeda.de|~rollingstone.de|~sportbild.de|~stylebook.de|~techbook.de|~transfermarkt.de|~travelbook.de|~welt.de|~wieistmeineip.at|~wieistmeineip.ch|~wieistmeineip.de|~zuio.tv
 ||sp.app.com^
 ||sp.argusleader.com^
 ||sp.azcentral.com^
@@ -20054,6 +20057,7 @@ znak.com##.relap
 ||spanids.dictionary.com^
 ||spanids.reference.com^
 ||spanids.thesaurus.com^
+||spankbang.com/auth_fetch?$xmlhttprequest
 ||spankbang.com/fetch$xmlhttprequest
 ||spankbang.com^$ping
 ||sparechange.io^$third-party
@@ -20098,6 +20102,7 @@ znak.com##.relap
 ||spinmedia.com/clarity.min.js
 ||spinmediacdn.com/clarity.min.js
 ||spirebaboon.com^$third-party
+||spixel.socy.es^
 ||spklw.com^$third-party
 ||spkrth.scw.systems^
 ||splitbee.io^$third-party
@@ -23675,6 +23680,7 @@ znak.com##.relap
 ||youcanoptout.org^$third-party
 ||youdao.com/cf.gif?
 ||youdao.com/imp/cac.js
+||youjizzlive.com/api/metrics
 ||youku.com/compvlog?
 ||youku.com/recikupushshow?
 ||youku.com/ykvvlog?
