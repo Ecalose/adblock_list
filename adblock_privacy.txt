@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202010140106
+! Version: 202010150105
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23855
+! Lenth = 23863
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -465,6 +465,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /Analytics/Google.
 /Analytics/Pdp/*
 /Analytics/Tracking.
+/Analytics/Tracking.js
 /Analytics/UniqueEndUser?
 /Analytics/Visitor.
 /AnalyticsDataLayer.
@@ -5594,6 +5595,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 ?event=pageview&
 ?event=performancelogger:
 ?event=pixel.
+?event=tracking:ajax
 ?eventType=*&url=
 ?eventtype=impression&pid=
 ?eventtype=request&pid=
@@ -5624,7 +5626,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 ?trackingCategory=
 ?triggertags=
 ?type=pageview&
-?type=performance&
 ?type=ping&$~subdocument
 ?url=*&id=*&res=*&ref=
 ?utmad=*&utmac=
@@ -6903,9 +6904,11 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||k12-company.ru^*/statistics.js$script
 @@||kaltura.com/content/*/comscorePlugin.swf
+@@||kameleoon.eu/kameleoon.js$domain=welt.de
 @@||kapaza.be/nl/js/xtcore_$script,domain=kapaza.be
 @@||kaspersky.co.uk/b/ss/$image
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
+@@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kbb.com/static/js/global/app-measurement$script
 @@||kentucky.com/mistats/finalizestats.js
 @@||keremerkan.net/wp-content/plugins/wp-minify/min/*/google-analyticator/
@@ -7574,7 +7577,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||tablespoon.com/library/js/TBSP_ntpagetag.js
 @@||tablica.pl^*/xtcore.js
 @@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|entrepreneur.com|foxsports.com
-@@||taboola.com/libtrc/impl.$script,domain=bild.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|stylebook.de|techbook.de
+@@||taboola.com/libtrc/impl.$script,domain=bild.de|bz-berlin.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|stylebook.de|techbook.de|travelbook.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
 @@||tag.aticdn.net/*/smarttag.js$domain=compteczam.fr
 @@||tag.aticdn.net/*/smarttag.js$domain=rte.ie
 @@||tag.aticdn.net^*/smarttag.js$domain=mon.compteczam.fr
@@ -10700,6 +10703,7 @@ znak.com##.relap
 ||cdn.milffox.com/static/milffox.com/js/gtm.js
 ||cdn.mosoah.com/analytics.js
 ||cdn.odoscope.cloud^$third-party
+||cdn.resonate.com^$third-party
 ||cdn.segment.com/analytics.js
 ||cdn.static-fra.de/*/tracking/
 ||cdn.taboola.com/libtrc/animeyttv/loader.js
@@ -11228,6 +11232,7 @@ znak.com##.relap
 ||collect.feefo.com^$third-party
 ||collect.igodigital.com^
 ||collect.igodigital.com^$third-party
+||collect.lngtd.com^
 ||collect.media.jio.com^
 ||collect.rewardstyle.com^
 ||collect.state.centrum24.pl^
@@ -11953,6 +11958,7 @@ znak.com##.relap
 ||d3l3lkinz3f56t.cloudfront.net^
 ||d3mskfhorhi2fb.cloudfront.net^
 ||d3n6i6eorggdxk.cloudfront.net^
+||d3nq5jrakcyw1w.cloudfront.net^
 ||d3ojzyhbolvoi5.cloudfront.net^
 ||d3phbp7p78bdk9.cloudfront.net^
 ||d3q7vxy7usqoub.cloudfront.net^
@@ -16090,7 +16096,6 @@ znak.com##.relap
 ||macromill.com/imp/
 ||macromill.com^$third-party
 ||macwelt.de/images/pic.gif?
-||macworld.com/www/js/analytics/tracking.js
 ||maddeningpowder.com^$third-party
 ||madlan.co.il/o4wPDYYd/
 ||madmimi.com/view?id=$image
@@ -19935,7 +19940,7 @@ znak.com##.relap
 ||sovereignbank.com/utils/track.asp
 ||sovetnik.net/count
 ||sp-mms.weather.com^
-||sp-prod.net^$third-party,domain=~autobild.de|~bild.de|~boerse-online.de|~bz-berlin.de|~caramia.de|~computerbild.de|~edelblech.de|~finanzen.at|~finanzen.ch|~finanzen.net|~fitbook.de|~gofeminin.de|~idealo.at|~idealo.co.uk|~idealo.de|~idealo.es|~idealo.fr|~idealo.it|~immonet.de|~kombi.de|~metal-hammer.de|~musikexpress.de|~myhomebook.de|~n24.de|~onmeda.de|~rollingstone.de|~sportbild.de|~stylebook.de|~techbook.de|~transfermarkt.de|~travelbook.de|~welt.de|~wieistmeineip.at|~wieistmeineip.ch|~wieistmeineip.de|~zuio.tv
+||sp-prod.net^$third-party,domain=~autobild.de|~bike-bild.de|~bild.de|~boerse-online.de|~businessinsider.de|~bz-berlin.de|~caramia.de|~computerbild.de|~edelblech.de|~finanzen.at|~finanzen.ch|~finanzen.net|~fitbook.de|~gofeminin.de|~idealo.at|~idealo.co.uk|~idealo.de|~idealo.es|~idealo.fr|~idealo.it|~immonet.de|~kombi.de|~meinestadt.de|~metal-hammer.de|~musikexpress.de|~myhomebook.de|~n24.de|~noizz.de|~onmeda.de|~politico.eu|~rollingstone.de|~sportbild.de|~stylebook.de|~techbook.de|~transfermarkt.de|~travelbook.de|~welt.de|~wieistmeineip.at|~wieistmeineip.ch|~wieistmeineip.de|~zuio.tv
 ||sp.app.com^
 ||sp.argusleader.com^
 ||sp.azcentral.com^
@@ -21138,6 +21143,7 @@ znak.com##.relap
 ||targetfuel.com^$third-party
 ||targeting.*.arcpublishing.com^
 ||targeting.perso.aws.arc.pub^
+||targeting.tbt.arcpublishing.com^
 ||targeting.voxus.tv^
 ||targeting.wpdigital.net^
 ||targetix.net^$third-party
@@ -22344,6 +22350,7 @@ znak.com##.relap
 ||turnto.com/webEvent/$third-party
 ||tut.by/stat/
 ||tutorthing.com^$third-party
+||tuttocagliari.net/pixel
 ||tuttogratis.it/gopix.php?
 ||tuttomercatoweb.com/pixel
 ||tv-asahi.co.jp/official/logging?
@@ -22506,6 +22513,7 @@ znak.com##.relap
 ||united-infos.net/event?
 ||united-infos.net/event^
 ||united.com^*/hp_mediaplexunited.html
+||units.knotch.it^
 ||unitymedia.de/beacon/
 ||universaltrackingcontainer.com^$third-party
 ||unknowncrate.com^$third-party
