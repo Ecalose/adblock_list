@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202010150105
+! Version: 202010160128
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20696
+! Lenth = 20708
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -713,6 +713,7 @@
 ##a[href*=".17yyba.com/"]
 ##a[href*=".222bz.com/"]
 ##a[href*=".41gw.com/"]
+##a[href*=".613639.com/"]
 ##a[href*=".726188.com"]
 ##a[href*=".7wkw.com"]
 ##a[href*=".9xiazaiqi.com"]
@@ -1137,6 +1138,7 @@ $websocket,domain=5nj.com|cechi8.com
 /2*.html?|$script,third-party,xmlhttprequest
 /2016v2/js/adm2.js
 /21kknb.php
+/22yq.js
 /2me3/true.js
 /2xhtml|$script,third-party
 /3*.html?|$script,third-party,xmlhttprequest
@@ -2967,8 +2969,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw|kobe.ga
 @@.jpg#$domain=huhupan.com
-@@.png#$domain=9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|upxin.net
-@@.png#$domain=e9china.net
+@@.png#$domain=9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
 @@/520cc/myxedetectadsx.js$domain=520cc.cc|520cc.me
 @@/ad-close.png$domain=ch.com
 @@/ad/ads.js$domain=5278.cc|5278bbs.com|67.212.233.38
@@ -3343,7 +3344,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||countrygarden.com.cn/ad/
 @@||cpro.baidustatic.com/cpro/ui/$domain=www.pctowap.com
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
-@@||cpro.baidustatic.com/cpro/ui/cm.js$domain=down.ali213.net|patch.ali213.net
+@@||cpro.baidustatic.com/cpro/ui/cm.js$domain=ali213.net
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||create.jd.com/ad/
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
@@ -5077,7 +5078,6 @@ dianping.com##.layer-container[data-view-bid="b_njcmobox"]
 dianping.com##.votelist + .aside-box
 dianping.com##.weixin1
 diantai.ifeng.com#@#.ad-b
-diaoge.cn,iqshv.com,tiaomaren.com,wangdalao.com,wc1234.cn,ygodl.com#@#.social-top
 dict.baidu.com##.tran-download-ad
 dict.cn###tjcd
 dict.cn##.search-right-ad5
@@ -5965,7 +5965,7 @@ hboav.com###AdTitle + table
 hboav.com###inplayer
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
 hboav.com#%#//scriptlet("set-constant", "onload", "null")
-hboav.com#?#script + div:-abp-has(>div>.cc5278_banner_ad_cb)
+hboav.com#?#style + script + div:-abp-has(>div>.cc5278_banner_ad_cb)
 hboav.com#@#.close_box0
 hboav.com#@#script + div[class="cc5278_banner_ad"]
 hc360.com###endAccessories1
@@ -6997,6 +6997,7 @@ longzhu.com##.recommend-pop-up
 lookae.com##.zhongjian
 loveshang.com##div[class^="float-ad-"]
 lqz.cn###ad_index
+lsj.ac##div[class="col-12"] > div[class="poster"]
 ltaaa.com##.lAds
 ltaaa.com##.topAds2
 ltaaa.com##.txtads
@@ -8875,6 +8876,7 @@ witcp.com##.global_ifmobile_mask
 wjx.cn###ctl01_ContentPlaceHolder1_divProMsg
 wmsj.pw,wmav.pw##[class^="asb-"]
 wmzhe.com##.a_dwrap
+wmzhe.com##.ads_wmzhe_software_bannerRight
 wmzhe.com##.downloader
 wn789.com##.sidebar > .widget:not(:first-child):not(.widget_ui_posts)
 wn789.com##a[href^="http"]:not([href*="://www.wn789."]) > img
@@ -9679,6 +9681,7 @@ zznews.cn##.ad:not([style])
 ||10000xing.cn/images/we
 ||1000dy.com^
 ||1002.men^
+||1005fdh.xyz^
 ||100669.com^$third-party
 ||100bt.com/dc?Url
 ||100cpc.com^$third-party
@@ -11484,6 +11487,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/img/ibank/*_775661713.
 ||alicdn.com/img/ibank/*_872274545.
 ||alicdn.com/img/ibank/*_951336353.
+||alicdn.com/imgextra/*_!!1091819078.
 ||alicdn.com/imgextra/*_!!823262290.
 ||alicdn.com/imgextra/i1/3491683832/TB2A4QaisjI8KJjSsppXXXbyVXa_
 ||alicdn.com/kf/*.gif$domain=tzfile.com
@@ -11519,6 +11523,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com^*.gif$domain=15yc.cc|hmog.me
 ||alicdn.com^*.jpg$domain=hmog.me
 ||alicdn.com^*yksdk/*sdk.js$script,domain=youku.com
+||alicdn2.mangafunc.fun^*/ads/
 ||alicmayuns.com^
 ||alifixed.cn^
 ||alightin.com^
@@ -11709,6 +11714,7 @@ zznews.cn##.ad:not([style])
 ||av30.xyz/cs/
 ||av6k.com/templets/default/%E5%A4%A7%E5%93%A5/ad.js
 ||av6k.com/templets/default/video-ad/
+||av8.cm^
 ||av8d.net^$third-party
 ||avbaike.org/js/gg.js
 ||avcao.cc/js/p.js
@@ -13396,6 +13402,7 @@ zznews.cn##.ad:not([style])
 ||dvr8.com^
 ||dvs.china.com^
 ||dvser.china.com^
+||dvzk66.cn^
 ||dw.xcar.com.cn^*.gif?
 ||dw998.com^
 ||dwstatic.com^*/newsPopup/
@@ -14258,6 +14265,7 @@ zznews.cn##.ad:not([style])
 ||guoxintdh.com^
 ||guqu.net/Cooperate/
 ||gutouwang.net^
+||guvdfs.cn^
 ||guxiaom.cn^
 ||guzijie.top^
 ||gw069.com^
@@ -14349,6 +14357,7 @@ zznews.cn##.ad:not([style])
 ||hanmiyong.com^
 ||hanqidq.com^
 ||hanqingstudio.com^
+||hanzhixin.cn^
 ||hanzify.*/Main/Template/Images/chinabank.gif
 ||hao.315hyw.com^
 ||hao.360hyzj.com^
@@ -15054,6 +15063,7 @@ zznews.cn##.ad:not([style])
 ||ipeen.com.tw/js/frame/ad-actions.js
 ||ipeen.com.tw/photo/ad/
 ||ipinyou.com^$third-party
+||ipip.net/loveapp/ipip/tools/theme/partner/
 ||iporn.world/attachment/ad/
 ||iprefer.com.tw^$third-party
 ||iptv444.com/ad-
@@ -16494,6 +16504,7 @@ zznews.cn##.ad:not([style])
 ||mowenxi.com/1.png
 ||moxiaoyang.top^
 ||mozist.com^
+||mozqca.cn^
 ||mp3.haogeba.com^$image,object
 ||mp4ba.com^*/js/head.js
 ||mp4ba.net/static/js/mp4ba.js
@@ -20342,6 +20353,7 @@ zznews.cn##.ad:not([style])
 ||zencu.com.cn^
 ||zenwq.com^
 ||zeyi5.com/js/2412/
+||zf678.com^
 ||zfanc.com^
 ||zfkmw.com^
 ||zfood029.com^
