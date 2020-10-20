@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202010190148
+! Version: 202010200124
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18811
+! Lenth = 18822
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -486,6 +486,7 @@
 2345.com##.mainbg
 2345.com##.mainbg1
 2345.com##.mco-ex-ndxh
+2345.com##.mod-serchright
 2345.com##.newsArea
 2345.com##.s11-fixNav
 2345.com##.s11-logowall
@@ -1388,8 +1389,6 @@
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.min.js$domain=linetv.tw
 @@||changyan.sohu.com/debug/cookie?
 @@||changyou.com^$generichide
-@@||chdbits.co/pic/cattrans.gif
-@@||chdbits.co/pic/trans.gif
 @@||cheshi-img.com/ad/csad_2019.js
 @@||china.com/dianbo/adv1.xml
 @@||chinacourt.gov.cn/share/jquery/plugins/adbox/
@@ -1888,6 +1887,7 @@
 @@||tt1069.com/adbrite.js
 @@||tt1069.com/ads.js
 @@||tt1069.com/advert.js
+@@||tt1069.com/dfp.
 @@||ttkdex.com^$generichide
 @@||ttkdex.com^*ad$~third-party
 @@||ttrar.com/statics/pos_js/jquery.gotop.js
@@ -2055,7 +2055,7 @@ affyun.com##.text ~ a
 afzhan.com##.bannerAdv
 afzhan.com##.newsRightAdv
 afzhan.com##.topRightAdv
-afzhan.com,cngold.org,panjin.net,qq.com,tongxiang.net##.advs
+afzhan.com,cngold.org,hbzhan.com,panjin.net,qq.com,tongxiang.net##.advs
 afzhan.com,iqiyi.com##.rightAdv
 agmov.com,huaban.com##.promotion
 aguitar.cn##.banner7
@@ -2472,6 +2472,8 @@ bd-film.cc###fmtdiv
 bde4.com##a[href*=".yabo816."]
 bde4.com##center[style*="background"]
 bde4.com##div[style="position: fixed;bottom: -5px;z-index:999;width:100%"]
+bde4.com#%#//scriptlet("adjust-setInterval", "timerAdCountdown", "", "0.02")
+bde4.com#%#//scriptlet("set-constant", "canRunAds", "true")
 bdimg.com,tieba.baidu.com,tieba.com##div[class][lgoinprompt="prompt"]
 bdimg.com,tieba.baidu.com,tieba.com#?#.tl_shadow:-abp-has(> .ti_item > .ti_infos > .label_text_tag:-abp-contains(广告))
 bdimg.com,tieba.baidu.com,tieba.com,wapp.baidu.com###pblist > li[class]:not(.j_post_list_item)
@@ -2944,6 +2946,7 @@ cngold.org##.fiexdAdvsClosed
 cngold.org##.in_content_left_advs
 cngold.org##.pageAdv
 cngold.org##.top_bigad
+cnitpm.com##.erweima
 cnjxol.com##.linked
 cnlinfo.net##.guanggao-left
 cnlinfo.net##.guanggao-right
@@ -4017,7 +4020,6 @@ hao123.com##.navrecommend-hjw
 hao123.com##.navrecommend-top
 hao123.com##.newskin-tip
 hao123.com##.recommend-link
-hao123.com##.rightTip
 hao123.com##.sc-tips
 hao123.com##.siye
 hao123.com##.soft-ad-banner
@@ -4030,6 +4032,7 @@ hao123.com##.widget-topbanner
 hao123.com##.wm
 hao123.com##a[class^="gameyixing-link-"]
 hao123.com,jiegeng.com###siye
+hao123.com,jiegeng.com##.rightTip
 hao123.com,sohu.com,tieba.baidu.com##.advertise
 haojiyou.la##.iqshwad-div
 haorooms.com##.right_guanggao
@@ -4050,9 +4053,11 @@ hboav.com###AdTitle + table
 hboav.com###inplayer
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
 hboav.com#%#//scriptlet("set-constant", "onload", "null")
-hboav.com#?#style + script + div:-abp-has(>div>.cc5278_banner_ad_cb)
+hboav.com#?#.cc5278_banner_ad:-abp-has(>div>span:-abp-contains(廣告))
 hboav.com#@#.close_box0
 hboav.com#@#script + div[class="cc5278_banner_ad"]
+hbzhan.com###leftAdv
+hbzhan.com###rightAdv
 hc360.com###endAccessories1
 hc360.com###endAdBanner
 hc360.com###newAppBox
@@ -4738,6 +4743,7 @@ jianshu.com#?#div[id]:-abp-has(> .ad-badge)
 jiaodong.net###leftBanner
 jiaodong.net###rightBanner
 jiecao123.com###sidebar > a
+jiegeng.com##.banner_1212
 jiegeng.com##.coolsite-recommend-linked
 jiegeng.com##.header__item--fr
 jiegeng.com,qq.com##.banner_1111
@@ -9315,6 +9321,7 @@ zznews.cn##.ad:not([style])
 ||ad.52av.tv^
 ||ad.bobi.tw^
 ||ad.cdnjm.cn^
+||ad.digitimes.com.tw/*_bigbutton.jpg
 ||ad.doubleclick.net^$~object-subrequest,third-party
 ||ad.muyang888.top^
 ||ad.qn.img-space.com^
@@ -10197,7 +10204,6 @@ zznews.cn##.ad:not([style])
 ||bilibili.com/x/web-show/res/loc?pf=0&id=128
 ||bilibili.com/x/web-show/res/loc?pf=0&id=160
 ||bilibili.com/x/web-show/res/locs?*&pf=0&ids=124%
-||bilibili.com/x/web-show/res/locs?*&pf=0&ids=4
 ||bilibili.com/x/web-show/res/locs?*=getAdCallback&
 ||bilibilijj.com/image/right_bottom.gif
 ||billionfocus.com^
@@ -10614,7 +10620,7 @@ zznews.cn##.ad:not([style])
 ||chazidian.com/czd_gg.js
 ||chazidian.com/mobile_general_
 ||chazidian.com/statics/images/wangke.jpg
-||chdbits.co/pic/*.gif
+||chdbits.co/pic/*-*.gif
 ||che0.com^$third-party
 ||chehuanjie.com^
 ||chekeshi.com^
@@ -12521,6 +12527,7 @@ zznews.cn##.ad:not([style])
 ||hbttcc.com^
 ||hbyingchang.cn^
 ||hbyyzm.com^
+||hbzhan.com/images/index/*.swf
 ||hbzjht.com^
 ||hbzjht.com^$third-party
 ||hc29x.cn^
@@ -12638,6 +12645,7 @@ zznews.cn##.ad:not([style])
 ||hibiquan.com/uploads/images/
 ||hiffyl.com^
 ||hifidiy.net/www/2015/08/18/HIFIDIY_Compat.swf
+||highter.top^
 ||higoo4.com^
 ||hihifenxiang.com^
 ||hiido.com^$third-party
@@ -16711,6 +16719,7 @@ zznews.cn##.ad:not([style])
 ||tjj.com^
 ||tjqonline.cn^
 ||tjshuimu.com^
+||tjtiebz.cn^
 ||tjwmtrw.cn^
 ||tjys88.com^
 ||tk.504pk.com^
@@ -18095,6 +18104,7 @@ zznews.cn##.ad:not([style])
 ||yigyx.com^
 ||yihegangtie.com^
 ||yiichina.com/images/yisu-
+||yiihuu.com/assets/common/yh/js/yh.ad.
 ||yiiwoo.com^$third-party
 ||yijia2009.com^
 ||yijikm.com^
@@ -18405,6 +18415,7 @@ zznews.cn##.ad:not([style])
 ||yzwr588.com^
 ||yzxls.com^$third-party
 ||yzygo.com^
+||yzyszy.com^
 ||yzytb.com^
 ||yzz.cn/global_gg/
 ||z.nowscore.com^
