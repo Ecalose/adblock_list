@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202010200124
+! Version: 202010210140
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20745
+! Lenth = 20751
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -774,6 +774,7 @@
 ##a[href*="/cslpldyc.me"]
 ##a[href*="/du505.com"]
 ##a[href*="/mda1.site/"]
+##a[href*="/mdapp2.cc/"]
 ##a[href*="/mdb1.site/"]
 ##a[href*="/mobads.php?"]
 ##a[href*="/ppffj.me/"]
@@ -2325,7 +2326,7 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.org,18comic.vip##div[data-height="250"][data-width="300"]
 18comic.org,18comic.vip##div[style^="position: fixed; top:"]
 18comic.org,18comic.vip##img[style*="300px"]
-18comic.org,18comic.vip,52movieba.com,5dm.tv,acglala.net,ainuody.com,awaker.cn,bimiacg.com,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,cosersuki.org,dzbhdm.com,epinv.com,eroacg.com,galacg.me,gmgard.com,halitv.com,haochi123.com,hcomic.in,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jitapu.com,kisssub.org,languang.co,liuli.pw,meijutt.tv,mikuclub.org,mtrend.cn,mydrivers.com,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
+18comic.org,18comic.vip,52movieba.com,5dm.tv,acglala.net,ainuody.com,awaker.cn,bimiacg.com,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,cosersuki.org,dzbhdm.com,epinv.com,eroacg.com,galacg.me,gmgard.com,halitv.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jitapu.com,kisssub.org,languang.co,liuli.pw,meijutt.tv,mikuclub.org,mtrend.cn,mydrivers.com,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
 18h.avmimi.com##body > p[align="center"]:first-child
 18h.avmimi.com##body > table[width="100%"]:nth-child(2)
 1905.com##.mobile_ad_promote
@@ -4670,6 +4671,7 @@ china.cn##.feeds
 china.cn##.lianmeng_search
 china.cn##.ltp_box
 china.cn##.search_RightShow
+china.cn##.search_video
 china.com##.baidu
 china.com##.mm
 china.com##.mxm
@@ -5974,9 +5976,9 @@ hbee.edu.cn#@#.headerad
 hboav.com###AdTitle
 hboav.com###AdTitle + table
 hboav.com###inplayer
+hboav.com##.cc5278_banner_ad:not([id="bait"])
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
 hboav.com#%#//scriptlet("set-constant", "onload", "null")
-hboav.com#?#.cc5278_banner_ad:-abp-has(>div>span:-abp-contains(廣告))
 hboav.com#@#.close_box0
 hboav.com#@#script + div[class="cc5278_banner_ad"]
 hbzhan.com###leftAdv
@@ -5995,7 +5997,6 @@ hcbbs.com###framerG6o99_left
 hcbbs.com###portal_block_2652
 hcbbs.com##.a_cn_pb
 hcbbs.com##table[width="100%"][bordercolor="#CCCCCC"]
-hcomic.in###pv_all > a[onclick^="trackOutboundLink"]
 hdchina.org##.sitead
 hdwan.net##body > div[style]
 hdzone.org##a[style*="fixed"]
@@ -8483,8 +8484,8 @@ tom.com###body_right_banner
 tom.com###popupDivgame
 tongzhuo100.com###gold_banner
 toocle.com##.detail_top_ad
-toolfk.com##.desc.center
-toolfk.com##wavy + p[style="float: left;"]
+toolfk.com##.top > .desc
+toolfk.com##wavy + p
 tools.2345.com##._hb-box + .mod
 tophub.today##.zzz
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv###fixedbanner
@@ -11014,6 +11015,7 @@ zznews.cn##.ad:not([style])
 ||99down.com/index.php?m=poster&
 ||99dqw.com^
 ||99jjk.com/js/floatxvideo.js
+||99l.co^$third-party
 ||99lolo.com^
 ||99mst.com/upfiles/adv/main02.jpg
 ||99nets.com/kfb/index.html
@@ -11506,6 +11508,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/imgextra/*_!!1091819078.
 ||alicdn.com/imgextra/*_!!823262290.
 ||alicdn.com/imgextra/i1/3491683832/TB2A4QaisjI8KJjSsppXXXbyVXa_
+||alicdn.com/imgextra/i3/1731999033/TB2lAJufnlYBeNjSszcXXbwhFXa_
 ||alicdn.com/kf/*.gif$domain=tzfile.com
 ||alicdn.com/kf/H4fa310799bf04b33803900c0f629094bQ.jpg
 ||alicdn.com/kf/H64440f8e4d654f20b5c84e6be2b632b8x.gif
@@ -12859,6 +12862,7 @@ zznews.cn##.ad:not([style])
 ||content.xilu.com^$object
 ||continuedsys.cn^
 ||coolaler.com/index_ads/
+||coolbook.cc^
 ||coolfenxi.com^
 ||coolpadrom.cn^
 ||coolpc.com.tw/img/topweb.html
@@ -14465,8 +14469,6 @@ zznews.cn##.ad:not([style])
 ||hchg89.cn^
 ||hchik.com^
 ||hcmoo.com/mm.js
-||hcomic.in/post/js/jquery
-||hcomic.in/wp-content/themes/boomog/js/list
 ||hcprzx.cn^
 ||hcwang.cn/images/g/*.swf
 ||hcwljy.com^
@@ -16302,6 +16304,7 @@ zznews.cn##.ad:not([style])
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adLocationConfig
 ||mao1.jsnovel.com^
+||maobujie.com^
 ||maodh.com/admin/up/*.gif
 ||maolihui.com/wp-content/themes/miaonew/images/adb
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
@@ -16447,7 +16450,6 @@ zznews.cn##.ad:not([style])
 ||minixiazai.com/statics/js/soft/index.js
 ||miniye.xjts.cn^
 ||minyaartcrafts.cn^
-||mipcdn.com/i/s/https://i.loli.net/$domain=hcomic.in
 ||mipcdn.com^*/mip-*ad-
 ||mipengine.baidu.com/common?
 ||mipujia.com^$third-party
@@ -18072,6 +18074,7 @@ zznews.cn##.ad:not([style])
 ||skads.gxsky.com^$script
 ||skeyword.browser.qq.com/getHotRank
 ||skyttt.com^
+||skywinners.com.cn^
 ||slit.cn/slimages/
 ||slivercommander.cn^
 ||slshiye.cn^
@@ -19743,6 +19746,7 @@ zznews.cn##.ad:not([style])
 ||xn--2quz8f01ak10c.shop^
 ||xn--2ssq0ktxigkq.cc^
 ||xn--2ssq0ktxigkq.com^
+||xn--3bs795g.zone^
 ||xn--4gqqc629gbju.com^
 ||xn--4gqvdz18f.xyz^
 ||xn--9kq745jwng.ink^
@@ -20186,6 +20190,7 @@ zznews.cn##.ad:not([style])
 ||yp868.com/js/54h/
 ||ypa.focusoftime.com^
 ||ypmob.com^
+||yqhlty.com^
 ||yqjxzw.com^
 ||yqrta.xyz^$third-party
 ||yqw88.com^
@@ -20746,6 +20751,7 @@ zznews.cn##.ad:not([style])
 ~sinaimg.cn##a > img[src*=".sinaimg."][src$=".gif"][style*="width:960"]
 ~sinaimg.cn##a > img[width="960"][src*=".sinaimg."]
 ~sinaimg.cn##a > img[width="980"][src*=".sinaimg."]
+~taobao.com,~tmall.com##a[href="https://s.click.taobao.com/QNlWGvu"]
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
 ~upupoo.com##a[href^="http://www.upupoo.com"]
 ~weibo.com##.con_ad
