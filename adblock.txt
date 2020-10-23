@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202010220107
+! Version: 202010230105
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20762
+! Lenth = 20772
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -3524,7 +3524,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||ipfs-lab.com^$generichide
 @@||ipip.net/ping.php?
 @@||ipstatp.com/business_center/dist/img/ad-$domain=tiktok.com
-@@||itc.*^prod=ad&$domain=ttkyy.net|wlbgt.com
 @@||itc.cn/site/share/
 @@||ixueshu.com/ad-server/
 @@||izo.tw/wp-content/advert1.js
@@ -4999,6 +4998,7 @@ csdn.net##.pulllog-box
 csdn.net##.recommend-ad-box
 csdn.net##.recommend-item-box[data-track-click*="http"]:not([data-track-click*=".csdn."])
 csdn.net##.right-item[data-track-click*="http"]:not([data-track-click*=".csdn."])
+csdn.net##.toolbar-advert
 csdn.net##a[href="//gitbook.cn/new/gitchat/activity?utm_source=csdnblog1"]
 csdn.net##li[data-type="ad"]
 csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
@@ -5977,7 +5977,7 @@ hbee.edu.cn#@#.headerad
 hboav.com###AdTitle
 hboav.com###AdTitle + table
 hboav.com###inplayer
-hboav.com##.cc5278_banner_ad:not([id*="bait"])
+hboav.com##.cc5278_banner_ad:not([id*="bat"])
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
 hboav.com#%#//scriptlet("set-constant", "onload", "null")
 hboav.com#@#.close_box0
@@ -6943,6 +6943,7 @@ leagueofmovie.com###rightfixedad
 leiling.org##.ad__single-double-rectangle-wrap
 leiphone.com,sina.com.cn##.top-banner
 lenniu.com##.caClass
+lenovo.com.cn##.AD
 lenovo.com.cn##.adsense-wrap
 lenovo.com.cn##.bottom_ad_ban_bg
 lenovo.com.cn##.bottom_ad_fla
@@ -7740,6 +7741,7 @@ qiyeku.com###gg2_box
 qiyeku.com###index_gg
 qiyeku.com##div[style*="height:90px;"]
 qiyuzy.com##.iad
+qiyuzy.com##.s11
 qizuang.com##.bottom-fadan-box
 qlwb.com.cn###scroll_box
 qmaile.com##a[href*="mp.weixin.qq.com"]
@@ -8486,7 +8488,7 @@ tom.com###popupDivgame
 tongzhuo100.com###gold_banner
 toocle.com##.detail_top_ad
 toolfk.com##.top > .desc
-toolfk.com##wavy + p
+toolfk.com##wavy + div[style="float: left;width: 90%"]
 tools.2345.com##._hb-box + .mod
 tophub.today##.zzz
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv###fixedbanner
@@ -11595,6 +11597,7 @@ zznews.cn##.ad:not([style])
 ||amazonaws.com/s?z=
 ||amd.cn/yyets.js
 ||amensh.cn^
+||amghais.cn^
 ||ammcg.imgscloud.com/toy/
 ||amradmin.5173.com^
 ||ams.fx678.com^
@@ -11997,6 +12000,7 @@ zznews.cn##.ad:not([style])
 ||bdcode.youke.com^
 ||bdcouc.xyz^
 ||bdcpro*.techweb.com.cn^
+||bde4.com^$csp=script-src 'self' * 'unsafe-inline'
 ||bdgg.qjy168.com^
 ||bdiae.com^
 ||bdimg.com/brands/yxtg/source/juhe-v2.js
@@ -12932,7 +12936,6 @@ zznews.cn##.ad:not([style])
 ||cre99.com^
 ||creaders.net*/ad_func.js
 ||crs.baidu.com^
-||crvtrk.com^$domain=xiuren.org
 ||crywl.com^
 ||crzytm.com^
 ||cs.37see.com^$third-party
@@ -13789,6 +13792,7 @@ zznews.cn##.ad:not([style])
 ||ffa9.cn^
 ||ffanq.com^
 ||ffg34fg.78zw.com^
+||ffhre.com^
 ||ffhtek.com^
 ||ffpp.xyz^
 ||ffupiiv.cn^
@@ -15220,6 +15224,7 @@ zznews.cn##.ad:not([style])
 ||j.imdb.cn^
 ||j.s.weibo.com/widget.html
 ||j1.piaobing.com^
+||j1ybkf.cn^
 ||j6y54.xyz^
 ||j6yh5.xyz^
 ||j8j9.com^$third-party
@@ -15409,6 +15414,7 @@ zznews.cn##.ad:not([style])
 ||jiuku.cc^
 ||jiumishow.com^
 ||jiupinshan.cn^
+||jiuwanzi.com^
 ||jiuzhilan.com^$third-party
 ||jixiby.cn^
 ||jixing8.com^$third-party
@@ -15453,6 +15459,7 @@ zznews.cn##.ad:not([style])
 ||jmydm.com/jspage/ftt.js
 ||jnclym4.cn^
 ||jndczg.com^
+||jndfrqz.com^
 ||jnlc.com/www/fund/newsmarket
 ||jnmqym4.cn^
 ||jnsdkjzs.com^
@@ -15941,6 +15948,7 @@ zznews.cn##.ad:not([style])
 ||leletuitui.com^
 ||lemaite.cn^
 ||lenovo.com.cn/cms/2018-07-20/201807201014498251793.png
+||lenovo.com.cn/lenovo/bid?clientType=
 ||lerenzx.cn^
 ||lesanmo.top^
 ||leshigov.cn^
@@ -18460,6 +18468,7 @@ zznews.cn##.ad:not([style])
 ||tad.suning.com^
 ||taijuba.com/js/*_
 ||taijuba.com/js/tj
+||taijuwang.com/template/alifun/js/unFavui.
 ||taisha.org/statics/js/pc2.0/common/form.bottom.
 ||taiwandaily.net/wp-content/uploads*_600x100.
 ||taiwannutrition.com/blog/wp-content/plugins/arscode-ninja-popups/
@@ -18605,6 +18614,7 @@ zznews.cn##.ad:not([style])
 ||tieba.baidu.com/f/urlcheck?
 ||tieba.baidu.com/game/markConf?
 ||tiebapic.baidu.com/forum/pic/item/e1fe9925bc315c609d8d858e9ab1cb13495477b3.jpg
+||tieqifeng.com^
 ||tietuku.$domain=papa1024.com
 ||tietuku.com/b975a9f7c494738b.gif
 ||tietuku.com/d57c01987e74d8f8.gif
@@ -18692,6 +18702,7 @@ zznews.cn##.ad:not([style])
 ||tongjiwo.com^
 ||tonnn.com/promotion2/*.js
 ||toolfk.com/common/cp.js
+||toolfk.com/common/other/11.png
 ||toolfk.com/tools/images/vps/
 ||toolnb.com/Public/aliyun/900x60.png
 ||toolset.vip^
@@ -18758,7 +18769,6 @@ zznews.cn##.ad:not([style])
 ||ttbc.cc^
 ||ttbc33.com^
 ||ttfgames.cn^
-||ttkyy.net/uploads/allimg/201710/1a13f1cdc0917406.jpg
 ||ttrar.com/live/
 ||ttrar.com/statics/pos_js/
 ||ttx.cn/js/float.js
