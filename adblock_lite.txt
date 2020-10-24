@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202010230105
+! Version: 202010240153
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18848
+! Lenth = 18850
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -2760,7 +2760,7 @@ china.com.cn##.Banner_right
 china.com.cn##.ad6
 china.com.cn##a[href*="dwz.cn"]
 china.com.cn##img[width="665"]
-china.com.cn,csdn.net,cyol.net,wxrb.com,yam.com##.AD
+china.com.cn,csdn.net,cyol.net,lenovo.com.cn,wxrb.com,yam.com##.AD
 chinaacc.com##.leftBox
 chinabidding.cn###info_adv_1
 chinabidding.cn,chinabidding.com.cn###erweima_l
@@ -4053,7 +4053,7 @@ hbee.edu.cn#@#.headerad
 hboav.com###AdTitle
 hboav.com###AdTitle + table
 hboav.com###inplayer
-hboav.com##.cc5278_banner_ad:not([id*="bat"])
+hboav.com##.cc5278_banner_ad:not([id^="ba"])
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
 hboav.com#%#//scriptlet("set-constant", "onload", "null")
 hboav.com#@#.close_box0
@@ -5019,7 +5019,6 @@ leagueofmovie.com###rightfixedad
 leiling.org##.ad__single-double-rectangle-wrap
 leiphone.com,sina.com.cn##.top-banner
 lenniu.com##.caClass
-lenovo.com.cn##.AD
 lenovo.com.cn##.adsense-wrap
 lenovo.com.cn##.bottom_ad_ban_bg
 lenovo.com.cn##.bottom_ad_fla
@@ -7947,7 +7946,6 @@ zznews.cn##.ad:not([style])
 ||159i.com/video/usr/uploads/1-
 ||159i.com/video/usr/uploads/bd/$image
 ||159i.com^*.php|
-||159i.com^*_slest.php
 ||15hn.net/data/content
 ||15tianqi.com^$third-party
 ||15yc.cc/statics/js/ffffff.js
@@ -7975,6 +7973,7 @@ zznews.cn##.ad:not([style])
 ||163disk.com/static/www/
 ||163jiankang.com/zhuanqian/m/myad-
 ||164.155.185.254^
+||16577716.com^
 ||167k.com/public/static/admin/banner/*.gif
 ||168.it168.com^$script
 ||1680go.com^
@@ -11724,6 +11723,8 @@ zznews.cn##.ad:not([style])
 ||epcqyac.cn^
 ||epinv.com/wp-content/themes/ep/banner
 ||epinv.com/wp-content/themes/ep/ecom/
+||epinv.com/wp-content/themes/ep/epc2/
+||epinv.com/wp-content/themes/ep/texiao.png
 ||epinv.com/wp-content/themes/ep/uppsd.gif
 ||eprice.com.tw/img/tw_m/ad/
 ||erdsyzb.com^
@@ -14870,6 +14871,7 @@ zznews.cn##.ad:not([style])
 ||njjuntong.com/static/www/edu/js/common_edu.js
 ||njjuntong.com/static/www/edu/tools/common.js
 ||njmpacc.com^
+||njohvxs.cn^
 ||njq.net^
 ||njwxh.com^
 ||njxczy.com^
