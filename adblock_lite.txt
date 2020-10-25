@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202010240153
+! Version: 202010250141
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18850
+! Lenth = 18862
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -82,7 +82,6 @@
 108.62.192.122,23.81.209.214,plus28.com##div[style="width:960px;margin: auto;"]
 1090ys1.com##a[href*="yb6277."]
 1090ys1.com,bbt.tv,btbt.tv,l32c.cn,nixingle.com#@#.google-ad
-1090ys1.com,hkmytv.com###fnbt
 1090ys1.com,wnacg.com,wnacg.org##a[href*="tyrantdb.com"]
 10fang.com##.botad
 10fang.com##.foldcss
@@ -785,6 +784,7 @@
 54new.com###imgshow
 54new.com##img[width="1280"][height="100"]
 55188.com###center-pic
+55188.com###top-pic
 55188.com##.ggdistich
 55188.com##a[href^="http"]:not([href*=".55188."]) > img[src*="/portal/"]
 55188.com,g138.com##.gg_head_l
@@ -989,6 +989,7 @@
 ://*:*/s.php?id=$script,third-party
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
+://*modelBudai*.js?$third-party
 ://a.ads.
 ://ads.
 ://ads.$domain=520cc.cc|520cc.me
@@ -1752,6 +1753,7 @@
 @@||pic.zol-img.com.cn/2009/pix_index.swf
 @@||piccool.com/2home/phpAdsNew/
 @@||pinduoduo.com/advert/$~third-party
+@@||pingan.com^*/rrweb-record-
 @@||pingjs.qq.com^$~third-party
 @@||pixelexperience.org^$generichide
 @@||pochou.com/img/ad/
@@ -2311,8 +2313,10 @@ baidu.com##.chunwan-wrapper
 baidu.com##.commentEmbed-backHomeCard
 baidu.com##.content-adv
 baidu.com##.corneradv
+baidu.com##.cpc-adv-container
 baidu.com##.download-app-parent
 baidu.com##.ec-ad
+baidu.com##.ec-ads-container
 baidu.com##.ec-fc-ad-results
 baidu.com##.ec-oad
 baidu.com##.ec_ad
@@ -2714,7 +2718,7 @@ chaicp.com###activity-web
 chaicp.com##.Icp-Ad
 chaicp.com##.footer-banner
 chaicp.com,qiuyi.cn##.Advertisement
-chaidu.com###hb
+chaidu.com,kdslife.com###hb
 chajiaotong.com##div[id^="cjtad_"]
 chanet.com.cn#@##ad_content
 chaomi.cc##.cm-ads
@@ -4052,8 +4056,8 @@ hb163.cn##.ad_panel_980
 hbee.edu.cn#@#.headerad
 hboav.com###AdTitle
 hboav.com###AdTitle + table
+hboav.com###fwcrf
 hboav.com###inplayer
-hboav.com##.cc5278_banner_ad:not([id^="ba"])
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
 hboav.com#%#//scriptlet("set-constant", "onload", "null")
 hboav.com#@#.close_box0
@@ -5741,6 +5745,7 @@ price.com.hk###ad0
 price.com.hk###ad5
 price.com.hk,uwants.com##.MFV
 proewildfire.cn##.comiis_nav ~ a
+proginn.com##DIV[style*="width:1000px;height: 250px;"]
 programmer-club.com.tw##A[href*="/ADRedirect."]
 psahz.com#@#.ad_960
 psdhtml.cn###myggnx
@@ -7288,7 +7293,6 @@ youku.com###ykBottomBanner
 youku.com##.pop-prompt-box
 youku.com##.yk-AD-tong
 youku.com##div[style="position:relative;"]:first-child > a[style*="z-index:5; display:block;"]
-youtaoqi.com##.sidetg
 youth.cn###identifier-pannel
 youth.cn##.hd_pic
 youth.cn##.tj2_pic
@@ -9230,6 +9234,7 @@ zznews.cn##.ad:not([style])
 ||a5xiazai.com/z/
 ||a6.hujiang.com^$domain=~class.hujiang.com
 ||a7shun.com^$third-party
+||a7t89g4a.cn^
 ||a907907.com^
 ||a9377j.com^
 ||aa.0755rc.com^
@@ -9650,6 +9655,7 @@ zznews.cn##.ad:not([style])
 ||aliyunh.xyz^
 ||aliyuni.xyz^
 ||aliyunj.xyz^
+||aliyunp.xyz^
 ||aliyunxin.com^
 ||allbeauty.com.tw/GoldPrice/*_CF.php
 ||alllget.com^$third-party
@@ -9673,6 +9679,7 @@ zznews.cn##.ad:not([style])
 ||amd.cn/yyets.js
 ||amensh.cn^
 ||amghais.cn^
+||amghmej.cn^
 ||ammcg.imgscloud.com/toy/
 ||amradmin.5173.com^
 ||ams.fx678.com^
@@ -12179,6 +12186,7 @@ zznews.cn##.ad:not([style])
 ||ggjs.d17.cc^
 ||ggmm777.com^$third-party
 ||ggs.myzaker.com^
+||ggsgww.cn^
 ||ggskt.com^
 ||ggtg8.com^
 ||ggtp-1255424916.cos.ap-chengdu.myqcloud.com^
@@ -14202,7 +14210,7 @@ zznews.cn##.ad:not([style])
 ||loli.net/2020/08/05/6orxItEVzlTjKam.png
 ||loli.net/2020/08/31/j6NV3wFeIxCtnBX.gif
 ||loli.net/2020/09/04/Wx3MdOVvsTPwIlE.gif
-||loli.net^$domain=1090ys1.com|520film.net|52pili.com|acglover.me|beiwodi.com|btdp.online|f6hx.site|hdsky.me|magnet2048.com|nulltm.com|xydai.cn|youtaoqi.com
+||loli.net^$domain=1090ys1.com|520film.net|52pili.com|acglover.me|beiwodi.com|btdp.online|f6hx.site|hdsky.me|magnet2048.com|nulltm.com|xydai.cn
 ||lolmp4.com/template/lolmp4/images/jquery.
 ||lolmp4.com^$third-party
 ||lolshipin.com/zt/sxx/
@@ -14432,6 +14440,7 @@ zznews.cn##.ad:not([style])
 ||mcdhshlsboom.com^
 ||mcncc.com/yeyou/*.htm
 ||mcninc.cn^
+||mcteu.cn^
 ||md.tvzhe.com^
 ||mdcone.cn^
 ||mdous.com^
@@ -15307,6 +15316,7 @@ zznews.cn##.ad:not([style])
 ||pro.cn^$third-party
 ||pro.iweihai.cn^
 ||proewildfire.cn/fd.js
+||proginn.com/cms/10000/
 ||programmer-club.com.tw/images/uuu/
 ||prohibited.cn^
 ||prohost.com.tw^$third-party
@@ -16148,6 +16158,7 @@ zznews.cn##.ad:not([style])
 ||sinolub.com/index.php?m=poster&
 ||sinolub.com/uploadfile/201*.swf
 ||site-bk.oss-cn-shenzhen.aliyuncs.com/img/aliyun/
+||sitebakup.com^
 ||sitemobia.com^
 ||sitv.com.cn/cookiead.php
 ||sivide.cn^
@@ -17466,6 +17477,7 @@ zznews.cn##.ad:not([style])
 ||wnacg.*/sd
 ||wnacg.*/themes/weitu/images/0
 ||wnacg.*/w7z/
+||wnacg.*/w8z/
 ||wnacg.*/zec/
 ||wnacg.org/img/500_60
 ||wnacg.org/img/wap
