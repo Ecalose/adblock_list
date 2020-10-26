@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Plus]
-! Version: 202010250141
+! Version: 202010260142
 ! Title:  uniartisan's Adblock List Plus
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 109445
+! Lenth = 109483
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -16600,6 +16600,7 @@
 ##.header-adcode
 ##.header-adplace
 ##.header-ads
+##.header-ads-area
 ##.header-ads-container
 ##.header-ads-holder
 ##.header-ads-wrap
@@ -17260,6 +17261,7 @@
 ##.l-ad
 ##.l-ad-300
 ##.l-ad-728
+##.l-ads
 ##.l-adsense
 ##.l-bottom-ads
 ##.l-container > #fishtank
@@ -17488,6 +17490,7 @@
 ##.loadadlater
 ##.loc-home-top-adv-new
 ##.local-ads
+##.local-ads-out-container
 ##.localad
 ##.location-ad
 ##.log_ads
@@ -22502,7 +22505,7 @@ $script,third-party,domain=rijutv.com
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.net|torrentkitty.se|torrentkitty.tv
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
 $script,third-party,xmlhttprequest,domain=abcvideo.cc
-$script,third-party,xmlhttprequest,domain=btsow.online
+$script,third-party,xmlhttprequest,domain=btsow.work
 $script,third-party,xmlhttprequest,domain=clickopen.club|core1player.com|exvcon.com|fembed.com|feurl.com|fsimg.info|gaobook.review|mavplay.com|mavplayer.xyz|novelplanet.me|secfilm.xyz|sonline.pro|svpri.xyz|vaplayer.xyz|vidplayer.cz|xstreamcdn.com|youtubedownloader.cx
 $script,third-party,xmlhttprequest,domain=govid.co
 $script,third-party,xmlhttprequest,domain=ouo.io|ouo.press
@@ -33209,6 +33212,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 9dcj.com##.gif_left
 9dog.pw##.float-adv
 9gag.com##.post-container > div > div[style^="width: 500px; height: 281px;"]
+9gag.com##.topBannerAd-container
 9gag.com##iframe[src^="https://9gag.com/static/ads/"]
 9gag.com#?#.list-stream > div > article:not([id]):has(> div.post-container > div > div[style^="width: 500px; height: 281px;"] )
 9gag.com#?#.list-stream > div > article:not([id]):has(> div.post-container > div > iframe[src^="https://9gag.com/static/ads/"])
@@ -36634,6 +36638,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||googletagmanager.com/gtag/js$domain=telerium.tv
 @@||googletagmanager.com/gtag/js$script,domain=uptobox.com|uptostream.com
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
+@@||googletagmanager.com/gtag/js?id=$domain=dropgalaxy.com
 @@||googletagmanager.com/gtag/js^$domain=rapidvideo.com
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com
 @@||googletagmanager.com/gtm.js$domain=clipmyhorse.tv
@@ -38110,6 +38115,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||oasjs.kataweb.it/adsetup.real.js$domain=video.deejay.it
 @@||oasjs.kataweb.it/adsetup.real.js$domain=video.repubblica.it
 @@||oasjs.kataweb.it/adsetup_pcmp.js$domain=kataweb.it
+@@||oauth.reddit.com/r/adblock.json$domain=reddit.com
 @@||oauth.vk.com$document
 @@||oauth.vk.com/authorize?
 @@||oba.uimserv.net/opt$domain=youronlinechoices.com
@@ -45413,6 +45419,7 @@ christiantoday.com###v_article > div[style*="15px;"][style*="10px"]
 christiantoday.com##.p402_premium > div[style$="float:left;margin:0 15px; 10px 0px;clear:left;"]
 christiantoday.com##.usefulLinks
 chromecj.com##.topblock
+chromefk.com,toolfk.com##.tip-alert
 chromeunboxed.com##.topSpace
 chromeunboxed.com#$#.ezoic-ad { position: absolute!important; left: -3000px!important; }
 chron.com###ctpl-fullbanner-spacer
@@ -47509,7 +47516,7 @@ dropgalaxy.com#%#//scriptlet("prevent-addEventListener", "error", "event.trigger
 dropgalaxy.com#%#//scriptlet("set-constant", "pplayer", "")
 dropgalaxy.com#%#//scriptlet("set-constant", "usrblock", "noopFunc")
 dropgalaxy.com#%#//scriptlet('remove-attr', 'disabled', '.downloadbtn')
-dropgalaxy.com#%#AG_onLoad(function(){if(document.querySelector("#downloadPagecontainer")){var g=function(a){for(var c="",e=0;e<a;e++)c+="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".charAt(Math.floor(62*Math.random()));return c};f=function(a,c){a=Math.ceil(a);c=Math.floor(c);return Math.floor(Math.random()*(c-a+1))+a};d=new MutationObserver(function(){var a=document.head;if(a){var c=document.createElement("script");c.setAttribute("type","text/javascript");c.src="https://www.google-analytics.com/analytics.js";a.appendChild(c)}var e=1,m=g(f(26,27));if(a=document.querySelector("ins.adsbygoogle[data-ad-client]"))var n=a.getAttribute("data-ad-client");if(a=document.querySelector("ins.adsbygoogle[data-ad-slot]"))var p=a.getAttribute("data-ad-slot");a=document.querySelectorAll("ins.adsbygoogle");0<a.length&&(d.disconnect(),a.forEach(function(h){var k=document.createElement("ins"),l=document.createElement("ins"),b=document.createElement("iframe"),q=document.createElement("iframe");h.setAttribute("data-adsbygoogle-status","done");h.appendChild(k);k.setAttribute("id","aswift_"+e+"_expand");k.style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;";k.appendChild(l);l.setAttribute("id","aswift_"+e+"_anchor");l.style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;";l.appendChild(b);b.setAttribute("id","aswift_"+e);b.setAttribute("marginwidth","0");b.setAttribute("marginheight","0");b.setAttribute("vspace","0");b.setAttribute("hspace","0");b.setAttribute("allowtransparency","true");b.setAttribute("scrolling","no");b.setAttribute("allowfullscreen","true");b.setAttribute("data-google-container-id","a!"+e);b.setAttribute("data-google-query-id",m);b.setAttribute("data-load-complete","true");b.contentWindow.document.body.appendChild(q);document.querySelectorAll('head style[type="text/css"][nonce=""]').forEach(function(r){r.removeAttribute("nonce")});e++}),frames=document.querySelectorAll('iframe[id^="aswift_"]:not([src]), iframe[id^="google_ads_iframe_"]:not([src])'),0<frames.length&&frames.forEach(function(h){h.setAttribute("src","https://googleads.g.doubleclick.net/pagead/ads?client="+n+"&output=html&h=90&slotname="+p+"&adk="+g(f(9,10))+"&adf="+g(f(10,11))+"&w="+g(f(10,11))+" &lmt="+g(f(10,11))+"&format="+g(f(1E3,1500)))}))});d.observe(document,{childList:!0,subtree:!0});setTimeout(function(){d.disconnect()},5E3)}});
+dropgalaxy.com#%#AG_onLoad(function(){if(document.querySelector("ins.adsbygoogle")){var g=function(a){for(var c="",e=0;e<a;e++)c+="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".charAt(Math.floor(62*Math.random()));return c};f=function(a,c){a=Math.ceil(a);c=Math.floor(c);return Math.floor(Math.random()*(c-a+1))+a};d=new MutationObserver(function(){var a=document.head;if(a){var c=document.createElement("script");c.setAttribute("type","text/javascript");c.src="https://www.google-analytics.com/analytics.js";a.appendChild(c)}var e=1,m=g(f(26,27));if(a=document.querySelector("ins.adsbygoogle[data-ad-client]"))var n=a.getAttribute("data-ad-client");if(a=document.querySelector("ins.adsbygoogle[data-ad-slot]"))var p=a.getAttribute("data-ad-slot");a=document.querySelectorAll("ins.adsbygoogle");0<a.length&&(d.disconnect(),a.forEach(function(h){var k=document.createElement("ins"),l=document.createElement("ins"),b=document.createElement("iframe"),q=document.createElement("iframe");h.setAttribute("data-adsbygoogle-status","done");h.appendChild(k);k.setAttribute("id","aswift_"+e+"_expand");k.style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;";k.appendChild(l);l.setAttribute("id","aswift_"+e+"_anchor");l.style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;";l.appendChild(b);b.setAttribute("id","aswift_"+e);b.setAttribute("marginwidth","0");b.setAttribute("marginheight","0");b.setAttribute("vspace","0");b.setAttribute("hspace","0");b.setAttribute("allowtransparency","true");b.setAttribute("scrolling","no");b.setAttribute("allowfullscreen","true");b.setAttribute("data-google-container-id","a!"+e);b.setAttribute("data-google-query-id",m);b.setAttribute("data-load-complete","true");b.contentWindow.document.body.appendChild(q);document.querySelectorAll('head style[type="text/css"][nonce=""]').forEach(function(r){r.removeAttribute("nonce")});e++}),frames=document.querySelectorAll('iframe[id^="aswift_"]:not([src]), iframe[id^="google_ads_iframe_"]:not([src])'),0<frames.length&&frames.forEach(function(h){h.setAttribute("src","https://googleads.g.doubleclick.net/pagead/ads?client="+n+"&output=html&h=90&slotname="+p+"&adk="+g(f(9,10))+"&adf="+g(f(10,11))+"&w="+g(f(10,11))+" &lmt="+g(f(10,11))+"&format="+g(f(1E3,1500)))}))});d.observe(document,{childList:!0,subtree:!0});setTimeout(function(){d.disconnect()},5E3)}});
 dropgalaxy.com#?##modalpop
 dropgalaxy.com#?#.adsbygoogle
 dropgalaxy.com#?#a[href^="https://bit.ly/"]
@@ -48462,7 +48469,7 @@ evilbeetgossip.com##.textwidget
 eviliso.com##center > a[rel="nofollow"] > img
 evilkingmedia.com#%#Object.defineProperty(window, 'adBlockDetected', { get: function() { return; } });
 evilmilk.com,xbox360cheats.com##.ban300
-evoload.io##.adb-msg
+evoload.io##.xadb-msg
 ewallpapers.eu##[title="Advertising"]
 ewallpapers.eu##[width="160"]
 ewatchseries.ac##.block-left-home-inside[style*="height:300px; text-align:center;"]
@@ -51343,8 +51350,8 @@ hb163.cn##.ad_panel_980
 hbee.edu.cn#@#.headerad
 hboav.com###AdTitle
 hboav.com###AdTitle + table
-hboav.com###fwcrf
 hboav.com###inplayer
+hboav.com##body > #xfwcrfx:nth-child(8)
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
 hboav.com#%#//scriptlet("set-constant", "onload", "null")
 hboav.com#@#.close_box0
@@ -60253,7 +60260,7 @@ profitconfidential.com##iframe[name^="dianomi"]
 profullversion.com##center > a[href][rel="nofollow"][target="_blank"] > img
 prog3.com###amazonlink
 prog3.com###clickbanklink
-proginn.com##DIV[style*="width:1000px;height: 250px;"]
+proginn.com##div[style*="width:1000px;height: 250px;"]
 programmableweb.com#@#.top-ad-wrapper
 programmer-books.com#%#AG_setConstant('canRunAds', 'true');
 programmer-club.com.tw##A[href*="/ADRedirect."]
@@ -64164,6 +64171,7 @@ theberrics.com,w3schools.com,x17online.com#@#.rightad
 theberrics.com,weddingchannel.com#@#.rightAd
 thebestdesigns.com###bottom-sponsors
 thebestdesigns.com###side-sponsor
+thebetterindia.com##body .adp-wrapper:not([data-id="5"])
 thebigdata.co.kr##div[id^="mobitree"]
 thebitchclub.com###video_ads
 theblaze.com#@##under_story_ad
@@ -64887,7 +64895,7 @@ tongzhuo100.com###gold_banner
 tonymacx86.com##.responsiveAdCentered
 toocle.com##.detail_top_ad
 toolfk.com##.top > .desc
-toolfk.com##wavy + div[style="float: left;width: 90%"]
+toolfk.com##wavy + div[style]
 toolforge.org#%#//scriptlet("set-constant", "noAdBlockers", "true")
 tools.2345.com##._hb-box + .mod
 toolslib.net##.custom
@@ -66929,6 +66937,7 @@ wbzol.com##.sg
 wcareviews.com##.banner-links
 wccftech.com##.body.clearfix > div[style$="text-align:center; margin:0 0 15px 0;"]
 wccftech.com##.main-background-wrap
+wccftech.com##[href^="https://cutt.ly/"]
 wcjbb.com###frame2TVWk2
 wcjbb.com###frame37boCx
 wcjbb.com###frameo834m9
@@ -67592,7 +67601,6 @@ www.163.com##.float-bar
 www.17173.com##.pn-tg
 www.duba.com##.tiyan_a
 www.filmweb.pl#@#.ws__wrapper
-www.google.ac,www.google.ad,www.google.ae,www.google.al,www.google.am,www.google.as,www.google.at,www.google.az,www.google.ba,www.google.be,www.google.bf,www.google.bg,www.google.bi,www.google.bj,www.google.bs,www.google.bt,www.google.by,www.google.ca,www.google.cat,www.google.cd,www.google.cf,www.google.cg,www.google.ch,www.google.ci,www.google.cl,www.google.cm,www.google.co.ao,www.google.co.bw,www.google.co.ck,www.google.co.cr,www.google.co.id,www.google.co.il,www.google.co.in,www.google.co.jp,www.google.co.ke,www.google.co.kr,www.google.co.ls,www.google.co.ma,www.google.co.mz,www.google.co.nz,www.google.co.th,www.google.co.tz,www.google.co.ug,www.google.co.uk,www.google.co.uz,www.google.co.ve,www.google.co.vi,www.google.co.za,www.google.co.zm,www.google.co.zw,www.google.com,www.google.com.af,www.google.com.ag,www.google.com.ai,www.google.com.ar,www.google.com.au,www.google.com.bd,www.google.com.bh,www.google.com.bn,www.google.com.bo,www.google.com.br,www.google.com.by,www.google.com.bz,www.google.com.cn,www.google.com.co,www.google.com.cu,www.google.com.cy,www.google.com.do,www.google.com.ec,www.google.com.eg,www.google.com.et,www.google.com.fj,www.google.com.gh,www.google.com.gi,www.google.com.gt,www.google.com.hk,www.google.com.jm,www.google.com.jo,www.google.com.kh,www.google.com.kw,www.google.com.lb,www.google.com.ly,www.google.com.mm,www.google.com.mt,www.google.com.mx,www.google.com.my,www.google.com.na,www.google.com.ng,www.google.com.ni,www.google.com.np,www.google.com.om,www.google.com.pa,www.google.com.pe,www.google.com.pg,www.google.com.ph,www.google.com.pk,www.google.com.pr,www.google.com.py,www.google.com.qa,www.google.com.ru,www.google.com.sa,www.google.com.sb,www.google.com.sg,www.google.com.sl,www.google.com.sv,www.google.com.tj,www.google.com.tn,www.google.com.tr,www.google.com.tw,www.google.com.ua,www.google.com.uy,www.google.com.vc,www.google.com.ve,www.google.com.vn,www.google.cv,www.google.cz,www.google.de,www.google.dj,www.google.dk,www.google.dm,www.google.dz,www.google.ee,www.google.es,www.google.fi,www.google.fm,www.google.fr,www.google.ga,www.google.ge,www.google.gg,www.google.gl,www.google.gm,www.google.gp,www.google.gr,www.google.gy,www.google.hk,www.google.hn,www.google.hr,www.google.ht,www.google.hu,www.google.ie,www.google.im,www.google.iq,www.google.is,www.google.it,www.google.it.ao,www.google.je,www.google.jo,www.google.jp,www.google.kg,www.google.ki,www.google.kz,www.google.la,www.google.li,www.google.lk,www.google.lt,www.google.lu,www.google.lv,www.google.md,www.google.me,www.google.mg,www.google.mk,www.google.ml,www.google.mn,www.google.ms,www.google.mu,www.google.mv,www.google.mw,www.google.ne,www.google.ne.jp,www.google.ng,www.google.nl,www.google.no,www.google.nr,www.google.nu,www.google.pl,www.google.pn,www.google.ps,www.google.pt,www.google.ro,www.google.rs,www.google.ru,www.google.rw,www.google.sc,www.google.se,www.google.sh,www.google.si,www.google.sk,www.google.sm,www.google.sn,www.google.so,www.google.sr,www.google.st,www.google.td,www.google.tg,www.google.tl,www.google.tm,www.google.tn,www.google.to,www.google.tt,www.google.us,www.google.vg,www.google.vu,www.google.ws##.mf8UVb
 www.google.ac,www.google.ad,www.google.ae,www.google.al,www.google.am,www.google.as,www.google.at,www.google.az,www.google.ba,www.google.be,www.google.bf,www.google.bg,www.google.bi,www.google.bj,www.google.bs,www.google.bt,www.google.by,www.google.ca,www.google.cat,www.google.cd,www.google.cf,www.google.cg,www.google.ch,www.google.ci,www.google.cl,www.google.cm,www.google.co.ao,www.google.co.bw,www.google.co.ck,www.google.co.cr,www.google.co.id,www.google.co.il,www.google.co.in,www.google.co.jp,www.google.co.ke,www.google.co.kr,www.google.co.ls,www.google.co.ma,www.google.co.mz,www.google.co.nz,www.google.co.th,www.google.co.tz,www.google.co.ug,www.google.co.uk,www.google.co.uz,www.google.co.ve,www.google.co.vi,www.google.co.za,www.google.co.zm,www.google.co.zw,www.google.com,www.google.com.af,www.google.com.ag,www.google.com.ai,www.google.com.ar,www.google.com.au,www.google.com.bd,www.google.com.bh,www.google.com.bn,www.google.com.bo,www.google.com.br,www.google.com.by,www.google.com.bz,www.google.com.cn,www.google.com.co,www.google.com.cu,www.google.com.cy,www.google.com.do,www.google.com.ec,www.google.com.eg,www.google.com.et,www.google.com.fj,www.google.com.gh,www.google.com.gi,www.google.com.gt,www.google.com.hk,www.google.com.jm,www.google.com.jo,www.google.com.kh,www.google.com.kw,www.google.com.lb,www.google.com.ly,www.google.com.mm,www.google.com.mt,www.google.com.mx,www.google.com.my,www.google.com.na,www.google.com.ng,www.google.com.ni,www.google.com.np,www.google.com.om,www.google.com.pa,www.google.com.pe,www.google.com.pg,www.google.com.ph,www.google.com.pk,www.google.com.pr,www.google.com.py,www.google.com.qa,www.google.com.ru,www.google.com.sa,www.google.com.sb,www.google.com.sg,www.google.com.sl,www.google.com.sv,www.google.com.tj,www.google.com.tn,www.google.com.tr,www.google.com.tw,www.google.com.ua,www.google.com.uy,www.google.com.vc,www.google.com.ve,www.google.com.vn,www.google.cv,www.google.cz,www.google.de,www.google.dj,www.google.dk,www.google.dm,www.google.dz,www.google.ee,www.google.es,www.google.fi,www.google.fm,www.google.fr,www.google.ga,www.google.ge,www.google.gg,www.google.gl,www.google.gm,www.google.gp,www.google.gr,www.google.gy,www.google.hk,www.google.hn,www.google.hr,www.google.ht,www.google.hu,www.google.ie,www.google.im,www.google.iq,www.google.is,www.google.it,www.google.it.ao,www.google.je,www.google.jo,www.google.jp,www.google.kg,www.google.ki,www.google.kz,www.google.la,www.google.li,www.google.lk,www.google.lt,www.google.lu,www.google.lv,www.google.md,www.google.me,www.google.mg,www.google.mk,www.google.ml,www.google.mn,www.google.ms,www.google.mu,www.google.mv,www.google.mw,www.google.ne,www.google.ne.jp,www.google.ng,www.google.nl,www.google.no,www.google.nr,www.google.nu,www.google.pl,www.google.pn,www.google.ps,www.google.pt,www.google.ro,www.google.rs,www.google.ru,www.google.rw,www.google.sc,www.google.se,www.google.sh,www.google.si,www.google.sk,www.google.sm,www.google.sn,www.google.so,www.google.sr,www.google.st,www.google.td,www.google.tg,www.google.tl,www.google.tm,www.google.tn,www.google.to,www.google.tt,www.google.us,www.google.vg,www.google.vu,www.google.ws##div#main > div.D1fz0e
 www.google.ac,www.google.ad,www.google.ae,www.google.al,www.google.am,www.google.as,www.google.at,www.google.az,www.google.ba,www.google.be,www.google.bf,www.google.bg,www.google.bi,www.google.bj,www.google.bs,www.google.bt,www.google.by,www.google.ca,www.google.cat,www.google.cd,www.google.cf,www.google.cg,www.google.ch,www.google.ci,www.google.cl,www.google.cm,www.google.co.ao,www.google.co.bw,www.google.co.ck,www.google.co.cr,www.google.co.id,www.google.co.il,www.google.co.in,www.google.co.jp,www.google.co.ke,www.google.co.kr,www.google.co.ls,www.google.co.ma,www.google.co.mz,www.google.co.nz,www.google.co.th,www.google.co.tz,www.google.co.ug,www.google.co.uk,www.google.co.uz,www.google.co.ve,www.google.co.vi,www.google.co.za,www.google.co.zm,www.google.co.zw,www.google.com,www.google.com.af,www.google.com.ag,www.google.com.ai,www.google.com.ar,www.google.com.au,www.google.com.bd,www.google.com.bh,www.google.com.bn,www.google.com.bo,www.google.com.br,www.google.com.by,www.google.com.bz,www.google.com.cn,www.google.com.co,www.google.com.cu,www.google.com.cy,www.google.com.do,www.google.com.ec,www.google.com.eg,www.google.com.et,www.google.com.fj,www.google.com.gh,www.google.com.gi,www.google.com.gt,www.google.com.hk,www.google.com.jm,www.google.com.jo,www.google.com.kh,www.google.com.kw,www.google.com.lb,www.google.com.ly,www.google.com.mm,www.google.com.mt,www.google.com.mx,www.google.com.my,www.google.com.na,www.google.com.ng,www.google.com.ni,www.google.com.np,www.google.com.om,www.google.com.pa,www.google.com.pe,www.google.com.pg,www.google.com.ph,www.google.com.pk,www.google.com.pr,www.google.com.py,www.google.com.qa,www.google.com.ru,www.google.com.sa,www.google.com.sb,www.google.com.sg,www.google.com.sl,www.google.com.sv,www.google.com.tj,www.google.com.tn,www.google.com.tr,www.google.com.tw,www.google.com.ua,www.google.com.uy,www.google.com.vc,www.google.com.ve,www.google.com.vn,www.google.cv,www.google.cz,www.google.de,www.google.dj,www.google.dk,www.google.dm,www.google.dz,www.google.ee,www.google.es,www.google.fi,www.google.fm,www.google.fr,www.google.ga,www.google.ge,www.google.gg,www.google.gl,www.google.gm,www.google.gp,www.google.gr,www.google.gy,www.google.hk,www.google.hn,www.google.hr,www.google.ht,www.google.hu,www.google.ie,www.google.im,www.google.iq,www.google.is,www.google.it,www.google.it.ao,www.google.je,www.google.jo,www.google.jp,www.google.kg,www.google.ki,www.google.kz,www.google.la,www.google.li,www.google.lk,www.google.lt,www.google.lu,www.google.lv,www.google.md,www.google.me,www.google.mg,www.google.mk,www.google.ml,www.google.mn,www.google.ms,www.google.mu,www.google.mv,www.google.mw,www.google.ne,www.google.ne.jp,www.google.ng,www.google.nl,www.google.no,www.google.nr,www.google.nu,www.google.pl,www.google.pn,www.google.ps,www.google.pt,www.google.ro,www.google.rs,www.google.ru,www.google.rw,www.google.sc,www.google.se,www.google.sh,www.google.si,www.google.sk,www.google.sm,www.google.sn,www.google.so,www.google.sr,www.google.st,www.google.td,www.google.tg,www.google.tl,www.google.tm,www.google.tn,www.google.to,www.google.tt,www.google.us,www.google.vg,www.google.vu,www.google.ws#@##bottomads
 www.google.com#@##videoads
@@ -73620,6 +73628,7 @@ zznews.cn##.ad:not([style])
 ||agrammemarg.info^
 ||agrantsem.com/js/ag.js
 ||agrantsem.com^$third-party
+||agrarianeruption.com^
 ||agree.5ch.net/js/ad.js
 ||agreeableprice.com^$third-party
 ||agreenikeru.site^
@@ -78194,6 +78203,7 @@ zznews.cn##.ad:not([style])
 ||christoredyt.club^
 ||chromc.com^
 ||chromeba.net/wp-content/uploads/
+||chromefk.com/common/other/11.png
 ||chrommotor.com^
 ||chronicads.com^$third-party
 ||chtntr.com^$third-party
@@ -79396,6 +79406,7 @@ zznews.cn##.ad:not([style])
 ||culsauwou.com^
 ||culsauwou.com^$third-party
 ||cultidifficient.info^
+||culttolerant.com^$third-party
 ||cultwithough.info^
 ||culumunderbianwa.info^$third-party
 ||cumgfzvm.com^
@@ -80217,6 +80228,7 @@ zznews.cn##.ad:not([style])
 ||dealswarm.com^$subdocument,third-party
 ||dealtoday.com.mt/banners/
 ||dealzone.co.za^$script,third-party
+||dearbrotherinlaw.com^
 ||deathereclother.info^$third-party
 ||deatheriwevo.site^
 ||deb.gs^*?ref=$popup
@@ -80262,6 +80274,7 @@ zznews.cn##.ad:not([style])
 ||defutohy.pro^
 ||defutohy.pro^$third-party
 ||dehua.ixinfan.com^
+||dehuaguanyin.com^
 ||dehydratedpredestinationplenty.com^
 ||deiligejenter.com/testfile23.js
 ||deiligejenter.com^
@@ -80378,6 +80391,7 @@ zznews.cn##.ad:not([style])
 ||desklks.com^$popup
 ||deskminkgnu.com^
 ||deskt.cn^
+||desktophut.com/abDetector.min.js
 ||despearingle.co^$third-party
 ||desperateseller.co.uk/affiliates/
 ||despitalyt.club^
@@ -81960,6 +81974,7 @@ zznews.cn##.ad:not([style])
 ||elongatedinscription.com^
 ||eloquencer.com^
 ||eloumbsyd.com^
+||elprogresse.top^
 ||elqsjecdav.com^
 ||elsbfby.com^$popup,third-party
 ||elsupposit.club^
@@ -82348,6 +82363,7 @@ zznews.cn##.ad:not([style])
 ||esuuqqdmsuil.com^
 ||esuzm.cn^
 ||eswaldderinao.site^
+||eswaterialw.top^
 ||esyzdb.com^
 ||eszkrcviokckfb.com^
 ||et-code.ru^$third-party
@@ -84239,6 +84255,7 @@ zznews.cn##.ad:not([style])
 ||gblcdn.com^$third-party
 ||gbrrrxbodqdlq.com^
 ||gbtoxwxmahhctv.com^
+||gbwess.com^
 ||gbwieawjiylgx.com^
 ||gbwnpchivh.com^
 ||gbylaoajzugbgj.com^
@@ -84905,7 +84922,6 @@ zznews.cn##.ad:not([style])
 ||googletagmanager.com/gtag/$domain=strikeout.nu
 ||googletagmanager.com/gtag/js$domain=kissmanga.com,redirect=nooptext,important
 ||googletagmanager.com/gtag/js?$redirect=nooptext,important,domain=free-mp3-download.net
-||googletagmanager.com/gtag/js?id=$redirect=nooptext,domain=dropgalaxy.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|portal.abczdrowie.pl
 ||googletagmanager.com/gtm.js?$third-party
 ||googletagmanager.com/gtm.js^$domain=emedemujer.com
@@ -85015,6 +85031,7 @@ zznews.cn##.ad:not([style])
 ||gqrwjsjbnoayff.com^
 ||gqsgcdcxsmxw.com^
 ||gqswg.com^
+||gqtffirr.com^
 ||gqtffirr.com^$third-party
 ||gquqjrbgaghpfq.com^
 ||gqusxhuexmu.com^
@@ -86531,6 +86548,7 @@ zznews.cn##.ad:not([style])
 ||hrklcreflssza.com^
 ||hrnklivlbhf.com^
 ||hrsddepycjmvdd.com^
+||hrsstrokecocoon.com^$third-party
 ||hrthvf.xyz^
 ||hrtsclmulpwnr.com^
 ||hrtya.com^$popup,third-party
@@ -88480,6 +88498,7 @@ zznews.cn##.ad:not([style])
 ||jejowkopsdiw.com^
 ||jeksffryglas.com^
 ||jelajahinternet.me/download3.png
+||jelllizard.com^
 ||jellyclick.com^
 ||jemmgroup.com^$third-party
 ||jenaowzhtbi.com^
@@ -89657,6 +89676,7 @@ zznews.cn##.ad:not([style])
 ||kmfnkj.com^
 ||kmhodhhdvulnn.com^
 ||kmhodhhdvulnn.com^$popup
+||kmisln.com^$popup
 ||kmmtxuxow.com^
 ||kmovuj.com^
 ||kmplayer.cn/include/jscript/*-a.js
@@ -90110,6 +90130,7 @@ zznews.cn##.ad:not([style])
 ||latheendsmoo.com^
 ||latinteencash.com/potd/$third-party
 ||lationwordsi.club^
+||lativenayl.top^
 ||lattemptweh.club^
 ||lattitudecv.club^
 ||latviancedef.site^
@@ -90183,6 +90204,7 @@ zznews.cn##.ad:not([style])
 ||ldevillaechildren.info^
 ||ldgjjycp.com^
 ||ldgozccnwgtuya.com^
+||ldgvxuhg.com^
 ||ldingchristing.site^
 ||ldipafssohosls.com^
 ||ldkjrqcqp.com^
@@ -91541,6 +91563,7 @@ zznews.cn##.ad:not([style])
 ||manparis.cn^
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adLocationConfig
+||manslaughteradministrationalarm.com^
 ||mansurfer.com/flash_promo/
 ||mantedtonisms.info^$third-party
 ||mantisadnetwork.com/mantodea.min.js
@@ -93204,6 +93227,7 @@ zznews.cn##.ad:not([style])
 ||naganoadigei.com^
 ||naganoadigei.com^$popup
 ||naghocmu.com^
+||naginaldev.top^
 ||nagrande.com^$third-party
 ||nah9v7mdppff.com^
 ||nahixtmnmpcz.com^
@@ -93333,6 +93357,7 @@ zznews.cn##.ad:not([style])
 ||nbkwnsonadrb.com^
 ||nbnhhwnjbkdmfi.com^
 ||nbstatic.com^$third-party
+||nbullrusma.top^
 ||nbuzrpmvgwsmjg.com^
 ||nbwcnctzneii.com^
 ||nbxiwktuvymecs.com^
@@ -94106,6 +94131,7 @@ zznews.cn##.ad:not([style])
 ||nubiles.net/webmasters/promo/$third-party
 ||nucgjbkrixsyh.com^
 ||nuclearads.com^$third-party
+||nuclearpurposely.com^
 ||nuclersoncanthinger.info^$third-party
 ||nude-gals.com/images^
 ||nude-gals.com/striptools^
@@ -96178,6 +96204,7 @@ zznews.cn##.ad:not([style])
 ||pleatglossary.com^
 ||pleeko.com^$third-party
 ||plehimselves.info^
+||plenituderingaccelerate.com^
 ||plenomedia.com^$third-party
 ||plerv.com^
 ||pletiondem.club^
@@ -99856,6 +99883,7 @@ zznews.cn##.ad:not([style])
 ||selectablemedia.com^$third-party
 ||selectad.com^$third-party
 ||selectr.net^$image,third-party
+||selfbiological.com^$third-party
 ||selfpua.com^$third-party
 ||sellhealth.com^$third-party
 ||selloweb.com^$third-party
@@ -101119,6 +101147,7 @@ zznews.cn##.ad:not([style])
 ||spacenine.biz^$third-party
 ||spaceruz.online^$third-party
 ||spahelani.com^
+||spanhamweb.com^
 ||spankbang.com/api/live_
 ||spankbang.com/api/livecam_
 ||spankbang.com/static_*/JS/default/ero_loader
@@ -101708,6 +101737,7 @@ zznews.cn##.ad:not([style])
 ||streamclub.best^
 ||streamclub.fun^
 ||streamdefence.com^$third-party
+||streameast.live/wp-content/plugins/yalaan/js/deblocker.min.js
 ||streamen.com/exports/$third-party
 ||streamhd.eu/images/close.png
 ||streamhd.eu/images/watch-now.jpg
@@ -101904,6 +101934,8 @@ zznews.cn##.ad:not([style])
 ||surfacecharo.info^
 ||surfe.pro^$third-party
 ||surfmusic.de/anz
+||surge.systems^
+||surge.systems^$popup
 ||surgeprice.com^$third-party
 ||surgermystem.site^
 ||surquvsx.com^
@@ -102543,6 +102575,7 @@ zznews.cn##.ad:not([style])
 ||thaihary.link^
 ||thaixaux.net^$third-party
 ||thamsais.com^
+||thankfuladdress.com^
 ||thanksinhabitedregretful.com^
 ||thankswrite.com^$third-party
 ||thaoxqlqcy.com^
@@ -102896,6 +102929,7 @@ zznews.cn##.ad:not([style])
 ||tinyurl.com/4x848hd$subdocument
 ||tinyweene.com^$third-party
 ||tiojk.com^
+||tionmodat.club^
 ||tionpronomyim.info^
 ||tionscofferent.info^$third-party
 ||tiontablyvern.site^
@@ -102908,6 +102942,7 @@ zznews.cn##.ad:not([style])
 ||tiser.com^$third-party
 ||tisitewoper.net^$third-party
 ||tissage-extension.com^$third-party
+||tistianmaga.top^
 ||tistory3.daumcdn.net/tistory/1999484/skin/images/bal.jpg$domain=gungang1.tistory.com
 ||titan007.com/ad/
 ||titan007.com/images/item.gif
@@ -104315,6 +104350,7 @@ zznews.cn##.ad:not([style])
 ||union009.com^$third-party
 ||unionbig.com^$third-party
 ||unionli.com^$third-party
+||unionsformalclearance.com^
 ||unionsky.cn^$third-party
 ||unionsky2.cn^$third-party
 ||uniquecaptcha.com^
@@ -108233,6 +108269,7 @@ zznews.cn##.ad:not([style])
 ||yourporno.fr/js/n*.js
 ||yourquickads.com^$third-party
 ||yourservice.live^
+||yourwebbars.com^
 ||yousee.com^
 ||youshouge513.cn^
 ||youth.cn/hezuo/index.js
@@ -108962,6 +108999,7 @@ zznews.cn##.ad:not([style])
 ||zineworm.com^*&localtype=
 ||zinfluentlyw.club^
 ||zinggadget.com/wp-content/*/popup
+||zingtormanc.top^
 ||zinhavnpak.com^
 ||zinidge.com^$third-party
 ||zinlar.pw^

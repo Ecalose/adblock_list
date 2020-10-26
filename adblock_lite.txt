@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202010250141
+! Version: 202010260142
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18862
+! Lenth = 18865
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -2832,6 +2832,7 @@ chongbuluo.com##.postright
 chongbuluo.com##a[href^="https://cn.udacity.com/"]
 chongdiantou.com##.nice-sales
 chromecj.com##.topblock
+chromefk.com,toolfk.com##.tip-alert
 chtoen.com##.adsbygoogle:not([data-ad-slot="9717665976"])
 chyangwa.net,motorfans.com.cn###scrollPics
 chyangwa.net,motorfans.com.cn##img[width^="1200"]
@@ -4056,8 +4057,8 @@ hb163.cn##.ad_panel_980
 hbee.edu.cn#@#.headerad
 hboav.com###AdTitle
 hboav.com###AdTitle + table
-hboav.com###fwcrf
 hboav.com###inplayer
+hboav.com##body > #xfwcrfx:nth-child(8)
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
 hboav.com#%#//scriptlet("set-constant", "onload", "null")
 hboav.com#@#.close_box0
@@ -5745,7 +5746,7 @@ price.com.hk###ad0
 price.com.hk###ad5
 price.com.hk,uwants.com##.MFV
 proewildfire.cn##.comiis_nav ~ a
-proginn.com##DIV[style*="width:1000px;height: 250px;"]
+proginn.com##div[style*="width:1000px;height: 250px;"]
 programmer-club.com.tw##A[href*="/ADRedirect."]
 psahz.com#@#.ad_960
 psdhtml.cn###myggnx
@@ -6568,7 +6569,7 @@ tom.com###popupDivgame
 tongzhuo100.com###gold_banner
 toocle.com##.detail_top_ad
 toolfk.com##.top > .desc
-toolfk.com##wavy + div[style="float: left;width: 90%"]
+toolfk.com##wavy + div[style]
 tools.2345.com##._hb-box + .mod
 tophub.today##.zzz
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv###fixedbanner
@@ -10746,6 +10747,7 @@ zznews.cn##.ad:not([style])
 ||christinehris.com^
 ||chromc.com^
 ||chromeba.net/wp-content/uploads/
+||chromefk.com/common/other/11.png
 ||chrommotor.com^
 ||chuangyixi.com^
 ||chuantu.biz/t2/22/1450961822x1822613148.gif
@@ -11246,6 +11248,7 @@ zznews.cn##.ad:not([style])
 ||dealmoon.com/upload/dealmoon_app.jpg
 ||debugease.com/static/js/show.js
 ||dehua.ixinfan.com^
+||dehuaguanyin.com^
 ||deliver.ifeng.com^
 ||delivery-pc.wasu.cn/d/frontJs/3.0$redirect=noopjs,domain=wasu.cn
 ||delivery-pc.wasu.cn/d/frontJs/3.0$rewrite=abp-resource:blank-js,domain=wasu.cn

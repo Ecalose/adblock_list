@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202010250141
+! Version: 202010260142
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20787
+! Lenth = 20790
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -879,7 +879,7 @@ $script,third-party,domain=m.1kkk.com|m.dm5.com
 $script,third-party,domain=rijutv.com
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.net|torrentkitty.se|torrentkitty.tv
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
-$script,third-party,xmlhttprequest,domain=btsow.online
+$script,third-party,xmlhttprequest,domain=btsow.work
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
 $webrtc,domain=avgle.com
 $websocket,domain=5nj.com|cechi8.com
@@ -4757,6 +4757,7 @@ chongbuluo.com##.postright
 chongbuluo.com##a[href^="https://cn.udacity.com/"]
 chongdiantou.com##.nice-sales
 chromecj.com##.topblock
+chromefk.com,toolfk.com##.tip-alert
 chtoen.com##.adsbygoogle:not([data-ad-slot="9717665976"])
 chyangwa.net,motorfans.com.cn###scrollPics
 chyangwa.net,motorfans.com.cn##img[width^="1200"]
@@ -5981,8 +5982,8 @@ hb163.cn##.ad_panel_980
 hbee.edu.cn#@#.headerad
 hboav.com###AdTitle
 hboav.com###AdTitle + table
-hboav.com###fwcrf
 hboav.com###inplayer
+hboav.com##body > #xfwcrfx:nth-child(8)
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
 hboav.com#%#//scriptlet("set-constant", "onload", "null")
 hboav.com#@#.close_box0
@@ -7670,7 +7671,7 @@ price.com.hk###ad0
 price.com.hk###ad5
 price.com.hk,uwants.com##.MFV
 proewildfire.cn##.comiis_nav ~ a
-proginn.com##DIV[style*="width:1000px;height: 250px;"]
+proginn.com##div[style*="width:1000px;height: 250px;"]
 programmer-club.com.tw##A[href*="/ADRedirect."]
 psahz.com#@#.ad_960
 psdhtml.cn###myggnx
@@ -8493,7 +8494,7 @@ tom.com###popupDivgame
 tongzhuo100.com###gold_banner
 toocle.com##.detail_top_ad
 toolfk.com##.top > .desc
-toolfk.com##wavy + div[style="float: left;width: 90%"]
+toolfk.com##wavy + div[style]
 tools.2345.com##._hb-box + .mod
 tophub.today##.zzz
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv###fixedbanner
@@ -12671,6 +12672,7 @@ zznews.cn##.ad:not([style])
 ||christinehris.com^
 ||chromc.com^
 ||chromeba.net/wp-content/uploads/
+||chromefk.com/common/other/11.png
 ||chrommotor.com^
 ||chuangyixi.com^
 ||chuantu.biz/t2/22/1450961822x1822613148.gif
@@ -13171,6 +13173,7 @@ zznews.cn##.ad:not([style])
 ||dealmoon.com/upload/dealmoon_app.jpg
 ||debugease.com/static/js/show.js
 ||dehua.ixinfan.com^
+||dehuaguanyin.com^
 ||deliver.ifeng.com^
 ||delivery-pc.wasu.cn/d/frontJs/3.0$redirect=noopjs,domain=wasu.cn
 ||delivery-pc.wasu.cn/d/frontJs/3.0$rewrite=abp-resource:blank-js,domain=wasu.cn
