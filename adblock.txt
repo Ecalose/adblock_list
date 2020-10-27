@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202010260142
+! Version: 202010270125
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20790
+! Lenth = 20805
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -1818,7 +1818,7 @@ $websocket,domain=5nj.com|cechi8.com
 /static/js/gold_daddy.js
 /static/js/headad.js
 /static/media/curl.swf$domain=duba.com
-/stui_ads/*
+/stui_ads/xyz456e/*
 /sungg/*$domain=sun0769.com
 /svr/*.aspx?placeid=$third-party
 /svr/popwin.aspx?$third-party
@@ -2327,6 +2327,9 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.org,18comic.vip##div[style^="position: fixed; top:"]
 18comic.org,18comic.vip##img[style*="300px"]
 18comic.org,18comic.vip,52movieba.com,5dm.tv,acglala.net,ainuody.com,awaker.cn,bimiacg.com,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,cosersuki.org,dzbhdm.com,epinv.com,eroacg.com,galacg.me,gmgard.com,halitv.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jitapu.com,kisssub.org,languang.co,liuli.pw,meijutt.tv,mikuclub.org,mtrend.cn,mydrivers.com,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
+18comic.vip##.bot-per
+18comic.vip##.modal-body > ul.pop-list
+18comic.vip##.top-a2db
 18h.avmimi.com##body > p[align="center"]:first-child
 18h.avmimi.com##body > table[width="100%"]:nth-child(2)
 1905.com##.mobile_ad_promote
@@ -2749,6 +2752,8 @@ $websocket,domain=5nj.com|cechi8.com
 58.com,pcpop.com,phpernote.com##div[id^="ad_"]
 5888.tv###code_img
 5888.tv##.footer_fixed
+58avgo.com##.BillingLeft
+58avgo.com##.BillingRight
 58cam.com###append_parent
 58cam.com###huyou_nologin
 58cam.com##.syads
@@ -5408,6 +5413,7 @@ elecfans.com##div[class^="banner_ad"]
 elecfans.com##div[id^="new-listAd"]
 elecfans.com##div[style^="width: 960px;height: 40px;"]
 elecinfo.com##div[class$="-advert"]
+emome.net##.source_advertising
 en8848.com.cn##.list_adv
 en8848.com.cn#@#.adcenter
 engadget.com#?#.Py\(40px\):-abp-has(> article > .D\(f\) > .Pos\(r\)[data-ylk*=":AD;"])
@@ -5594,6 +5600,7 @@ frdic.com,godic.net##a[onclick*="/ads/"]
 free.com.tw###custom_html-11
 freecodecamp.cn,freecodecamp.one#@#.btn-social
 freehao123.com,oopw.top##.box
+freejavbt.com##div[data-selector*="ai-insert-"]
 fsclzs.com###qvod
 fsdpp.cn##.sidebox > a > img
 fsjoy.com#@#.main_adv
@@ -5982,8 +5989,8 @@ hb163.cn##.ad_panel_980
 hbee.edu.cn#@#.headerad
 hboav.com###AdTitle
 hboav.com###AdTitle + table
+hboav.com###crfx
 hboav.com###inplayer
-hboav.com##body > #xfwcrfx:nth-child(8)
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
 hboav.com#%#//scriptlet("set-constant", "onload", "null")
 hboav.com#@#.close_box0
@@ -9219,6 +9226,7 @@ youku.com###ykBottomBanner
 youku.com##.pop-prompt-box
 youku.com##.yk-AD-tong
 youku.com##div[style="position:relative;"]:first-child > a[style*="z-index:5; display:block;"]
+youneed.win#%#//scriptlet("abort-on-property-read", "daau_app")
 youth.cn###identifier-pannel
 youth.cn##.hd_pic
 youth.cn##.tj2_pic
@@ -10561,6 +10569,7 @@ zznews.cn##.ad:not([style])
 ||58.com/show/ads?
 ||5888.tv/Js/topBanner.js
 ||5888.tv/User_Ad/
+||58avgo.*/AirADPic/
 ||58cdn.com.cn/ds/tgbrand/*.js
 ||58cdn.com.cn/ds/zhuangxiu/jzad-
 ||58cdn.com.cn/resource/xxzl/xxfw/
@@ -15668,6 +15677,7 @@ zznews.cn##.ad:not([style])
 ||kanfaxing.com^
 ||kanghuaixin.cn^
 ||kanguba.com/file/js/wwwifr.asp
+||kanjiantu.com/images/2020/*.gif
 ||kanjiantu.com/images/2020/04/17/uO6sX9.gif
 ||kanjiaqun.cn^
 ||kanjuba.me/js/bbk/
@@ -15865,6 +15875,7 @@ zznews.cn##.ad:not([style])
 ||kwntistyuogo.com^
 ||kxji.com^$third-party
 ||kxrxh.com^
+||kxvuv.com^
 ||kyad88.com^
 ||kyouad.com^
 ||kyxnz.cn^
@@ -16176,6 +16187,7 @@ zznews.cn##.ad:not([style])
 ||lsforum.net/yahooad/
 ||lsiwd.cn^
 ||lsjxs2.xyz/js/html
+||lsnzxzy1.com/Runtime/js/psData.js
 ||lssqxbj.cn^
 ||lsxmg.com^
 ||ltbyw.top/data/images/*.gif
@@ -17031,6 +17043,7 @@ zznews.cn##.ad:not([style])
 ||padspms.com^
 ||padsreds.com^
 ||paerst.cn^
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication-adsbygoogle,domain=youneed.win
 ||pagechoice.net^$third-party
 ||panc.cc/uploads/hongbao.png
 ||panda.kdnet.net^
@@ -18675,6 +18688,7 @@ zznews.cn##.ad:not([style])
 ||tjhhr.com^
 ||tjiaa.com^
 ||tjj.com^
+||tjlms.cn^
 ||tjqonline.cn^
 ||tjshuimu.com^
 ||tjtiebz.cn^
@@ -18945,6 +18959,7 @@ zznews.cn##.ad:not([style])
 ||uislkdxx.com^
 ||uissm.com^
 ||ujian.cc^$third-party
+||ujiasm.com^
 ||ukeiae.com^
 ||uklyv.cn^
 ||ulfex.cn^$third-party
