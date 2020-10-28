@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: CDU4f77WzjnBocb9LzNiNw
-! Version: 202010270131
+! Checksum: yekKGKTDlljs6P6wiKoHlQ
+! Version: 202010280131
 ! Title: EasyPrivacy
-! Last modified: 27 Oct 2020 01:31 UTC
+! Last modified: 28 Oct 2020 01:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5149,7 +5149,7 @@
 ://ivwextern.
 ://metrika.*/analytics.
 ://mint.*/?js
-://piwik.$third-party
+://piwik.$third-party,domain=~matomo.org
 ://reporting.*/blank.gif?
 ://rum.*/events
 ://rum.*/rum/
@@ -14161,6 +14161,7 @@ _mongo_stats/
 ||mate1.com^*/reg.logging.js
 ||mayoclinic.org/js/gconversion.js
 ||mcloud.to/log/
+||mcs-va.tiktokv.com^
 ||mdmpix.com/js/connector.php?
 ||mealime.com/assets/mealytics.js
 ||media-imdb.com/images/*/imdbads/js/beacon-$script
@@ -17466,6 +17467,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||geo.ngtv.io/locate/$domain=hbo.com
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=ibanez.com
+@@||geoplugin.net/javascript.gp?$script,domain=virginmobile.ca
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
 @@||ghstatic.com/images/site/zylom/scripts/google-analytics.js?$domain=zylom.com
