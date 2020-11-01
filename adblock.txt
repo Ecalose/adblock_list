@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202010310121
+! Version: 202011010132
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20849
+! Lenth = 20862
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -2290,6 +2290,7 @@ $websocket,domain=5nj.com|cechi8.com
 17ce.com###pr_wrap
 17ce.com###r_share
 17ce.com###s_rows
+17ce.com###tr_banner
 17ce.com##[style*="important"]
 17ce.com##a[href="/site/api"]
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
@@ -3734,6 +3735,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||scorecardresearch.com/beacon.js$domain=hktvmall.com
 @@||scyts.com^$generichide
 @@||sdc.pingan.com^$~image
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=gamer.com.tw
 @@||selfimg.com.cn/??
 @@||serving-sys.com/serving/adServer.bs?$popup,domain=hongkongcard.com
 @@||seselah.com^$generichide
@@ -5994,7 +5996,7 @@ hbee.edu.cn#@#.headerad
 hboav.com###AdTitle
 hboav.com###AdTitle + table
 hboav.com###inplayer
-hboav.com##.cc5278_banner_ad ~ .cc5278_banner_ad
+hboav.com###warming ~ .cc5278_banner_ad
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
 hboav.com#%#//scriptlet("set-constant", "onload", "null")
 hboav.com#@#.close_box0
@@ -10564,6 +10566,7 @@ zznews.cn##.ad:not([style])
 ||56space.com^
 ||56yk.com^$third-party
 ||576tv.com/Scripts/home.js
+||5783.org^
 ||57fx.com/img/20170508.jpg
 ||57see.com/js/
 ||57sehua.com/template/assets1/js/vue.js
@@ -10823,6 +10826,7 @@ zznews.cn##.ad:not([style])
 ||7hcn.com//f/*.swf
 ||7hjb8.com^*.php
 ||7ia9h.cn^
+||7j7jv5.cn^
 ||7jiajiao.com^
 ||7jiu.com.hk/hotsearch_box.php
 ||7junshi.com/con/ad
@@ -12774,6 +12778,8 @@ zznews.cn##.ad:not([style])
 ||clscsbcj.com^$third-party
 ||cm.baidu.com^
 ||cmaxisolation.com^
+||cmdy2020.com/js/300.js
+||cmdy2020.com/js/waptbplay
 ||cmdy5.com/js/300.js
 ||cmdy5.com/js/waptbplay
 ||cmm.xmfish.com^
@@ -14214,6 +14220,7 @@ zznews.cn##.ad:not([style])
 ||googlespider1.cn^
 ||googlesyndication.com/safeframe/$third-party
 ||googletagmanager.com/gtm.js?$third-party
+||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=gamer.com.tw,important
 ||goproxy.cc/api.php
 ||goto.www.iciba.com^
 ||gotonav.com^$third-party
@@ -15278,6 +15285,7 @@ zznews.cn##.ad:not([style])
 ||jable.tv/assets/*0.gif
 ||jable.tv/assets/images/wejo/$image
 ||jacklm1.com^
+||jacklm2.com^
 ||jads.co^$domain=avgle.com
 ||jajattt.com^
 ||jandan.net/static/sos/recreate-games.gif
@@ -15628,6 +15636,7 @@ zznews.cn##.ad:not([style])
 ||juxiangyou.com^$third-party
 ||juxilm.com^
 ||juyiqiche.com.cn^
+||juyour8.org^
 ||juyzr.com^
 ||jvyigg.biquge.lu^
 ||jvyigg.biqumo.com^
@@ -16515,6 +16524,7 @@ zznews.cn##.ad:not([style])
 ||minixiazai.com/others/all_soft.js
 ||minixiazai.com/statics/js/soft/index.js
 ||miniye.xjts.cn^
+||minwear.com.cn^
 ||minyaartcrafts.cn^
 ||mipcdn.com^*/mip-*ad-
 ||mipengine.baidu.com/common?
@@ -17268,6 +17278,7 @@ zznews.cn##.ad:not([style])
 ||ppshk.com^*banner/
 ||ppsj.com.cn/images/ppsj300.gif
 ||pptv.com/game/aplus/client/gamedetail.html
+||pqezdo.cn^
 ||pqnlorg.cn^
 ||pqwtrq.xyz^
 ||pr00001.com^
@@ -17592,6 +17603,7 @@ zznews.cn##.ad:not([style])
 ||qwblog.cn/localfile/20200612230036.gif
 ||qwertyuiopa.co/qun/top.js
 ||qwesgwg.cn^
+||qwfknhc.cn^
 ||qwxcs.com^$third-party
 ||qx568.com^$popup
 ||qxfly.com^
@@ -20450,6 +20462,7 @@ zznews.cn##.ad:not([style])
 ||z97g.cn^
 ||zabaye.com/templets/wapian/images/js/guding.js
 ||zabxb.com^
+||zaitouwang.com^
 ||zampda.net^$third-party
 ||zampdsp.com^$third-party
 ||zanghaihua.org^

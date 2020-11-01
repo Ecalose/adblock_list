@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202010310121
+! Version: 202011010132
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18924
+! Lenth = 18937
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -364,6 +364,7 @@
 17ce.com###pr_wrap
 17ce.com###r_share
 17ce.com###s_rows
+17ce.com###tr_banner
 17ce.com##[style*="important"]
 17ce.com##a[href="/site/api"]
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
@@ -1808,6 +1809,7 @@
 @@||scorecardresearch.com/beacon.js$domain=hktvmall.com
 @@||scyts.com^$generichide
 @@||sdc.pingan.com^$~image
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=gamer.com.tw
 @@||selfimg.com.cn/??
 @@||serving-sys.com/serving/adServer.bs?$popup,domain=hongkongcard.com
 @@||seselah.com^$generichide
@@ -4069,7 +4071,7 @@ hbee.edu.cn#@#.headerad
 hboav.com###AdTitle
 hboav.com###AdTitle + table
 hboav.com###inplayer
-hboav.com##.cc5278_banner_ad ~ .cc5278_banner_ad
+hboav.com###warming ~ .cc5278_banner_ad
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
 hboav.com#%#//scriptlet("set-constant", "onload", "null")
 hboav.com#@#.close_box0
@@ -8639,6 +8641,7 @@ zznews.cn##.ad:not([style])
 ||56space.com^
 ||56yk.com^$third-party
 ||576tv.com/Scripts/home.js
+||5783.org^
 ||57fx.com/img/20170508.jpg
 ||57see.com/js/
 ||57sehua.com/template/assets1/js/vue.js
@@ -8898,6 +8901,7 @@ zznews.cn##.ad:not([style])
 ||7hcn.com//f/*.swf
 ||7hjb8.com^*.php
 ||7ia9h.cn^
+||7j7jv5.cn^
 ||7jiajiao.com^
 ||7jiu.com.hk/hotsearch_box.php
 ||7junshi.com/con/ad
@@ -10849,6 +10853,8 @@ zznews.cn##.ad:not([style])
 ||clscsbcj.com^$third-party
 ||cm.baidu.com^
 ||cmaxisolation.com^
+||cmdy2020.com/js/300.js
+||cmdy2020.com/js/waptbplay
 ||cmdy5.com/js/300.js
 ||cmdy5.com/js/waptbplay
 ||cmm.xmfish.com^
@@ -12289,6 +12295,7 @@ zznews.cn##.ad:not([style])
 ||googlespider1.cn^
 ||googlesyndication.com/safeframe/$third-party
 ||googletagmanager.com/gtm.js?$third-party
+||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=gamer.com.tw,important
 ||goproxy.cc/api.php
 ||goto.www.iciba.com^
 ||gotonav.com^$third-party
@@ -13353,6 +13360,7 @@ zznews.cn##.ad:not([style])
 ||jable.tv/assets/*0.gif
 ||jable.tv/assets/images/wejo/$image
 ||jacklm1.com^
+||jacklm2.com^
 ||jads.co^$domain=avgle.com
 ||jajattt.com^
 ||jandan.net/static/sos/recreate-games.gif
@@ -13703,6 +13711,7 @@ zznews.cn##.ad:not([style])
 ||juxiangyou.com^$third-party
 ||juxilm.com^
 ||juyiqiche.com.cn^
+||juyour8.org^
 ||juyzr.com^
 ||jvyigg.biquge.lu^
 ||jvyigg.biqumo.com^
@@ -14590,6 +14599,7 @@ zznews.cn##.ad:not([style])
 ||minixiazai.com/others/all_soft.js
 ||minixiazai.com/statics/js/soft/index.js
 ||miniye.xjts.cn^
+||minwear.com.cn^
 ||minyaartcrafts.cn^
 ||mipcdn.com^*/mip-*ad-
 ||mipengine.baidu.com/common?
@@ -15343,6 +15353,7 @@ zznews.cn##.ad:not([style])
 ||ppshk.com^*banner/
 ||ppsj.com.cn/images/ppsj300.gif
 ||pptv.com/game/aplus/client/gamedetail.html
+||pqezdo.cn^
 ||pqnlorg.cn^
 ||pqwtrq.xyz^
 ||pr00001.com^
@@ -15667,6 +15678,7 @@ zznews.cn##.ad:not([style])
 ||qwblog.cn/localfile/20200612230036.gif
 ||qwertyuiopa.co/qun/top.js
 ||qwesgwg.cn^
+||qwfknhc.cn^
 ||qwxcs.com^$third-party
 ||qx568.com^$popup
 ||qxfly.com^
@@ -18525,6 +18537,7 @@ zznews.cn##.ad:not([style])
 ||z97g.cn^
 ||zabaye.com/templets/wapian/images/js/guding.js
 ||zabxb.com^
+||zaitouwang.com^
 ||zampda.net^$third-party
 ||zampdsp.com^$third-party
 ||zanghaihua.org^
