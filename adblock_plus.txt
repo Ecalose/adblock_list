@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Plus]
-! Version: 202011010132
+! Version: 202011020151
 ! Title:  uniartisan's Adblock List Plus
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 109480
+! Lenth = 109477
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -4543,6 +4543,7 @@
 ###br_ad
 ###brand-box-ad
 ###brand-box-ad-1-container
+###brand-post-in-article-promo
 ###branding_ad_comment
 ###branding_ad_header
 ###branding_click
@@ -18683,6 +18684,7 @@
 ##.promotionTextAd
 ##.promotional-feature-ads
 ##.proof_ad
+##.propa_bottom
 ##.propel-ad
 ##.proper-ad-unit
 ##.prw_sponsoredListings_hotels_simple_sponsored_listing
@@ -22495,14 +22497,14 @@
 #%#var AG_setConstant=function(e,a){if("undefined"===a)a=void 0;else if("false"===a)a=!1;else if("true"===a)a=!0;else if("noopFunc"===a)a=function(){};else if("trueFunc"===a)a=function(){return!0};else if("falseFunc"===a)a=function(){return!1};else if(/^\d+$/.test(a)){if(a=parseFloat(a),isNaN(a)||32767<Math.abs(a))return}else return;var b=!1;AG_defineProperty(e,{get:function(){return a},set:function(c){if(b)var d=!0;else void 0!==c&&void 0!==a&&typeof c!==typeof a&&(b=!0),d=b;d&&(a=c)}})};
 #@#.has-ad
 $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagmanager.com *.google.com *.gstatic.com www.google-analytics.com *.googleapis.com *.disqus.com *.disquscdn.com code.jquery.com *.cloudflare.com cdn.streamroot.io cdn.jsdelivr.net vjs.zencdn.net cache.hollywood.to static.hollywood.to,domain=stream1.me|streamz.cc|streamz.bz,badfilter
-$csp=script-src 'self' * 'unsafe-inline',domain=rarbgunblocked.org|rarbgway.org|rarbg.to|rarbg2019.org|rarbg2020.org|rarbg2021.org|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirrored.org|rarbgp2p.org|rarbgproxied.org|rarbgproxy.org|rarbgprx.org|rarbgto.org|thepiratebay.vip|pirateproxy.live|thehiddenbay.com|rarbgto.org|rarbgmirrored.org|rarbgmirror.org|rarbg.to|rarbgaccess.org|rarbgmirror.com|rarbgproxy.org|rarbgprx.org|downloadpirate.com|theproxybay.net|thepiratebay10.org|kickass.vip|pirateproxy.app|ukpass.co|prox.icu|pirateproxy.life
-$csp=worker-src 'none',domain=pirateproxy.live|thehiddenbay.com|tpb.party|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|ukpirate.org|flashx.cc|flashx.co|vidoza.co|vidoza.net
+$csp=script-src 'self' * 'unsafe-inline',domain=rarbgunblocked.org|rarbgway.org|rarbg.to|rarbg2019.org|rarbg2020.org|rarbg2021.org|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirrored.org|rarbgp2p.org|rarbgproxied.org|rarbgproxy.org|rarbgprx.org|rarbgto.org|thepiratebay.vip|pirateproxy.live|thehiddenbay.com|rarbgto.org|rarbgmirrored.org|rarbgmirror.org|rarbg.to|rarbgaccess.org|rarbgmirror.com|rarbgproxy.org|rarbgprx.org|downloadpirate.com|thepiratebay10.org|kickass.vip|pirateproxy.app|ukpass.co|prox.icu|pirateproxy.life
+$csp=worker-src 'none',domain=pirateproxy.live|thehiddenbay.com|tpb.party|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|flashx.cc|vidoza.co|vidoza.net
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $domain=adserver.juicyads.com
 $domain=googleads.g.doubleclick.net
 $image,domain=ip.cn
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=vidtodo.com|vidtodoo.com
-$image,script,subdocument,third-party,xmlhttprequest,domain=flashsx.tv|flashx.bz|flashx.cc|flashx.co|flashx.me|flashx.sx|flashx.to|flashx.tv
+$image,script,subdocument,third-party,xmlhttprequest,domain=flashx.cc|flashx.to|flashx.tv
 $image,script,subdocument,third-party,xmlhttprequest,domain=heapfiles.com|vidoza.co|vidoza.net
 $image,third-party,domain=258zw.com
 $image,third-party,domain=9wx.org|ikstxt.com
@@ -22517,7 +22519,6 @@ $script,domain=imx.to
 $script,domain=pornhd.com
 $script,domain=porno333.com
 $script,stylesheet,subdocument,third-party,xmlhttprequest,domain=youdbox.com
-$script,stylesheet,third-party,xmlhttprequest,domain=insta-stories.com
 $script,stylesheet,third-party,xmlhttprequest,domain=up-4ever.com|up-4ever.org
 $script,stylesheet,third-party,xmlhttprequest,domain=vshare.eu
 $script,subdocument,third-party,domain=dlkoo.com
@@ -22547,17 +22548,17 @@ $script,third-party,xmlhttprequest,domain=torrentdownload.info
 $subdocument,third-party,domain=curto.win
 $subdocument,third-party,domain=oturl.com
 $third-party,xmlhttprequest,domain=ancensored.com
-$webrtc,domain=101greatgoals.com|ack.net|allkpop.com|allthetests.com|audioholics.com|azvideo.net|barnstablepatriot.com|boards2go.com|bolde.com|britannica.com|businessnewsdaily.com|buzzfil.net|cantonrep.com|capecodtimes.com|champion.gg|cheeseheadtv.com|clicknupload.link|colourlovers.com|columbiatribune.com|convertcase.net|crackberry.com|csgolounge.com|ddlvalley.me|diffen.com|dispatch.com|dota2lounge.com|enterprisenews.com|eztv.io|eztv.tf|eztv.yt|fastplay.to|fayobserver.com|fhm.com|flexonline.com|gastongazette.com|geekzone.co.nz|ghacks.net|go4up.com|goerie.com|gounlimited.to|goupstate.com|heraldtribune.com|houmatoday.com|intouchweekly.com|janjua.pw|janjua.tv|jpost.com|kinos.to|kinox.ai|kinox.am|kinox.cloud|kinox.club|kinox.digital|kinox.direct|kinox.express|kinox.fun|kinox.fyi|kinox.gratis|kinox.io|kinox.lol|kinox.mobi|kinox.nu|kinox.party|kinox.pub|kinox.sg|kinox.sh|kinox.si|kinox.space|kinox.sx|kinox.to|kinox.tube|kinox.wtf|laptopmag.com|lifeandstylemag.com|lolcounter.com|m-magazine.com|mac-torrents.com|madamenoire.com|maketecheasier.com|megaup.net|merriam-webster.com|metrowestdailynews.com|netdna-storage.com|news-journalonline.com|newsarama.com|nintendoeverything.com|nwfdailynews.com|nydailynews.com|ouo.io|ouo.press|phonearena.com|pjstar.com|probuilds.net|providencejournal.com|radaronline.com|recordonline.com|sj-r.com|skidrowreloaded.com|soapoperadigest.com|solomid.net|sourceforge.net|space.com|spanishdict.com|telegram.com|teslacentral.com|theberry.com|thechive.com|thepoliticalinsider.com|tmn.today|topix.com|torrentdownload.info|uptobox.com|uticaod.com|vidtodo.com|vvdailypress.com|womansworld.com|yts.gs|yts.mx|zimabdko.com
+$webrtc,domain=101greatgoals.com|ack.net|allkpop.com|allthetests.com|audioholics.com|azvideo.net|barnstablepatriot.com|boards2go.com|bolde.com|britannica.com|businessnewsdaily.com|buzzfil.net|cantonrep.com|capecodtimes.com|champion.gg|cheeseheadtv.com|clicknupload.link|colourlovers.com|columbiatribune.com|convertcase.net|crackberry.com|csgolounge.com|ddlvalley.me|diffen.com|dispatch.com|dota2lounge.com|enterprisenews.com|eztv.io|eztv.tf|eztv.yt|fastplay.to|fayobserver.com|fhm.com|flexonline.com|gastongazette.com|geekzone.co.nz|ghacks.net|go4up.com|goerie.com|gounlimited.to|goupstate.com|heraldtribune.com|houmatoday.com|intouchweekly.com|janjua.pw|janjua.tv|jpost.com|kinos.to|kinox.ai|kinox.am|kinox.cloud|kinox.club|kinox.digital|kinox.direct|kinox.express|kinox.fun|kinox.fyi|kinox.gratis|kinox.io|kinox.lol|kinox.mobi|kinox.nu|kinox.party|kinox.pub|kinox.sg|kinox.sh|kinox.si|kinox.space|kinox.sx|kinox.to|kinox.tube|kinox.wtf|laptopmag.com|mac-torrents.com|madamenoire.com|maketecheasier.com|megaup.net|merriam-webster.com|netdna-storage.com|news-journalonline.com|newsarama.com|nintendoeverything.com|nwfdailynews.com|nydailynews.com|ouo.io|ouo.press|phonearena.com|pjstar.com|probuilds.net|providencejournal.com|radaronline.com|recordonline.com|sj-r.com|skidrowreloaded.com|soapoperadigest.com|solomid.net|sourceforge.net|space.com|spanishdict.com|telegram.com|teslacentral.com|theberry.com|thechive.com|thepoliticalinsider.com|tmn.today|topix.com|torrentdownload.info|uptobox.com|uticaod.com|vidtodo.com|vvdailypress.com|womansworld.com|yts.gs|yts.mx|zimabdko.com
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
 $webrtc,domain=avgle.com
 $webrtc,domain=dualpaste.net|hdmovieswatchs.net|bitporno.com|zippyshare.com
 $webrtc,domain=itdmusic.com|itdmusic.in
 $webrtc,domain=uptobox.com
-$webrtc,websocket,xmlhttprequest,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|ukpirate.org
+$webrtc,websocket,xmlhttprequest,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org|thepiratebay.vip|thepiratebay10.org
 $websocket,domain=300mbfilms.io|lib.rus.ec
-$websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|convertcase.net|crackberry.com|dailycaller.com|diffen.com|dreamfilm.se|dumpaday.com|fastpic.ru|fileone.tv|filmlinks4u.is|firstrowau.eu|flashsx.tv|flashx.co|flashx.me|flashx.tv|fmovies.taxi|fmovies.world|gofirstrow.eu|hqq.to|ifirstrowit.eu|imagefap.com|keepvid.com|lolcounter.com|megaup.net|merriam-webster.com|newsarama.com|olympicstreams.me|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|postimg.org|powvideo.net|roadracerunner.com|shorte.st|toptenz.net|tribune.com.pk|tune.pk|uberhavoc.com|vcpost.com|vidmax.com|vidoza.net|vidtodo.com|webfirstrow.eu
+$websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|convertcase.net|crackberry.com|dailycaller.com|diffen.com|dreamfilm.se|fastpic.ru|fileone.tv|filmlinks4u.is|firstrowau.eu|flashx.tv|fmovies.taxi|fmovies.world|gofirstrow.eu|hqq.to|ifirstrowit.eu|imagefap.com|keepvid.com|megaup.net|merriam-webster.com|newsarama.com|olympicstreams.me|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|postimg.org|powvideo.net|roadracerunner.com|shorte.st|toptenz.net|tribune.com.pk|tune.pk|uberhavoc.com|vcpost.com|vidmax.com|vidoza.net|vidtodo.com|webfirstrow.eu
 $websocket,domain=5nj.com|cechi8.com
-$websocket,domain=flashsx.tv|flashx.bz|flashx.cc|flashx.co|flashx.me|flashx.sx|flashx.to|flashx.tv
+$websocket,domain=flashx.cc|flashx.to|flashx.tv
 $websocket,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xhamster.com|xtube.com|youporn.com|youporngay.com
 $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.net
 %3D$popup,domain=nme.com
@@ -23031,7 +23032,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 -doubleclick-plugin/
 -doubleclick.js
 -doubleclick.min.js
--drag*.$image,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|aupetitparieur.com|canadafreepress.com|clashdaily.com|codefille.com|concomber.com|conservativefiringline.com|dailyheadlines.com|dailyheadlines.net|dailylol.com|dcdirtylaundry.com|directexpose.com|foreverymom.com|freedomoutpost.com|gamersheroes.com|greatamericanpolitics.com|hispolitica.com|independentminute.com|infowars.com|ipatriot.com|letocard.fr|lovezin.fr|mamieastuce.com|meilleurpronostic.fr|menrec.com|mpolitical.com|newser.com|patriotnationpress.com|publicservicealerts.com|reviveusa.com|rightwing.news|rightwingnews.com|rightwingtribune.com|shark-tank.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thelibertydaily.com|thepolitistick.com|thewashingtonsentinel.com|thinkamericana.com|threepercenternation.com|tiebreaker.com|topminceur.fr|toptenz.net|tosavealife.com|truthuncensored.net|videogamesblogger.com|vitamiiin.com|weaponsmedia.com|whatfinger.com|yourdailypulse.com
 -euads.$domain=~euads.org
 -fe-ads/
 -featured-ads.
@@ -23551,7 +23551,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 .info/js/alls_top.js
 .info/s.php?id=$script,third-party
 .info/topjs/
-.info^$popup,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|ukpirate.org
+.info^$popup,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org|thepiratebay.vip|thepiratebay10.org
 .initdoubleclickadselementcontent?
 .intad.
 .intad/
@@ -24315,7 +24315,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 /SpecialAdCampaigns/*
 /SplashAd_
 /SpotlightAd-
-/Static/Home/GongGao/img/8.gif
 /Styles/Ad_
 /TILE_ADS/*
 /TWBadbanner.
@@ -24407,8 +24406,8 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 /^https?:\/\/imageboom\.net\/[a-z\d]+\.js$/$domain=imageboom.net
 /^https?:\/\/motherless\.com\/[a-z0-9A-Z]{3,}\.[a-z0-9A-Z]{2,}\_/$image,subdocument
 /^https?:\/\/picturelol\.com\/[a-z\d]+\.(js)$/$domain=picturelol.com
-/^https?:\/\/s3\.amazonaws\.com\/[a-f0-9]{54,57}\/[a-f,0-9]{8,10}$/$script,third-party,xmlhttprequest,domain=~amazon.com
-/^https?:\/\/s3\.amazonaws\.com\/[a-f0-9]{54,}\/secure\.js/$script,third-party,xmlhttprequest,domain=~amazon.com
+/^https?:\/\/s3\.amazonaws\.com\/[a-f0-9]{50,57}\/[a-f,0-9]{8,10}$/$script,third-party,xmlhttprequest,domain=~amazon.com
+/^https?:\/\/s3\.amazonaws\.com\/[a-f0-9]{50,}\/secure\.js/$script,third-party,xmlhttprequest,domain=~amazon.com
 /^https?:\/\/www\.[a-z]{8,14}\.(bid|club|co|com|me|pro|info)\/[a-z]{1,12}\.js$/$script,third-party,domain=goss.watch|gosswatch.com|2ddl.vg|guard.link|vidz72.com|123movies.cafe|anidl.org|srt.am|pandaporn.net|widestream.io|300mbfilms.co|seelive.me|realtimetv.me|xxxstreams.me|animeforce.org|baixarsoftware.com|vipbox.fi|linx.cloud|emp3c.co|streamporn.me|2ddl.io|pandamoviehd.me|speedporn.net|youwatchporn.com|chaturbacumgirls.net|oke.io|vipbox.st|2ddl.unblocked.vc|gaypornwave.com|batshort.com|watchpornfree.ws|animo-pace-stream.io|hdsector.to|streameast.live|hentaimoe.me
 /^https?:\/\/www\.united\.com\/public\/[0-9a-zA-Z]{25,}/$script,domain=united.com
 /^https?:\/\/xxximage\.org\/[a-z\d]+\.js$/$domain=xxximage.org
@@ -28554,7 +28553,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 /ezo/*$script,~third-party,domain=~yandex.by|~yandex.com|~yandex.kz|~yandex.ru|~yandex.ua
 /ezoic/*$script,~third-party
 /ezprice_ad.js
-/fYO*.$image,script,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|aupetitparieur.com|canadafreepress.com|clashdaily.com|codefille.com|concomber.com|conservativefiringline.com|dailyheadlines.com|dailyheadlines.net|dailylol.com|dcdirtylaundry.com|directexpose.com|foreverymom.com|freedomoutpost.com|gamersheroes.com|greatamericanpolitics.com|hispolitica.com|independentminute.com|infowars.com|ipatriot.com|letocard.fr|lovezin.fr|mamieastuce.com|meilleurpronostic.fr|menrec.com|mpolitical.com|newser.com|patriotnationpress.com|publicservicealerts.com|reviveusa.com|rightwing.news|rightwingnews.com|rightwingtribune.com|shark-tank.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thelibertydaily.com|thepolitistick.com|thewashingtonsentinel.com|thinkamericana.com|threepercenternation.com|tiebreaker.com|topminceur.fr|toptenz.net|tosavealife.com|truthuncensored.net|videogamesblogger.com|vitamiiin.com|weaponsmedia.com|whatfinger.com|yourdailypulse.com
+/fYO*.$image,script,domain=allthingsvegas.com|americasfreedomfighters.com|aupetitparieur.com|canadafreepress.com|clashdaily.com|codefille.com|concomber.com|conservativefiringline.com|dailyheadlines.com|dailyheadlines.net|dailylol.com|dcdirtylaundry.com|directexpose.com|freedomoutpost.com|gamersheroes.com|greatamericanpolitics.com|hispolitica.com|independentminute.com|infowars.com|ipatriot.com|letocard.fr|lovezin.fr|mamieastuce.com|meilleurpronostic.fr|menrec.com|mpolitical.com|newser.com|patriotnationpress.com|publicservicealerts.com|reviveusa.com|rightwing.news|rightwingnews.com|rightwingtribune.com|shark-tank.com|survivalnation.com|telexplorer.com.ar|thehayride.com|thelibertydaily.com|thepolitistick.com|thewashingtonsentinel.com|thinkamericana.com|threepercenternation.com|topminceur.fr|toptenz.net|tosavealife.com|truthuncensored.net|videogamesblogger.com|vitamiiin.com|weaponsmedia.com|whatfinger.com|yourdailypulse.com
 /facebookaff/*
 /facebookaff2/*
 /facebooksex.
@@ -29701,7 +29700,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 /meitui.org\/[a-z][a-z].js/$domain=meitui.org
 /mellowads.
 /meme_ad.
-/merchant.php$domain=bjmama.com
 /metaad.
 /metaadserver/*
 /metsbanner.
@@ -32943,6 +32941,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 55188.com###center-pic
 55188.com###top-pic
 55188.com##.ggdistich
+55188.com##A[href*="/gg-link."]
 55188.com##a[href^="http"]:not([href*=".55188."]) > img[src*="/portal/"]
 55188.com,g138.com##.gg_head_l
 55188.com,g138.com##.gg_head_m
@@ -33022,6 +33021,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 5izyw.com###leftbottbox
 5izyw.com###rightbottbox
 5izyw.com###sidebar > .box-b img
+5izyw.com##.activity-box
 5izyw.com##.chao_ggw
 5izyw.com##a[href="http://61.160.236.52"]
 5movies.to##.watch-now
@@ -33840,7 +33840,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@/webtracking/*$~subdocument,domain=ups.com
 @@/wp-content/*/plugins/adblock.js$script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 @@/wp-content/*/social_$domain=servercat.me
-@@/wp-content/plugins/akismet/*$script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 @@/wp-content/plugins/blocked-ads-notifier-lite/*$script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 @@/wp-content/plugins/deblocker/js/ads.min.js$domain=tunovelaligera.com
@@ -34536,7 +34535,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||ajax.googleapis.com/ajax/$script,domain=efukt.com
 @@||ajax.googleapis.com/ajax/$script,domain=urlgalleries.net
 @@||ajax.googleapis.com/ajax/libs/$script,domain=adyou.co|adyou.me
-@@||ajax.googleapis.com/ajax/libs/$script,domain=flashsx.tv|flashx.bz|flashx.cc|flashx.co|flashx.me|flashx.sx|flashx.to|flashx.tv
+@@||ajax.googleapis.com/ajax/libs/$script,domain=flashx.cc|flashx.to|flashx.tv
 @@||ajax.googleapis.com/ajax/libs/$script,domain=govid.co
 @@||ajax.googleapis.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||ajax.googleapis.com/ajax/libs/$script,domain=mp3songfree.net
@@ -34776,7 +34775,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||api.cognitive.microsofttranslator.com/translate?
 @@||api.digikala.com/api/AdService^
 @@||api.dmcdn.net/pxl/advertisers/$domain=dailymotion.com
-@@||api.facebook.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|rightwingtribune.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
+@@||api.facebook.com^$script,third-party,domain=allthingsvegas.com|dailyheadlines.net|newser.com|rightwingnews.com|rightwingtribune.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
 @@||api.feel-app.com^$xmlhttprequest,domain=pornhub.com|pornhubthbh7ap3u.onion
 @@||api.friends.ponta.jp/api/$~third-party
 @@||api.geetest.com^$stealth
@@ -34797,7 +34796,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||api.smartystreets.com/lookup$stealth,domain=att.com
 @@||api.solvemedia.com/papi/
 @@||api.solvemedia.com^$script,domain=salefiles.com
-@@||api.solvemedia.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|clik.pw|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com
+@@||api.solvemedia.com^$script,third-party,domain=allthingsvegas.com|clik.pw|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com
 @@||api.solvemedia.com^$stealth
 @@||api.splice.com/www/advertisement/community-explore$domain=splice.com
 @@||api.surfeasy.com/*/geo_lookup
@@ -34808,7 +34807,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||apis.google.com^$script,domain=milfzr.com
 @@||apis.google.com^$script,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 @@||apis.google.com^$script,subdocument,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-@@||apis.google.com^$script,third-party,domain=100percentfedup.com|dailyheadlines.net|hispolitica.com|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
+@@||apis.google.com^$script,third-party,domain=dailyheadlines.net|hispolitica.com|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||apitvh.net/embed/*ads_code_*.js
 @@||apitvh.net/embed/ads_code_1.js$domain=apitvh.net
 @@||apjr.needrom.com/advert*.js
@@ -34874,7 +34873,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||assets.hcaptcha.com/captcha/
 @@||assets.hcaptcha.com/captcha/$script,subdocument,domain=abcvideo.cc
 @@||assets.macys.com/dyn_img/site_ads/
-@@||assets.pinterest.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
+@@||assets.pinterest.com^$script,third-party,domain=allthingsvegas.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
 @@||assets.vice.com^*_120x60.jpg
 @@||associateddentists.com/wp-content/themes/AD/
 @@||astatic.ccmbg.com^*/prebid$script,domain=linternaute.com
@@ -35241,7 +35240,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||ccllaa.com^$generichide
 @@||cctv.com/js/cntv_Advertise.js
 @@||cda.pl/video/$subdocument,domain=szukajka.tv
-@@||cdn*.bigcommerce.com^$image,third-party,domain=~calcalist.co.il|~gaytube.com|~mako.co.il|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~walla.co.il|~xtube.com|~ynet.co.il|~youjizz.com|~youporn.com|~youporngay.com
 @@||cdn*.downdetector.com/*/javascript*/adscript.js
 @@||cdn*.downdetector.com/*/javascript*/adscript_vars.js
 @@||cdn*.downloadapkgames.com/?session=
@@ -35365,9 +35363,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||cdn.reverso.net/*/static/js/advertising.js^
 @@||cdn.rhombusads.com/js/rh.min.js$domain=spin.com
 @@||cdn.runative-syndicate.com/sdk/*/n.js$domain=onemanhua.com
-@@||cdn.shopify.com^*/assets/$script,third-party
-@@||cdn.shopify.com^*/files/$script,third-party
-@@||cdn.shopify.com^*/javascripts/$script,third-party
 @@||cdn.sofifa.org/scripts/main.min.js$domain=sofifa.com
 @@||cdn.spotxcdn.com/integration/directsdk/*.js$domain=bloomberg.com
 @@||cdn.springserve.com/assets/0/playerJS/chegg_unlocked_cm.js$domain=citationmachine.net
@@ -35443,7 +35438,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=streamango.com
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=youdbox.com
-@@||cdnjs.cloudflare.com/ajax/libs/$script,stylesheet,domain=insta-stories.com
 @@||cdnjs.cloudflare.com/ajax/libs/*.min.js$domain=audioz.download
 @@||cdnjs.cloudflare.com/ajax/libs/blockadblock/*/blockadblock.js$domain=clk.ink
 @@||cdnjs.cloudflare.com/ajax/libs/blockadblock/3.2.1/blockadblock.js$domain=dutchycorp.ovh
@@ -35488,7 +35482,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||cdnjs.cloudflare.com^$script,stylesheet,domain=dood.to|dood.watch
 @@||cdnjs.cloudflare.com^$script,stylesheet,domain=mp4upload.com
 @@||cdnjs.cloudflare.com^$script,stylesheet,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-@@||cdnjs.cloudflare.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
+@@||cdnjs.cloudflare.com^$script,third-party,domain=allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
 @@||cdnrole.com/videojs$script,domain=gounlimited.to
 @@||cdns.*.gigya.com/gs/webSdk/Api.aspx$stealth
 @@||cdntelesee.com/*.php$stealth
@@ -35584,7 +35578,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||cloud-*.streamplay.to/dash/*/$domain=streamp1ay.me
 @@||cloud.google.com^$~third-party
 @@||cloud.typography.com/*/css/fonts.css$stealth
-@@||cloudflare.com/ajax/$script,third-party,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
+@@||cloudflare.com/ajax/$script,third-party,domain=allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||cloudflare.com/ajax/$stylesheet,domain=shink.me|shon.xyz
 @@||cloudflare.com/ajax/libs/$stylesheet,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
 @@||cloudflare.com/ajax/libs/fingerprintjs2/*/fingerprint2.min.js$domain=nfmovies.com
@@ -35634,8 +35628,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||code.jquery.com^$script,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.net
 @@||code.jquery.com^$script,domain=rule34.xxx
 @@||code.jquery.com^$script,domain=sendit.cloud
-@@||code.jquery.com^$script,stylesheet,domain=insta-stories.com
-@@||code.jquery.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
+@@||code.jquery.com^$script,third-party,domain=allthingsvegas.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||codelist.cc/advertisement.js
 @@||codeorigin.jquery.com^$domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.net
 @@||coinadster.com^$script,stylesheet,xmlhttprequest,other,image,domain=coinadster.com
@@ -35668,15 +35661,14 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||conative.de^*/adscript.min.js$domain=spiegel.de
 @@||config.playwire.com/*/zeus.json$domain=explosm.net
 @@||connect.facebook.*/en_US/AudienceNetworkPrebid.js$domain=cbssports.com
-@@||connect.facebook.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
+@@||connect.facebook.com^$script,third-party,domain=allthingsvegas.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
 @@||connect.facebook.net^$script,domain=eztv.io|eztv.tf|eztv.yt
 @@||connect.facebook.net^$script,domain=milfzr.com
 @@||connect.facebook.net^$script,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 @@||connect.facebook.net^$script,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
 @@||connect.facebook.net^$script,domain=up-4ever.com|up-4ever.org
-@@||connect.facebook.net^$script,domain=xmovies8.es|xmovies8.ru|xmovies8.tv
 @@||connect.facebook.net^$script,domain=zone-anime.net
-@@||connect.facebook.net^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
+@@||connect.facebook.net^$script,third-party,domain=allthingsvegas.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
 @@||connectivitycheck.gstatic.com^$important
 @@||consumerist-com.wpengine.netdna-cdn.com/assets/*300x250
 @@||content*.uplynk.com/channel/*.m3u8?$domain=abc.com
@@ -35791,7 +35783,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||d3ujids68p6xmq.cloudfront.net/x.js$domain=familyhandyman.com
 @@||d3ujids68p6xmq.cloudfront.net^$domain=beta.speedtest.net,script
 @@||d3ujids68p6xmq.cloudfront.net^$domain=seekingalpha.com
-@@||d8g345wuhgd7e.cloudfront.net^$script,third-party,domain=thelibertarianrepublic.com
 @@||da.mgtv.com/m/player?
 @@||da.mgtv.com/m5/page?
 @@||dadispapi.gmarket.co.kr/target/gmkt/getAd?$domain=escrow.gmarket.co.kr
@@ -35883,14 +35874,12 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||disqus.com/embed.js$domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
 @@||disqus.com/next/config.js$domain=kissasian.sh
 @@||disqus.com^$domain=series.movie
-@@||disqus.com^$script,domain=xmovies8.es|xmovies8.ru|xmovies8.tv
 @@||disqus.com^$script,domain=zone-anime.net
-@@||disqus.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|foreverymom.com|gamersheroes.com|newser.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
+@@||disqus.com^$script,third-party,domain=allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|gamersheroes.com|newser.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
 @@||disquscdn.com/count.js$domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 @@||disquscdn.com^$domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
 @@||disquscdn.com^$domain=series.movie
-@@||disquscdn.com^$script,domain=xmovies8.es|xmovies8.ru|xmovies8.tv
-@@||disquscdn.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|foreverymom.com|gamersheroes.com|newser.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
+@@||disquscdn.com^$script,third-party,domain=allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|gamersheroes.com|newser.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
 @@||distrowatch.com/images/cpxtu/dwbanner.png
 @@||ditds.xyz/sw*.js$domain=uiz.io
 @@||ditiezu.com^*.php$subdocument
@@ -36109,7 +36098,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||embed.redditmedia.com/widgets/platform.js$domain=gamerant.com
 @@||embed.streamx.live^$stealth
 @@||embed.streamx.me^$stealth
-@@||embedly.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
+@@||embedly.com^$script,third-party,domain=allthingsvegas.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
 @@||embedtvseries.com/templates/jwplayer/assets/juicycodes.js
 @@||embedtvseries.com/templates/jwplayer/assets/jwplayer.js
 @@||embedupload.com^$generichide
@@ -36217,7 +36206,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||fanoffifa.com^$generichide
 @@||fas.li^$generichide
 @@||fastcontentdelivery.com/ad*.js$script
-@@||fastcontentdelivery.com^$script,domain=flashsx.tv|flashx.bz|flashx.cc|flashx.co|flashx.me|flashx.sx|flashx.to|flashx.tv
+@@||fastcontentdelivery.com^$script,domain=flashx.cc|flashx.to|flashx.tv
 @@||fastcontentdelivery.com^*/ad*.js$script
 @@||fastdrama.me/scripts/fuckadblock.js
 @@||fastly.net/ad/$image,script,xmlhttprequest
@@ -36235,7 +36224,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||fbcdn.net/rsrc.php/*.css$stylesheet,domain=facebook.com
 @@||fbcdn.net^$stealth
 @@||fbsbx.com^$image,domain=pornhub.com
-@@||fbstatic-a.akamaihd.net^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|reviveusa.com|rightwingnews.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
+@@||fbstatic-a.akamaihd.net^$script,third-party,domain=allthingsvegas.com|dailyheadlines.net|newser.com|reviveusa.com|rightwingnews.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
 @@||fcportables.com/wp-content/uploads/ad-inserter^
 @@||fdyn.pubwise.io^$script,domain=urbanglasgow.co.uk
 @@||febbit.com^$generichide
@@ -36347,7 +36336,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||fmovies.is/assets/movie/frontend/vendor/font-awesome/fonts/fontawesome-webfont.$domain=fmovies.is
 @@||fmovies.is^$generichide
 @@||fncstatic.com/static/isa/app/lib/prebid.js$script,domain=foxbusiness.com|foxnews.com
-@@||fod4.com^$image,domain=funnyordie.com
 @@||foglio.basilic.io/ad/basilic.adsense.js
 @@||fontawesome.com^$script,stylesheet,domain=mp4upload.com
 @@||fonts.googleapis.com^$stylesheet,domain=dood.to|dood.watch
@@ -36559,9 +36547,9 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||gigabyte.us/fileupload/
 @@||gigglehd.com/gg/$domain=gigglehd.com
 @@||gigya.com$domain=dailystar.co.uk
-@@||gigya.com/comments.$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|videogamesblogger.com
+@@||gigya.com/comments.$script,third-party,domain=allthingsvegas.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|videogamesblogger.com
 @@||gigya.com/comments.getComments$domain=muscleandfitness.com
-@@||gigya.com/js/gigya.$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|videogamesblogger.com
+@@||gigya.com/js/gigya.$script,third-party,domain=allthingsvegas.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|videogamesblogger.com
 @@||girafa.com.br^$stealth
 @@||gismeteo.ru/api/informer/*/180x150
 @@||github.com/login$stealth
@@ -36637,10 +36625,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||google.com/adsense/domains/caf.js$domain=capertongillett.com|webfirstrow.eu
 @@||google.com/adsense/search/ads.js$domain=armstrongmywire.com|atlanticbb.net|bestbuy.com|bresnan.net|broadstripe.net|buckeyecablesystem.net|cableone.net|centurylink.net|charter.net|cincinnatibell.net|diigo.com|dish.net|forbbbs.org|gumtree.com.au|hargray.net|hawaiiantel.net|hickorytech.net|homeaway.co.uk|knology.net|livestrong.com|mediacomtoday.com|midco.net|mybendbroadband.com|mybrctv.com|mycenturylink.com|myconsolidated.net|myepb.net|mygrande.net|mygvtc.com|myhughesnet.com|myritter.com|northstate.net|nwcable.net|query.nytimes.com|rentals.com|search.rr.com|searchresults.verizon.com|suddenlink.net|surewest.com|synacor.net|tds.net|toshiba.com|truvista.net|windstream.net|windstreambusiness.net|wowway.net|www.google.com|zoover.co.uk|zoover.com
 @@||google.com/analytics/web/$document
-@@||google.com/coop/cse/brand?$script,third-party
 @@||google.com/images/integrations/$image,~third-party
-@@||google.com/js/th/$script
-@@||google.com/jsapi$script,third-party
 @@||google.com/maps/api/$stealth
 @@||google.com/maps/embed/v*/place?key=$stealth
 @@||google.com/payments/*/adwords.$document,subdocument
@@ -36683,8 +36668,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||googleapis.com/youtube/$stealth,domain=angrybirdsnest.com
 @@||googleapis.com/youtube/$stealth,domain=learnlinux.tv
 @@||googleapis.com/youtube/*/search?key=$stealth
-@@||googleapis.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
-@@||googlecommerce.com^$script
+@@||googleapis.com^$script,third-party,domain=allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||googledrive.com$document
 @@||googlesyndication.com/pageadimg/$domain=adwords.google.com
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
@@ -36730,7 +36714,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||googletagservices.com/tag/js/gpt.js$domain=weather.com
 @@||googletagservices.com/tag/js/gpt.js$domain=windalert.com
 @@||googletagservices.com/tag/js/gpt.js$domain=wp.pl|dobreprogramy.pl|o2.pl|pudelek.pl|so-magazyn.pl
-@@||googletagservices.com/tag/js/gpt.js$script,third-party,domain=dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com
 @@||googletagservices.com/tag/js/gpt.js?ad_tag=$domain=clipmyhorse.tv
 @@||googletagservices.com/tag/js/gpt_mobile.js$domain=www.vulture.com
 @@||googleusercontent.com^$domain=kissmanga.com
@@ -36751,13 +36734,11 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||grandcentral.1plus1.video^$stealth,domain=1plus1.video
 @@||grandfaucet.net/*/libs/advertisement.js
 @@||graph.facebook.com^$domain=pornhub.com
-@@||graph.facebook.com^$image,script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||gratis.com/Banners/
 @@||greetingvideo.ru/$elemhide
 @@||grimhackers.me/js/siropu/am/ads.min.js
 @@||grinx.designboom.com/www/delivery/ajs.php?zoneid=$script
 @@||gsmarena.com/adclick.php?bannerid=$popup
-@@||gstatic.com/accounts/$script,third-party,domain=rightwingtribune.com
 @@||gstatic.com/accounts/services/adwords/$image,domain=accounts.google.com
 @@||gstatic.com/ads/external/images/logo_google_ads_*px.png$domain=support.google.com
 @@||gstatic.com/adsense/$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
@@ -36773,7 +36754,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||gstatic.com^$domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
 @@||gstatic.com^$script,domain=dood.to|dood.watch
 @@||gstatic.com^$script,domain=mcloud.to
-@@||gstatic.com^$script,domain=streamvid.co
 @@||gstatic.com^$script,domain=upstream.to
 @@||gstatic.com^$script,domain=uptobox.com|uptostream.com
 @@||gstatic.com^$script,third-party,domain=monova.org|monova.to
@@ -37292,7 +37272,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||imgtaxi.com/img-*.html
 @@||imgtn.bdimg.com^$stealth
 @@||imgtown.net^$image,domain=imgtown.pw
-@@||imgur.com/min/$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|reviveusa.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||imgur.com^*/advertisingbanner.$script,domain=imgur.com
 @@||imgview.net/js/jquery-*.min.js
 @@||imgwallet.com/advertisement.js
@@ -37347,7 +37326,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||insurance-info.us/src/advertisement.js
 @@||integrate2cloudapps.com/wp-content/uploads/*/*-480x120$image
 @@||integration.plarium.com^$stealth
-@@||intensedebate.com/js/$script,third-party
 @@||intentmedia.net/adServer/edaaObaCtl?action_id=3$domain=youronlinechoices.com
 @@||intocam.com/chat/advertisement.js
 @@||intoday.in/embeded/*_live?
@@ -37472,12 +37450,10 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||jwpcdn.com^$script,stylesheet,domain=mcloud.to
 @@||jwpcdn.com^$script,stylesheet,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
 @@||jwpcdn.com^$script,xmlhttprequest,domain=milfzr.com
-@@||jwplatform.com^$script,domain=xmovies8.es|xmovies8.ru|xmovies8.tv
-@@||jwplatform.com^$script,third-party,xmlhttprequest,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
+@@||jwplatform.com^$script,third-party,xmlhttprequest,domain=allthingsvegas.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||jwplayer.com^$xmlhttprequest,domain=rd.com
 @@||jwpsrv.com/library/*.js$domain=kora-online.tv
-@@||jwpsrv.com/player/$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
-@@||jwpsrv.com^$script,domain=xmovies8.es|xmovies8.ru|xmovies8.tv
+@@||jwpsrv.com/player/$script,third-party,domain=allthingsvegas.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||jwpsrv.com^$xmlhttprequest,domain=rd.com
 @@||jyllands-posten.dk/app/*ads*.js
 @@||k-links.xyz/*/libs/advertisement.js
@@ -37600,7 +37576,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||lastfashions.xyz/adsbygoogle.js
 @@||latin.it/banner.php
 @@||latino-webtv.com^$stealth
-@@||latinospost.com/widget_init.php$script,third-party,domain=latinopost.com
 @@||latitu.ru^*/advert_$xmlhttprequest
 @@||launcher.spot.im/spot/sp_$script,domain=bizpacreview.com
 @@||launcher.spot.im^$script,domain=dailyheadlines.net|rightwingtribune.com
@@ -37644,7 +37619,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||linkconnector.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||linkdecode.com^$generichide
 @@||linkedin.com/inbox/compose/dialog$document
-@@||linkedin.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||linkkawy.com^*js/ads.js
 @@||linkneverdie.com/Assets/Js/ads.js
 @@||linkneverdie.com^$generichide
@@ -37666,7 +37640,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||livebox247.com/embed-$stealth
 @@||livecamtv.me/embed.min.js$domain=strikeout.co
 @@||liveedu.tv/static/js/ads.js
-@@||livefyre.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|videogamesblogger.com
+@@||livefyre.com^$script,third-party,domain=allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|videogamesblogger.com
 @@||livehindustan.com/*ad$script
 @@||livejasmin.com/en/promotion/get?noRedirect=*&streamType=$domain=pt.protoawe.com
 @@||livemint.com/_js/*ads
@@ -37782,7 +37756,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||mapquest.com^$generichide
 @@||maps.2gis.com^$stealth
 @@||maps.google.*/staticmap*^size=300x250^$image,domain=~calcalist.co.il|~gaytube.com|~mako.co.il|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~walla.co.il|~xtube.com|~ynet.co.il|~youjizz.com|~youporn.com|~youporngay.com
-@@||maps.google.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|telexplorer.com.ar|tosavealife.com|videogamesblogger.com
+@@||maps.google.com^$script,third-party,domain=allthingsvegas.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|telexplorer.com.ar|tosavealife.com|videogamesblogger.com
 @@||maps.googleapis.com/maps/api/$stealth,domain=offerup.com
 @@||maps.googleapis.com/maps/api/*=300x250&$image
 @@||maps.googleapis.com^$domain=last.fm,script
@@ -37802,7 +37776,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||maxcdn.bootstrapcdn.com/bootstrap/$domain=gelbooru.com
 @@||maxcdn.bootstrapcdn.com/font-awesome/*/fonts/fontawesome-webfont.woff$domain=livescience.com
 @@||maxcdn.bootstrapcdn.com^$script,domain=filerio.in
-@@||maxcdn.bootstrapcdn.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
+@@||maxcdn.bootstrapcdn.com^$script,third-party,domain=allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||maxcdn.bootstrapcdn.com^$stylesheet,domain=shink.me|shon.xyz
 @@||maxcdn.bootstrapcdn.com^$stylesheet,domain=up-4ever.com|up-4ever.org
 @@||maxcheaters.com^$generichide
@@ -38087,8 +38061,8 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||nekopoi.*/wp-content/themes/ThemeNekopoi/js/adsbygoogle.js$~third-party
 @@||netbk.co.jp^$jsinject
 @@||netded.com/plus/ad_js.php?aid=3|
-@@||netdna-cdn.com/wp-content/$script,third-party,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|foreverymom.com|newser.com|shark-tank.com|tosavealife.com|videogamesblogger.com
-@@||netdna-cdn.com/wp-includes/js/$script,third-party,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|foreverymom.com|newser.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
+@@||netdna-cdn.com/wp-content/$script,third-party,domain=allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|newser.com|shark-tank.com|tosavealife.com|videogamesblogger.com
+@@||netdna-cdn.com/wp-includes/js/$script,third-party,domain=allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|newser.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
 @@||netdna-cdn.com^*/OpenX/$domain=openx.com
 @@||netdna-storage.com^$xmlhttprequest,domain=gaybeeg.info
 @@||netdna.bootstrapcdn.com/font-awesome^
@@ -38379,6 +38353,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=www.up-4.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=xpbitcoin.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=felanovia.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=hindustantimes.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?$domain=fileflares.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$domain=onitube.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
@@ -38773,7 +38748,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||places.nbnco.net.au/places/$stealth
 @@||planetsuzy.org/clientscript/site_ads.js
 @@||platform.instagram.com^$script,domain=fullmatchesandshows.com
-@@||platform.instagram.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
+@@||platform.instagram.com^$script,third-party,domain=allthingsvegas.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||platform.tumblr.com^$script,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 @@||platform.twitter.com/$domain=discovery.com
 @@||platform.twitter.com/js/moment~timeline~tweet.*.js$domain=gamerant.com
@@ -38781,7 +38756,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||platform.twitter.com/oct.js$domain=cravetv.ca
 @@||platform.twitter.com/widgets.js$domain=gamerant.com
 @@||platform.twitter.com/widgets.js$domain=uptobox.com|uptostream.com
-@@||platform.twitter.com^$image,domain=allthingsvegas.com|newser.com|whatfinger.com
 @@||platform.twitter.com^$script,domain=firstrowas.co|gofirstrow.eu|ifirstrow.eu|ifirstrowit.eu|webfirstrow.eu
 @@||platform.twitter.com^$script,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 @@||platinmods.com/js/siropu/am/ads.min.js
@@ -38792,7 +38766,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||play.kisscartoon.ac/player.php?
 @@||play.nova.bg/prebid-ads.js
 @@||play.tv3.lt/ad/banner/*.ad.json$domain=play.tv3.lt
-@@||playbuzz.com/widget/$script,third-party
 @@||player*.kotakhitam.casa/?$stealth
 @@||player.9cartoon.me/static/ads.js^
 @@||player.adcdn.tv^$stealth
@@ -38831,7 +38804,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||playtube.ws/js/pop.js
 @@||playwire.com/bolt*/$image
 @@||playwire.com/bolt*/frame/admgr.$script
-@@||playwire.com/bolt/$script,domain=allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|shark-tank.com
+@@||playwire.com/bolt/$script,domain=allthingsvegas.com|dailyheadlines.net|newser.com|shark-tank.com
 @@||playwire.com^$script,xmlhttprequest,domain=fullmatchesandshows.com
 @@||plugins.longtailvideo.com^$script,domain=youwatch.org
 @@||plus.addkt.com/slader.js$domain=slader.com
@@ -38845,10 +38818,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||pntrac.com/b/$image,domain=extrarebates.com
 @@||pntrs.com/b/$image,domain=extrarebates.com
 @@||pntrs.com^$image,domain=catalogfavoritesvip.com|freeshipping.com|freeshippingrewards.com|habandvipplus.com|inthecompanyofdogsvip.com|naturesjewelryvip.com|northstylevip.com|pyramidcollectionvip.com|serengeticatalogvip.com|travelplus.com
-@@||po.st/share/$script,third-party,domain=allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|shark-tank.com
-@@||po.st/static/$script,third-party,domain=dailyheadlines.net|newser.com|shark-tank.com
-@@||po.st^*/counter?$script,third-party,domain=dailyheadlines.net|newser.com|shark-tank.com
-@@||po.st^*/status?$script,third-party,domain=dailyheadlines.net|newser.com|shark-tank.com
 @@||pochou.com/img/ad/
 @@||poedb.tw/js/
 @@||poedb.tw/js/adsbygoogle.js
@@ -39088,7 +39057,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||quantcast.com/advertise$domain=quantcast.com
 @@||quanzhi.cn/v3/images/index_ad/
 @@||quisqualis.com/QBanner_760x100.jpg
-@@||r-login.wordpress.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|shark-tank.com|videogamesblogger.com
+@@||r-login.wordpress.com^$script,third-party,domain=allthingsvegas.com|dailyheadlines.net|newser.com|shark-tank.com|videogamesblogger.com
 @@||r1x.pw^$generichide
 @@||r3sub.com^$generichide
 @@||rackcdn.com^$domain=fapdu.com
@@ -39102,7 +39071,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||ragnsells.se/globalassets/sverige/inspireras/*1160x600.$domain=ragnsells.se
 @@||raindrop.io/api/$stealth
 @@||ramnode.com/images/
-@@||randomapps*.amazonaws.com^$script,domain=thepoke.co.uk
 @@||rapidgrab.pl^$generichide
 @@||rapidrar.com/js/fuckadblock.js
 @@||rapidrar.com^$generichide
@@ -39317,7 +39285,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||s.206ads.com/js/data/androidauthority.com.js$domain=androidauthority.com
 @@||s.206ads.com/prebid.js$domain=androidauthority.com
 @@||s.gravatar.com^$script,domain=fullmatchesandshows.com
-@@||s.gravatar.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|rightwingnews.com|shark-tank.com|videogamesblogger.com
+@@||s.gravatar.com^$script,third-party,domain=allthingsvegas.com|dailyheadlines.net|newser.com|rightwingnews.com|shark-tank.com|videogamesblogger.com
 @@||s.gravatar.com^$script,third-party,domain=s0ft4pc.com
 @@||s.ip-cdn.com/img/ag.jpg
 @@||s.ip-cdn.com/img/logo.gif
@@ -39339,7 +39307,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||s1.wp.com^
 @@||s3.amazonaws.com/khachack/*.js$script,domain=ndtv.com
 @@||s7.addthis.com^$script,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
-@@||s7.addthis.com^$script,third-party,domain=100percentfedup.com|newser.com|shark-tank.com
 @@||saabcentral.com^$generichide
 @@||sadeemapk.com^$generichide
 @@||safeurl.net/theme/js/ads_test.js
@@ -39695,7 +39662,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||sportsnet.ca/wp-content/plugins/bwp-minify/$domain=sportsnet.ca
 @@||sportsplays.com/ads/ad.html$~third-party
 @@||sportspyder.com/assets/ads-*.js|
-@@||spot.im/launcher/bundle.js$domain=rightwingtribune.com
 @@||spotops.spot.im/spot/sp_*/v*?platform=$domain=bizpacreview.com
 @@||spylinks.org^$generichide
 @@||ss.phncdn.com^$script,domain=redtube.com
@@ -39711,12 +39677,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||sso.myscript.com^$stealth
 @@||ssports.com/images/resources/web/live/js/LiveAds.js
 @@||sssbozh.com^$generichide
-@@||stackpath.bootstrapcdn.com^$script,stylesheet,domain=insta-stories.com
 @@||stackpathcdn.com/wp-content/plugins/*/adblock-detector/advertisement.js$domain=phoneswiki.com
-@@||stackpathdns.com/data/images/$image,domain=foreverymom.com
-@@||stackpathdns.com/data/thumbs/$image,domain=foreverymom.com
-@@||stackpathdns.com/static/$image,domain=foreverymom.com
-@@||stackpathdns.com^$script,domain=foreverymom.com
 @@||standardmedia.co.ke/assets/js/prebid-google-ads.js
 @@||starbits.io/libs/advertisement.js
 @@||starfaucet.net/*/libs/advertisement.js
@@ -39904,7 +39865,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||sync.maxthon.com$document
 @@||sync.opera.com/api/sync/
 @@||syndication.exoclick.com/ads.php?type=728x90&$script,domain=dirtstyle.tv
-@@||syndication.twimg.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||szhr.com.cn^$generichide
 @@||szhr.com.cn^*ad
 @@||szhr.com^$generichide
@@ -40223,14 +40183,12 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||tvshqiphd.com/adblock.js
 @@||tweaktown.com^$generichide
 @@||tweaktown.com^$generichide,badfilter
-@@||twimg.com^$image,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||twineer.com^$generichide
 @@||twitchadvertising.tv/wp-content/uploads/2014/06/header_logo_advertising.png
 @@||twitter.com$domain=bleacherreport.com
 @@||twitter.com/i/videos/tweet/*?embed_$document
 @@||twitter.com^$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
 @@||twitter.com^$script,subdocument,domain=efukt.com
-@@||twitter.com^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|shark-tank.com|tosavealife.com|videogamesblogger.com|whatfinger.com
 @@||twpkinfo.com/js/ads.min.js
 @@||twt-assets.washtimes.com/v4/js/twig.js
 @@||tx.acgvideo.com^$stealth
@@ -40321,7 +40279,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||usaa.com^$document
 @@||usanetwork.com/sites/usanetwork/*300x250
 @@||use.fontawesome.com^$third-party
-@@||use.typekit.net^$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||user.weiyun.com/newcgi/outlink.fcg$document
 @@||usercdn.com/cgi-bin/upload.cgi
 @@||usercdn.com/cgi-bin/upload.cgi?$subdocument,domain=userscloud.com
@@ -40465,7 +40422,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||viewdrama.com/ads.js
 @@||viglink.com^$domain=dealsrunner.com
 @@||viid.me^$generichide
-@@||vimeo.com^$script,domain=allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|shark-tank.com
 @@||vintage-erotica-forum.com/clientscript/site_ads.js
 @@||vip.freelive365.com/adblocker.js
 @@||vipbox.nu^$stealth
@@ -40488,7 +40444,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||vjs.zencdn.net/*/video-js.css
 @@||vjs.zencdn.net/*/video.js$domain=kimcartoon.to
 @@||vjs.zencdn.net^$domain=stream2watch.org
-@@||vjs.zencdn.net^$script,domain=rightwingtribune.com
 @@||vjs.zencdn.net^$script,domain=sendit.cloud
 @@||vjs.zencdn.net^$script,domain=userscloud.com
 @@||vjs.zencdn.net^$script,domain=vshare.eu
@@ -40651,13 +40606,13 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||worthpoint.com^*/advertising?$~third-party
 @@||wowsai.com/data/files/ad/
 @@||wp-content.hackintosh.computer/plugins/better-adsmanager/js/advertising.min.js$domain=hackintosh.computer
-@@||wp.com/_static/$script,third-party,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.com|dailyheadlines.net|foreverymom.com|newser.com|shark-tank.com|tosavealife.com|videogamesblogger.com
+@@||wp.com/_static/$script,third-party,domain=allthingsvegas.com|dailyheadlines.com|dailyheadlines.net|newser.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||wp.com/animetrick.com/wp-content/uploads/$image,domain=animetrick.com
 @@||wp.com/c/*/wp-includes/css
 @@||wp.com/c/*/wp-includes/js
 @@||wp.com/jaiminisbox.com/reader/content/$image,domain=kissmanga.com
 @@||wp.com/p/jetpack^
-@@||wp.com/wp-content/$script,third-party,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.com|dailyheadlines.net|foreverymom.com|newser.com|shark-tank.com|tosavealife.com|videogamesblogger.com
+@@||wp.com/wp-content/$script,third-party,domain=allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.com|dailyheadlines.net|newser.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 @@||wp.com/wp-content/js/$script,domain=fullmatchesandshows.com
 @@||wp.com/wp-content/js/$script,domain=gaybeeg.info
 @@||wp.com/wp-content/js/$script,domain=s0ft4pc.com
@@ -40665,8 +40620,8 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||wp.pl/*-FwkqOxhmGz4XCSo7GGYbPhcJKjsYZhs-$script,domain=pilot.wp.pl
 @@||wp.pl/b3RvQ2h1TVIzFCcBR0pAR3*DtBSkw=$script,domain=film.wp.pl|finanse.wp.pl|gwiazdy.wp.pl|kobieta.wp.pl|ksiazki.wp.pl|magazyn.wp.pl|moto.wp.pl|opinie.wp.pl|tech.wp.pl|wiadomosci.wp.pl
 @@||wp.pl^$generichide
-@@||wpengine.netdna-cdn.com/wp-content/themes/$image,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|foreverymom.com|newser.com|shark-tank.com|tosavealife.com|videogamesblogger.com
-@@||wpengine.netdna-cdn.com/wp-content/uploads/$image,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|foreverymom.com|newser.com|tosavealife.com|videogamesblogger.com
+@@||wpengine.netdna-cdn.com/wp-content/themes/$image,domain=allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|newser.com|shark-tank.com|tosavealife.com|videogamesblogger.com
+@@||wpengine.netdna-cdn.com/wp-content/uploads/$image,domain=allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.net|newser.com|tosavealife.com|videogamesblogger.com
 @@||wpengine.netdna-cdn.com/wp-content/uploads/$image,domain=freedomoutpost.com
 @@||wpgdadago.com/ad/$image,~third-party
 @@||wpgdadatong.com/ad/$image,~third-party
@@ -40690,6 +40645,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||wuyou.com.cn/Js/ad.js
 @@||wwe2day.com/advertisement.js
 @@||www-league.nhlstatic.com/video/config/ads/advertise/adsense/banner/smart/atlas/appnexus/adserver/ads.json
+@@||www-primarkradio-com.filesusr.com^$domain=primarkradio.com
 @@||www.door2windows.com^$stealth
 @@||www.facebook.com/ad.*^ajaxpipe^$subdocument,~third-party
 @@||www.facebook.com/ads/$generichide
@@ -40859,7 +40815,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||yps.link/emoji/$image,domain=sxyprn.com
 @@||yps.link/users/ava/$image,domain=sxyprn.com
 @@||yqszkzx.cn/images/ad
-@@||ytimg.com/yts/jsbin/$script,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|heviralmob.com|newser.com|reviveusa.com|rightwingnews.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
+@@||ytimg.com/yts/jsbin/$script,domain=allthingsvegas.com|dailyheadlines.net|newser.com|reviveusa.com|rightwingnews.com|shark-tank.com|thehayride.com|tosavealife.com|videogamesblogger.com
 @@||ytimg.com^*_banner$domain=youtube.com
 @@||yunlin.com.tw/php01/ad/showad.
 @@||yygsz.com^$generichide
@@ -43047,6 +43003,7 @@ arstechnica.com###outbrain-recs-wrap
 arstechnica.com###sponsored-recommendations
 arstechnica.com##.ad_crown
 arstechnica.com##.ad_fullwidth
+arstechnica.com##.ad_wrapper
 arstechnica.com##.ad_xrail
 arstechnica.com#$#.ad_crown { position: absolute!important; left: -10000px!important; }
 arstechnica.com#$#.ad_fullwidth { position: absolute!important; left: -10000px!important; }
@@ -44460,6 +44417,7 @@ bmovies.ru##a.full.btn[href^="/player/"][href*="_in_hd.html?"][rel="nofollow"]
 bmoviesfree.ru##body > div[style*="base64"][style*="z-index: 99999"]
 bmovieshub.com##.btn-primary[href][rel="nofollow"]
 bmovieshub.com#%#(function() { window.open_ = window.open; var w_open = window.open, regex = /\/home\/watching\//; window.open = function(a, b) { if (typeof a !== 'string' || !regex.test(a)) { w_open(a, b); } }; })();
+bmvc2020-conference.com#@#div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 bmwklub.cz##.topBanners
 bmwoglasnik.si,clickindia.com#@#.adlist
 bmwoglasnik.si,completemarkets.com,superbikeplanet.com#@#.addiv
@@ -51315,7 +51273,6 @@ hbee.edu.cn#@#.headerad
 hboav.com###AdTitle
 hboav.com###AdTitle + table
 hboav.com###inplayer
-hboav.com###warming ~ .cc5278_banner_ad
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
 hboav.com#%#//scriptlet("set-constant", "onload", "null")
 hboav.com#@#.close_box0
@@ -55622,7 +55579,7 @@ maiziedu.com##.msg
 majalahikan.com##.adsbygoogle
 majesy.com#%#window.adblock = 1;
 majesy.com,magesy.eu,beelink.in#%#AG_defineProperty('jQuery.adblock', {value: false});
-majesy.org,greatanimation.it,kangapip.com,kamerafoto.net,okulsoru.com,hentaialtadefinizione.it,bestpresent1.blogspot.com,ripperxd.blogspot.com,wowtv.info,onlyfoot.net,magesy.eu,magesy.pw,soccerlive.casa,gomaainfo.com,indirlinks.xyz,buynorxviagraonline.com,listatv.pl,yespickbible.tistory.com,slothjuns.net,polim-tv.blogspot.com,kabel-tv-plus.blogspot.com,cgtips.org,3dmodelshare.org,tutoganga.blogspot.com,mobilpro.xyz,sshagan.net,goossh.com,dafideff.com,moneywar2.blogspot.com,pangya.tistory.com,areavideolangka.blogspot.com,linkerload.com,linksaya.com,helow.id,ockles.com,fawrye.com,exambd.net,telemporio4.blogspot.com,tel-emporio10.blogspot.com,kostenloslivetv.blogspot.com,tv-bu.blogspot.com,texte.work,ifile.cc,hhkungfu.tv,filetera.com,weezzle.tistory.com,tempatak.blogspot.com,aatfal.com,goo-2o.com,mainia.tistory.com,mangawt.com,gametter.com,inazumaotoshifansub.xyz,anoboy.stream,freshstuff4u.info,isbool.tistory.com,thuglink.com,mage.si,magesy.pro,gamegame.kr,vuster.xyz,minemods.com.br,bedavapdf.com,anonymousceviri.com,seireshd.com,globalssh.net,pghk.blogspot.com,stalker-mods.su,tainhanhvn.com,mingtrace.tistory.com,sakaiplus.com,pgh268400.tistory.com,nulledpremium.com,minorpatch.com,magesy.blog,singamda.net,singamda.xyz,minipol.tistory.com,bizimgezegenimiz.com,micano4u.org,techieway.blogspot.com,de-baystars.doorblog.jp,gbadamud.blogspot.com,cosmomaker3.blogspot.com,2kspecialist.net,digit77.com,hd-tch.com,maxidbr.com,popmusic4u.tistory.com,archaeologynewsnetwork.blogspot.com,zekozimo.blogspot.com,bekerhosting.com,dosyayukle.biz,nensaysubs.net,cheatglobal.com,securitypcsoluciones.blogspot.com,bitearns.com,animealtadefinizione.it,3dsounada1.blogspot.com,altyazili13.xyz,wojtekczytawh40k.blogspot.com,ogrenciyegelir.com,pineappl2.tistory.com,wellcometokorea.tistory.com,maplekibun.tistory.com,iptvnow.top,tipslab.info,player-8627.tistory.com,skuld2000.tistory.com,akoam.net,gugomah.tistory.com,forumrenkli.com,indirlink.xyz,download.3dzip.org,luckyquiz.tistory.com,toppng.com,gjs8856.tistory.com,ykage.tistory.com,kindmaster.tistory.com,minami.xneet.id,stock79.tistory.com,dl.taive.work,goodssh.com,magdyman.com,best-anime.eu,superonleech.online,superonleech.biz,anoboy.video,blackavelic.com,cariskuy.com,waktusehat.xyz,servicio-software.net,squidssh.com,descargaspcpro.net,pesfreedownloads.com,erpsoftwarelink.blogspot.com,salahstream.ml,viralogic.xyz,linkvertise.com,cirokun.blogspot.com,animee.xyz,daizurin.com,ryukanime.lompat.in,erp-software-services.review,anisubindo.video,anibatch.me,lnindo.org,audiozdownload.com,gdr-online.com,tamilyogi.vip,flsaudio.com,daemon-hentai.com,windes.com.es,interssh.com,dinvemitoloji.com,mangaromance.eu,onlineproxy.online,mixloads.com,unlockapk.com,newsjizz.in,fullcrackpc.com,libros4.com,animenonton.tv,wegner.tech,wikitrik.com,aspdotnet-suresh.com,jagoanssh.com,computerpcdata.com,methbox.com,cle0desktop.blogspot.com,dropapk.to,mycumx.com,hjkhgyss.tistory.com,acloudfiles.com,maniac-game.tistory.com,pharmaguideline.com,news-tech.xyz,marketmovers.it,ktmx.pro,mw5blog.blogspot.com,olarila.com,jelajahinternet.me,mega-debrit.com,direct-link.net,elsfile.org,eggblog.tistory.com,mimaletamusical.blogspot.com,fckdescargas.com.ve,indoblog.me,balog18.blogspot.com,yupptv.in,fforfree.net,300mb.in.net,readrawmanga.com,bestfitnesstips.club,filmywap.world,vabstutorials.com,infosehatku.club,muhammadyoga.me,myshorturls.blogspot.com,talkshowyoutube.blogspot.com,link-to.net,almezoryae.com,jobhunterplg.xyz,tamilyogi.eu,freeserial-keys.blogspot.com,toptv.cloud,sna3talaflam.com,merdekaid.online,shtu.pro,sslproxies24.top,suarankri.me,pd-retro-tv.tistory.com,dropapk.com,getlec.blogspot.com,mohanlalmovieshub.blogspot.com,1idsly.com,updatetribun.org,up-to-down.net,darmowa-telewizja.online,akanosora.com,porkyfap.org,kikiro.tistory.com,tamilyogi.nu,iglive.me,drivebox.club,linkatna.me,earn-url.com,fmoviez.org,loverscum.com,linku.us,mt4forexplatform.review,oploverz.in,dvdgayporn.com,mobdi3ips.com,ljutkeunvpn.blogspot.com,liveinincheon.tistory.com,javaguides.net,youbamangablog.ga,vqporn.com,egyptiangy.net,2shorte.com,freshstuff4you.com,onetwopatch.com,komikcast.com,komikindo.web.id,zermusicz.com,exiledros.net,lifeadori.tistory.com,anime-i.com,fakyu.net,sardeath.com,mangakyo.net,diagnofast.com,nisdon.com,aeprofree.com,plok01234.tistory.com,droidtk.com,egyption-gy.net,nir-oz.blogspot.com,adturl.com,itdmusic.com,fuel-prices-europe.info,nsbu.co.kr,majesy.com,sourcebincc.com,jagobd.com,ministryofsolutions.com,khedame.com,samnaprawiam.com,king-pes.blogspot.com,linkatak.com,gotofap.tk,short24.pw,lanjutkeun.blogspot.com,sdw-net.me,tvlive.cc,akashiro.co.id,terrarium.com.pl,europeanclassiccomic.blogspot.com,programminggeek.in,beelink.in,singingdalong.blogspot.com,animeforce.stream,anonyviet.com,hexafile.net,subfb.us,neko-miku.com,visionias.net,micloudfiles.com,toptech360.com,siteneverdown.xyz,androgalaxy.in,torrentevo.blogspot.com,viewingcat.tistory.com,kpliker.net,smarturlref.net,go-ez.net,dz4soft.blogspot.de,dz4soft.blogspot.com,free-premium.maxidbr.com,telolet.in,mimaletadepeliculas.blogspot.de,mimaletadepeliculas.blogspot.com,voipsipclient.blogspot.com,voipsipclient.blogspot.nl,cryptovertise.tk,mamahd.tv,antiblock.org,dinostream.pw,verdirectotv.com,stadium-live.biz,driverdestek.com,ebookdz.com,ittopic.tistory.com,jpidols.tv,eikaiwamastery.blogspot.com,wakudan.seesaa.net,kamikiyuki.hatenablog.com,omutulove.seesaa.net,omutulove.blog.fc2.com,akb48gnittimatome.com,gtoys.blog48.fc2.com,klikshowtime.com,res-simler.blogspot.com,oyunceviri.net,yuklesene.org,dreamfancy.org,etkisizeleman.com,m.pes24.com,sportbosshd3.wtf,trgoals1.live,sportbosshd2.wtf,tumkarikaturler.com,merlininkazani.com,serialbumler.com,softmaroc.org,televallweb.site,projetomotog.blogspot.com,radiotormentamx.com,iptvvall.com,eldaryasolutiongame.blogspot.com,stiffgamerdown.com,peruanazotv.com,televall.website,sacheats.com,filmes-torrent-baixar.blogspot.com,grupovalltv.net,otakuworldsite.blogspot.com,futbol-envivohd.com,novelasymangasjpo.blogspot.com,bludvfilmes.com,tv-onlinehd.com,netflink.top,textflix.us,majesy.com,dompl3.info,lacajetillaroja.blogspot.com,latornamesa.blogspot.com,acienciasgalilei.com,yoututosjeff.es,nuevos-mu.ucoz.com,generacionretro.net,goaldirecto.blogspot.com,goaldirecto.blogspot.com.ar,novelasd.com,tiengnhatpro.net,zwergenstadt.com,praxis-jugendarbeit.de#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
+majesy.org,greatanimation.it,kangapip.com,kamerafoto.net,okulsoru.com,hentaialtadefinizione.it,bestpresent1.blogspot.com,ripperxd.blogspot.com,wowtv.info,onlyfoot.net,magesy.eu,magesy.pw,soccerlive.casa,gomaainfo.com,indirlinks.xyz,buynorxviagraonline.com,listatv.pl,yespickbible.tistory.com,slothjuns.net,polim-tv.blogspot.com,kabel-tv-plus.blogspot.com,cgtips.org,3dmodelshare.org,tutoganga.blogspot.com,mobilpro.xyz,sshagan.net,goossh.com,dafideff.com,moneywar2.blogspot.com,pangya.tistory.com,areavideolangka.blogspot.com,linkerload.com,linksaya.com,helow.id,ockles.com,fawrye.com,exambd.net,telemporio4.blogspot.com,tel-emporio10.blogspot.com,kostenloslivetv.blogspot.com,tv-bu.blogspot.com,texte.work,ifile.cc,hhkungfu.tv,filetera.com,weezzle.tistory.com,tempatak.blogspot.com,aatfal.com,goo-2o.com,mainia.tistory.com,mangawt.com,gametter.com,inazumaotoshifansub.xyz,anoboy.stream,freshstuff4u.info,isbool.tistory.com,thuglink.com,mage.si,magesy.pro,gamegame.kr,vuster.xyz,minemods.com.br,bedavapdf.com,anonymousceviri.com,seireshd.com,globalssh.net,pghk.blogspot.com,stalker-mods.su,tainhanhvn.com,mingtrace.tistory.com,sakaiplus.com,pgh268400.tistory.com,nulledpremium.com,minorpatch.com,magesy.blog,singamda.net,singamda.xyz,minipol.tistory.com,bizimgezegenimiz.com,micano4u.org,techieway.blogspot.com,de-baystars.doorblog.jp,gbadamud.blogspot.com,cosmomaker3.blogspot.com,2kspecialist.net,digit77.com,hd-tch.com,maxidbr.com,popmusic4u.tistory.com,archaeologynewsnetwork.blogspot.com,zekozimo.blogspot.com,bekerhosting.com,dosyayukle.biz,nensaysubs.net,cheatglobal.com,securitypcsoluciones.blogspot.com,bitearns.com,animealtadefinizione.it,3dsounada1.blogspot.com,altyazili13.xyz,wojtekczytawh40k.blogspot.com,ogrenciyegelir.com,pineappl2.tistory.com,wellcometokorea.tistory.com,maplekibun.tistory.com,iptvnow.top,tipslab.info,player-8627.tistory.com,skuld2000.tistory.com,akoam.net,gugomah.tistory.com,forumrenkli.com,indirlink.xyz,download.3dzip.org,luckyquiz.tistory.com,toppng.com,gjs8856.tistory.com,ykage.tistory.com,kindmaster.tistory.com,minami.xneet.id,stock79.tistory.com,dl.taive.work,goodssh.com,magdyman.com,best-anime.eu,superonleech.online,superonleech.biz,anoboy.video,blackavelic.com,cariskuy.com,waktusehat.xyz,servicio-software.net,squidssh.com,descargaspcpro.net,pesfreedownloads.com,erpsoftwarelink.blogspot.com,salahstream.ml,viralogic.xyz,linkvertise.com,cirokun.blogspot.com,animee.xyz,daizurin.com,ryukanime.lompat.in,erp-software-services.review,anisubindo.video,anibatch.me,lnindo.org,audiozdownload.com,gdr-online.com,tamilyogi.vip,flsaudio.com,daemon-hentai.com,windes.com.es,interssh.com,dinvemitoloji.com,mangaromance.eu,onlineproxy.online,mixloads.com,unlockapk.com,newsjizz.in,fullcrackpc.com,libros4.com,animenonton.tv,wegner.tech,wikitrik.com,aspdotnet-suresh.com,jagoanssh.com,computerpcdata.com,methbox.com,cle0desktop.blogspot.com,dropapk.to,mycumx.com,hjkhgyss.tistory.com,acloudfiles.com,maniac-game.tistory.com,pharmaguideline.com,news-tech.xyz,marketmovers.it,ktmx.pro,mw5blog.blogspot.com,olarila.com,jelajahinternet.me,mega-debrit.com,direct-link.net,elsfile.org,eggblog.tistory.com,mimaletamusical.blogspot.com,fckdescargas.com.ve,indoblog.me,balog18.blogspot.com,yupptv.in,fforfree.net,300mb.in.net,readrawmanga.com,bestfitnesstips.club,filmywap.world,vabstutorials.com,infosehatku.club,muhammadyoga.me,myshorturls.blogspot.com,talkshowyoutube.blogspot.com,link-to.net,almezoryae.com,jobhunterplg.xyz,tamilyogi.eu,freeserial-keys.blogspot.com,toptv.cloud,sna3talaflam.com,merdekaid.online,shtu.pro,sslproxies24.top,suarankri.me,pd-retro-tv.tistory.com,dropapk.com,getlec.blogspot.com,mohanlalmovieshub.blogspot.com,1idsly.com,updatetribun.org,up-to-down.net,darmowa-telewizja.online,akanosora.com,porkyfap.org,kikiro.tistory.com,tamilyogi.nu,iglive.me,drivebox.club,linkatna.me,earn-url.com,fmoviez.org,loverscum.com,linku.us,mt4forexplatform.review,oploverz.in,dvdgayporn.com,mobdi3ips.com,ljutkeunvpn.blogspot.com,liveinincheon.tistory.com,javaguides.net,youbamangablog.ga,vqporn.com,egyptiangy.net,2shorte.com,freshstuff4you.com,onetwopatch.com,komikcast.com,komikindo.web.id,zermusicz.com,exiledros.net,lifeadori.tistory.com,anime-i.com,fakyu.net,sardeath.com,mangakyo.net,diagnofast.com,nisdon.com,aeprofree.com,plok01234.tistory.com,droidtk.com,egyption-gy.net,nir-oz.blogspot.com,adturl.com,itdmusic.com,fuel-prices-europe.info,nsbu.co.kr,majesy.com,sourcebincc.com,jagobd.com,ministryofsolutions.com,khedame.com,samnaprawiam.com,king-pes.blogspot.com,linkatak.com,gotofap.tk,short24.pw,lanjutkeun.blogspot.com,sdw-net.me,tvlive.cc,akashiro.co.id,terrarium.com.pl,europeanclassiccomic.blogspot.com,programminggeek.in,beelink.in,singingdalong.blogspot.com,animeforce.stream,anonyviet.com,hexafile.net,subfb.us,neko-miku.com,visionias.net,micloudfiles.com,toptech360.com,siteneverdown.xyz,androgalaxy.in,torrentevo.blogspot.com,viewingcat.tistory.com,kpliker.net,smarturlref.net,go-ez.net,dz4soft.blogspot.de,dz4soft.blogspot.com,free-premium.maxidbr.com,telolet.in,mimaletadepeliculas.blogspot.de,mimaletadepeliculas.blogspot.com,voipsipclient.blogspot.com,voipsipclient.blogspot.nl,cryptovertise.tk,mamahd.tv,antiblock.org,dinostream.pw,verdirectotv.com,stadium-live.biz,driverdestek.com,ebookdz.com,ittopic.tistory.com,jpidols.tv,eikaiwamastery.blogspot.com,wakudan.seesaa.net,kamikiyuki.hatenablog.com,omutulove.seesaa.net,omutulove.blog.fc2.com,akb48gnittimatome.com,gtoys.blog.fc2.com,klikshowtime.com,res-simler.blogspot.com,oyunceviri.net,yuklesene.org,dreamfancy.org,etkisizeleman.com,m.pes24.com,sportbosshd3.wtf,trgoals1.live,sportbosshd2.wtf,tumkarikaturler.com,merlininkazani.com,serialbumler.com,softmaroc.org,televallweb.site,projetomotog.blogspot.com,radiotormentamx.com,iptvvall.com,eldaryasolutiongame.blogspot.com,stiffgamerdown.com,peruanazotv.com,televall.website,sacheats.com,filmes-torrent-baixar.blogspot.com,grupovalltv.net,otakuworldsite.blogspot.com,futbol-envivohd.com,novelasymangasjpo.blogspot.com,bludvfilmes.com,tv-onlinehd.com,netflink.top,textflix.us,majesy.com,dompl3.info,lacajetillaroja.blogspot.com,latornamesa.blogspot.com,acienciasgalilei.com,yoututosjeff.es,nuevos-mu.ucoz.com,generacionretro.net,goaldirecto.blogspot.com,goaldirecto.blogspot.com.ar,novelasd.com,tiengnhatpro.net,zwergenstadt.com,praxis-jugendarbeit.de#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', '/google_ad_client/')
 majesy.org,majesy.com,magesy.eu,magesy.blog,magesy.pw,informer.com,addictinginfo.com,cmacapps.com,computerera.co.in,cypt.ga,dailyuploads.net,download.mokeedev.com,fas.li,file-upload.cc,genbird.com,getlinkgenerator.com,realses.com,shink.in,upload.af,uploads.to,uplod.ws,urlex.org##.adsbygoogle
 majorgeeks.com##.author:first-child
 majorgeeks.com##.content > .author
@@ -57190,6 +57147,7 @@ mydrivers.com##.news_info > div[style*="height:"]
 mydrivers.com##.news_left > div[style*="height:"]
 mydrivers.com##.news_xg + style + div
 mydrivers.com##.zcdf ~ div[style]
+mydrivers.com##a[style][href*=".jd.com/"]
 mydrivers.com##div[style*="/ad/"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 mydrivers.com##div[style^="width:728px; height:90px;"]
@@ -60698,6 +60656,9 @@ radiotimes.com##.ad-banner-container
 radiotimes.com##.dfp-ad
 radiotimes.com##.sidebar__item-spacer--advert-top
 radiotimes.com##div[data-element_type="wp-widget-section_full_width_advert.default"]
+radiotoday.co.uk###xho-35 > .xho
+radiotoday.co.uk##.sidebar-column-secondary > .sidebar
+radiotoday.co.uk##.xho-link
 radiotoday.com.au##.jobsstyle
 radiozet.pl###banner-radiostacja
 radiozet.pl##.adocean
@@ -67544,6 +67505,7 @@ xgrb.cn##.d_2016_ggw
 xh127.com###isubpi
 xh127.com###pzlhdd
 xh127.com###teinka
+xhaiwai.com##.baoru
 xhamster.com#$#.xh-scroll-disabled { overflow: visible !important; position: absolute !important; }
 xhamster.com#$#div[style*="adVideo"] { position: absolute!important; left: -3000px!important; }
 xhamster.com#@#.sponsorBottom
@@ -68886,7 +68848,7 @@ zznews.cn##.ad:not([style])
 |http://$image,other,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=dood.to|dood.watch
 |http://$image,script,stylesheet,subdocument,third-party,domain=mcloud.to
 |http://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=cloudvideo.tv
-|http://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net
+|http://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org|thepiratebay.vip|thepiratebay10.org
 |http://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=shink.me|shon.xyz
 |http://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=upstream.to
 |http://$image,script,subdocument,third-party,xmlhttprequest,domain=linkshrink.net
@@ -68918,7 +68880,7 @@ zznews.cn##.ad:not([style])
 |http://$script,subdocument,third-party,domain=youwatch.org
 |http://$script,subdocument,third-party,xmlhttprequest,domain=jkanime.net,badfilter
 |http://$script,subdocument,third-party,xmlhttprequest,domain=megaup.net
-|http://$script,third-party,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.com|dailyheadlines.net|foreverymom.com|gamersheroes.com|newser.com|reviveusa.com|rightwingnews.com|rightwingtribune.com|shark-tank.com|survivalnation.com|telexplorer.com.ar|thehayride.com|tosavealife.com|videogamesblogger.com|whatfinger.com
+|http://$script,third-party,domain=allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.com|dailyheadlines.net|gamersheroes.com|newser.com|reviveusa.com|rightwingnews.com|rightwingtribune.com|shark-tank.com|survivalnation.com|telexplorer.com.ar|thehayride.com|tosavealife.com|videogamesblogger.com|whatfinger.com
 |http://$script,third-party,xmlhttprequest,domain=amateurdumper.com|myxvids.com
 |http://$script,third-party,xmlhttprequest,domain=bc.vc
 |http://$script,third-party,xmlhttprequest,domain=downace.com
@@ -68942,7 +68904,6 @@ zznews.cn##.ad:not([style])
 |http://$script,third-party,xmlhttprequest,domain=sextube.com
 |http://$script,third-party,xmlhttprequest,domain=skidrowreloaded.com
 |http://$script,third-party,xmlhttprequest,domain=smutr.com
-|http://$script,third-party,xmlhttprequest,domain=streamvid.co
 |http://$script,third-party,xmlhttprequest,domain=txxx.com
 |http://$script,third-party,xmlhttprequest,domain=updatetube.com
 |http://$script,third-party,xmlhttprequest,domain=upload.ac
@@ -68951,14 +68912,13 @@ zznews.cn##.ad:not([style])
 |http://$script,third-party,xmlhttprequest,domain=watchvideo.us
 |http://$script,third-party,xmlhttprequest,domain=wetplace.com
 |http://$script,third-party,xmlhttprequest,domain=xkeezmovies.com
-|http://$script,third-party,xmlhttprequest,domain=xmovies8.es|xmovies8.ru|xmovies8.tv
 |http://$script,third-party,xmlhttprequest,domain=xmoviesforyou.com
 |http://$script,third-party,xmlhttprequest,domain=zone-anime.net
 |http://$script,xmlhttprequest,domain=eztv.io|eztv.tf|eztv.yt
 |http://$script,xmlhttprequest,domain=urlcash.net
 |http://$script,~third-party,xmlhttprequest,domain=sexgalaxy.net
 |http://$third-party,domain=adf.ly|s1-adfly.com
-|http://$third-party,xmlhttprequest,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.com|gamersheroes.com|newser.com|rightwingtribune.com|survivalnation.com|telexplorer.com.ar|thehayride.com|whatfinger.com
+|http://$third-party,xmlhttprequest,domain=allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.com|gamersheroes.com|newser.com|rightwingtribune.com|survivalnation.com|telexplorer.com.ar|thehayride.com|whatfinger.com
 |http://*.*.com/?q=*|*$script,third-party
 |http://*.cn/ad/
 |http://*.hk/ad/$domain=~sunmobile.com.hk
@@ -68998,7 +68958,7 @@ zznews.cn##.ad:not([style])
 |https://$image,script,stylesheet,subdocument,third-party,domain=aflamyz.com|movs4u.to,badfilter
 |https://$image,script,stylesheet,subdocument,third-party,domain=mcloud.to
 |https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=cloudvideo.tv
-|https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net
+|https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org|thepiratebay.vip|thepiratebay10.org
 |https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=series9.to,badfilter
 |https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=shink.me|shon.xyz
 |https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=topeuropix.net,badfilter
@@ -69033,7 +68993,7 @@ zznews.cn##.ad:not([style])
 |https://$script,subdocument,third-party,domain=youwatch.org
 |https://$script,subdocument,third-party,xmlhttprequest,domain=megaup.net
 |https://$script,subdocument,third-party,xmlhttprequest,domain=upload4earn.org
-|https://$script,third-party,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.com|dailyheadlines.net|foreverymom.com|gamersheroes.com|newser.com|reviveusa.com|rightwingnews.com|rightwingtribune.com|shark-tank.com|survivalnation.com|telexplorer.com.ar|thehayride.com|tosavealife.com|videogamesblogger.com|whatfinger.com
+|https://$script,third-party,domain=allthingsvegas.com|americasfreedomfighters.com|dailyheadlines.com|dailyheadlines.net|gamersheroes.com|newser.com|reviveusa.com|rightwingnews.com|rightwingtribune.com|shark-tank.com|survivalnation.com|telexplorer.com.ar|thehayride.com|tosavealife.com|videogamesblogger.com|whatfinger.com
 |https://$script,third-party,xmlhttprequest,domain=amateurdumper.com|myxvids.com
 |https://$script,third-party,xmlhttprequest,domain=bc.vc
 |https://$script,third-party,xmlhttprequest,domain=downace.com
@@ -69056,7 +69016,6 @@ zznews.cn##.ad:not([style])
 |https://$script,third-party,xmlhttprequest,domain=sextube.com
 |https://$script,third-party,xmlhttprequest,domain=skidrowreloaded.com
 |https://$script,third-party,xmlhttprequest,domain=smutr.com
-|https://$script,third-party,xmlhttprequest,domain=streamvid.co
 |https://$script,third-party,xmlhttprequest,domain=txxx.com
 |https://$script,third-party,xmlhttprequest,domain=updatetube.com
 |https://$script,third-party,xmlhttprequest,domain=upload.ac
@@ -69066,7 +69025,6 @@ zznews.cn##.ad:not([style])
 |https://$script,third-party,xmlhttprequest,domain=watchvideo.us
 |https://$script,third-party,xmlhttprequest,domain=wetplace.com
 |https://$script,third-party,xmlhttprequest,domain=xkeezmovies.com
-|https://$script,third-party,xmlhttprequest,domain=xmovies8.es|xmovies8.ru|xmovies8.tv
 |https://$script,third-party,xmlhttprequest,domain=xmoviesforyou.com
 |https://$script,third-party,xmlhttprequest,domain=xvideos.com,badfilter
 |https://$script,third-party,xmlhttprequest,domain=zone-anime.net
@@ -69074,8 +69032,8 @@ zznews.cn##.ad:not([style])
 |https://$script,xmlhttprequest,domain=urlcash.net
 |https://$script,~third-party,xmlhttprequest,domain=sexgalaxy.net
 |https://$third-party,domain=adf.ly|s1-adfly.com
-|https://$third-party,xmlhttprequest,domain=100percentfedup.com|allthingsvegas.com|americasfreedomfighters.com|gamersheroes.com|newser.com|rightwingtribune.com|survivalnation.com|telexplorer.com.ar|whatfinger.com
-|https://$third-party,xmlhttprequest,domain=diffen.com|dreamfilm.se|dumpaday.com|fastpic.ru|fileone.tv|filmlinks4u.is|firstrowau.eu|flashsx.tv|flashx.co|flashx.me|flashx.tv|gofirstrow.eu|ifirstrowit.eu|imagefap.com|keepvid.com|lolcounter.com|megaup.net|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|postimg.org|powvideo.net|roadracerunner.com|shorte.st|toptenz.net|tribune.com.pk|tune.pk|uberhavoc.com|vidhd.icu|vidmax.com|vidoza.net|vidtodo.com|webfirstrow.eu
+|https://$third-party,xmlhttprequest,domain=allthingsvegas.com|americasfreedomfighters.com|gamersheroes.com|newser.com|rightwingtribune.com|survivalnation.com|telexplorer.com.ar|whatfinger.com
+|https://$third-party,xmlhttprequest,domain=diffen.com|dreamfilm.se|fastpic.ru|fileone.tv|filmlinks4u.is|firstrowau.eu|flashx.tv|gofirstrow.eu|ifirstrowit.eu|imagefap.com|keepvid.com|megaup.net|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|postimg.org|powvideo.net|roadracerunner.com|shorte.st|toptenz.net|tribune.com.pk|tune.pk|uberhavoc.com|vidhd.icu|vidmax.com|vidoza.net|vidtodo.com|webfirstrow.eu
 |https://$xmlhttprequest,domain=swatchseries.to,badfilter
 |https://undefined/|$script,redirect=noopjs
 |javascript:*setTimeout$popup
@@ -71554,6 +71512,7 @@ zznews.cn##.ad:not([style])
 ||9kh5b.cn^$third-party
 ||9kjj.com/images/*.gif
 ||9kld.com/ad*.html
+||9kp.cc/js/bbk/
 ||9ksj.xyz^
 ||9ku.com/aaa/
 ||9nwg9sib9e.com^
@@ -72125,6 +72084,7 @@ zznews.cn##.ad:not([style])
 ||ad2.udn.com^
 ||ad20.net^$third-party
 ||ad2017.meo4.info^$third-party
+||ad28b2a5fe.com^
 ||ad2adnetwork.biz^$third-party
 ||ad2goal.com^$third-party
 ||ad2links.com/js/$third-party
@@ -73388,6 +73348,7 @@ zznews.cn##.ad:not([style])
 ||afvcugqaulh.co^$third-party
 ||afxvaqbbd.com^
 ||afy11.net^$third-party
+||afzcqqdhkn.com^
 ||afzfzhbk.com^
 ||afzhan.com/JavaScript/ad_Couplet.js
 ||ag1.zuszw.com^
@@ -74103,6 +74064,7 @@ zznews.cn##.ad:not([style])
 ||anatomicele.site^
 ||anbalxkcpwa.com^
 ||anbiarfehxyz.com^
+||ancesethod.top^
 ||ancestrydata.com/widget.html?$domain=findagrave.com
 ||andantask.online^$third-party
 ||andarcair.club^
@@ -75495,6 +75457,7 @@ zznews.cn##.ad:not([style])
 ||battmd168a1.xyz^
 ||battmd168a2.xyz^
 ||batwaxwok.site^
+||baudgassedtarot.com^
 ||bauthair.net^
 ||bayonetbikes.com^
 ||baypops.com^$popup,third-party
@@ -75842,6 +75805,7 @@ zznews.cn##.ad:not([style])
 ||bestdealfor20.life^$document,popup
 ||bestdealfor33.life^$document,popup
 ||bestdeals.ws^$third-party
+||bestdisplaycontent.com^
 ||bestdisplayformats.com^
 ||bestevernews.com^$third-party
 ||bestevernews.net^$third-party
@@ -75868,6 +75832,7 @@ zznews.cn##.ad:not([style])
 ||bestquickcontentfiles.com^$popup
 ||bestquickcontentfiles.com^$third-party
 ||bestreams.net/jquery.mn.js
+||bestrevenuenetwork.com^
 ||bestssn.com^$third-party
 ||bestvideo2019.xyz^
 ||bestvideo2019.xyz^$third-party
@@ -76433,6 +76398,7 @@ zznews.cn##.ad:not([style])
 ||bokeden.com^$third-party
 ||bokilora.com^
 ||bokrelri.com^
+||bolahepelm.com^
 ||bolasiar.live/wp-content/uploads/*/*/BANNER-*.gif
 ||bolili.info^
 ||bolizirs.com^$third-party
@@ -76668,6 +76634,7 @@ zznews.cn##.ad:not([style])
 ||brethrengenotypeteledyne.com^$third-party
 ||brettterpstra.com/wp-content/uploads/$third-party
 ||brgzqubngqbioh.com^
+||bricksdrumdaughterinlaw.com^
 ||bridgetrack.com^$third-party
 ||briefmenow.org/img/modal-prepaway.js
 ||brifinq.com/images/mynews240x120.gif
@@ -78007,6 +77974,7 @@ zznews.cn##.ad:not([style])
 ||chongdiantou.com/wp-content/uploads/2019/02/pzb.jpg
 ||chongxiaota.top^
 ||choogeet.net^$third-party
+||chooksee.net^
 ||choorgiw.net^
 ||chooseyour26.live^$document,popup
 ||chootsod.net^
@@ -78430,8 +78398,6 @@ zznews.cn##.ad:not([style])
 ||cmbestsrv.com^$third-party
 ||cmdy2020.com/js/300.js
 ||cmdy2020.com/js/waptbplay
-||cmdy5.com/js/300.js
-||cmdy5.com/js/waptbplay
 ||cmdy5.com/js/waptbplay2.js
 ||cmebevvtjdffc.com^
 ||cmelqqmywpmf.com^
@@ -78872,7 +78838,7 @@ zznews.cn##.ad:not([style])
 ||cosplayjav.pl/wp-content/themes/cosplayjav/js/fuckadblock
 ||costaction.com^$third-party
 ||costumecollartrustworthy.com^
-||cosxcos.cc/uploads/amybb/
+||cosxcos.cc/uploads/amy
 ||cotchaug.com^
 ||cotdrollback.com^
 ||cotnr.com^$image,third-party
@@ -81137,6 +81103,7 @@ zznews.cn##.ad:not([style])
 ||durazopa.com^
 ||durnowar.com^$third-party
 ||duroternout.info^$third-party
+||durpygckli.com^
 ||dushimj.com^$third-party
 ||dushiyanqing.net/mobile/lib/ccppcc.js
 ||dustumbs.pro^$third-party
@@ -81384,6 +81351,7 @@ zznews.cn##.ad:not([style])
 ||earncryptosaj786.com/TRX/libs/check.js
 ||earnestlybutcheritchy.com^
 ||earnify.com^$third-party
+||earsagreenj.top^
 ||earsawclearnph.site^
 ||earthincomprehensibleintrepid.com^
 ||easou.com/brandImage/ad/
@@ -81644,6 +81612,7 @@ zznews.cn##.ad:not([style])
 ||eeyy.com/templates/js/popback.js
 ||eeyy.com/uploadfile/img/beitou
 ||eeyy.com^$third-party
+||eezegrip.net^
 ||eezegrip.net^$third-party
 ||ef867a1be4f83922.com^
 ||efashingsoccu.club^
@@ -81657,6 +81626,7 @@ zznews.cn##.ad:not([style])
 ||effectwringoverreact.com^
 ||efficiencycypressregarding.com^
 ||effixtile-inceive.com^
+||effrontferty.top^
 ||efhlntnvpzi.com^
 ||eficdbhnojt.com^
 ||efishedo.info^$popup
@@ -81713,6 +81683,7 @@ zznews.cn##.ad:not([style])
 ||einsuran.com.cn^
 ||eisamay.com/emsag/
 ||eisamay.indiatimes.com/esmag/
+||eiteratebef.top^
 ||eitherewindoor.club^
 ||eiuuiormjc.com^
 ||eiv.baidu.com^
@@ -82825,6 +82796,7 @@ zznews.cn##.ad:not([style])
 ||fdgeen.com^$third-party
 ||fdkevkzm.com^
 ||fdmtoyfpjk.com^
+||fdnfnqgmfykg.com^
 ||fdofosytszg.com^
 ||fdoun.com^
 ||fdrgtt9edmej010.com^
@@ -83248,6 +83220,7 @@ zznews.cn##.ad:not([style])
 ||flowcodeapp.com^
 ||flower.com/img/lsh/
 ||flowertt.com^
+||flowerythug.com^
 ||flowplayer.space^
 ||flowwiththetide.xyz^
 ||flrdra.com^
@@ -83679,6 +83652,7 @@ zznews.cn##.ad:not([style])
 ||fuckuh.com/pr_ad.swf
 ||fuckyoucash.com^$third-party
 ||fuelbuck.com^$third-party
+||fuer.pro^
 ||fufoatch.com^
 ||fugger.ipage.com^$third-party
 ||fugqzoijct.com^
@@ -84924,6 +84898,7 @@ zznews.cn##.ad:not([style])
 ||gracaiko.net^
 ||gracaiko.net^$third-party
 ||graciamediaweb.com^$third-party
+||graduateavenue.com^
 ||graduateinjapan.com/affiliates/
 ||graduationtapingicicle.com^
 ||grafpedia.com^$third-party
@@ -86011,6 +85986,7 @@ zznews.cn##.ad:not([style])
 ||hinet.net/radio/getAdcode.do
 ||hingenerall.club^
 ||hinkslovel.top^
+||hioeb.com^
 ||hiouschron.club^
 ||hipals.com^$third-party
 ||hipersushiads.com^$popup,third-party
@@ -86219,6 +86195,7 @@ zznews.cn##.ad:not([style])
 ||honoursdashed.com^
 ||hoo1luha.com^$third-party
 ||hoochoor.com^$third-party
+||hoofstepfather.com^
 ||hoohavoa.com^
 ||hooify.com^
 ||hooktrap.xyz^$image,domain=clickurls.site
@@ -87829,6 +87806,7 @@ zznews.cn##.ad:not([style])
 ||ipaypay.cn^$third-party
 ||ipbiydocgvllrg.com^
 ||ipchinatelecom.com^
+||ipdxwtn.cn^
 ||ipeen.com.tw/js/frame/ad-actions.js
 ||ipeen.com.tw/photo/ad/
 ||ipesdpqmq.com^
@@ -88955,6 +88933,7 @@ zznews.cn##.ad:not([style])
 ||juejdkio.com^$third-party
 ||juejin.im/v3/web/wbbr/
 ||jugglu.com/content/widgets/$third-party
+||juggrounds.com^
 ||juhepen.com^$third-party
 ||juiceads.net^$popup,third-party
 ||juiceadv.com^$third-party
@@ -90009,6 +89988,7 @@ zznews.cn##.ad:not([style])
 ||laozuo.org/wp-content/themes/weisaysimple/js/content40width.js
 ||laozuo.org/wp-content/themes/weisaysimple/js/index-top.js
 ||laozuo.org/wp-content/themes/weisaysimple/js/sidebar
+||laptalesdray.com^
 ||laratlacrestot.pro^
 ||lardydanger.com^
 ||laredintonw.space^
@@ -90793,7 +90773,6 @@ zznews.cn##.ad:not([style])
 ||lohxvwjpvl.com^
 ||lokipodi.com^
 ||lokvel.ru^$popup,third-party
-||lolcounter.com^$csp=script-src 'self' * 'unsafe-inline'
 ||loldyttw.com/blr.js
 ||loldyttw.com/skin/lol/js/ds.js
 ||loldyttw1.com/jds
@@ -92198,6 +92177,7 @@ zznews.cn##.ad:not([style])
 ||misdem.pro^
 ||miserincarnatestack.com^
 ||miserintesto.site^
+||misfireploughsquat.com^
 ||misosoup.io^$third-party
 ||missevan.com^$domain=jijidown.com
 ||missingarchery.com^
@@ -93741,6 +93721,7 @@ zznews.cn##.ad:not([style])
 ||njyyk.com^
 ||nk26uvjrz0tt.com^
 ||nk295.cn^
+||nkjomdiztdy.com^
 ||nkk31jjp.com^$third-party
 ||nklrfqgz.com^
 ||nklwltrpzhy.com^
@@ -93791,6 +93772,7 @@ zznews.cn##.ad:not([style])
 ||nmqdnykj.com^
 ||nmrlcnuok.com^
 ||nmtouzi.com^
+||nmwalbwu.com^
 ||nmwzrcdzbrjj.com^
 ||nmywwgnnkmud.com^
 ||nnd.xyssp.com^$third-party
@@ -94050,6 +94032,7 @@ zznews.cn##.ad:not([style])
 ||ntvsw.com^
 ||ntxiangtai.com^
 ||ntymurmud.top^
+||ntzfly.cn^
 ||nu-bay.com/static/js/abb.js
 ||nu-bay.com/static/js/born.js
 ||nu2.nu/gfx/sponsor/
@@ -95050,6 +95033,7 @@ zznews.cn##.ad:not([style])
 ||oxybe.com^$popup,third-party
 ||oxybe.com^$third-party
 ||oxygenboutique.com/Linkshare/
+||oxygenpurpleairtight.com^
 ||oxzffweyw.com^
 ||oycslia.xyz^
 ||oycslib.xyz^
@@ -95831,6 +95815,7 @@ zznews.cn##.ad:not([style])
 ||phvmax.com^
 ||phvmjnkysnj.com^
 ||physicianhung.com^
+||physicsseparately.com^
 ||physoi.eu^$third-party
 ||phywyzpugswttb.com^
 ||pi920.com^
@@ -96663,6 +96648,7 @@ zznews.cn##.ad:not([style])
 ||poweradvertising.co.uk^$third-party
 ||powerapp.download^
 ||poweredbyliquidfire.mobi^$popup
+||powerfulrumbleshrewd.com^
 ||powerlinks.com^$third-party
 ||powforums.com/js/hta.php
 ||powisgadhot.com^
@@ -96857,6 +96843,7 @@ zznews.cn##.ad:not([style])
 ||private.camz.$third-party
 ||private.com/banner/
 ||private4.com^$third-party
+||privatede.top^
 ||privatehomeclips.com/privatehomeclips.php?t_sid=
 ||privateinternetaccess.com/affiliate.min.js
 ||privateinternetaccess.com^$script,third-party,xmlhttprequest
@@ -97249,6 +97236,7 @@ zznews.cn##.ad:not([style])
 ||punxdxucmi.com^
 ||pupsotdub.com^
 ||pupudy.com/images/wxrj.gif
+||purchaserresidence.com^
 ||purdewee.net^$third-party
 ||pureadexchange.com^$popup,third-party
 ||pureandsexy.org/banner/
@@ -98482,6 +98470,7 @@ zznews.cn##.ad:not([style])
 ||redtube.com^*/banner/
 ||redtubefiles.com^*/banner/
 ||redtubefiles.com^*/skins/
+||reducatedc.top^
 ||reductingds.club^
 ||reduxmediagroup.com^$third-party
 ||redzxxxtube.com^$third-party
@@ -98785,6 +98774,7 @@ zznews.cn##.ad:not([style])
 ||rhombusads.com^$third-party
 ||rhotonaid.com^
 ||rhtag.com^$third-party
+||rhubarbsnagtip.com^
 ||rhudsplm.com^
 ||rhvdsplm.com^
 ||rhythmxchange.com^$third-party
@@ -99490,6 +99480,7 @@ zznews.cn##.ad:not([style])
 ||sancdn.net^$third-party
 ||sanddevelto.fun^
 ||sandroprabratm.info^$third-party
+||sangwu8.com/xin/
 ||sanitwealth.com^
 ||sanjinma.com^
 ||sankakucomplex.com/*as/s.js
@@ -100277,6 +100268,7 @@ zznews.cn##.ad:not([style])
 ||shionmanc.club^
 ||shiptoud.com^
 ||shitiphu.com^$third-party
+||shiverconventwilful.com^
 ||shiyaokejishanghai.com^
 ||shjmjmds.com^
 ||shjrwh.cn^
@@ -101622,6 +101614,7 @@ zznews.cn##.ad:not([style])
 ||stfly.io/download.png
 ||stfowevsn.com^
 ||stheadline.com/images/heading-jm
+||sthingtonwr.top^
 ||sthourselft.top^
 ||stickyadstv.com^$third-party
 ||sticoats.net^$third-party
@@ -101932,6 +101925,7 @@ zznews.cn##.ad:not([style])
 ||svintificaneinevi.info^$third-party
 ||svjat0rx99.com^$third-party
 ||svlu.net^$third-party
+||svolution.top^
 ||svr.lnk.news/click.php$popup
 ||svrybecqxgdq.com^
 ||svsatrerbxh.com^
@@ -102783,6 +102777,7 @@ zznews.cn##.ad:not([style])
 ||thxczhfzad.com^$third-party
 ||thxnr.com^
 ||thxsqei.cn^
+||thyoaflucid.com^
 ||thyoaflucid.com^$third-party
 ||thyrsi.com^$domain=cnscg.com
 ||thywhapupi.pro^
@@ -103113,7 +103108,7 @@ zznews.cn##.ad:not([style])
 ||toodlepork.com^
 ||tool-site.com^$third-party
 ||tool.acces-vod.com^
-||toolfk.com/common/11/990-100.jpg
+||toolfk.com/common/11/
 ||toolfk.com/common/cp.js
 ||toolfk.com/common/other/11.png
 ||toolfk.com/tools/images/vps/
@@ -103268,6 +103263,7 @@ zznews.cn##.ad:not([style])
 ||touimg.com^$domain=dyzd1.com
 ||toujing4.top^
 ||toujing5.top^
+||toujing8.top^
 ||tour.mrskin.com^$popup,third-party
 ||tours.imlive.com^$third-party
 ||toutiao.haotui.com/data/js/0.js
@@ -106468,7 +106464,7 @@ zznews.cn##.ad:not([style])
 ||wpa.b.qq.com/cgi/wpa.php?
 ||wpadsx.com^$third-party
 ||wpbhnyjej.com^
-||wpengine.netdna-cdn.com^$image,domain=100percentfedup.com|allthingsvegas.com|dailyheadlines.net|foreverymom.com|newser.com|shark-tank.com|tosavealife.com|videogamesblogger.com
+||wpengine.netdna-cdn.com^$image,domain=allthingsvegas.com|dailyheadlines.net|newser.com|shark-tank.com|tosavealife.com|videogamesblogger.com
 ||wpjam.com/wpjam/banner/qiniu.png
 ||wpkcfajkeytrro.com^
 ||wples.com/pc/common.js
@@ -108423,6 +108419,7 @@ zznews.cn##.ad:not([style])
 ||yts.mx/atag*.js
 ||yts.mx/ypt3.js
 ||ytsa.net^$third-party
+||ytse*.top/Static/Home/GongGao/img/
 ||yttvnnvklf.com^
 ||yttz113.com^
 ||ytwisqvoiugzb.com^
