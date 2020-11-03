@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202011020151
+! Version: 202011030118
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20869
+! Lenth = 20880
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -2715,7 +2715,7 @@ $websocket,domain=5nj.com|cechi8.com
 55188.com###center-pic
 55188.com###top-pic
 55188.com##.ggdistich
-55188.com##A[href*="/gg-link."]
+55188.com##a[href*="/gg-link."]
 55188.com##a[href^="http"]:not([href*=".55188."]) > img[src*="/portal/"]
 55188.com,g138.com##.gg_head_l
 55188.com,g138.com##.gg_head_m
@@ -2725,6 +2725,7 @@ $websocket,domain=5nj.com|cechi8.com
 5588.tv##.ringhttu
 55haitao.com##.bbs-bottom-popup
 55haitao.com##.global-dialog
+55shuba.com###botDiv
 56.com##.goods_show
 56.com##.sohu-app
 56.com##.x-download-panel
@@ -5065,6 +5066,7 @@ dailiantong.com##.appDwn
 dailynews.sina.com##.TopNav + table
 dajie.com##.envelop_layer
 dajie.com##.register_layer
+dalipan.com##.hongbao-wrap
 danlan.org##.ad98090
 danyang.com###global-hd > div[align="center"]
 danzhaowang.com##.qxzx_scho
@@ -5995,8 +5997,6 @@ hb.qq.com##div[style*="width:960px; height:90px;"]
 hb.qq.com##div[style=" width:300px; height:250px; overflow:hidden"]
 hb163.cn##.ad_panel_980
 hbee.edu.cn#@#.headerad
-hboav.com###AdTitle
-hboav.com###AdTitle + table
 hboav.com###inplayer
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
 hboav.com#%#//scriptlet("set-constant", "onload", "null")
@@ -7690,7 +7690,7 @@ proewildfire.cn##.comiis_nav ~ a
 proginn.com##div[style*="width:1000px;height: 250px;"]
 programmer-club.com.tw##A[href*="/ADRedirect."]
 psahz.com#@#.ad_960
-psdhtml.cn###myggnx
+psdhtml.cn##div[role^="structure_"]
 ptbus.com##.content14
 ptbus.com##.weixin_ad
 ptbus.com,weather.com.cn###duilian
@@ -8326,6 +8326,7 @@ suizhoushi.com##.sznew_ad_top
 suizhoushi.com##div[id^="sznew_ad"]
 suning.com###sn-sidebar-change-code
 suning.com##.c2c-recommend
+sunnylife.tw###custom_html-5
 suopao.org##.t5[style^="margin-top:8px;"]
 suopao.org##.tr3.t_one[onmouseout]
 superlife.ca##.sidebar-ad-zone
@@ -10463,6 +10464,7 @@ zznews.cn##.ad:not([style])
 ||51cto.com/iframe/get-station-ads
 ||51cto.com/js/activity_pop.js
 ||51dengshan.cn^
+||51dianji.cn^
 ||51dmn.top^
 ||51dns.tv/pc-
 ||51fanli.net/misc/images/invite-v4/banner.gif
@@ -10560,6 +10562,7 @@ zznews.cn##.ad:not([style])
 ||55803.net^$third-party
 ||5588.tv/js/piaofuImg.js
 ||55aaee.com/detail/
+||55shuba.com/files/article/html/
 ||55sky.com/js/diecuo/
 ||565882.com^$third-party
 ||56ads.com/js/main.js
@@ -10743,6 +10746,8 @@ zznews.cn##.ad:not([style])
 ||6park.com^$subdocument
 ||6ped2nd3yp.com^
 ||6rrcc.com/style/jquery.
+||6rrmm.com/style/bootstrap.js
+||6rrmm.com/style/jquery.
 ||6shuge.com^
 ||6tj.com/ent/fkbg/20191220/a46326c6a57fc066a6d985ceabdc42f6.jpg
 ||6travel.com^$third-party
@@ -12279,6 +12284,7 @@ zznews.cn##.ad:not([style])
 ||book9.net^$third-party
 ||bookben.com/js/m/wap.js
 ||booking.com^$domain=honglingjin.co.uk
+||booking.com^$domain=sunnylife.tw
 ||books.com.tw/exep/ap/$third-party
 ||books.com.tw/web/apActivityStick?
 ||boomgamescloud-cdn.cn^
@@ -12771,6 +12777,7 @@ zznews.cn##.ad:not([style])
 ||click.taobao.com^$popup,domain=steamcn.com
 ||click.tianyaui.com^
 ||client.88tours.com^
+||climbcoder.com^
 ||clmmw.com^
 ||cloudad.asia^$third-party
 ||clouddn.com/960x60.gif
@@ -12785,8 +12792,6 @@ zznews.cn##.ad:not([style])
 ||cmdy2020.com/js/300.js
 ||cmdy2020.com/js/waptbplay
 ||cmm.xmfish.com^
-||cms.fx678.com^
-||cms.fx678img.com^
 ||cmsjs.eastmoney.com^$subdocument
 ||cmslayue.com^
 ||cn-3drp.com^
@@ -12914,7 +12919,7 @@ zznews.cn##.ad:not([style])
 ||coostack.com^$third-party
 ||cornplus.cn^
 ||cosoyoo.com^
-||cosxcos.cc/uploads/amy
+||cosxcos.cc/uploads/*my
 ||couas.com^
 ||count.candou.com^
 ||count.enet.com.cn^
@@ -13342,6 +13347,7 @@ zznews.cn##.ad:not([style])
 ||dmpsj.cn^
 ||dmqapp.com^
 ||dmr.cnhoney.com^
+||dms.fx678.com^
 ||dmswhw.cn^
 ||dmtrck.com^$third-party
 ||dmym.aixyy.com^
@@ -15909,6 +15915,8 @@ zznews.cn##.ad:not([style])
 ||kwflvcdn.000dn.com^*.flv
 ||kwjkd.com^
 ||kwntistyuogo.com^
+||kxd56.com/qq.js
+||kxd56.com/tg.gif
 ||kxji.com^$third-party
 ||kxrxh.com^
 ||kxvuv.com^
@@ -16591,6 +16599,7 @@ zznews.cn##.ad:not([style])
 ||monnsutogatya.com/himg/monst/
 ||moodoocrv.com.cn^
 ||moogos.com^$third-party
+||moolkv.cn^
 ||moonbbs.com/data/attachment/portal/
 ||moonwish.com.cn^
 ||mop.com/js/common/watermark.js
@@ -17844,6 +17853,7 @@ zznews.cn##.ad:not([style])
 ||same*.stockstar.com^
 ||same.chinadaily.com.cn^
 ||same.eastmoney.com^
+||sangwu8.com/tu/
 ||sangwu8.com/xin/
 ||sanitwealth.com^
 ||sanjinma.com^
@@ -19570,6 +19580,7 @@ zznews.cn##.ad:not([style])
 ||wxbdfm.com^
 ||wxdown.net/images/*.gif
 ||wxhdwy.com^
+||wxiansen.cn^
 ||wxktv.cn^
 ||wxmg2016.com^
 ||wxrb.com/g/js/baidu.cbjs.m.js
