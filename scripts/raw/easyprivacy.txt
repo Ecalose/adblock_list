@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: a/1EfTfI9D6DMYhaDz+qOA
-! Version: 202011070111
+! Checksum: o/s+Lxz/6ypRsEwX6PkVew
+! Version: 202011080111
 ! Title: EasyPrivacy
-! Last modified: 07 Nov 2020 01:11 UTC
+! Last modified: 08 Nov 2020 01:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -90,6 +90,7 @@
 -page-analytics.
 -pixel.*?uuid=
 -pixelfront-analytics.
+-quantcast-measurement.
 -realtime-logging-
 -rttracking.
 -sa-tracker-
@@ -7582,6 +7583,7 @@ _mongo_stats/
 ||rstg.io^$third-party
 ||rsvpgenius.com^$third-party
 ||rtb123.com^$third-party
+||rtbiq.com^$third-party
 ||rtmark.net^$third-party
 ||rtox.net^$third-party
 ||rtrk.co.nz^$third-party
@@ -7972,6 +7974,7 @@ _mongo_stats/
 ||trackingpro.pro^$third-party
 ||trackkas.com^$third-party
 ||trackmethod.com^$third-party
+||trackmstr.com^$third-party
 ||trackmytarget.com^$third-party
 ||trackmyusers.com^$third-party
 ||trackmyweb.net^$third-party
@@ -8110,6 +8113,7 @@ _mongo_stats/
 ||vendri.io^$third-party
 ||ventivmedia.com^$third-party
 ||vepxl1.net^$third-party
+||vercel-analytics.com^$third-party
 ||vertical-leap.co.uk^$third-party
 ||vertical-leap.net^$third-party
 ||verticalscope.com^$third-party
@@ -15281,6 +15285,7 @@ _mongo_stats/
 ||u45.pnc.com^
 ||u46.pnc.com^
 ||u47.pnc.com^
+||ua.indianexpress.com^
 ||ucoz.com/stat/
 ||ucweb.com/collect/
 ||ui-portal.com/1and1/mailcom/s?
@@ -15783,6 +15788,7 @@ _mongo_stats/
 ||northwichguardian-gb.northwichguardian.co.uk^
 ||orionis.techradar.com^
 ||oxfordmail-gb.oxfordmail.co.uk^
+||pcgamer-gb.pcgamer.com^
 ||penarthtimes-gb.penarthtimes.co.uk^
 ||prestwichandwhitefieldguide-gb.prestwichandwhitefieldguide.co.uk^
 ||quantcast.mgr.consensu.org/cmp.js
@@ -15828,6 +15834,7 @@ _mongo_stats/
 ||trustarc.mgr.consensu.org/get?
 ||ttauri.bikeperfect.com^
 ||ttauri.creativebloq.com^
+||ttauri.guitarworld.com^
 ||ttauri.laptopmag.com^
 ||ttauri.livescience.com^
 ||ttauri.loudersound.com^
@@ -16247,7 +16254,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||comdirect.de/ccf/img/ecrm2.gif?
 ||commerzbank.de/companion/cnt.php?
 ||comparis.ch^*/Tracking/
-||computerbase.de/api/stats?
+||computerbase.de/api/nlytcz
 ||computerbild.de/images/pic.gif?
 ||count.merian.de^
 ||count.rtl.de^
@@ -17111,7 +17118,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||fb.ru/stat/
 ||fotostrana.ru/start/
 ||hh.ru/analytics
-||hh.ru/stat
+||hh.ru/stat?
 ||irecommend.ru/collect/
 ||jetvis.ru/stat/
 ||kiks.auto.ru^
@@ -17324,7 +17331,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ad.crwdcntrl.net^$script,domain=investopedia.com
 @@||adblockanalytics.com/ads.js|
 @@||addgene.org/headers/blat/js/analyze.js
-@@||adobedtm.com/*-source.min.js$script,domain=kroger.com
+@@||adobedtm.com/*-source.min.js$script,domain=dollargeneral.com|kroger.com
 @@||adobedtm.com/*_source.min.js$script,domain=kroger.com
 @@||adobedtm.com/extensions/$script,domain=atresplayer.com
 @@||adobedtm.com/launch-$script
@@ -17382,6 +17389,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||bootcamp.mit.edu/js/angulartics-google-analytics.min.js
 @@||boxberry.ru/local/templates/site-boxberry/js/tracking_service.js$xmlhttprequest
 @@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|crrowd.com|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|theangryviking1776.com|thepittsburghoratory.org|washingtonpost.com|wix.com
+@@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||bugzilla.mozilla.org^*/extensions/TrackingFlags/$script
 @@||c.paypal.com/da/r/fb.js$script
 @@||c212.net^$image,domain=prnewswire.com
@@ -17583,6 +17591,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||nyt.com/bi/js/tagx/tagx.js$domain=nytimes.com
 @@||nytimes.com^*/EventTracker.js
 @@||oakley.com^*/tealium.js
+@@||oceanstatejoblot.com^*/widget/osjl-google-analytics/$script,~third-party
 @@||office365.com^*/owa.Analytics.js$script
 @@||omtrdc.net/cdn/target.js$script,domain=swisscom.ch
 @@||omtrdc.net/crossdomain.xml$domain=crackle.com

@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202011070104
+! Version: 202011080110
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24030
+! Lenth = 24040
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -121,6 +121,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 -pcre-js-gen.herokuapp.com/tracking-event|
 -pixel.*?uuid=
 -pixelfront-analytics.
+-quantcast-measurement.
 -realtime-logging-
 -rttracking.
 -sa-tracker-
@@ -5717,7 +5718,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||addicted-sports.com/piwik/piwik.js
 @@||addthisedge.com/live/$xmlhttprequest,domain=serialomaniak.pl
 @@||adidas.com^*/adidasAnalytics.js?
-@@||adobedtm.com/*-source.min.js$script,domain=kroger.com
+@@||adobedtm.com/*-source.min.js$script,domain=dollargeneral.com|kroger.com
 @@||adobedtm.com/*_source.min.js$script,domain=kroger.com
 @@||adobedtm.com/extensions/$script,domain=atresplayer.com
 @@||adobedtm.com/launch-$script
@@ -5938,6 +5939,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||broadcastt.xyz/apps/$websocket
 @@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|crrowd.com|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|theangryviking1776.com|thepittsburghoratory.org|washingtonpost.com|wix.com
 @@||browserscope.org/user/beacon/*?callback=$script,domain=jsperf.com
+@@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||bt.com^*/touchclarity/homepage/omtr_tc.js
 @@||btstatic.com/tag.js$domain=oralb.de
 @@||buffaloshop.de^*/webtrekk.js
@@ -7208,6 +7210,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||nytimes.com^*/EventTracker.js
 @@||o2.de/resource/js/tracking/ntpagetag.js
 @@||oakley.com^*/tealium.js
+@@||oceanstatejoblot.com^*/widget/osjl-google-analytics/$script,~third-party
 @@||odb.outbrain.com^$domain=nypost.com
 @@||odcdn.com^*/cm.js
 @@||office365.com^*/owa.Analytics.js$script
@@ -11421,6 +11424,7 @@ znak.com##.relap
 ||computerarts.co.uk/*.php?cmd=site-stats
 ||computerbase.de/api/consent-analytics
 ||computerbase.de/api/nlytcs
+||computerbase.de/api/nlytcz
 ||computerbase.de/api/stats?
 ||computerbild.de/images/pic.gif?
 ||computershopper.com/wsgac/
@@ -14493,7 +14497,7 @@ znak.com##.relap
 ||hgcdn.net/?$third-party
 ||hh.ru/analytics
 ||hh.ru/analytics^
-||hh.ru/stat
+||hh.ru/stat?
 ||hh.ru/stat?url=
 ||hi.hellobar.com^
 ||hiconversion.com^$third-party
@@ -17844,6 +17848,7 @@ znak.com##.relap
 ||pc-agency24.de^$third-party
 ||pc1.io^$third-party
 ||pcfreunde.de/wb.
+||pcgamer-gb.pcgamer.com^
 ||pcgames.de/webservices/socialShareCount.php
 ||pcgames.de^*/remotecampaigntracker.php
 ||pcgameshardware.de/webservices/socialShareCount.php
@@ -19189,6 +19194,7 @@ znak.com##.relap
 ||rtbauction.com^$third-party
 ||rtbcx.jp.canon.com/bcx/ap/$image
 ||rtbf.be/log
+||rtbiq.com^$third-party
 ||rte.ie/player/playertracker.js
 ||rtfn.net^$third-party
 ||rtl.be^*/trkfblk.js
@@ -22211,6 +22217,7 @@ znak.com##.relap
 ||trackkas.com^$third-party
 ||trackla.stackla.com^
 ||trackmethod.com^$third-party
+||trackmstr.com^$third-party
 ||trackmytarget.com^$third-party
 ||trackmyusers.com^$third-party
 ||trackmyweb.net^$third-party
@@ -22452,6 +22459,7 @@ znak.com##.relap
 ||tt.ttarget.ru^$third-party
 ||ttauri.bikeperfect.com^
 ||ttauri.creativebloq.com^
+||ttauri.guitarworld.com^
 ||ttauri.laptopmag.com^
 ||ttauri.livescience.com^
 ||ttauri.loudersound.com^
@@ -22574,6 +22582,7 @@ znak.com##.relap
 ||u47.pnc.com^
 ||u5c93.com^$third-party
 ||u5e.com^$third-party
+||ua.indianexpress.com^
 ||uadx.com^$third-party
 ||uai.com.br^*/analytics.js
 ||uapoisk.net^$third-party
@@ -22855,6 +22864,7 @@ znak.com##.relap
 ||venusgloria.com^$third-party
 ||veoxa.com/get_trackingcode.
 ||vepxl1.net^$third-party
+||vercel-analytics.com^$third-party
 ||verifier.live^
 ||verify.snssdk.com^$xmlhttprequest,redirect=nooptext
 ||verifypow.com^$third-party
