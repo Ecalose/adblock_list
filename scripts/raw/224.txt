@@ -1,8 +1,8 @@
-! Checksum: iAZFTFJ+32fNPXaS2NkjQw
+! Checksum: bG520xNiXmjMGdkRXFRneg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.12.78
-! TimeUpdated: 2020-11-08T04:03:14+03:00
+! Version: 2.0.12.83
+! TimeUpdated: 2020-11-09T03:30:56+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1371,6 +1371,7 @@ _xiuno_com_ad/
 ##.overBanner.dowloadBtn
 ##.pagead_3
 ##.pagecon + .ad1
+##.pasuAD
 ##.pcd_ad
 ##.pcgg
 ##.photo-two > a[onclick^="_czc."]
@@ -1560,7 +1561,6 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
-##.pasuAD
 ##script + #rbbox
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
@@ -3921,6 +3921,7 @@ ubmcmm.baidustatic.com
 ||xi0021.com^
 ||xiadaxiong.com^
 ||xiald.com^
+||xianguangergaozhi.com^
 ||xiaobiaoucai.cn^
 ||xiaoyida.com^$third-party
 ||xiarikui08.com^
@@ -7783,6 +7784,7 @@ _yad_jsonp_
 ||phpernote.com/ali
 ||phpstudyimg.com/all/hrl.gif
 ||phpstudyimg.com/all/renrenxiaxuan980.gif
+||phpstudyimg.com/all/xiaojieqiantie.gif
 ||pianba.tv/api/*.js
 ||pianjicdn.com^*.php
 ||piaodown.com/xtm/
@@ -9249,9 +9251,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||phpstudyimg.com/all/xiaojieqiantie.gif
 szxx.com.cn###A0
-sisixxb.com##.preflink
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10782,7 +10782,7 @@ lahoo.ca##.a_af
 hcbbs.com##.a_cn_pb
 baixing.com##.a_d_s_hidden_link
 wmzhe.com##.a_dwrap
-cnpingpang.com,jdbbs.com##.a_h
+0516city.com,cnpingpang.com,jdbbs.com##.a_h
 17tui.cc,tropica.cn##.a_mu1
 muchong.com##.a_subject[href^="creditshow."]
 163.com##.a_topad
@@ -12663,6 +12663,7 @@ chongbuluo.com##.postright
 zhujiboke.com##.posts-top-cjtz
 ifxtx.com##.ppsy_content758
 7hcn.com##.pr > a[href^="http"]:not([href^="http://www.7hcn."])
+sisixxb.com##.preflink
 javdove.com,javdove2.club##.preroll-adv-popup-overlay
 pcstore.com.tw##.priority
 pcstore.com.tw##.priority1
@@ -13146,6 +13147,7 @@ loldk.com##.tools-recommend
 meizhou.com##.top + .w1000
 toolfk.com##.top > .desc
 2345.com,hao774.com##.top > .fred
+toolfk.com##.top > div[style="font-size: 12px;text-align: center;margin-top:6px;"]
 midifan.com##.top-aaa
 10jqka.com.cn##.top-ad-box
 baidu.com##.top-ad-cont
@@ -16523,6 +16525,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||0224fqpowiuxybnmvdfghj.xyz^
 ||0234408.cn^
 ||024chaoren.cn^
+||027whht.com^
 ||0302woeuxcbrnxcvsdfghu.xyz^
 ||0309fuweopermncvbnazdf.xyz^
 ||0316dieroxiemzfjwmapk.xyz^
@@ -17451,6 +17454,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||isgow.com^
 ||ishowms.com^
 ||itcoder.top^
+||ixshklh.cn^
 ||iyaos.com^
 ||iyouhu.cn^
 ||izuis.com^
@@ -17764,6 +17768,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||nanyangqiaoxiang.cn^
 ||naolifanghealth.com^
 ||nashlin.top^
+||nazhenkj.com^
 ||nbhotpo.com^
 ||ncoyqc.com^
 ||nd59w.cn^
@@ -17925,6 +17930,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||qhdop.com^
 ||qhxcdmfj.cn^
 ||qi-shi.top^
+||qianqianxsw.com^*xhtml
 ||qianrenge.cc/qian/
 ||qianyuntengyue.com^
 ||qiaopiguniang.com^
