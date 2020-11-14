@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202011130142
+! Version: 202011140134
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19077
+! Lenth = 19081
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -247,13 +247,13 @@
 123cha.com##div[style^="float:left;margin:8px 0;width:790px;border:1px dashed #ccc;"]
 123du.cc,bokon.net###float_r
 123du.cc,bokon.net,eol.cn###float_l
-12580sky.com##.adn
 12580sky.com##.index-ad
 12580sky.com##.logo-right-decation
 12580sky.com##.xiaogao
 12580sky.com##.xiaogao2
 12580sky.com##a[href*="/ad."]
 12580sky.com#?#li[class]:-abp-has(> .mark > h3 > a:-abp-contains(/广告|推荐/))
+12580sky.com,ccoo.cn,hackhome.com,vipcn.com##.adn
 12580sky.com,chinaz.com,ofweek.com,yawin.cn##.adtext
 12580sky.com,xbyuan.com##.dad
 126.com,163.com##.gWel-promt
@@ -2747,7 +2747,6 @@ ccb.com.cn###leftSideAd
 cccpan.com,ys168.com###zdy_wz0
 ccoo.cn##.ad-wrap1
 ccoo.cn##.n_adbox
-ccoo.cn,hackhome.com,vipcn.com##.adn
 cctime.com###ad_three
 cctime.com##.nav_banner
 cctime.com,ck101.com,doyo.cn###top_banner
@@ -8770,6 +8769,7 @@ zznews.cn##.ad:not([style])
 ||5qqn.com/js/js/
 ||5s98.com/img/
 ||5t4o.cn^
+||5tps.com/m_jss/bd_
 ||5vdd.com/360
 ||5vdd.com/ktt.png
 ||5vdd.com/mobile.jpg
@@ -11258,6 +11258,7 @@ zznews.cn##.ad:not([style])
 ||daima.ijq.tv^
 ||daima.ysdui.com^
 ||daima.yutou123.cn^
+||daima.yuzhulin.com^
 ||daiwofei2019.top^
 ||daiyanbao.com/flash/md
 ||daizhankj.cn^
@@ -14241,7 +14242,7 @@ zznews.cn##.ad:not([style])
 ||lianmeng.360.cn^$domain=~lianmeng.360.cn
 ||lianmeng.la/abc/
 ||lianmeng.la/ad1/
-||liantu.cn/script/index.asp
+||liantu.cn/script/
 ||lianty.com/getImg?id=
 ||lianyexiuchang.cc/img/2f2372e9bf205df0.png
 ||lianyexiuchang.cc/img/97da89108eb659fc.gif
@@ -16074,6 +16075,7 @@ zznews.cn##.ad:not([style])
 ||script-bd.baixing.net^
 ||scriptcc.cc^
 ||scupio.com/adpinline/
+||scvxgm.cn^
 ||scw0.com^
 ||scw98.com/ADMM.
 ||scw98.com/js/Index
@@ -17484,6 +17486,7 @@ zznews.cn##.ad:not([style])
 ||wangzhanmeng.com/link/link.html
 ||wanmcy.com/toolsda/
 ||wanmei.com/public/js/stat.js
+||wannuochongkong.com^
 ||wanrenshe.com^
 ||wantaico.com^
 ||wantfour.com^
@@ -17979,6 +17982,7 @@ zznews.cn##.ad:not([style])
 ||xinshijue6080.com/Runtime/js/
 ||xinshijue6080.com/gg
 ||xinshijuecn.com/js/home/
+||xintaizhaoming.com^
 ||xinuocp666.com^
 ||xinwenren.com/index.php?m=poster&
 ||xinyi.com/Public/config/Couplet/Index39.js

@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202011130142
+! Version: 202011140134
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24060
+! Lenth = 24070
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1045,6 +1045,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /amazon-affiliate-
 /amdhfp/a.do?param$image
 /amdhfp/t.do?id$image
+/amp-access/ping?
 /amp-analytics-
 /amp-analytics/*
 /amp-geo-
@@ -3680,6 +3681,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /ping/pageload?
 /ping/show?
 /ping?h=
+/ping?rid=
 /ping?spacedesc
 /ping?token=
 /ping?utm_
@@ -6357,6 +6359,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||geo.ngtv.io/locate/$domain=hbo.com
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=ibanez.com
+@@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=gmx.com
+@@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=mail.com
 @@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=tvn24.pl
 @@||geolocation.onetrust.com^$domain=popsugar.co.uk
 @@||geolocation.stroeerdp.de^$domain=t-online.de
@@ -7325,7 +7329,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||playtheend.com/api/v1/players/heatmap.json?
 @@||playty.com/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||pleisty.com^$domain=evomag.ro
-@@||plugins.matomo.org/heatmapsessionrecording/$image,~third-party
+@@||plugins.matomo.org^$image,~third-party
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
 @@||pnas.org^*/fingerprint.js$script,~third-party
 @@||pokemonblackwhite.com^*/jquery.google-analytics.js
@@ -7695,6 +7699,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||trc.taboola.com/msn-msn/*$domain=msn.com
 @@||trc.taboola.com/samsung-browser-feed$domain=samsung.com|thestartmagazine.com
 @@||trc.taboolasyndication.com^$domain=bloomberg.com|breitbart.com|nme.com|slatev.com
+@@||trueaccordengage.com/tae/api/v1/collectors/$~third-party
 @@||try.abtasty.com/403fb16c20596e4691fbe9ec5db9720e.js$domain=shop.euromaster.de
 @@||try.abtasty.com/78cb84f9b3158bdce6932109a6d7c7c1.js$domain=tf1.fr
 @@||turkcelltvplus.com.tr^*/google_analytics/main.js?
@@ -7708,7 +7713,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||udottraffic.utah.gov/javascripts/Piwik.js
 @@||uefa.com/inc/js/core/projects/statistics/statistics.js?$script
 @@||ugdturner.com/xd.sjs$domain=tbs.com
-@@||uid.mavencoalition.io^$xmlhttprequest,domain=thestreet.com
+@@||uid.mavencoalition.io^$xmlhttprequest,domain=mtonews.com|thestreet.com
 @@||uim.tifbs.net/js/$script,domain=web.de
 @@||uim.tifbs.net/js/3423.js$domain=top.de
 @@||uim.tifbs.net/js/7732.js$domain=gewinnspiel.gmx.de|gewinnspiel.web.de
@@ -9055,6 +9060,7 @@ znak.com##.relap
 ||analitycs.net^$third-party
 ||analoganalytics.com^$third-party
 ||analy.qq.com^
+||analyse.bcovery.com^
 ||analyse.weather.com.cn^
 ||analysis.afreecatv.com^
 ||analysis.fi^$third-party
@@ -9498,6 +9504,7 @@ znak.com##.relap
 ||api.phoenix-widget.com/c?wid=
 ||api.radio.*/info/*/user/log?event
 ||api.radio.de/*event=
+||api.rubic.com.tr^$third-party
 ||api.safedk.com^
 ||api.salesmachine.io/*/track/event
 ||api.sec.miui.com^
@@ -14064,7 +14071,7 @@ znak.com##.relap
 ||global.cmcs.service.amazonsilk.com/metrics
 ||global.px.quantserve.com^
 ||global.ssl.fastly.net^$script,domain=wayfair.de
-||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
+||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|cbs.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||global.sueddeutsche.de/globalassets/standalone/szstats/configuration.json
 ||globalapi.ad.xiaomi.com^
 ||globalsiteanalytics.com^$third-party
@@ -14739,6 +14746,7 @@ znak.com##.relap
 ||humanclick.com/hc/*/?visitor=
 ||humanclick.com^$third-party
 ||humdrumhat.com^$third-party
+||hummingbird.mavencoalition.io^
 ||hung.ch^$third-party
 ||hunkal.com^$third-party
 ||hunt-leads.com^$third-party
@@ -15746,6 +15754,7 @@ znak.com##.relap
 ||letv.com/cloud_pl/
 ||letv.com/env/
 ||letv.com/op?
+||levelaccess.net/analytics/
 ||levelbehavior.com^$third-party
 ||levexis.com^$third-party
 ||lexip.4pcdn.de^
@@ -16360,6 +16369,7 @@ znak.com##.relap
 ||matomo.hellohi.me/matomo.js
 ||matterlytics.com^$third-party
 ||maven.io/api/userEvent/
+||mavencoalition.io/collect
 ||maxmind.com/app/$third-party
 ||maxmind.com/geoip/$third-party
 ||maxmind.com/js/country.js
