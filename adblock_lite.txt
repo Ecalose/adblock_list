@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202011140134
+! Version: 202011150153
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19081
+! Lenth = 19080
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -263,6 +263,8 @@
 13mv.com##li[id^="media_image-"]
 13mv.com,csai.cn##.keifu
 13mv.com,xoiof.com##.aggd
+13tv.top,freehao123.com##.box
+13tv.top,sina.com##.aditem
 141hongkong.com###dialog
 141hongkong.com##.wp.at
 159i.com###body > table[width="100%"]
@@ -2500,7 +2502,7 @@ bd-film.cc###fmtdiv
 bde4.cc##a[href*=".yabo816."]
 bde4.cc##center[style*="background"]
 bde4.cc##div[onclick*=".yabo816.com"]
-bde4.cc##div[style="position: fixed;bottom: -5px;z-index:999;width:100%"]
+bde4.cc##div[style^="position: fixed;bottom:"]
 bde4.cc#$#a[href*=".yabo816."] { position: absolute !important; left: -3000px !important; }
 bde4.cc#%#//scriptlet("adjust-setInterval", "timerAdCountdown", "", "0.02")
 bde4.cc#%#//scriptlet("set-constant", "canRunAds", "true")
@@ -3715,7 +3717,6 @@ fqsousou.com,kengso.com#@#.user-share
 frdic.com,godic.net##a[onclick*="/ads/"]
 free.com.tw###custom_html-11
 freecodecamp.cn,freecodecamp.one#@#.btn-social
-freehao123.com,oopw.top##.box
 freejavbt.com##div[data-selector*="ai-insert-"]
 fsclzs.com###qvod
 fsdpp.cn##.sidebox > a > img
@@ -5607,7 +5608,6 @@ onlinedown.net##.downgs
 onlinedown.net##.gaosu + #down_url
 onlinedown.net##a.qrcode_show
 ooopic.com##.fix-newUser
-oopw.top,sina.com##.aditem
 opdown.com##.downnows
 opdown.com##.listaddr
 opticsky.cn###head > .tac
@@ -5634,8 +5634,6 @@ oschina.net##div[data-tracepid="question_detai_above"]
 oschina.net##div[name="detail_show_footer"]
 oschina.net##div[name="floatAdbox"]
 oschina.net##div[name^="index_banner_"]
-ottawazine.com###sgpb-popup-dialog-main-div-wrapper
-ottawazine.com##.sgpb-popup-overlay
 ottawazine.com##div[id^="text-"]
 outlook.live.com##.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x
 outofmemory.cn##.iloveoutofmemory660
@@ -8532,6 +8530,7 @@ zznews.cn##.ad:not([style])
 ||46cq.cn^
 ||47.100.0.249/js/thea
 ||47.90.50.177^
+||47api.cn^
 ||47n209.com^
 ||4808.jianbihua.com^
 ||484r.com/images/flash/gallery_
@@ -10183,6 +10182,7 @@ zznews.cn##.ad:not([style])
 ||bdcode.youke.com^
 ||bdcouc.xyz^
 ||bdcpro*.techweb.com.cn^
+||bde4.cc/js/aes.js
 ||bde4.cc^$csp=script-src 'self' * 'unsafe-inline'
 ||bdgg.qjy168.com^
 ||bdiae.com^
@@ -10855,6 +10855,7 @@ zznews.cn##.ad:not([style])
 ||chuantu.biz^$domain=7mav2.com|thztv.cc
 ||chuantu.biz^$domain=thzk.cc
 ||chuantu.xyz/t6/714/1580707721x3703728804.jpg
+||chuapp.com/wp-content/Picture/2017-08-14/59917b959139f.png
 ||chubun.com/images/banners/
 ||chubun.com/uploads/pic/img
 ||chucity.com^
@@ -11106,7 +11107,6 @@ zznews.cn##.ad:not([style])
 ||cqgya.com^
 ||cqjjlsy.com^
 ||cqlxscdc.top^
-||cqtnfs.com/maizhan/js/age.js
 ||cqtnfs.com^$domain=~agefans.tv
 ||cqvip.com/viewserver/ViewAD
 ||cqyhd.com^
@@ -13759,6 +13759,7 @@ zznews.cn##.ad:not([style])
 ||jsdelivr.net/npm/live2d-
 ||jsf.cnlinfo.net^
 ||jsinfo.net^$third-party
+||jsjinfu.com/maizhan/js/age.js
 ||jsjxhd.com^$third-party
 ||jskang.cn^
 ||jsku.cc^
@@ -15179,7 +15180,6 @@ zznews.cn##.ad:not([style])
 ||ol-img.com/channel/tuku/js/tukuPopup.js
 ||olc0.cn^
 ||oldpig.org/live.html
-||olevod.com/poppagen.php
 ||olgame.tw/home/attachment/
 ||olmsoneenh.info^$domain=avgle.com
 ||olpv.onlylady.com^
@@ -15205,7 +15205,6 @@ zznews.cn##.ad:not([style])
 ||oo5548q.top^
 ||oodcd.cn/pan/config/ad.json
 ||ooo.0o0.ooo/2017/11/03/59fc6b3c5b723.jpg
-||oopw.top/img/jdy
 ||ooqiu.com/ad_js/
 ||open8.cn^$third-party
 ||opengam.com^

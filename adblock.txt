@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202011140134
+! Version: 202011150153
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21013
+! Lenth = 21014
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -720,6 +720,7 @@
 ##a[href*=".05cg.com/"]
 ##a[href*=".08an.com/"]
 ##a[href*=".123ch.cn"]
+##a[href*=".1317yb.com"]
 ##a[href*=".17yyba.com/"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".222bz.com/"]
@@ -770,6 +771,7 @@
 ##a[href*=".xlddz.net/"]
 ##a[href*=".xlgqy.com/"]
 ##a[href*=".xrzzk.com/"]
+##a[href*=".yabo414.com"]
 ##a[href*=".yabo816.com"]
 ##a[href*=".yabovip2027.com/"]
 ##a[href*=".yb2843.vip"]
@@ -890,7 +892,7 @@ $script,third-party,domain=m.1kkk.com|m.dm5.com
 $script,third-party,domain=rijutv.com
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.net|torrentkitty.se|torrentkitty.tv
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
-$script,third-party,xmlhttprequest,domain=btsow.work
+$script,third-party,xmlhttprequest,domain=btsow.store
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
 $webrtc,domain=avgle.com
 $websocket,domain=5nj.com|cechi8.com
@@ -2196,6 +2198,8 @@ $websocket,domain=5nj.com|cechi8.com
 13mv.com##li[id^="media_image-"]
 13mv.com,csai.cn##.keifu
 13mv.com,xoiof.com##.aggd
+13tv.top,freehao123.com##.box
+13tv.top,sina.com##.aditem
 141hongkong.com###dialog
 141hongkong.com##.wp.at
 159i.com###body > table[width="100%"]
@@ -4432,7 +4436,7 @@ bd-film.cc###fmtdiv
 bde4.cc##a[href*=".yabo816."]
 bde4.cc##center[style*="background"]
 bde4.cc##div[onclick*=".yabo816.com"]
-bde4.cc##div[style="position: fixed;bottom: -5px;z-index:999;width:100%"]
+bde4.cc##div[style^="position: fixed;bottom:"]
 bde4.cc#$#a[href*=".yabo816."] { position: absolute !important; left: -3000px !important; }
 bde4.cc#%#//scriptlet("adjust-setInterval", "timerAdCountdown", "", "0.02")
 bde4.cc#%#//scriptlet("set-constant", "canRunAds", "true")
@@ -5647,7 +5651,6 @@ fqsousou.com,kengso.com#@#.user-share
 frdic.com,godic.net##a[onclick*="/ads/"]
 free.com.tw###custom_html-11
 freecodecamp.cn,freecodecamp.one#@#.btn-social
-freehao123.com,oopw.top##.box
 freejavbt.com##div[data-selector*="ai-insert-"]
 fsclzs.com###qvod
 fsdpp.cn##.sidebox > a > img
@@ -7539,7 +7542,6 @@ onlinedown.net##.downgs
 onlinedown.net##.gaosu + #down_url
 onlinedown.net##a.qrcode_show
 ooopic.com##.fix-newUser
-oopw.top,sina.com##.aditem
 opdown.com##.downnows
 opdown.com##.listaddr
 opticsky.cn###head > .tac
@@ -7566,8 +7568,6 @@ oschina.net##div[data-tracepid="question_detai_above"]
 oschina.net##div[name="detail_show_footer"]
 oschina.net##div[name="floatAdbox"]
 oschina.net##div[name^="index_banner_"]
-ottawazine.com###sgpb-popup-dialog-main-div-wrapper
-ottawazine.com##.sgpb-popup-overlay
 ottawazine.com##div[id^="text-"]
 outlook.live.com##.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x
 outofmemory.cn##.iloveoutofmemory660
@@ -10464,6 +10464,7 @@ zznews.cn##.ad:not([style])
 ||46cq.cn^
 ||47.100.0.249/js/thea
 ||47.90.50.177^
+||47api.cn^
 ||47n209.com^
 ||4808.jianbihua.com^
 ||484r.com/images/flash/gallery_
@@ -12115,6 +12116,7 @@ zznews.cn##.ad:not([style])
 ||bdcode.youke.com^
 ||bdcouc.xyz^
 ||bdcpro*.techweb.com.cn^
+||bde4.cc/js/aes.js
 ||bde4.cc^$csp=script-src 'self' * 'unsafe-inline'
 ||bdgg.qjy168.com^
 ||bdiae.com^
@@ -12787,6 +12789,7 @@ zznews.cn##.ad:not([style])
 ||chuantu.biz^$domain=7mav2.com|thztv.cc
 ||chuantu.biz^$domain=thzk.cc
 ||chuantu.xyz/t6/714/1580707721x3703728804.jpg
+||chuapp.com/wp-content/Picture/2017-08-14/59917b959139f.png
 ||chubun.com/images/banners/
 ||chubun.com/uploads/pic/img
 ||chucity.com^
@@ -13038,7 +13041,6 @@ zznews.cn##.ad:not([style])
 ||cqgya.com^
 ||cqjjlsy.com^
 ||cqlxscdc.top^
-||cqtnfs.com/maizhan/js/age.js
 ||cqtnfs.com^$domain=~agefans.tv
 ||cqvip.com/viewserver/ViewAD
 ||cqyhd.com^
@@ -15691,6 +15693,7 @@ zznews.cn##.ad:not([style])
 ||jsdelivr.net/npm/live2d-
 ||jsf.cnlinfo.net^
 ||jsinfo.net^$third-party
+||jsjinfu.com/maizhan/js/age.js
 ||jsjxhd.com^$third-party
 ||jskang.cn^
 ||jsku.cc^
@@ -17111,7 +17114,6 @@ zznews.cn##.ad:not([style])
 ||ol-img.com/channel/tuku/js/tukuPopup.js
 ||olc0.cn^
 ||oldpig.org/live.html
-||olevod.com/poppagen.php
 ||olgame.tw/home/attachment/
 ||olmsoneenh.info^$domain=avgle.com
 ||olpv.onlylady.com^
@@ -17137,7 +17139,6 @@ zznews.cn##.ad:not([style])
 ||oo5548q.top^
 ||oodcd.cn/pan/config/ad.json
 ||ooo.0o0.ooo/2017/11/03/59fc6b3c5b723.jpg
-||oopw.top/img/jdy
 ||ooqiu.com/ad_js/
 ||open8.cn^$third-party
 ||opengam.com^
