@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: oVuPgLFxtEkaiXvjBxLXMA
-! Version: 202011170101
+! Checksum: gLeg8rk64FuEskzzpP0gcQ
+! Version: 202011180111
 ! Title: EasyPrivacy
-! Last modified: 17 Nov 2020 01:01 UTC
+! Last modified: 18 Nov 2020 01:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6010,6 +6010,7 @@ _mongo_stats/
 ||bridgevine.com^$third-party
 ||brightfunnel.com^$third-party
 ||brilig.com^$third-party
+||brilliantcollector.com^$third-party
 ||britepool.com^$third-party
 ||bronto.com^$third-party
 ||browser-statistik.de^$third-party
@@ -6289,6 +6290,7 @@ _mongo_stats/
 ||devatics.io^$third-party
 ||device9.com^$third-party
 ||dgmsearchlab.com^$third-party
+||di-capt.com^$third-party
 ||dialogtech.com^$third-party
 ||did-it.com^$third-party
 ||didit.com^$third-party
@@ -6891,6 +6893,7 @@ _mongo_stats/
 ||kameleoon.eu^$third-party
 ||kampyle.com^$third-party
 ||kantartns.lt^$third-party
+||kaptcha.com^$third-party
 ||kaxsdc.com^$third-party
 ||keen.io^$third-party,domain=~keen.github.io|~keen.io
 ||keet1liod.com^$third-party
@@ -10158,6 +10161,7 @@ _mongo_stats/
 ||analytics.strangeloopnetworks.com^
 ||analytics.supplyframe.com^
 ||analytics.themarketiq.com^
+||analytics.threedeepmarketing.com^
 ||analytics.tiktok.com^
 ||analytics.tooso.ai^
 ||analytics.tout.com^
@@ -11955,6 +11959,7 @@ _mongo_stats/
 ||tru.webelapp.com^
 ||trumba.com/et.aspx?$third-party
 ||trustarc.com/bannermsg?
+||trustcommander.net/iab-tcfapi/
 ||trustcommander.net/privacy/
 ||trustedform.com/trustedform.js?provide_referrer
 ||trustpilot.com/stats/
@@ -13903,6 +13908,7 @@ _mongo_stats/
 ||gumtree.com.au/?pc=
 ||h.cliphunter.com^
 ||hanksgalleries.com/stxt/counter.php?
+||harryrosen.com/analytics/
 ||harvester.eu.square-enix.com^
 ||harvester.hbpl.co.uk^
 ||hclips.com/js/0818.js
@@ -13988,6 +13994,7 @@ _mongo_stats/
 ||iedc.fitbit.com^
 ||ig.active.com/ig.track.js$script
 ||ign.com/global/analytics/drones.js
+||iheart.com/api/v3/playback/reporting
 ||iheart.com/tracking/
 ||image.providesupport.com/cmd/
 ||imagefap.com/images/yes.gif?
@@ -16566,6 +16573,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||lemde.fr^*/tracking/
 ||leparking-moto.fr/*/tracker.js
 ||leparking.fr/jsV038/tracker.js
+||liberation.fr/newsite/js/cmp/
 ||logs-qos.tf1.fr^
 ||ma-petite-recette.fr/visites
 ||marmiton.org/logpix.php
@@ -17608,6 +17616,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com|greentoe.com
 @@||mxpnl.com^$domain=mixpanel.com
 @@||mywebar.com/js/tracking_worker.js$~third-party
+@@||nintendo.com/apps/noa/scripts/analytics.js
 ! @@||ncbi.nlm.nih.gov/stat?
 @@||newrelic.com/nr-*.min.js$domain=surveymonkey.co.uk|surveymonkey.com|surveymonkey.de|surveymonkey.ru
 @@||newrelic.com/public/charts/$subdocument,xmlhttprequest
@@ -17859,11 +17868,15 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 !
 !---------- German ----------
 !
+@@||adconsole.ch/api/ws-businessclick/*/data.json$domain=finanzen.ch
+@@||adnz.co/dmp/publisher.js$domain=finanzen.ch
+@@||adnz.co/header.js?adTagId=$domain=finanzen.ch
 @@||adobedtm.com^*/mbox-contents-$script,domain=dhl.de
 @@||adobedtm.com^*/satelliteLib-$script,domain=dhl.de|sbb.ch
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=br.de
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
 @@||asadcdn.com/adlib/pages/sport1.js$domain=sport1.de
+@@||businessclick.ch/index.js$domain=finanzen.ch
 @@||cdn.privacy-mgmt.com^$subdocument,xmlhttprequest,domain=ekstrabladet.dk|giga.de|manager-magazin.de|spiegel.de|sport1.de|vtm.begmt.com|welt.de
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
 @@||deutschlandfunkkultur.de/themes/*/js.php?files=*,script/smarttag.js,$script,~third-party
@@ -17872,6 +17885,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.net|radiorur.de|saturn.at|sport1.de
+@@||img.adnz.co^$image,domain=finanzen.ch
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 @@||ksta.de/cre-1.0/tracking/call.js?$domain=ksta.de
@@ -17965,6 +17979,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 !
 @@||adobedtm.com^*/satelliteLib-$script,domain=gigantti.fi
 @@||api.cxense.com/public/widget/data?json=$script,domain=ksml.fi|savonsanomat.fi
+@@||api.etherscan.io/api$domain=sushiswap.fi
 @@||certona.net^*/resonance.js$domain=zooplus.fi
 @@||cnetcontent.com/jsc/h.js$domain=atea.fi
 @@||d2wzl9lnvjz3bh.cloudfront.net/frosmo.easy.js$domain=lippu.fi
