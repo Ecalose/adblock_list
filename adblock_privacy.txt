@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202011180152
+! Version: 202011190147
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24103
+! Lenth = 24113
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1107,6 +1107,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /analytics-social.
 /analytics-tag.
 /analytics-tracker/*
+/analytics-tracking.
 /analytics-v1.
 /analytics.*/event?
 /analytics.*/ping/?
@@ -2632,7 +2633,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /google_analytics.$~image
 /google_analytics/*
 /google_analytics3_
-/google_analytics_
+/google_analytics_$domain=~github.com
 /google_page_track
 /google_tag.
 /google_tag/*
@@ -6034,8 +6035,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cdn.petametrics.com/*.js$domain=ranker.com
 @@||cdn.petametrics.com^$domain=techgenix.com
 @@||cdn.petametrics.com^$domain=telegraph.co.uk
-@@||cdn.privacy-mgmt.com^$domain=telegraph.co.uk
-@@||cdn.privacy-mgmt.com^$subdocument,xmlhttprequest,domain=ekstrabladet.dk|giga.de|manager-magazin.de|spiegel.de|sport1.de|vtm.begmt.com|welt.de
 @@||cdn.scarabresearch.com/js/*/scarab-v*.js$domain=avansas.com
 @@||cdn.segment.com/*/analytics.min.js$domain=canva.com
 @@||cdn.segment.com/analytics.js$domain=buffer.com
@@ -6190,7 +6189,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||darksky.net^*/analytics.js$script,~third-party
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
 @@||datadoghq-browser-agent.com/datadog-rum-us.js$script,domain=usa.experian.com
-@@||daumcdn.net/tiara/js/v1/tiara.min.js$domain=map.kakao.com|tv.kakao.com
+@@||daumcdn.net/tiara/js/v1/tiara.min.js$domain=kakao.com
 @@||dcinfos.abtasty.com/geolocAndWeather.php^$domain=tf1.fr
 @@||ddmcdn.com^*/adobe.visitor-$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
 @@||ddmcdn.com^*/comscore.streaming.$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
@@ -6323,10 +6322,9 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||flippingbook.com^*/static/analytics.js$script,~third-party
 @@||flsenate.gov/Scripts/GoogleAnalytics.js$~third-party
 @@||fmz.com/pkg/fingerprint2.min.js$~third-party,xmlhttprequest
-@@||fncstatic.com^*/visitorapi.js$script,domain=foxbusiness.com|foxnews.com
 @@||focus.ti.com^*/metrics-min.js
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
-@@||foxnews.com^*/visitorapi.js$script,domain=foxnews.com
+@@||foxnews.com^*/VisitorAPI.js$script,domain=foxbusiness.com|foxnews.com
 @@||franceculture.fr/static/vendor/js/xtcore
 @@||freegeoip.net/json/|$domain=load.pelispedia.vip
 @@||freegeoip.net/json/|$domain=mudwars.io
@@ -6399,7 +6397,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/analytics.js$domain=1000.menu
 @@||google-analytics.com/analytics.js$domain=15min.lt
 @@||google-analytics.com/analytics.js$domain=24timezones.com
-@@||google-analytics.com/analytics.js$domain=afternic.com|allmusic.com|amctv.com|anchor.fm|bebo.com|bennysva.com|blastingnews.com|ch10.co.il|cliphunter.com|daemon-tools.cc|desigual.com|easyjet.com|firehousesubs.com|gamepix.com|greentoe.com|health2000.co.nz|housing.wisc.edu|infogr.am|jackbox.tv|jobs.net|keygames.com|m.timesofindia.com|manowthaimordialloc.com.au|maxiclimber.com|orbitum.com|pluto.tv|pure.com|rebtel.com|sbnation.com|sci2.tv|seatgeek.com|stitcher.com|support.amd.com|tagheuer.com.au|tracking.narvar.com|tv10play.se|tv3play.se|tv6play.se|tv8play.se|video.pbs.org|vox.com|vpnster.com|weather.gov|westernunion.at|westernunion.be|westernunion.ca|westernunion.ch|westernunion.cl|westernunion.co.jp|westernunion.co.nz|westernunion.co.uk|westernunion.co.za|westernunion.com|westernunion.com.au|westernunion.com.co|westernunion.com.hk|westernunion.com.my|westernunion.com.pe|westernunion.de|westernunion.fr|westernunion.ie|westernunion.it|westernunion.nl|westernunion.ph|westernunion.pl|westernunion.se|westernunion.sg|www.google.com
+@@||google-analytics.com/analytics.js$domain=afternic.com|allmusic.com|amctv.com|anchor.fm|bebo.com|beinsports.com|bennysva.com|blastingnews.com|ch10.co.il|cliphunter.com|daemon-tools.cc|desigual.com|easyjet.com|firehousesubs.com|gamepix.com|greentoe.com|health2000.co.nz|housing.wisc.edu|infogr.am|jackbox.tv|jobs.net|keygames.com|m.timesofindia.com|manowthaimordialloc.com.au|maxiclimber.com|orbitum.com|pluto.tv|pure.com|rebtel.com|sbnation.com|sci2.tv|seatgeek.com|stitcher.com|support.amd.com|tagheuer.com.au|tracking.narvar.com|tv10play.se|tv3play.se|tv6play.se|tv8play.se|video.pbs.org|vox.com|vpnster.com|weather.gov|westernunion.at|westernunion.be|westernunion.ca|westernunion.ch|westernunion.cl|westernunion.co.jp|westernunion.co.nz|westernunion.co.uk|westernunion.co.za|westernunion.com|westernunion.com.au|westernunion.com.co|westernunion.com.hk|westernunion.com.my|westernunion.com.pe|westernunion.de|westernunion.fr|westernunion.ie|westernunion.it|westernunion.nl|westernunion.ph|westernunion.pl|westernunion.se|westernunion.sg|www.google.com
 @@||google-analytics.com/analytics.js$domain=afternic.com|clipitto.com|deviantart.com
 @@||google-analytics.com/analytics.js$domain=amd.com
 @@||google-analytics.com/analytics.js$domain=anadolu.edu.tr
@@ -6641,7 +6639,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtag/js^$domain=timparty.tim.it
 @@||googletagmanager.com/gtm.js$domain=20min.ch
 @@||googletagmanager.com/gtm.js$domain=accupass.com
-@@||googletagmanager.com/gtm.js$domain=action.com|ads.spotify.com|adsoup.com|aim.steelseries.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|insideevs.com|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nflgamepass.com|nytimes.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|postable.com|realestate.co.nz|rebtel.com|redbull.com|rockstargames.com|rollingstone.com|royalbank.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|weightwatchers.com|woodlanddirect.com|wwe.com
+@@||googletagmanager.com/gtm.js$domain=action.com|ads.spotify.com|adsoup.com|aim.steelseries.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|insideevs.com|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nflgamepass.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|postable.com|realestate.co.nz|rebtel.com|redbull.com|rockstargames.com|rollingstone.com|royalbank.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|weightwatchers.com|woodlanddirect.com|wwe.com
 @@||googletagmanager.com/gtm.js$domain=ads.allegro.pl
 @@||googletagmanager.com/gtm.js$domain=amd.com
 @@||googletagmanager.com/gtm.js$domain=argeweb.nl
@@ -6666,7 +6664,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=chainreactioncycles.com
 @@||googletagmanager.com/gtm.js$domain=cinemaximum.com.tr
 @@||googletagmanager.com/gtm.js$domain=dailyherald.com
-@@||googletagmanager.com/gtm.js$domain=digitaltrends.com
 @@||googletagmanager.com/gtm.js$domain=displate.com
 @@||googletagmanager.com/gtm.js$domain=domains.google
 @@||googletagmanager.com/gtm.js$domain=duolingo.com
@@ -7507,6 +7504,10 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||seznam.cz/?spec=*&url=$image,domain=search.seznam.cz
 @@||sfdict.com/app/*/click_tracking.js$domain=thesaurus.com
 @@||sgqcvfjvr.onet.pl^$script,domain=kobieta.onet.pl
+@@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=rtl.de
+@@||showheroes.com/publishertag.js$domain=rtl.de
+@@||showheroes.com/pubtag.js$domain=rtl.de
+@@||showheroes.com/spot/iframe?pageurl=$script,subdocument,domain=rtl.de
 @@||simyo.de/b/ss/$image
 @@||siteanalytics.compete.com^$~third-party
 @@||siteapps.caa.co.uk/scripts/plugins/analytics/ga.min.js$script,~third-party
@@ -7631,7 +7632,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||tablespoon.com/library/js/TBSP_ntpagetag.js
 @@||tablica.pl^*/xtcore.js
 @@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|entrepreneur.com|foxsports.com
-@@||taboola.com/libtrc/impl.$script,domain=bild.de|bz-berlin.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|techbook.de|travelbook.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
+@@||taboola.com/libtrc/impl.$script,domain=bild.de|bz-berlin.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
 @@||taboola.com/libtrc/impl.$script,domain=businessinsider.com|insider.com
 @@||tag.aticdn.net/*/smarttag.js$domain=compteczam.fr
 @@||tag.aticdn.net/*/smarttag.js$domain=rte.ie
@@ -8860,7 +8861,8 @@ znak.com##.relap
 ||akamaihd.net^*.gif?d=
 ||akamaized.net/?u=
 ||akamaized.net/js3/tracker.js
-||akamaized.net/sc/$domain=msn.com
+||akamaized.net/sc/*.gif$domain=msn.com
+||akamaized.net/sc/*.js$domain=msn.com
 ||akanoo.com/tracker/
 ||akanoo.com^$third-party
 ||akatracking.esearchvision.com^
@@ -17005,7 +17007,7 @@ znak.com##.relap
 ||myaffiliateprogram.com^$third-party
 ||myanimelist.net/static/logging.html
 ||myaudience.de^$third-party
-||mybbc-analytics.files.bbci.co.uk^$script
+||mybbc-analytics.files.bbci.co.uk^
 ||mybloglog.com^$third-party
 ||myblueday.com^*/count.asp?
 ||mycheckergeo.com^$third-party
@@ -17136,6 +17138,7 @@ znak.com##.relap
 ||ncom.dk^$third-party
 ||ncp-e.com/typo3conf/ext/leadlab/res/wm_autotrack_v*.js
 ||ncsoft.com/tracker.js
+||nct.ui-portal.de/gmx/gmx/s?$image
 ||nctrk.abmail.com.br^
 ||ncx2.voyage-prive.it^
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
@@ -17920,6 +17923,7 @@ znak.com##.relap
 ||pebed.dm.gg^
 ||pebed.dm.gg^$third-party
 ||pedropanther.com^$third-party
+||peek-cloppenburg.at/assets/js/3rdparty/tags.tiqcdn.com/utag.js
 ||peep1alea.com^$third-party
 ||peerius.com^$third-party
 ||pega.com/logserver
@@ -18048,6 +18052,7 @@ znak.com##.relap
 ||ping.hellobar.com^
 ||ping.hungama.com^
 ||ping.smyte.com^
+||ping.staticmoly.me^
 ||ping.taplytics.com^
 ||ping.tvmaze.com^
 ||ping.typekit.net/p.gif
@@ -18197,6 +18202,7 @@ znak.com##.relap
 ||pjstat.com^$third-party
 ||pjtra.com^$third-party
 ||placemypixel.com^$third-party
+||placidperson.com^$third-party
 ||pladform.ru^$third-party
 ||plainplayground.com^$third-party
 ||plainrequest.com^$third-party
@@ -18964,6 +18970,7 @@ znak.com##.relap
 ||register.appsflyer.com^
 ||register.it/scripts/track_
 ||register.xmpush.xiaomi.com^
+||regularplants.com^$third-party
 ||reindaks.com^$third-party
 ||reinvigorate.net^$third-party
 ||reise.com/js/webtrekk
@@ -20387,6 +20394,7 @@ znak.com##.relap
 ||ssl-images-amazon.com/images/*/common/1x1._*.gif$domain=~amazon.com
 ||ssl-images-amazon.com^*/wcs-help-omniture-$script
 ||ssl.pstatic.net/img.tvcast/pc/js/wcslog
+||ssl.pstatic.net/static.gn/js/clickcrD.js
 ||ssl4stats.de^$third-party
 ||sslproxy.dk^*/analytics.js
 ||sslwidget.criteo.com/event^
@@ -21619,6 +21627,7 @@ znak.com##.relap
 ||tisoomi-services.com^$third-party
 ||titag.com^$third-party
 ||titan24.com/scripts/stats.js
+||tivan.naver.com^
 ||tivo.com/__ssobj/track?
 ||tk.ilius.net/tr.gif?
 ||tk.kargo.com^
@@ -23216,6 +23225,7 @@ znak.com##.relap
 ||wa.and.co.uk^
 ||wa.gmx.fr^
 ||wa.gmx.net/gmx/gmx/s?$image
+||wa.gmx.net/gmxde/gmxde/s?$image
 ||wa.metro.co.uk^
 ||wa.ui-portal.de^
 ||wa.web.de^
