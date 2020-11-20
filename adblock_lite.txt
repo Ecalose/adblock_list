@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202011190147
+! Version: 202011200144
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19113
+! Lenth = 19122
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -6637,7 +6637,7 @@ toolfk.com##a[class^="tip-alert"]
 toolfk.com##wavy + div[style]
 toolfk.com##wavy ~ a
 tools.2345.com##._hb-box + .mod
-tophub.today##.am
+tophub.today##.dddxxx
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv###fixedbanner
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
 toutiao.com##.J_add
@@ -10946,6 +10946,7 @@ zznews.cn##.ad:not([style])
 ||cloudfront.net/images/K10/adv/
 ||cls.cn/v2/web/ad?
 ||clscsbcj.com^$third-party
+||clxxkz.com.cn^
 ||cm.baidu.com^
 ||cmaxisolation.com^
 ||cmdy2020.com/js/300.js
@@ -11839,6 +11840,7 @@ zznews.cn##.ad:not([style])
 ||enjuk.com^
 ||enjuw.com^
 ||enohb.com^
+||enq5ur.cn^
 ||enread.com/img/185-50.gif
 ||ent1.12584.cn^
 ||ent1.qunchua.cn^
@@ -12922,6 +12924,7 @@ zznews.cn##.ad:not([style])
 ||howbuy.com/subject/js/jquery.blockUI.js
 ||howbuy.com/subject/js/layer/layer.js
 ||hp-china.biz^
+||hp0hnj.cn^
 ||hpsszw.cn^
 ||hqcx.net/bbs/data/attachment/forum/201711/08/200952ipkhkmpjo5t0p5pv.jpg
 ||hqcx.net/images/baidu.jpg
@@ -13625,6 +13628,7 @@ zznews.cn##.ad:not([style])
 ||jingujie.com/public/jgj_
 ||jingujie.com/public/js/*html.js
 ||jingxiangyalvji.cn^
+||jingyuzuo.top^
 ||jinhonghao.cn^
 ||jinhua.com.cn/ad_pic/
 ||jinliaoyang.com^
@@ -13635,6 +13639,7 @@ zznews.cn##.ad:not([style])
 ||jinrungroup.cn^
 ||jinshasi.cn^
 ||jinshenglong.cn^
+||jinshzx.com^
 ||jinti.com^*/aspx/*gg
 ||jintonghua.com^
 ||jinxinyuan.cn^
@@ -14563,6 +14568,7 @@ zznews.cn##.ad:not([style])
 ||maiche.com/iframe/rank.html
 ||mail.pchome.com.tw/img/classifieds/300120.gif
 ||mail.qq.com/lview?
+||maimaias.cn^
 ||main.jiukang.org^
 ||mainbx.com^
 ||maisoncherry.com^
@@ -17029,6 +17035,7 @@ zznews.cn##.ad:not([style])
 ||touimg.com^$domain=dyzd1.com
 ||toujing4.top^
 ||toujing5.top^
+||toujing7.top^
 ||toujing8.top^
 ||toutiao.haotui.com/data/js/0.js
 ||towers-shield.com^
@@ -17911,6 +17918,7 @@ zznews.cn##.ad:not([style])
 ||xi0021.com^
 ||xia1ge.com/wp-content/uploads/*/wechat-ad.png
 ||xiacaidd.com/xiacai/ad/
+||xiachouchou.com^
 ||xiadaxiong.com^
 ||xiakelea.com^
 ||xiald.com^
@@ -18899,6 +18907,7 @@ zznews.cn##.ad:not([style])
 ||zitanmushu.com^
 ||zitaoh.cn^
 ||zixun8.com^
+||ziyeaiying.com^
 ||ziyuantx.com^
 ||zizcy.com^
 ||zizidi.com^

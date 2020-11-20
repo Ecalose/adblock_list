@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202011190147
+! Version: 202011200144
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24113
+! Lenth = 24129
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -796,6 +796,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /^https?:\/\/fast\.appcues\.com\/[0-9]{4,6}\.js
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/ir\.ebaystatic\.com\/rs\/v\/[a-zA-Z0-9]{18,}\.js/$script,domain=vipr.ebaydesc.com
+/^https?:\/\/js.*\/t\/[0-9]{3}\/[0-9]{3}\/[a-z0-9]{7,8}\.js/$script,third-party
 /^https?:\/\/js\.[-.0-9a-z]+\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{7,9}\.js$/$script,third-party
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
@@ -2397,6 +2398,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /fp/fp.swf
 /fp/tags.js?
 /fp/top_fp.
+/fp_204?
 /fpc.pl?a=
 /fpcookie?
 /fpcount.exe
@@ -5944,6 +5946,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||brm-core-0.brsrvr.com/api/*/core/?account_id=$domain=m.toysrus.com
 @@||broadcastt.xyz/apps/$websocket
 @@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|crrowd.com|gina-phillips.com|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|simonparkes.org|stockforecasttoday.com|tekku.co.za|theangryviking1776.com|thegivingblock.com|thepittsburghoratory.org|truenews4u.com|washingtonpost.com|wix.com
+@@||browser.sentry-cdn.com^$domain=marshmallow-qa.com
 @@||browserscope.org/user/beacon/*?callback=$script,domain=jsperf.com
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||bt.com^*/touchclarity/homepage/omtr_tc.js
@@ -6372,7 +6375,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||geoplugin.net/javascript.gp$domain=aljazeera.net
 @@||geoplugin.net/javascript.gp$domain=uptime.community
 @@||geoplugin.net/javascript.gp$script,domain=christianhouseshare.com.au|gamemazing.com|soundsonline.com
-@@||geoplugin.net/javascript.gp?$script,domain=virginmobile.ca
+@@||geoplugin.net/javascript.gp?$script,domain=suicidepreventionlifeline.org|virginmobile.ca
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
 @@||getclicky.com/ajax/marketshare?$script
@@ -6534,6 +6537,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/analytics.js$domain=viasatsport.se
 @@||google-analytics.com/analytics.js$domain=waipu.tv
 @@||google-analytics.com/analytics.js$domain=wakanim.tv
+@@||google-analytics.com/analytics.js$domain=wikium.ru
 @@||google-analytics.com/analytics.js$domain=zolotoyvek.ua
 @@||google-analytics.com/analytics.js^$domain=cosstores.com
 @@||google-analytics.com/analytics.js^$domain=jackbox.tv
@@ -6768,6 +6772,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=vw-sklep.pl
 @@||googletagmanager.com/gtm.js$domain=webdenal.com
 @@||googletagmanager.com/gtm.js$domain=wibc.com
+@@||googletagmanager.com/gtm.js$domain=wikium.ru
 @@||googletagmanager.com/gtm.js$domain=xn--80adinvscgek9d.xn--p1ai
 @@||googletagmanager.com/gtm.js$domain=youfoodz.com
 @@||googletagmanager.com/gtm.js$domain=yourstory.com
@@ -10702,6 +10707,7 @@ znak.com##.relap
 ||capturly.com^$third-party
 ||carambo.la/analytics/
 ||carambo.la/logging/
+||carambo.la^$third-party
 ||caramel.press^$third-party
 ||carbon38.com/7G7BfRT2/
 ||cardomain.com/js/tibbylog.js?
@@ -12023,6 +12029,7 @@ znak.com##.relap
 ||d2q7mvwub8tmwf.cloudfront.net^
 ||d2qmp7jjpd79k7.cloudfront.net^
 ||d2r7bmv6l6bnd1.cloudfront.net^
+||d2rnkf2kqy5m6h.cloudfront.net^
 ||d2ry9vue95px0b.cloudfront.net^
 ||d2san7t27xb2pn.cloudfront.net^
 ||d2so4705rl485y.cloudfront.net^
@@ -12416,6 +12423,7 @@ znak.com##.relap
 ||dirt.dennis.co.uk^
 ||dis.*.criteo.com/dis/
 ||dis.criteo.com/dis/
+||discord.com/api/*/typing
 ||discordapp.com^*/track
 ||discordbots.org/api/auctions/impression
 ||discover-path.com^$third-party
@@ -13798,6 +13806,7 @@ znak.com##.relap
 ||g4754024040.co^
 ||g4952108375.co^
 ||g4p.redtram.com^
+||g5150192710.co^
 ||ga-analytics.com^$third-party
 ||ga-beacon.appspot.com^
 ||ga.canoe.ca^
@@ -14176,6 +14185,7 @@ znak.com##.relap
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=straitstimes.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=vgtimes.ru,important
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=webdenal.com
+||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=wikium.ru,important
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=biomedglobal.net
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=citethisforme.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=displate.com
@@ -14875,6 +14885,7 @@ znak.com##.relap
 ||ifeng.com/i?p=
 ||ifengimg.com/sta_collection.*.js
 ||ifolder.ru/stat/?
+||ifvox.com^$third-party
 ||ig.active.com/ig.track.js$script
 ||ig.fp.oix.net^$third-party
 ||igaming.biz^$third-party
@@ -16723,6 +16734,7 @@ znak.com##.relap
 ||mkt51.net^$third-party
 ||mkt6333.com^$third-party
 ||mkt941.com^$third-party
+||mkto-*.com^$third-party
 ||mktoresp.com^$third-party
 ||ml-attr.com^$third-party
 ||ml.com/enterprisetagging/
@@ -17429,6 +17441,7 @@ znak.com##.relap
 ||nvworld.ru/js/ym-*.js
 ||nws.naltis.com^
 ||nwsource.com/shared/js/s_code.js?$domain=seattletimes.com
+||nxakpj4ac8gkd53.info^
 ||nxcount.com^$third-party
 ||nyctrl32.com^$third-party
 ||nyltx.com^$third-party
@@ -18425,6 +18438,7 @@ znak.com##.relap
 ||privacy-policy.truste.com^$third-party
 ||privacy.www.nu.nl/pixel^
 ||privacytool.org/AnonymityChecker/js/fontdetect.js$third-party
+||privatelands.biz^$third-party
 ||privymktg.com^$third-party
 ||prjslxhtx003.top^$third-party
 ||prlog.ru/images/counter/$third-party
@@ -19455,6 +19469,7 @@ znak.com##.relap
 ||sbbanalytics.com^$third-party
 ||sbdtds.com^$third-party
 ||sbeacon.sina.com.cn/e.gif
+||sbgsodufuosmmvsdf.info^
 ||sblftg.com^$third-party
 ||sbm.nate.com/setCookie?
 ||sc-analytics.appspot.com^
@@ -23995,6 +24010,7 @@ znak.com##.relap
 ||z.cdn.turner.com/analytics/cnnvan/jsmd.min.js
 ||z.opmnstr.com^
 ||z.opmnstr.com^$xmlhttprequest
+||z0uolej1qnxzub1.info^
 ||z444o.com^$third-party
 ||zaehler.tv^$third-party
 ||zahodi-ka.ru/ic/index_cnt.fcgi?
