@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202011210123
+! Version: 202011220127
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19137
+! Lenth = 19145
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1862,7 +1862,7 @@
 @@||softwarebrother.com^$generichide
 @@||sogou.com/adpub/cfg/sendmsg.
 @@||sogou.com/pv.gif?*&stype=showskinpanel
-@@||sohu.com/cityjson$domain=114shouji.com|51credit.com|castech.com|eduyun.cn|jdboshi.com|jialingmm.net|lcm88.com|mop.com|shouji.com.cn|skk.moe|vivo.com.cn|yxdm.me
+@@||sohu.com/cityjson$domain=114shouji.com|51credit.com|castech.com|eduyun.cn|jdboshi.com|jialingmm.net|lcm88.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn|yxdm.me
 @@||sohu.com/integration-api/mix/region/*&refer=http
 @@||sohu.com/play/videonew.do?*/share_play.
 @@||sohu.com/upload/static/share/share_play.html
@@ -2932,6 +2932,8 @@ click108.com.tw##.AD_730280
 cmbc.com.cn#@#.adBox
 cmhello.com##.gpost-above
 cmsky.com##.textwidget a[href^="http"]:not([href*="cmsky"])
+cn-healthcare.com##.fh_ad_wrap
+cn-healthcare.com##.fh_advent_wrap
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
 cna.com.tw##.ad_970
 cnbeta.com###cb_share > .fl
@@ -5292,6 +5294,7 @@ mayi.com###floatingLayer
 mbd.baidu.com###content_wrapper + div + .default-container
 mbd.baidu.com##.related-news > section:first-child + div
 mbd.baidu.com##div[class^="_"][style="visibility: visible;"]
+mcbbs.net###lsform + .y
 mcdulll.com,mcdulll.pixnet.net###box1290930
 mcdulll.com,mcdulll.pixnet.net###box1989082
 mcmod.cn###McmodDonate
@@ -5540,6 +5543,7 @@ newxue.com##.bd500
 newxue.com##.dashuggtop
 newxue.com##.dashuggtop1
 newxue.com##.left336280
+newyx.net,veryhuo.com##.gs
 nfmovies.com##a[href][onclick^="openurl()"] img[src^="/static/"]
 nfmovies.com##div[id^="sponsorAdDiv"]
 nfmovies.com#$##adleft { position: absolute!important; left: -3000px!important; }
@@ -5605,6 +5609,7 @@ numberempire.com#@##perm_ad
 nwell.net##.f14hui[width="25%"]
 nxing.cn##.boxclose
 nxing.cn##.main:nth-child(-n+6)
+offcn.com###offcn_yx
 offcn.com##.jlstc
 ofweek.com###\5f ad-2100
 ofweek.com###ad-2100
@@ -6645,7 +6650,7 @@ toolfk.com##a[class^="tip-alert"]
 toolfk.com##wavy + div[style]
 toolfk.com##wavy ~ a
 tools.2345.com##._hb-box + .mod
-tophub.today##.c-d.c-d-e > .qc:nth-child(3)
+tophub.today##.axx
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv###fixedbanner
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
 toutiao.com##.J_add
@@ -6836,7 +6841,6 @@ vansky.com##.top-ad-link
 vdianying.cc##.swiper-container
 vdianying.cc##.xintheme-ad
 vdianying.cc##div[style^="display:block !important;"]
-veryhuo.com##.gs
 veryhuo.com##.gs2
 verystream.com#@#.adsbox
 vgtime.com##.vgart_top
@@ -7887,6 +7891,7 @@ zznews.cn##.ad:not([style])
 ||103.249.111.179^$third-party
 ||103.249.254.113^
 ||103.49.209.27^
+||103.75.47.19^
 ||104.195.62.12^
 ||104.197.140.120^
 ||104.198.198.188^
@@ -10713,6 +10718,7 @@ zznews.cn##.ad:not([style])
 ||cdyee.com/external/5070.files/ad/
 ||cdyqc.com^
 ||cdzimeijia.com^
+||ceai.xyz^
 ||cechi8.com/images/appdown.gif
 ||cechi8.com/js/cnzz
 ||cee1.iteye.com^
@@ -15033,7 +15039,7 @@ zznews.cn##.ad:not([style])
 ||newsres.cn/temp/tempad
 ||newume.com/v1/data/ume-
 ||newyiba.top^
-||newyx.net/j/down_yd.js
+||newyx.net^*/down_yd.js
 ||nex.163.com/q?
 ||nfmovies.com/pic/tu/*_863x59.
 ||nfmovies.com/pic/tu/*_banner
@@ -16279,6 +16285,7 @@ zznews.cn##.ad:not([style])
 ||shulihua.net/js/yegonggao.js
 ||shumilou.co/style/html5.js
 ||shunlige.com^
+||shunxinyuancaiwu.cn^
 ||shuowan.com/Public/shuo/20160119/569dafddd13be.jpg
 ||shuwuzhan.com^
 ||shxinjie.cn^
@@ -17033,7 +17040,6 @@ zznews.cn##.ad:not([style])
 ||topmba.mobi/ad/
 ||topqualitylink.com^$third-party
 ||topthink.com/api/basic/
-||torrentkitty.*/nordvpn/
 ||totheglory.im/pic/business/
 ||totheglory.im/pic/fangtuo.jpg
 ||totheglory.im/pic/picad/
@@ -18158,6 +18164,7 @@ zznews.cn##.ad:not([style])
 ||xnimg.cn^*/liveinc/rightlive.js
 ||xnjpg.com^
 ||xnjzsn.com^
+||xnmcmnt.cn^
 ||xnnews.com.cn/Templets/image/zyyy.swf
 ||xnnews.com.cn/Templets/js/*link
 ||xnnews.com.cn/adgl/
@@ -18240,6 +18247,7 @@ zznews.cn##.ad:not([style])
 ||xxyxmdq.cn^
 ||xxyzwtsylw.com^
 ||xy98.com.cn^
+||xyad316ea.vip^
 ||xyad3hada.com^
 ||xyadaa.com^
 ||xyaddby.com^
@@ -18308,7 +18316,7 @@ zznews.cn##.ad:not([style])
 ||yaolanimage.cn/cms/image/960-90
 ||yaoquanshumeiyu.com^
 ||yaoxiaoli.com^
-||yaoyl.com^
+||yaoyl.com/js/ds.js
 ||yaozui.com/ref/index?
 ||yaseok.com//static/src/images/loading.gif
 ||yaseok.com/uploads/20*.gif
