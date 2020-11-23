@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202011220127
+! Version: 202011230123
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24130
+! Lenth = 24137
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -920,6 +920,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /adds/counter.js
 /addstats?callback=
 /adform-tracking.
+/adform_sync.
 /adframestats|
 /adimp?
 /adimppixel/*
@@ -2827,6 +2828,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /impr.xlg?
 /impresion/zona/*
 /impress.php?
+/impress?*&sid=
 /impression.ashx
 /impression.gif?
 /impression.js?
@@ -4796,6 +4798,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /tracker.1.0.gif?
 /tracker.bx/*
 /tracker.do?
+/tracker.ga.
 /tracker.gif?
 /tracker.js.php?
 /tracker.json.php?
@@ -5861,6 +5864,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||app-*.marketo.com/*/form$domain=pdftoword.com
 @@||app-*.marketo.com/index.php/form^$domain=gonitro.com
 @@||app-*.marketo.com/js/forms2^$domain=gonitro.com
+@@||app-sjf.marketo.com^$domain=live.altium.com
 @@||appapi.inspsearchapi.com^$domain=search.pch.com
 @@||apple.com/metrics/ac-analytics/*/scripts/$domain=apple.com
 @@||apple.com/metrics/data-relay/*/scripts/data-relay.js
@@ -6686,6 +6690,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=gamepix.com
 @@||googletagmanager.com/gtm.js$domain=gillette.com.tr
 @@||googletagmanager.com/gtm.js$domain=givingfuel.com|regfox.com|ticketspice.com|redpodium.com
+@@||googletagmanager.com/gtm.js$domain=glamusha.ru
 @@||googletagmanager.com/gtm.js$domain=gumtree.com
 @@||googletagmanager.com/gtm.js$domain=highsnobiety.com
 @@||googletagmanager.com/gtm.js$domain=hub.docker.com
@@ -7366,7 +7371,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
 @@||quantcast.mgr.consensu.org/tcfv2/cmp2.js$script,domain=cnews.fr
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bikeperfect.com|cyclingnews.com|digitalcameraworld.com|gamesradar.com|guitarplayer.com|independent.co.uk|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|realhomes.com|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bikeperfect.com|cyclingnews.com|digitalcameraworld.com|gamesradar.com|guitarplayer.com|independent.co.uk|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|caranddriver.com|g4tv.com|nymag.com|salon.com|theblaze.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|nymag.com
 @@||quattroruote.it^*/webtrekk_mediaTracking.min.js$script,~third-party
@@ -9572,6 +9577,7 @@ znak.com##.relap
 ||app.link^$third-party
 ||app.opmnstr.com/v2/geolocate/
 ||app.redretarget.com^$third-party
+||app.retargetapp.com/pixel/pixel.min.js
 ||app.roximity.com^
 ||app.shoptarget.com.br^$third-party
 ||app.yesware.com/t/$third-party
@@ -9783,6 +9789,7 @@ znak.com##.relap
 ||audiens.com^$third-party
 ||audienzz.ch^$third-party
 ||audimark.de/tracking/
+||audio.sex^$third-party
 ||audioarctic.com^$third-party
 ||audioeye.com/ae.js
 ||audioeye.com/frame/cookieStorage.html
@@ -12784,7 +12791,6 @@ znak.com##.relap
 ||eba-amadeus.netdna-ssl.com^$third-party
 ||ebay-us.com/fp/
 ||ebay.*/beacon/
-||ebay.com/nkfytkqtoxtljvzb.js$script,domain=ebay.com
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebay.com/op/t.do?event
 ||ebayobjects.com/*;dc_pixel_url=$image
@@ -15038,6 +15044,7 @@ znak.com##.relap
 ||infinityid.condenastdigital.com^$third-party
 ||inflectionpointmedia.com^$third-party
 ||influid.co^$third-party
+||info.com/pingback
 ||info.elba.at^$third-party
 ||infocollect.dk^$third-party
 ||infogr.am/js/metrics.js

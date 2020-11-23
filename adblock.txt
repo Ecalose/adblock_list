@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202011220127
+! Version: 202011230123
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21083
+! Lenth = 21088
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -3003,7 +3003,8 @@ $websocket,domain=5nj.com|cechi8.com
 ?file=ads&
 ?key=$popup,domain=verystream.com
 ?method=baidu.ting.commercial.tactics&
-@@$image,domain=hboav.com
+@@$image,xmlhttprequest,domain=hboav.com
+@@$xmlhttprequest,image,domain=hboav.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-social-bar.$domain=mobi.yahoo.com
 @@.adserver.$domain=litv.tv
@@ -8170,6 +8171,7 @@ sina.com.cn##.m-p1-lb1-ad
 sina.com.cn##.m-p3-ad
 sina.com.cn##.pc-tui-coupon
 sina.com.cn##.real-time-window__ad
+sina.com.cn##.redPacketCont
 sina.com.cn##.side-btns-2wm
 sina.com.cn##.sinaads
 sina.com.cn##.zhitou-wrap
@@ -10370,6 +10372,7 @@ zznews.cn##.ad:not([style])
 ||360kan.com/special/
 ||360safego.com^
 ||360shopping.com.cn^
+||360xs.com/templates/html5/js/djtop.js
 ||360zuowen.net^
 ||36500.com^$third-party
 ||36500.net^$third-party
@@ -19975,6 +19978,7 @@ zznews.cn##.ad:not([style])
 ||xinshijue6080.com/Runtime/js/
 ||xinshijue6080.com/gg
 ||xinshijuecn.com/js/home/
+||xinshuige.com/static/images/115AD.jpg
 ||xintaizhaoming.com^
 ||xinuocp666.com^
 ||xinwenren.com/index.php?m=poster&
@@ -20765,6 +20769,7 @@ zznews.cn##.ad:not([style])
 ||zhangxinxu.com/image/blog/*/sp-zf.
 ||zhangzishi.cc/cdn-cgi/apps/
 ||zhanjiangletian.com^
+||zhanlan5.cn^
 ||zhanqi.tv/api/static/v2.1/actives.lists/
 ||zhanqi.tv/uploads/*/ads-*.swf
 ||zhaofuli.*/data/content

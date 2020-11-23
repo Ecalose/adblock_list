@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202011220127
+! Version: 202011230123
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19145
+! Lenth = 19150
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1064,7 +1064,8 @@
 ?file=ads&
 ?key=$popup,domain=verystream.com
 ?method=baidu.ting.commercial.tactics&
-@@$image,domain=hboav.com
+@@$image,xmlhttprequest,domain=hboav.com
+@@$xmlhttprequest,image,domain=hboav.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-social-bar.$domain=mobi.yahoo.com
 @@.adserver.$domain=litv.tv
@@ -6232,6 +6233,7 @@ sina.com.cn##.m-p1-lb1-ad
 sina.com.cn##.m-p3-ad
 sina.com.cn##.pc-tui-coupon
 sina.com.cn##.real-time-window__ad
+sina.com.cn##.redPacketCont
 sina.com.cn##.side-btns-2wm
 sina.com.cn##.sinaads
 sina.com.cn##.zhitou-wrap
@@ -8432,6 +8434,7 @@ zznews.cn##.ad:not([style])
 ||360kan.com/special/
 ||360safego.com^
 ||360shopping.com.cn^
+||360xs.com/templates/html5/js/djtop.js
 ||360zuowen.net^
 ||36500.com^$third-party
 ||36500.net^$third-party
@@ -18037,6 +18040,7 @@ zznews.cn##.ad:not([style])
 ||xinshijue6080.com/Runtime/js/
 ||xinshijue6080.com/gg
 ||xinshijuecn.com/js/home/
+||xinshuige.com/static/images/115AD.jpg
 ||xintaizhaoming.com^
 ||xinuocp666.com^
 ||xinwenren.com/index.php?m=poster&
@@ -18827,6 +18831,7 @@ zznews.cn##.ad:not([style])
 ||zhangxinxu.com/image/blog/*/sp-zf.
 ||zhangzishi.cc/cdn-cgi/apps/
 ||zhanjiangletian.com^
+||zhanlan5.cn^
 ||zhanqi.tv/api/static/v2.1/actives.lists/
 ||zhanqi.tv/uploads/*/ads-*.swf
 ||zhaofuli.*/data/content
