@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202011230123
+! Version: 202011240111
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19150
+! Lenth = 19155
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1065,7 +1065,6 @@
 ?key=$popup,domain=verystream.com
 ?method=baidu.ting.commercial.tactics&
 @@$image,xmlhttprequest,domain=hboav.com
-@@$xmlhttprequest,image,domain=hboav.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-social-bar.$domain=mobi.yahoo.com
 @@.adserver.$domain=litv.tv
@@ -1407,6 +1406,7 @@
 @@||cdn.jsdelivr.net^$script,domain=35xs.co
 @@||cdn.optimizely.com/js/*.js$domain=kktv.me
 @@||cdn.runative-syndicate.com/sdk/*/n.js$domain=onemanhua.com
+@@||cdn.sssam.com/static/js/*.js
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xiaoshuo.org|49zw.com|biququ.info|tsxsw.net|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=dybee.tv
 @@||cdn.staticfile.org^$script,domain=rijutv.com
@@ -1589,6 +1589,7 @@
 @@||hanjuwang.net^$script,~third-party
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||haoweichi.com/Public/js/ads.js
+@@||hboav.com/guga/ads.js$domain=hboav.com
 @@||hboav.com^$generichide
 @@||hc360.com/ad/*.css
 @@||hdsky.net/ad/down.png
@@ -6428,6 +6429,8 @@ ssnn.net###float_picr
 ssnn.net###nrk_gg
 sspai.com##.advert-card
 sspai.com##.content hr:nth-last-child(-n+4) ~ p
+sssam.com##.widget_html_ad
+sssam.com#%#//scriptlet("set-constant", "ads", "")
 starbaby.cn###top_ad_show
 starbaby.cn###yindex_ads
 start.firefoxchina.cn##.mod-delay-resource:nth-child(4)
@@ -6653,6 +6656,7 @@ toolfk.com##wavy + div[style]
 toolfk.com##wavy ~ a
 tools.2345.com##._hb-box + .mod
 tophub.today##.axx
+tophub.today##.qc
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv###fixedbanner
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
 toutiao.com##.J_add
@@ -17726,6 +17730,7 @@ zznews.cn##.ad:not([style])
 ||wmzhe.com/static/wmzhe/images/cjzg/
 ||wmzhe.com/static/wmzhe/images/suishenbao/
 ||wn789.com/wp-content/uploads/*/SugarHosts
+||wnacg.*/1605524662751.gif
 ||wnacg.*/1sdfdc1/
 ||wnacg.*/58s/
 ||wnacg.*/5eg/

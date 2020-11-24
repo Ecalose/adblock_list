@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202011230123
+! Version: 202011240111
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21088
+! Lenth = 21093
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -3004,7 +3004,6 @@ $websocket,domain=5nj.com|cechi8.com
 ?key=$popup,domain=verystream.com
 ?method=baidu.ting.commercial.tactics&
 @@$image,xmlhttprequest,domain=hboav.com
-@@$xmlhttprequest,image,domain=hboav.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-social-bar.$domain=mobi.yahoo.com
 @@.adserver.$domain=litv.tv
@@ -3346,6 +3345,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||cdn.jsdelivr.net^$script,domain=35xs.co
 @@||cdn.optimizely.com/js/*.js$domain=kktv.me
 @@||cdn.runative-syndicate.com/sdk/*/n.js$domain=onemanhua.com
+@@||cdn.sssam.com/static/js/*.js
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xiaoshuo.org|49zw.com|biququ.info|tsxsw.net|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=dybee.tv
 @@||cdn.staticfile.org^$script,domain=rijutv.com
@@ -3528,6 +3528,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||hanjuwang.net^$script,~third-party
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||haoweichi.com/Public/js/ads.js
+@@||hboav.com/guga/ads.js$domain=hboav.com
 @@||hboav.com^$generichide
 @@||hc360.com/ad/*.css
 @@||hdsky.net/ad/down.png
@@ -8366,6 +8367,8 @@ ssnn.net###float_picr
 ssnn.net###nrk_gg
 sspai.com##.advert-card
 sspai.com##.content hr:nth-last-child(-n+4) ~ p
+sssam.com##.widget_html_ad
+sssam.com#%#//scriptlet("set-constant", "ads", "")
 starbaby.cn###top_ad_show
 starbaby.cn###yindex_ads
 start.firefoxchina.cn##.mod-delay-resource:nth-child(4)
@@ -8591,6 +8594,7 @@ toolfk.com##wavy + div[style]
 toolfk.com##wavy ~ a
 tools.2345.com##._hb-box + .mod
 tophub.today##.axx
+tophub.today##.qc
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv###fixedbanner
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
 toutiao.com##.J_add
@@ -19664,6 +19668,7 @@ zznews.cn##.ad:not([style])
 ||wmzhe.com/static/wmzhe/images/cjzg/
 ||wmzhe.com/static/wmzhe/images/suishenbao/
 ||wn789.com/wp-content/uploads/*/SugarHosts
+||wnacg.*/1605524662751.gif
 ||wnacg.*/1sdfdc1/
 ||wnacg.*/58s/
 ||wnacg.*/5eg/
