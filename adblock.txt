@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202011240111
+! Version: 202011250110
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21093
+! Lenth = 21103
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -2172,6 +2172,7 @@ $websocket,domain=5nj.com|cechi8.com
 115.com##.gb-advs
 11luba.com,niluba.cc##.center > div:last-child
 11px.cn##.adg
+11px.cn##.ag
 120ask.com##.b_right > div[style]
 123.chinaso.com##.right-list6
 123.sogou.com,qq.com,web.sogou.com##.cs_right_hw
@@ -3529,6 +3530,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||haoweichi.com/Public/js/ads.js
 @@||hboav.com/guga/ads.js$domain=hboav.com
+@@||hboav.com/guga/adss.js
 @@||hboav.com^$generichide
 @@||hc360.com/ad/*.css
 @@||hdsky.net/ad/down.png
@@ -6058,7 +6060,9 @@ hb163.cn##.ad_panel_980
 hbee.edu.cn#@#.headerad
 hboav.com###inplayer
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
+hboav.com#%#//scriptlet("set-constant", "adbk", "false")
 hboav.com#%#//scriptlet("set-constant", "onload", "null")
+hboav.com#%#//scriptlet('prevent-setTimeout', 'ad block stop')
 hboav.com#@#.close_box0
 hboav.com#@#script + div[class="cc5278_banner_ad"]
 hbzhan.com###leftAdv
@@ -6161,6 +6165,7 @@ hoteastday.com##.incentive
 hoteastday.com##.reloadMedia1
 hoteastday.com##.sessionSub
 hoteastday.com##.watermarh_ul
+hotjob.cn#@#.SOCIAL
 houdao.com###header-ban
 houdao.com##a[style^="background:url"]
 house.qq.com###yf
@@ -9906,6 +9911,7 @@ zznews.cn##.ad:not([style])
 ||119xiazai.com^$subdocument
 ||11img.com/ad/
 ||11kkzz.com/se/wf/
+||11px.cn/Style/ag/
 ||11vvt.com^*tools/
 ||12.cookcai.com^
 ||120.27.*.html
@@ -11073,6 +11079,7 @@ zznews.cn##.ad:not([style])
 ||91dict.com/dub_banner.jpg
 ||91friend.com^$third-party
 ||91jbz.com/file/script/A
+||91jiedai.cn^
 ||91lmgg.com^$third-party
 ||91luopan.com^
 ||91mjw.com/images/tga.jpg
@@ -13050,6 +13057,7 @@ zznews.cn##.ad:not([style])
 ||count.nuanyuehanxing.com^
 ||count.pcauto.com.cn^
 ||count.pcgames.com.cn^
+||count.xxxssk.com^$third-party
 ||counter.pcauto.com.cn^
 ||counter.tianjimedia.com^
 ||countersys.cn^
@@ -18586,6 +18594,7 @@ zznews.cn##.ad:not([style])
 ||stockstar.com/*DUILIAN&t=
 ||stockstar.com/api/?id=
 ||stockstar.com/info/1200x90/
+||store.7box.vip/ad/
 ||storeapi.net^$third-party
 ||storm.mg/ad?
 ||storyren.top/imgg/
@@ -18672,6 +18681,7 @@ zznews.cn##.ad:not([style])
 ||symav.cn^$third-party
 ||symaw.cn^$third-party
 ||synacast.com^
+||syndication.exosrv.com/splash.php?$xmlhttprequest,redirect=nooptext,important,domain=hboav.com
 ||syooys.com^
 ||sysadult.cn^
 ||sysal.cn^
