@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202011250110
+! Version: 202011260123
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19165
+! Lenth = 19178
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -680,6 +680,7 @@
 40407.com##.bg_r
 40407.com##.con_tj
 40407.com,lzep.cn,qudong.com,xitong8.com,xt700.com##.top_banner
+423down.com##h3 > a[href^="https://mp.weixin.qq.com/s/"][target="_blank"] > span
 42xz.com##[onclick*="godownload"]
 4399.com###ads1_1
 4399.com###defaultbglink
@@ -989,8 +990,8 @@
 99.com.cn##.hzh_botleft
 99114.com##.indexcjgg
 99a21.com##.wrap-head-spots
-99a68.com,99re.com##.dmcenter
-99a68.com,99re.com##.spots
+99a67.com,99re.com##.dmcenter
+99a67.com,99re.com##.spots
 99danji.com,eeyy.com##.top-bg
 99meijutv.com##.follow-qrcode
 99tianji.com###banner_gg
@@ -1590,7 +1591,7 @@
 @@||hanjuwang.net^$script,~third-party
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||haoweichi.com/Public/js/ads.js
-@@||hboav.com/guga/ads.js$domain=hboav.com
+@@||hboav.com/guga/ad$domain=hboav.com
 @@||hboav.com/guga/adss.js
 @@||hboav.com^$generichide
 @@||hc360.com/ad/*.css
@@ -4488,6 +4489,7 @@ ilvruan.com###text-14
 ilvruan.com##.n2-section-smartslider
 ilvruan.com##.site-AG
 ilvruan.com##a[href^="http"]:not([href*="ilvruan"]) > img
+ilxdh.com###nice-banner0
 ilxdh.com##.bottom-show
 ilxdh.com##.double11-dialog-container
 ilxdh.com##div[style*="1000px"]
@@ -5517,6 +5519,7 @@ netbardh.com##.js-static[data-position="3.3"]
 netbardh.com##.pos-navbar-ad
 netbian.com##a[href^="https://ibaotu.com/guanggao/"]
 netflav.com##.ads_video_overlay_mobile
+new.qq.com#@##TopAd
 newcger.com##.banner_recom
 news.163.com##.mod_netes_origina
 news.163.com##.mod_pageh5
@@ -6661,7 +6664,8 @@ toolfk.com##wavy + div[style]
 toolfk.com##wavy ~ a
 tools.2345.com##._hb-box + .mod
 tophub.today##.axx
-tophub.today##.qc
+tophub.today##div[class^="ne"]
+tophub.today##div[class^="qc"]
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv###fixedbanner
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
 toutiao.com##.J_add
@@ -7088,6 +7092,7 @@ wps.cn##.school
 wpsoso.com###cse-search-box > p
 wpsoso.com###scontent > div[style]
 wpsoso.com###tips
+wuhaozhan.net##.xsl111
 wuhaozhan.net#?#.l-box:-abp-has(.l-a > span[style="margin-left:-5px;"])
 www.163.com##.float-bar
 www.17173.com##.pn-tg
@@ -9753,7 +9758,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
 ||alicdn.com^$domain=1024gu.com|11papapa.com|1avlang.com|1yingdoutv.com|2334n.com|51dll.com|52kpop.com|55cc.cc|5xx44.com|5xx77.com|63ef.com|69t41.com|7mav2.com|99a21.com|acglover.me|aotu101.com|btdp.online|c7cc.cc|camelliadali.com|ccxx99.com|dytt.com|f6hx.site|feifei6.com|haicao32.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|lady3.xyz|lookpian.com|magnet2048.com|ppx116.com|qingmanyong.com|qqtenglong.com|qyl00.com|qyl222.com|spqi.xyz|supfree.net|thztv.cc|ttww22.com|tv4.cc|viidii.info|wenkuxiazai.com|xiaomingming.org|xinchen2.com|xingzhiyin44.com|yeyemo6.com|yuese46.com|yy6080.cn|yzz12.com|zhuankezhijia.com
 ||alicdn.com^$domain=2c2.website|2p8.space|adultgao.com|caopop.com|caoporn.com|caouoo.com|caox.cc|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vwan.xyz|xhao1.com
-||alicdn.com^$domain=99a68.com|99re.com
+||alicdn.com^$domain=99a67.com|99re.com
 ||alicdn.com^$domain=aikanshu8.com|lawen44.net
 ||alicdn.com^$domain=thzk.cc
 ||alicdn.com^*.gif$domain=15yc.cc|hmog.me
@@ -11335,6 +11340,7 @@ zznews.cn##.ad:not([style])
 ||danpinwu.com^
 ||dante2007.com^
 ||daokejs.com^
+||daomengren.com^*lin*.js
 ||dapskja.cn^
 ||daqiso.com/ggbl/
 ||dashaowu.com^
@@ -11535,6 +11541,7 @@ zznews.cn##.ad:not([style])
 ||dm.zuowenku.net^
 ||dm1.guanwawa.com^
 ||dm1.zjydt.com^
+||dm114.cn/imgs/2020/06/1357d5f161d1678a.jpg
 ||dm530.net/js/ne10/
 ||dm530.net/js/newjs/
 ||dm530.net/pic/fgr/*.js
@@ -12714,7 +12721,7 @@ zznews.cn##.ad:not([style])
 ||hawo.cc^
 ||hbatna.cn^
 ||hbbww.com^
-||hbfie.org/mh
+||hbfie.org/mb/meng/
 ||hbfls.vip^$third-party
 ||hbguzhenyuan.com^
 ||hbhnwy.com^
@@ -13088,6 +13095,7 @@ zznews.cn##.ad:not([style])
 ||hzlm.cc^
 ||hzmiyou.cn^
 ||hznzcn.com/moban/youxiajiao.js
+||hzqzxf.com^
 ||hzsrjs.com^
 ||hzuok.com^
 ||hzuvw.com^
@@ -13815,6 +13823,7 @@ zznews.cn##.ad:not([style])
 ||jsdelivr.net/gh/cdnjsdelivr001/182cdn*.js
 ||jsdelivr.net/gh/fzdm/st*/js/fzwap-
 ||jsdelivr.net/npm/live2d-
+||jsdelivr.net^$domain=99a67.com
 ||jsf.cnlinfo.net^
 ||jsinfo.net^$third-party
 ||jsjinfu.com/maizhan/js/age.js
@@ -14937,6 +14946,7 @@ zznews.cn##.ad:not([style])
 ||mycodes.net/js/$image
 ||mycodes.net/js/*.js
 ||mycodes.net/js/hf_txt.js
+||mydownba.com^
 ||mydrivers.com/2018/ad/
 ||mydrivers.com/2018/news/ad
 ||mydrivers.com/2020/news/8/kkj_msi.gif
@@ -15871,6 +15881,7 @@ zznews.cn##.ad:not([style])
 ||qyer.com/qcross/home/ajax?action=banner
 ||qyer.com^*/base_beacon_ga.js
 ||qyerstatic.com/common/models/common/component/footerBanner/
+||qyhwqie.cn^
 ||qyqc4s.com^
 ||qyttl.cn^
 ||qytyf.com^
@@ -16385,7 +16396,7 @@ zznews.cn##.ad:not([style])
 ||sinaimg.cn^$domain=04stream.tv|11luba.com|11papapa.com|12580sky.com|18board.com|18p2p.com|22ccaa.com|360bifen.com|46bk.com|500xxxx.com|522dy.com|63ef.com|678pan.vip|7mav2.com|7mshipin.org|94xxmm.com|999hdhd.com|99a21.com|9dog.pw|a3v4.top|abminbuy.com|acglover.me|aotu101.com|aotu103.com|blz105.com|blz20.com|blz24.com|caibaojian.com|cangjige.net|cangjige.win|caoliuzx.com|ccxx99.com|cgfdjz.net|cnmysoft.com|dxg06.com|ems183.cn|fdzone.org|fulitxx.com|goodzhibo.com|ifulidh.in|izzs.cc|kccdk.com|kiees.cn|kisssub.org|landiannews.com|lifan.moe|llj22.com|mahuazy.net|niluba.cc|pianyuan.net|rarbt.cc|sbme.me|se533.com|subku.net|supfree.net|thztv.cc|tiantianzhibo.com|tiyulive.cn|txtshu365.com|viidii.info|vx666.com|wszhibo.com|yaoshe1.com|zhibo8.xyz|zimuku.cn|zimuku.la|zuqiu009.com
 ||sinaimg.cn^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
 ||sinaimg.cn^$domain=2c2.website|2p8.space|adultgao.com|caopop.com|caoporn.com|caouoo.com|caox.cc|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vwan.xyz|xhao1.com
-||sinaimg.cn^$domain=99a68.com|99re.com
+||sinaimg.cn^$domain=99a67.com|99re.com
 ||sinaimg.cn^$domain=thzk.cc
 ||sinaimg.cn^*/deco/$script
 ||sinaimg.cn^*/everyoneReading.js
@@ -17319,7 +17330,7 @@ zznews.cn##.ad:not([style])
 ||upan.cc/images/pay/
 ||upantool.com/a/
 ||upload.cc^$domain=141jj.com|mizhiav.com
-||upload.cc^$domain=99a68.com|99re.com
+||upload.cc^$domain=99a67.com|99re.com
 ||uploadhouse.com^*.gif$domain=wishct.com
 ||uploads.duapp.com^$domain=52vip.net
 ||uqpfh.cn^
@@ -17805,6 +17816,7 @@ zznews.cn##.ad:not([style])
 ||wudejia.com^
 ||wudizuqiu.com/fy
 ||wudizuqiu.com/img/dasai8/ybbj.png
+||wuhaozhan.net/img/sponsors-
 ||wuhufengze.com.cn^
 ||wuliao.chzsport.cn^
 ||wuliao.epro.sogou.com^
@@ -18304,6 +18316,7 @@ zznews.cn##.ad:not([style])
 ||y3600.cc/20
 ||y3600.com/1
 ||y66xvgo5i.chuimg.com^
+||y7o9rh.cn^
 ||y7wr7.cn^
 ||ya*.dwstatic.com^
 ||yaba.org.cn^
