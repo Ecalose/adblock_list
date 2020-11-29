@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202011280121
+! Version: 202011290151
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21144
+! Lenth = 21156
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -3463,7 +3463,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||exosrv.com/ads-iframe-display.php$domain=getrelax.cc|sexylove.club
 @@||exosrv.com/ads.js$domain=getrelax.cc|sexylove.club
 @@||exosrv.com/iframe.php?*&size=300x250$domain=520cc.cc|520cc.me
-@@||exosrv.com/splash.php?idzone=3361640$xmlhttprequest,domain=hboav.com
 @@||ez3c.tw/js/adblockDetector.js
 @@||ez3c.tw^$generichide
 @@||fang.com/stats/clickm2011.js
@@ -3531,7 +3530,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||hanjuwang.net^$script,~third-party
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||haoweichi.com/Public/js/ads.js
-@@||hboav.com/guga/ad$~third-party
+@@||hboav.com/guga/*.js$~third-party
 @@||hboav.com/guga/adss.js
 @@||hboav.com^$generichide
 @@||hc360.com/ad/*.css
@@ -4165,6 +4164,9 @@ apple.com.cn#$#main[role="main"] { padding-top: 0 !important; }
 appledaily.com###ebBannerTopDiv + A[href^="http://bit.ly/"]
 appledaily.com.tw##.adblock_splash
 appledaily.com.tw##.owl-lazy[tcode^="AD:"]
+applefans.today#$#.timed-pup { display: none !important; }
+applefans.today#$#.tipi-overlay { display: none !important; }
+applefans.today#$#body { overflow: auto !important; }
 apprcn.com,yeyulingfeng.com##a[href*=".lizhi."]
 asp300.com,asp300.net##.tit01 > a
 asp300.com,asp300.net##.tit02 > a
@@ -5947,8 +5949,8 @@ hall123.com,hi.people.com.cn,xizi.com##img[width="1000"]
 hamibook.com.tw##.custom-banners-cycle-slideshow
 hanjutv.com###widget-weixin
 hanjutv.com##.ggw_fr
-hanjutv.com##a[href*=".hujiang.com"]
-hanjutv.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
+hanjutv2020.com##a[href*=".hujiang.com"]
+hanjutv2020.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
 hao.360.cn###background.festival
 hao.360.cn###daily-hotword
 hao.360.cn###festival-theme > .left-entry
@@ -6764,6 +6766,7 @@ jiecao123.com###sidebar > a
 jiegeng.com##.banner_1212
 jiegeng.com##.coolsite-recommend-linked
 jiegeng.com##.header__item--fr
+jiegeng.com##.large2small
 jiegeng.com,qq.com##.banner_1111
 jiemian.com##.app-open
 jiemian.com##.header-container > div > section[style="width: 100%;"]
@@ -6901,7 +6904,6 @@ kankan.com##div[id^="cm"].banner
 kankanmi.com##.listnewli
 kanman.com###\5f _acgn-virtual-coin__
 kanqiuba.net##a[href*="bet"]
-kanxigua.com##script + div > a:first-child:last-child
 kaopu001.com###pokemon
 kaopu001.com##.coupleBannerAdv
 kaoyan.com##.floatQrcode
@@ -10673,6 +10675,10 @@ zznews.cn##.ad:not([style])
 ||55.la/anonymous/banner/$domain=lxty66.com
 ||550tg.com^
 ||5535aibo.com^
+||5551650.com^
+||5551660.com^
+||5551825.com^
+||5551933.com^
 ||555b2b.com^
 ||5566.buzz/adtrue_
 ||55803.net^$third-party
@@ -11704,7 +11710,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/tfscom/*.sina.
 ||alicdn.com/tps/*-950-90.
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
-||alicdn.com^$domain=1024gu.com|11papapa.com|1avlang.com|1yingdoutv.com|2334n.com|51dll.com|52kpop.com|55cc.cc|5xx44.com|5xx77.com|63ef.com|69t41.com|7mav2.com|99a21.com|acglover.me|aotu101.com|btdp.online|c7cc.cc|camelliadali.com|ccxx99.com|dytt.com|f6hx.site|feifei6.com|haicao32.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|lady3.xyz|lookpian.com|magnet2048.com|ppx116.com|qingmanyong.com|qqtenglong.com|qyl00.com|qyl222.com|spqi.xyz|supfree.net|thztv.cc|ttww22.com|tv4.cc|viidii.info|wenkuxiazai.com|xiaomingming.org|xinchen2.com|xingzhiyin44.com|yeyemo6.com|yuese46.com|yy6080.cn|yzz12.com|zhuankezhijia.com
+||alicdn.com^$domain=1024gu.com|11papapa.com|1avlang.com|1yingdoutv.com|2334n.com|51dll.com|52kpop.com|55cc.cc|5xx44.com|5xx77.com|63ef.com|69t41.com|7mav2.com|99a21.com|acglover.me|aotu101.com|btdp.online|c7cc.cc|camelliadali.com|ccxx99.com|dytt.com|f6hx.site|feifei6.com|haicao32.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|lady3.xyz|magnet2048.com|ppx116.com|qingmanyong.com|qqtenglong.com|qyl00.com|qyl222.com|spqi.xyz|supfree.net|thztv.cc|ttww22.com|tv4.cc|viidii.info|wenkuxiazai.com|xiaomingming.org|xinchen2.com|xingzhiyin44.com|yeyemo6.com|yuese46.com|yy6080.cn|yzz12.com|zhuankezhijia.com
 ||alicdn.com^$domain=2c2.website|2p8.space|adultgao.com|caopop.com|caoporn.com|caouoo.com|caox.cc|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vwan.xyz|xhao1.com
 ||alicdn.com^$domain=99a67.com|99re.com
 ||alicdn.com^$domain=aikanshu8.com|lawen44.net
@@ -12485,6 +12491,7 @@ zznews.cn##.ad:not([style])
 ||bu1.vvvdj.com^
 ||bugcreator.cn^
 ||buimg.com^$domain=kisssub.org
+||bulankk.com^
 ||bulkeach.com^
 ||bumimi.com/money/
 ||business.92wy.com^
@@ -14610,9 +14617,9 @@ zznews.cn##.ad:not([style])
 ||haizirv.cn^
 ||hajuwang.cn^
 ||hangzhou.com.cn/extra/flash/hzwarticle300.swf
-||hanjutv.com/index.php?c=dudu_
 ||hanjutv.com/public/js/layer/layer.js
-||hanjutv.com/statics/skin/*/js/plus.js
+||hanjutv2020.com/index.php?c=dudu_
+||hanjutv2020.com/statics/skin/*/js/plus.js
 ||hanjutvn.com/template/alifun/js/Tmall/
 ||hanmiyong.com^
 ||hanqidq.com^
@@ -14941,6 +14948,7 @@ zznews.cn##.ad:not([style])
 ||hskj.net^
 ||hslyqs.com^
 ||hsmkj.net^$third-party
+||hsyjxzl.cn^
 ||htfmbt.com^
 ||htg-x.com^$third-party
 ||htjsk.com^
@@ -15732,6 +15740,7 @@ zznews.cn##.ad:not([style])
 ||jqhevyf.cn^
 ||jqpvv.cn^
 ||jqsex.com^
+||jqueryget.com^
 ||jqz9.com^
 ||jrj.com.cn/h5Ad?
 ||jrj.com.cn/s?z=
@@ -17608,6 +17617,7 @@ zznews.cn##.ad:not([style])
 ||qdxrhg.com^$third-party
 ||qdyazc.com^
 ||qevcxo.cn^
+||qfihdr.com^
 ||qflwh.cn^
 ||qfs365.com^
 ||qfzcxs.cn^
@@ -18213,6 +18223,7 @@ zznews.cn##.ad:not([style])
 ||shengdaoyiliao.com^
 ||shengdianwang.cc^
 ||shenglonghg.net^
+||shengyaxd.com^
 ||shengzhuanbb.cn^
 ||shenhao258.top^
 ||shentupk85.com^
@@ -19605,6 +19616,7 @@ zznews.cn##.ad:not([style])
 ||weixingshexiangji.net^
 ||weixinhuoyuan.com^
 ||weiyajz.cn^
+||weiyuedu.cc/skin/v3/js/dibu.js
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_get_multiple_strategy?
 ||weizhenwx.com^
 ||weiziqiang.top^
