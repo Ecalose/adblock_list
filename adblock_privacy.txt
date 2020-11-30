@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202011290151
+! Version: 202011300157
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24213
+! Lenth = 24225
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1275,6 +1275,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /api-analytics.
 /api/0/stats
 /api/analytics/*
+/api/analytics?
 /api/analytics|
 /api/increment-pv$xmlhttprequest
 /api/log?
@@ -2560,6 +2561,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /geoipAPI.js?
 /geoip_cc
 /geoip_script?
+/geolocation?utm_
 /geomap.js?
 /geov2.js
 /get-tracking-data
@@ -5022,6 +5024,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /trackpidv3.
 /trackpix.
 /trackpixel.
+/trackpixel?
 /trackpush.min.js
 /trackpush/*
 /trackpxl?
@@ -5511,6 +5514,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /zaius.gif?
 /zaius.js
 /zanox.js
+/zdcc.min.js
 /zddmp.min.js
 /zdgurgler.min.js
 /zemtracker.
@@ -11036,6 +11040,7 @@ znak.com##.relap
 ||clck.yandex.ru/counter/$domain=metro.yandex.ru
 ||clck.yandex.ru/jclck^$third-party
 ||clck.yandex.ru^
+||clck.yandex.ru^$other
 ||clck.yandex.ru^$~other
 ||cleananalytics.com^$third-party
 ||clearcabbage.com^$third-party
@@ -17404,6 +17409,7 @@ znak.com##.relap
 ||nj.com/cgi-bin/stats/
 ||nj.com/dhtml/stats/
 ||nlog.droid4x.cn^
+||nlog.nethru.io^
 ||nm.newegg.com^
 ||nmetrics.samsung.com^
 ||nmtracking.netflix.com^
@@ -18497,6 +18503,7 @@ znak.com##.relap
 ||prisjakt.nu/js.php?p=trafikfonden
 ||prism.app-us1.com^$script,third-party
 ||prism.pandora.tv^
+||privacy-center.org^*/events
 ||privacy-policy.truste.com^$third-party
 ||privacy.www.nu.nl/pixel^
 ||privacytool.org/AnonymityChecker/js/fontdetect.js$third-party
@@ -18820,6 +18827,7 @@ znak.com##.relap
 ||r.rbc.ru^
 ||r.remarketingpixel.com^$third-party
 ||r.sax.sina.com.cn^
+||r.yna.co.kr/global/lib/*/js/nlogger.js
 ||r.ypcdn.com^*/rtd?ptid$image
 ||r0.mail.ru/pixel/
 ||r1.computerbild.de/images/pic.gif
@@ -22316,6 +22324,7 @@ znak.com##.relap
 ||tracking.shoptogether.buy.com^
 ||tracking.sim-technik.de^
 ||tracking.skyword.com^$third-party
+||tracking.smartmeapp.com^
 ||tracking.softwareprojects.com^
 ||tracking.sokrati.com^
 ||tracking.sponsorpay.com^$third-party
@@ -22756,6 +22765,7 @@ znak.com##.relap
 ||uc-file.at.ua/stat/$third-party
 ||uc.cn/collect?
 ||uc.ucweb.com^
+||uc.xddi.ru^$third-party
 ||uciservice.com/adinfo^
 ||uciservice.com^$third-party
 ||ucounter.ucoz.net^
@@ -22852,6 +22862,7 @@ znak.com##.relap
 ||unusedstone.com^$third-party
 ||unusualtitle.com^$third-party
 ||unwrittenspot.com^$third-party
+||uol.com.br/*/stats^
 ||uol.com.br/stats?
 ||up-rank.com^$third-party
 ||up.boston.com^
@@ -22919,6 +22930,7 @@ znak.com##.relap
 ||userdive.com^$third-party
 ||userdmp.com^$third-party
 ||usereachpeople.com^$third-party
+||userexperience.thehut.net^
 ||userfly.com^
 ||userlook.com^$third-party
 ||userneeds.dk^$third-party
@@ -23350,10 +23362,8 @@ znak.com##.relap
 ||warringtonguardian-gb.warringtonguardian.co.uk^
 ||waryfog.com^$third-party
 ||washingtonpost.com/notification-sw.js
-||washingtonpost.com/rw/sites/twpweb/js/init/init.track-header-1.0.0.js
-||washingtonpost.com/wp-srv/javascript/placeSiteMetrix.
 ||washingtonpost.com/wp-stat/analytics/
-||washingtonpost.com^*/one.gif?
+||washingtonpost.com/zeus/iris/iris-main.js
 ||wasm.stream
 ||watch-series.to/analytics.html
 ||watch32hd.org/adblock
@@ -23477,6 +23487,7 @@ znak.com##.relap
 ||webmobile.ws^$third-party
 ||webmonkey.com/js/stats/
 ||webnews.de^*/loglib.js
+||webpixel.smartmeapp.com^
 ||webprospector.de^$third-party
 ||webpu.sh^$third-party
 ||webreseau.com/impression.asp?
@@ -23998,6 +24009,7 @@ znak.com##.relap
 ||yigao.com^$third-party
 ||yigouw.com/c.js
 ||yikyakapi.net/api/logEvent?
+||yimg.com/aaq/vzm/$script,domain=news.yahoo.com
 ||yimg.com/nq/ued/assets/flash/wsclient_
 ||yimg.com/ss/vops.js
 ||yimg.com/wi/ytc.js
