@@ -1,8 +1,8 @@
-! Checksum: v7KJEOXWGvfXrBT1GQgZBQ
+! Checksum: iGYyY4fv00Fz8eDN0pL2Kg
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.14.36
-! TimeUpdated: 2020-11-30T03:30:55+03:00
+! Version: 2.0.14.42
+! TimeUpdated: 2020-12-01T03:30:57+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2862,6 +2862,7 @@ ubmcmm.baidustatic.com
 ||hslyqs.com^
 ||hsmkj.net^$third-party
 ||hsyjxzl.cn^
+||ht12366.top^
 ||htg-x.com^$third-party
 ||huaerduo.com^
 ||huanqiucaizhi.com^
@@ -4668,6 +4669,7 @@ _yad_jsonp_
 ||168gamer.*.php?mod=js
 ||168gamer.*/list-
 ||168gamer.*/olist-
+||168gamesf.*/olist-
 ||168img.com/a/
 ||168img.com/aa/
 ||16co.com/js/adb
@@ -14930,6 +14932,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||cmbc.com.cn^*ads/
 @@||cmbchina.com/ads/
 @@||cmechina.net^$genericblock
+@@||cnki.com.cn/cnki/images/ad/2020/1112_45711271.jpg
 @@||cnprint.org^$generichide
 @@||cnr.cn/gg/
 @@||cnsexy.top/wp-content/plugins/dh-anti-adblocker/assets/js/showads.js
@@ -16516,7 +16519,7 @@ fuliba.net,uliba.net##.widget_custom_html:nth-child(2)
 !#hboav.com
 @@$image,xmlhttprequest,domain=hboav.com
 @@||hboav.com/guga/*.js$~third-party
-@@||hboav.com/guga/das$~third-party
+@@||hboav.com/guga/ads$~third-party
 @@||hboav.com^$generichide
 @@||realsrv.com/iframe.php?idzone=3476965&size=300x250$subdocument,domain=hboav.com
 ||hboav.com/guga/$~subdocument
@@ -17703,6 +17706,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||jqpvv.cn^
 ||jskang.cn^
 ||jsku.cc^
+||jsku.info^
 ||jsr9.com^$third-party
 ||jssumei.cn^
 ||jsszxx.com^
@@ -17729,6 +17733,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||jxhcyc.com^
 ||jxinyue.top^
 ||jxmzyg.com^
+||jxwef0.cn^
 ||jxxcfd.com^
 ||jxyufa.com^
 ||jyjhkz.com^

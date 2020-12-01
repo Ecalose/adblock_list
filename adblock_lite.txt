@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202011300157
+! Version: 202012010114
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19226
+! Lenth = 19231
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1436,6 +1436,7 @@
 @@||cmechina.net^$genericblock
 @@||cmoney.tw/finance/js/googleanalytics.js
 @@||cmoney.tw/vt/js/google_analytics.js
+@@||cnki.com.cn/cnki/images/ad/2020/1112_45711271.jpg
 @@||cnprint.org^$generichide
 @@||cnr.cn/gg/
 @@||cnsexy.top/wp-content/plugins/dh-anti-adblocker/assets/js/showads.js
@@ -1592,8 +1593,8 @@
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||haoweichi.com/Public/js/ads.js
 @@||hboav.com/guga/*.js$~third-party
+@@||hboav.com/guga/ads$~third-party
 @@||hboav.com/guga/adss.js
-@@||hboav.com/guga/das$~third-party
 @@||hboav.com^$generichide
 @@||hc360.com/ad/*.css
 @@||hdsky.net/ad/down.png
@@ -8109,6 +8110,7 @@ zznews.cn##.ad:not([style])
 ||168gamer.*.php?mod=js
 ||168gamer.*/list-
 ||168gamer.*/olist-
+||168gamesf.*/olist-
 ||168img.com/a/
 ||168img.com/aa/
 ||168xiazai.com^
@@ -13015,6 +13017,7 @@ zznews.cn##.ad:not([style])
 ||hslyqs.com^
 ||hsmkj.net^$third-party
 ||hsyjxzl.cn^
+||ht12366.top^
 ||htfmbt.com^
 ||htg-x.com^$third-party
 ||htjsk.com^
@@ -13861,6 +13864,7 @@ zznews.cn##.ad:not([style])
 ||jsjxhd.com^$third-party
 ||jskang.cn^
 ||jsku.cc^
+||jsku.info^
 ||jsmwd.com^
 ||jsr9.com^$third-party
 ||jss.tvzhe.com^
@@ -13935,6 +13939,7 @@ zznews.cn##.ad:not([style])
 ||jxnews.com.cn/assets/js/dspshow.js
 ||jxnews.com.cn^*_ad_
 ||jxsgxzx.com^
+||jxwef0.cn^
 ||jxwlkssb.com^
 ||jxxcfd.com^
 ||jxyufa.com^
