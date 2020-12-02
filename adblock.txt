@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202012010114
+! Version: 202012020134
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21171
+! Lenth = 21181
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -858,6 +858,7 @@
 ##script + #coupletBox
 ##script + #rbbox
 ##script[src="/js/sy2.js"] + div[align="center"]
+##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
@@ -2621,6 +2622,7 @@ $websocket,domain=5nj.com|cechi8.com
 40407.com##.bg_r
 40407.com##.con_tj
 40407.com,lzep.cn,qudong.com,xitong8.com,xt700.com##.top_banner
+423down.com##A[href^="https://mp.weixin.qq.com/"]
 423down.com##h3 > a[href^="https://mp.weixin.qq.com/s/"][target="_blank"] > span
 42xz.com##[onclick*="godownload"]
 4399.com###ads1_1
@@ -3060,6 +3062,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@/adverts/*$domain=onlychild.cn
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
+@@/adview_pic_$domain=sssam.com
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/analytics.php?$domain=xcar.com.cn
@@ -3412,6 +3415,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||da.mgtv.com/m/player?
 @@||da.mgtv.com/m5/page?
 @@||daoju.qq.com/time/*/js/ad/
+@@||dayanzai.me/image/ad/
 @@||dayanzai.me/image/ad/$image
 @@||delivery.wasu.cn/crossdomain.xml
 @@||dictionary.search.yahoo.com/beacon/sc?&ajaxdd=tabsCard&
@@ -3844,9 +3848,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||tbskip.taobao.com/json/
 @@||tce.alicdn.com^$domain=alimama.com
 @@||tdx.com.cn/images/*ad$~third-party
-@@||technews.tw/www/delivery/
 @@||technews.tw/www/delivery/$badfilter
-@@||technews.tw^$generichide
 @@||technews.tw^$generichide,badfilter
 @@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
 @@||tenpay.com^*?ADTAG=
@@ -6952,6 +6954,7 @@ km.com##.downloadApp
 kmf.com##.g-kmf-906banner
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
 kocpc.com.tw###scroll_div
+kocpc.com.tw##.kocpc_bot_ad
 kocpc.com.tw##.sidebar:nth-child(2)
 kocpc.com.tw##.sidebar:nth-child(3)
 kocpc.com.tw##.single_ads
@@ -7354,6 +7357,7 @@ mrbird.cc#@#.social-icons
 mscbsc.com##.bao1
 mse.360.cn##a[id^="banner"]
 msn.cn##.rc > a[href^="https://sp.booking.com/"]
+msn.cn##div[class^="nativeAd-DS-card"]
 msn.com###taboola-above-homepage-thumbnails
 msn.com##.ad
 msn.com##div[data--adqjyluqt]
@@ -13072,6 +13076,7 @@ zznews.cn##.ad:not([style])
 ||con-article.hjapi.com/v1/txs/
 ||content.xilu.com^$object
 ||continuedsys.cn^
+||continuefaf.top^
 ||coolaler.com/index_ads/
 ||coolbook.cc^
 ||coolfenxi.com^
@@ -13262,6 +13267,7 @@ zznews.cn##.ad:not([style])
 ||dadjia.com^
 ||daf-rs.com/imageViewer/wpAd
 ||dafapai.com^
+||dagonghuzhu.com^
 ||dagou2018.com/js/item
 ||dagumanhua.com/style/mdagu.js
 ||dahanedu.com^
@@ -15813,6 +15819,7 @@ zznews.cn##.ad:not([style])
 ||jstdjq.com^
 ||jsth999.com^
 ||jstucdn.com/g3/
+||jstucdn.com/js/goovis.js
 ||jstucdn.com/js/vrsr
 ||jsvv587.com^
 ||jswnuq.cn^
@@ -17995,6 +18002,7 @@ zznews.cn##.ad:not([style])
 ||rongchengxxw.com^
 ||rongdingwl.cn^
 ||rongnews.com^
+||root85.com^
 ||rqgsf.com^
 ||rqvfewi.cn^
 ||rr.pochengweiyuan.com^$third-party
@@ -18539,6 +18547,7 @@ zznews.cn##.ad:not([style])
 ||sp.qf.56.com^
 ||sp96878.com^
 ||spahelani.com^
+||spaung.cn^
 ||spcode.baidu.com^
 ||spectram.pro^
 ||speedtest.cn/assets/images/ce_
@@ -19618,6 +19627,7 @@ zznews.cn##.ad:not([style])
 ||wei2008.com/js/jump
 ||wei2008.com/js/t_
 ||wei2008.com/skin/js/top.js
+||weifengtianxia.com^
 ||weiguanwang888.com^
 ||weihaifangzi.com/js/w1.js
 ||weihaojiaju.com/tu888/

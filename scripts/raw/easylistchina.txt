@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FQJ65fcoOUVz+kHfhMta2g
-! Version: 202012010113
+! Checksum: stAeCiq+AV2YKICteby+PQ
+! Version: 202012020112
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 01 Dec 2020 01:13 UTC
+! Last Modified: 02 Dec 2020 01:12 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1143,6 +1143,7 @@ _xiuno_com_ad/
 ##script + #coupletBox
 ##script + #rbbox
 ##script[src="/js/sy2.js"] + div[align="center"]
+##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
@@ -2043,6 +2044,7 @@ ubmcmm.baidustatic.com
 ||d8ekco.com^
 ||dadjia.com^
 ||dafapai.com^
+||dagonghuzhu.com^
 ||dahanedu.com^
 ||daikuanfanli.com^
 ||dalianhengtai.com^
@@ -3437,6 +3439,7 @@ ubmcmm.baidustatic.com
 ||webofxm.cn^
 ||wecrtfr.com^
 ||weddingeeos.com^$third-party
+||weifengtianxia.com^
 ||weihuiyungou.com^
 ||weiqiqu.cn^
 ||weizhenwx.com^
@@ -6780,6 +6783,7 @@ _yad_jsonp_
 ||jsdelivr.net/gh/fzdm/st*/js/fzwap-
 ||jsjinfu.com/maizhan/js/age.js
 ||jstucdn.com/g3/
+||jstucdn.com/js/goovis.js
 ||jstucdn.com/js/vrsr
 ||jswz8.com/images/
 ||jsyefc.com^
@@ -8898,6 +8902,9 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+msn.cn##div[class^="nativeAd-DS-card"]
+423down.com##A[href^="https://mp.weixin.qq.com/"]
+kocpc.com.tw##.kocpc_bot_ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14266,6 +14273,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/advertisement_ads_$domain=tahua.net
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
+@@/adview_pic_$domain=sssam.com
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
@@ -14277,6 +14285,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/fuckadblock.$domain=bde4.cc|ck101.com|datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|papalah.com|poedb.tw
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com
 @@/home/ads/*$domain=esunbank.com.tw
+@@||dayanzai.me/image/ad/
 @@/image/ad/*$domain=gashpoint.com
 @@/images/*/*.gif$domain=maichun5.info|mc88.info|myhhg.com|yh1.info|yh10.info
 @@/images/ad/*$domain=9588.com|casio.com.cn|dod-tec.com|ourgame.com|pro-partner.com.tw|snh48.com|tingbook.com
@@ -14822,8 +14831,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||taobao.com/go/app/tmall/login-api.php?
 @@||taobao.com^*&adgroupid=
 @@||tdx.com.cn/images/*ad$~third-party
-@@||technews.tw/www/delivery/
-@@||technews.tw^$generichide
 @@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
 @@||tenpay.com^*?ADTAG=
 @@||tgfcer.com/advert.js
@@ -16712,6 +16719,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||colorofgod.cn^
 ||comberry.cn^
 ||continuedsys.cn^
+||continuefaf.top^
 ||coolpadrom.cn^
 ||cooltool.cc^
 ||cornplus.cn^
@@ -17734,6 +17742,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||rockcoke.cn^
 ||romgv.com^
 ||rongnews.com^
+||root85.com^
 ||rqvfewi.cn^
 ||rrkykn.cn^
 ||rtslgov.cn^
@@ -17836,6 +17845,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||soueki.com^
 ||soyue.cc^$third-party
 ||spahelani.com^
+||spaung.cn^
 ||sqa4e.xyz^
 ||sqtr1v.com^
 ||sqwscy.com^
