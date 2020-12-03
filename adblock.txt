@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202012020134
+! Version: 202012030122
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21181
+! Lenth = 21190
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -2622,7 +2622,7 @@ $websocket,domain=5nj.com|cechi8.com
 40407.com##.bg_r
 40407.com##.con_tj
 40407.com,lzep.cn,qudong.com,xitong8.com,xt700.com##.top_banner
-423down.com##A[href^="https://mp.weixin.qq.com/"]
+423down.com##a[href^="https://mp.weixin.qq.com/"]
 423down.com##h3 > a[href^="https://mp.weixin.qq.com/s/"][target="_blank"] > span
 42xz.com##[onclick*="godownload"]
 4399.com###ads1_1
@@ -2942,6 +2942,7 @@ $websocket,domain=5nj.com|cechi8.com
 9dcj.com##.gif_left
 9dog.pw##.float-adv
 9game.cn###btInfo
+9ht.com##A[href*=".360.cn/"]
 9ht.com,cesafe.com,downcc.com,downyi.com,pc0359.cn,pc6.com,xfdown.com###gaosuxiazai
 9ht.com,pc0359.cn,pc6.com,ucbug.com##.downnow
 9le8.com###program_play_right
@@ -3028,6 +3029,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@/ad_banner/*$domain=donnaart.com.tw
 @@/ad_file/*$domain=7-11.com.tw|pxmart.com.tw
 @@/adaffiliate_$image,domain=ipfs-lab.com
+@@/adback.$domain=pg-wuming.com
 @@/adbanner/*$domain=bsgroup.com.hk|fjt2.net
 @@/adbanner/*$image,domain=books.com.tw
 @@/adbar/*$domain=outlook.live.com
@@ -3060,9 +3062,8 @@ $websocket,domain=5nj.com|cechi8.com
 @@/advertisement_ads_$domain=tahua.net
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
-@@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
+@@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
-@@/adview_pic_$domain=sssam.com
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/analytics.php?$domain=xcar.com.cn
@@ -3074,7 +3075,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|pop-fashion.com
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com
 @@/fingerprintjs2.min.js$domain=imooc.com
-@@/fuckadblock.$domain=bde4.cc|ck101.com|datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|papalah.com|poedb.tw
+@@/fuckadblock.$domain=bde4.cc|ck101.com|datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|papalah.com|poedb.tw|share1223.com
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
@@ -3540,6 +3541,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||hboav.com/guga/*.js$~third-party
 @@||hboav.com/guga/ads$~third-party
 @@||hboav.com/guga/adss.js
+@@||hboav.com/guga/das$~third-party
 @@||hboav.com^$generichide
 @@||hc360.com/ad/*.css
 @@||hdsky.net/ad/down.png
@@ -3729,6 +3731,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||pchome.com.tw/img/js/xpcadshow.js$domain=game735.com
 @@||pchomepay.com.tw/share/js/
 @@||petrochina.com.cn/advertisement_
+@@||pg-wuming.com^$generichide
 @@||photopea.com/ads.js
 @@||piaotian.com/scripts/readindex/tongji.js
 @@||pic.zol-img.com.cn/2009/pix_index.swf
@@ -3792,6 +3795,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||seyise8.com^$generichide
 @@||seyy66.space^$generichide
 @@||share.baidu.com^$script,stylesheet,domain=k73.com
+@@||share1223.com^$generichide
 @@||shine.cn/showadcode2.asp?posid=68&
 @@||shopback.com.tw^$generichide
 @@||shopeemobile.com/shopee/*/modules/ads/
@@ -10131,6 +10135,7 @@ zznews.cn##.ad:not([style])
 ||18comic.*/static/resources/files/*0x
 ||18comic.*/static/resources/images/168/
 ||18comic.*/static/resources/images/300
+||18comic.*/templates/frontend/airav/js/avs-0.4.js
 ||18comic.*/templates/frontend/airav/js/jqa
 ||18comic.*/templates/frontend/airav/js/jquery.Dn
 ||18comic.*/templates/frontend/airav/js/jquery.avs-0.3.
@@ -12481,6 +12486,7 @@ zznews.cn##.ad:not([style])
 ||btbtdy.*/js/slade888.js
 ||btbtdy.*/templets/btdy/js/ad
 ||btbuluo.com/uploads/*.gif
+||btc.com/v1/poster/production/explorer-banner.
 ||btcfans.com/template/comiis_lssy/ad/
 ||btdb.in/beacon.html
 ||btdx8.com/tmp/
@@ -13443,6 +13449,7 @@ zznews.cn##.ad:not([style])
 ||dilcn.net^
 ||dilidd.com^
 ||dilidili.wang/uploads/allimg/171227/1_1520203421.png
+||dilqdiw.cn^
 ||dingge.cc^$third-party
 ||dingniugu.com/newskin/js/backTop.js
 ||dingniugu.com^*public.
@@ -14038,6 +14045,7 @@ zznews.cn##.ad:not([style])
 ||fijipic.xyz/bit20/upload/image/20200401/40100094771.gif
 ||fijipic.xyz/bit20/upload/image/20200503/50300122412.gif
 ||fijipic.xyz/bit20/upload/image/20200721/72100040886.gif
+||fijipic.xyz^
 ||file.cloud.sogou.com/*/superzone/
 ||file.ws.126.net/house/nj/*.swf
 ||files.jb51.net/image/
@@ -15597,6 +15605,7 @@ zznews.cn##.ad:not([style])
 ||jianpian.vip^$third-party
 ||jianshe99.com/lamu/
 ||jianshen114.com/images/Advistings/
+||jianxinshanghai.com^
 ||jianxun.io/ad/
 ||jianyousj.com^
 ||jianzhanxx.me^
