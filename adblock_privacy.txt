@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202012030122
+! Version: 202012040137
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24240
+! Lenth = 24251
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1277,6 +1277,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /api/analytics/*
 /api/analytics?
 /api/analytics|
+/api/cmp_tracker
 /api/increment-pv$xmlhttprequest
 /api/log?
 /api/lt/ref?
@@ -5963,7 +5964,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||britishtelecom.112.2o7.net^$domain=bt.com
 @@||brm-core-0.brsrvr.com/api/*/core/?account_id=$domain=m.toysrus.com
 @@||broadcastt.xyz/apps/$websocket
-@@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|crrowd.com|gina-phillips.com|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|simonparkes.org|stockforecasttoday.com|tekku.co.za|theangryviking1776.com|thegivingblock.com|thepittsburghoratory.org|truenews4u.com|washingtonpost.com|wix.com
+@@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|connect.shore.com|crrowd.com|gina-phillips.com|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|simonparkes.org|stockforecasttoday.com|tekku.co.za|theangryviking1776.com|thegivingblock.com|thepittsburghoratory.org|truenews4u.com|washingtonpost.com|wix.com
 @@||browser.sentry-cdn.com^$domain=marshmallow-qa.com
 @@||browserscope.org/user/beacon/*?callback=$script,domain=jsperf.com
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
@@ -7529,10 +7530,10 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||seznam.cz/?spec=*&url=$image,domain=search.seznam.cz
 @@||sfdict.com/app/*/click_tracking.js$domain=thesaurus.com
 @@||sgqcvfjvr.onet.pl^$script,domain=kobieta.onet.pl
-@@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=rtl.de
-@@||showheroes.com/publishertag.js$domain=rtl.de
-@@||showheroes.com/pubtag.js$domain=rtl.de
-@@||showheroes.com/spot/iframe?pageurl=$script,subdocument,domain=rtl.de
+@@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=kochbar.de|rtl.de|rtl2.de
+@@||showheroes.com/publishertag.js$domain=kochbar.de|rtl.de|rtl2.de
+@@||showheroes.com/pubtag.js$domain=kochbar.de|rtl.de|rtl2.de
+@@||showheroes.com/spot/iframe?pageurl=$script,subdocument,domain=kochbar.de|rtl.de|rtl2.de
 @@||simyo.de/b/ss/$image
 @@||siteanalytics.compete.com^$~third-party
 @@||siteapps.caa.co.uk/scripts/plugins/analytics/ga.min.js$script,~third-party
@@ -7560,6 +7561,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||songza.com/static/*/songza/systems/$script
 @@||sophos.com^*/tracking/gainjectmin.js$script,domain=community.sophos.com
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
+@@||sourcepointcmp.bloomberg.com/mms/get_site_data$xmlhttprequest,domain=bloomberg.com
 @@||spatialbuzz.com/piwik/piwik.js$domain=spatialbuzz.com
 @@||speakout7eleven.ca^*/Magento_GoogleTagManager/$~third-party
 @@||spiegel.de/layout/js/http/netmind-$script
@@ -8947,6 +8949,7 @@ znak.com##.relap
 ||aliyuncs.com/r.png?
 ||alkemics.com^$third-party
 ||all-top.ru/cgi-bin/topcount.cgi?
+||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
 ||allanalpass.com/track/
 ||allcarpictures.com/stat/
 ||allexperts.com/px/
@@ -10851,6 +10854,7 @@ znak.com##.relap
 ||cdn.mosoah.com/analytics.js
 ||cdn.odoscope.cloud^$third-party
 ||cdn.resonate.com^$third-party
+||cdn.retailrocket.ru/javascript/tracking.js
 ||cdn.segment.com/analytics.js
 ||cdn.static-fra.de/*/tracking/
 ||cdn.taboola.com/libtrc/animeyttv/loader.js
@@ -13163,6 +13167,7 @@ znak.com##.relap
 ||event.demirorenteknoloji.com^$third-party
 ||event.dkb.de^
 ||event.getblue.io^
+||event.getblue.io^$third-party
 ||event.prod.bidr.io^
 ||event.scimo.io^
 ||event.syndigo.cloud^
@@ -13862,6 +13867,7 @@ znak.com##.relap
 ||g4952108375.co^
 ||g4p.redtram.com^
 ||g5150192710.co^
+||g5348277045.co^
 ||ga-analytics.com^$third-party
 ||ga-beacon.appspot.com^
 ||ga.canoe.ca^
@@ -16028,7 +16034,6 @@ znak.com##.relap
 ||localmonero.co/static/ga.js
 ||localytics.com^
 ||localytics.com^$third-party
-||location.bloomberg.com^
 ||location3.com/analytics/
 ||lockview.cn^$third-party
 ||locotrack.net^$third-party
@@ -16190,6 +16195,7 @@ znak.com##.relap
 ||logs.jobs.com/impression_trackingv2.min.js
 ||logs.juspay.in
 ||logs.ntvplus.tv^
+||logs.psm.wmcdp.io^$third-party
 ||logs.roku.com^
 ||logs.spilgames.com^
 ||logs.supersonic.com^
@@ -16451,6 +16457,7 @@ znak.com##.relap
 ||mastertag.q-sis.de^
 ||matchcows.com^$third-party
 ||matchesfashion.com/js/Track.js
+||matchid.adfox.yandex.ru/getcookie$domain=vseinstrumenti.ru
 ||mate1.com^*/iframe/pixel/
 ||mate1.com^*/reg.logging.js
 ||matelso.de/webtracking/
@@ -16926,6 +16933,7 @@ znak.com##.relap
 ||morhipo.com/Shared/AnalyticsJS^
 ||mormont.gamer-network.net^
 ||morningdigit.com^$third-party
+||mors22.com^
 ||mortgage101.com/tracking/
 ||moshimo.com^*/impression?
 ||motionlessbag.com^$third-party
@@ -18251,6 +18259,7 @@ znak.com##.relap
 ||pixel.spotify.com^
 ||pixel.sprinklr.com^
 ||pixel.staging.tree.com^
+||pixel.tapad.com^$third-party
 ||pixel.trackverify.com^$third-party
 ||pixel.tree.com^
 ||pixel.tuko.co.ke^
@@ -18566,6 +18575,7 @@ znak.com##.relap
 ||proofpoint.com^$third-party
 ||proofpositivemedia.com^$third-party
 ||propagerank.de^$third-party
+||propeller-tracking.com^
 ||propeller-tracking.com^$third-party
 ||propelplus.com/track/$third-party
 ||properm.ru/top/counter_new.php?
@@ -21538,6 +21548,7 @@ znak.com##.relap
 ||telemetric.dk^$third-party
 ||telemetry.allrecipes.com^
 ||telemetry.api.swiftkey.com^
+||telemetry.api.wmcdp.io^$third-party
 ||telemetry.art19.com^
 ||telemetry.jivosite.com^
 ||telemetry.mozilla.org^
