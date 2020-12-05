@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202012040137
+! Version: 202012050135
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21198
+! Lenth = 21214
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -2180,6 +2180,11 @@ $websocket,domain=5nj.com|cechi8.com
 11px.cn##.ag
 120ask.com##.b_right > div[style]
 123.chinaso.com##.right-list6
+123.com.cn##.ad
+123.com.cn##.bottom-ylink
+123.com.cn##.fixed-top
+123.com.cn##.img-banner
+123.com.cn##.wraper_ad
 123.sogou.com,qq.com,web.sogou.com##.cs_right_hw
 123.sogou.com,web.sogou.com##.adword > a
 123.sogou.com,web.sogou.com##.dropBox_list > li > a > span[style="color:red"]
@@ -4851,6 +4856,7 @@ chongbuluo.com##a[href^="https://cn.udacity.com/"]
 chongdiantou.com##.nice-sales
 chromecj.com##.topblock
 chromefk.com##.tip-alert
+chsi.com.cn##.zx-axvert
 chtoen.com##.adsbygoogle:not([data-ad-slot="9717665976"])
 chyangwa.net,motorfans.com.cn###scrollPics
 chyangwa.net,motorfans.com.cn##img[width^="1200"]
@@ -5289,6 +5295,7 @@ douyu.com##.hot-sign-2
 douyu.com##.imageItem-wrap[href*=".cr-nielsen.com/"]
 douyu.com##.imageItem-wrap[style="width: 1200px; height: 120px;"]
 douyu.com##.imageItem-wrap[style="width: 287px; height: 559px;"]
+douyu.com##.index-common-1-rrh
 douyu.com##.noble-up-guide
 douyu.com##.pendant-wrap
 douyu.com##.row-4.theatre
@@ -6687,6 +6694,7 @@ ithome.com##a[href*="/lapin."]
 ithome.com##a[href="/html/363216.htm"]
 ithome.com##a[href^="http://e.cn.miaozhen."]
 ithome.com##div[style^="width:960px;height:60px;"]
+ithome.com#$?#.t-b.sel > ul.nl > li:has(> a[href*="/lapin."]) { remove: true; }
 ithome.com#?#.placeholder:-abp-has(> a > .plc-con > .plc-footer > .tip-gray)
 ithome.com#?#li:-abp-has(>.block a[href*="/lapin."])
 ithome.com,zhihu.com##.AdblockBanner
@@ -12363,6 +12371,7 @@ zznews.cn##.ad:not([style])
 ||biqugeso.com^*html$script
 ||biqugexx.com/static/js/wap.js
 ||birdmedia.com^$third-party
+||birthcaker.cn^
 ||bishufang.cn^
 ||bitanzi.cn/xiwang/fumeiti.js
 ||bitauto.com/ResourceFiles/play/play.swf
@@ -13453,6 +13462,7 @@ zznews.cn##.ad:not([style])
 ||dilcn.net^
 ||dilidd.com^
 ||dilidili.wang/uploads/allimg/171227/1_1520203421.png
+||dilidili8.com/static/*.js
 ||dilqdiw.cn^
 ||dingge.cc^$third-party
 ||dingniugu.com/newskin/js/backTop.js
@@ -13896,6 +13906,7 @@ zznews.cn##.ad:not([style])
 ||erocw.com^
 ||erosyndc.com^
 ||erqimall.net^
+||ertongjiaju360.com^
 ||es3984.review/02_cn_ad/
 ||esuzm.cn^
 ||esyzdb.com^
@@ -14193,6 +14204,7 @@ zznews.cn##.ad:not([style])
 ||fyehare.com^
 ||fyjyhm.com^
 ||fzbm.com/bbs/static/js/bma.js
+||fzbymy.com^
 ||fzdeng.com^
 ||fzdfwy.com^
 ||fzglqyy.com^
@@ -15489,6 +15501,7 @@ zznews.cn##.ad:not([style])
 ||iyaos.com^
 ||iyejie.com/1024code.gif
 ||iyejie.com/xydlad.js
+||iyingdi.com/goood?
 ||iyoowi.com^
 ||iyouhu.cn^
 ||iyptc.cn^
@@ -15875,6 +15888,7 @@ zznews.cn##.ad:not([style])
 ||juxia.com/jxtp/indexbg.jpg
 ||juxiangyou.com^$third-party
 ||juxilm.com^
+||juxuyun.com^
 ||juyiqiche.com.cn^
 ||juyour8.org^
 ||juyzr.com^
@@ -17711,6 +17725,7 @@ zznews.cn##.ad:not([style])
 ||qingkai.com/gg_img/
 ||qingkong.net/skin/htcs/images/980.jpg
 ||qingsedhh.com/images/gg.gif
+||qingyanmjg.com^
 ||qingzhencai.net^
 ||qinlinquan.cn^
 ||qinongyouxuan.cn^$third-party
@@ -18408,6 +18423,7 @@ zznews.cn##.ad:not([style])
 ||sinaimg.cn^$domain=thzk.cc
 ||sinaimg.cn^*/deco/$script
 ||sinaimg.cn^*/everyoneReading.js
+||sinaimg.cn^*/pushDiversion*.js
 ||sinaimg.cn^*_wap_ad_
 ||sinaimg.com^$domain=dayanzai.me
 ||sinajs.cn/open/analytics/
