@@ -1,8 +1,8 @@
-! Checksum: 3Cjilro7WdatOteRjlQCqQ
+! Checksum: +EwNt70l36N5H1N1+BZ02g
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.14.81
-! TimeUpdated: 2020-12-06T03:30:56+03:00
+! Version: 2.0.14.89
+! TimeUpdated: 2020-12-07T04:03:22+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1624,6 +1624,7 @@ _xiuno_com_ad/
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 .8ox.cn
+||198.2.215.131^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -5607,6 +5608,7 @@ _yad_jsonp_
 ||baidu.com/adver?
 ||baidu.com/api/*/ads/
 ||baidu.com/api/proxyapi?tag=adv&
+||baidu.com/api/wikiui/getasp?
 ||baidu.com/api/wikiui/guesslike?
 ||baidu.com/brands/yxtg/source/yxCoupletsAd.js
 ||baidu.com/cms/rc/adSideConfig.json?
@@ -10763,6 +10765,7 @@ fang.com###xmlAd
 gaokao.com###xuad-left
 qhnews.com###xwyc
 alu.cn###xxxhuangjinzhanwei
+51xiazai.cn###xzbtn1:nth-child(2)
 drv5.cn###xzqq > ul
 redocn.com###yc_adv_1_2
 house.qq.com###yf
@@ -10842,7 +10845,7 @@ jinhua.com.cn##.FocusAD
 angelweb.cn##.GG960x90
 aiyuke.com##.GGad
 downg.com##.Gs_d[href$=".exe"]
-52fzwg.com,79tao.com,hqol.cn,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com##.GzList
+52fzwg.com,79tao.com,hqol.cn,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com,zhenn.net##.GzList
 le.com##.H-tg
 diyifanwen.com##.Hzh1
 diyifanwen.com##.Hzh2
@@ -11182,6 +11185,7 @@ wed114.cn##.adtwo
 114la.com,78dm.net,chinairn.com,dav01.com,qncye.com,qzwb.com,silisili.in,silver.org.cn,solidot.org,ylmf.com##.adv
 xmfish.com##.adv-760
 xmfish.com##.adv-960
+yxdm.me##.adv-bt
 xinhuanet.com##.adv-column2
 wdzj.com##.adv-img
 yxdm.me##.adv0
@@ -12733,6 +12737,7 @@ sina.com##.parta_l_ads
 javdove.com,javdove2.club##.partialViewSlider-outerwrapper
 baidu.com##.pauseadv
 heiguang.com##.pbAddPic
+aiweibk.com##.pc
 18183.com##.pcBtn > a[href*="@"]
 kikinote.net##.pc_ad
 hero3g.com##.pcbanner
@@ -12887,6 +12892,7 @@ rfidworld.com.cn##.rfidADClass
 fuliba.net##.right-banner
 image.baidu.com##.right-banner-area
 isso.com.cn##.right-content-div > .top-div + div
+jingyan.baidu.com##.right-fixed-related-wrap
 to8to.com##.right-float-ad
 csdn.net##.right-item[data-track-click*="http"]:not([data-track-click*=".csdn."])
 123.chinaso.com##.right-list6
@@ -13157,6 +13163,7 @@ etest8.com##.subtop2right
 17house.com##.suiping
 qingdaonews.com##.surround
 vdianying.cc##.swiper-container
+toolfk.com##.swiper-container-horizontal
 1kkk.com,dm5.com##.swiper-container[style*="760px;"]
 cnbeta.com##.swiper-slide-content a[href^="http"]:not([href*="cnbeta."])
 lightnovel.us##.swiper-slide:first-child
@@ -13547,6 +13554,7 @@ chinayk.com##.yb_banner
 acg17.com##.yhq
 fdc.com.cn##.yifangbanner
 greenxiazai.com##.yinsu_xz
+baidu.com##.yitiao-box
 ifeng.com##.yiyuan
 youku.com##.yk-AD-tong
 hk.news.yahoo.com##.yog-col div.classickick[data-beacon-fired]
@@ -13687,7 +13695,7 @@ v.qq.com##a[href*=".renrendai.com"]
 makepolo.com##a[href*=".rong360.com"]
 ccav5.com##a[href*=".sinaimg."]
 chdbits.co##a[href*=".taobao"]
-18comic.org,18comic.vip,52movieba.com,5dm.tv,acglala.net,ainuody.com,awaker.cn,bimiacg.com,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.com,epinv.com,eroacg.com,galacg.me,gmgard.com,halitv.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jitapu.com,kisssub.org,languang.co,liuli.pw,meijutt.tv,mikuclub.org,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
+18comic.org,18comic.vip,52movieba.com,5dm.tv,acglala.net,ainuody.com,awaker.cn,bimiacg.com,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.com,epinv.com,eroacg.com,galacg.me,gmgard.com,halitv.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jitapu.com,jiyingw.net,kisssub.org,languang.co,liuli.pw,meijutt.tv,mikuclub.org,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
 boke112.com##a[href*=".tencent.com"]
 acgdoge.net,chinalawedu.com,douyu.com,dzbhdm.com,gmgard.com,hggard.com,iqiyi.com,jinti.com,youku.com##a[href*=".tmall.com"]
 xianzhenyuan.cn##a[href*=".tmall.com"]:not(#xztba)
@@ -13698,6 +13706,7 @@ v.qq.com##a[href*=".vip.com"]
 zhibo8.cc##a[href*=".wanjiashe."]
 dm5.com,dm5.hk##a[href*=".wannaplay.cn"]
 tiexue.net##a[href*=".wx359.cn/"]
+toolfk.com##a[href*=".xiuxiandou.com/"]
 bde4.cc##a[href*=".yabo816."]
 ifkdy.com,ilxdh.com##a[href*=".yhm11.com"]
 cnzol.com##a[href*=".youa.net"]
@@ -14538,6 +14547,7 @@ sdzbcg.com##td[width="580"][height="279"] > table:nth-child(2n-1)
 cartoonmad.com##td[width="890"] > table > tbody > tr > td[valign="top"][height="118"]
 mgbbs.cn##td[width="960"][height="60"]
 ningmengzhibo.com##th[style="width: 80px;"][colspan="3"]
+toolfk.com#?#div[class]:-abp-has(> a[href*=".aliyun.com"])
 toutiao.com#?#.J_ad
 toutiao.com#?#.has_action:-abp-has(> .icon_ad)
 cartoomad.com##tr:last-child > td[align="right"] > table[width="732"]
@@ -17156,6 +17166,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||chinaqirun.cn^
 ||chinaweian.com^
 ||chinawms.cn^
+||chinayutai.cn^
 ||chrommotor.com^
 ||chuzrra.cn^
 ||cifree.xyz^
@@ -18163,6 +18174,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||qinzigenjudi.com^
 ||qiruidea.com^
 ||qivsod.com^
+||qizixsw.com^
 ||qjueu.com^
 ||qjxszp.cn^
 ||qkptx.com^
