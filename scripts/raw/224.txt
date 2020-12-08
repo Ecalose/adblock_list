@@ -1,8 +1,8 @@
-! Checksum: +EwNt70l36N5H1N1+BZ02g
+! Checksum: AO2He1xJCHVMtvFSQtvwrQ
 ! Title: AdGuard Chinese filter
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.14.89
-! TimeUpdated: 2020-12-07T04:03:22+03:00
+! Version: 2.0.15.0
+! TimeUpdated: 2020-12-08T03:31:03+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -79,6 +79,7 @@
 !
 ! Section contains list of advertising networks
 !
+||sogo.uc.continuefaf.top^$third-party
 ||local.hniux.cn^$third-party
 ||ce.wlaoc.cn^$third-party
 ||count.xxxssk.com^$third-party
@@ -748,6 +749,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /ggjs/*
 /ggpic/*
 /ggtp/*
+/ggvip/*.js
 /gigi/ad/*
 /guang/guang*.js
 /guangao/*
@@ -1624,7 +1626,6 @@ _xiuno_com_ad/
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 .8ox.cn
-||198.2.215.131^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -1852,6 +1853,7 @@ ubmcmm.baidustatic.com
 ||189.gd^*.html$third-party
 ||18tzx.com^
 ||194.36.101.178^
+||198.2.215.131^
 ||199.231.214.62^
 ||1999sg.com^
 ||1d1a.com^
@@ -2044,6 +2046,7 @@ ubmcmm.baidustatic.com
 ||6huu.com^
 ||6ped2nd3yp.com^
 ||6travel.com^$third-party
+||6v4.cn^$third-party
 ||700ok.net^
 ||70e.com^$third-party
 ||70lm.com^
@@ -2417,7 +2420,6 @@ ubmcmm.baidustatic.com
 ||chenghangtech.com^
 ||chengruide.com^$third-party
 ||chengzhao95511.com^
-||chengzilte.top^
 ||chenyanjiao.cn^
 ||china-pengdu.cn^
 ||china-star.cc^
@@ -6309,7 +6311,6 @@ _yad_jsonp_
 ||downhot.com/Res/js/arc.js
 ||downhot.com/Res/js/main.js
 ||downk.cc/item/*.gif
-||downk.cc/item/5e966286c2a9a83be54d479a.gif
 ||downlinker.*/ad_dl.js
 ||downlinker.*/ads.js
 ||download.game.yy.com/crossdomain.xml
@@ -6508,9 +6509,6 @@ _yad_jsonp_
 ||fenxiangdashi.com/Res/js/detail_
 ||ff.meikanguo.com^
 ||fh21.com.cn/partners/
-||fijipic.xyz/bit20/upload/image/20200401/40100094771.gif
-||fijipic.xyz/bit20/upload/image/20200503/50300122412.gif
-||fijipic.xyz/bit20/upload/image/20200721/72100040886.gif
 ||file.cloud.sogou.com/*/superzone/
 ||file.ws.126.net/house/nj/*.swf
 ||files.jb51.net/image/
@@ -7198,6 +7196,7 @@ _yad_jsonp_
 ||jiasule.com/static/js/http_error.js
 ||jiayu.net/comiis_ad/
 ||jiecao12.com/guanggao
+||jiegeng.com/static/json/jg_topFixed.
 ||jiejueba.com/templets/16img/*.js
 ||jiemian.com/static/jmw/js/adBase_
 ||jijidown.com/static/img/dongcidaci/
@@ -7296,7 +7295,6 @@ _yad_jsonp_
 ||kancloud.cn/ad/
 ||kanguba.com/file/js/wwwifr.asp
 ||kanjiantu.com/images/2020/*.gif
-||kanjiantu.com/images/2020/04/17/uO6sX9.gif
 ||kanjuba.me/js/bbk/
 ||kanjuwo.com/js/6
 ||kanjuwo.com/js/8
@@ -8955,7 +8953,6 @@ _yad_jsonp_
 ||xianliao.me/assets/js/lib/ne3u3.js
 ||xianliao.me/etoron/get?
 ||xianshuabao.com/ashx/pt.ashx?cmd=record&filter=&order=all&
-||xianzhenyuan.cn/data/attachment/common/
 ||xiaobaipan.com/tb.html
 ||xiaobi*.com/layer/layer.js
 ||xiaodutv.com/xda?
@@ -10453,6 +10450,7 @@ cankaoxiaoxi.com###qihupic
 so.com###qiyu-brand-container
 chinanews.com###qizhi_div980
 xineurope.com###qmenu_menu + .wp
+78dm.net###qpgg
 duba.com###qq_adv
 qq.com###qqadv
 qq.com###qqmail_AD_container
@@ -11359,6 +11357,7 @@ big-cup.tv,g-cup.tv##.banner-table-block
 5118.com##.banner-top
 firefoxchina.cn##.banner-words
 fanyi.baidu.com,longzhu.com##.banner-wrap
+1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.banner-wrapper
 news.cn2che.com##.banner01
 sojson.com,wbzol.com,xizi.com##.banner1
 jinhua.com.cn##.banner1200
@@ -11453,7 +11452,6 @@ boo.tw##.blockUI
 oschina.net##.blog-left-ad
 codexiu.cn##.blog-twitter:first-child
 house.qq.com##.bm
-xianzhenyuan.cn##.bm.a_c
 tropica.cn##.bm.a_c1
 ydss.cn##.bm.bml.pbn > table > tbody > tr > td:nth-child(-n+2)
 jlmhk.com##.bn
@@ -13667,7 +13665,7 @@ cnzol.com##a[href*=".91comics.com/"]
 itboth.com,itkeyword.com##a[href*=".aliyun."]
 boke112.com,dzbhdm.com,mzh.ren,techweb.com.cn##a[href*=".aliyun.com"]
 github.com##a[href*=".aliyun.com/minisite/goods?"]
-mydrivers.com##a[href*=".ashx?go="]
+mydrivers.com##a[href*=".ashx?to="]
 iqiyi.com##a[href*=".banggo."]
 zhanqi.tv##a[href*=".bfun.cn/ad."]:not([href*=".zhanqi."])
 backchina.com##a[href*=".cardbenefit.com/"]
@@ -16306,7 +16304,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||ytelc.com^$third-party
 ||yunzuowen.com^$third-party
 ||yx1.managershare.com^
-||yy1.fwccw.com^
 ||z.tudouxy01.com^
 ||z1.chezhuzhinan.com^
 ||z1.cyla.cn^
@@ -16997,6 +16994,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||applequan.com^
 ||apxyz.com^
 ||aquarius8.cn^
+||aqvnurq.cn^
 ||archrug.com^
 ||askfsh.cn^
 ||askspsl.cn^
@@ -17233,6 +17231,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||d1skp.cn^
 ||d1wn3.cn^
 ||d2wb1.cn^
+||d36gyu.cn^
 ||d5a5a.xyz^
 ||d663q.cn^
 ||d72l4.com^
@@ -18693,11 +18692,11 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||xszysc.com^$third-party
 ||xt725.cn^
 ||xuehongxs.com:
-||xuehongxs.com:8862^
 ||xujx8.com^
 ||xunhuaji.cn^
 ||xurizhongguo.cn^
 ||xuro006.com^
+||xuxiangkj.com^
 ||xw1001.com^
 ||xxkio.com^
 ||xy98.com.cn^

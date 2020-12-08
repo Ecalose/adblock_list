@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202012070103
+! Version: 202012080149
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19285
+! Lenth = 19286
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -141,6 +141,7 @@
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.activity_iframe_container
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.advertise_right_index
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.app_forum_top_nav_tab
+1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.banner-wrapper
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.bus-top-activity-wrap
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.close_btn[src*="/adsense/"] + div:last-child
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.content_top
@@ -613,6 +614,7 @@
 360doc.com###divyoulikead
 360doc.com##.clear360doc[style^="padding-top:"]
 360doc.com##.doc360article_content > div[class]:first-child
+360doc.com##.floatqrcode
 360doc.com##.ggwz
 360doc.com##div[style="height: 90px; padding-top: 13px;"]
 360game.360.cn##.advertising
@@ -924,6 +926,7 @@
 77bike.com,ghoffice.com##.tac[style="border-top:1px dotted #ddd;line-height:1;"]
 7808.cn###float-chat
 7808.cn###force-popup
+78dm.net###qpgg
 78dm.net##.ad_logor
 78dm.net##.add-980
 78dm.net##.aside-add
@@ -5507,7 +5510,7 @@ mydrivers.com##.news_info > div[style*="height:"]
 mydrivers.com##.news_left > div[style*="height:"]
 mydrivers.com##.news_xg + style + div
 mydrivers.com##.zcdf ~ div[style]
-mydrivers.com##a[href*=".ashx?go="]
+mydrivers.com##a[href*=".ashx?to="]
 mydrivers.com##a[style][href*=".jd.com/"]
 mydrivers.com##div[style*="/ad/"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
@@ -7195,7 +7198,6 @@ xianliao.me##.chat-content__ads
 xianshuabao.com###justfy_left_banner
 xianshuabao.com##.demand-dialog
 xianshuabao.com##.demand-fixed
-xianzhenyuan.cn##.bm.a_c
 xianzhenyuan.cn##.sd_ad:not(#xztba)
 xianzhenyuan.cn##a[href*=".tmall.com"]:not(#xztba)
 xiaobaipan.com##.f_ad
@@ -7283,6 +7285,7 @@ xuebuyuan.com##.ss_gateway
 xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 xuehuile.com###logoBanner
 xueqiu.com##.regist-guide-container
+xueqiu.com##.widget__download-app
 xuite.net##.articleExtAd
 xunyingwang.com###adModalLabel
 xunyingwang.com##.modal-body
@@ -8968,6 +8971,7 @@ zznews.cn##.ad:not([style])
 ||6shuge.com^
 ||6tj.com/ent/fkbg/20191220/a46326c6a57fc066a6d985ceabdc42f6.jpg
 ||6travel.com^$third-party
+||6v4.cn^$third-party
 ||6vhao.tv/d/
 ||6yush.cn^
 ||70.86.24.120:8060/
@@ -9949,6 +9953,7 @@ zznews.cn##.ad:not([style])
 ||aqlife.com/data/attachment/portal/
 ||aquarius8.cn^
 ||aqugame.com^
+||aqvnurq.cn^
 ||aqy102.com/js/aqy/
 ||aqy103.com/js/aqy/
 ||archrug.com^
@@ -11330,6 +11335,7 @@ zznews.cn##.ad:not([style])
 ||d2.sina.com.cn^$object,script
 ||d2wb1.cn^
 ||d3.sina.com.cn^$object,script
+||d36gyu.cn^
 ||d3mr7y154d2qg5.cloudfront.net^
 ||d3nh49.com^
 ||d4.sina.com.cn^$object,script
@@ -11672,7 +11678,6 @@ zznews.cn##.ad:not([style])
 ||downhot.com/Res/js/arc.js
 ||downhot.com/Res/js/main.js
 ||downk.cc/item/*.gif
-||downk.cc/item/5e966286c2a9a83be54d479a.gif
 ||downlinker.*/ad_dl.js
 ||downlinker.*/ads.js
 ||download.game.yy.com/crossdomain.xml
@@ -12126,9 +12131,6 @@ zznews.cn##.ad:not([style])
 ||fhbv.cn^
 ||fhixhde.cn^
 ||fidwkkt.cn^
-||fijipic.xyz/bit20/upload/image/20200401/40100094771.gif
-||fijipic.xyz/bit20/upload/image/20200503/50300122412.gif
-||fijipic.xyz/bit20/upload/image/20200721/72100040886.gif
 ||fijipic.xyz^
 ||file.cloud.sogou.com/*/superzone/
 ||file.ws.126.net/house/nj/*.swf
@@ -13713,6 +13715,7 @@ zznews.cn##.ad:not([style])
 ||jiazihao.cn^
 ||jibn12.jintang114.org^
 ||jiecao12.com/guanggao
+||jiegeng.com/static/json/jg_topFixed.
 ||jiehantai.com^
 ||jiejiemimu.cn^
 ||jiejueba.com/templets/16img/*.js
@@ -14034,7 +14037,6 @@ zznews.cn##.ad:not([style])
 ||kanghuaixin.cn^
 ||kanguba.com/file/js/wwwifr.asp
 ||kanjiantu.com/images/2020/*.gif
-||kanjiantu.com/images/2020/04/17/uO6sX9.gif
 ||kanjiaqun.cn^
 ||kanjuba.me/js/bbk/
 ||kanjuwo.com/js/6
@@ -16581,6 +16583,7 @@ zznews.cn##.ad:not([style])
 ||soft.mumayi.net/js/
 ||soft4fun.net/wp-content/themes/arthemia/js/common_footer_min.js
 ||softhy.net/hp/
+||sogo.uc.continuefaf.top^$third-party
 ||sogou-inc.com/AdvPreview.
 ||sogou.*/js7/forAppDown.js
 ||sogou.com/GetAdv.
@@ -18087,7 +18090,6 @@ zznews.cn##.ad:not([style])
 ||xianliao.me/etoron/get?
 ||xiansenmeng.cn^
 ||xianshuabao.com/ashx/pt.ashx?cmd=record&filter=&order=all&
-||xianzhenyuan.cn/data/attachment/common/
 ||xiaobaipan.com/tb.html
 ||xiaobi*.com/layer/layer.js
 ||xiaobiaoucai.cn^
@@ -18339,7 +18341,6 @@ zznews.cn##.ad:not([style])
 ||xuehelei.com^
 ||xuehi.cn/reward/reward
 ||xuehongxs.com:
-||xuehongxs.com:8862^
 ||xuehuile.com/resource/images/banner/
 ||xueqiu.com/promotion/
 ||xuexi.hydcd.com^
@@ -18361,6 +18362,7 @@ zznews.cn##.ad:not([style])
 ||xuqinqi.cn^
 ||xurizhongguo.cn^
 ||xuro006.com^
+||xuxiangkj.com^
 ||xuzhi.net/index.php?m=poster&
 ||xuzhi.net/uploadfile/poster/960x50.jpg
 ||xv98.com/js/daohang
@@ -18820,7 +18822,6 @@ zznews.cn##.ad:not([style])
 ||yxxwyz.com^
 ||yxzoo.com/style/js/fmt.js
 ||yxzp.net/left.js
-||yy1.fwccw.com^
 ||yy18.info/yyads/
 ||yy18.info^*thanks$popup
 ||yy32.com^$third-party
