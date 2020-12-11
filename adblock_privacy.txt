@@ -1,5 +1,5 @@
 [uniartisan's Privacy List]
-! Version: 202012100135
+! Version: 202012110107
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
@@ -1899,6 +1899,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /compile/AppMeasurement.
 /comscore-min.js
 /comscore.
+/comscore.min.js
 /comscore/pageview_
 /comscore/streamsense.
 /comscore?
@@ -2750,6 +2751,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /hlog.asp
 /hm.pl?p=
 /hmapxy.js
+/hnpprivacy-min.
 /home/Analytic?
 /homeCounter.
 /homePixelTracking.
@@ -6412,12 +6414,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||geo.ngtv.io/locate/$domain=hbo.com
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=ibanez.com
-@@||geolocation.onetrust.com/cookieconsentpub/*$domain=eurogamer.net
-@@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=eurogamer.pl
-@@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=gmx.com
-@@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=mail.com
-@@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=tvn24.pl
-@@||geolocation.onetrust.com^$domain=popsugar.co.uk
 @@||geolocation.stroeerdp.de^$domain=t-online.de
 @@||geoplugin.net/javascript.gp$domain=aljazeera.net
 @@||geoplugin.net/javascript.gp$domain=uptime.community
@@ -10816,6 +10812,7 @@ znak.com##.relap
 ||cbssports.com/common/p?
 ||cbtrk.net^$third-party
 ||cc.calltracking.ru^$third-party
+||cc.naver.com/cc
 ||cc.swiftype.com^
 ||cc.zeit.de^
 ||cccpmo.com^$third-party
@@ -12249,6 +12246,7 @@ znak.com##.relap
 ||datadsk.com^$third-party
 ||datafeedfile.com^$third-party
 ||datafront.co^$third-party
+||datalayer.p7s1.io^
 ||datam.com^$third-party
 ||datamaster.com.cn^$third-party
 ||datametrical.com^$redirect=nooptext
@@ -13658,6 +13656,7 @@ znak.com##.relap
 ||foundry42.com^$third-party
 ||fourarithmetic.com^$third-party
 ||fourfork.com^$third-party
+||fourier.taobao.com^
 ||fourmtagservices.appspot.com^
 ||foursquare.com/0UqK4c76/
 ||foursquare.com^*/logger?
@@ -14055,7 +14054,6 @@ znak.com##.relap
 ||geoloc.hurriyet.com.tr^
 ||geolocation-db.com^$third-party
 ||geolocation.forbes.com^
-||geolocation.onetrust.com^
 ||geolocation.performgroup.com^$third-party
 ||geolocation.stroeerdp.de^$third-party
 ||geoplugin.net^
@@ -14907,7 +14905,6 @@ znak.com##.relap
 ||ia.51.la^
 ||ia.ekstrabladet.dk^
 ||iabusprivacy.pmc.com^
-||iadvize.com^$third-party
 ||iafrica.com/php-bin/iac/readcnt.php?
 ||iam-agof-app.irquest.com^
 ||ianimes.org/img/tracker.gif
@@ -15146,6 +15143,7 @@ znak.com##.relap
 ||infranken.de/fileadmin/scripts/tracking
 ||infusionextreme.com/tracker/
 ||infusionsoft.com^*/getTrackingCode?
+||ingage.tech^$third-party
 ||ingenioustech.biz^$third-party
 ||ingest.crittercism.com^
 ||inimbus.com.au^$third-party
@@ -16876,7 +16874,6 @@ znak.com##.relap
 ||mms.syracuse.com^
 ||mms.theroot.com^
 ||mms.wwe.com^
-||mmstat.com^$image,ping
 ||mmstat.com^$third-party
 ||mmtro.com^$third-party
 ||mnginteractive.com/live/js/omniture/SiteCatalystCode_H_22_1_NC.js
@@ -18841,6 +18838,7 @@ znak.com##.relap
 ||quinet.it/counter/
 ||quintcareers.4jobs.com/Common/JavaScript/functions.tracking.js
 ||quintelligence.com^$third-party
+||quintesse.io^$third-party
 ||quisma.com/tracking/
 ||quitsnap-blue.com^$third-party
 ||quiz.stroeermediabrands.de/pub/$image
@@ -19459,6 +19457,7 @@ znak.com##.relap
 ||s.kk-resources.com/ks.js
 ||s.lxax.com/s/js/ta-2.3.js
 ||s.mynet.com.tr/geolocation/geocookie.js
+||s.news.naver.com^
 ||s.p7s1.io/datalayer/conviva
 ||s.pinimg.com/ct/core.js
 ||s.pixfs.net/js/pixlogger.min.js
@@ -19469,6 +19468,7 @@ znak.com##.relap
 ||s.shopify.com/visit/record.gif?
 ||s.sniphub.com^
 ||s.srvsynd.com^
+||s.srvsynd.com^$third-party
 ||s.yimg.*/cv/conversion.js^
 ||s.yimg.jp/images/listing/tool/cv/ytag.js
 ||s.youtube.com^
