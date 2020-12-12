@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202012110107
+! Version: 202012120139
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19284
+! Lenth = 19298
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1235,6 +1235,7 @@
 @@||520cc.cc/ad*.js
 @@||520cc.cc^$generichide
 @@||5278.cc/js/gg0.js
+@@||5278.cc/js/ggtop.js
 @@||5278.cc/static/image/common/ad_close.gif
 @@||5278.cc^$script,domain=hboav.com
 @@||5278.cool^$generichide
@@ -5662,7 +5663,13 @@ ofweek.com###ad-2100
 ofweek.com###flybox-db
 ohmanhua.com#%#//scriptlet("abort-on-property-write", "__DOMAIN")
 oilchem.net##.LzAdv
+olevod.com##.A4R
+olevod.com##.B1L
+olevod.com##.B1R
+olevod.com##.L1
+olevod.com##.L4A
 olevod.com##.ad-corner
+olevod.com##.ad1
 on.cc#@##CONTENTAD
 oneinstack.com##.sidebar > .widget:last-child
 onemanhua.com##body > div[style^="position: fixed;"][style*="z-index:"]
@@ -9460,6 +9467,7 @@ zznews.cn##.ad:not([style])
 ||abds.pingpingw.com^
 ||abeij.com^
 ||abfirst.cn^
+||abi.run^
 ||abie10.top^
 ||abie11.top^
 ||abie12.top^
@@ -10257,6 +10265,7 @@ zznews.cn##.ad:not([style])
 ||bd.czxuexi.com^
 ||bd.ershenghuo.com^
 ||bd1-china.6789.com^
+||bd1-china.xsfaya.com^
 ||bd1.365qilu.com^
 ||bd1.99danji.com^
 ||bd1.click.com.cn^
@@ -10563,6 +10572,7 @@ zznews.cn##.ad:not([style])
 ||bs.baidu.com/app-ads%
 ||bs777.net^$third-party
 ||bshare.cn/bshare_view?Callback=
+||bsjgqhe.cn^
 ||bskchina.cn/js/
 ||bskeye.com^
 ||bslmw.com^
@@ -13773,6 +13783,7 @@ zznews.cn##.ad:not([style])
 ||jishuyl.com/_skins/*/ad_
 ||jisoupan.com/static/
 ||jisucn.com^$third-party
+||jisufeifei.com^
 ||jisuoping.com^
 ||jisutiyu.com/app/js/*footer.js
 ||jisuxz.com/180226/b180226.js
@@ -13931,6 +13942,7 @@ zznews.cn##.ad:not([style])
 ||jsyzw132.com^
 ||jtdxz.top^
 ||jtkshop.net^
+||jtwlj.cn^
 ||jtxh.net^$third-party
 ||ju33.com^$third-party
 ||juandou.com^$third-party
@@ -14519,8 +14531,7 @@ zznews.cn##.ad:not([style])
 ||loli.net/2020/09/04/Wx3MdOVvsTPwIlE.gif
 ||loli.net/2020/10/26/cSHbJifFgNoyaz8.png
 ||loli.net^$domain=1090ys1.com|520film.net|52pili.com|acglover.me|beiwodi.com|btdp.online|f6hx.site|hdsky.me|magnet2048.com|nulltm.com|xydai.cn
-||loli.net^$domain=rmxs8.com
-||loli.net^$domain=xinqingdou.com
+||loli.net^$domain=rmxs8.com|xinqingdou.com
 ||lolmp4.com/template/lolmp4/images/jquery.
 ||lolmp4.com^$third-party
 ||lolshipin.com/zt/sxx/
@@ -15020,6 +15031,7 @@ zznews.cn##.ad:not([style])
 ||mwrf.net/images/mrf/
 ||mx.biquge.info^
 ||mxdregs.com^
+||mxhbkj.cn^
 ||mxmrt.com^
 ||mxtailor.com^
 ||mxzmz.com/js/
@@ -15317,6 +15329,7 @@ zznews.cn##.ad:not([style])
 ||ofweek.com/pop/ad/
 ||og.zyzjpx.cn^$third-party
 ||ogs.google.*/widget/callout$subdocument
+||ohthub.com.cn^
 ||oicchina.com^$third-party
 ||oikqfwv.cn^
 ||oir85.cn^
@@ -17350,6 +17363,7 @@ zznews.cn##.ad:not([style])
 ||ubalh.com^
 ||ubcpm.com^$third-party
 ||ubmcvideo.baidustatic.com^
+||ububyiw6655.xyz^
 ||uc*.atobo.com^
 ||uc.cn/s/uae/g/0s/ua.js
 ||uc.zhuici.com^

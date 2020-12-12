@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202012110107
+! Version: 202012120139
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24275
+! Lenth = 24288
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -906,6 +906,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /adblock?action=
 /adblockLogger/*
 /adblock_logging.
+/adblocker-check.
 /adblocker/pixel.
 /addEvent?action=
 /addLinker.js
@@ -1907,6 +1908,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /comscore_beacon/*
 /comscore_engine.
 /comscore_pageview
+/comscore_ping
 /comscore_stats.
 /comscorebeacon.
 /comscorepageviewcomscorekw=
@@ -2697,6 +2699,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /gtm.js
 /gtm.min.js
 /gtm/gtm-
+/gtmProd.
 /gtmTracking.
 /gtrack.
 /gujTracker.
@@ -6240,6 +6243,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||darksky.net^*/analytics.js$script,~third-party
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
 @@||datadoghq-browser-agent.com/datadog-rum-us.js$script,domain=usa.experian.com
+@@||daumcdn.net/tiara/js/v*/tiara.min.js$domain=kakao.com
 @@||daumcdn.net/tiara/js/v1/tiara.min.js$domain=kakao.com
 @@||dcinfos.abtasty.com/geolocAndWeather.php^$domain=tf1.fr
 @@||ddmcdn.com^*/adobe.visitor-$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
@@ -7776,6 +7780,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||udottraffic.utah.gov/javascripts/Piwik.js
 @@||uefa.com/inc/js/core/projects/statistics/statistics.js?$script
 @@||ugdturner.com/xd.sjs$domain=tbs.com
+@@||uid.mavencoalition.io^$xmlhttprequest,domain=fashionista.com
 @@||uid.mavencoalition.io^$xmlhttprequest,domain=mtonews.com|thestreet.com
 @@||uim.tifbs.net/js/$script,domain=web.de
 @@||uim.tifbs.net/js/3423.js$domain=top.de
@@ -10812,7 +10817,7 @@ znak.com##.relap
 ||cbssports.com/common/p?
 ||cbtrk.net^$third-party
 ||cc.calltracking.ru^$third-party
-||cc.naver.com/cc
+||cc.naver.com/cc$image
 ||cc.swiftype.com^
 ||cc.zeit.de^
 ||cccpmo.com^$third-party
@@ -14584,6 +14589,7 @@ znak.com##.relap
 ||hello.staticstuff.net^
 ||hellobar.com/ping?
 ||hellosherpa.com^$third-party
+||help.naver.com/support/js/common/lcslog.js
 ||helpgrid1.ksmobile.com^
 ||helpshift.com/api/lib/2/events/
 ||hemnes.win^$third-party
@@ -14784,6 +14790,7 @@ znak.com##.relap
 ||hotwire.com^*/evaluateexperimentsandlog
 ||hotwirestatic.com/*/comp/gtm/googletaganalytics.js
 ||house27.ch/counter/
+||houzz.com/hsc/aetrk/
 ||houzz.com/js/log?
 ||hoverstock.com/boomerang?
 ||howcast.com/images/h.gif
@@ -15550,6 +15557,7 @@ znak.com##.relap
 ||justanswer.com/browsercheck/
 ||justanswer.com/ja_services/processes/log.asmx/
 ||justicejudo.com^$third-party
+||justswallows.com/lib/ajax/track.php
 ||justuno.com^$third-party
 ||jutarnji.hr/template/js/eph_analytics.js
 ||jv.dk/assets/statistics/
@@ -19549,7 +19557,9 @@ znak.com##.relap
 ||san-spr-01.net^$third-party
 ||sana.newsinc.com.s3.amazonaws.com^
 ||sanalytics.ncaa.com^
+||sankei-digital.co.jp/log?
 ||sankei.co.jp/js/analytics/
+||sankei.co.jp/js/privacy/sando.js
 ||sanoma.nl/pixel/
 ||sap.com/global/ui/js/trackinghelper.js
 ||sapha.com^$third-party
@@ -19608,6 +19618,7 @@ znak.com##.relap
 ||schlaubi.de/dynamicjavascript/tracking^
 ||schnaeppchenfuchs.com/js/default-$script
 ||schoolyeargo.com^$third-party
+||science.ytn.co.kr/_comm/clog.php
 ||sciencedaily.com/blank.htm
 ||sciencedaily.com/cache.php?
 ||sciencerevenue.com^$third-party
@@ -21584,6 +21595,7 @@ znak.com##.relap
 ||teljari.is^$third-party
 ||tellapart.com^$third-party
 ||tellaparts.com^$third-party
+||tellerreport.com/react/pixel
 ||temnos.com^$third-party
 ||tempo.inc.com^
 ||tempttalk.com^$third-party
@@ -22176,6 +22188,7 @@ znak.com##.relap
 ||tracker.cpapath.com^
 ||tracker.data-vp.com^
 ||tracker.departapp.com/api/collect?
+||tracker.departapp.com^
 ||tracker.downdetector.com^
 ||tracker.durasite.net^
 ||tracker.euroweb.net^
