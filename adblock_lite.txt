@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202012130123
+! Version: 202012140107
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19309
+! Lenth = 19316
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -598,6 +598,7 @@
 360.cn##.div-adv
 360.com###channel-game
 360.com###channel-mall
+360.com###hotbottom_littlenav
 360.com###rainbow-cat-screen
 360che.com##.adver1000_60
 360che.com##.adver1000_65
@@ -1235,11 +1236,9 @@
 @@||520call.me^$generichide
 @@||520cc.cc/ad*.js
 @@||520cc.cc^$generichide
-@@||5278.cc/js/AD_tv.js
-@@||5278.cc/js/gg0.js
-@@||5278.cc/js/ggtop.js
 @@||5278.cc/static/image/common/ad_close.gif
 @@||5278.cc^$script,domain=hboav.com
+@@||5278.cc^$~third-party,xmlhttprequest
 @@||5278.cool^$generichide
 @@||52zy.com/gg/
 @@||58.com/adJump?adType=
@@ -2152,6 +2151,7 @@ ainuody.com#?#.post:-abp-has(> .article > .entry_post > p:-abp-contains(/红包|
 aipai.com###videosRightDown
 aipai.com##.banner_90
 aipai.com##.video_gg
+aiqiyivip.com###header-top + div[style]
 airav.cc###Panel_GambleZone
 airav.cc###Panel_GambleZone + .Hide_For_JP_AND_EN
 airav.cc###Right_Panel > div[style^="margin-"]
@@ -2547,6 +2547,7 @@ bccn.net##div[style*="height:90"]
 bccn.net##img[src*="data:"]
 bcquan.me##.bcqad
 bd-film.cc###fmtdiv
+bde4.cc###ayx
 bde4.cc##a[href*=".yabo816."]
 bde4.cc##center[style*="background"]
 bde4.cc##div[onclick*=".yabo816.com"]
@@ -7062,6 +7063,8 @@ wendangwang.com###divActivity
 wendangxiazai.com###ft_hb
 wendu.cn###topads
 wendu.cn##body > div[style^="width:1000px;"]
+wendu.com##.foot_adv
+wendu.com##.head-banner
 wenku.baidu.com###ggbtm-ads
 wenku.baidu.com###ppt-bottom-ads
 wenku.baidu.com##.area[href*="/adclick?aid="]
@@ -8808,6 +8811,7 @@ zznews.cn##.ad:not([style])
 ||58.com/demand/content?
 ||58.com/ds/tgbrand/*.js
 ||58.com/show/ads?
+||583she.xyz/dds/
 ||5888.tv/Js/topBanner.js
 ||5888.tv/User_Ad/
 ||58avgo.*/AirADPic/
@@ -11195,8 +11199,7 @@ zznews.cn##.ad:not([style])
 ||coostack.com^$third-party
 ||cornplus.cn^
 ||cosoyoo.com^
-||cosxcos.cc/uploads/*bb
-||cosxcos.cc/uploads/*my
+||cosxcos.cc/uploads/aaybabc/
 ||couas.com^
 ||count.candou.com^
 ||count.enet.com.cn^
@@ -12859,6 +12862,7 @@ zznews.cn##.ad:not([style])
 ||hdslb.com/js/bfd.js
 ||hdslb.com/js/core-v5/picment.
 ||hdsrc-a.akamaihd.net^
+||hdvwm3.cn^
 ||hdweds.cn^
 ||hdzkjv.cn^
 ||he2d.com/crossdomain.xml
@@ -14052,6 +14056,7 @@ zznews.cn##.ad:not([style])
 ||kan98.com/statics/js/k2017/kan98.js
 ||kancloud.cn/ad/
 ||kanfaxing.com^
+||kangerlu.com^
 ||kanghuaixin.cn^
 ||kanguba.com/file/js/wwwifr.asp
 ||kanjiantu.com/images/2020/*.gif
@@ -17660,6 +17665,7 @@ zznews.cn##.ad:not([style])
 ||wacc888.com^
 ||wacowla.com/wp-content/plugins/popover/js/
 ||wagenlux.cn^
+||wai69.com/js/baidu/
 ||waihui518.com^
 ||walibao.com^$third-party
 ||wallstcn.com/image?url=http%3A%2F%2Fcbjs.
@@ -18413,6 +18419,7 @@ zznews.cn##.ad:not([style])
 ||xyadtlyya.cn^
 ||xyadtlyya.com^
 ||xyadtlyya.vip^
+||xyadtlyyc.vip^
 ||xyadyzpsb.com^
 ||xycnz.com^
 ||xycnzz.com^

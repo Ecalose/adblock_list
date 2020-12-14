@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202012130123
+! Version: 202012140107
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24291
+! Lenth = 24301
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -2783,6 +2783,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /i/i.gif?
 /i2a.js
 /i2yesCounter.js
+/i?_SB_stm=
 /i?e=*&page=*&cookie=
 /i?redir=*&page=*&cookie=
 /i?siteid=
@@ -4548,6 +4549,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /stdlog?
 /store-uniq-client-id?bomuuid=
 /storeAdvImpression.
+/stp.gif?
 /stracking.js
 /stream/log.html?
 /streambeam-jw.js
@@ -5614,6 +5616,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 ://track.*/visitor/
 ://tracker.*/pageview
 ://tracking.*/beacon/
+://tracking.*/event
 ://tracking.*/tr.js
 ://tru.am^$third-party
 ://utm.$domain=~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.md|~utm.pansa.pl|~utm.pharos360.com|~utoronto.ca
@@ -6902,7 +6905,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||hlserve.com/Delivery/$domain=costco.com,script
 @@||hm.baidu.com/h.js?$domain=weaku.com
 @@||hmhco.com/one/js/conf/trackjs.config.$script,~third-party,xmlhttprequest
-@@||hobbyking.com^*/gtm.js$script,third-party
+@@||hobbyking.com^*/gtm.js$script,~third-party
 @@||homebank.ro/public/HomeBankLogin/js/fingerprint/fingerprint.js
 @@||homedepot.com/static/scripts/resxclsa.js
 @@||hopx.cedexis.com^$xmlhttprequest,domain=play.aetv.com|play.history.com|play.mylifetime.com
@@ -9768,6 +9771,7 @@ znak.com##.relap
 ||aswpsdkeu.com^$third-party
 ||aswpsdkus.com^$third-party
 ||at-o.net^
+||at.cbsi.com^*/event?
 ||at.mklaud.com/at/at_log_*.php
 ||at.pagesjaunes.fr^
 ||at.rtb-cdn.net/?t_aid
@@ -11447,6 +11451,7 @@ znak.com##.relap
 ||collector.prod.expedia.com^
 ||collector.puhutv.com^
 ||collector.retailcrm.pro^$third-party
+||collector.rn.de^
 ||collector.roistat.com^
 ||collector.roistat.com^$third-party
 ||collector.schibsted.io^
@@ -12235,6 +12240,7 @@ znak.com##.relap
 ||data.sec.miui.com^
 ||data.shopgate.com/tracking/shopgate-analytics-sdk.production.min.js
 ||data.studybreakmedia.com^
+||data.webullfintech.com/event/
 ||data.woosmap.com^
 ||data.younow.com^
 ||data2.gosquared.com^$third-party
@@ -16001,6 +16007,8 @@ znak.com##.relap
 ||livefyre.com/tracking/
 ||livefyre.com^*/tracker.js
 ||livefyre.com^*/tracking/
+||livehdcams.com/api/events
+||livehdcams.com/api/metrics
 ||livehelpnow.net/lhn/jsutil/getinvitationmessage.aspx?
 ||livehit.net^$third-party
 ||livejournal.com/ljcounter/?
@@ -18451,6 +18459,8 @@ znak.com##.relap
 ||pornhost.com/count_hit_player.php
 ||pornhub.com/pix.php?s=
 ||pornhub.com/video/category_tracker?e=$important
+||pornhublive.com/api/events
+||pornhublive.com/api/metrics
 ||pornolupo.org/track.js
 ||pornoruf.com/js/tracker.min.js
 ||pornozot.com/js/tracker.min.js

@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: bnorWoaXoh7/Rfs8WemH8Q
-! Version: 202012130131
+! Checksum: oJs+l4JYq11ouEUZtiN0kA
+! Version: 202012140131
 ! Title: EasyPrivacy
-! Last modified: 13 Dec 2020 01:31 UTC
+! Last modified: 14 Dec 2020 01:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2327,6 +2327,7 @@
 /i/i.gif?
 /i2a.js
 /i2yesCounter.js
+/i?_SB_stm=
 /i?e=*&page=*&cookie=
 /i?redir=*&page=*&cookie=
 /i?siteid=
@@ -4119,6 +4120,7 @@
 /stdlog?
 /store-uniq-client-id?bomuuid=
 /storeAdvImpression.
+/stp.gif?
 /stracking.js
 /sTrackStats.
 /stream/log.html?
@@ -5200,6 +5202,7 @@
 ://track.*/visitor/
 ://tracker.*/pageview
 ://tracking.*/beacon/
+://tracking.*/event
 ://tracking.*/tr.js
 ://utm.$domain=~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.md|~utm.pansa.pl|~utm.pharos360.com|~utoronto.ca
 ;1x1inv=
@@ -10319,6 +10322,7 @@ _mongo_stats/
 ||ask.com^*/i.gif?
 ||assoc-amazon.*^e/ir?t=$image
 ||asterpix.com/tagcloudview/
+||at.cbsi.com^*/event?
 ||atcdn.co.uk/frostbite/
 ||atdmt.com/action/
 ||atdmt.com/iaction/
@@ -12385,6 +12389,7 @@ _mongo_stats/
 ||clipkit.de/metrics?
 ||cloudfront.net/customers/24868.min.js
 ||cnt2.stroeerdp.de^
+||collector.rn.de^
 ||com.econa.com^
 ||counter.1i.kz^
 ||counter.blogoscoop.net^
@@ -13660,6 +13665,7 @@ _mongo_stats/
 ||dainikbhaskar.com/tracking/
 ||data.mic.com^
 ||data.ninemsn.com.au/*GetAdCalls
+||data.webullfintech.com/event/
 ||data.younow.com^
 ||datehookup.com/strk/dateadvertreg?
 ||daum.net^*/dwi.js
@@ -14277,6 +14283,8 @@ _mongo_stats/
 ||list.ru/counter?
 ||live.com/handlers/watson.mvc?
 ||livedoor.com/counter/
+||livehdcams.com/api/events
+||livehdcams.com/api/metrics
 ||livejournal.com/ljcounter/?
 ||liveperson.net/hc/*/?visitor=
 ||livestation.com^*/akamaimediaanalytics.swf
@@ -14700,6 +14708,8 @@ _mongo_stats/
 ||poptropica.com/brain/track.php?
 ||porndoo.com/lib/ajax/track.php
 ||pornhd.com/api/user/tracking
+||pornhublive.com/api/events
+||pornhublive.com/api/metrics
 ||porntube.com^*/track
 ||potterybarn.com/pbimgs/*/external/thirdparty.js
 ||potterybarnkids.com/pkimgs/*/external/thirdparty.js
@@ -17703,7 +17713,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org
 @@||hitfile.net/platform/js/fdlogger/fdlogger.js$script,~third-party
 @@||hmhco.com/one/js/conf/trackjs.config.$script,~third-party,xmlhttprequest
-@@||hobbyking.com^*/gtm.js$script,third-party
+@@||hobbyking.com^*/gtm.js$script,~third-party
 @@||hopx.cedexis.com^$xmlhttprequest,domain=play.aetv.com|play.history.com|play.mylifetime.com
 @@||hscta.net/cta/current.js$script,domain=aucfan.com
 @@||i-scmp.com/production/mixpanel.$domain=scmp.com
