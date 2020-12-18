@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202012170102
+! Version: 202012180104
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19354
+! Lenth = 19368
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1622,7 +1622,7 @@
 @@||hboav.com/guga/$script,~third-party
 @@||hboav.com/guga/adss.js
 @@||hboav.com/js/AD_tv.js
-@@||hboav.com/js/gg0.js
+@@||hboav.com/js/gg
 @@||hboav.com^$generichide
 @@||hc360.com/ad/*.css
 @@||hdsky.net/ad/down.png
@@ -2350,6 +2350,7 @@ baidu.com###j-ad-first
 baidu.com###j-ad-side
 baidu.com###knowledge-answer
 baidu.com###left-promotion
+baidu.com###pagelet_frs-aside\/pagelet\/fengchao_ad
 baidu.com###qrcode-chunwan
 baidu.com###relative_shop_flow
 baidu.com###search-union-ad
@@ -2405,6 +2406,7 @@ baidu.com##.ecomad-banner-loading
 baidu.com##.eye-catching-tpl-container
 baidu.com##.fc-ad-line
 baidu.com##.fc-wenku-ad
+baidu.com##.fengchao-wrap
 baidu.com##.first-card-container
 baidu.com##.fufei-activity-bar
 baidu.com##.gg-content
@@ -6298,6 +6300,7 @@ sina.com.cn##.blk_APP_JSr
 sina.com.cn##.center-pdps
 sina.com.cn##.center-pdps-02
 sina.com.cn##.clearAd
+sina.com.cn##.fl_feedFous
 sina.com.cn##.gamead1
 sina.com.cn##.m-p1-lb1-ad
 sina.com.cn##.m-p3-ad
@@ -6306,6 +6309,7 @@ sina.com.cn##.real-time-window__ad
 sina.com.cn##.redPacketCont
 sina.com.cn##.side-btns-2wm
 sina.com.cn##.sinaads
+sina.com.cn##.tab_related_app_imglink
 sina.com.cn##.zhitou-wrap
 sina.com.cn##.zhongce
 sina.com.cn##:not(.BigPic) > a[href*="sax.sina.com.cn/click?"]
@@ -9222,6 +9226,7 @@ zznews.cn##.ad:not([style])
 ||91danji.com/js/lmt.js
 ||91dict.com/dub_banner.jpg
 ||91friend.com^$third-party
+||91funcy.com^
 ||91jbz.com/file/script/A
 ||91jiedai.cn^
 ||91link.xyz^$third-party
@@ -9441,10 +9446,12 @@ zznews.cn##.ad:not([style])
 ||a1.shusanqi.com^
 ||a1.sumiaowang.com^
 ||a1.twtym.com^
+||a1.zhanzhang.net^
 ||a15d55423.5tps.xyz^
 ||a1714.com^$popup
 ||a2.b310.com^
 ||a2.xinhuanet.com^
+||a2put.chinaz.com^
 ||a3.jandan.net^
 ||a32a.com.cn^$third-party
 ||a3p4.com^$third-party
@@ -15683,6 +15690,7 @@ zznews.cn##.ad:not([style])
 ||poyang.com^
 ||pp9kk.com^
 ||ppee.xyz^
+||pppxia.com^
 ||ppshk.com^*banner/
 ||ppsj.com.cn/images/ppsj300.gif
 ||pptv.com/game/aplus/client/gamedetail.html
@@ -16543,6 +16551,7 @@ zznews.cn##.ad:not([style])
 ||sinaimg.cn/mw1024/006NYgrsgy1ffahk0lf8og30i204677m.gif
 ||sinaimg.cn/mw690/005th0Pegy1fmd666rsh2j30go05kn14.jpg
 ||sinaimg.cn/mw690/005uyUwYjw1eocc98cbgag30gk02ygm9.gif
+||sinaimg.cn/news/article/article_qcode
 ||sinaimg.cn/news/diversion/index2/static/js/index.
 ||sinaimg.cn/sports/20214c6d/20181128/880_110.png
 ||sinaimg.cn/tech/*/sidebar.js
@@ -16915,6 +16924,7 @@ zznews.cn##.ad:not([style])
 ||synacast.com^
 ||syndication.exosrv.com/splash.php?$xmlhttprequest,redirect=nooptext,important,domain=hboav.com
 ||syooys.com^
+||syrstrq.cn^
 ||sysadult.cn^
 ||sysal.cn^
 ||syseen.com/content/uploadfile/*/hongbao.png
@@ -17304,6 +17314,7 @@ zznews.cn##.ad:not([style])
 ||tu.zx110.org^
 ||tuadong.com^
 ||tuan.cs090.com/gettuan.php?
+||tucao.one/uploadfile/20*/20*.gif
 ||tudouui.com/tspecial/assets/PauseContainer.swf
 ||tudown.com^$third-party
 ||tui.cnzz.net^$third-party
@@ -17979,6 +17990,7 @@ zznews.cn##.ad:not([style])
 ||wsvike.cn^
 ||wsxxu.com^
 ||wszzb.top^
+||wtgongsi.com^
 ||wtnjupl.cn^
 ||wu65.com^
 ||wudang05.com^$third-party
@@ -18597,6 +18609,7 @@ zznews.cn##.ad:not([style])
 ||yicang8.com^
 ||yichunrz.com^
 ||yicuntian.cn^
+||yidengfe.com/launches/01/yd.png
 ||yidiansurong.com^
 ||yierheng.top^
 ||yifuls.com^$third-party
@@ -18690,6 +18703,7 @@ zznews.cn##.ad:not([style])
 ||yktang8.com^*.gif
 ||yktj.yzz.cn^
 ||ykxwn.com^
+||ylflwbj.cn^
 ||yljiaoluo.com^
 ||yljmeishi.cn^
 ||ylkqw.com^
