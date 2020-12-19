@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202012180104
+! Version: 202012190136
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19368
+! Lenth = 19378
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1389,6 +1389,7 @@
 @@||bde4.cc^$generichide
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||bdimg.com/libs/$domain=00ksw.com|147xiaoshuo.com|18xs.org|1biquge.com|23xsw.cc|266ks.com|52biquge.com|abcxs.com|b5200.net|biqiuge.com|biqiugexsw.com|biquge.lu|biquge.tv|biquge5200.cc|biquge9.cc|biqugecd.com|biqugeg.com|biquger.com|biqugetv.com|biqukan.com|biqumo.com|biquw.com|bixia.org|boquge.com|bqg5.cc|bqg99.cc|ddbiquge.cc|didaxiaoshuo.cc|gdbzkz.com|gzbpi.com|huanyue123.com|iqksw.com|janpn.com|jx.la|kuxiaoshuo.com|ldks.cc|lindiankanshu.cc|meegoq.com|mxguan.com|paoshu8.com|piaotian5.com|qianrenge.cc|shuquge.com|taiuu.com|ttzw.tv|txtwan.com|x23us.me|xbiqugecc.com|xinxs.la|xmalshenzu.com|xqianqian.com|xshengyan.com|xshuyaya.com|xsw55.com|xwxguan.com|xxqb5200.com|xyangguiweihuo.com|ymxxs.com|yssm.tv|yuyouge.com|zanghaihuatxt.com|zbzw.la|ztv.la
+@@||bdimg.com/libs/$domain=00ksw.com|147xs.com|18xs.org|1biquge.com|23xsw.cc|266ks.com|52biquge.com|abcxs.com|b5200.net|biqiuge.com|biqiugexsw.com|biquge.lu|biquge.tv|biquge5200.cc|biquge9.cc|biqugecd.com|biqugeg.com|biquger.com|biqugetv.com|biqukan.com|biqumo.com|biquw.com|bixia.org|boquge.com|bqg5.cc|bqg99.cc|ddbiquge.cc|didaxiaoshuo.cc|gdbzkz.com|gzbpi.com|huanyue123.com|iqksw.com|janpn.com|jx.la|kuxiaoshuo.com|ldks.cc|lindiankanshu.cc|meegoq.com|mxguan.com|paoshu8.com|piaotian5.com|qianrenge.cc|shuquge.com|taiuu.com|ttzw.tv|txtwan.com|x23us.me|xbiqugecc.com|xinxs.la|xmalshenzu.com|xqianqian.com|xshengyan.com|xshuyaya.com|xsw55.com|xwxguan.com|xxqb5200.com|xyangguiweihuo.com|ymxxs.com|yssm.tv|yuyouge.com|zanghaihuatxt.com|zbzw.la|ztv.la
 @@||bdimg.com/libs/$domain=dybee.tv
 @@||bdimg.com/libs/$domain=wuzuowei.net
 @@||bdimg.com/static/wapwenku/static/common/widget/share/share_
@@ -1437,6 +1438,7 @@
 @@||cdn.runative-syndicate.com/sdk/*/n.js$domain=onemanhua.com
 @@||cdn.sssam.com/static/js/*.js
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xiaoshuo.org|49zw.com|biququ.info|tsxsw.net|ziyouge.com
+@@||cdn.staticfile.org^$script,domain=00ksw.com|147xs.com|31xiaoshuo.org|49zw.com|biququ.info|tsxsw.net|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=dybee.tv
 @@||cdn.staticfile.org^$script,domain=rijutv.com
 @@||cdndm5.com^$script,domain=m.1kkk.com|m.dm5.com
@@ -1621,8 +1623,8 @@
 @@||haoweichi.com/Public/js/ads.js
 @@||hboav.com/guga/$script,~third-party
 @@||hboav.com/guga/adss.js
+@@||hboav.com/js/*gg
 @@||hboav.com/js/AD_tv.js
-@@||hboav.com/js/gg
 @@||hboav.com^$generichide
 @@||hc360.com/ad/*.css
 @@||hdsky.net/ad/down.png
@@ -2158,7 +2160,7 @@ ainuody.com#?#.post:-abp-has(> .article > .entry_post > p:-abp-contains(/红包|
 aipai.com###videosRightDown
 aipai.com##.banner_90
 aipai.com##.video_gg
-aiqiyivip.com###header-top + div[style]
+aiqiyivip.com##[onclick]
 airav.cc###Panel_GambleZone
 airav.cc###Panel_GambleZone + .Hide_For_JP_AND_EN
 airav.cc###Right_Panel > div[style^="margin-"]
@@ -6178,6 +6180,7 @@ ruten.com.tw###ad-467
 ruten.com.tw###search_u_970x90
 ruten.com.tw##.act-promo
 ruten.com.tw##.side-advertise
+ruten.com.tw#@#.adslot
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+40)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+45)
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+50)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+55)
 rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+150):-abp-contains(/赌|娱|澳/)) > :nth-child(-n+155)
@@ -8065,6 +8068,7 @@ zznews.cn##.ad:not([style])
 ||121.40.25.88^
 ||121.41.60.207/m?t=
 ||121.43.114.38:8087/advs.js
+||1214bdk.xyz^
 ||121zou.com^$subdocument
 ||122.114.239.160^
 ||122.225.103.*.htm
@@ -11355,6 +11359,7 @@ zznews.cn##.ad:not([style])
 ||czhcloud.cn^
 ||czjiuding.cn^
 ||czlhgz.com^
+||czlongle.cn^
 ||czpush.com^
 ||czpwm.com^
 ||czsp12.com/api/*=advert&
@@ -13177,6 +13182,7 @@ zznews.cn##.ad:not([style])
 ||hupu.com^*/stream.js
 ||hur.cn/AhurD/*.gif
 ||hurom365.cn^
+||hvie6u.cn^
 ||hw6.com^
 ||hwertd.xyz^
 ||hwmwin.com^$third-party
@@ -15803,6 +15809,7 @@ zznews.cn##.ad:not([style])
 ||qdp.qidian.com^
 ||qdross.com/vip/
 ||qdsfzz.cn^
+||qdwght.com^
 ||qdxrhg.com^$third-party
 ||qdyazc.com^
 ||qevcxo.cn^
@@ -17316,6 +17323,7 @@ zznews.cn##.ad:not([style])
 ||tuan.cs090.com/gettuan.php?
 ||tucao.one/uploadfile/20*/20*.gif
 ||tudouui.com/tspecial/assets/PauseContainer.swf
+||tudouw.cc/js/baidu.js
 ||tudown.com^$third-party
 ||tui.cnzz.net^$third-party
 ||tui.gtimg.com//res/
@@ -17648,6 +17656,7 @@ zznews.cn##.ad:not([style])
 ||vjuer.com^
 ||vkeke.net/public/agd
 ||vkjnd.com^
+||vkpsmzj.cn^
 ||vkuay.com^
 ||vkugq.com/data/attachment/portal/
 ||vlion.cn^$third-party
@@ -19045,6 +19054,7 @@ zznews.cn##.ad:not([style])
 ||zhangguangzong.com^$third-party
 ||zhangkc.com^
 ||zhangranfilm.com^
+||zhangshiyuan.com^
 ||zhangxinxu.com/image/blog/*/ad-zf.jpg
 ||zhangxinxu.com/image/blog/*/sp-zf.
 ||zhangzishi.cc/cdn-cgi/apps/
