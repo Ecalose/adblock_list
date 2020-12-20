@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202012190136
+! Version: 202012200107
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24347
+! Lenth = 24349
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -116,6 +116,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 -monero-miner-
 -monero-miner.$domain=~wp-monero-miner.com
 -monero-miner/
+-optimization-metrics.
 -optimost-
 -page-analytics.
 -pcre-js-gen.herokuapp.com/tracking-event|
@@ -7857,7 +7858,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||walmart.com/__ssobj/core.js
 @@||walmart.com/b/ss/
 @@||walmart.com/b/ss/$image
-@@||walmart.com^*/api/logger$xmlhttprequest
 @@||walmart.com^*/track?event=$xmlhttprequest
 @@||walmartimages.com/webanalytics/omniture/omniture.jsp$domain=walmart.com
 @@||walmartimages.com/webanalytics/wmStat/wmStat.jsp$domain=walmart.com
@@ -13309,7 +13309,6 @@ znak.com##.relap
 ||excpm.com^$third-party
 ||excuseearthquake.com^$third-party
 ||exd4.destinia.com.au^
-||exdynsrv.com^$third-party
 ||exe.bid^$third-party
 ||execute-api.*.amazonaws.com/current/events?
 ||execution-ci360.rai.it^
@@ -23466,6 +23465,9 @@ znak.com##.relap
 ||wallkit.net^*/user/event
 ||wallpaperstock.net/partners.js
 ||wallpoper.com^*/c.js
+||walmart.com/client/api/logs
+||walmart.com/client/api/metrics
+||walmartimages.com^*/cdn-perf.min.js$domain=walmart.com
 ||walmeric.com^$third-party
 ||wandsworthguardian-gb.wandsworthguardian.co.uk^
 ||wantlive.com/pixel/

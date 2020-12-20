@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: G+QrbdWZeGuA1Z101Q4ttQ
-! Version: 202012190141
+! Checksum: Y5qmW5lJVKojhxdbEJmD9w
+! Version: 202012200141
 ! Title: EasyPrivacy
-! Last modified: 19 Dec 2020 01:41 UTC
+! Last modified: 20 Dec 2020 01:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -86,6 +86,7 @@
 -lp-tracking.
 -mastertag.
 -mediaplex_
+-optimization-metrics.
 -optimost-
 -page-analytics.
 -pixel.*?uuid=
@@ -8640,7 +8641,6 @@ _mongo_stats/
 ||ethtrader.de^$third-party
 ||etzbnfuigipwvs.ru^$third-party
 ||eucsoft.com^$third-party
-||exdynsrv.com^$third-party
 ||f1tbit.com^
 ||feesocrald.com^
 ||filmoljupci.com^
@@ -15597,6 +15597,9 @@ _mongo_stats/
 ||wallcannrewards.com^*/index.php?
 ||walletpop.com/track/
 ||wallpaperstock.net/partners.js
+||walmart.com/client/api/logs
+||walmart.com/client/api/metrics
+||walmartimages.com^*/cdn-perf.min.js$domain=walmart.com
 ||warp.prnewswire.co.uk^
 ||washingtonpost.com/notification-sw.js
 ||washingtonpost.com/wp-stat/analytics/
@@ -17956,7 +17959,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||vodafone.com.au/analytics/js/$script
 @@||vouchercodes.co.uk/__wsm.gif$ping
 @@||waitrosecellar.com^*/eventTracking-Cellar.js$domain=waitrosecellar.com
-@@||walmart.com^*/api/logger$xmlhttprequest
 @@||washingtonpost.com/wp-stat/analytics/latest/main.js
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
 @@||weightwatchers.com/optimizelyjs/$script,~third-party
