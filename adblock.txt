@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202012200107
+! Version: 202012210104
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21345
+! Lenth = 21347
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -568,6 +568,7 @@
 ##.jqrp_infoflow_ad
 ##.kf_qycn_com_cckf_welcomebox
 ##.layui-row[style="border-radius:10px;background-color:#ff0000;padding:15px;margin:15px;"]
+##.layui-row[style="border-radius:10px;background-color:#ff0000;padding:15px;margin:15px;margin-right:0px;margin-left:0px;"]
 ##.layui-row[style="height:160px;border-radius:10px;background-color:#ff0000;padding:15px;margin:15px;"]
 ##.leftAd
 ##.leftadv
@@ -2619,17 +2620,14 @@ $websocket,domain=5nj.com|cechi8.com
 3dmgame.com##.R_qingtianzhu
 3dmgame.com##.Tonglan
 3dmgame.com##.adshop
-3dmgame.com##.dowm_box2
 3dmgame.com##.modAD
-3dmgame.com##.newqkdown2
-3dmgame.com##.quickdown2
-3dmgame.com##.quickdown3
 3dmgame.com##.tonglona_1
 3dmgame.com##.tonglona_2
 3dmgame.com##.tonglona_3
 3dmgame.com##.tonglona_4
 3dmgame.com##A[href^="http://web.3dmgame.com/h5/game?"]
 3dmgame.com##a[href^="https://down.hyds360.com/"] > div[style]
+3dmgame.com##a[onclick="goxiazai()"]
 3g.163.com##.ne_rps
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com###banner_call + div[id]
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>.openBox-container)
@@ -3137,7 +3135,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@/pic/ad/*$domain=ybjk.com
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
-@@/sensorsdata.$domain=36kr.com|imooc.com|modian.com|shanbay.com
+@@/sensorsdata.$domain=36kr.com|imooc.com|modian.com|shanbay.com|tianyancha.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share/js/*$domain=yunpanjingling.com
 @@/show_ad_$domain=wb.qq.com
@@ -3583,9 +3581,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||haoweichi.com/Public/js/ads.js
 @@||hboav.com/guga/$script,~third-party
 @@||hboav.com/guga/adss.js
-@@||hboav.com/js/*gg
-@@||hboav.com/js/AD_tv.js
-@@||hboav.com/js/axdd.js
+@@||hboav.com/js/bpolknm.js
 @@||hboav.com^$generichide
 @@||hc360.com/ad/*.css
 @@||hdsky.net/ad/down.png
@@ -8314,6 +8310,8 @@ sm.cn##.oab-ball-wrap
 sm.cn##a[href^="http://m.sm.cn/adclick?"]
 sm.cn##div[id*="_Shopping_Etao_"]
 sm.cn##div[id^="dl-banner-"]
+sm.ms##.advertising_1
+sm.ms##.advertising_2
 sm.ms##.detail-advert
 sm.ms##div[class^="advertising_"]
 smzdm.com###footer_layer
@@ -8697,6 +8695,7 @@ toolfk.com##wavy + div[style]
 toolfk.com##wavy ~ a
 toolfk.com#?#div[class]:-abp-has(> a[href*=".aliyun.com"])
 tools.2345.com##._hb-box + .mod
+tophub.today##.ax
 tophub.today##.axx
 tophub.today##.c-d.c-d-e > .qc + div
 tophub.today##div[class^="ne"]
@@ -9660,7 +9659,6 @@ zol.com.cn##.zol-eshop
 zol.com.cn##.zolapp
 zol.com.cn##a[class*="member-button"]
 zol.com.cn##a[href*="downloader_main"]
-zol.com.cn##div[class*="-top-"]
 zol.com.cn##div[class^="top-box-xiazai"]
 zol.com.cn##span[class*="-dxlt"]
 zol.com.cn##span[class^="dxlt-down"]
@@ -11792,6 +11790,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/imgextra/i1/3491683832/TB2A4QaisjI8KJjSsppXXXbyVXa_
 ||alicdn.com/imgextra/i3/1731999033/TB2lAJufnlYBeNjSszcXXbwhFXa_
 ||alicdn.com/kf/*.gif$domain=tzfile.com
+||alicdn.com/kf/H23e4be4c556744c4bef772eb0ad9d938G.jpg
 ||alicdn.com/kf/H4fa310799bf04b33803900c0f629094bQ.jpg
 ||alicdn.com/kf/H8105709d8ee745139cfd5affe30a9d719.jpg
 ||alicdn.com/kf/H9df22b1c3f0041b2874ddfd38836993em.gif
@@ -16923,6 +16922,7 @@ zznews.cn##.ad:not([style])
 ||mlog.aipai.com^
 ||mlt01.com^
 ||mm-cgnews.com^
+||mm.jbzj.com^
 ||mm.nwell.net^
 ||mm111.net/api.php?mod=ad&
 ||mm387.com/images/*.gif
@@ -17482,6 +17482,7 @@ zznews.cn##.ad:not([style])
 ||paopic.com/imguang/
 ||papa9394.com^$third-party
 ||papa999.xyz^
+||parisianmacao.bet^
 ||partner.googleadservices.com^$third-party
 ||partner.toutiao.com^
 ||pay838.com^
@@ -18701,6 +18702,7 @@ zznews.cn##.ad:not([style])
 ||spaung.cn^
 ||spcode.baidu.com^
 ||spectram.pro^
+||speedtest.cn/api/v2/showpic?
 ||speedtest.cn/assets/images/ce_
 ||sphwq.net^$third-party
 ||spl.ztvx8.com^$third-party
