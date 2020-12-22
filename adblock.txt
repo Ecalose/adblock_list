@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202012210104
+! Version: 202012220155
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21347
+! Lenth = 21358
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -2626,8 +2626,8 @@ $websocket,domain=5nj.com|cechi8.com
 3dmgame.com##.tonglona_3
 3dmgame.com##.tonglona_4
 3dmgame.com##A[href^="http://web.3dmgame.com/h5/game?"]
+3dmgame.com##A[onclick^="goxiazai"]
 3dmgame.com##a[href^="https://down.hyds360.com/"] > div[style]
-3dmgame.com##a[onclick="goxiazai()"]
 3g.163.com##.ne_rps
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com###banner_call + div[id]
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>.openBox-container)
@@ -3374,6 +3374,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||briian.com/advert.
 @@||btsax.info^$generichide
 @@||buyad.bi-xenon.cn^
+@@||bytedance.com/ttwid/union/register/
 @@||c.mipcdn.com^$domain=77dushu.com|biqugesc.com|prpcoin.com|zhetian.org
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
 @@||captcha.qq.com^*&refer=http
@@ -4875,9 +4876,14 @@ chinatp.com.cn###FloatRb
 chinaxinge.com##.sy05
 chinaxinge.com##.sy07
 chinayk.com##.yb_banner
+chinaz.com###loc.Mnav-right02
+chinaz.com###setHomeTonglanCMedia
+chinaz.com###setPbottomMedia
 chinaz.com###toolsIntro
+chinaz.com###topTxt
 chinaz.com##.Postcon-ad
 chinaz.com##.adfixbug
+chinaz.com##.header-media__text
 chinaz.com##.kwLink
 chinaz.com##.newsMainBox-textad
 chinaz.com##.plate-layout
@@ -6564,6 +6570,7 @@ iplaysoft.com##div[style*="width:3"][style*="height:2"]
 iplaysoft.com##div[style*="width:6"][style*="height:1"]
 iplaysoft.com##div[style="margin:-10px 0 0 0;overflow:hidden"]
 ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result)
+ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###con-ar > .result-op[mu*="nourl.ubs.baidu.com"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > div
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > tbody
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > ul
@@ -6871,6 +6878,7 @@ jirou.com###guanggao
 jisilu.cn##.foot_ad
 jisilu.cn##div[style^="height:60px; width:960px;"]
 jisuxz.com##.dl_gaosu
+jiumodiary.com###forum-panel
 jiyingdm.com###otherWindowBox
 jiyingdm.com##.abcde
 jiyingw.net##.textwidget > p > a > img
@@ -7842,6 +7850,7 @@ portablesoft.org##.rightside > :nth-child(n+2)
 portablesoft.org##.sidebar-box
 portablesoft.org##.sidebar-widget:first-child
 power.baidu.com,zhidao.baidu.com##style[id*="s-m"] + div[id^="m"]
+poxiaotv.com##video[onclick]
 ppsport.com##.slide-img[href^="http"]
 pptstore.net#@#.ad-big
 pptv.com###installApp
@@ -9582,7 +9591,6 @@ zhihu.com##.RelatedReadings-adItem
 zhihu.com##.Sticky > .Card[data-za-detail-view-path-module="ContentList"]
 zhihu.com##.TopstoryItem--advertCard
 zhihu.com##div[data-type="ad"]
-zhihu.com##div[data-za-detail-view-path-is_ad]
 zhihu.com#?#.TopstoryItem:-abp-has(.Popover > .TopstoryItem-advertButton)
 zhihu.com#@#.FollowButton
 zhihu.com#@#.LikeButton
@@ -16211,6 +16219,7 @@ zznews.cn##.ad:not([style])
 ||kouwku.cn^
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
 ||kpfufdh.cn^
+||kpirog.com^
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
 ||kpshx.douguo.com^
@@ -18843,6 +18852,7 @@ zznews.cn##.ad:not([style])
 ||suning.com/cpc/getCpcSearchDatasRev?
 ||suning.com/getCpcDatas?
 ||suning.design^
+||suning.fit^
 ||sunrtb.*/s?m=
 ||suolaka.23txt.com^
 ||suoooi.cn^
@@ -21162,6 +21172,7 @@ zznews.cn##.ad:not([style])
 ||zlfhe8.cn^
 ||zlongad.com^$third-party
 ||zlyk.com/dp.js
+||zlyk.com^*/ysapp.
 ||zmgod.com^
 ||zmlfk.com^
 ||zmlled.cn^
