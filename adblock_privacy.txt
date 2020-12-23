@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202012220155
+! Version: 202012230117
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24388
+! Lenth = 24403
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -3813,7 +3813,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /pixel_tracking.
 /pixel_tracking?
 /pixelappcollector.
-/pixelcounter.
+/pixelcounter.$domain=~pixelcounter.com
 /pixelframe/*
 /pixeljs/*
 /pixellog.
@@ -8271,6 +8271,7 @@ znak.com##.relap
 ||105app.com/report/?
 ||105app.com^$third-party
 ||109.169.66.161^$third-party,domain=~adult-site.ip
+||110.93.143.144^$third-party
 ||11nux.com^$third-party
 ||120.132.57.41/pjk/pag/ys.php
 ||123-counter.de^$third-party
@@ -9645,11 +9646,12 @@ znak.com##.relap
 ||app.huawei.com/hwa-c*&action=
 ||app.huawei.com/hwa-c/configresource/js/general/ha.js
 ||app.intercom.io/gtm_tracking/
+||app.link/_r?$script,third-party
 ||app.link/_r?sdk=*&callback=branch_callback
-||app.link^$third-party
 ||app.opmnstr.com/v2/geolocate/
 ||app.redretarget.com^$third-party
 ||app.retargetapp.com/pixel/pixel.min.js
+||app.revhunter.tech/px^
 ||app.roximity.com^
 ||app.shoptarget.com.br^$third-party
 ||app.yesware.com/t/$third-party
@@ -10515,7 +10517,7 @@ znak.com##.relap
 ||brahe.apptimize.com^
 ||brain.foresee.com^
 ||braintreeandwithamtimes-gb.braintreeandwithamtimes.co.uk^
-||branch.io^$third-party
+||branch.io/branch-latest.min.js$script,third-party
 ||branch.io^*/pageview
 ||branch.io^*_fingerprint_id=$third-party
 ||brandaffinity.net/icetrack/
@@ -10871,6 +10873,7 @@ znak.com##.relap
 ||cdn.branch.io^$domain=underarmour.com
 ||cdn.c-i.as^$script,third-party
 ||cdn.c-i.as^$third-party
+||cdn.cohesionapps.com^$domain=gamespot.com
 ||cdn.contalyze.com^$third-party
 ||cdn.contx.net/collect.js
 ||cdn.cr.org/etc/designs/electronics/clientlibs/tracking.js
@@ -12729,6 +12732,7 @@ znak.com##.relap
 ||dtc-v6t.com^$third-party
 ||dti-ranker.com^$third-party
 ||dtiblog.com/hist_count.
+||dtory.ebs.co.kr/wlo^
 ||dtscout.com^$third-party
 ||dtxngr.com^$third-party
 ||dtxtngytz5im1.cloudfront.net^
@@ -13249,6 +13253,7 @@ znak.com##.relap
 ||events.brightline.tv^
 ||events.chaordicsystems.com^
 ||events.demoup.com^
+||events.emogi.com^
 ||events.guesttoguest.com^
 ||events.il.fi^
 ||events.ingatlan.com^
@@ -14642,6 +14647,7 @@ znak.com##.relap
 ||hemnes.win^$third-party
 ||henkel.com.tr/resources/*/webtrekk.js
 ||hentaicounter.com^$third-party
+||herald.loginside.co.kr^
 ||heraldandtimeslabs.com/sugar.js
 ||heraldscotland-gb.heraldscotland.com^
 ||heraldseries-gb.heraldseries.co.uk^
@@ -14772,6 +14778,8 @@ znak.com##.relap
 ||holiday-rentals.co.uk^*/tracking-home.html
 ||hollowshake.com^$third-party
 ||hollydeal.club^
+||home.ebs.co.kr/common/js/wlo.js
+||home.ebs.co.kr/ebsnews/logProce/logAjax
 ||homeaway.com^*/tracking-home.html
 ||homelycrown.com^$third-party
 ||homepage-baukasten.de/cookie.php?
@@ -16169,6 +16177,7 @@ znak.com##.relap
 ||log.news.zing.vn^
 ||log.newsvine.com^
 ||log.nordot.jp^
+||log.ohmynews.com^
 ||log.olark.com^
 ||log.optimizely.com^
 ||log.outbrain.com^
@@ -17801,6 +17810,7 @@ znak.com##.relap
 ||onnetwork.tv/cnt/
 ||onsugar.com/static/ck.php?
 ||onthe.io^$third-party
+||ontraport.com/track.php
 ||oodle.co.uk/event/track-first-view/
 ||oodle.com/js/suntracking.js
 ||oops.redditmedia.com^
@@ -17821,6 +17831,7 @@ znak.com##.relap
 ||openhit.com^$third-party
 ||openinternetexchange.com^$third-party
 ||openinternetexchange.net^$third-party
+||openlog.in^$third-party
 ||openstat.net^
 ||openstat.net^$third-party
 ||opentracker.net^$third-party
@@ -18854,6 +18865,7 @@ znak.com##.relap
 ||qchannel03.cn^$third-party
 ||qcloud.com/report.go?
 ||qdtracking.com^$third-party
+||qflm.net^$third-party
 ||qhimg.com/11.0.1.js$script
 ||qhupdate.com^$third-party
 ||qidian.qq.com/report/
@@ -19246,6 +19258,8 @@ znak.com##.relap
 ||repstatic.it^*/nielsen_static_mapping_repubblica_
 ||request.issuu.com^
 ||res-x.com^$third-party
+||res.heraldm.com/js/acecounter_*.js
+||res.heraldm.com/js/logcollectscript_*.js
 ||res.rbl.ms^
 ||research-artisan.com^$third-party
 ||research-int.se^$third-party
@@ -22752,6 +22766,7 @@ znak.com##.relap
 ||trvtrk.com^$third-party
 ||trwl1.com/ascripts/gcrt.js
 ||trx.smdatalabs.com^
+||trx3.famousfix.com^
 ||try.abtasty.com/*.js$third-party
 ||try.abtasty.com^$third-party
 ||trysera.com^$third-party
