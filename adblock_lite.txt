@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202012230117
+! Version: 202012240151
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19421
+! Lenth = 19430
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1621,6 +1621,7 @@
 @@||haoweichi.com/Public/js/ads.js
 @@||hboav.com/guga/$script,~third-party
 @@||hboav.com/guga/adss.js
+@@||hboav.com/js/AD_tv.js
 @@||hboav.com/js/bpolknm.js
 @@||hboav.com^$generichide
 @@||hc360.com/ad/*.css
@@ -2511,7 +2512,7 @@ baike567.com,wuhaozhan.net##a[onclick*=".tmall.com"]
 baike567.com,wuhaozhan.net##div[class*="main-righ"] iframe
 baike567.com,wuhaozhan.net##div[class^="hongbao"]
 baike567.com,wuhaozhan.net##div[id$="eBox"]
-baike567.com,wuhaozhan.net#?#.l-box:-abp-has(a:-abp-contains(/生鲜|双1|美团|活动|京东|年货|红包|支付|天猫/))
+baike567.com,wuhaozhan.net#?#.l-box:-abp-has(a:-abp-contains(/[0-9]元|生鲜|双1|美团|活动|京东|年货|红包|支付|天猫/))
 baike567.com,wuhaozhan.net#?#:-abp-has(> .ad_top_close)
 baiten.cn##.JS_advertisement
 baixing.com###port-info
@@ -8894,6 +8895,7 @@ zznews.cn##.ad:not([style])
 ||5eln.cn^
 ||5etv.com^$third-party
 ||5fz.cc/t/aimg/tao
+||5glyqw.com^
 ||5hytr.xyz^
 ||5icool.org/uploadfile/poster/
 ||5ilinglei.com/gg.html
@@ -11014,6 +11016,7 @@ zznews.cn##.ad:not([style])
 ||chinaxinge.com/gif3/
 ||chinaxinge.com/gif4/
 ||chinaxinge.com/html/index_pf3.js
+||chinaxingyin.com^
 ||chinayutai.cn^
 ||chinaz.com/2020/0306/2020030616083756.jpg
 ||chinaz.com/c0g/
@@ -12357,6 +12360,7 @@ zznews.cn##.ad:not([style])
 ||fydisk.com/images/showvip.gif
 ||fyehare.com^
 ||fyjyhm.com^
+||fyzyf.com^
 ||fzbm.com/bbs/static/js/bma.js
 ||fzbymy.com^
 ||fzdeng.com^
@@ -13077,6 +13081,7 @@ zznews.cn##.ad:not([style])
 ||hnhycp.com^
 ||hnkuangshan.cn^
 ||hnnuange.com^
+||hntiantai.cn^
 ||hntymg.com^
 ||hnwjlhg.cn^
 ||hnxahz.com^
@@ -16352,6 +16357,7 @@ zznews.cn##.ad:not([style])
 ||scqajt.cn^
 ||script-bd.baixing.net^
 ||scriptcc.cc^
+||scswuliu.com^
 ||scupio.com/adpinline/
 ||scvxgm.cn^
 ||scw0.com^
@@ -16719,6 +16725,7 @@ zznews.cn##.ad:not([style])
 ||sogoucdn.com/nstatic/js/showtime.js
 ||sogoucdn.com/nstatic/js/tmallskin_
 ||sogoucdn.com/translate/ssr/static/img/banner-
+||sogov587.top^
 ||sohu.com.cn/ppp/bms/bms.popup.
 ||sohu.com/adgtr/
 ||sohu.com/api/labs/hotnews/c/load?
@@ -17290,6 +17297,7 @@ zznews.cn##.ad:not([style])
 ||topmba.mobi/ad/
 ||topqualitylink.com^$third-party
 ||topthink.com/api/basic/
+||topvcbank.com^
 ||totheglory.im/pic/business/
 ||totheglory.im/pic/fangtuo.jpg
 ||totheglory.im/pic/ttg-
@@ -19064,6 +19072,7 @@ zznews.cn##.ad:not([style])
 ||zgbsny.com^
 ||zgc66.com^
 ||zgczjw.com^$third-party
+||zgdfvih.cn^
 ||zgdmsj.cn^
 ||zgdtro.com^
 ||zgfszs.com^
