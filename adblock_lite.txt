@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202012240151
+! Version: 202012250156
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19430
+! Lenth = 19436
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1623,6 +1623,7 @@
 @@||hboav.com/guga/adss.js
 @@||hboav.com/js/AD_tv.js
 @@||hboav.com/js/bpolknm.js
+@@||hboav.com/js/gg0.js
 @@||hboav.com^$generichide
 @@||hc360.com/ad/*.css
 @@||hdsky.net/ad/down.png
@@ -3631,6 +3632,7 @@ eol.cn,hao123.com,site.baidu.com##.popup
 eoof.net##.tableborder1[cellspacing="1"][cellpadding="3"]
 epinv.com##.epinv_b
 epinv.com##.epinv_f
+epinv.com##div[style="width:880px;height:90px"]
 eprice.com.hk#@#.one-ad
 eprice.com.tw###goldlink
 eprice.com.tw###popup-ad-overlay
@@ -5441,6 +5443,7 @@ mobile01.com##.ad-adblock
 mobile01.com##.admicrobtn
 mobile01.com##.fast-ad
 mobile01.com#@#.googlead
+moe.gov.cn,qspfw.com#@#.ad_title
 mogewu.com###downloadurl > dl:first-child
 mogewu.com##.download > a[href*="@"]
 mogewu.com##.zfb_icon
@@ -6095,7 +6098,6 @@ qqxiazai.com##.bt_abtn2
 qqyouyue.com##.table-responsive
 qqyy.com##.ind_ad
 qqyy.com##.right_dcotor_tab
-qspfw.com#@#.ad_title
 qsptv.net###widget-weixin
 qudao.com###wechat
 qudong.com##.advert_bottom
@@ -12626,6 +12628,7 @@ zznews.cn##.ad:not([style])
 ||gouweida.cn^
 ||gouzhibao.cn^
 ||govgift.com^
+||govhunan.cn^
 ||gowin01.com^
 ||gowinxp.com^$third-party
 ||gp.jstv.com^
@@ -13254,6 +13257,7 @@ zznews.cn##.ad:not([style])
 ||hyxca.top^
 ||hyyazhaji.com^
 ||hyz86.com^
+||hyzhongchuang.com^
 ||hz-sllace.com^
 ||hz.shouyoutv.com^
 ||hz.youku.com/red/
@@ -14924,6 +14928,7 @@ zznews.cn##.ad:not([style])
 ||mfcvxw.cn^
 ||mg.32r.com^
 ||mg.glwxw.net^
+||mg17i.cn^
 ||mgsue.cn^
 ||mgtv-bbqn.oss-cn-beijing.aliyuncs.com^
 ||mgwcn.com^
@@ -19256,6 +19261,7 @@ zznews.cn##.ad:not([style])
 ||zn46.com/images/*0x
 ||zndsssp.dangbei.net^
 ||znjj.tv/uploadfiles/abi/ad201
+||zoepb.cn^
 ||zol-img.com.cn/ad/
 ||zol-img.com.cn/detail/js/module/app-download-float/script.js
 ||zol-img.com.cn/detail/js/module/shaung11/js/shuang11Pop.js
