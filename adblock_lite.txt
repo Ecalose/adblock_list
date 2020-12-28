@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202012270133
+! Version: 202012280126
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19454
+! Lenth = 19468
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1624,7 +1624,7 @@
 @@||hboav.com/guga/adss.js
 @@||hboav.com/js/AD_tv.js
 @@||hboav.com/js/bpolknm.js
-@@||hboav.com/js/gg0.js
+@@||hboav.com/js/gg*.js
 @@||hboav.com^$generichide
 @@||hc360.com/ad/*.css
 @@||hdsky.net/ad/down.png
@@ -2620,6 +2620,7 @@ bigear.cn##a[href^="/?module=dantian&"]
 bilibili.com###app > div.international-home > a.contact-help:last-child
 bilibili.com###b_app_link
 bilibili.com###fixed_app_download
+bilibili.com###slide_ad + .ad-report
 bilibili.com##.ad-e1
 bilibili.com##.ad-f
 bilibili.com##.banner-card
@@ -2631,6 +2632,7 @@ bilibili.com##.operate-card[data-target-url*=".miaozhen."]
 bilibili.com##.operate-card[data-target-url*="doubleclick."]
 bilibili.com##.title > span > a[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
+bilibili.com##.video-page-game-card
 bilibili.com##a[data-target-url*=".taobao.com"]
 bilibili.com##a[href$="_suning.html"]
 bilibili.com##a[href*=".doubleclick."]
@@ -4354,6 +4356,7 @@ huize.com##.hz-bottom-reserve-link
 huke88.com##.hand-once
 hung-ya.com##.AdBottom
 hupu.com###HCFull
+hupu.com###game-center-entrance-container
 hupu.com###shihuo1111
 hupu.com###threadLeftAd
 hupu.com###topPub
@@ -4370,6 +4373,7 @@ hupu.com##.maibghref
 hupu.com##.topPub
 hupu.com##.voice-ad300-250
 hupu.com##.voteIndex
+hupu.com##DIV[class^="game-center-"]
 hupu.com##div[class*="ad200-200"]
 hupu.com##div[class*="ad240-200"]
 hupu.com##div[class*="ad728-90"]
@@ -5149,6 +5153,7 @@ lcxw.cn,ts.cn##.gg4
 ld0766.com###diy4
 ld0766.com###portal_ad3
 ld0766.com##.rsf_pull_screen_adv
+ldmnq.com##.dialog-game
 le.com###a_body_11628
 le.com###a_title_11628
 le.com##.Ad
@@ -6287,13 +6292,17 @@ silver.org.cn##.logo_dsaas
 silver.org.cn##.zl_login
 silver.org.cn##div[class*="_gg"]
 silver.org.cn##div[class^="ads_"]
+sina.cn###j_gotop ~ .fl_suspension_template
+sina.cn###j_toTop ~ .fl_suspension_template
 sina.cn###midThreeAds
 sina.cn###promotionCover
 sina.cn##.article-sax
 sina.cn##.dfz_sd_news > a[href*=".10086.cn"]
 sina.cn##.j_article_cutpic
 sina.cn##.p_newsmore
+sina.cn##.sw_c0.fix_top
 sina.cn##.xc_da
+sina.cn##.zhidi
 sina.cn##[data-href*="://sax"]
 sina.cn##[data-href*="://sax"] + aside
 sina.cn##[data-href*="://sax"] + aside + blockquote
@@ -9993,6 +10002,7 @@ zznews.cn##.ad:not([style])
 ||anyysz.com^
 ||anzhuocpm.com^
 ||aodepuo.cn^
+||aoidf3.com^
 ||aoji.cn/default/looyu/
 ||aoji.cn/static/js/pushadv.js
 ||aoji.cn/static/js/yiliao/ad_common.js
@@ -13232,6 +13242,7 @@ zznews.cn##.ad:not([style])
 ||hwertd.xyz^
 ||hwmwin.com^$third-party
 ||hxadt.com^
+||hxbt.alading123.com^
 ||hxgccl.cn^
 ||hxiak.com^
 ||hxjs.tool.hexun.com$domain=~quote.hexun.com
@@ -13342,6 +13353,7 @@ zznews.cn##.ad:not([style])
 ||idcot.com^
 ||idcqi.com^
 ||identified.cn^
+||idgdmgroup.com.cn^
 ||idianfang.com^
 ||idoc58.com^
 ||idv.st/dns/bar.htm
@@ -17161,6 +17173,7 @@ zznews.cn##.ad:not([style])
 ||theporn.xyz/static/tmp/
 ||theta.sogoucdn.com^
 ||thetestpage.39.net^
+||thindsoo.cn^
 ||thisav.com/0*.js
 ||thisav.com/index.js
 ||thisav.com/nb/
@@ -18995,6 +19008,7 @@ zznews.cn##.ad:not([style])
 ||yybos.com.cn^
 ||yybx.oss-cn-hangzhou.aliyuncs.com^
 ||yyeks.com^
+||yyetss.com/static/modal.js
 ||yyhqch.com^
 ||yyjhf.com^
 ||yyjj.xyz^
