@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gLp7BojLM13+W3M2qPYVvQ
-! Version: 202012280142
+! Checksum: LbM35p5AqJr+2kB7zQV7+A
+! Version: 202012290142
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 28 Dec 2020 01:42 UTC
+! Last Modified: 29 Dec 2020 01:42 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1109,6 +1109,7 @@ _xiuno_com_ad/
 ##a[href*="/mdb1.site/"]
 ##a[href*="/ppffj.me/"]
 ##a[href*="itoon.app"]
+##a[href*="mdapp01.com/"]
 ##a[href*="nnqp.vip"]
 ##a[href*="ywslxq.com"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
@@ -1150,6 +1151,7 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
+##A[href*=".shssfyh.com/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 .cc/s.php?id=$script,third-party
@@ -2793,6 +2795,7 @@ ubmcmm.baidustatic.com
 ||medi-8.net^$third-party
 ||media8.cn^$third-party
 ||mediav.com^$third-party,domain=~dev.360.cn|~g.360.cn
+||meethanshi.com^
 ||meicubao.cn^
 ||meihaoxiangwang.com^
 ||meilides.com^
@@ -8933,6 +8936,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+nfstar.net#?#.myui-panel-bg:-abp-has(strong:-abp-contains(广告))
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16169,11 +16173,12 @@ fuliba.net##.widget_custom_html:nth-child(2)
 @@||5278.cc^$~third-party,xmlhttprequest
 @@||hboav.com/guga/$script,~third-party
 @@||hboav.com/js/AD_tv.js
+@@||hboav.com/js/axdd.
 @@||hboav.com/js/bpolknm.js
 @@||hboav.com/js/gg*.js
 @@||hboav.com^$generichide
-@@||realsrv.com/iframe.php?idzone=3476965&size=300x250$subdocument,domain=hboav.com
 ||hboav.com/guga/$~subdocument
+||5278.cc/js/check.js
 !#Hh010.com
 hh010.com##.a_hong_c
 hh010.com##.a_hong_h
@@ -16380,6 +16385,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||17ys.top^
 ||183pu.cn^
 ||1fv3b.cn^
+||1pzskg.cn^
 ||1x26q3.cn^
 ||215to.cn^
 ||216pu.cn^

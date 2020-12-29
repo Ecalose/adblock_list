@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202012280126
+! Version: 202012290249
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19468
+! Lenth = 19471
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1623,6 +1623,7 @@
 @@||hboav.com/guga/$script,~third-party
 @@||hboav.com/guga/adss.js
 @@||hboav.com/js/AD_tv.js
+@@||hboav.com/js/axdd.
 @@||hboav.com/js/bpolknm.js
 @@||hboav.com/js/gg*.js
 @@||hboav.com^$generichide
@@ -1857,7 +1858,6 @@
 @@||quanzhi.cn/v3/images/index_ad/
 @@||r3sub.com^$generichide
 @@||readmoo.com/images/social/
-@@||realsrv.com/iframe.php?idzone=3476965&size=300x250$subdocument,domain=hboav.com
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||right.com.cn/forum/*300*250$image
 @@||rmdown.com/ads.js
@@ -5650,6 +5650,7 @@ nfmovies.com#?#div[id]:-abp-has(>img[onclick="openurl()"])
 nfmovies.com#@##adleft
 nfmovies.com#@##adright
 nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
+nfstar.net#?#.myui-panel-bg:-abp-has(strong:-abp-contains(广告))
 nfuwow.com###dl-left-first
 nfuwow.com###dl-right-first
 nfuwow.com##.adtopnewnewbox
@@ -8331,6 +8332,7 @@ zznews.cn##.ad:not([style])
 ||1l1.cc^
 ||1lib.cn^
 ||1lo0.net^$third-party
+||1pzskg.cn^
 ||1q8h.cn^
 ||1qwe3r.com^$third-party
 ||1s8pj.cn^$third-party
@@ -14898,6 +14900,7 @@ zznews.cn##.ad:not([style])
 ||medprofile.cn^
 ||medsci.cn/aimgs/$script
 ||medsci.cn/images/wyg.jpg
+||meethanshi.com^
 ||mei181.com^
 ||meicubao.cn^
 ||meihaoxiangwang.com^
