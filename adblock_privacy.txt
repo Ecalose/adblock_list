@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202012290249
+! Version: 202012300247
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24436
+! Lenth = 24441
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -2565,6 +2565,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /gemius1.js
 /gemiusAudience.
 /gemius_
+/gen204?
 /gen204?$image,other,ping,script
 /gen_204?$image,other,ping,script
 /generate_204$image,other,ping,script
@@ -3321,6 +3322,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /metrics/statsd/*
 /metrics/survey/*
 /metrics/track/*
+/metrics/v1/frontend/*
 /metrics/vanity/?
 /metricsISCS.
 /metrika/*&ident=
@@ -8207,6 +8209,7 @@ novate.ru#?##right > h2:contains(Рекомендуем)
 outrch.com/api/mailings/opened$image
 overclockers.ru#%#AG_onLoad(function() { window.trackOutboundLink = window.open; });
 pb.wtf,piratbit.org,piratbit.pw,piratbit.top##a[href="//www.liveinternet.ru/click"]
+pioneer.eu#%#//scriptlet('remove-attr', 'onclick', 'a[href][onclick^="trackOutboundLink"]')
 polymail.io/v2/z$image
 popmech.ru#%#AG_onLoad(function() { window.POPMECH.increaseCounters = function() {} });
 portaltele.com.ua##.td-footer-template-9
@@ -12158,6 +12161,7 @@ znak.com##.relap
 ||d2tgfbvjf3q6hn.cloudfront.net^
 ||d2u1npnnqecmpq.cloudfront.net^
 ||d2wlwbnaa4keje.cloudfront.net^
+||d2wy8f7a9ursnm.cloudfront.net^
 ||d2xgf76oeu9pbh.cloudfront.net^
 ||d2yh8t8mdj4l9x.cloudfront.net^
 ||d2zah9y47r7bi2.cloudfront.net/releases/current/tracker.js
@@ -17550,6 +17554,7 @@ znak.com##.relap
 ||ninja.akamaized.net^
 ||ninja.onap.io^
 ||ninja.onap.io^$third-party
+||ninjacat.io^$third-party
 ||nitropay.com/nads/$third-party
 ||nitropay.com^$third-party
 ||nj.com/cgi-bin/stats/
@@ -18176,6 +18181,7 @@ znak.com##.relap
 ||perezhilton.com/gtjs.php
 ||perezhilton.com/services/geo/
 ||perezhilton.com^*/stat/
+||perf-serving.com^$third-party
 ||perf.dugout.com^
 ||perfdrive.com^$third-party
 ||perfect-privacy.com^*/?a_aid=$third-party
@@ -18263,6 +18269,7 @@ znak.com##.relap
 ||pia.jp/images/pt.gif$image
 ||piano-media.com^$third-party
 ||piano.io/tracker/
+||piano.io/tracker/$domain=inc42.com,important
 ||pic4you.ru/img/footer.js
 ||picapp.com/empty.gif?
 ||picbucks.com/track/
@@ -19402,8 +19409,6 @@ znak.com##.relap
 ||riverisland.com^*/mindshare.min.js
 ||riverisland.com^*/s_code.min.omniture_$script
 ||rivrai.com^$third-party
-||rkdms.com/order.gif?
-||rkdms.com/sid.gif?
 ||rkdms.com^$third-party
 ||rktch.com^$third-party
 ||rktu.com^$third-party
