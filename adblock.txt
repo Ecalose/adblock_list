@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202012300247
+! Version: 202012310213
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21449
+! Lenth = 21456
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -850,7 +850,6 @@
 ##div#ad_id
 ##div#xinxi
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
-##div:not([id]):not([class]):not([style]) > div:not([id]):not([class]):not([style]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]:not([src^="http://www.facebook.com/"])
 ##div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
 ##div[align="center"] > a[href^="/url/"] > img[src*=".qpic.cn"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -2383,6 +2382,7 @@ $websocket,domain=5nj.com|cechi8.com
 18board.com,18p2p.com##a[target="_blank"] > img[width="900"]
 18comic.org,18comic.vip##a[href^="http"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip##div[data-height="250"][data-width="300"]
+18comic.org,18comic.vip##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip##div[style^="position: fixed; top:"]
 18comic.org,18comic.vip##img[style*="300px"]
 18comic.org,18comic.vip,52movieba.com,5dm.tv,acglala.net,ainuody.com,awaker.cn,bimiacg.com,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.com,epinv.com,eroacg.com,galacg.me,gmgard.com,halitv.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jitapu.com,jiyingw.net,kisssub.org,languang.co,liuli.pw,meijutt.tv,mikuclub.org,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
@@ -10262,6 +10262,7 @@ zznews.cn##.ad:not([style])
 ||18comic.*/static/resources/files/*0x
 ||18comic.*/static/resources/images/168/
 ||18comic.*/static/resources/images/300
+||18comic.*/static/resources/images/JGG/
 ||18comic.*/templates/frontend/airav/js/avs-0.4.js
 ||18comic.*/templates/frontend/airav/js/jqa
 ||18comic.*/templates/frontend/airav/js/jquery.Dn
@@ -10287,6 +10288,7 @@ zznews.cn##.ad:not([style])
 ||19iiii.info/js/tonglan.js
 ||19kan.com/static/js/hf.js
 ||19qiqi.com/mid/
+||19shows.net^
 ||19vcd.com/mid/
 ||1d1a.com^
 ||1d1px.net^
@@ -14735,6 +14737,7 @@ zznews.cn##.ad:not([style])
 ||gwdqp.com^
 ||gwylm.com^
 ||gxejgs.com^
+||gxfc2021.top^
 ||gxgzyny.com^
 ||gxklsftz.cn^
 ||gxkyl.com^
@@ -15970,6 +15973,7 @@ zznews.cn##.ad:not([style])
 ||js.hkslg520.com^
 ||js.jianbihuadq.com^
 ||js.kt250.com^
+||js.mscto.com^
 ||js.mumayi.net/9495.gif
 ||js.mumayi.net/jiujiang
 ||js.passport.qihucdn.com/11.0.1.js
@@ -20357,6 +20361,7 @@ zznews.cn##.ad:not([style])
 ||xkhouse.com/display/displaygg/
 ||xkjxgt.com^$third-party
 ||xkqpco.com^
+||xl4z7.cn^
 ||xl720.com/tmp/
 ||xlcun.com^$third-party
 ||xlgqy.com^
@@ -20752,6 +20757,7 @@ zznews.cn##.ad:not([style])
 ||yiwad.com^$third-party
 ||yiwenbaida.com/images/pzz.gif
 ||yiwuds.com^
+||yixiangzhan.cn^
 ||yixiaoba.com/js/yxb_normal.js
 ||yixieshi.com/media/
 ||yixige.com^$third-party
@@ -21173,6 +21179,7 @@ zznews.cn##.ad:not([style])
 ||zhizones.com^
 ||zhjfad.com^
 ||zhmatou.com^
+||zhongbolm.com^
 ||zhongchengzp.com^
 ||zhongdoulicai.com^
 ||zhongfujiaoyu.cn^
