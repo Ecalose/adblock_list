@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202012310213
+! Version: 202101010228
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19492
+! Lenth = 19479
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -775,9 +775,6 @@
 51ztzj.com##.dtmwrap[style="height:75px;background:#fff"]
 51zxw.net###idSlider
 520call.me,yocoolnet.in###inplayer
-520cc.me###back-to-top > a[href^="http"]
-520cc.me,5278.cc#@#.a_cn
-520cc.me,sewangchao.com,sewangchao3.com#@#.a_mu
 520tingshu.com,ting35.com#@#.ad960
 5253.com###android-qr
 526bt.com###slider
@@ -1037,7 +1034,6 @@
 ://*modelBudai*.js?$third-party
 ://a.ads.
 ://ads.
-://ads.$domain=520cc.cc|520cc.me
 ://adv.$domain=~adv.ru|~forex-tv-online.com
 ://affiliate.$third-party
 ://banner.$third-party
@@ -1092,7 +1088,6 @@
 ?file=ads&
 ?key=$popup,domain=verystream.com
 ?method=baidu.ting.commercial.tactics&
-@@$image,xmlhttprequest,domain=hboav.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-social-bar.$domain=mobi.yahoo.com
 @@.adserver.$domain=litv.tv
@@ -1103,9 +1098,7 @@
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw|kobe.ga
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
-@@/520cc/myxedetectadsx.js$domain=520cc.cc|520cc.me
 @@/ad-close.png$domain=ch.com
-@@/ad/ads.js$domain=5278.cc|5278bbs.com|67.212.233.38
 @@/ad/images/*$domain=37-express.com
 @@/adLoader.$domain=shejiben.com
 @@/ad_banner/*$domain=donnaart.com.tw
@@ -1242,11 +1235,6 @@
 @@||51img1.com/??*/adsys.
 @@||520call.me/jspopunder.
 @@||520call.me^$generichide
-@@||520cc.cc/ad*.js
-@@||520cc.cc^$generichide
-@@||5278.cc/static/image/common/ad_close.gif
-@@||5278.cc^$script,domain=hboav.com
-@@||5278.cc^$~third-party,xmlhttprequest
 @@||5278.cool^$generichide
 @@||52zy.com/gg/
 @@||58.com/adJump?adType=
@@ -1555,7 +1543,6 @@
 @@||exoclick.com/iframe.php?idzone=*&size=468x60$domain=porn77.info
 @@||exosrv.com/ads-iframe-display.php$domain=getrelax.cc|sexylove.club
 @@||exosrv.com/ads.js$domain=getrelax.cc|sexylove.club
-@@||exosrv.com/iframe.php?*&size=300x250$domain=520cc.cc|520cc.me
 @@||ez3c.tw/js/adblockDetector.js
 @@||ez3c.tw^$generichide
 @@||fang.com/stats/clickm2011.js
@@ -1623,13 +1610,7 @@
 @@||hanjuwang.net^$script,~third-party
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||haoweichi.com/Public/js/ads.js
-@@||hboav.com/guga/$script,~third-party
 @@||hboav.com/guga/adss.js
-@@||hboav.com/js/AD_tv.js
-@@||hboav.com/js/axdd.
-@@||hboav.com/js/bpolknm.js
-@@||hboav.com/js/gg*.js
-@@||hboav.com^$generichide
 @@||hc360.com/ad/*.css
 @@||hdsky.net/ad/down.png
 @@||hdslb.com/bfs/seed/log/report/log-reporter.js$domain=message.bilibili.com
@@ -6263,6 +6244,7 @@ setn.com###FBAnchor
 setn.com##.header-left-banner
 setn.com##.header-right-banner-b
 setn.com##.rightFloat
+sewangchao.com,sewangchao3.com#@#.a_mu
 sg169.com###coupleft
 sg169.com###couprigth
 sgamer.com##.plc > div > a[href*=".vgcool.com"]
@@ -8804,21 +8786,18 @@ zznews.cn##.ad:not([style])
 ||51zxw.net/news_vvvs_photos.swf
 ||5207470.com^
 ||520call.me/ad/ad_
-||520cc.cc/300aaa.gif
 ||520meirenyu.com^
 ||520xs.la/js/dianrui-
 ||520yyqq.com/img/upload/wx.png
 ||520z-2.com/uploadfile/sucai/
 ||521000.com/co/
+||524nmb.com/hanbaobei.gif
 ||5251.net^$third-party
 ||525cm.com^$third-party
 ||5269120.com^
 ||526d.com^$third-party
-||5278.cc/index.js
-||5278.cc/js/*check.js
 ||5278.cc/js/check.js
 ||5278.mobi/aa/
-||5278bbs.com/adpost_
 ||52card.net/img/
 ||52che.com/Inc/FooterComm_
 ||52che.com/NewLocal/TemplateHtml/headflash1_
@@ -9694,7 +9673,6 @@ zznews.cn##.ad:not([style])
 ||adt.xdrig.com^
 ||adt100.com^$third-party
 ||aduic.com^
-||adultblogtoplist.com^$domain=520cc.me
 ||adunioncode.com^$third-party
 ||adunite.com^$third-party
 ||adv-sv-show.focus.cn^
@@ -11723,6 +11701,7 @@ zznews.cn##.ad:not([style])
 ||dm.taobaojuhuasuan.cn^
 ||dm.wenshenxiu.com^
 ||dm.zuowenku.net^
+||dm1.ddwk8.cn^
 ||dm1.dnpz123.com^
 ||dm1.guanwawa.com^
 ||dm1.zjydt.com^
@@ -12927,7 +12906,7 @@ zznews.cn##.ad:not([style])
 ||hblinwei.com^
 ||hbngfy.com^
 ||hbnygj.com^
-||hboav.com/guga/$~subdocument
+||hboav.com/guga/
 ||hboav.com/guga/*.php$domain=5278.cc
 ||hbssjd.cn^
 ||hbstty.com^
@@ -13294,6 +13273,7 @@ zznews.cn##.ad:not([style])
 ||hz.youku.com/red/
 ||hz3137.com^$third-party
 ||hzaibi.com^
+||hzhfhkj.cn^
 ||hzht666.com^
 ||hzhyhm.com^
 ||hzlm.cc^
@@ -15424,6 +15404,7 @@ zznews.cn##.ad:not([style])
 ||nwk6in.cn^
 ||nwpuis.top^
 ||nwwap.com^
+||nwxs5.com/js/
 ||nxh2h.cn^
 ||nxing.cn/uploads/uploads/*-size1220x
 ||nxkycx.com^
@@ -15616,6 +15597,7 @@ zznews.cn##.ad:not([style])
 ||pcauto.com.cn/forum/1508/intf7631.js
 ||pcauto.com.cn/forum/autobbs/clubtl/
 ||pcauto.com.cn/forum/fz/hots/
+||pcauto.com.cn/zt/*_dialog/cjx-pc-half_
 ||pccoo.cn/js/dlv1.0.js
 ||pcgames.com.cn*/index.js
 ||pcgames.com.cn/g/
@@ -15729,10 +15711,12 @@ zznews.cn##.ad:not([style])
 ||pingwest.com/api/news_ad
 ||pingwest.com/wp-content/uploads/*/ad.jpg
 ||pinkmore.cn^
+||pinwu123.com^
 ||pinyoux.com^
 ||pipi.cn/player/
 ||pipix.cc/gg.gif
 ||pitena.top^
+||pites.cc/js/top.php
 ||pixfs.net/js/mib.min.js
 ||pixfs.net/js/mib_falcon
 ||pixfs.net/module/fullPage/dist/ad-full-page.
@@ -18501,6 +18485,7 @@ zznews.cn##.ad:not([style])
 ||xp85.com/common/js/allpage.js
 ||xpcha.com/js/notice.js
 ||xpgod.com/statics/skin_js/xpgod/
+||xpxvok.cn^
 ||xq12.com^$third-party
 ||xqxx520.com^$third-party
 ||xrain.net^
@@ -18616,6 +18601,7 @@ zznews.cn##.ad:not([style])
 ||y7wr7.cn^
 ||ya*.dwstatic.com^
 ||yaba.org.cn^
+||yabo168.cc^$third-party
 ||yahoo.com/embed/tv?site=buzzhand&
 ||yahoo.com/gdsale/gdsale.asp$domain=beephone.com.tw
 ||yajiuwz.xyz^
@@ -19206,6 +19192,7 @@ zznews.cn##.ad:not([style])
 ||zhimg.com^*adx
 ||zhinengap.com^
 ||zhiong.net^
+||zhipinbook.cn^
 ||zhivalley.cn^
 ||zhixd.cn^
 ||zhixiuchang.com^
