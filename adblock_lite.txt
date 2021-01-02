@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202101010228
+! Version: 202101020213
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19479
+! Lenth = 19482
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -12359,6 +12359,7 @@ zznews.cn##.ad:not([style])
 ||fx168.com/am.js
 ||fx678.com/htcount/count.js
 ||fxfhjs.com^
+||fxfvttu.cn^
 ||fxjs.2541.com^
 ||fxmacd.com^
 ||fxtducb.cn^
@@ -17779,6 +17780,7 @@ zznews.cn##.ad:not([style])
 ||vvv.ieduw.com^
 ||vvvkp.com/template/ttk/img/
 ||vwb4p.cn^
+||vxotu.com/i/*.gif
 ||vxsnk.com^
 ||vyule.com^
 ||vzmz.com/template/paody/aaaa/*0
@@ -19414,6 +19416,7 @@ zznews.cn##.ad:not([style])
 ||zxzj.me/t.js
 ||zybpj.com^
 ||zydyjzw.cn^
+||zykxjt.com^
 ||zymro.com^
 ||zyqp9.com^
 ||zyrfanli.com^
