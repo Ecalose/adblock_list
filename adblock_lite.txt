@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202101050204
+! Version: 202101060218
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19502
+! Lenth = 19511
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -6393,8 +6393,10 @@ smzdm.com##.foot-banner
 smzdm.com##.g_g
 smzdm.com##.side-stuff
 smzy.com###ad_down_box
+smzy.com###showa
 smzy.com###x_pc_down_g
 smzy.com##.down-jisu
+smzy.com##.u-gs-btn2
 so.131458.com##.tishi:first-child
 so.com###bnbtm-banner
 so.com###bqPromote
@@ -8496,6 +8498,7 @@ zznews.cn##.ad:not([style])
 ||2polj.top^
 ||2q5p.cn^
 ||2scjbg.com^
+||2shol4.cn^
 ||2shoushi.com^
 ||2txt.cc:8862^
 ||2ujj.com/js/bo.js
@@ -9120,6 +9123,7 @@ zznews.cn##.ad:not([style])
 ||78dm.net/acg_201*_1680
 ||78dm.net/channel/test?
 ||78land.com/js/fumeiti.js
+||78zw.com/1
 ||797sun.com/include/js/common_footer.
 ||7a096v.cn^
 ||7av.club^$domain=11papapa.com
@@ -11453,6 +11457,7 @@ zznews.cn##.ad:not([style])
 ||d6.mobaders.com^
 ||d6262.com^$popup
 ||d663q.cn^
+||d67p.com/love/
 ||d72l4.com^
 ||d8360.com^$third-party
 ||d8ekco.com^
@@ -15908,6 +15913,7 @@ zznews.cn##.ad:not([style])
 ||qfs365.com^
 ||qfzcxs.cn^
 ||qgaot.com^
+||qgdvyvd.cn^
 ||qgjapp.com^
 ||qgss8.com^
 ||qguwoq.cn^$third-party
@@ -18151,6 +18157,7 @@ zznews.cn##.ad:not([style])
 ||wx.sina.com.cn/iframe/pdps/
 ||wxbdfm.com^
 ||wxdown.net/images/*.gif
+||wxebgpj.cn^
 ||wxhdwy.com^
 ||wxiansen.cn^
 ||wxktv.cn^
@@ -18275,6 +18282,7 @@ zznews.cn##.ad:not([style])
 ||xiangchim0.com^
 ||xianguangergaozhi.com^
 ||xiangwangdesh.com^
+||xiangyuym.cn^
 ||xianliao.me/ads
 ||xianliao.me/assets/js/lib/ne3u3.js
 ||xianliao.me/etoron/get?
@@ -18724,6 +18732,7 @@ zznews.cn##.ad:not([style])
 ||yhdm.io/bar/
 ||yhhls.com^
 ||yhsmk.com^
+||yht7.com/web/assets/js/right.js
 ||yi.ximizi.com^
 ||yi71.com.cn^
 ||yibo5.cn/img0

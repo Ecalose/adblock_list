@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202101050204
+! Version: 202101060218
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24474
+! Lenth = 24507
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1406,6 +1406,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /azion-pulse.js
 /aztrack.
 /aztracker.
+/azure-perfops.
 /b/s/beacon
 /b/ss/*&aqe=
 /b/ss/*&ce=iso-8859-1&
@@ -1660,6 +1661,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /cdn.stats2?
 /cdn5.js?
 /cdn_cookie_service.$image
+/cdnperf-rum.
 /cds-webanalytics.
 /cdx-radar/*
 /cdx.gif?
@@ -3523,6 +3525,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /nofastat.
 /notifications/analytics
 /np?log=
+/npm/perfops-rom
 /npssurvey.
 /nsimpression/*
 /ntpagetag-
@@ -3690,6 +3693,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /perf-beacon-
 /perflog/*
 /perfmetrics.js
+/perfops-cc.
 /performance-logger.
 /performance-metrics.js
 /performance.fcgi?
@@ -5794,9 +5798,11 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||adobedtm.com/*-source.min.js$script,domain=backcountry.com|dollargeneral.com|kroger.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|kroger.com
 @@||adobedtm.com/extensions/$script,domain=atresplayer.com
+@@||adobedtm.com/launch-$script
 @@||adobedtm.com^*-libraryCode_source.min.js$script,domain=disneyplus.disney.co.jp
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=apple.com|foodnetwork.com
 @@||adobedtm.com^*/AppMeasurement_Module_$script,domain=foodnetwork.com
+@@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|backcountry.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|newyorker.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|usanetwork.com|vanityfair.com|wired.com|wowway.net
 @@||adobedtm.com^*/mbox-contents-$script,domain=ceair.com|fcbarcelona.cn
 @@||adobedtm.com^*/mbox-contents-$script,domain=conad.it
@@ -7424,6 +7430,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
 @@||pnas.org^*/fingerprint.js$script,~third-party
 @@||pokemonblackwhite.com^*/jquery.google-analytics.js
+@@||polfan.pl/*/fingerprint2.min.js$script,~third-party
 @@||polfan.pl/app/vendor/fingerprint2.min.js
 @@||polycom.com/polycomservice/js/unica/ntpagetag.js
 @@||pon.blueconic.net/DG/DEFAULT/rest/rpc/json$domain=seat.nl
@@ -8424,6 +8431,7 @@ znak.com##.relap
 ||58.205.218.4/pos?act=
 ||591.com.tw/action/stat/
 ||5baf1288cf.dl8.me^$third-party
+||5centscdn.com^$third-party,xmlhttprequest
 ||5ijo.01net.com^
 ||62.160.52.73^$third-party
 ||66.228.52.30^$third-party
@@ -9990,10 +9998,12 @@ znak.com##.relap
 ||azera-s014.com^$third-party
 ||azfamily.com/images/pixel.gif
 ||azg1.emalu-store.com^
+||azioncdn.net^$third-party,xmlhttprequest
 ||azointel.com^$third-party
 ||azureedge.net/javascripts/Tracking.
 ||azureedge.net/prod/1.0/fp.min.js$domain=mercurynews.com
 ||azureedge.net/track
+||azureedge.net^$third-party,xmlhttprequest
 ||azureedge.net^*/loader-config.json
 ||azurewebsites.net/TrackView/
 ||azurewebsites.net/raine/$domain=www.accuweather.com
@@ -10230,6 +10240,7 @@ znak.com##.relap
 ||belstat.de^$third-party
 ||belstat.fr^$third-party
 ||belstat.nl^$third-party
+||belugacdn.link^$third-party,xmlhttprequest
 ||bemail.it/audiens.php?
 ||bemarts.club^
 ||bemobile.ua/bug/
@@ -10281,6 +10292,7 @@ znak.com##.relap
 ||bewilderedbattle.com^$third-party
 ||bewilderedblade.com^$third-party
 ||beyond.com/common/track/trackgeneral.asp
+||beyondsecurity.com^$third-party
 ||bf-tools.net^$third-party
 ||bfmio.com^
 ||bfmio.com^$third-party
@@ -10397,6 +10409,7 @@ znak.com##.relap
 ||blankfire.com^*_.gif
 ||blastingnews.com/?newsid=
 ||blastro.com/log_player_actions.php
+||blazingcdn.net^$third-party,xmlhttprequest
 ||bleacherreport.com/api/hit.json?
 ||bleacherreport.net/pkg/javascripts/*_omniture.js
 ||blekko.com/a/track?
@@ -10891,6 +10904,7 @@ znak.com##.relap
 ||cdn-magiclinks.trackonomics.net/client^$third-party
 ||cdn-net.com^$third-party
 ||cdn-sitegainer.com^$third-party
+||cdn-tech.io^$third-party,xmlhttprequest
 ||cdn.1337x.to/ip*.php
 ||cdn.abcotvs.net/abcotv/assets/news/global/js/analytics/VideoHeartbeat.min.js
 ||cdn.ampproject.org/*/amp-analytics-
@@ -10973,6 +10987,7 @@ znak.com##.relap
 ||cetrk.com^$third-party
 ||cevapla.tv/ajax/hit-increment
 ||cewe.de/tracking/*.js
+||cf-china.info^$third-party,xmlhttprequest
 ||cf.overblog.com^
 ||cfcdist.gdn^$third-party
 ||cfcn.allocine.net^
@@ -12140,6 +12155,7 @@ znak.com##.relap
 ||d27s92d8z1yatv.cloudfront.net/js/jquery.jw.analitycs.js
 ||d28g9g3vb08y70.cloudfront.net^
 ||d2as12kgjg8gw5.cloudfront.net^
+||d2axgrpnciinw7.cloudfront.net^
 ||d2c7xlmseob604.cloudfront.net/tracker.min.js
 ||d2cpw6kwpff7n5.cloudfront.net^
 ||d2d5uvkqie1lr5.cloudfront.net^*/analytics-
@@ -12685,9 +12701,11 @@ znak.com##.relap
 ||dontbeevils.de^$third-party
 ||doomna.com^$third-party
 ||doorbrazil.com^$third-party
+||doracdn.com^$third-party,xmlhttprequest
 ||dorsetecho-gb.dorsetecho.co.uk^
 ||dot-stat.radikal.ru^
 ||dot.wp.pl^
+||dot.wp.pl^$script
 ||dotaki.com^$third-party
 ||dotaudiences.com^$third-party
 ||dotmetrics.net^$third-party
@@ -14323,6 +14341,7 @@ znak.com##.relap
 ||goaltraffic.com^$third-party
 ||goatcounter.com^$third-party
 ||goaww.com/stats.php
+||gocache.net^$third-party,xmlhttprequest
 ||gocp.stroeermediabrands.de^$third-party
 ||godaddy.com/js/gdwebbeacon.js
 ||godhat.com^$third-party
@@ -16242,6 +16261,7 @@ znak.com##.relap
 ||log.outbrain.com^$domain=focus.de
 ||log.outbrainimg.com^
 ||log.particlenews.com^
+||log.perfecttitspics.com^
 ||log.pinterest.com^
 ||log.pinterest.com^$third-party
 ||log.player.cntv.cn/stat.html?
@@ -16688,6 +16708,7 @@ znak.com##.relap
 ||meatydime.com^$third-party
 ||mebablo.com^$third-party
 ||medallia.com^$third-party
+||medals.bizrate.com^$third-party
 ||media-allrecipes.com/assets/deployables/*/analytics.bundled.js
 ||media-imdb.com/*/js/ads/beacon-
 ||media-imdb.com/images/*/imdbads/js/beacon-$script
@@ -17020,6 +17041,7 @@ znak.com##.relap
 ||mms.wwe.com^
 ||mmstat.com^$third-party
 ||mmtro.com^$third-party
+||mncdn.com^$third-party,xmlhttprequest
 ||mnginteractive.com/live/js/omniture/SiteCatalystCode_H_22_1_NC.js
 ||mnginteractive.com/live/omniture/custom_scripts/omnicore-blogs.js$domain=mercurynews.com
 ||mnginteractive.com/live/omniture/sccore.js$domain=denverpost.com
@@ -18214,6 +18236,7 @@ znak.com##.relap
 ||perfectaudience.com^$third-party
 ||perfectmarket.com/pm/track?
 ||perfiliate.com^$third-party
+||perfops.io^$third-party
 ||perfops.net^$third-party
 ||performanceanalyser.net^$third-party
 ||performanceplay.co.kr^
@@ -18790,6 +18813,7 @@ znak.com##.relap
 ||pstatp.com^*/ttstatistics.
 ||pstats.com^$third-party
 ||pswec.com/px/$third-party
+||psychz.net^$third-party,xmlhttprequest
 ||psyma-statistics.com^$third-party
 ||pt-trx.com^$third-party
 ||pt.crossmediaservices.com^
@@ -19759,6 +19783,7 @@ znak.com##.relap
 ||sc.sftcdn.net/statics/px.gif?ch=
 ||scaledb.com^$third-party
 ||scaleway.ovh^
+||scanverify.com^$third-party
 ||scarabresearch.com^$third-party
 ||scarcesign.com^$third-party
 ||scarcestream.com^$third-party
@@ -19851,8 +19876,10 @@ znak.com##.relap
 ||sdrive.skoda-auto.com^
 ||sdwnet.me/index.php?action=tracking_script^
 ||sea-nov-1.com^$third-party
+||seal.digicert.com^$third-party
 ||seal.godaddy.com^$third-party
 ||seal.networksolutions.com^$third-party
+||seal.qualys.com^$third-party
 ||seal.verisign.com^$third-party
 ||sealine.pro^$third-party
 ||sealserver.trustwave.com^$third-party
@@ -19897,6 +19924,7 @@ znak.com##.relap
 ||secureprovide1.com/*=tracking$image
 ||securestudies.com^$third-party
 ||securite.01net.com^
+||securitymetrics.com^$third-party
 ||securitytrfx.com^$third-party
 ||sedotracker.com^$third-party
 ||sedotracker.de^$third-party
@@ -20286,6 +20314,7 @@ znak.com##.relap
 ||smashsurprise.com^$third-party
 ||smassets.net/assets/anonweb/anonweb-click-$script
 ||smct.co^$third-party
+||smetrics.aem.playstation.com^
 ||smetrics.att.com^
 ||smetrics.capitalone.com^
 ||smetrics.centurylink.com^
@@ -21746,7 +21775,9 @@ znak.com##.relap
 ||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
 ||telegraph.co.uk^*/tmglmultitrackselector.js
 ||telemetric.dk^$third-party
+||telemetrics.klaviyo.com^
 ||telemetry.allrecipes.com^
+||telemetry.api.playstation.com^
 ||telemetry.api.swiftkey.com^
 ||telemetry.api.wmcdp.io^
 ||telemetry.api.wmcdp.io^$third-party
@@ -23275,6 +23306,7 @@ znak.com##.relap
 ||vepxl1.net^$third-party
 ||vercel-analytics.com^$third-party
 ||verifier.live^
+||verify.authorize.net^$third-party
 ||verifypow.com^$third-party
 ||verifyvegetable.com^$third-party
 ||verizonwireless.com/mpel.js?
@@ -23982,6 +24014,7 @@ znak.com##.relap
 ||worldnow.com/global/tools/video/Namespace_VideoReporting_DW.js
 ||worldreviewer.com/_search/tracker.png?
 ||worldssl.net/reporting.js$third-party
+||worldssl.net^$third-party,xmlhttprequest
 ||worldvision.org/kana/wvcg_wvorg.asp?
 ||worldztool.com^*/dotraceuser.php
 ||worriednumber.com^$third-party
@@ -24347,7 +24380,7 @@ znak.com##.relap
 ||yvesrocher.com.tr/images/avenseo/tr_TR/avenseo-uniq.min.js
 ||yvesrocher.com.tr/images/js/coremetrics.js
 ||yvesrocher.com.tr/images/js/tracking^
-||ywxi.net^$third-party
+||ywxi.net^$third-party,domain=~trustedsite.com
 ||ywywjrlbsuv.com^$third-party
 ||yxdown.com/count.js
 ||yyv.co/track/
