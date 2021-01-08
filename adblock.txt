@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202101070228
+! Version: 202101080254
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21498
+! Lenth = 21512
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -3820,6 +3820,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||readmoo.com/images/social/
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||right.com.cn/forum/*300*250$image
+@@||rm.sina.com.cn/minisite/*/css/art_normal.css$domain=client.sina.cn
 @@||rmdown.com/ads.js
 @@||runative-syndicate.com/do2/*$domain=onemanhua.com
 @@||ruten.com.tw/ahd/fetch_ad.php
@@ -6474,7 +6475,11 @@ ifeng.com##.v_adbox
 ifeng.com##.yc_con_r
 ifeng.com##.yiyuan
 ifeng.com##.yy_right_bottom
+ifeng.com##DIV[class^="bottomDbox"]
+ifeng.com##DIV[class^="d_box-"]
+ifeng.com##DIV[class^="dbox"]
 ifeng.com##DIV[class^="enquiry_bottom"]
+ifeng.com##DIV[class^="topBox-"]
 ifeng.com##a[class^="bookrack-"]
 ifeng.com##a[href*=".app"]
 ifeng.com##a[href^="http://yemei.tv/"]
@@ -6484,10 +6489,13 @@ ifeng.com##div[class^="adList"]
 ifeng.com##div[class^="ad_box"]
 ifeng.com##div[class^="adv0"]
 ifeng.com##div[class^="adv1"]
+ifeng.com##div[class^="bottomDbox"]
 ifeng.com##div[class^="bottomSlide"]
 ifeng.com##div[class^="bottom_box"]
 ifeng.com##div[class^="container-"][content^="[object"]
 ifeng.com##div[class^="coupletBox"]
+ifeng.com##div[class^="d_box-"]
+ifeng.com##div[class^="dbox"]
 ifeng.com##div[class^="games_ad_"]
 ifeng.com##div[class^="h"] > div[class$="-main"]
 ifeng.com##div[class^="middleAd"]
@@ -6498,6 +6506,7 @@ ifeng.com##div[class^="rightContent-"] a[href^="//health.ifeng."]
 ifeng.com##div[class^="silde_box-"]
 ifeng.com##div[class^="slideBannerBox"]
 ifeng.com##div[class^="topAd-"]
+ifeng.com##div[class^="topBox-"]
 ifeng.com##div[id^="couplet3_"]
 ifeng.com##div[id^="padhide_"]
 ifeng.com##section[class^="fixSlide-"]
@@ -11386,6 +11395,7 @@ zznews.cn##.ad:not([style])
 ||9tata.com/js/www.js
 ||9tour.cn/x2/images/czmf.jpg
 ||9ucm.com^
+||9uh94c.cn^
 ||9uys.co^
 ||9uys.co^$third-party
 ||9w1an.com^$third-party
@@ -16252,6 +16262,7 @@ zznews.cn##.ad:not([style])
 ||kingsnug.cn/Uploads/vod/2019-05-25/5ce964f0c66e0.jpg
 ||kingwam.com^
 ||kitchenfurniture.cc^
+||kiwi8.top/media/plugins/jquery_confirm/
 ||kiwihk.net^$third-party
 ||kiwsy.co/hotsearch_box.php
 ||kjdw.com.cn^
@@ -17196,6 +17207,7 @@ zznews.cn##.ad:not([style])
 ||myhack58.com^*0$script
 ||myhard.com/s?z=
 ||mylikechat.com^$third-party
+||myqcloud.com/ad/
 ||myqqjd.com/wp-content/plugins/*.js
 ||myqqjd.com^$csp=script-src 'self' * 'unsafe-inline'
 ||myselfjanitor.com^
@@ -18249,7 +18261,6 @@ zznews.cn##.ad:not([style])
 ||rkanr.com/data/cpcache/cp*.js
 ||rkssxrh.cn^
 ||rl972.cn^
-||rm.sina.com.cn^$domain=~sea.sina.com.cn
 ||rm66.me/ri.js
 ||rm66.me/tpl/js/i.js
 ||rm66.me/tpl/js/t.js
@@ -18525,6 +18536,7 @@ zznews.cn##.ad:not([style])
 ||shhgg.in/js/shangjia
 ||shhgg.in/shlf1314/
 ||shibagongfang.com^
+||shidaikejivip.cn^
 ||shidailw.com^
 ||shiguangyx.cn^
 ||shihuo.cn/alibtn_
@@ -18999,6 +19011,7 @@ zznews.cn##.ad:not([style])
 ||sxmutan.com^
 ||sxrb.com/front/stat/
 ||sxtyhl.top^
+||sxxfmc.com^
 ||sxybjjz.cn^
 ||sxying.top^
 ||sxympy.com^
@@ -20648,6 +20661,7 @@ zznews.cn##.ad:not([style])
 ||yaoxiaoli.com^
 ||yaoyl.com/js/ds.js
 ||yaozui.com/ref/index?
+||yapusheji.com^
 ||yaseok.com//static/src/images/loading.gif
 ||yaseok.com/uploads/20*.gif
 ||yatemy.cn^
