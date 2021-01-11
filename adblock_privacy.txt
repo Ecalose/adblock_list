@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202101100218
+! Version: 202101110200
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24554
+! Lenth = 24569
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -2616,6 +2616,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /getclicky_
 /getcookie.php?
 /getcount?ids=
+/getlog.gif?
 /getnortonsealimaget.js
 /getsidpixeltag?sid=
 /gifbanner?
@@ -4712,6 +4713,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /tpix.gif?
 /tr.gif?
 /tr/p.gif?
+/tr/pageview/*
 /tracciamento.php?
 /traccoon.js
 /tracdelight.js
@@ -6185,6 +6187,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cloudflare.com/*/fingerprint2.min.js$domain=saavn.com
 @@||cloudflare.com/ajax/libs/fingerprintjs2/*/fingerprint2.min.js$domain=nfmovies.com
 @@||cloudflare.com/analytics?$domain=cloudflare.com
+@@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/atrk.js$domain=karnaval.com|livestream.com|luxuryrealestate.com
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
 @@||cloudfront.net/autoTracker.min.js$domain=direkte.vg.no
@@ -6871,6 +6874,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$script,domain=book.impress.co.jp|sankei.com
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
 @@||googletagmanager.com/gtm.js$script,domain=linternaute.com|sciencesetavenir.fr|wamiz.com
+@@||googletagmanager.com/gtm.js$script,domain=olx.ro
 @@||googletagmanager.com/gtm.js$script,domain=telia.no
 @@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
 @@||googletagmanager.com/gtm.js?$domain=autorevue.cz|e15.cz|mobilmania.cz|zive.cz
@@ -6972,6 +6976,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||img.blesk.cz/js/base-cz/gemius.js
 @@||imgur.com/min/px.js$~third-party
+@@||imobiliare.ro/js/gtm.js$script,~third-party
 @@||imprentaonline.net^*/js/gtm.min.js$~third-party
 @@||imrworldwide.com/crossdomain.xml$domain=sbs.com.au
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=europafm.com
@@ -7192,6 +7197,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||media.flixfacts.com/js/loader.js$domain=hansapost.ee
 @@||media.flixfacts.com/js/loader.js$domain=shop.samsung.com
 @@||media.ft.com/j/optimost-$domain=ft.com
+@@||media.kaspersky.com/tracking/omniture/s_code_single_suite.js
 @@||media.sosh.fr/includes/wtbase.js
 @@||media.sosh.fr/includes/wtinit.js
 @@||media.ticketmaster.*/click_track.js
@@ -7856,6 +7862,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||urbanowiczhaft.pl/wp-content/plugins/duracelltomi-google-tag-manager/$~third-party
 @@||urlcheck.hulu.com/crossdomain.xml
 @@||usbank.com^*/adrum.js?$script
+@@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||uverseonline.att.net/report/click_tracking_nes.json
 @@||uwants.com/include/*/swfaddress.js
 @@||v.me/personal/assets/ntpagetag-$script
@@ -8889,6 +8896,7 @@ znak.com##.relap
 ||affiliate.mediatemple.net^$~third-party
 ||affiliate.mercola.com^
 ||affiliate.productreview.com.au^
+||affiliate.rakuten.co.jp^$script
 ||affiliate.resellerclub.com^
 ||affiliateedge.eu^$third-party
 ||affiliates-pro.com^$third-party
@@ -9603,6 +9611,7 @@ znak.com##.relap
 ||api-js.mixpanel.com/engage/?
 ||api-js.mixpanel.com/track/?
 ||api-location-prd.pelcro.com^$domain=newsweek.com
+||api-router.kaspersky-labs.com/logger2^
 ||api.ad.intl.xiaomi.com^
 ||api.ad.xiaomi.com^
 ||api.aio.media/stat?
@@ -10844,8 +10853,8 @@ znak.com##.relap
 ||capablecows.com^$third-party
 ||capablecup.com^$third-party
 ||caphyon-analytics.com^$third-party
+||capi.connatix.com/rtb/
 ||capi.connatix.com/tr/
-||capi.connatix.com^
 ||capitalone.com/collector/
 ||capriciouscorn.com^$third-party
 ||capsquirrel.com^$third-party
@@ -12482,6 +12491,7 @@ znak.com##.relap
 ||deliv.lexpress.fr^$third-party
 ||deliver.oztam.com.au^
 ||deliver.ptgncdn.com^
+||delivery.satr.jp^
 ||delivra.com/tracking/$third-party
 ||dell.com/TAG/tag.aspx?$third-party
 ||dellcdn.com/csb/scripts/csb-boomr.$domain=dell.com
@@ -15636,6 +15646,7 @@ znak.com##.relap
 ||jdoqocy.com^$third-party
 ||jeeng.com^$third-party
 ||jelly.mdhv.io^
+||jen.jiji.com^
 ||jerkmate.com^*/tracking-hasoffers-
 ||jessops.com/js/JessopsTracking.
 ||jetcounter.ru^$third-party
@@ -19989,6 +20000,7 @@ znak.com##.relap
 ||segment.io^$third-party
 ||segmentify.com^$third-party
 ||segments.adap.tv^$third-party
+||segs.jp^$third-party
 ||seitwert.de^$third-party
 ||selaris.com^$third-party
 ||selectionship.com^$third-party
@@ -20251,6 +20263,7 @@ znak.com##.relap
 ||siteplug.com^$third-party
 ||sitereport.org^$third-party
 ||sitescout.com^$third-party
+||sitest.jp/tracking/
 ||sitest.jp^$third-party
 ||sitestat.com^
 ||sitestat.com^$third-party
@@ -20498,6 +20511,7 @@ znak.com##.relap
 ||sourcepoint-mms.aetv.com^
 ||sourcepoint-mms.history.com^
 ||sourcepoint-mms.mylifetime.com^
+||sourcepoint.dexerto.com^
 ||sourcepoint.vice.com^
 ||sourcepoint.vice.com^$image
 ||southafricahome.com/statsmodulev2/
@@ -22070,6 +22084,7 @@ znak.com##.relap
 ||tns-sifo.se^$third-party
 ||tns.simba.taobao.com^
 ||tnsinternet.be^$third-party
+||to.getnitropack.com^
 ||toast.com/log
 ||toast.com/sendid?
 ||toc.io^$third-party
