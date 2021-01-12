@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202101110200
+! Version: 202101120245
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19580
+! Lenth = 19582
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -220,9 +220,9 @@
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_recommend
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.topic_list_box
 111os.com###btmBox
-111os.com###couplet
 111os.com###midBox
 111os.com###topBox
+111os.com,ahah3.com###couplet
 114la.com###Gamepng
 114la.com###dlAD1
 114la.com###dlAD2
@@ -730,7 +730,6 @@
 5118.com##a[id][href^="http"]:not([href*=".5118.com"]) > img
 5118.com##a[id^="default-"]
 5118.com##a[id^="home-"]
-51240.com##div[id^="ggwz"]
 512539700c.top,ahri-hentai.com#@#.adsbox
 512ms.com##div[id^="fy_"]
 5156edu.com##table[width="770"][bordercolordark="#FFFFFF"]
@@ -2133,7 +2132,6 @@ aguitar.cn##.headerbanner2
 aguitar.cn##.news_b
 aguitar.cn##img[width="470"][height="60"]
 aguitar.cn,guitarchina.com##.headerbanner
-ahah3.com###couplet
 ahgame.com,china.com.cn,dandanzan.com,netbardh.com,pangzitv.com,twoeggz.com###pop
 ahtv.cn##body > table[style^="text-align:center; width:960px;"]
 ahtv.cn,bzfl1.cc,sexbarss.net##.l1
@@ -2154,7 +2152,7 @@ ainuody.com#?#.post:-abp-has(> .article > .entry_post > p:-abp-contains(/红包|
 aipai.com###videosRightDown
 aipai.com##.banner_90
 aipai.com##.video_gg
-aiqiyivip.com##[ontouchstart]
+aiqiyivip.com,poxiaotv.com##[ontouchstart]
 airav.cc###Panel_GambleZone
 airav.cc###Panel_GambleZone + .Hide_For_JP_AND_EN
 airav.cc###Right_Panel > div[style^="margin-"]
@@ -2518,6 +2516,8 @@ baixing.com##.listing-fixed-bottom-promo
 baixing.com##.poster-info-container + .side-block
 baixing.com##.red-package
 baixing.com##.refashion-listing-banner
+banjiajia.com##.register-box
+banjiajia.com##.register-ten
 banma.com##div[id^="disapper"]
 banzou.name###ads_1
 banzou.name###ads_2
@@ -2703,6 +2703,7 @@ blog.sina.cn###pl-blog-artad
 blog.sina.cn###pl-blog-tbyy
 blog.sina.cn###pl-float-bar
 blog.sina.com.cn##div[style*="WiDTH: 200px;"][style$="HeiGHT: 300px"]
+bmcx.com##div[id^="ggwz"]
 bmlink.com##.Tg_1190x70
 bmlink.com##.Tg_190x70
 bmlink.com##.fixedBg
@@ -3161,7 +3162,7 @@ cqmmgo.com##div[data-id*="_adv_"]
 cqnews.net##.taobao
 cqnews.net##div[style="width:960px; height:90px; overflow:hidden; padding:0 20px; background:#fafafa; margin-bottom:15px"]
 cr173.com##.downurl[data^="viewAds"]
-cr173.com,downcc.com,downyi.com,itmop.com##.downnowgaosu
+cr173.com,downcc.com,downyi.com,itmop.com,xfdown.com##.downnowgaosu
 cr173.com,itmop.com,jisuxz.com##.xiazaiqi
 creaders.net###guanggao2
 creaders.net##.border_b > tbody > tr > td[height^="2"]
@@ -3635,7 +3636,7 @@ eol.cn,hao123.com,site.baidu.com##.popup
 eoof.net##.tableborder1[cellspacing="1"][cellpadding="3"]
 epinv.com##.epinv_b
 epinv.com##.epinv_f
-epinv.com##A[href^="http://www.epinv.com/golink/"]
+epinv.com##a[href^="http://www.epinv.com/golink/"]
 epinv.com##div[style="width:880px;height:90px"]
 eprice.com.hk#@#.one-ad
 eprice.com.tw###goldlink
@@ -7276,7 +7277,6 @@ xdf.cn##.middleadv
 xdf.cn##.popup-wrap
 xdf.cn##div[style="position:fixed;top:120px;left:4px;width:210px;height:298px;isplay:block;background-position:initial initial;background-repeat:no-repeat no-repeat;"]
 xdowns.com###part_1
-xfdown.com##.downnowgaosu
 xgrb.cn##.d_2016_ggw
 xh127.com###isubpi
 xh127.com###pzlhdd
@@ -7644,6 +7644,7 @@ zhcw.com##.hzg60
 zhcw.com##.khdpc
 zhcw.com##.news_blanck
 zhcw.com##.tgtc
+zhenbuka.com#%#//scriptlet("prevent-setTimeout", "ad_ids")
 zhibo8.cc###m_adv
 zhibo8.cc##.ad_box_250
 zhibo8.cc##a[href*=".ftxgame.com"]
@@ -12662,6 +12663,7 @@ zznews.cn##.ad:not([style])
 ||gome.com.cn/flight?
 ||gongfanglong.cn^
 ||gongshe99.com/d/js/gongshe/gsw
+||gongxifacai21.top^
 ||good8866.com/js/*.js
 ||goodcome.com.tw/block/ad/rndtopad.php
 ||goodgupiao.com/skins/default/js/backTop.js

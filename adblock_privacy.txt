@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202101110200
+! Version: 202101120245
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24569
+! Lenth = 24587
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1763,6 +1763,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /clickcount.
 /clickcount/*
 /clickcount_
+/clickcr*.js$domain=naver.com|modoo.at
 /clickctrl.js
 /clickdimensions-
 /clickheat.js
@@ -2277,6 +2278,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /ev/co/*?eventid=
 /eva-analytics.
 /event-log/*
+/event-log?
 /event-report?*&uid=
 /event-tracking.
 /event.cgi?
@@ -2308,6 +2310,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /eventLog.ajax
 /eventLogServlet?
 /event_logger
+/event_logging/*
 /event_tracker?_
 /eventcnt.php?
 /eventing/v1/*/current|
@@ -2324,6 +2327,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /events?_trigger=
 /events?data=
 /events?rpId=
+/eventsBeacon?
 /eventtracker.js
 /eventtracking-
 /eventtracking.
@@ -3078,6 +3082,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /landings-pixel?
 /layer_log.php?p=
 /lbi_ga.
+/lcslog*.js$domain=naver.com|playentry.org|modoo.at
 /ldsimp_wf?
 /lead-tracking.
 /lead-tracking/*
@@ -7672,6 +7677,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||sstats.omahasteaks.com/b/ss/
 @@||st.dynamicyield.com/st$domain=mediamarkt.de
 @@||st.dynamicyield.com/st?$domain=dafiti.com.co
+@@||st.top100.ru/top100/top100.js$domain=m.gazeta.ru
 @@||stackapps.com/tags/$~third-party,xmlhttprequest
 @@||stackexchange.com/tags/$~third-party,xmlhttprequest
 @@||stackoverflow.com/tags/$~third-party,xmlhttprequest
@@ -8673,6 +8679,7 @@ znak.com##.relap
 ||acxiomapac.com^$third-party
 ||ad-analytics-bootstrap.metaps.com^
 ||ad-beacon-v01.uliza.jp^
+||ad-creative.projectcarmen.com^
 ||ad-log.dable.io^
 ||ad-miner.com^$third-party
 ||ad-score.com^$third-party
@@ -9182,6 +9189,7 @@ znak.com##.relap
 ||amd.com/us/as/vwo/vwo_
 ||amdc.m.taobao.com^
 ||amdcopen.m.taobao.com^
+||ameba.jp/cookie/
 ||ameblo.jp/accesslog/
 ||americanexpress.com/beacon
 ||americanexpress.com/monitoring/
@@ -9417,6 +9425,7 @@ znak.com##.relap
 ||analytics.prod.aws.ecnext.net^
 ||analytics.prod.mybuddy.ai^
 ||analytics.productreview.com.au^
+||analytics.projectcarmen.com^
 ||analytics.proxer.me^
 ||analytics.qlook.net^$third-party
 ||analytics.qoqa.ch^
@@ -10234,6 +10243,7 @@ znak.com##.relap
 ||beacon.viewlift.com^
 ||beacon.walmart.ca^
 ||beacon.walmart.com^
+||beacon.watch.impress.co.jp^
 ||beacon.wikia-services.com^
 ||beacon.www.theguardian.com^
 ||beacon2.indieclick.com^
@@ -10807,7 +10817,6 @@ znak.com##.relap
 ||cadreon.com^$third-party
 ||cadreon.s3.amazonaws.com^
 ||cafe-log.myshoplus.com^
-||cafe.naver.com/static/js/*/javascript/lcslog
 ||cafe24.com/weblog.js
 ||cafenews.pl/mpl/static/static.js?
 ||cahf4eed.mooo.com^
@@ -11591,7 +11600,6 @@ znak.com##.relap
 ||comgood.me/1px/
 ||comic-rocket.com/metrics.js
 ||comic.naver.com/ad/flex/stats.nhn
-||comic.naver.com/aggregate/javascript/release/lcslog
 ||commander1.com^$third-party
 ||commandersact.com^
 ||commandwalk.com^$third-party
@@ -11814,6 +11822,7 @@ znak.com##.relap
 ||counter.bloke.com^
 ||counter.cam-content.com^
 ||counter.cnw.cz^
+||counter.daara.kr^$third-party
 ||counter.de^$third-party
 ||counter.digits.com^
 ||counter.drom.ru^
@@ -12395,6 +12404,7 @@ znak.com##.relap
 ||datehookup.com/strk/dateadvertreg?
 ||datvantage.com^$third-party
 ||daum.net^*/dwi.js
+||daumcdn.net/*/ba.min.js
 ||daumcdn.net/tiara/
 ||daumcdn.net^*/awsa.js
 ||daumcdn.net^*/ba.min.js
@@ -14753,7 +14763,6 @@ znak.com##.relap
 ||hello.staticstuff.net^
 ||hellobar.com/ping?
 ||hellosherpa.com^$third-party
-||help.naver.com/support/js/common/lcslog.js
 ||helpgrid1.ksmobile.com^
 ||helpshift.com/api/lib/2/events/
 ||hemnes.win^$third-party
@@ -14778,6 +14787,7 @@ znak.com##.relap
 ||hexus.net/trk/$image
 ||heyhelga.net/analytics.js
 ||heyhelga.net^$third-party
+||heyloyalty.com^$third-party
 ||heymatic.com^$third-party
 ||heystaks.com^$third-party
 ||hfc195b.com^$third-party
@@ -15970,6 +15980,7 @@ znak.com##.relap
 ||laughdrum.com^$third-party
 ||laurel.macrovision.com^
 ||laurel.rovicorp.com^
+||laurenhi.com/app/Eclog/
 ||laut.de^*/analyse.gif?
 ||lavenircdn.net^*/analytics.js?
 ||lb.secureweb24.net^
@@ -16341,6 +16352,7 @@ znak.com##.relap
 ||log1.24liveplus.com^
 ||log2.musical.ly^
 ||log2.spotify.com^
+||log22.makeshop.co.kr^$third-party
 ||logaholic.com^$third-party
 ||logapi.tv.naver.com^
 ||logbor.com^$third-party
@@ -16370,6 +16382,7 @@ znak.com##.relap
 ||logger.uol.com.br^
 ||logger.viki.io^
 ||logger.virgul.com^$third-party
+||logging.api.intuit.com^
 ||logging.carambo.la^
 ||logging.goodgamestudios.com^
 ||logging.prefixbox.com^
@@ -17136,6 +17149,7 @@ znak.com##.relap
 ||monitor.ebay.com^
 ||monitor.phorm.com^$third-party
 ||monitor.uu.qq.com/analytics/
+||monitoring-sdk.experimentation.intuit.com^
 ||monitus.net^$third-party
 ||monkeyminer.net^$third-party
 ||monkeyquest.com/monkeyquest/static/js/ga.js
@@ -18167,6 +18181,7 @@ znak.com##.relap
 ||papoto.com^$third-party
 ||paradoxfactor.com^$third-party
 ||parameter.dk^$third-party
+||parametre.online^$third-party
 ||parcelcreature.com^$third-party
 ||parchedangle.com^$third-party
 ||pardot.com/pd.js
@@ -18203,6 +18218,7 @@ znak.com##.relap
 ||paypal.com/platform/tealeaftarget
 ||paypal.com/webapps/beaconweb/
 ||paypal.com/webapps/mch/cmd/?
+||paypal.com/xoplatform/logger/$domain=tapas.io
 ||paypal.com/xoplatform/logger/api/logger
 ||paypal.com^*/pixel.gif$third-party
 ||paypalobjects.com/*/m/mid.swf$domain=paypal.com
@@ -18230,6 +18246,7 @@ znak.com##.relap
 ||pclick.internal.yahoo.com^
 ||pclick.yahoo.com^
 ||pclicks.com^$third-party
+||pcmag.com/eu/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
 ||pcmag.com/mst/
 ||pcmag.com/tview/$image
 ||pcmag.com^*/analytics.js
@@ -18371,6 +18388,7 @@ znak.com##.relap
 ||piccy.org.ua/c?
 ||pichunter.com/logs/
 ||pickzor.com^$third-party
+||piclick.kr^$third-party
 ||pico.tools/metrics/
 ||pictopia.com^*/hb.gif?
 ||pictures.zooplus.com^
@@ -18561,7 +18579,6 @@ znak.com##.relap
 ||playboy.com/libs/analytics/
 ||playdom.com/affl/show_pixel?
 ||playentry.org/js/analytics.js
-||playentry.org/js/lcslog.js
 ||playep.pro/pl/vendor/stat.min.js
 ||player-feedback-mds.glomex.com/pf/?clientName=
 ||player-feedback-v1.glomex.com^
@@ -18717,6 +18734,7 @@ znak.com##.relap
 ||pr-sunshine.de^$third-party
 ||pr-textlink.de^$third-party
 ||pr-update.biz^$third-party
+||pr.ameba.jp^
 ||pr.blogflux.com^
 ||pr0gram.org^$third-party
 ||practicequiz.com/responsive/js/ga.js
@@ -22224,6 +22242,7 @@ znak.com##.relap
 ||tr.jixie.io^$third-party
 ||tr.junaroad.com^
 ||tr.lfeeder.com^$third-party
+||tr.line.me^
 ||tr.marsflag.com^
 ||tr.n2.hk^
 ||tr.outbrain.com^
@@ -23008,7 +23027,6 @@ znak.com##.relap
 ||tuttogratis.it/gopix.php?
 ||tuttomercatoweb.com/pixel
 ||tv-asahi.co.jp/official/logging?
-||tv.naver.com/resources/release/js_*/clickcr
 ||tv.naver.com/resources/release/js_*/player*Logge
 ||tv.sohu.com/upload/trace/
 ||tv8.com.tr/Ajax/icerik/save_video_event
