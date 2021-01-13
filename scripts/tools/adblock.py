@@ -20,10 +20,10 @@ success = False
 while(success == False):
     success = download()
 
-rawdata = []
-rawdata_plus = []
-rawdata_privacy = []
-rawdata_lite = []
+rawdata = [] # Basic 列表
+rawdata_plus = [] # Plus 列表
+rawdata_privacy = [] # Privacy 列表
+rawdata_lite = [] # Lite 列表
 with open(os.path.join(libdir, 'metadata.txt'), 'r', encoding='UTF-8') as f:
     for line in f:
         temp = line.strip('\n')
@@ -36,6 +36,7 @@ with open(os.path.join(libdir, 'metadata.txt'), 'r', encoding='UTF-8') as f:
                 rawdata_privacy.append(temp.strip('[P]'))
             elif temp.startswith('[M]'):
                 rawdata_lite.append(temp.strip('[M]'))
+                rawdata_plus.append(temp.strip('[M]'))
             else:
                 rawdata.append(temp.strip('[R]'))
 
