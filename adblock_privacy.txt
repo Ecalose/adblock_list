@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202101120245
+! Version: 202101130211
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24587
+! Lenth = 24613
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -796,9 +796,9 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /YuduStatistics/*
 /ZagUser.js
 /\/(public|resources|static|assets)\/([a-f0-9]){28,31}$/$script,xmlhttprequest,~third-party
+/^https?:\/\/(.+?\.)?bhphotovideo\.com\/[a-z]{10,}\-.*/$script,xmlhttprequest,domain=bhphotovideo.com
 /^https?:\/\/.*[a-f0-9]{6,}\.cdn.*\.forter\.com\//$script,third-party
 /^https?:\/\/.*\.corsair\.(fr|ci|ca|gp|mq|re)\/[a-z0-9]{19,}\?/$script,xmlhttprequest
-/^https?:\/\/.*bhphotovideo\.com\/[a-z]{10,14}\-.*/$script,xmlhttprequest,domain=bhphotovideo.com
 /^https?:\/\/editorial\.rottentomatoes\.com\/bundles\/[a-z0-9]{30,}/$script,xmlhttprequest,domain=rottentomatoes.com
 /^https?:\/\/fast\.appcues\.com\/[0-9]{4,6}\.js/
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=ebay-kleinanzeigen.de
@@ -808,13 +808,22 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
 /^https?:\/\/src\.ebay-us\.com\/[_a-zA-Z0-9]{10,}\?/$script,domain=pages.ebay.com
+/^https?:\/\/tjmaxx\.tjx\.com\/libraries\/[a-z0-9]{20,}$script,xmlhttprequest,domain=tjx.com
 /^https?:\/\/tmx\.td\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com
+/^https?:\/\/www\.backcountry\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=backcountry.com
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=ebay-kleinanzeigen.de
+/^https?:\/\/www\.eddiebauer\.com\/content\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=eddiebauer.com
+/^https?:\/\/www\.finishline\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=finishline.com
 /^https?:\/\/www\.halifax-online\.co\.uk\/bundles\/[a-z0-9]{15,}/$script,domain=halifax-online.co.uk
 /^https?:\/\/www\.imperva\.com\/[0-9a-f]{30,}\?/$script,xmlhttprequest,domain=imperva.com
+/^https?:\/\/www\.kohls\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=kohls.com
+/^https?:\/\/www\.macys\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=macys.com
+/^https?:\/\/www\.marshalls\.com\/utils\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=marshalls.com
 /^https?:\/\/www\.mouser\.com\/[a-z]{25,}.js/$script,xmlhttprequest,domain=mouser.com
 /^https?:\/\/www\.mouser\.com\/static\/[a-z0-9]{30,}/$script,domain=mouser.com
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
+/^https?:\/\/www\.sierra\.com\/content\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=sierra.com
+/^https?:\/\/www\.staples\.com\/bundles\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=staples.com
 /^https?:\/\/www\.ugg\.com\/static\/[a-z0-9]{15,}/$domain=ugg.com
 /_/lite/performance/*
 /_CPiX/art
@@ -1469,6 +1478,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /beacon.min.js
 /beacon.php3?
 /beacon.php?
+/beacon/affiliates
 /beacon/b.ashx?
 /beacon/baminsights.
 /beacon/collector/*
@@ -5961,6 +5971,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||asendiausa.com/tracking/js/tracking/customertracking.js?
 @@||askubuntu.com/tags/$~third-party,xmlhttprequest
 @@||asset.pagefair.com/measure.min.js$domain=www.gamespot.com
+@@||assets.adobedtm.com/*/satelliteLib-*.js$domain=docs.nvidia.com
 @@||assets.adobedtm.com/*launch-*.min.js$domain=samsung.com
 @@||assets.adobedtm.com^*-librarycode_source.min.js$script,domain=mora.jp
 @@||assets.customer.io/assets/track.js$domain=buffer.com
@@ -7184,6 +7195,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||mc.yandex.ru/metrika/watch.js$domain=smartresponder.ru
 @@||mc.yandex.ru/metrika/watch.js$domain=spor.internethaber.com
 @@||mc.yandex.ru/metrika/watch.js$domain=stopgame.ru
+@@||mc.yandex.ru/metrika/watch.js$domain=stylenews.ru
 @@||mc.yandex.ru/metrika/watch.js$domain=tickets.fc-zenit.ru
 @@||mc.yandex.ru/metrika/watch.js$domain=woman.ru
 @@||mc.yandex.ru/metrika/watch.js$domain=xn--80awafglm0a6dza.xn--p1ai
@@ -8065,7 +8077,9 @@ _hptag.asis?
 _i2a.js
 _imp?Log=
 _imp_logging?
+_impression_analytics/
 _impressions.gif?
+_interaction_analytics/
 _landingLog/
 _logHuman=
 _logimpressions.
@@ -8278,6 +8292,7 @@ sendgrid.net/wf/open$image
 setafi.com##.footer_bl-3
 sinoptik.ua###bigmirTop
 specialcom.net#?##sidebar > div.widget:has(span#openstat1)
+store.line.me#%#//scriptlet('remove-class', 'async-hide', 'html')
 t.hsms06.com$image
 t.hubspotemail.net/e2t/o$image
 t.senal$image
@@ -12010,6 +12025,7 @@ znak.com##.relap
 ||crtx.info^$third-party
 ||crunchbase.com/rw7M6iAV/
 ||crunchsports.com/tracking_fetchinfo.aspx?
+||crunchyroll.com/tracker
 ||crunchyroll.com/versioned_assets/js/tracking^
 ||crwdcntrl.net^
 ||crwdcntrl.net^$domain=disqus.com
@@ -12586,6 +12602,7 @@ znak.com##.relap
 ||dig.ultimedia.com^
 ||digdeepdigital.com.au^$third-party
 ||digg.com/library/tracker.js
+||digianalytics.airtel.in^
 ||digidip.net^$domain=gofeminin.de
 ||digidip.net^$third-party
 ||digikey.*/-/media/Designer/Web%20Analytics/MultiTrack/JS/multitrack.js
@@ -14509,6 +14526,7 @@ znak.com##.relap
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=dafiti.com.co
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=game8.jp
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=pcmag.com,important
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=store.line.me
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=straitstimes.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=theverge.com,important
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=yargici.com
@@ -16918,6 +16936,7 @@ znak.com##.relap
 ||metrics.el-mundo.net^
 ||metrics.extremetech.com^
 ||metrics.foxnews.com^
+||metrics.getvitals.io^
 ||metrics.infranken.de^
 ||metrics.macys.net^
 ||metrics.makemytrip.com^
@@ -19561,6 +19580,7 @@ znak.com##.relap
 ||roitesting.com^$third-party
 ||rok.com.com^
 ||rokt.com/pixel/
+||rolite.eu/wp-content/*/js/cntr.js
 ||rollingcounters.com^$third-party
 ||romseyadvertiser-gb.romseyadvertiser.co.uk^
 ||roofrelation.com^$third-party
@@ -19751,6 +19771,7 @@ znak.com##.relap
 ||sa.aol.com^$third-party
 ||sa.bbc.co.uk^
 ||sa.bbc.com^
+||sa.crunchyroll.com/analytics.js
 ||sa.sayaclar.com/c/s*.php?$third-party
 ||sa.sky.it^
 ||sa.squareup.com^
@@ -21145,6 +21166,7 @@ znak.com##.relap
 ||stats.mituyu.com^
 ||stats.mos.ru^
 ||stats.mos.ru^$third-party
+||stats.myangular.life^
 ||stats.nctm.org^
 ||stats.nebula.fi^
 ||stats.netbopdev.co.uk^
@@ -21727,6 +21749,7 @@ znak.com##.relap
 ||tagsd.com/newServing/tracking_id.php^
 ||tagsrvcs.com^$third-party
 ||tagtool.de^$third-party
+||tagtracking.vibescm.com^
 ||tagtray.com/api^$third-party
 ||tagtray.com^$third-party
 ||tagx.nytimes.com^
@@ -22486,6 +22509,7 @@ znak.com##.relap
 ||tracker.lolalytics.com^
 ||tracker.marinsoftware.com^
 ||tracker.mattel.com^
+||tracker.metricool.com^$third-party
 ||tracker.mspy.com^
 ||tracker.mtrtb.com^
 ||tracker.nbcuas.com^
@@ -22663,6 +22687,7 @@ znak.com##.relap
 ||tracking.scenepass.com^
 ||tracking.searchmarketing.com^
 ||tracking.sembox.it^$third-party
+||tracking.sezzle.com^
 ||tracking.shopback.com^
 ||tracking.shopstyle.com^
 ||tracking.shoptogether.buy.com^
@@ -24195,6 +24220,7 @@ znak.com##.relap
 ||x-stat.de^$third-party
 ||x-traceur.com^$third-party
 ||x.allabout.co.jp^
+||x.babe.today^
 ||x.bloggurat.net^
 ||x.interia.pl/inpl/inpl.klmcounter.*.js
 ||x.ligatus.com^$third-party
