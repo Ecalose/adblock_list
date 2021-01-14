@@ -48,3 +48,11 @@ def isConnected():
     except:
         return False
     return True
+
+# remove raw data
+
+
+def clean_raw_data():
+    for items in os.listdir(rawdir):
+        if (not 'mobile' in items) and (not 'raw' in items):
+            os.remove(os.path.join(rawdir, items))

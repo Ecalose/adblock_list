@@ -158,3 +158,7 @@ with open(os.path.join(outputdir, "adblock_lite.txt"), "w", encoding='UTF-8') as
         '! URL = https://github.com/uniartisan/adblock_list\n! Lenth = ' + str(lenth)+'\n')
     for i in range(0, lenth):
         f.write(result_lite[i]+'\n')
+
+
+# 清除缓存文件
+clean_raw_data()
