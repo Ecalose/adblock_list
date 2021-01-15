@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202101140236
+! Version: 202101150234
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21575
+! Lenth = 21592
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -1758,6 +1758,7 @@ $websocket,domain=5nj.com|cechi8.com
 /new/ads/*
 /newAd/*
 /newfengchao/asp
+/nfhry32_78.js
 /nordvpn/autoptimize_
 /nowscore/ad/*
 /ntes-ad-cloud.
@@ -1957,6 +1958,7 @@ $websocket,domain=5nj.com|cechi8.com
 /xbhf.js$script,third-party
 /xbhf11.js$script,third-party
 /xdy_yyo.php
+/xgrghru981_23.js
 /xhfloatAdv.
 /xiaoyi/360_
 /xiaoyi/960_
@@ -2759,6 +2761,7 @@ $websocket,domain=5nj.com|cechi8.com
 526bt.com###slider
 526bt.com,eroacg.com,laod.cn,ninpang.com,xiaohutuwb.com,zhangjunseo.com,zhujiceping.com##.tg-site
 5278.cc#%#//scriptlet("prevent-window-open", "1", "88p2p.com")
+5278.cc,hboav.com#%#//scriptlet('prevent-setTimeout', '/ad block stop|warm_msg/')
 528500.com###wp > div[align="center"]
 52biquge.com##[onclick*="app"]
 52biquge.com##a[href^="http://html.350.com/"]
@@ -2895,6 +2898,7 @@ $websocket,domain=5nj.com|cechi8.com
 6parknews.com##.other_list_ad
 703804.com##.hotad
 717dyi.com,aiqiyivip.com##[onclick]
+717dyi.com,aiqiyivip.com,poxiaotv.com##[ontouchstart]
 720yun.com##DIV[class^="Ads_ads_"]
 7255.com###J_search_bd > div:last-child
 7255.com###right > div:first-child
@@ -3445,6 +3449,8 @@ $websocket,domain=5nj.com|cechi8.com
 @@||cntv.cn^*_ad.js
 @@||cnzz.com/c.php?id=30070167$domain=m.tieyou.com
 @@||cnzz.com/q_stat.php$domain=qd.alibaba.com
+@@||cocomanhua.com/js/ad*/*.js
+@@||cocomanhua.com^$generichide
 @@||colatour.com.tw/webDM/*/adbanner$~third-party
 @@||colatour.com.tw^$generichide
 @@||content.s8bbs.com/ad/bbs/*.jpg
@@ -3594,6 +3600,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||haoweichi.com/Public/js/ads.js
 @@||hboav.com/guga/adss.js
+@@||hboav.com/js/wlfloat.js
 @@||hc360.com/ad/*.css
 @@||hdsky.net/ad/down.png
 @@||hdslb.com/bfs/seed/log/report/log-reporter.js$domain=message.bilibili.com
@@ -4128,7 +4135,6 @@ ainuody.com#?#.post:-abp-has(> .article > .entry_post > p:-abp-contains(/红包|
 aipai.com###videosRightDown
 aipai.com##.banner_90
 aipai.com##.video_gg
-aiqiyivip.com,poxiaotv.com##[ontouchstart]
 airav.cc###Panel_GambleZone
 airav.cc###Panel_GambleZone + .Hide_For_JP_AND_EN
 airav.cc###Right_Panel > div[style^="margin-"]
@@ -4612,6 +4618,7 @@ bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=
 bilibili.com##a[href="/video/av8587236/?tg"]
 bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
+bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
 bilibili.com#@#.follow-wrapper
 bilibili.com,douyu.com,oschina.net#@#.follow-btn
@@ -5092,7 +5099,6 @@ cnzol.com#?#li:-abp-has(> a[href*="/un/"])
 cnzol.com#?#li:-abp-has(> a[href*="mmtp.net"])
 cnzol.com#?#li:-abp-has(> a[href*="tu."])
 co188.com##.suspen
-cocomanhua.com#@#.gg1000
 cocomanhua.com,ohmanhua.com,onemanhua.com#%#//scriptlet("prevent-setTimeout", "checkSiteNormalLoad")
 cocomanhua.com,ohmanhua.com,onemanhua.com#%#//scriptlet("set-constant", "NativeAd", "noopFunc")
 cocomanhua.com,ohmanhua.com,onemanhua.com#%#//scriptlet("set-constant", "__jsadsuccess", "true")
@@ -6177,7 +6183,6 @@ hboav.com###inplayer
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
 hboav.com#%#//scriptlet("set-constant", "adbk", "false")
 hboav.com#%#//scriptlet("set-constant", "onload", "null")
-hboav.com#%#//scriptlet('prevent-setTimeout', 'ad block stop')
 hboav.com#@#.close_box0
 hboav.com#@#script + div[class="cc5278_banner_ad"]
 hbzhan.com###leftAdv
@@ -7014,6 +7019,7 @@ kaifu.com##.play_fmt
 kaitao.cn###ad-tit
 kaitao.cn##a[href*="/a.php?id="]
 kaixindy.com###pege_ad1
+kaka12345.cc###main
 kalvin.cn##.fell_advertisement_box
 kankan.com###adv_box
 kankan.com###modal-adv
@@ -7846,6 +7852,7 @@ pic.sogou.com##.floating
 pic.sogou.com##.sidebar_box.shut
 pigai.org###newnotice
 pilifx.com##.alltop
+pilifx.com##.home_row_1
 pilifx.com##.imoney
 pilipali.cc##.tips-widget-weixin
 pincong.rocks##.a-a
@@ -8331,6 +8338,7 @@ sina.com.cn##.blk_APP_JSl
 sina.com.cn##.blk_APP_JSr
 sina.com.cn##.center-pdps
 sina.com.cn##.center-pdps-02
+sina.com.cn##.cj_app_left
 sina.com.cn##.clearAd
 sina.com.cn##.fl_feedFous
 sina.com.cn##.gamead1
@@ -8342,6 +8350,7 @@ sina.com.cn##.redPacketCont
 sina.com.cn##.side-btns-2wm
 sina.com.cn##.sinaads
 sina.com.cn##.tab_related_app_imglink
+sina.com.cn##.yyy-wrap-2021
 sina.com.cn##.zhitou-wrap
 sina.com.cn##.zhongce
 sina.com.cn##:not(.BigPic) > a[href*="sax.sina.com.cn/click?"]
@@ -9934,6 +9943,7 @@ zznews.cn##.ad:not([style])
 ||0928vld.xyz^
 ||0937js.com^$popup
 ||0937jyg.com^
+||0b2qv7.cn^
 ||0bc.top^
 ||0fwg.cn^
 ||0ij3tm.com^
@@ -13273,6 +13283,7 @@ zznews.cn##.ad:not([style])
 ||cnzz.com^$third-party
 ||cnzzla.com/public/scripts/money.js
 ||coccccc.cc^
+||cocomanhua.com/sw.js
 ||cod.southmoney.com^
 ||code.ditiezu.net^
 ||code.ts166.net^
@@ -13420,6 +13431,7 @@ zznews.cn##.ad:not([style])
 ||cxcxt.com^
 ||cxfzw.cn^
 ||cxgh.net^
+||cxmob.net^
 ||cxslchkb.cn^
 ||cxtv1.com/partner/
 ||cxxtv.com^$third-party
@@ -14960,6 +14972,7 @@ zznews.cn##.ad:not([style])
 ||hbnygj.com^
 ||hboav.com/guga/
 ||hboav.com/guga/*.php$domain=5278.cc
+||hboav.com/guga/images/$xmlhttprequest,redirect=nooptext
 ||hbssjd.cn^
 ||hbstty.com^
 ||hbttcc.com^
@@ -19949,6 +19962,7 @@ zznews.cn##.ad:not([style])
 ||wdeie.com^
 ||wdjm.com.cn/index.php?m=poster&
 ||wdstatic.cn/tg/v2ex/
+||wdxxx.top^
 ||wdymwzz.com^
 ||wdzj.com/wdzj/images/hezuo/
 ||wdzsb.com.cn^
@@ -20408,6 +20422,7 @@ zznews.cn##.ad:not([style])
 ||xingwangzz.com/123/
 ||xingyao.doubiy.com^
 ||xingyaoapi.com^
+||xinheshengmce.com^
 ||xinhuanet.com/18gg/
 ||xinhuanet.com/iframe/ad
 ||xinhuanet.com/iframe_wdtszq1/index.htm
@@ -20885,6 +20900,7 @@ zznews.cn##.ad:not([style])
 ||yjegf.com^
 ||yjiaj.com^
 ||yjsp5.com/pc_
+||yjspw25.com/pc_
 ||yjxqy.com^
 ||yjyc-ask.com/res/ads/
 ||yk0712.com^
@@ -21429,6 +21445,7 @@ zznews.cn##.ad:not([style])
 ||zoossoft.cn^$third-party
 ||zopeynxv.top^
 ||zougg.com^
+||zoujuhonglawyer.com^
 ||zp0737.com^
 ||zp22938576.com^
 ||zp265.com^$third-party

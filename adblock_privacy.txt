@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202101140236
+! Version: 202101150234
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24618
+! Lenth = 24635
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -3313,6 +3313,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /measure/visit/*
 /measurement/access/contents?
 /measurementBeacon.
+/media-analytics.min.
 /media/miner.
 /media_viewed_tracking.
 /medialaanUniversalTracker.
@@ -4394,6 +4395,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /spot.aspx?Log=
 /springmetrics.
 /sptlog.
+/spy/tracker.
 /spylog_
 /spymonitor.js
 /sr.gif?
@@ -6279,6 +6281,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
 @@||d1z2jf7jlzjs58.cloudfront.net/p.js$domain=nfl.com
 @@||d1z2jf7jlzjs58.cloudfront.net/p.js$script,domain=nfl.com
+@@||d2.alternativeto.net/dist/*/piwik_*.png
 @@||d2dq2ahtl5zl1z.cloudfront.net/analytics.js/*/analytics.min.js$domain=architizer.com
 @@||d2pe20ur0h0p8p.cloudfront.net/identity/*/wapo_identity_full.js$domain=washingtonpost.com
 @@||d2pe20ur0h0p8p.cloudfront.net/identity/*/wapo_jskit_addon.js$domain=washingtonpost.com
@@ -7147,10 +7150,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||marketingsolutions.com.pl^*/googleanalytics-$image,domain=marketingsolutions.com.pl
 @@||marketo.com/*/form$domain=orcad.com
 @@||marketo.com/index.php/$script,subdocument,xmlhttprequest
-@@||marketo.com/index.php/form/$domain=box.com|inthecloud.withgoogle.com|coursera.org|cloudflare.com|rocketsoftware.com|sherweb.com|kaspersky.com|workspace.circuitmaker.com|collab.net
-@@||marketo.com/index.php/form/$domain=pages.addigy.com
-@@||marketo.com/js/forms$domain=box.com|inthecloud.withgoogle.com|coursera.org|cloudflare.com|rocketsoftware.com|sherweb.com|kaspersky.com|workspace.circuitmaker.com|collab.net
-@@||marketo.com/js/forms$domain=pages.addigy.com
+@@||marketo.com/index.php/form/
+@@||marketo.com/js/forms$script,stylesheet
 @@||marketo.com/js/forms2/$script,stylesheet
 @@||marketo.com/jsloader/*/loader.php.js$script
 @@||marketo.com/mkto/$script,stylesheet,subdocument,xmlhttprequest
@@ -7173,6 +7174,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||mc.yandex.ru/metrika/tag.js$domain=kuchenland.ru
 @@||mc.yandex.ru/metrika/tag.js$domain=levelkitchen.com
 @@||mc.yandex.ru/metrika/tag.js$domain=lk.gosuslugi.ru
+@@||mc.yandex.ru/metrika/tag.js$domain=mtstv.mts.ru
 @@||mc.yandex.ru/metrika/tag.js$domain=riamo.ru
 @@||mc.yandex.ru/metrika/tag.js$domain=salonveronika.ru
 @@||mc.yandex.ru/metrika/tag.js$domain=woman.ru
@@ -7204,6 +7206,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||mc.yandex.ru/metrika/watch.js$domain=yaplakal.com|yap.ru
 @@||mc.yandex.ru/metrika/watch.js$domain=zaycev.fm
 @@||mc.yandex.ru/metrika/watch.js$domain=лидер-качества.рф
+@@||mc.yandex.ru/watch/$xmlhttprequest,domain=mtstv.mts.ru
 @@||mc.yandex.ru/webwisor/$domain=metrika.yandex.ru|metrika.yandex.ua|metrika.yandex.by|metrika.yandex.kz|metrika.yandex.com.tr
 @@||mc.yandex.ru^$domain=planeta.ru
 @@||mec.ca/media/javascript/resxclsx.js
@@ -9028,7 +9031,6 @@ znak.com##.relap
 ||akamaihd.net^*.gif?d=
 ||akamaized.net/?u=
 ||akamaized.net/js3/tracker.js
-||akamaized.net/sc/*.gif$domain=msn.com
 ||akanoo.com/tracker/
 ||akanoo.com^$third-party
 ||akatracking.esearchvision.com^
@@ -9413,6 +9415,7 @@ znak.com##.relap
 ||analytics.mobile.yandex.net^
 ||analytics.mopub.com^
 ||analytics.mouthshut.com^
+||analytics.move.ru^
 ||analytics.moviepilot.de^
 ||analytics.msnbc.msn.com^
 ||analytics.myfidevs.io^
@@ -11041,6 +11044,7 @@ znak.com##.relap
 ||centrpush.com^$third-party
 ||ceoscoredaily.com/weblog/gtracker
 ||cerberus.sqrt-5041.de/somtag/logs^
+||cerdmann.com^$third-party
 ||ceros.com/a?data
 ||cert.org/images/1pxinv.gif
 ||certifica.com^$third-party
@@ -12449,7 +12453,7 @@ znak.com##.relap
 ||dc8na2hxrj29i.cloudfront.net^
 ||dc8xl0ndzn2cb.cloudfront.net^
 ||dccss.banggood.com^
-||dcf.espn.com^
+||dcf.espn.com/privacy/
 ||dcmn.com^$third-party
 ||dcmn.io^$third-party
 ||dcs.maxthon.com^
@@ -15353,7 +15357,6 @@ znak.com##.relap
 ||ingage.tech^$third-party
 ||ingenioustech.biz^$third-party
 ||ingest.crittercism.com^
-||ingest.sentry.io^
 ||inimbus.com.au^$third-party
 ||ininmacerad.pro^$third-party
 ||inistrack.net^$third-party
@@ -15874,6 +15877,7 @@ znak.com##.relap
 ||kiva.org/r3pNVz1F/
 ||kiwari.com^*/impressions.asp?
 ||kiwihk.net^$third-party
+||kiynew.com^$third-party
 ||kk-resources.com/ks.js
 ||kka.agitos.de^
 ||kksou.com^*/record.php?
@@ -16242,6 +16246,7 @@ znak.com##.relap
 ||livestream.com^*/analytics/
 ||livestrong.com/services/jslogging/
 ||livetex.ru^$third-party
+||livetracker.rfe.pangea-cms.com^
 ||livetrafficfeed.com^$third-party
 ||liveviewer.ez.no^
 ||livewebstats.dk^$third-party
@@ -16940,6 +16945,7 @@ znak.com##.relap
 ||metrics.extremetech.com^
 ||metrics.foxnews.com^
 ||metrics.getvitals.io^
+||metrics.happycolor.app^
 ||metrics.infranken.de^
 ||metrics.macys.net^
 ||metrics.makemytrip.com^
@@ -18121,6 +18127,7 @@ znak.com##.relap
 ||p.eyebuydirect-cmr.net^
 ||p.gazeta.pl^
 ||p.imgur.com^
+||p.kolplay.com^
 ||p.l1v.ly^$third-party
 ||p.milliyet.com.tr^
 ||p.pagesjaunes.fr^
@@ -19676,6 +19683,8 @@ znak.com##.relap
 ||ruddywash.com^$third-party
 ||rule34.paheal.net/stat.txt
 ||rulerabbit.com^$third-party
+||rum*.a.trbcdn.net^
+||rum*.cdnvideo.ru^
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
 ||rum.azion.com^
 ||rum.azioncdn.net^
@@ -20080,6 +20089,7 @@ znak.com##.relap
 ||sensor.org.ua^$third-party
 ||sensors.snappea.com^
 ||sentifi.com^$third-party
+||sentry.io^$third-party
 ||sentry01.zerg.rambler.ru^$third-party
 ||seo-master.net^$third-party
 ||seogift.ru^$third-party
@@ -20995,6 +21005,7 @@ znak.com##.relap
 ||static-fra.de^*/targeting.js
 ||static-fra.de^*/tracking.js
 ||static-lvlt.xhcdn.com/js/track.min.js
+||static-od.com/setup/$third-party
 ||static-sb.com^$third-party
 ||static-skin.ru/assets/js/tracking-frame.min.js
 ||static-trackers.adtarget.me^
@@ -21232,6 +21243,7 @@ znak.com##.relap
 ||stats.tipser.com^
 ||stats.topofblogs.com^
 ||stats.townnews.com^
+||stats.travelask.ru^
 ||stats.tudou.com^
 ||stats.tunt.lv^
 ||stats.tvmaze.com^
@@ -21871,11 +21883,13 @@ znak.com##.relap
 ||ted.metro.co.uk^
 ||tedioustooth.com^$third-party
 ||teenporn.ws/zaq/cron.php
+||teenytinycellar.com^$third-party
 ||teenytinytongue.com^$third-party
 ||teenyvolcano.com^$third-party
 ||teepublic.com/binfgkxpxaizujgk.js
 ||teethfan.com^$third-party
 ||telegraaf.tcdn.nl/javascript/analyticsfunctions
+||telegraf.detmir-stats.ru^
 ||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
 ||telegraph.co.uk^*/tmglmultitrackselector.js
 ||telemetric.dk^$third-party
@@ -22435,6 +22449,7 @@ znak.com##.relap
 ||track.tooplay.com^
 ||track.toroadvertising.com^
 ||track.totalav.com^$script
+||track.tproger.ru^
 ||track.uc.cn^
 ||track.ugamezone.com^
 ||track.ultimate-guitar.com^
@@ -22549,6 +22564,7 @@ znak.com##.relap
 ||tracker.wordstream.com^
 ||tracker.wpserveur.net^
 ||trackerapi.truste.com^
+||trackerhqu.com^$third-party
 ||trackers.adtarget.me^
 ||trackersimulator.org^
 ||trackersimulator.org^$third-party
@@ -22560,6 +22576,7 @@ znak.com##.relap
 ||tracking-opi.fonpit.de/tracking/
 ||tracking-opi.fonpit.de^
 ||tracking-rce.veeseo.com^$third-party
+||tracking-receiver.prod-general.stocard-backend.com^
 ||tracking-server-prod-1.zenmxapps.com^
 ||tracking.*.miui.com^
 ||tracking.3ds.com^
