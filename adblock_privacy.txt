@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202101160247
+! Version: 202101170234
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24640
+! Lenth = 24649
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -796,7 +796,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /YuduStatistics/*
 /ZagUser.js
 /\/(public|resources|static|assets)\/([a-f0-9]){28,31}$/$script,xmlhttprequest,~third-party
-/^https?:\/\/(.+?\.)?bhphotovideo\.com\/[a-z]{10,}\-.*/$script,xmlhttprequest,domain=bhphotovideo.com
+/^https?:\/\/(.+?\.)?bhphotovideo\.com\/[a-z]{6,}\-.*/$script,xmlhttprequest,domain=bhphotovideo.com
+/^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
 /^https?:\/\/.*[a-f0-9]{6,}\.cdn.*\.forter\.com\//$script,third-party
 /^https?:\/\/.*\.corsair\.(fr|ci|ca|gp|mq|re)\/[a-z0-9]{19,}\?/$script,xmlhttprequest
 /^https?:\/\/editorial\.rottentomatoes\.com\/bundles\/[a-z0-9]{30,}/$script,xmlhttprequest,domain=rottentomatoes.com
@@ -812,9 +813,11 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /^https?:\/\/tmx\.td\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com
 /^https?:\/\/www\.academy\.com\/bundles\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=academy.com
 /^https?:\/\/www\.backcountry\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=backcountry.com
+/^https?:\/\/www\.bestbuy\.com\/content\/{20,}/$script,xmlhttprequest,domain=bestbuy.com
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/www\.eddiebauer\.com\/content\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=eddiebauer.com
 /^https?:\/\/www\.finishline\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=finishline.com
+/^https?:\/\/www\.gumtree\.com\/[0-9a-f]{3,}\-[0-9a-f]{2,}\-?/$domain=gumtree.com
 /^https?:\/\/www\.halifax-online\.co\.uk\/bundles\/[a-z0-9]{15,}/$script,domain=halifax-online.co.uk
 /^https?:\/\/www\.imperva\.com\/[0-9a-f]{30,}\?/$script,xmlhttprequest,domain=imperva.com
 /^https?:\/\/www\.kohls\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=kohls.com
@@ -1036,7 +1039,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /ajax/eulerian/*
 /ajax/heatmap-
 /ajax/log?
-/ajax/optimizely-
 /ajax/stat/*
 /ajax/track.php?
 /ajaxClicktrack.
@@ -3614,6 +3616,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /opinionlab.js
 /optiextension.dll?$script
 /optimization-perf.js
+/optimizely-
 /optimizely.$domain=~optimizely.com
 /optimizely/*$script
 /optimizelyjs/*
@@ -3628,6 +3631,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /optimostfoot.
 /optimosthead.
 /optimosthead/*
+/optmzly/*
 /ordertrack/*
 /osGoogleAnalytics.
 /ositTracker.
@@ -5241,6 +5245,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /ux_analytics/*
 /ux_analytics_
 /uxm_tracking.
+/v.gif?
 /v.gif?t=
 /v1/analytics.js
 /v1/custom-metrics
@@ -6740,7 +6745,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtag/js$domain=riamo.ru
 @@||googletagmanager.com/gtag/js$domain=ryanair.com
 @@||googletagmanager.com/gtag/js$domain=shiftdelete.net
-@@||googletagmanager.com/gtag/js$script,domain=ally.com|anchor.fm|foxnews.com|gamespot.com|m.putlocker.how|neighborhoodpostcards.com|playphrase.me|ryanair.com|schwab.com
+@@||googletagmanager.com/gtag/js$script,domain=ally.com|anchor.fm|foxnews.com|gamespot.com|honeystinger.com|m.putlocker.how|neighborhoodpostcards.com|playphrase.me|ryanair.com|schwab.com
 @@||googletagmanager.com/gtag/js$script,domain=klix.ba|radiosarajevo.ba
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
 @@||googletagmanager.com/gtag/js?id=$domain=chainreactioncycles.com
@@ -13865,6 +13870,7 @@ znak.com##.relap
 ||fpctraffic2.com^$third-party
 ||fpjs.io^$third-party
 ||fprnt.com^$third-party
+||fpt.shop/fa_tracking.js
 ||fqsecure.com^$third-party
 ||fqtag.com^$third-party
 ||fr-online.de/analytics/
@@ -14279,6 +14285,7 @@ znak.com##.relap
 ||getfreebacklinks.com^$third-party
 ||getfreebl.com^$third-party
 ||getglue.com^*/count?
+||getjad.io^$third-party
 ||getkudos.me/a?$image
 ||getmygeo.com^$third-party
 ||getpos.de/ext/
@@ -14674,8 +14681,6 @@ znak.com##.relap
 ||gulliblecamp.com^$third-party
 ||gullibleguitar.com^$third-party
 ||gumtree.com.au/?pc=
-||gumtree.com/ycxwzbcsxennhrkc.js
-||gumtree.com/ycxwzbcsxennhrkcxhr.js
 ||guoshipartners.com^$third-party
 ||guq9.vente-unique.it^
 ||guruquicks.net^$third-party
@@ -14726,7 +14731,6 @@ znak.com##.relap
 ||harborcub.com^$third-party
 ||hardtofindmilk.com^$third-party
 ||hardware-infos.com/counter/
-||hardware.info/js/l/23082020.js
 ||hardwarelabs.de/stat/
 ||hardwareschotte.de/na/mdc.php?
 ||harrowtimes-gb.harrowtimes.co.uk^
@@ -16066,6 +16070,7 @@ znak.com##.relap
 ||legalmatch.com/scripts/lmtracker.js
 ||legenhit.com^$third-party
 ||leggo.it/index.php?$image
+||legitscript.com/seals/
 ||legolas-media.com^$third-party
 ||leguide.com/js/lgtrk-*.js
 ||leighjournal-gb.leighjournal.co.uk^
@@ -17276,6 +17281,7 @@ znak.com##.relap
 ||msg.qy.net^
 ||msg.video.qiyi.com^$image
 ||msgapp.com^$third-party
+||msgfocus.com^$third-party
 ||msgs.jp^$third-party
 ||msgtag.com^$third-party
 ||mshcdn.com/assets/lib/aab-$script,domain=mashable.com
@@ -19192,6 +19198,7 @@ znak.com##.relap
 ||rampmetrics.com^$third-party
 ||rand.com.ru^
 ||rang.com.ua^$third-party
+||rangecake.com^$third-party
 ||rangers.co.uk^*/tracking.js
 ||rank-hits.com^$third-party
 ||rank-power.com^$third-party
@@ -19441,6 +19448,7 @@ znak.com##.relap
 ||reprocautious.com^$third-party
 ||repstatic.it^*/nielsen_static_mapping_repubblica_
 ||request.issuu.com^
+||requestmetrics.com^$third-party
 ||res-x.com^$third-party
 ||res.heraldm.com/js/acecounter_*.js
 ||res.heraldm.com/js/logcollectscript_*.js
@@ -23977,6 +23985,7 @@ znak.com##.relap
 ||webxmr.com^$third-party
 ||webyclip.com/WebyClipAnalytics.html
 ||webzel.com/counter/
+||wecantrack.com^$third-party
 ||wecount4u.com^$third-party
 ||wee.dk/modules/$third-party
 ||weedmaps.com/impression
