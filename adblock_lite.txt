@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202101190247
+! Version: 202101200253
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19648
+! Lenth = 19657
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1736,6 +1736,7 @@
 @@||manhua.weibo.com/adv/
 @@||masterkong.com.cn/adimages/
 @@||mcbar.cn^$generichide
+@@||mcc.xunliandata.com/mci-reward/static/img/ad.
 @@||mccc11.com^$generichide
 @@||mccm88.com^$generichide
 @@||media.jd.com/static/*/ad
@@ -5412,6 +5413,7 @@ mbd.baidu.com###content_wrapper + div + .default-container
 mbd.baidu.com##.related-news > section:first-child + div
 mbd.baidu.com##div[class^="_"][style="visibility: visible;"]
 mcbbs.net###lsform + .y
+mcc.xunliandata.com#@#.ad_wrap
 mcdulll.com,mcdulll.pixnet.net###box1290930
 mcdulll.com,mcdulll.pixnet.net###box1989082
 mcmod.cn###McmodDonate
@@ -8912,9 +8914,9 @@ zznews.cn##.ad:not([style])
 ||55803.net^$third-party
 ||5588.tv/js/piaofuImg.js
 ||55aaee.com/detail/
-||55cc.cc/5Cjs/
 ||55shuba.com/files/article/html/
 ||55sky.com/js/diecuo/
+||55yy.tv/5Cjs/
 ||565882.com^$third-party
 ||56ads.com/js/main.js
 ||56img.com^*/baidu-promotion.js
@@ -9964,7 +9966,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/tfscom/*.sina.
 ||alicdn.com/tps/*-950-90.
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
-||alicdn.com^$domain=1024gu.com|11papapa.com|1avlang.com|1yingdoutv.com|2334n.com|51dll.com|52kpop.com|55cc.cc|5xx44.com|5xx77.com|63ef.com|69t41.com|7mav2.com|99a21.com|acglover.me|aotu101.com|btdp.online|c7cc.cc|camelliadali.com|ccxx99.com|dytt.com|f6hx.site|feifei6.com|haicao32.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|lady3.xyz|magnet2048.com|ppx116.com|qingmanyong.com|qqtenglong.com|qyl00.com|qyl222.com|spqi.xyz|supfree.net|that2.info|thztv.cc|ttww22.com|tv4.cc|viidii.info|wenkuxiazai.com|xiaomingming.org|xinchen2.com|xingzhiyin44.com|yeyemo6.com|yuese46.com|yy6080.cn|yzz12.com|zhuankezhijia.com
+||alicdn.com^$domain=1024gu.com|11papapa.com|1avlang.com|1yingdoutv.com|2334n.com|51dll.com|52kpop.com|55yy.tv|5xx44.com|5xx77.com|63ef.com|69t41.com|7mav2.com|99a21.com|acglover.me|aotu101.com|btdp.online|c7cc.cc|camelliadali.com|ccxx99.com|dytt.com|f6hx.site|feifei6.com|haicao32.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|lady3.xyz|magnet2048.com|ppx116.com|qingmanyong.com|qqtenglong.com|qyl00.com|qyl222.com|spqi.xyz|supfree.net|that2.info|thztv.cc|ttww22.com|tv4.cc|viidii.info|wenkuxiazai.com|xiaomingming.org|xinchen2.com|xingzhiyin44.com|yeyemo6.com|yuese46.com|yy6080.cn|yzz12.com|zhuankezhijia.com
 ||alicdn.com^$domain=2c2.website|2p8.space|adultgao.com|caopop.com|caoporn.com|caouoo.com|caox.cc|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vwan.xyz|xhao1.com
 ||alicdn.com^$domain=99a67.com|99re.com
 ||alicdn.com^$domain=aikanshu8.com|lawen44.net
@@ -10519,6 +10521,7 @@ zznews.cn##.ad:not([style])
 ||bdunion1.suxiazai.com^
 ||bdwmhz.120askimages.com^
 ||bdx.playnext.cn^
+||bdxnc.com^
 ||bdyxzx.com^
 ||beacon.sina.com.cn^
 ||beareyes.com.cn/2/cat/js/*_centerl
@@ -11280,6 +11283,7 @@ zznews.cn##.ad:not([style])
 ||cnmysoft.com/images/logo02.png
 ||cnnywz.cn^
 ||cnool.net/AdShowCache?
+||cnoufangfeng.cn^
 ||cnpc.infzm.com^
 ||cnpingpang.com/banner/
 ||cnpingpang.com/bbs/UploadFile/2014-11/20141113852238131.jpg
@@ -13189,6 +13193,7 @@ zznews.cn##.ad:not([style])
 ||hmtoday.com^$third-party
 ||hmttoly.com^
 ||hmyangshengji.com^
+||hmyzsgf.com^
 ||hn163fck.com^$third-party
 ||hnasd.com^
 ||hnctsm.com^
@@ -14602,6 +14607,7 @@ zznews.cn##.ad:not([style])
 ||lewxs.com/m-
 ||lexyhome.com^
 ||lezai.com^$third-party
+||lezengxin.com^
 ||lezhuan.com/js/spread.js
 ||leztc.com^
 ||lfcepgb.cn^
@@ -15224,6 +15230,7 @@ zznews.cn##.ad:not([style])
 ||ms.cnbanbao.com^
 ||ms758.com^
 ||mscbsc.com/images/5g300x90.jpg
+||msccabin.com^
 ||mscimg.com^
 ||msdfd.cn^
 ||msdn.hk/templets/msdn/*/gg.js
@@ -18407,6 +18414,7 @@ zznews.cn##.ad:not([style])
 ||xiangchim0.com^
 ||xianguangergaozhi.com^
 ||xiangwangdesh.com^
+||xiangyudj.cn^
 ||xiangyuym.cn^
 ||xianliao.me/ads
 ||xianliao.me/assets/js/lib/ne3u3.js
@@ -18528,6 +18536,7 @@ zznews.cn##.ad:not([style])
 ||xizi.com/js/rotator.js
 ||xjhjtz.cn^
 ||xjidian.com^
+||xjsytoy.com^
 ||xjtxcj.com^
 ||xjzyq.com^
 ||xk0x.cn^
