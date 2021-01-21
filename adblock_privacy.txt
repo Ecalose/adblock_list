@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202101200253
+! Version: 202101210255
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24666
+! Lenth = 24692
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -138,6 +138,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 -stats/imr.
 -stats/metrica.
 -track-ati.
+-track-email-open?
 -track-inview.
 -tracker-geoip.
 -tracking-pixel.
@@ -173,6 +174,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .au/t.gif?
 .be/uts/
 .beacon.min.js
+.bluekai.com/*?e_id_
 .bmp?*&referrer=
 .cc/s.gif?
 .cdn-tracking.js
@@ -180,6 +182,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .cfm?poolid=
 .click/track?
 .cloudfront.net/br?tid=
+.cmail19.com/t/
 .cn/0.gif?
 .cn/1.gif?
 .cn/2.gif?
@@ -272,11 +275,14 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .de/pt.gif?type=
 .de/z.gif?
 .demandbase.*.js
+.demdex.net/event?
 .demdex.net/id^$redirect=nooptext,important
 .do_tracking&
 .drive-analytics.
 .eloqua.js
+.emltrk.com/
 .emsecure.min.js
+.flipboard.com/usage?
 .fr/z.gif?
 .ga/*.wasm
 .gatracker.
@@ -302,11 +308,13 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .hit.gemius.*?
 .hit.stat24.
 .hit.ua/hit?
+.hootsuite.com/trk?
 .htm?imprId=
 .html?wpl=
 .idge/js/analytics/
 .iframetracker/
 .in/c.gif?
+.innologica.com/t/
 .io/0.gif?
 .io/track?
 .io/w.gif?
@@ -319,6 +327,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .js?referer=
 .js?referrer=
 .jsp/?Log=
+.kijiji.ca/r/
 .lms-analytics/
 .me/geoip/
 .me/l.gif?
@@ -371,10 +380,12 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .providesupport.com/cmd/*?ps_t=
 .pt/n.gif?
 .pt/t.gif?
+.publish0x.com/t/
 .redux-logger-
 .ro/c.gif?
 .ru/0.gif?
 .ru/stat/?c=$domain=ucoz.net
+.sendcloud.net/track/
 .sg/t.gif?
 .sharecounter.$third-party
 .sitecatalyst.js
@@ -384,6 +395,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .snowplowanalytics.$domain=~snowplowanalytics.com
 .social_tracking.
 .spacepools.*:
+.spotify.com/ss/
+.starbucks.com/a/
 .statData-eup.
 .stats?action=
 .svc/?tracking_id=
@@ -409,9 +422,12 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .v4.analytics.
 .vn/0.gif?
 .vsTracking.
+.webex.com/q/
 .webmetrics.js
 .webstats.
+.wix.com/_api/ping/
 .wxAdTargeting.
+.zalando.com/images/probe.png
 /!crd_prm!.
 /([0-9]{1,3}\.){3}[0-9]{1,3}.*(\/proxy|\.wasm|\.wsm|\.wa)$/$third-party,websocket
 /.*(\/proxy|\.wasm|\.wsm|\.wa)$/$websocket,xmlhttprequest,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to
@@ -428,6 +444,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /1x1.png?
 /1x1_akamai.gif
 /1x1_imp.gif?
+/1x1_usermatch.gif?
 /1x1p.gif?
 /1x1tracker.
 /2010/JS/AnalTrack.js^
@@ -2254,6 +2271,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /elqtracking.
 /elt.gif?
 /eluminate?
+/email-pixel?
 /email/track/*$image
 /email/tracking?
 /embed-log.js
@@ -2272,6 +2290,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /entry.count?
 /entry_stats?
 /envoy.sb?sbaid
+/eo?_t=$image
 /epf_v1_95.js
 /epsilon.v2.
 /epvplytics.
@@ -2361,6 +2380,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /exelator.
 /exittracker.
 /exittraffic.
+/exmo.email/open.html
 /expcount/*
 /experiment/impressions.js
 /expose.gif?
@@ -3278,6 +3298,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /lunametrics-
 /lycostrack.js
 /lytics/*
+/lzdmailer.letter.open?
 /lzdtracker.
 /m.gif?
 /m1x1.jpg
@@ -6058,6 +6079,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||btstatic.com/tag.js$domain=oralb.de
 @@||buffaloshop.de^*/webtrekk.js
 @@||buffalowildwings.com^*/google-analytics.js
+@@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 @@||bugzilla.mozilla.org^*/extensions/TrackingFlags/$script
 @@||bunchball.net/scripts/cookies/current/NitroCookies.js$domain=mtvema.com
 @@||bundesliga.de/js/xtcore.js
@@ -12946,6 +12968,7 @@ znak.com##.relap
 ||e-pagerank.net^$third-party
 ||e-referrer.com^$third-party
 ||e-ssl.apsalar.com^
+||e-stat.huya.com^
 ||e-webtrack.net^$third-party
 ||e-zeeinternet.com^$third-party
 ||e.dr-zh.com^$third-party
@@ -16935,6 +16958,7 @@ znak.com##.relap
 ||metric-agent.i10c.net^$third-party
 ||metric.gstatic.com^
 ||metric.gstatic.com^$third-party
+||metric.huya.com^
 ||metric.inetcore.com^
 ||metric.nwsource.com^
 ||metric.timewarnercable.com^$third-party
@@ -21362,6 +21386,7 @@ znak.com##.relap
 ||statun.com^$third-party
 ||statuncore.com^$third-party
 ||statuscake.com^$third-party
+||statwup.huya.com^
 ||statystyki.panelek.com^
 ||stayfriends.de/mobilemember/js/framework/sf_tracking.js
 ||stbt.coupons.com^
@@ -22157,6 +22182,7 @@ znak.com##.relap
 ||tmobi.tcdn.nl/*/beacon?
 ||tms-st.cdn.ngenix.net$third-party
 ||tms-st.cdn.ngenix.net^
+||tms.dmp.wi-fi.ru^
 ||tms.eharmony.ca^
 ||tms.eharmony.co.uk^
 ||tms.marriott.com/error/e.gif
