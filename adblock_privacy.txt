@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202101210255
+! Version: 202101220255
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24692
+! Lenth = 24697
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -186,7 +186,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .cn/0.gif?
 .cn/1.gif?
 .cn/2.gif?
-.cn/a.gif?
 .cn/b.gif?
 .cn/jc.gif?
 .cn/pv.gif?
@@ -274,6 +273,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .de/o.gif?
 .de/pt.gif?type=
 .de/z.gif?
+.delivery-status.com/open?
 .demandbase.*.js
 .demdex.net/event?
 .demdex.net/id^$redirect=nooptext,important
@@ -315,6 +315,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .iframetracker/
 .in/c.gif?
 .innologica.com/t/
+.intercom-mail.com/q/
 .io/0.gif?
 .io/track?
 .io/w.gif?
@@ -880,7 +881,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /_tracking/*
 /_visitcount?
 /a-stat.
-/a.gif?uuid
+/a.gif?
 /a.logrequest.yolx?
 /a.php?ref=
 /a/analytics/*
@@ -1807,6 +1808,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /clickpathmedia.
 /clickpathmedia_
 /clickrecord.php?
+/clicks.email.
 /clicks/servlet/*
 /clickscript.
 /clickstats.
@@ -2863,7 +2865,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /image.articleview?
 /image.ng/*
 /imageTracking.
-/images/a.gif?*=
 /images/beacon.*?errorMessage=
 /images/mxl.gif?
 /images/top100.gif
@@ -2884,7 +2885,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /imp.aspx?
 /imp.gif?
 /imp.php?
-/imp/a.gif?
 /imp/ad_
 /imp/rtm?
 /imp/www.
@@ -4803,7 +4803,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /track/?s=
 /track/?site
 /track/PartnerAnalyzerPageRequest?
-/track/a.gif?
 /track/aggregate?
 /track/alooma-
 /track/batch?
@@ -5166,6 +5165,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /trck/eclick/*
 /trck/etms/*
 /trckUtil.
+/trcksp.
 /trclnk.js
 /trendmd.min.js
 /trigger-visit-event
@@ -7881,6 +7881,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||trc.taboola.com/msn-msn/*$domain=msn.com
 @@||trc.taboola.com/samsung-browser-feed$domain=samsung.com|thestartmagazine.com
 @@||trc.taboolasyndication.com^$domain=bloomberg.com|breitbart.com|nme.com|slatev.com
+@@||trendyol.com/delivery-tracking-query-api/$~third-party
 @@||trueaccordengage.com/tae/api/v1/collectors/$~third-party
 @@||try.abtasty.com/403fb16c20596e4691fbe9ec5db9720e.js$domain=shop.euromaster.de
 @@||try.abtasty.com/78cb84f9b3158bdce6932109a6d7c7c1.js$domain=tf1.fr
@@ -9429,6 +9430,7 @@ znak.com##.relap
 ||analytics.linktr.ee^
 ||analytics.live.com^
 ||analytics.liveact.cri-mw.jp^
+||analytics.livehindustan.com^
 ||analytics.livestream.com^
 ||analytics.localytics.com^
 ||analytics.logsss.com^
@@ -14159,6 +14161,7 @@ znak.com##.relap
 ||gardenweb.com^*/iv_footer.js
 ||gardenweb.com^*/iv_header.js
 ||gate.hockeyapp.net/*/track
+||gate.upclick.com/btn/visitor.min.js
 ||gatehousemedia.com/wickedlocal/ip.js
 ||gateway.answerscloud.com^$third-party
 ||gateway.boredpanda.com/event^
@@ -15795,6 +15798,7 @@ znak.com##.relap
 ||jsuol.com.br/aud/$script
 ||jsuol.com/rm/clicklogger_
 ||jtrackern.joins.com^
+||jtracking.lulusoft.com^
 ||jtv.com^*/__analytics-tracking?
 ||jubiitag.dk^$third-party
 ||juicebeard.prod.tda.link/rec/*/tracking^
@@ -18948,6 +18952,7 @@ znak.com##.relap
 ||prugskh.com^
 ||prugskh.net^
 ||prvsz4pe.micpn.com^$third-party
+||prx.wayfair.com^
 ||ps-deals.com/aggbug.aspx
 ||ps.ecosia.org^
 ||ps.eyeota.net/pixel^
