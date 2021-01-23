@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202101220255
+! Version: 202101230207
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19682
+! Lenth = 19687
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -83,10 +83,10 @@
 108.62.192.122,23.81.209.214,plus28.com##div[style="margin: auto;width: 960px;margin-bottom: 10px;"]
 108.62.192.122,23.81.209.214,plus28.com##div[style="width:270px; height:180px;"]
 108.62.192.122,23.81.209.214,plus28.com##div[style="width:960px;margin: auto;"]
-1090ys1.com##.col-lg-wide-8 > p[style="text-align:center;"]
-1090ys1.com##a[href*="yb6277."]
-1090ys1.com,bbt.tv,btbt.tv,l32c.cn,nixingle.com#@#.google-ad
-1090ys1.com,wnacg.com,wnacg.org##a[href*="tyrantdb.com"]
+1090ys2.com##.col-lg-wide-8 > p[style="text-align:center;"]
+1090ys2.com##a[href*="yb6277."]
+1090ys2.com,bbt.tv,btbt.tv,l32c.cn,nixingle.com#@#.google-ad
+1090ys2.com,wnacg.com,wnacg.org##a[href*="tyrantdb.com"]
 10fang.com##.botad
 10fang.com##.foldcss
 10fang.com##.pro-item
@@ -1653,6 +1653,7 @@
 @@||icbc.com.cn/icbc/include/AD_
 @@||ifengimg.com/a/201*Player
 @@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
+@@||ifvod.tv/assets/lib/ads.js
 @@||iis1.deliver.ifeng.com/showcode?$domain=v.ifeng.com
 @@||iiszg.com/flw$domain=5tps.com
 @@||ikea.cn^*/img/ads/
@@ -13268,6 +13269,7 @@ zznews.cn##.ad:not([style])
 ||hp-china.biz^
 ||hp0hnj.cn^
 ||hpsszw.cn^
+||hpyx365.cn^
 ||hqcx.net/bbs/data/attachment/forum/201711/08/200952ipkhkmpjo5t0p5pv.jpg
 ||hqcx.net/images/baidu.jpg
 ||hqcx.net/index.php?m=poster&
@@ -14787,7 +14789,7 @@ zznews.cn##.ad:not([style])
 ||loli.net/2020/08/31/j6NV3wFeIxCtnBX.gif
 ||loli.net/2020/09/04/Wx3MdOVvsTPwIlE.gif
 ||loli.net/2020/10/26/cSHbJifFgNoyaz8.png
-||loli.net^$domain=1090ys1.com|520film.net|52pili.com|acglover.me|beiwodi.com|btdp.online|f6hx.site|hdsky.me|magnet2048.com|nulltm.com|xydai.cn
+||loli.net^$domain=1090ys2.com|520film.net|52pili.com|acglover.me|beiwodi.com|btdp.online|f6hx.site|hdsky.me|magnet2048.com|nulltm.com|xydai.cn
 ||loli.net^$domain=rmxs8.com|xinqingdou.com
 ||lolmp4.com/template/lolmp4/images/jquery.
 ||lolmp4.com^$third-party
@@ -15638,6 +15640,7 @@ zznews.cn##.ad:not([style])
 ||om.cn/api/ad-om/
 ||omgnjvrjgpeg.com^
 ||omztf.cn^
+||on1q0.cn^
 ||once88.cn^
 ||onedala.tv/uploads/banner/
 ||onegreen.net/MyFile/
@@ -19111,6 +19114,7 @@ zznews.cn##.ad:not([style])
 ||yt-adp.nosdn.127.net^
 ||yt-adp.ws.126.net^
 ||ytbbs.com/images/index/
+||ytbctyy.com^
 ||ytbnm.cn^
 ||ytcard.cn^
 ||ytdksb.com^
@@ -19461,6 +19465,7 @@ zznews.cn##.ad:not([style])
 ||zisu.cn.com^
 ||zitanmushu.com^
 ||zitaoh.cn^
+||zixiansun.com^
 ||zixun8.com^
 ||ziyeaiying.com^
 ||ziyuantx.com^
