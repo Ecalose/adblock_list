@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202101230207
+! Version: 202101240205
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24710
+! Lenth = 24736
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -586,6 +586,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /GAInit.js|
 /GARecord^
 /GetWebTrekkRecoElement?
+/GlanceCobrowseLoader_
 /GlancePresenceVisitor_
 /GomezTracking.
 /Google/ga.js
@@ -662,6 +663,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /NielsenTracking.
 /NitroCookies.js
 /Omniture/Tracking/*
+/OmnitureAkamai.
 /OmnitureAnalytics.
 /OmnitureTracking_
 /OpinionLab_Tag.
@@ -829,24 +831,28 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /^https?:\/\/src\.ebay-us\.com\/[_a-zA-Z0-9]{10,}\?/$script,domain=pages.ebay.com
 /^https?:\/\/tjmaxx\.tjx\.com\/libraries\/[a-z0-9]{20,}$script,xmlhttprequest,domain=tjx.com
 /^https?:\/\/tmx\.td\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com
-/^https?:\/\/www\.academy\.com\/bundles\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=academy.com
-/^https?:\/\/www\.backcountry\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=backcountry.com
-/^https?:\/\/www\.bestbuy\.com\/content\/{20,}/$script,xmlhttprequest,domain=bestbuy.com
+/^https?:\/\/www\.academy\.com\/webcontent\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=academy.com
+/^https?:\/\/www\.backcountry\.com\/clientlibs\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=backcountry.com
+/^https?:\/\/www\.bestbuy\.com\/resource\/{20,}/$script,xmlhttprequest,domain=bestbuy.com
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=ebay-kleinanzeigen.de
-/^https?:\/\/www\.eddiebauer\.com\/content\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=eddiebauer.com
-/^https?:\/\/www\.finishline\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=finishline.com
+/^https?:\/\/www\.eddiebauer\.com\/resource\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=eddiebauer.com
+/^https?:\/\/www\.finishline\.com\/contents\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=finishline.com
 /^https?:\/\/www\.gumtree\.com\/[0-9a-f]{3,}\-[0-9a-f]{2,}\-?/$domain=gumtree.com
-/^https?:\/\/www\.halifax-online\.co\.uk\/bundles\/[a-z0-9]{15,}/$script,domain=halifax-online.co.uk
+/^https?:\/\/www\.halifax-online\.co\.uk\/publicwww\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=halifax-online.co.uk
 /^https?:\/\/www\.imperva\.com\/[0-9a-f]{30,}\?/$script,xmlhttprequest,domain=imperva.com
-/^https?:\/\/www\.kohls\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=kohls.com
-/^https?:\/\/www\.macys\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=macys.com
-/^https?:\/\/www\.marshalls\.com\/utils\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=marshalls.com
-/^https?:\/\/www\.mouser\.com\/[a-z]{25,}.js/$script,xmlhttprequest,domain=mouser.com
-/^https?:\/\/www\.mouser\.com\/static\/[a-z0-9]{30,}/$script,domain=mouser.com
+/^https?:\/\/www\.kohls\.com\/clientlibs\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=kohls.com
+/^https?:\/\/www\.kroger\.com\/content\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=kroger.com
+/^https?:\/\/www\.kroger\.com\/resources\/{20,}/$script,xmlhttprequest,domain=kroger.com
+/^https?:\/\/www\.macys\.com\/clientlibs\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=macys.com
+/^https?:\/\/www\.marshalls\.com\/staticweb\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=marshalls.com
+/^https?:\/\/www\.mouser\.com\/staticweb\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=mouser.com
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
-/^https?:\/\/www\.sierra\.com\/content\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=sierra.com
-/^https?:\/\/www\.staples\.com\/bundles\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=staples.com
+/^https?:\/\/www\.pnc\.com\/clientlibs\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=pnc.com
+/^https?:\/\/www\.publix\.com\/webcontent\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=publix.com
+/^https?:\/\/www\.sierra\.com\/resource\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=sierra.com
+/^https?:\/\/www\.staples\.com\/publicwww\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=staples.com
 /^https?:\/\/www\.ugg\.com\/static\/[a-z0-9]{15,}/$domain=ugg.com
+/^https?:\/\/www\.usbank\.com\/webcontent\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=usbank.com
 /_/lite/performance/*
 /_CPiX/art
 /__Analytics-Start?url=
@@ -1270,6 +1276,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /analytics?http_referer
 /analytics?token=
 /analytics?url=
+/analyticsConfig?
 /analyticsFooter.
 /analyticsUnitaire?
 /analyticsUrlToDataMappings.
@@ -1506,6 +1513,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /beacon/baminsights.
 /beacon/collector/*
 /beacon/cpcookie.
+/beacon/error?
 /beacon/event/*
 /beacon/event?
 /beacon/get/*
@@ -3617,6 +3625,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /omniture/visitorapi.
 /omniture?
 /omnitureAMP.
+/omniture_tracking.
 /omniunih.js
 /oms_analytics_
 /onedot.php?
@@ -4264,6 +4273,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /semanticTagService.js
 /semsocial/*/analytics.js
 /send-impressions.html
+/sendLogs?cid
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
@@ -4493,6 +4503,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /stateye/*
 /static-tracking/*$script
 /static/analytics.js
+/static/cache.php?url=https://mc.yandex.com/metrika/*
+/static/cache/?url=https://mc.yandex.ru/*
 /static/tracking/*
 /statics/analytics.js?
 /statistic/*&data=
@@ -5556,6 +5568,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /wusage_screen_properties.gif?
 /wutime-adblocktracker/*
 /wv326redirect_
+/ww-analytics-
+/ww-performance-
 /wwwcount.cgi?
 /wysistat.js
 /wz_logging.
@@ -8276,7 +8290,6 @@ intercom-mail-100.com/o$image
 ixbt.com##.block__recommend
 jaiefra.com###Stats10_content
 journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Счетчик)"]
-k*ck*ss*/static/cache/?url=https://mc.yandex.ru/
 kanobu.ru##a[href^="https://www.liveinternet.ru/click"]
 kerch.com.ru,kerch.net##a[href^="http://www.kerch.net/counter/"]
 kinoman.me#?##extra_block > div.extra_mod > div.extra_mod:has(> div.extra_mod_title:contains(Счетчики))
@@ -9065,6 +9078,7 @@ znak.com##.relap
 ||akamaihd.net/bping.php?
 ||akamaihd.net/javascripts/browserfp.
 ||akamaihd.net/log?
+||akamaihd.net/p1lakjen.gif
 ||akamaihd.net/pixelkabam/
 ||akamaihd.net/push.gif?
 ||akamaihd.net/worldwide_analytics/tagcommander/
@@ -10408,6 +10422,7 @@ znak.com##.relap
 ||bfmio.com^$third-party
 ||bfnsoftware.com^*/environment.cgi?
 ||bfoleyinteractive.com^$third-party
+||bfp.capitalone.com^
 ||bglog.bitauto.com^
 ||bgpng.me^$third-party
 ||bhcumsc.com^$third-party
@@ -12134,6 +12149,7 @@ znak.com##.relap
 ||cttracking02.com^$third-party
 ||cubchannel.com^$third-party
 ||cuberoot.co^$third-party
+||cultofmac.com/djrxqhzkbsgf.js
 ||cultofmac.com/presslabs.js
 ||culturedcrayon.com^$third-party
 ||cumbersomecake.com^$third-party
@@ -12506,6 +12522,7 @@ znak.com##.relap
 ||dcmn.io^$third-party
 ||dcs.maxthon.com^
 ||dct.mango-office.ru^$third-party
+||dd.lendup.com^
 ||dd.nytimes.com^
 ||dd3p.com/sensor/ddsense.aspx?
 ||dd6zx4ibq538k.cloudfront.net^
@@ -13155,6 +13172,7 @@ znak.com##.relap
 ||eharmony.co.uk/bd/
 ||ehow.com/services/jslogging/log/?
 ||eiga.k-img.com/javascripts/td.js?1578981009
+||eightieskids.com/cqaa2nlyb6jwvhk7amtptg4vak59chpgji9z9gd0dvrgby-pbhj2vyzsb7ttlmqp
 ||ejyymghi.com^$third-party
 ||ek8.voyage-prive.com^
 ||ekg.riotgames.com^
@@ -15579,6 +15597,7 @@ znak.com##.relap
 ||iono.fm/tracking?
 ||ios.bugly.qq.com^
 ||iotechnologies.com^$third-party
+||iovation.com^$third-party
 ||ip-adress.com/gl?r=
 ||ip-adress.com^$third-party
 ||ip-api.com^$third-party
@@ -18095,6 +18114,7 @@ znak.com##.relap
 ||optimizely.com^$third-party
 ||optimizelydata.com^$third-party
 ||optimost.com^$third-party
+||optimove.net^$third-party
 ||optimum.net^*=pageview&
 ||optin-machine.com^$third-party
 ||optinproject.com/rt/visit/
@@ -18386,6 +18406,7 @@ znak.com##.relap
 ||perezhilton.com^*/stat/
 ||perf-serving.com^$third-party
 ||perf.dugout.com^
+||perf.mouser.com^
 ||perfdrive.com^$third-party
 ||perfect-privacy.com^*/?a_aid=$third-party
 ||perfectaudience.com^$third-party
@@ -18740,6 +18761,7 @@ znak.com##.relap
 ||podiumpresto.com^$third-party
 ||pointillist.com^$third-party
 ||pointlessrifle.com^$third-party
+||pointmediatracker.com^$third-party
 ||pointomatic.com^$third-party
 ||poisedpig.com^$third-party
 ||pokernews.com/track-views.php?
@@ -19235,6 +19257,7 @@ znak.com##.relap
 ||radiotime.com/Report.ashx?
 ||radiotime.com/reports/
 ||raidlight.com/*/index.php?controller=statistics
+||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||railwayrainstorm.com^$third-party
 ||railwayreason.com^$third-party
 ||raintwig.com^$third-party
@@ -21677,6 +21700,7 @@ znak.com##.relap
 ||t.allmodern.com^
 ||t.appsflyer.com^
 ||t.arianelab.com^
+||t.auditedmedia.org.au^
 ||t.av.st^
 ||t.beop.io^
 ||t.beopinion.com^
@@ -21821,6 +21845,7 @@ znak.com##.relap
 ||tags.clickagy.com^
 ||tags.creativille.co.uk^
 ||tags.globo.com/utag/globo/*/prod/utag.js
+||tags.globo.com^
 ||tags.master-perf-tools.com^
 ||tags.msnbc.com^
 ||tags.news.com.au^$script
@@ -24319,6 +24344,7 @@ znak.com##.relap
 ||x.allabout.co.jp^
 ||x.babe.today^
 ||x.bloggurat.net^
+||x.disq.us^
 ||x.interia.pl/inpl/inpl.klmcounter.*.js
 ||x.ligatus.com^$third-party
 ||x.weather.com^
