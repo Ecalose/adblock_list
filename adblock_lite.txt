@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202101240205
+! Version: 202101250228
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19695
+! Lenth = 19700
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -419,6 +419,7 @@
 18board.com,18p2p.com##a[target="_blank"] > img[width="330"]
 18board.com,18p2p.com##a[target="_blank"] > img[width="728"]
 18board.com,18p2p.com##a[target="_blank"] > img[width="900"]
+18board.com,18p2p.com##a[target="_blank"] > img[width="920"]
 18comic.org,18comic.vip##a[href^="http"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip##div[data-height="250"][data-width="300"]
 18comic.org,18comic.vip##div[data-height="264"][data-width="956"]
@@ -669,6 +670,7 @@
 3dmgame.com##.R_qingtianzhu
 3dmgame.com##.Tonglan
 3dmgame.com##.adshop
+3dmgame.com##.fell_left_advertisement
 3dmgame.com##.modAD
 3dmgame.com##.tonglona_1
 3dmgame.com##.tonglona_2
@@ -7276,7 +7278,7 @@ www.sogou.com##.tgad-box + div
 www.wangjing.cn##.content > div[style*="980px;"]
 www.wenxuecity.com###leftside
 www.wenxuecity.com###rightside
-www.wenxuecity.com##.col > ul:not([id]) > li > a[href^="http://"]:not([href*=".wenxuecity."])
+www.wenxuecity.com##.col > ul:not([id]) > li > a[href^="http"]:not([href*=".wenxuecity."])
 www.wpdaxue.com##:not(.post-thumbnail) > a[target="_blank"] > img
 www.zol.com.cn##div[id^="Bar"]
 www.zol.com.cn#@##search_ad
@@ -10740,6 +10742,7 @@ zznews.cn##.ad:not([style])
 ||bqhnj.cn^
 ||bqiapp.com/api/config/ad?
 ||bqqsdv73724.cn^
+||braincf.com^
 ||brand.sogou.com/micro?yyid=
 ||brysj.vip^
 ||bs.baidu.com/app-ads%
@@ -11306,6 +11309,7 @@ zznews.cn##.ad:not([style])
 ||cnplugins.com/templets/cnplugins/pushbox1.js
 ||cnr.cn/cnrxwph/iframe/tpdy/
 ||cnr.cn/s?z=
+||cnrok169.com^
 ||cnsayo.com^
 ||cnscdj.com^
 ||cnscg.com/api.php?mod=ad&
@@ -13965,6 +13969,7 @@ zznews.cn##.ad:not([style])
 ||jiazihao.cn^
 ||jibn12.jintang114.org^
 ||jiecao12.com/guanggao
+||jiedaibao120.cn^
 ||jiegeng.com/static/json/jg_topFixed.
 ||jiehantai.com^
 ||jiejiemimu.cn^
