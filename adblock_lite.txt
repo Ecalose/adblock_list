@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202101250228
+! Version: 202101260128
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19700
+! Lenth = 19706
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -10434,6 +10434,7 @@ zznews.cn##.ad:not([style])
 ||bcquan.me/front/home/render
 ||bcunr.com^
 ||bd-s.baixing.net^
+||bd.beimap.com^
 ||bd.czxuexi.com^
 ||bd.ershenghuo.com^
 ||bd1-china.6789.com^
@@ -12239,6 +12240,7 @@ zznews.cn##.ad:not([style])
 ||f1t5pb.cn^
 ||f1zd.com^$third-party
 ||f2zd.com^
+||f50b5.cn^
 ||f6ce.com^
 ||f70123.com^
 ||f8272.com^$third-party
@@ -12911,6 +12913,7 @@ zznews.cn##.ad:not([style])
 ||gzmzts.com^
 ||gznsyh.com^
 ||gznwn.com^
+||gzqswl.cn^
 ||gzqudou.com^
 ||gzrljx.cn^
 ||gzxiongwa.cn^
@@ -14270,6 +14273,7 @@ zznews.cn##.ad:not([style])
 ||jz5u.com/public/new/
 ||jzb.com/website/fe/pub_js/dbclickshow.js
 ||jzn360.cn^
+||jzrzpump.com^
 ||k.youku.com/player/getFlvPath/sid/*&vl=
 ||k1.dancihu.com^
 ||k1.wanwenwan.cn^
@@ -15171,6 +15175,7 @@ zznews.cn##.ad:not([style])
 ||mixer.sina.cn^
 ||mixer.video.iqiyi.com/jp/mixin/resources/
 ||mjita.cn^
+||mjtowot.cn^
 ||mjx123.com^
 ||mkaqh.cn^
 ||mkd88.cc/16.32.jpg
@@ -15599,6 +15604,7 @@ zznews.cn##.ad:not([style])
 ||o.phb123.com^
 ||o091i.com^$third-party
 ||o1.jyjyj.cn^
+||o5ikm6.cn^
 ||o6uea.cn^
 ||oa-panther.data.aliyun.com^$third-party
 ||oa.hinews.cn/work/img/
