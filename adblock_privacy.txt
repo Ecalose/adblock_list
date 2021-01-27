@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202101260128
+! Version: 202101270125
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24577
+! Lenth = 24603
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -315,6 +315,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .iframetracker/
 .in/c.gif?
 .innologica.com/t/
+.instructure.com/api/v1/courses/*/ping
+.instructure.com/page_views
 .intercom-mail.com/q/
 .io/0.gif?
 .io/track?
@@ -3801,11 +3803,11 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /pinterest-pixels.
 /pippio.
 /pistats/cgi-bin/*
-/piwik-$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro|piwikpro.de
+/piwik-$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
 /piwik-$domain=~piwik.org|~piwik.pro
 /piwik.$domain=wetter.com
 /piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro
-/piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|piwikpro.de
+/piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
 /piwik.*/ping?
 /piwik.js
 /piwik.php
@@ -3901,6 +3903,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /pladtrack.
 /planetstat.
 /platform-analytics-
+/plausible.js
 /player_counter.ashx?
 /playerlogger.
 /playerstats.gif?
@@ -4059,6 +4062,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /rcmd_track.
 /rcpganalytics-
 /rcpganalytics/*
+/rd-js-integration.min.js
+/rdstation-popup.min.js
 /re-engage/render.
 /readReceipt/notify/?img=$image
 /readcounter.aspx?
@@ -5671,6 +5676,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 ://b.*/vanity/?
 ://c.*/c.gif?
 ://c1.*/c.gif?
+://cmpv2.
 ://collect.*/pageview
 ://collector.*/event
 ://ct1.*.com/sc/
@@ -7132,6 +7138,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||k12-company.ru^*/statistics.js$script
 @@||kaltura.com/content/*/comscorePlugin.swf
+@@||kameleoon.com/geolocation.gif$domain=welt.de
+@@||kameleoon.com/ip.gif$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 @@||kapaza.be/nl/js/xtcore_$script,domain=kapaza.be
 @@||kaspersky.co$content
@@ -7178,11 +7186,11 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||link.theplatform.com/*/tracker.log?
 @@||link.theplatform.com/*?affiliate=
 @@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
+@@||live.bbc.co.uk^*/comscore.js$script,~third-party
 @@||live.indiatimes.com/trackjs.cms
 @@||liveinternet.ru/code$generichide,genericblock,domain=liveinternet.ru
 @@||livenation.122.2o7.net/b/ss/$domain=oss.ticketmaster.com
 @@||lloydstsb.com/it/xslt/touchclarity/omtr_tc.js
-@@||lngtd.com^$script,domain=collegeconfidential.com
 @@||load.sumome.com/$domain=deekit.com
 @@||loadus.exelator.com/load/?p=$script,domain=rrstar.com
 @@||log.mmstat.com/eg.js$domain=youku.com
@@ -8040,6 +8048,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||ws.webcaster.pro^$websocket
 @@||wwe.com/sites/all/modules/wwe/wwe_analytics/s_wwe_code.js
 @@||www.googletagmanager.com^$domain=onlineshop.smt.docomo.ne.jp
+@@||www.ups.com/WebTracking/processInputRequest
 @@||x5.xclicks.net/js/x3165.js$domain=small-breasted-teens.com
 @@||xcweather.co.uk/*/geo.php?
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
@@ -8664,6 +8673,7 @@ znak.com##.relap
 ||abebooks.com/timer.gif?
 ||abendblatt.de/stats
 ||ablaze-class.space/stats
+||ablida.net^$third-party
 ||ablsrv.com^$third-party
 ||abmr.net^$third-party
 ||aboardamusement.com^$third-party
@@ -8779,6 +8789,7 @@ znak.com##.relap
 ||ad7.bigmir.net^
 ||ad7.com^$third-party
 ||adabra.com^$third-party
+||adagency.digital^$third-party
 ||adalyser.com^$third-party
 ||adapd.com/addon/upixel/
 ||adash.m.taobao.com/rest/sur?ak=
@@ -10928,6 +10939,12 @@ znak.com##.relap
 ||canstockphoto.com/monitor/
 ||canvas-ping.conduit-data.com^
 ||canvas-usage-v2.conduit-data.com^
+||canvas.*.ac.*/api/v1/courses/*/ping
+||canvas.*.ac.*/page_views
+||canvas.*.edu.*/api/v1/courses/*/ping
+||canvas.*.edu.*/page_views
+||canvas.*.edu/api/v1/courses/*/ping
+||canvas.*.edu/page_views
 ||capablecows.com^$third-party
 ||capablecup.com^$third-party
 ||caphyon-analytics.com^$third-party
@@ -12039,6 +12056,7 @@ znak.com##.relap
 ||crm-analytics.imweb.ru^
 ||crm-analytics.imweb.ru^$third-party
 ||crm-vwg.com/tracker/
+||crm.agency^$third-party
 ||crm.zenguard.biz^
 ||crmmetrix.fr^$third-party
 ||crmmetrixwris.com^$third-party
@@ -12208,7 +12226,7 @@ znak.com##.relap
 ||d1fc8wv8zag5ca.cloudfront.net^
 ||d1gofkrkum4ehe.cloudfront.net/tracker.js
 ||d1gp8joe0evc8s.cloudfront.net^
-||d1gwclp1pmzk26.cloudfront.net^$third-party
+||d1gwclp1pmzk26.cloudfront.net^
 ||d1hi41nc56pmug.cloudfront.net^
 ||d1iazwv1n1tsyi.cloudfront.net^
 ||d1igp3oop3iho5.cloudfront.net^
@@ -12298,6 +12316,7 @@ znak.com##.relap
 ||d31j93rd8oukbv.cloudfront.net^
 ||d31qbv1cthcecs.cloudfront.net^
 ||d32hwlnfiv2gyn.cloudfront.net^
+||d335luupugsy2.cloudfront.net^
 ||d33im0067v833a.cloudfront.net^
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d34qb8suadcc4g.cloudfront.net^
@@ -13293,6 +13312,7 @@ znak.com##.relap
 ||estadonline.publiguias.cl^
 ||estara.com^$third-party
 ||estat.com^$third-party
+||estat.zum.com^
 ||estrack.net^$third-party
 ||estream.to/bootstrap.min.js$script
 ||estream.to/player.js
@@ -15377,6 +15397,7 @@ znak.com##.relap
 ||inpref.s3.amazonaws.com^$third-party
 ||inputs.alooma.com/track^
 ||inpwrd.com^$third-party
+||inq.com/tagserver/
 ||inq.com/tagserver/*/onEvent
 ||inq.com/tagserver/logging/
 ||inq.com/tagserver/tracking/
@@ -15961,6 +15982,7 @@ znak.com##.relap
 ||l.player.ooyala.com^
 ||l.popin.cc^
 ||l.sharethis.com^
+||l.typesquare.com^
 ||l.www.naver.com^
 ||l2.io/ip.js
 ||l2.io/ip.js?var=$third-party
@@ -21268,6 +21290,7 @@ znak.com##.relap
 ||statun.com^$third-party
 ||statuncore.com^$third-party
 ||statuscake.com^$third-party
+||statweb.egloos.com^
 ||statwup.huya.com^
 ||statystyki.panelek.com^
 ||stayfriends.de/mobilemember/js/framework/sf_tracking.js
@@ -21651,7 +21674,9 @@ znak.com##.relap
 ||tag.datariver.ru^$third-party
 ||tag.elevaate.io^
 ||tag.getdrip.com^$third-party
+||tag.goadopt.io^$third-party
 ||tag.goldenbees.fr^
+||tag.hariken.co^$third-party
 ||tag.leadplace.fr^
 ||tag.myplay.com^
 ||tag.pprl.io^
@@ -23305,6 +23330,7 @@ znak.com##.relap
 ||uuxnwoevyb.com^$third-party
 ||uzerly.net^$third-party
 ||uzrating.com^$third-party
+||v*.denakop.com^$third-party
 ||v-collector.dp.aws.charter.com^
 ||v.blog.sohu.com/dostat.do?
 ||v.emedia.cn^
