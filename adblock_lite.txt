@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202101270125
+! Version: 202101280124
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19710
+! Lenth = 19729
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1569,6 +1569,7 @@
 @@||firefox.com.cn/media/img/mozcn/spread/468-60-
 @@||fltaradio.com/js/ads.js
 @@||flyert.com/plug/socialShare/js/social-share.
+@@||flyv.tv/assets/lib/ads.js
 @@||fm.ipinyou.$domain=ipinyou.com.cn
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
 @@||forexprostools.com^$domain=shougedui.com
@@ -3806,6 +3807,7 @@ fixdown.com##a[onclick^="count_down"]
 fjsen.com,nuomi.com#@#.right-ad
 flight.qunar.com##.l_rside > .b_fly_ban_b:nth-child(2)
 flighty.cn###searchBox + #sidebarBox
+flyv.tv##vg-pause-ads
 flyzy2005.com##.baidu_ad
 flyzy2005.com##.widget_kratos_ad
 fmdisk.com##div[style="width: 960px; margin: 0 auto; height:900px; color: #F00; font-size: 14px; text-align:left;"] > p
@@ -4040,7 +4042,8 @@ greenxiazai.com##.yinsu_xz
 gs.chinanews.com.cn##.div1000_2 + .div980
 gsxt.gov.cn#@#.ads-right
 gter.net##.bottom
-gtloli.live##.sd_recpic
+gtloli.live,gtloli.one##.sd_recpic
+gtloli.one###topbanner
 guagua.cn###floatRoomDiv
 guahao.com##.link-modal
 guancha.cn###ewm_app
@@ -5561,6 +5564,7 @@ muzhi.baidu.com##.quick-ask-2 + .android + div
 muzhi.baidu.com##.rightnest
 muzhi.baidu.com##.wgt-best-answer + script + div
 muzhi.baidu.com##.wgt-container
+mvcat.com###ad-jd
 mvcat.com##.jsalert
 mwrf.net##.uc1_focus_pics
 mx-fm.com,ts.21cn.com#@#.ad_img
@@ -5601,6 +5605,7 @@ mydrivers.com##a[href*=".ashx?to="]
 mydrivers.com##a[style][href*=".jd.com/"]
 mydrivers.com##div[id$="_tab"] > ul > li[style]
 mydrivers.com##div[style*="/ad/"]
+mydrivers.com##div[style="width:728px;height:90px; margin: auto; padding-top: 5px;"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 mydrivers.com##div[style^="width:728px; height:90px;"]
 mydrivers.com#?#.news_info > p:last-of-type + div:-abp-has(> br + a)
@@ -6381,6 +6386,7 @@ sina.com.cn##.center-pdps
 sina.com.cn##.center-pdps-02
 sina.com.cn##.cj_app_left
 sina.com.cn##.clearAd
+sina.com.cn##.f_app_screen_wrap
 sina.com.cn##.fl_feedFous
 sina.com.cn##.gamead1
 sina.com.cn##.m-p1-lb1-ad
@@ -7542,6 +7548,9 @@ yixingjia.com###wp > table[width="960"]
 yizhibo.com###J_reg_guide
 yjcf360.com##.side_box
 yjcf360.com##.side_box2
+yjlyghy.com##.detail_adver
+yjlyghy.com##.detail_qrcode
+yjlyghy.com##.foot_d
 ylfx.com##.info_logrt
 ylnet.com.cn###winpop1
 yn-dove.cn##div[style="margin-top: 10px; padding: 10px; "]
@@ -11426,6 +11435,7 @@ zznews.cn##.ad:not([style])
 ||cqgya.com^
 ||cqjjlsy.com^
 ||cqlxscdc.top^
+||cqshaseng.com^
 ||cqtnfs.com^$domain=~agefans.tv
 ||cqvip.com/viewserver/ViewAD
 ||cqyhd.com^
@@ -12322,6 +12332,7 @@ zznews.cn##.ad:not([style])
 ||fengchedaomall.cn^
 ||fenggejiaju.com^
 ||fenglan.oss-cn-shenzhen.aliyuncs.com^*.gif
+||fengmishop.cn^
 ||fengniao.com*/pv.js
 ||fengxiangstore.com^$third-party
 ||fengyelin.net^
@@ -12388,6 +12399,7 @@ zznews.cn##.ad:not([style])
 ||fll007.com^
 ||flowcodeapp.com^
 ||flowertt.com^
+||flyv.tv/a/$xmlhttprequest
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
 ||fm6w.com^
 ||fmhua.com/template/*/images/g_js/*.html
@@ -13085,6 +13097,7 @@ zznews.cn##.ad:not([style])
 ||hdzkjv.cn^
 ||he2d.com/crossdomain.xml
 ||headwell.cn^
+||heartshow.cn^$third-party
 ||heavenwil.top^
 ||hebei.com.cn/eap/
 ||hebei.com.cn/sys/online_calc.js
@@ -13993,6 +14006,7 @@ zznews.cn##.ad:not([style])
 ||jin10.com/assets/img/sites/index/vip_ad
 ||jin10.com/news_service/static/config/details.config.
 ||jinchaoyu.com^
+||jindowins.com^
 ||jindu179.com^
 ||jinfengit.com^
 ||jinfu.love/files/h5/
@@ -14841,6 +14855,7 @@ zznews.cn##.ad:not([style])
 ||lraa.xiaoniutui.com^
 ||lsforum.net/cam2/*.gif
 ||lsforum.net/yahooad/
+||lshmjz.com^
 ||lsiwd.cn^
 ||lsjxs2.xyz/js/html
 ||lsnzxzy1.com/Runtime/js/psData.js
@@ -15339,6 +15354,7 @@ zznews.cn##.ad:not([style])
 ||mydrivers.com/2018/ad/
 ||mydrivers.com/2018/news/ad
 ||mydrivers.com/2020/news/8/kkj_msi.gif
+||mydrivers.com/2021/news/kkj_msi.gif
 ||mydrivers.com/2021/www/nianhuojie.png
 ||mydrivers.com/images/*_1100_90.
 ||mydrivers.com/images/hongbao
@@ -15951,6 +15967,7 @@ zznews.cn##.ad:not([style])
 ||pppxia.com^
 ||ppshk.com^*banner/
 ||ppsj.com.cn/images/ppsj300.gif
+||ppt.ifvod.tv/upload/video/*.jpg$domain=flyv.tv
 ||pptv.com/game/aplus/client/gamedetail.html
 ||pqezdo.cn^
 ||pqnlorg.cn^
@@ -17524,6 +17541,7 @@ zznews.cn##.ad:not([style])
 ||top.taobao.com^$subdocument,third-party
 ||top267.com^
 ||top888.com^$third-party
+||topazedu.com^
 ||topline.cc^
 ||topmba.mobi/ad/
 ||topqualitylink.com^$third-party
@@ -19148,6 +19166,7 @@ zznews.cn##.ad:not([style])
 ||yttz113.com^
 ||yu0123456.com^$third-party
 ||yuanbao777.com/download/*.gif
+||yuandongoffice.com^
 ||yuanhangpiju.cn^
 ||yuanhsu.com^$third-party
 ||yuanmengbi.com^

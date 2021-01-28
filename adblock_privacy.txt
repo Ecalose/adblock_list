@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202101270125
+! Version: 202101280124
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24603
+! Lenth = 24614
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -499,8 +499,10 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /AnalyticsEvent.
 /AnalyticsOnDemand/*
 /AppMeasurement.js
+/AppMeasurement.min.js
 /AppMeasurement2.js
 /AppMeasurementCustom.
+/AppMeasurement_Module_
 /Article/ViewCount/*
 /ArticleCounterLogger.
 /ArticleLog.aspx?
@@ -5838,6 +5840,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||122.2o7.net/b/ss/$image,domain=billetnet.dk|billettservice.no|goal.com|lippupalvelu.fi|pcworld.com|riverisland.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se
 @@||195.82.146.52/logo/logo.gif
 @@||1gr.cz/js/dtm/cache/satelliteLib-$domain=idnes.cz
+@@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
 @@||2gis.ru/assets/apitracker-*.$domain=2gis.ru
 @@||2o7.net^$domain=audiusa.com
 @@||360buyimg.com^*/components/default/$script,domain=jd.com
@@ -5871,7 +5874,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||adidas.com^*/adidasAnalytics.js?
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
-@@||adobedtm.com/*-source.min.js$script,domain=backcountry.com|dollargeneral.com|kroger.com
+@@||adobedtm.com/*-source.min.js$script,domain=atresplayer.com|backcountry.com|dollargeneral.com|kroger.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|kroger.com
 @@||adobedtm.com/extensions/$script,domain=atresplayer.com
 @@||adobedtm.com/launch-$script
@@ -9495,6 +9498,7 @@ znak.com##.relap
 ||analytics.optilead.co.uk^
 ||analytics.orenshmu.com^
 ||analytics.ostr.io^
+||analytics.ovh.com^
 ||analytics.paddle.com^
 ||analytics.performable.com^
 ||analytics.photorank.me^
@@ -10263,6 +10267,7 @@ znak.com##.relap
 ||bbc.co.uk/analytics?
 ||bbc.co.uk^*/tracker.js
 ||bbc.co.uk^*/vs.js
+||bbc.com/ngas/latest/dotcom-analytics.js
 ||bbci.co.uk/archive_stats/
 ||bbci.co.uk^*/analytics.js
 ||bbl.k.dk/tracking/
@@ -11052,6 +11057,7 @@ znak.com##.relap
 ||cdn.cr.org/etc/designs/electronics/clientlibs/tracking.js
 ||cdn.d2-apps.net/js/tr.js
 ||cdn.daenischesbettenlager.de/analytics.js
+||cdn.digitaloceanspaces.com/pixel/lp.js
 ||cdn.dopc.cz/gen/detect.png
 ||cdn.driveback.ru^$third-party
 ||cdn.feeds.ibt.com/track.gif^
@@ -11679,7 +11685,7 @@ znak.com##.relap
 ||comic-rocket.com/metrics.js
 ||comic.naver.com/ad/flex/stats.nhn
 ||commander1.com^$third-party
-||commandersact.com^
+||commandersact.com^$third-party
 ||commandwalk.com^$third-party
 ||commentarymagazine.com^*/track.asp?
 ||commercialappeal.com/metrics/
@@ -13277,7 +13283,7 @@ znak.com##.relap
 ||episerver.net^$third-party
 ||epitrack.com^$third-party
 ||epiv.cardlytics.com^$third-party
-||epl.paypal-communication.com^
+||epl.paypal-communication.com^$script
 ||eporner.com/stats/
 ||eppingforestguardian-gb.eppingforestguardian.co.uk^
 ||epro.sogou.com^
@@ -16633,6 +16639,7 @@ znak.com##.relap
 ||mailboxmeeting.com^$third-party
 ||mailing.enews.extremetech.com^$image
 ||mailings.gmx.net/action/view/$image
+||maillist-manage.com/wa/ActionLogger?
 ||mailmax.co.nz/login/open.php$third-party
 ||mailstat.us^$third-party
 ||mailtrack.io/trace/mail/*.png
@@ -17465,6 +17472,7 @@ znak.com##.relap
 ||nativesubscribe.pro^$third-party
 ||nativly.com^*/track?
 ||natpal.com^$third-party
+||naturabuy.fr/xternalpixel.php?
 ||naturaltracking.com^$third-party
 ||nature.com/platform/track/$image
 ||nature.com^*/marker-file.nocache?
@@ -18927,6 +18935,7 @@ znak.com##.relap
 ||push-ad.com^$third-party
 ||push-free.com^$third-party
 ||push-house.net^$third-party
+||push.soft-com.biz/api/ui/metrics
 ||push2check.com^$third-party
 ||push4site.com^$third-party
 ||pushalert.co^$third-party
@@ -19697,6 +19706,7 @@ znak.com##.relap
 ||s.aimg.sk/livemonitor/js/aztracker.js
 ||s.batuu.pl/smartlink/collect?
 ||s.clickability.com^
+||s.clickiocdn.com^
 ||s.clicktex.ru^$third-party
 ||s.conyak.com^$third-party
 ||s.d.adup-tech.com/services/track.js
@@ -19814,7 +19824,6 @@ znak.com##.relap
 ||sarov.ws^$third-party
 ||sas.com^$third-party
 ||sas15k01.com^$third-party
-||sas53netbynet.visualon.info^
 ||sasontnwc.net/track/
 ||sat.sanoma.fi^
 ||satisfycork.com^$third-party
@@ -19948,7 +19957,6 @@ znak.com##.relap
 ||search.ch/audit/
 ||search.usa.gov/javascripts/stats.js
 ||search.yahoo.com/ra/click?
-||search1.daumcdn.net/search/statics/common/js/log
 ||searchcompletion.com/BannerHandler.ashx
 ||searchenginejournal.com/xcs0MhRsfxHG.js
 ||searchenginewatch.com/utils/article_track/
@@ -20809,6 +20817,7 @@ znak.com##.relap
 ||st.arte.tv^
 ||st.cdnco.us^
 ||st.dynamicyield.com^
+||st.hbrd.io^
 ||st.linkfire.com^
 ||st.onlygip.tech^$third-party
 ||st.tmgrup.com.tr^
@@ -21921,6 +21930,7 @@ znak.com##.relap
 ||thairath.co.th/event/
 ||thcdn.com/*/tracking/*.js$domain=myprotein.ru|myprotein.com|myprotein.com.ua|myprotein.sk|myprotein.co.za
 ||the-group.net/aether/
+||theactivetag.com^$third-party
 ||theadex.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|quoka.de|ran.de|sat1.de|sixx.de
 ||theadex.com^$domain=prosieben.at|prosieben.ch|prosieben.de
 ||theadex.com^$domain=wetter.com
@@ -22392,6 +22402,7 @@ znak.com##.relap
 ||track.slideshare.net^
 ||track.social.com^
 ||track.sohu.com^
+||track.spacepush.ru^
 ||track.special-offers.online^$third-party
 ||track.spots.im^
 ||track.sprinklecontent.com^
