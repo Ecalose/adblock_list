@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202101290135
+! Version: 202101300154
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24628
+! Lenth = 24640
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -837,7 +837,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /^https?:\/\/tmx\.td\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com
 /^https?:\/\/www\.academy\.com\/webcontent\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=academy.com
 /^https?:\/\/www\.backcountry\.com\/clientlibs\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=backcountry.com
-/^https?:\/\/www\.bestbuy\.com\/resource\/{20,}/$script,xmlhttprequest,domain=bestbuy.com
+/^https?:\/\/www\.bestbuy\.com\/resource\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=bestbuy.com
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/www\.eddiebauer\.com\/resource\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=eddiebauer.com
 /^https?:\/\/www\.finishline\.com\/contents\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=finishline.com
@@ -845,16 +845,16 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /^https?:\/\/www\.halifax-online\.co\.uk\/publicwww\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=halifax-online.co.uk
 /^https?:\/\/www\.imperva\.com\/[0-9a-f]{30,}\?/$script,xmlhttprequest,domain=imperva.com
 /^https?:\/\/www\.kohls\.com\/clientlibs\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=kohls.com
-/^https?:\/\/www\.kroger\.com\/content\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=kroger.com
+/^https?:\/\/www\.kroger\.com\/library\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=kroger.com
 /^https?:\/\/www\.kroger\.com\/resources\/{20,}/$script,xmlhttprequest,domain=kroger.com
 /^https?:\/\/www\.macys\.com\/clientlibs\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=macys.com
 /^https?:\/\/www\.marshalls\.com\/staticweb\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=marshalls.com
 /^https?:\/\/www\.mouser\.com\/staticweb\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=mouser.com
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
-/^https?:\/\/www\.pnc\.com\/clientlibs\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=pnc.com
+/^https?:\/\/www\.pnc\.com\/contents\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=pnc.com
 /^https?:\/\/www\.publix\.com\/webcontent\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=publix.com
 /^https?:\/\/www\.sierra\.com\/resource\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=sierra.com
-/^https?:\/\/www\.staples\.com\/publicwww\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=staples.com
+/^https?:\/\/www\.staples\.com\/yuolsoiifpm\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=staples.com
 /^https?:\/\/www\.ugg\.com\/static\/[a-z0-9]{15,}/$domain=ugg.com
 /^https?:\/\/www\.usbank\.com\/webcontent\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=usbank.com
 /_/lite/performance/*
@@ -1150,6 +1150,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /analytics-helper.
 /analytics-ingestion/*
 /analytics-ingress-
+/analytics-initial-
 /analytics-js.
 /analytics-js/*
 /analytics-min.js
@@ -3130,7 +3131,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /landings-pixel?
 /layer_log.php?p=
 /lbi_ga.
-/lcslog*.js$domain=naver.com|playentry.org|modoo.at
+/lcslog*.js$domain=playentry.org|modoo.at
 /ldsimp_wf?
 /lead-tracking.
 /lead-tracking/*
@@ -4753,6 +4754,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /timingcg.
 /tiwik.
 /tjp_beacon.
+/tjx-tracking-
 /tmpstats.gif?
 /tms/metrics.
 /tmv11.
@@ -6724,6 +6726,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/gtm/js?id=$domain=incehesap.com
 @@||google-analytics.com/gtm/js?id=$domain=joblo.com
 @@||google-analytics.com/gtm/js?id=$domain=m.papajohns.ru
+@@||google-analytics.com/gtm/js?id=$domain=polygon.com
 @@||google-analytics.com/gtm/js?id=$domain=reuters.com
 @@||google-analytics.com/gtm/js?id=$domain=seattletimes.com
 @@||google-analytics.com/gtm/js?id=$domain=theverge.com
@@ -8545,6 +8548,7 @@ znak.com##.relap
 ||4pna.com/clientscript/kr_scripts/rbs_scripts/rbs_banner_sender.min.js
 ||4seeresults.com^
 ||4spoonyexperiment.com^$third-party
+||4sqt6jq.de^
 ||4stats.de^$third-party
 ||50bang.org^$third-party
 ||51network.com^$third-party
@@ -8609,6 +8613,7 @@ znak.com##.relap
 ||a-counter.com.ua^$third-party
 ||a-counter.kiev.ua^$third-party
 ||a-counters.com^$third-party
+||a-i-ad.com^$third-party
 ||a-mo.net^$third-party
 ||a-pagerank.net^$third-party
 ||a.20minutes.fr^
@@ -10718,6 +10723,7 @@ znak.com##.relap
 ||breakingburner.com/stats.html?
 ||breakmedia.com/track.jpg?
 ||breaktime.com.tw^$third-party
+||breathebuds.com^
 ||brentwoodlive-gb.brentwoodlive.co.uk^
 ||bridgetrack.com/site/
 ||bridgetrack.com/track/
@@ -11078,6 +11084,7 @@ znak.com##.relap
 ||cdn.milffox.com/static/milffox.com/js/gtm.js
 ||cdn.mosoah.com/analytics.js
 ||cdn.odoscope.cloud^$third-party
+||cdn.omuz.com.tr/connect/pub-min.js
 ||cdn.resonate.com^$third-party
 ||cdn.retailrocket.ru/*/tracking.js
 ||cdn.segment.com/analytics.js
@@ -14511,6 +14518,7 @@ znak.com##.relap
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=home24.de
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=m.investing.com
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=maz-online.de|ostsee-zeitung.de|lvz.de
+||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=polygon.com
 ||google-analytics.com/analytics_debug.js
 ||google-analytics.com/batch^
 ||google-analytics.com/collect
@@ -14557,6 +14565,7 @@ znak.com##.relap
 ||googleadapis.l.google.com^
 ||googleadservices.com/pagead/conversion_async.js
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
+||googleadservices.com/pagead/conversion_async.js$redirect=nooptext,domain=orcd.co
 ||googleadservices.com^$third-party
 ||googleanalytcs.com^$third-party
 ||googleapis.com/aam.js
@@ -15945,6 +15954,7 @@ znak.com##.relap
 ||kommersant.ru/a.asp?p=
 ||kommersant.uk/banner_stats
 ||komtrack.com^$third-party
+||konduit.me^$third-party
 ||kono-research.de^$third-party
 ||kontagent.net^$third-party
 ||kopsil.com^$third-party
@@ -17709,6 +17719,7 @@ znak.com##.relap
 ||nlog.nethru.io^
 ||nm.newegg.com^
 ||nmetrics.samsung.com^
+||nmrodam.com^$third-party
 ||nmtracking.netflix.com^
 ||noa0.compteczam.fr^
 ||nocutnews.co.kr/js/logger*.htm
@@ -20877,6 +20888,7 @@ znak.com##.relap
 ||stat.1688.com^
 ||stat.4u.pl^$third-party
 ||stat.acca.it^
+||stat.adultium.com^
 ||stat.alibaba.com^
 ||stat.alloha.tv^
 ||stat.analytiall.com^

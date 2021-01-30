@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202101290135
+! Version: 202101300154
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21716
+! Lenth = 21731
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -105,6 +105,7 @@
 ###cs_left_couplet
 ###cs_right_couplet
 ###dbgg
+###dgf_pc
 ###downdiv > .downcode
 ###doyoo_mon_mask
 ###doyoo_monitor
@@ -729,6 +730,7 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
+##A[href="http://hqbet2191.com"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class][onclick="window.location.href='/api/goapp/'"]
@@ -5659,6 +5661,7 @@ epwk.com##.collect-info-icon
 epwk.com##.collect-info-wrap
 epwk.com##.head_banner
 erji.com,erji.net##.black.y-style
+eroacg.com##.weimg1
 esdict.cn,eudic.net,frdic.com,godic.net###bodycontent > style + div[id] > :nth-child(n+2)
 esnai.com##.tlgg
 esnai.com##table[width="960"] > tbody > tr > td[height="90"]
@@ -5938,6 +5941,9 @@ gaokao.com##.adout116
 gaoqing.fm##div[style^="height:258px;background-image:"]
 gaoqing.la###head > a
 gaoqing.la###sidebar-follow
+gaoqingw.com###searchform > LABEL > SPAN
+gaoqingw.com###sidebar A[href^="http"]:not([href*="gaoqingw"])
+gaoqingw.com##.search + .widget
 gas.goodlife.tw###widgets
 gasaq.com###guanggao_left
 gasaq.com###guanggao_right
@@ -7800,6 +7806,7 @@ passiontimes.hk##.rectAd680
 pc.qq.com##.detail-install-fast
 pc0359.cn##.soft_down_tg
 pc0359.cn,pc6.com##.ad-download
+pc6.com###param + a
 pc6.com##.Advbox
 pc841.com##.w1050
 pc841.com,ting56.com##.w300
@@ -11907,6 +11914,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/img/ibank/*_1085845541.
 ||alicdn.com/img/ibank/*_1095372465.
 ||alicdn.com/img/ibank/*_1230538058.
+||alicdn.com/img/ibank/*_1281922417.
 ||alicdn.com/img/ibank/*_1409595492.
 ||alicdn.com/img/ibank/*_1533190909.
 ||alicdn.com/img/ibank/*_1545027917.
@@ -12149,6 +12157,7 @@ zznews.cn##.ad:not([style])
 ||assume8.com^
 ||astrill.com/bnrs/
 ||aswlx.cn^
+||asyy6.com/dm/
 ||at*.doubanio.com^
 ||at918.com^$third-party
 ||at98.com^
@@ -14085,6 +14094,7 @@ zznews.cn##.ad:not([style])
 ||ebioweb.com/newsf/js/inpic.js
 ||ebp.renren.com^
 ||ebrun.com/jfile/position/js/*.js
+||ebuysolar.com^
 ||echomilly.com^
 ||ecma.bdimg.com^
 ||ecmb.bdimg.com^
@@ -15465,6 +15475,7 @@ zznews.cn##.ad:not([style])
 ||ibf.tw/js/jquery.blockUI.js
 ||ibkda.com/other/
 ||ibkda.com/some/plusshow.js
+||ic86doc.com^
 ||icaile.com/z.php?id=
 ||icao4.com/uploads/pic/2.jpg
 ||icast.cn^$third-party
@@ -20318,6 +20329,7 @@ zznews.cn##.ad:not([style])
 ||wuyanauto.com^
 ||wuyekanba.com^
 ||wuylp.com^
+||wuyuande.com^
 ||wuyulou.com^*.php
 ||wvcdn.cn^
 ||wvfgiio.cn^
@@ -20624,6 +20636,7 @@ zznews.cn##.ad:not([style])
 ||xmseaside.com^
 ||xmshqh.com^$third-party
 ||xmstcw.cn^
+||xmstpay.com^
 ||xmtsyg.com^
 ||xmxxwl.com^
 ||xn--2qu92fhtx4ff.club^
@@ -20827,6 +20840,7 @@ zznews.cn##.ad:not([style])
 ||yalingba.com/ggtxjs/
 ||yalongrope.cn^
 ||yam.com/ad_yam/
+||yamahahb.com^
 ||yamaidei.cn^
 ||yan007.com/js/sss/ad.js
 ||yanbenji.cn^
@@ -21720,3 +21734,4 @@ zznews.cn##.ad:not([style])
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
 ~upupoo.com##a[href^="http://www.upupoo.com"]
 ~weibo.com##.con_ad
+~zhidmai.com##A[href*="https://www.zhidmai.com"]
