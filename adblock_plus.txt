@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Plus]
-! Version: 202101300154
+! Version: 202101310139
 ! Title:  uniartisan's Adblock List Plus
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 110375
+! Lenth = 110382
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -13140,6 +13140,7 @@
 ##.adside
 ##.adside-box-index
 ##.adside-box-single
+##.adside_box
 ##.adsidebar
 ##.adsidebox
 ##.adsider
@@ -14295,6 +14296,7 @@
 ##.area_ad03
 ##.area_ad07
 ##.area_ad09
+##.area_ad2
 ##.aroundAdUnit
 ##.artAd
 ##.artAdInner
@@ -14316,6 +14318,7 @@
 ##.article-ad-bottom
 ##.article-ad-box
 ##.article-ad-cont
+##.article-ad-horizontal
 ##.article-ad-left
 ##.article-ad-main
 ##.article-ad-placeholder
@@ -17913,6 +17916,7 @@
 ##.m-sponsored
 ##.m4-adsbygoogle
 ##.mTopAd
+##.m_ad
 ##.m_ad1
 ##.m_ad300
 ##.m_banner_ads
@@ -21706,7 +21710,6 @@
 ##AFS-AD
 ##AMP-AD
 ##A[href*=".com/?Agent="]
-##A[href="http://hqbet2191.com"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##DFP-AD
@@ -21929,6 +21932,7 @@
 ##a[href="/ad2.html"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/gghtml/tyc.html"]
+##a[href="http://hqbet2191.com"]
 ##a[href="http://t.cn/E2PgiG1"]
 ##a[href="http://t.cn/Ex0cCbt"]
 ##a[href="http://www.tw787.com/"]
@@ -23064,7 +23068,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 &ad_keyword=
 &ad_network_
 &ad_number=
-&ad_revenue=
 &ad_slot=
 &ad_sub=
 &ad_time=
@@ -24153,7 +24156,6 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 .org/ad-
 .org/ad.$~script
 .org/ad/
-.org/ad_
 .org/adgallery1
 .org/ads-
 .org/ads/
@@ -38702,6 +38704,7 @@ $websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.co|powvldeo.ne
 @@||netbk.co.jp^$jsinject
 @@||netded.com/plus/ad_js.php?aid=3|
 @@||netdna-cdn.com^*/OpenX/$domain=openx.com
+@@||netdna-ssl.com/sbly-ads/sbly-prebid-$domain=seeitlive.co
 @@||netdna-storage.com^$xmlhttprequest,domain=gaybeeg.info
 @@||netdna.bootstrapcdn.com/font-awesome^
 @@||netdna.bootstrapcdn.com^$stylesheet,domain=vshare.eu
@@ -50618,8 +50621,8 @@ gaokao.com##.adout116
 gaoqing.fm##div[style^="height:258px;background-image:"]
 gaoqing.la###head > a
 gaoqing.la###sidebar-follow
-gaoqingw.com###searchform > LABEL > SPAN
-gaoqingw.com###sidebar A[href^="http"]:not([href*="gaoqingw"])
+gaoqingw.com###searchform > label > span
+gaoqingw.com###sidebar a[href^="http"]:not([href*="gaoqingw"])
 gaoqingw.com##.search + .widget
 gardenista.com##.product-aside > div[data-advert]
 gardenista.com##.promotion[data-advert]
@@ -75612,6 +75615,7 @@ zznews.cn##.ad:not([style])
 ||bapsel.com^$third-party
 ||baptismwitnesseddisobedience.com^
 ||baqcpdctexlwgp.com^
+||baresi.xyz^$third-party
 ||barfsmiaowpit.com^
 ||bargainingpeacock.com^
 ||bargainingrip.com^
@@ -75646,6 +75650,7 @@ zznews.cn##.ad:not([style])
 ||batwaxwok.site^
 ||baudgassedtarot.com^
 ||bauthair.net^
+||bavftcgoapga.com^
 ||baxusanu.pro^$document,popup
 ||bayonetbikes.com^
 ||baypops.com^$popup,third-party
@@ -77807,6 +77812,7 @@ zznews.cn##.ad:not([style])
 ||cdnativ.com^$third-party
 ||cdnaz.win^$domain=clip16.com|be88.net|clip17.com
 ||cdnaz.win^$third-party
+||cdncontentdelivery.com^
 ||cdndm.com/12/2016/$domain=1kkk.com|dm5.com
 ||cdndm.com/3/2015/$domain=1kkk.com|dm5.com
 ||cdndm.com^*/js/newtc.js
@@ -78876,8 +78882,7 @@ zznews.cn##.ad:not([style])
 ||coinadvert.net^$third-party
 ||coinblind.com^$third-party
 ||coincodex.com/*/prposition.php
-||coincodex.com/o8po7iqs9guyte85/
-||coincodex.com^*/poposition.php?
+||coincodex.com^$subdocument,~third-party
 ||coinerra.com^$third-party
 ||coingolive.com/assets/img/partners/
 ||coinhits.com^$third-party
@@ -85001,7 +85006,7 @@ zznews.cn##.ad:not([style])
 ||go.alxbgo.com^$third-party
 ||go.bestmobiworld.com^$third-party
 ||go.cartstick.com^$third-party
-||go.ero-advertising.com^$document,popup
+||go.ero-advertising.com^$document
 ||go.fapsite.com^
 ||go.gotourls.bid^
 ||go.hangzhou.com.cn^
@@ -86255,7 +86260,6 @@ zznews.cn##.ad:not([style])
 ||herreperolsof.pro^
 ||hersblubberfurther.com^
 ||herscryptia.info^
-||hertforthatharrigh.pro^
 ||hertforthatharrigh.pro^$third-party
 ||herzeleid.com/files/images/banners/
 ||hesepd.cn^
@@ -92982,7 +92986,6 @@ zznews.cn##.ad:not([style])
 ||money4ads.com^$third-party
 ||moneycontrol.com/share-market-game/$third-party
 ||moneycosmos.com^$third-party
-||moneymakercdn.com^
 ||moneymakercdn.com^$third-party
 ||moneyplatform.biz^$third-party
 ||moneypunchstep.online^$third-party
@@ -100917,6 +100920,7 @@ zznews.cn##.ad:not([style])
 ||shijiezhidao.com^
 ||shikroux.net^
 ||shili.downxia.com^
+||shili.wanyx.com^
 ||shilian168.cn^$third-party
 ||shillivee.pro^
 ||shimo.im^*/ads?
@@ -102844,6 +102848,7 @@ zznews.cn##.ad:not([style])
 ||szfcol.com/js/siteAd.js
 ||szggdw.com^
 ||szh6.xyz^
+||szhgmd.com^
 ||szhk.com/565.jpg
 ||szhk.com/iframe/
 ||szhk.com/include/taobao
@@ -102882,6 +102887,7 @@ zznews.cn##.ad:not([style])
 ||t.cnscore.com^
 ||t.co^$domain=iomovies.net|onmovies.se
 ||t.co^$subdocument,domain=cmovieshd.com
+||t.crsmc.link/*&offer_id=$subdocument
 ||t.frtyt.com/*offer_id=*&aff_id=
 ||t.mmnt.net^
 ||t.mtagmonetizationb.com^
@@ -102944,6 +102950,7 @@ zznews.cn##.ad:not([style])
 ||taijuba.com/js/*_
 ||taijuba.com/js/tj
 ||taijuwang.com/template/alifun/js/unFavui.
+||taikangshenyuan.com^
 ||tailsweep.com^$third-party
 ||taiphaib.net^$third-party
 ||taisha.org/statics/js/pc2.0/common/form.bottom.
@@ -110375,7 +110382,7 @@ zznews.cn##.ad:not([style])
 ~www.wp.pl,wp.pl#?#[class^="_"] > [class^="_"][class*=" _"]:has(>[class^="_"] > [class*="_"] > a[href] > [style*="background-image: url("])
 ~www.wp.pl,wp.pl#?#div[class*=" "]:has(>div[class]:not([-ext-has=">*"]):first-child:contains(REKLAMA))
 ~www.wp.pl,wp.pl#?#div[class^="_"] > div[class^="_"][class*="_"]:has(> img[src^="https://v.wpimg.pl/"][src$="=="][alt="WP"])
-~zhidmai.com##A[href*="https://www.zhidmai.com"]
+~zhidmai.com##a[href*="https://www.zhidmai.com"]
 ~zing.vn##embed[width="640"][height="160"]
 ~zing.vn##object[width="640"][height="100"]
 ~zing.vn##object[width="640"][height="160"]
