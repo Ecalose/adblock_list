@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202102020140
+! Version: 202102030118
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19768
+! Lenth = 19777
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -85,6 +85,7 @@
 108.62.192.122,23.81.209.214,plus28.com##div[style="width:960px;margin: auto;"]
 1090ys2.com##.col-lg-wide-8 > p[style="text-align:center;"]
 1090ys2.com##a[href*="yb6277."]
+1090ys2.com##a[target="_blank"] > img[src*="alicdn.com"]
 1090ys2.com,bbt.tv,btbt.tv,l32c.cn,nixingle.com#@#.google-ad
 1090ys2.com,wnacg.com,wnacg.org##a[href*="tyrantdb.com"]
 10fang.com##.botad
@@ -3589,7 +3590,7 @@ eastmoney.com###zwbtextlink
 eastmoney.com##.advertisement
 eastmoney.com##.fund-pop
 eastmoney.com##.popswipe
-eastmoney.com##DIV[data-url*="same.eastmoney.com"]
+eastmoney.com##div[data-url*="same.eastmoney.com"]
 eastmoney.com##div[id^="em_important_"]
 eastmoney.com##div[style="width: 300px; height: 250px; margin-top: 10px;"]
 easyicon.net##.page_big_adv
@@ -10104,6 +10105,7 @@ zznews.cn##.ad:not([style])
 ||antpedia.com/include/js/view_news/l_banner_js.js
 ||antpedia.com/viewnewsrightboxtop.
 ||anweigongsi.com^
+||anyihuan.com^
 ||anywlan.com/link/*.gif
 ||anyysz.com^
 ||anzhuocpm.com^
@@ -11277,6 +11279,7 @@ zznews.cn##.ad:not([style])
 ||cmslayue.com^
 ||cn-3drp.com^
 ||cn.bidushe.com^
+||cn.ntdtv.com/assets/themes/ntd/js/article_ads.js
 ||cna5.cc/skins/js/
 ||cnbeta.com/assets/images/*_670_90.
 ||cnbeta.com/js/pages/inteladv.js
@@ -12994,6 +12997,7 @@ zznews.cn##.ad:not([style])
 ||haiyunx.com^$third-party
 ||haizirv.cn^
 ||hajuwang.cn^
+||halitv.com/ad/
 ||handanxinkai.com^
 ||hangzhou.com.cn/extra/flash/hzwarticle300.swf
 ||hanjutv2020.com/index.php?c=dudu_
@@ -14031,6 +14035,7 @@ zznews.cn##.ad:not([style])
 ||jin10.com/assets/img/sites/index/vip_ad
 ||jin10.com/news_service/static/config/details.config.
 ||jinchaoyu.com^
+||jindingguopin.com^
 ||jindowins.com^
 ||jindu179.com^
 ||jinfengit.com^
@@ -15601,6 +15606,7 @@ zznews.cn##.ad:not([style])
 ||nszmz.com^$third-party
 ||ntalker.com^
 ||ntce.com/images/js/ntce_public.js
+||ntdtv.com/assets/themes/ntd/js/article_ads.js
 ||nterbx.com^
 ||nthfds.xyz^
 ||ntimg.cn/original/images/www_ads.jpg
@@ -18018,6 +18024,7 @@ zznews.cn##.ad:not([style])
 ||vsnoon.com^$third-party
 ||vsuda.cn/data/upload/20
 ||vt863.cn^
+||vtfwgfo.cn^
 ||vtqifk86868.cn^
 ||vtyyy.com/template/JOELEO/asset/js/jquery.leeleo.js
 ||vuahb.com^
@@ -18949,6 +18956,7 @@ zznews.cn##.ad:not([style])
 ||yese115.com^
 ||yese161.com^
 ||yese236.com^
+||yeshefb.com/template/conch/dd/
 ||yesky.com/monitorjs/imp-
 ||yesky.com/s?z=
 ||yeyajipp.com^
@@ -19364,6 +19372,7 @@ zznews.cn##.ad:not([style])
 ||zbetter.org^
 ||zbieo.com^
 ||zbjimg.com/static/union/
+||zbqmsc.com^
 ||zbsybh.cn^$third-party
 ||zc173.com/173fee/
 ||zc173.com/pp/
