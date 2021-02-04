@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202102030118
+! Version: 202102040119
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24648
+! Lenth = 24652
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -833,12 +833,12 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
 /^https?:\/\/src\.ebay-us\.com\/[_a-zA-Z0-9]{10,}\?/$script,domain=pages.ebay.com
-/^https?:\/\/tjmaxx\.tjx\.com\/libraries\/[a-z0-9]{20,}$script,xmlhttprequest,domain=tjx.com
+/^https?:\/\/tjmaxx\.tjx\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=tjx.com
 /^https?:\/\/tmx\.td\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com
 /^https?:\/\/www\.academy\.com\/webcontent\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=academy.com
 /^https?:\/\/www\.backcountry\.com\/clientlibs\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=backcountry.com
 /^https?:\/\/www\.bestbuy\.com\/resource\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=bestbuy.com
-/^https?:\/\/www\.buybuybaby\.com\/content\/[a-z0-9]{20,}$script,xmlhttprequest,domain=buybuybaby.com
+/^https?:\/\/www\.buybuybaby\.com\/content\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=buybuybaby.com
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/www\.eddiebauer\.com\/resource\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=eddiebauer.com
 /^https?:\/\/www\.finishline\.com\/contents\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=finishline.com
@@ -4058,6 +4058,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /radar/trace?
 /radio-analytics.htm
 /radium-one.js
+/ravelin-*-track.min.js
 /rbcmetrika-
 /rbi_us.js
 /rbipt.gif?
@@ -4503,6 +4504,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /stat_visits.
 /stat_vue.php?
 /stataffs/track.php?
+/statblog/pws.php?
 /statcapture.
 /statcollector.
 /statcollector/*
@@ -6224,7 +6226,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cdn.taboola.com/libtrc^$domain=msn.com
 @@||cdn.taboola.com^$domain=samsung.com|thestartmagazine.com
 @@||cdn.tagcommander.com/cmp-api/cmp.js$domain=tf1.fr
-@@||cdn.trackjs.com/agent/v*/latest/t.js$domain=adshrink.it
+@@||cdn.trackjs.com/agent/v*/latest/t.js$domain=pairom.com|adshrink.it
 @@||cdn.trackjs.com/releases/current/tracker.js$domain=express.com
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
 @@||cdn.tt.omtrdc.net/cdn/target.js
@@ -6281,7 +6283,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cloudfront.net^*/comscore.$script,domain=my5.tv
 @@||cloudfront.net^*/jquery.google-analytics.js$domain=homepath.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
-@@||cloudvideoplatform.com/scripts/WebAnalytics.js$script
 @@||cmoney.tw/follow/js/google_analytics.js
 @@||cnbcfm.com/applications/cnbc.com/staticcontent/scripts/libraries/QuoteRedesign/quote_analytics.js$script,domain=cnbc.com
 @@||cnetcontent.com/jsc/h.js$domain=atea.fi
@@ -7221,13 +7222,13 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||marcokrenn.com/public/js/logger.js
 @@||marketingsolutions.com.pl^*/googleanalytics-$image,domain=marketingsolutions.com.pl
 @@||marketo.com/*/form$domain=orcad.com
+@@||marketo.com//index.php/$script
 @@||marketo.com/index.php/$script,subdocument,xmlhttprequest
 @@||marketo.com/index.php/form/
 @@||marketo.com/js/forms$script,stylesheet
 @@||marketo.com/js/forms2/$script,stylesheet
 @@||marketo.com/jsloader/*/loader.php.js$script
 @@||marketo.com/mkto/$script,stylesheet,subdocument,xmlhttprequest
-@@||marketo.com^$script,stylesheet,subdocument,domain=awscloud.com
 @@||marktest.pt/netscope-gemius.js$script,domain=ojogo.pt
 @@||matchesfashion.com/_ui/shared/js/analyticsmediator.js
 @@||matchid.adfox.yandex.ru/?url=$script,domain=ctc.ru
@@ -7526,7 +7527,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||player-feedback-v1.glomex.com/pf/|$domain=player.glomex.com
 @@||player.bizportal.co.il/scripts/GoogleAnalytics.js$domain=bizportal.co.il
 @@||player.fc-zenit.ru/msi/geoip?$xmlhttprequest
-@@||player.flix.co.il/scripts/GoogleAnalytics.js
 @@||player.ooyala.com^*/analytics-plugin/$script,domain=formula1.com|nintendo.com
 @@||player.siriusxm.com/assets/AppMeasurement/AppMeasurement.js
 @@||player.siriusxm.com/assets/AppMeasurement/VisitorAPI.js
@@ -7873,7 +7873,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||tags.tiqcdn.com/utag/tegna^$domain=kvue.com
 @@||tags.w55c.net/rs?*&t=marketing$image
 @@||takeda.com.dxcloud.episerver.net^$domain=takeda.com
-@@||tapuz.co.il/general/dotomi/statistics.js?$~third-party
 @@||taximaxim.com/assets/*/fingerprint2.min.js
 @@||tc.bankofamerica.com/c?
 @@||tccrestify-dot-tcc-cloud.appspot.com/tracking/$domain=tcc.com.co
@@ -7909,6 +7908,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||track.atom-data.io/report$domain=russian.rt.com
 @@||track.atom-data.io/|$xmlhttprequest,domain=globes.co.il
 @@||track.mybloglog.com/js/jsserv.php?$domain=egotastic.com
+@@||track.mz-web.de/*/tracking/tracking.js
 @@||track.nzz.ch/cre-*/tracking/tracking.js
 @@||track.svz.de/cre-*/tracking/tracking.js
 @@||track2.royalmail.com^
@@ -7925,6 +7925,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||trc.taboola.com/inncoil/log/3/available$subdocument,domain=inn.co.il
 @@||trc.taboola.com/msn-msn/*$domain=msn.com
 @@||trc.taboola.com/samsung-browser-feed$domain=samsung.com|thestartmagazine.com
+@@||trc.taboola.com/samsung-browser-us$domain=samsung.com|thestartmagazine.com
 @@||trc.taboolasyndication.com^$domain=bloomberg.com|breitbart.com|nme.com|slatev.com
 @@||trendyol.com/delivery-tracking-query-api/$~third-party
 @@||trueaccordengage.com/tae/api/v1/collectors/$~third-party
@@ -13668,6 +13669,7 @@ znak.com##.relap
 ||ezytrack.com^$third-party
 ||f-counter.jp^$third-party
 ||f-counter.net^$third-party
+||f-emc.ngsp.gov.vn^
 ||f-secure.com^*/wtsdc.js
 ||f.email.bjs.com^*/1x2.gif
 ||f.staticlp.com^
@@ -17040,6 +17042,7 @@ znak.com##.relap
 ||metrics.readme.io^
 ||metrics.scribblelive.com^
 ||metrics.sdkbox.com^
+||metrics.slite.com^
 ||metrics.sonymusicd2c.com^
 ||metrics.spbtv.com^
 ||metrics.tbliab.net^
@@ -19263,6 +19266,7 @@ znak.com##.relap
 ||rating.in^$third-party
 ||ratteb.com/js.
 ||ratteb.com/js.js
+||ravelin.click^$third-party
 ||ravelin.net^$third-party
 ||rawr.at^$third-party
 ||raygun.io/events?
