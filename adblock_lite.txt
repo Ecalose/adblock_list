@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202102040119
+! Version: 202102050150
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19784
+! Lenth = 19803
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1992,7 +1992,7 @@
 @@||valf.atm.youku.com/vf?site=1&rst=mp4&
 @@||vast.btrll.com^$domain=hinet.net
 @@||vipstatic.com/img/share/blank.png
-@@||viu.com/ott/*/js/tracking/
+@@||viu.com^*/tracking/tracking.js
 @@||viu.tv^$generichide
 @@||vlist.se/advertisement.js
 @@||vmall.com/data/attachment/common/ad/
@@ -2657,6 +2657,7 @@ bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
+bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]))
 bilibili.com#@#.follow-wrapper
 bilibili.com,douyu.com,oschina.net#@#.follow-btn
 bing.com###BottomAppPro
@@ -3373,6 +3374,7 @@ dmzj.com###app_manhua
 dmzj.com###show_tip_bg
 dmzj.com##.ad_th
 dmzj.com##a[href*="qunhei.com"]
+dngz.net##.listright > a[target="_blank"] > img
 dnwx.com##.mt5_23
 dnwx.com#@#.ad_250
 doc88.com##.adpx250
@@ -4455,6 +4457,8 @@ ibf.tw###top_d
 ibm.com###dw-regbar
 icanzc.com###contbot
 icanzc.com###contsec
+icbc.com.cn###kv-admain > div[id$="_1900_380"]
+icbc.com.cn##.action_Y_more
 icbc.com.cn#@#.adLeft
 icbc.com.cn#@#.adRight
 ichunqiu.com###cnzz168_Login
@@ -4647,6 +4651,8 @@ image.so.com#?#.imgcell:-abp-has(.txt:-abp-contains(广告))
 imeee.cn##.DA336
 imooc.com##.redrain-bg-shade
 infoq.cn##.geo-banner
+infoq.cn##.live-fixed-bar
+infoq.cn##.widget-slide-weekly
 infoq.com###psa-note
 infoq.com##.ab_detect
 instrument.com.cn###leftFlash
@@ -6359,6 +6365,8 @@ sina.cn###promotionCover
 sina.cn##.article-sax
 sina.cn##.dfz_sd_news > a[href*=".10086.cn"]
 sina.cn##.j_article_cutpic
+sina.cn##.js-voice-yyy
+sina.cn##.module-finance-client3
 sina.cn##.p_newsmore
 sina.cn##.sw_c0.fix_top
 sina.cn##.xc_da
@@ -9625,7 +9633,9 @@ zznews.cn##.ad:not([style])
 ||aaan.xyz^
 ||aaaw.xyz^
 ||aabbccddeeffgg.cn^
+||aafuck.xyz^$third-party
 ||aakkzzz.com^
+||aaread.space/images/*0.gif
 ||aassy4.com/dm/
 ||aasyy.com^
 ||aauisg64017.cn^
@@ -11252,6 +11262,7 @@ zznews.cn##.ad:not([style])
 ||ckg.vipyl.com^
 ||ckikq.com^
 ||ckjyck.qxs.la^
+||ckkc.cc^
 ||ckseeknew.com^
 ||ckxxbao.com/templets/default/js/wx.js
 ||claiks.com^
@@ -11877,6 +11888,7 @@ zznews.cn##.ad:not([style])
 ||dn*.ixinwei.com^
 ||dn189.com^
 ||dnfkong.com^
+||dngz.net/x/
 ||dnpz123.com^$third-party
 ||dnskuu.com^
 ||dnvod.tv/listprovider/ajaxlist.async.ashx
@@ -12131,6 +12143,7 @@ zznews.cn##.ad:not([style])
 ||ebrun.com/jfile/position/js/*.js
 ||ebuysolar.com^
 ||echomilly.com^
+||eclassified.my/cp_featured
 ||ecma.bdimg.com^
 ||ecmb.bdimg.com^
 ||eco.2t4fe.xyz^
@@ -13390,6 +13403,7 @@ zznews.cn##.ad:not([style])
 ||huician.cn^
 ||huigoushop.com^
 ||huigun.top^
+||huijiamei.cn^
 ||huimee.com^$third-party
 ||huimee.net^
 ||huimg.cn/e/hd.e.wap.
@@ -14257,6 +14271,7 @@ zznews.cn##.ad:not([style])
 ||juejdkio.com^$third-party
 ||juejin.im/v3/web/wbbr/
 ||juhepen.com^$third-party
+||juhuandian.com^
 ||juji.tv/Runtime/js/
 ||jujumuqu123.com^
 ||julitenj.com^
@@ -15523,6 +15538,7 @@ zznews.cn##.ad:not([style])
 ||nfmovies.com/static/*.jpg
 ||nfydd.com/template/wap1/js/dd.js
 ||ngceq.cn^
+||ngmaul.cn^
 ||ngsaang.top^
 ||ni22.com^$third-party
 ||ni87.com^
@@ -15918,7 +15934,6 @@ zznews.cn##.ad:not([style])
 ||pic.yupoo.com/showflash/
 ||pic.zol-img.com.cn^$image,domain=www.zol.com.cn
 ||pic.zol-img.com.cn^$object
-||pic12x20.com^
 ||pic50.pingguolv.com^
 ||picb.cc/uploads/2018/06/26/2zxrsi.jpg
 ||picbr.com^
@@ -17106,6 +17121,7 @@ zznews.cn##.ad:not([style])
 ||sspai.com/attachment/sponsor/
 ||sspsky.com^$third-party
 ||ssroa.cc^
+||sss777.net/Alove-A/
 ||sssgao999.com^
 ||sssvd.china.com^
 ||ssyy121.com/js/bo
@@ -17774,6 +17790,7 @@ zznews.cn##.ad:not([style])
 ||ubalh.com^
 ||ubcpm.com^$third-party
 ||ubmcvideo.baidustatic.com^
+||ubt573.org^
 ||ububyiw6655.xyz^
 ||uc*.atobo.com^
 ||uc.cn/s/uae/g/0s/ua.js
@@ -17908,6 +17925,7 @@ zznews.cn##.ad:not([style])
 ||v.beta.yinyuetai.com/swf/plugins_new.xml?
 ||v.center^$third-party
 ||v.cqpsf.cn^$third-party
+||v.icbc.com.cn/userfiles/ADResources/$domain=icbc.com.cn
 ||v.jsbgh.cn^$third-party
 ||v.lbsbbw.cn^$third-party
 ||v.pcswtw.cn^$third-party
@@ -17999,6 +18017,7 @@ zznews.cn##.ad:not([style])
 ||vjie.com^$third-party
 ||vjptye.cn^
 ||vjuer.com^
+||vk923.com/img/
 ||vkeke.net/public/agd
 ||vkjnd.com^
 ||vkpsmzj.cn^
