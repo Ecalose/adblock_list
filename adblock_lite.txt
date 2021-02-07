@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202102060117
+! Version: 202102070107
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19818
+! Lenth = 19823
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1389,6 +1389,7 @@
 @@||baidu.com/hm.js$domain=cainiao.com|dwz.cn
 @@||baidu.com/location/ip?$domain=dominos.com.cn|tanmizhi.com|tianqi.qq.com
 @@||baidu.com/share/count?
+@@||baidu.com/static/touch/js/lib/fingerprint.js$~third-party
 @@||baidu.com^*&cb=BaiduSuggestion.
 @@||baixing.net/combine/*,/css/ad-
 @@||banma.com/statics/js/??
@@ -11723,6 +11724,7 @@ zznews.cn##.ad:not([style])
 ||ddpxhq.cn^
 ||ddshu.net/a_d_code/
 ||ddskyuu.com^
+||ddyingyan.com^
 ||ddzeg.com^
 ||de.as.pptv.com^
 ||de093o.cn^
@@ -13501,6 +13503,7 @@ zznews.cn##.ad:not([style])
 ||i-gamer.net^$domain=cartomad.com|cartonmad.com|cartoomad.com|cartoonad.com|cartoonmad.com
 ||i-part.com.tw/js2/newShineStar
 ||i.alipayobjects.com/i/ecmng/$image,domain=my.alipay.com
+||i.wuhaolin.cn^
 ||i.zhuoyaju.com^
 ||i000o.com^$third-party
 ||i05h.cn^
@@ -15218,7 +15221,7 @@ zznews.cn##.ad:not([style])
 ||miguyu.com/AD/
 ||mikanani.me/images/Masha/
 ||mikecrm.com^$domain=bjkd365.com
-||mikuclub.cn/down/pub/RQS.
+||mikuclub.cn/down/pub/
 ||mil.news.sina.com.cn/iframe/109/2012/1024/photo.html
 ||mil.news.sina.com.cn/iframe/109/2013/1015/hotpic.html
 ||milimili.tv/js/loadjs/jquery
@@ -15395,6 +15398,7 @@ zznews.cn##.ad:not([style])
 ||mwrf.net/images/js/*mrf.js
 ||mwrf.net/images/mrf/
 ||mx.biquge.info^
+||mxc87.org^
 ||mxdregs.com^
 ||mxhbkj.cn^
 ||mxmrt.com^
@@ -17252,6 +17256,7 @@ zznews.cn##.ad:not([style])
 ||supfree.net^$xmlhttprequest
 ||suukcn.com^
 ||suzhoujinghui.com^
+||sv7oqa.cn^
 ||svfwer.top^
 ||swhgd.com^
 ||swoole.com/_images/w7.jpg
