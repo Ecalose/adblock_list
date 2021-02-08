@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202102070107
+! Version: 202102080151
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19823
+! Lenth = 19825
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -2578,7 +2578,7 @@ bcbay.com,creaders.net##.syzx
 bccn.net##div[style*="height:90"]
 bccn.net##img[src*="data:"]
 bcquan.me##.bcqad
-bd-film.cc###fmtdiv
+bd2020.com###fmtdiv
 bde4.cc###ayx
 bde4.cc##a[href*=".yabo816."]
 bde4.cc##center[style*="background"]
@@ -3429,7 +3429,6 @@ douyu.com##.imageItem-wrap[href*=".cr-nielsen.com/"]
 douyu.com##.imageItem-wrap[style="width: 1200px; height: 120px;"]
 douyu.com##.imageItem-wrap[style="width: 287px; height: 559px;"]
 douyu.com##.index-common-1-rrh
-douyu.com##.layout-Slide-banner
 douyu.com##.noble-up-guide
 douyu.com##.pendant-wrap
 douyu.com##.row-4.theatre
@@ -8127,6 +8126,7 @@ zznews.cn##.ad:not([style])
 ||104.203.214.3^
 ||104.203.72.254^
 ||104.233.154.134^
+||104.233.177.93^
 ||104.233.203.164^
 ||104.237.67.78^
 ||104610.com^
@@ -8791,6 +8791,7 @@ zznews.cn##.ad:not([style])
 ||44pd.com^*xds/
 ||44pv.com^$third-party
 ||45.126.123.80^
+||45.192.59.62^
 ||45.34.240.72^
 ||4567.org^$third-party
 ||45le.cn^
@@ -14494,6 +14495,7 @@ zznews.cn##.ad:not([style])
 ||kkkkdm.com/mg/show
 ||kkpgv2.xunlei.com^
 ||kl-toys.com^
+||kl0ru78.xyz^
 ||klandmart.com/K-Landmart_0011.jpg
 ||kld666.com^
 ||kldmm.com^
