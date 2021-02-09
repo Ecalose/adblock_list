@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202102080151
+! Version: 202102090129
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21813
+! Lenth = 21831
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -478,8 +478,8 @@
 ##.common_ad
 ##.con_search + #carousel-example-generic[style^="max-width: 1170px;"]
 ##.container > .pic_container
-##.container > A[href^="http"] > .ads
 ##.container > a.mid-wrapper
+##.container > a[href^="http"] > .ads
 ##.content > a > .topline
 ##.content-ads
 ##.content-video > .ads
@@ -5417,6 +5417,7 @@ douyu.com##.imageItem-wrap[href*=".cr-nielsen.com/"]
 douyu.com##.imageItem-wrap[style="width: 1200px; height: 120px;"]
 douyu.com##.imageItem-wrap[style="width: 287px; height: 559px;"]
 douyu.com##.index-common-1-rrh
+douyu.com##.layout-Slide-banner:not([href*="douyu"])
 douyu.com##.noble-up-guide
 douyu.com##.pendant-wrap
 douyu.com##.row-4.theatre
@@ -7215,6 +7216,7 @@ le.com##.lay_title[style^="width:490px;height:60px;"]
 le.com##.lbzDaoliu
 le.com##div[data-type="bottomLayerView"]
 league-funny.com##.player_bb
+league-funny.com#%#//scriptlet("prevent-setTimeout", "ad_num_show")
 leagueofmovie.com###leftfixedad
 leagueofmovie.com###rightfixedad
 leiling.org##.ad__single-double-rectangle-wrap
@@ -8829,6 +8831,8 @@ tobosu.com###alert_order
 tobosu.com##.tbs-bottom-order
 tom.com###body_right_banner
 tom.com###popupDivgame
+tongren.gov.cn###tanchukuang
+tongren.gov.cn##.ads
 tongzhuo100.com###gold_banner
 toocle.com##.detail_top_ad
 toolfk.com###layui-layer100001
@@ -9544,6 +9548,9 @@ yesky.com##div[class^="ad6"]
 yesky.com##div[class^="ad7"]
 yesky.com##div[class^="ad9"]
 yeyulingfeng.com##a[href^="http://woaigouwu.top"]
+yhgou.cc##.ch1
+yhgou.cc##.col-lg-12 + .row
+yhgou.cc##.col-lg-12 > a
 yicai.com##.dfb-ad
 yicai.com##.gg_loadpage
 yicai.com##.gg_pop
@@ -10273,6 +10280,7 @@ zznews.cn##.ad:not([style])
 ||162.251.5.11/bbspic/storeShow/
 ||162ck.com/v*.js
 ||163.197.136.33^
+||163.197.167.236^
 ||163.com*/special/*_ad_
 ||163.com/get.do?*=themeHandler.
 ||163.com/ntes/special/*_papa.
@@ -10395,6 +10403,8 @@ zznews.cn##.ad:not([style])
 ||198.2.215.131^
 ||198.40.52.148/js.js
 ||199.231.214.62^
+||1990tu.com/i/*.gif
+||1990tu.com/i/*.png
 ||1990tu.com^$third-party
 ||1999019.com^
 ||1999sg.com^
@@ -10619,8 +10629,10 @@ zznews.cn##.ad:not([style])
 ||32414.com^$third-party
 ||32xp.com/upimg/
 ||3324.cn^$third-party
+||3337723.com^
 ||3337735.com^
 ||3337736.com^
+||3337738.com^
 ||3337780.com^
 ||3337781.com^
 ||333bj.cloud^
@@ -11947,6 +11959,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/img/ibank/*_1082732848.
 ||alicdn.com/img/ibank/*_1085845541.
 ||alicdn.com/img/ibank/*_1095372465.
+||alicdn.com/img/ibank/*_1165462224.
 ||alicdn.com/img/ibank/*_1230538058.
 ||alicdn.com/img/ibank/*_1281922417.
 ||alicdn.com/img/ibank/*_1409595492.
@@ -13309,6 +13322,7 @@ zznews.cn##.ad:not([style])
 ||cnblogs.com/units/
 ||cnbole.net^
 ||cncy8.com^
+||cndaizi.com^
 ||cndns.com/incs/js/website_mobile.js
 ||cndzys.com/huanlian/
 ||cnfanglei.com^
@@ -15071,6 +15085,7 @@ zznews.cn##.ad:not([style])
 ||haoxxwang.com^$third-party
 ||hapic1.zhuangxiu22.com^
 ||happyhongkong.com/images/client/
+||happyyong.com^
 ||harahero.top^
 ||harridan.cc^
 ||harveysarv.com^
@@ -17456,6 +17471,7 @@ zznews.cn##.ad:not([style])
 ||mzy2014.com^$third-party
 ||mzyfz.*/modules/46/
 ||mzyz.com/image*/tj/
+||n18uji.xyz^
 ||n2.hk/apps/car_feed/tb/*/banner.html
 ||n2.hk/promo/
 ||n8n7.me^
@@ -17758,6 +17774,7 @@ zznews.cn##.ad:not([style])
 ||open8.cn^$third-party
 ||opengam.com^
 ||openxt.cn^
+||oppaid.com^
 ||optaim.com^$third-party
 ||opticsky.cn/images/2015/gy-px201
 ||optimix.cn^$third-party
@@ -21491,6 +21508,7 @@ zznews.cn##.ad:not([style])
 ||zhekoudajie.com^
 ||zhenben.cc/2000/
 ||zhenbuka.com/loading.html
+||zhengjie.com/a_d?
 ||zhengjsmd.cn^
 ||zhengyejixie.com^
 ||zhengzhoupengbo.com^
