@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202102100149
+! Version: 202102110117
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19863
+! Lenth = 19875
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -591,8 +591,10 @@
 324324.cn##.link_header
 324324.cn##div > script ~ a
 32r.com##.gsabtn
+32r.com##.gsaxzdz > UL > DT
 32r.com##.gsbbtn
 32r.com##.gscbtn
+32r.com##.gsdbtn
 32r.com##[onclick*="@"]
 32r.com##span + p + div > dt
 32r.com,xue51.com##.gsbtn
@@ -2008,6 +2010,7 @@
 @@||weibo.com/api/weipan/getAds
 @@||weibo.com/share/share.php$generichide
 @@||weithenn.org^$generichide
+@@||weiyun001.com/banner_ads.js
 @@||wenxuecity.com/include/editor/*/media/ad/
 @@||wenxuecity.com^$generichide
 @@||wgun.net^$elemhide
@@ -3992,6 +3995,10 @@ gdmm.com,gkstk.com,youquba.net#@#.adtop
 gdot.me,sc115.com,wnacg.com,wnacg.org##script + a
 gdrc.com#@#.midAd
 gdzjdaily.com.cn##.big_news + div
+gebi1.com###diy1
+gebi1.com###fwin_dialog
+gebi1.com###fwin_dialog_cover
+gebi1.com##.offical-account
 geekpark.net,speedtest.cn##.sponsor
 geilwx.com##.yueduads
 getrelax.cc,sexylove.club##.loaded-popup-wrapper
@@ -5181,6 +5188,8 @@ kumi.cn##div[class^="adz"]
 kuwo.cn##.qr_wrapper
 kuwo.cn##.tuiguang
 kxdao.net###masonry
+kxdw.com###downloadTop
+kxdw.com##.gsdt
 kxmusic.cn,kxmusic.top##a[href*="smsf8.com"]
 l114la.com###media
 lahoo.ca###diyrighttop
@@ -5334,9 +5343,7 @@ lz13.cn##.left_box3
 lz13.cn##.left_box4
 lz13.cn##.left_box5
 lzdcctv.cn##.ac_pc
-lzdcctv.cn##.focusmo + TABLE
 lzdcctv.cn##.focusmo + table
-lzdcctv.cn##.widget_ssr > A > IMG
 lzdcctv.cn##.widget_ssr > a > img
 lzep.cn##.aside
 m.07073.com##.main_content_tit + div
@@ -6315,6 +6322,7 @@ sdgundam.cn###left-sponsor
 sdgundam.cn###link-roll ~ .box-set-2
 sdgundam.cn##a[href^="/aclk/"]
 sdo.com##.mod-public-ads
+sdo.com##A[class^="side-nav-box-daoyu"]
 sdzbcg.com##table[height="41"]:last-child
 sdzbcg.com##td[width="297"] img
 sdzbcg.com##td[width="580"][height="279"] > table:nth-child(2n-1)
@@ -6947,7 +6955,6 @@ two.game.tw#@##ad_02
 twpkinfo.com###div_close_cf
 txahz.com###archy_ad2
 txtbook.com.cn##.ledu-advWrap
-txtle.com##DIV[style^="position:fixed;z-index:1000;top:200px;"]
 txtle.com##div[style^="position:fixed;z-index:1000;top:200px;"]
 txzqw.me##.tac[style="margin-bottom:5px;"]
 tyenews.com##div[id^="custom_html-"]
@@ -7213,6 +7220,9 @@ weishangshijie.com##.news_ads_1028
 weishangshijie.com##.nleft_ads
 weiyun.com#@#.page-ad
 weiyun.com#@#.page-share
+weiyun001.com##.agency-list
+weiyun001.com##.bg-box > .slide-box
+weiyun001.com##.g-side-r > A[onclick^="onLogs"]
 wenda.so.com##a[href^="http://e.so.com/search/eclk?"]
 wenda.tianya.cn##.s1Tit + .sideBox
 wendangwang.com###divActivity
@@ -7476,6 +7486,7 @@ xyj321.com##.foot_alert_wrap
 xz.ccoo.cn##.index_banner
 xz7.com###bz-ad-position1
 xz7.com###bz-ad-position2 + div
+xz7.com##.bzxz
 xz7.com##div[class^="AD_"]
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
@@ -7791,7 +7802,6 @@ zhuji.net##td[valign="top"][height="96"]
 zhujiboke.com##.cjtz-border
 zhujiboke.com##.posts-top-cjtz
 zhujiwiki.com##.tips
-zhuna.cn##A[href*="quchuchai."]
 zhuna.cn##a[href*="quchuchai."]
 zhuwang.cc###main_newad
 zimuku.cn##.li[style^="width:8"]
@@ -9372,6 +9382,7 @@ zznews.cn##.ad:not([style])
 ||8maple.ru/dzcm$redirect=1x1-transparent.gif,domain=8maple.ru|bilibili.to
 ||8maple.ru/dzcm$rewrite=abp-resource:1x1-transparent-gif,domain=8maple.ru|bilibili.to
 ||8mlb.cn^
+||8seaa.com/template/assets1/js/vue.js
 ||8ucdn.com^
 ||8v61j.cn^
 ||8yauhcv.cn^
@@ -12009,6 +12020,7 @@ zznews.cn##.ad:not([style])
 ||dssdr.top^
 ||dszan.com^
 ||dtrcw.cc^
+||dtxdwl.cn^
 ||dtzysm.com^
 ||du1.bbdj.com^
 ||du9zgx.cn^
