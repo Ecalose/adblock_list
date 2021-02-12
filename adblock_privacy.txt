@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202102110117
+! Version: 202102120153
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24680
+! Lenth = 24686
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1672,6 +1672,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /cclickTracking.
 /cclog?ck=
 /ccm_sj?
+/ccpa.js
 /cct?
 /cdcVanity?
 /cdn-cgi/apps/body/*$script,~third-party
@@ -1877,6 +1878,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /cmp-event-ioltrack.
 /cmp-hello.
 /cmp/messaging.js
+/cmp2.js
 /cmp3.js
 /cms-gg.js
 /cms.gif?
@@ -6009,6 +6011,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||api.etherscan.io/api$domain=sushiswap.fi
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.github.com^*/log?ref=$xmlhttprequest
+@@||api.ipify.org^$xmlhttprequest,domain=account.pennytel.com.au
 @@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
 @@||api.mixpanel.com/engage/?data=$xmlhttprequest,domain=deezer.com
 @@||api.mixpanel.com/track/*$domain=etcher.io
@@ -9580,6 +9583,7 @@ znak.com##.relap
 ||analytics.kaltura.com^
 ||analytics.kapost.com^
 ||analytics.kidoz.net^
+||analytics.kraken.com^
 ||analytics.ladmedia.fr^
 ||analytics.liftoff.io^
 ||analytics.linktr.ee^
@@ -12451,7 +12455,6 @@ znak.com##.relap
 ||d3cgm8py10hi0z.cloudfront.net^
 ||d3cxv97fi8q177.cloudfront.net^
 ||d3eyd961wi10bl.cloudfront.net^
-||d3ezl4ajpp2zy8.cloudfront.net^
 ||d3f5l8ze0o4j2m.cloudfront.net^$script,domain=trademe.co.nz
 ||d3h1v5cflrhzi4.cloudfront.net^
 ||d3hb14vkzrxvla.cloudfront.net/health-check
@@ -13796,6 +13799,7 @@ znak.com##.relap
 ||fcs.ovh^$third-party
 ||fcstats.altervista.org^$third-party
 ||fdplttrk.com^
+||fdt.kraken.com^$image
 ||fdxstats.xyz^$third-party
 ||fearfowl.com^$third-party
 ||fearfulfish.com^$third-party
@@ -14214,6 +14218,11 @@ znak.com##.relap
 ||g5348277045.co^
 ||g5546361380.co^
 ||g5744445715.co^
+||g5942530050.co^
+||g6140614385.co^
+||g6338698720.co^
+||g6536783055.co^
+||g6734867390.co^
 ||ga-analytics.com^$third-party
 ||ga-beacon.appspot.com^
 ||ga.canoe.ca^
@@ -15977,7 +15986,6 @@ znak.com##.relap
 ||kinovau.club/js/analytics.js
 ||kinovau.club/js/s.js
 ||kinozal.co.ua/uploads/button/online.png?n=
-||kir.jp^$third-party
 ||kissmanga.info/*.gif?gid=
 ||kissmetrics.com^$third-party
 ||kisstesting.com^$third-party
@@ -19144,9 +19152,7 @@ znak.com##.relap
 ||quant.jp/track/
 ||quant.jp^$third-party
 ||quantcast.mgr.consensu.org/cmp.js
-||quantcast.mgr.consensu.org/cmp2.js
 ||quantcast.mgr.consensu.org^*/cmp.js
-||quantcast.mgr.consensu.org^*/cmp2.js
 ||quantcount.com^
 ||quantcount.com^$third-party
 ||quantserve.com/api/

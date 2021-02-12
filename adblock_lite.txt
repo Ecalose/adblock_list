@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202102110117
+! Version: 202102120153
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19875
+! Lenth = 19882
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -23,7 +23,7 @@
 0516city.com,cnpingpang.com,jdbbs.com##.a_h
 0517w.com,1x6666.com,365kl.net,3qled.com,52ch.net,bbs.qbaobei.com,chinafix.com,cnyw.net,cqsq.com,gz0668.com,i5qs.com,mahoupao.com,mcncc.com,qilindao.com,xsool.com###diynavtop
 0517w.com,lysq.com###diyad
-0562.cc,114shouji.com,1x6666.com,2fzw.cn,528500.com,52jscn.com,5378cc.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bansha.com,bbs.52life.cc,bestcclm.com,chcj.com,cm868.com,cnyw.net,cqfishing.net,discuzlab.com,hh010.com,i5qs.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,sh419.net,suizhoushi.com,txahz.com,wishct.com,xsool.com,ybvv.com,ytshe.com###diy1
+0562.cc,114shouji.com,1x6666.com,2fzw.cn,528500.com,52jscn.com,5378cc.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bansha.com,bbs.52life.cc,bestcclm.com,chcj.com,cm868.com,cnyw.net,cqfishing.net,discuzlab.com,gebi1.com,hh010.com,i5qs.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,sh419.net,suizhoushi.com,txahz.com,wishct.com,xsool.com,ybvv.com,ytshe.com###diy1
 0573ren.com##div[style="width:1200px;height:60px;margin:5px auto 0 auto;overflow:hidden;"]
 0573ren.com##li[data-sort] > a[href^="http://app-api.0573ren.com/store-view/store/detail/id/"]
 0579.cn,xizi.com##.top_gg
@@ -281,6 +281,7 @@
 141hongkong.com###dialog
 141hongkong.com##.wp.at
 159i.com###body > table[width="100%"]
+159i.com##.avai
 159i.com##a[href*="ai69"]
 159i.com##div[id^="sidebar"] > :not(form)
 159i.com##style + div[align="center"] > .style13
@@ -591,7 +592,7 @@
 324324.cn##.link_header
 324324.cn##div > script ~ a
 32r.com##.gsabtn
-32r.com##.gsaxzdz > UL > DT
+32r.com##.gsaxzdz > ul > dt
 32r.com##.gsbbtn
 32r.com##.gscbtn
 32r.com##.gsdbtn
@@ -604,7 +605,7 @@
 33lc.com##.ags
 33lc.com##.ddnew
 33lc.com##.dt2 + dd
-33lc.com,cncrk.com##.gsdt
+33lc.com,cncrk.com,kxdw.com##.gsdt
 3464.com##.CommonBody > .CommonListArea:nth-child(3)
 3464.com##.CommonBody > .CommonListArea:nth-child(3) + .CommonListArea
 36.cn#@#.mainAd
@@ -3376,6 +3377,8 @@ dm5.com,dm5.hk##.cl760
 dm5.com,dm5.hk##.cl970
 dm5.com,dm5.hk##a[href*=".wannaplay.cn"]
 dm530.net,hdshare.cn,it168.com###adv
+dmhy.b168.net##div[align="center"] > a[href^="https://www.baidu.com/?mm_sycmid="] > img
+dmhy.b168.net##div[align="center"] > a[onclick*="'ad'"] > img
 dmzj.com###app_home_ad
 dmzj.com###app_manhua
 dmzj.com###show_tip_bg
@@ -3995,7 +3998,6 @@ gdmm.com,gkstk.com,youquba.net#@#.adtop
 gdot.me,sc115.com,wnacg.com,wnacg.org##script + a
 gdrc.com#@#.midAd
 gdzjdaily.com.cn##.big_news + div
-gebi1.com###diy1
 gebi1.com###fwin_dialog
 gebi1.com###fwin_dialog_cover
 gebi1.com##.offical-account
@@ -5189,7 +5191,6 @@ kuwo.cn##.qr_wrapper
 kuwo.cn##.tuiguang
 kxdao.net###masonry
 kxdw.com###downloadTop
-kxdw.com##.gsdt
 kxmusic.cn,kxmusic.top##a[href*="smsf8.com"]
 l114la.com###media
 lahoo.ca###diyrighttop
@@ -6322,7 +6323,7 @@ sdgundam.cn###left-sponsor
 sdgundam.cn###link-roll ~ .box-set-2
 sdgundam.cn##a[href^="/aclk/"]
 sdo.com##.mod-public-ads
-sdo.com##A[class^="side-nav-box-daoyu"]
+sdo.com##a[class^="side-nav-box-daoyu"]
 sdzbcg.com##table[height="41"]:last-child
 sdzbcg.com##td[width="297"] img
 sdzbcg.com##td[width="580"][height="279"] > table:nth-child(2n-1)
@@ -7222,7 +7223,7 @@ weiyun.com#@#.page-ad
 weiyun.com#@#.page-share
 weiyun001.com##.agency-list
 weiyun001.com##.bg-box > .slide-box
-weiyun001.com##.g-side-r > A[onclick^="onLogs"]
+weiyun001.com##.g-side-r > a[onclick^="onLogs"]
 wenda.so.com##a[href^="http://e.so.com/search/eclk?"]
 wenda.tianya.cn##.s1Tit + .sideBox
 wendangwang.com###divActivity
@@ -11396,6 +11397,7 @@ zznews.cn##.ad:not([style])
 ||cnpingpang.com/uploadfile/TTW.gif
 ||cnpinzhuo.com^
 ||cnplugins.com/templets/cnplugins/pushbox1.js
+||cnq4379.com^
 ||cnr.cn/cnrxwph/iframe/tpdy/
 ||cnr.cn/s?z=
 ||cnrok169.com^
@@ -12593,6 +12595,7 @@ zznews.cn##.ad:not([style])
 ||fydisk.com/images/showvip.gif
 ||fyehare.com^
 ||fyjyhm.com^
+||fyvvm.com^
 ||fyzyf.com^
 ||fzbm.com/bbs/static/js/bma.js
 ||fzbymy.com^
@@ -13812,6 +13815,7 @@ zznews.cn##.ad:not([style])
 ||ioio.cc*/dm/*.swf
 ||ioio.cc/adtui/
 ||iomsew.com^
+||iopreland.com^
 ||ios.426g.com^
 ||ip.cn^$csp=style-src 'self' https:
 ||ip.hivps.xyz^
@@ -17309,6 +17313,7 @@ zznews.cn##.ad:not([style])
 ||swoole.com/_images/w7.jpg
 ||swq48b.cn^
 ||swtkc.cn^
+||swyhome.com^
 ||swzhaohuo.com.cn^
 ||sxbhzs.net^
 ||sxcol.cn^
@@ -17381,6 +17386,7 @@ zznews.cn##.ad:not([style])
 ||szpengliye.com^
 ||szpl0.com^
 ||szqifu.com^
+||szqipin.cn^
 ||szrk3.com^
 ||szshouzhai.com^
 ||sztbjs.com^
@@ -17765,6 +17771,7 @@ zznews.cn##.ad:not([style])
 ||tuoguang1111.com^
 ||tuoxintrade.cn^
 ||tupian55.com^*.gif
+||tutudao.net/js/gg*.js
 ||tuwan.com/events/courseiframe?
 ||tuwan.com/myad/
 ||tuyiyi.com/images/zone/201706/1-1F62G232310-L.png
@@ -19861,7 +19868,7 @@ zznews.cn##.ad:not([style])
 ~baidu.com##a[href*="/cpro/"]
 ~car.kdslife.com,enet.com.cn,fjsen.com,hupu.com,kdslife.com,~my.hupu.com,news.cnyes.com,pchome.net,rznews.cn##div[class^="ad"]
 ~cbachina.sports.sohu.com,sohu.com##sohuadcode
-~hkcsl.com###gg1
+~cityheaven.net###gg1
 ~houdask.com###kfivtwin
 ~hrtsea.com##.widget_ui_ads
 ~hupu.com##div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
