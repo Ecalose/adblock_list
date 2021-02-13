@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202102120153
+! Version: 202102130113
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24686
+! Lenth = 24696
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -3178,6 +3178,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /load.js.gz?
 /loadJsFingerprint.js
 /load_analytics.
+/load_time_metrics?
 /loadcounter.
 /loader-counter.
 /loader/counter.js
@@ -3205,6 +3206,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /log/collect/*
 /log/error?
 /log/event?
+/log/exposed?
 /log/impression/*
 /log/init?
 /log/jserr.php
@@ -3757,6 +3759,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /pc-log?
 /pcookie_get_key
 /pcount.asp
+/pepperjam.js
 /perf-beacon-
 /perflog/*
 /perfmetrics.js
@@ -5393,6 +5396,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /visitor/index.php?*referrer$image
 /visitor/segment?*=
 /visitorCookie.
+/visitor_id.jsp
 /visitorcountry.svc/*
 /visitortrack?
 /visitortracker.pl?
@@ -7750,7 +7754,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||songza.com/static/*/songza/systems/$script
 @@||sophos.com^*/tracking/gainjectmin.js$script,domain=community.sophos.com
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
-@@||sourcepointcmp.bloomberg.com/mms/get_site_data$xmlhttprequest,domain=bloomberg.com
+@@||sourcepointcmp.bloomberg.com/ccpa.js$script,domain=bloomberg.com
 @@||spatialbuzz.com/piwik/piwik.js$domain=spatialbuzz.com
 @@||speakout7eleven.ca^*/Magento_GoogleTagManager/$~third-party
 @@||spiegel.de/layout/js/http/netmind-$script
@@ -8353,6 +8357,7 @@ mp3.run.az###lsidebar > .mpblok:last-child
 msn.com##.tbla
 msn.com##.trc_related_container
 musicrock24.ru#?#.art-layout-cell > div.art-box:has(> div.art-box-body > div.art-blockheader > h3:contains(Счётчики))
+myfirstcomp.ru##.tm-sidebar-b > div.uk-panel:has(script[src^="https://adcounter"])
 nadavi.com.ua##img[src^="http://banstat.nadavi.net/"]
 nethunt.com/api/v1/track/email/$image
 newslab.ru##.r-recommend
@@ -11886,8 +11891,10 @@ znak.com##.relap
 ||contadorgratis.es^$third-party
 ||contadorvisitasgratis.com^$third-party
 ||contadorweb.com^$third-party
+||container.pepperjam.com^$third-party
 ||contatoreaccessi.com^$third-party
 ||contemporaryceremonies.ca^$third-party
+||content-garden.com^$third-party
 ||content-square.net^$third-party
 ||content.ad^$third-party
 ||content.cpcache.com^*/js/ga.js
@@ -16339,7 +16346,7 @@ znak.com##.relap
 ||livefyre.com^*/tracking/
 ||livehdcams.com/api/events
 ||livehdcams.com/api/metrics
-||livehelpnow.net/lhn/jsutil/getinvitationmessage.aspx?
+||livehelpnow.net/lhn/handler/$image
 ||livejournal.com/ljcounter/?
 ||livelib.ru/service/pinger
 ||livelib.ru/service/spv
@@ -17394,6 +17401,7 @@ znak.com##.relap
 ||mstat.acestream.net^
 ||mstat.ga^$third-party
 ||mstracker.net^$third-party
+||mstream.tech/view/
 ||mstrlytcs.com^$third-party
 ||msxml.excite.com/*.gif?
 ||msxstudios.de^*/system/stats/
@@ -17809,6 +17817,7 @@ znak.com##.relap
 ||noicattolici.it/x_visite/
 ||noip.com/images/em.php?$image
 ||noiselessplough.com^$third-party
+||nojscontainer.pepperjam.com^$third-party
 ||nokaut.link^$third-party
 ||nol.yahoo.com^
 ||nola.com/cgi-bin/stats/
@@ -22643,6 +22652,7 @@ znak.com##.relap
 ||tracking.aegpresents.com^
 ||tracking.aita.gov.vn^
 ||tracking.alarabiya.net^
+||tracking.americaneagle.com^
 ||tracking.ancestry.com^
 ||tracking.autoscout24.com^
 ||tracking.badgeville.com^$third-party
