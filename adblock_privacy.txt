@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202102130113
+! Version: 202102140126
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24696
+! Lenth = 24699
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -5309,6 +5309,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /v1/custom-metrics
 /v1/impressions
 /v1/page-hit
+/v1/pixel.js
 /v1/pixel?
 /v1/r.gif?
 /v1/tracker.js
@@ -6490,6 +6491,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||expedia.com/minify/siteAnalytics-$script
 @@||expedia.com/static/default/default/scripts/TealeafSDK.js
 @@||expedia.com/static/default/default/scripts/siteAnalytics.js
+@@||f.monetate.net/trk/$domain=debenhams.com
 @@||fandango.com/b/ss/$image
 @@||fast.appcues.com^$script,domain=static.abcmouse.com
 @@||fastwhitecat.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=fastwhitecat.com
@@ -7687,6 +7689,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||script.ownpage.fr/v1/ownpage.js?$script,domain=lci.fr
 @@||scripts.demandmedia.com/wm.js$domain=ehow.com
 @@||scv.band.us/jackpotlog/*/logs$domain=m.cafe.naver.com
+@@||se.monetate.net/js/*/custom.js$domain=debenhams.com
+@@||se.monetate.net/js/*/entry.js$domain=debenhams.com
 @@||se.visilabs.net/Target.js$domain=boyner.com.tr
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||sears.com^*/analytics.sitecatalyst.js
@@ -7936,6 +7940,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||trc.taboola.com/samsung-browser-us$domain=samsung.com|thestartmagazine.com
 @@||trc.taboolasyndication.com^$domain=bloomberg.com|breitbart.com|nme.com|slatev.com
 @@||trendyol.com/delivery-tracking-query-api/$~third-party
+@@||trf.greatviews.de/cl?$domain=mitarbeiterangebote.de
 @@||trueaccordengage.com/tae/api/v1/collectors/$~third-party
 @@||try.abtasty.com/403fb16c20596e4691fbe9ec5db9720e.js$domain=shop.euromaster.de
 @@||try.abtasty.com/78cb84f9b3158bdce6932109a6d7c7c1.js$domain=tf1.fr
@@ -13471,11 +13476,6 @@ znak.com##.relap
 ||eu-survey.com^$third-party
 ||eu.angsrvr.com/count
 ||eu.groupondata.com^
-||eu1l.dotabuff.com^
-||eu1l.overbuff.com^
-||eu1l.speedrun.com^
-||eu1l.trackdota.com^
-||eu1l.valorbuff.com^
 ||eucsoft.com^$third-party
 ||eue.d-teknoloji.com.tr^$third-party
 ||eulerian.belambra.be^
@@ -13573,6 +13573,7 @@ znak.com##.relap
 ||events.redditmedia.com^
 ||events.shareably.net^
 ||events.sk.ht^
+||events.splash-screen.net^
 ||events.tubecup.org^
 ||events.turbosquid.com^
 ||events.whisk.com^
@@ -17482,6 +17483,7 @@ znak.com##.relap
 ||mydirtyhobby.com/tracker
 ||mydirtyhobby.de/tracker
 ||myfastcounter.com^$third-party
+||myfidevs.io^$third-party
 ||myfinance.com/api/au?
 ||myfitnesspal.com/assets/mfp_localytics.js
 ||myfonts.net/count
@@ -19464,6 +19466,7 @@ znak.com##.relap
 ||reitingi.lv^$third-party
 ||rejectfairies.com^$third-party
 ||rejestr.org^$third-party
+||rejoiner.com/tracker/
 ||rek.www.wp.pl^
 ||reklama.lv/services/collect.php
 ||reklama.lv/services/espy.php
