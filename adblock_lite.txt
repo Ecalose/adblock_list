@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202102140126
+! Version: 202102150131
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19907
+! Lenth = 19909
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -3546,6 +3546,7 @@ dybee.tv##a[style^="position: fixed;bottom:"]
 dyhjw.com##.guessEntranceOpen
 dyhjw.com##.index_luckdraw
 dyhjw.com##.nn_link
+dzbhdm.com##.inn-nav__placeholder + .poi-container > A[target="_blank"]
 dzbhdm.com##a[href*=".weixin.qq.com/"]
 dzbhdm.com##a[href*="/xzgg/"]
 dzbhdm.com##a[href*="sourl.cn"]
@@ -3732,6 +3733,8 @@ eyy5.cn##.area1
 eyy5.cn##.wzgg
 ezprice.com.tw##.col-md-3
 ezvivi.com###table1[width="336"]
+faayoo.com###footer_fd
+faayoo.com##.qr_code
 familydoctor.com.cn##.adExtra
 fang.com###xmlAd
 fang.com##.bannger_inbox
@@ -5294,7 +5297,7 @@ linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__
 linux.cn##.linuxcnad
 linux.cn##a[href^="https://linux.cn/go/"]
 linuxde.net##.ad360x500
-litv.tv##.internal_banner
+litv.tv##.internal_bn
 liuli.pw###secondary img:not(.avatar)
 liuli.pw##a[href^="/gg2/"]
 live.win007.com###notify > a[target="_blank"]
@@ -16092,7 +16095,7 @@ zznews.cn##.ad:not([style])
 ||polkoa.com^
 ||pomhz.com^
 ||pop800.com^$third-party
-||popin.cc^$third-party
+||popin.cc^$third-party,badfilter
 ||porn87.com/static/stream_ads/
 ||pos.baidu.com^
 ||pos68.cn^
@@ -17823,7 +17826,6 @@ zznews.cn##.ad:not([style])
 ||twitterzs.com^
 ||twldmx.com^
 ||twodogegg.cn^
-||twproxy*.svc.litv.tv/cdi/v2/rpc
 ||twrank.com^$third-party
 ||twunbbs.com/images/
 ||twzui6.com^
