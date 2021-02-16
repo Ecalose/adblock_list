@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202102150131
+! Version: 202102160136
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21900
+! Lenth = 21904
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -2316,6 +2316,7 @@ $websocket,domain=5nj.com|cechi8.com
 163.com##.m_papa
 163.com##.mod_ad_r
 163.com##.mod_ad_toutu
+163.com##.mod_js_ad
 163.com##.ns-side-qrcode
 163.com##.post_adtop_main
 163.com##.post_recommend_ad
@@ -5537,7 +5538,7 @@ dybee.tv##a[style^="position: fixed;bottom:"]
 dyhjw.com##.guessEntranceOpen
 dyhjw.com##.index_luckdraw
 dyhjw.com##.nn_link
-dzbhdm.com##.inn-nav__placeholder + .poi-container > A[target="_blank"]
+dzbhdm.com##.inn-nav__placeholder + .poi-container > a[target="_blank"]
 dzbhdm.com##a[href*=".weixin.qq.com/"]
 dzbhdm.com##a[href*="/xzgg/"]
 dzbhdm.com##a[href*="sourl.cn"]
@@ -13066,6 +13067,7 @@ zznews.cn##.ad:not([style])
 ||cdn.galacg.me/img/*.jpg
 ||cdn.imvkan.com^
 ||cdn.shdsp.net/ad
+||cdn.upthinking.cn^$third-party
 ||cdn.wuyou.ca^
 ||cdn1.tvzhe.com^
 ||cdndm.com/12/2016/$domain=1kkk.com|dm5.com
@@ -18442,6 +18444,8 @@ zznews.cn##.ad:not([style])
 ||qunlove.com^*.gif
 ||quw18.com^
 ||quxiandu.com^
+||quxiangkeji.cn^
+||quxiangkeji.cn^$third-party
 ||quyejianzhan.tech^
 ||qvpublish.com^
 ||qwblog.cn/localfile/20200612230036.gif

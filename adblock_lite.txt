@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202102150131
+! Version: 202102160136
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19909
+! Lenth = 19913
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -322,6 +322,7 @@
 163.com##.m_papa
 163.com##.mod_ad_r
 163.com##.mod_ad_toutu
+163.com##.mod_js_ad
 163.com##.ns-side-qrcode
 163.com##.post_adtop_main
 163.com##.post_recommend_ad
@@ -3546,7 +3547,7 @@ dybee.tv##a[style^="position: fixed;bottom:"]
 dyhjw.com##.guessEntranceOpen
 dyhjw.com##.index_luckdraw
 dyhjw.com##.nn_link
-dzbhdm.com##.inn-nav__placeholder + .poi-container > A[target="_blank"]
+dzbhdm.com##.inn-nav__placeholder + .poi-container > a[target="_blank"]
 dzbhdm.com##a[href*=".weixin.qq.com/"]
 dzbhdm.com##a[href*="/xzgg/"]
 dzbhdm.com##a[href*="sourl.cn"]
@@ -11075,6 +11076,7 @@ zznews.cn##.ad:not([style])
 ||cdn.galacg.me/img/*.jpg
 ||cdn.imvkan.com^
 ||cdn.shdsp.net/ad
+||cdn.upthinking.cn^$third-party
 ||cdn.wuyou.ca^
 ||cdn1.tvzhe.com^
 ||cdndm.com/12/2016/$domain=1kkk.com|dm5.com
@@ -16451,6 +16453,8 @@ zznews.cn##.ad:not([style])
 ||qunlove.com^*.gif
 ||quw18.com^
 ||quxiandu.com^
+||quxiangkeji.cn^
+||quxiangkeji.cn^$third-party
 ||quyejianzhan.tech^
 ||qvpublish.com^
 ||qwblog.cn/localfile/20200612230036.gif
