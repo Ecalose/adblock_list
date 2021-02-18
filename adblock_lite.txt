@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202102170106
+! Version: 202102180131
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19924
+! Lenth = 19929
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -2557,6 +2557,7 @@ baofeng.com##.ad-bar-l
 baofeng.com##.ad-bar-r
 baofeng.com##.ad-pop-wrap
 baofeng.com##.play-ads
+bbc.com##section[class*="AdContainer"]
 bbs-mychat.com###cate_top > tr > .f_one
 bbs-mychat.com#@#.adContent
 bbs-tw.com###AdImg
@@ -5012,6 +5013,7 @@ jiyingw.net##a[href*="zhidmai.com"]
 jiyingw.net##img[width="300"][height="82"]
 jjckb.cn##.adv_ment
 jjckb.cn##div[class^="g"] > a:first-child:last-child
+jjdong4.com##div[style="width: 80%; text-align:center; margin-left: auto; margin-right: auto"]
 jjhuashui.com##div[id^="jinsom-widget-slider-"]
 jjmmw.com,qq.com##.fixed-ad
 jjwxc.net##.h8px + div[align="center"]
@@ -12451,6 +12453,7 @@ zznews.cn##.ad:not([style])
 ||fenbengpan.cn^
 ||fengbuy.com/recommend-new.
 ||fengchedaomall.cn^
+||fengcv.cn/script/
 ||fenggejiaju.com^
 ||fenglan.oss-cn-shenzhen.aliyuncs.com^*.gif
 ||fengmishop.cn^
@@ -14776,6 +14779,7 @@ zznews.cn##.ad:not([style])
 ||lemaite.cn^
 ||lenovo.com.cn/cms/2018-07-20/201807201014498251793.png
 ||lenovo.com.cn/lenovo/bid?clientType=
+||lepaidaren.com^
 ||lerenzx.cn^
 ||lesanmo.top^
 ||leshigov.cn^
@@ -16043,6 +16047,7 @@ zznews.cn##.ad:not([style])
 ||picpar.com^$domain=18board.com|18p2p.com
 ||pics.wanlibo.com/js/pagemodulestat.js
 ||pics.xgo-img.com.cn^
+||picsuperfast.xyz/imageUpload/images/*.gif
 ||picuphost.com/2016/upload/image/20170422/42206436302.gif
 ||picuphost.com/imghost/upload/image/20171226/122600098149.gif
 ||picuphost.com^$domain=mmload.info
@@ -16376,7 +16381,6 @@ zznews.cn##.ad:not([style])
 ||qpb.sohu.com^
 ||qpgyy.com/add01.html
 ||qpic.cn/qq_public/$domain=xgan.cn
-||qpic.cn^$domain=bde4.cc
 ||qpic.ws/images/pk*.gif
 ||qpmue.xyz^
 ||qpokok.com^
@@ -17071,6 +17075,7 @@ zznews.cn##.ad:not([style])
 ||smf82.cn^
 ||smitionsory.co^
 ||smpdth.cn^
+||smqzj.com/seo.js
 ||smsksx.com^
 ||smucdn.com^
 ||smvip8.cn^
