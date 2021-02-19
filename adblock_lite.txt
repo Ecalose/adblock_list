@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202102180131
+! Version: 202102190153
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19929
+! Lenth = 19941
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -584,7 +584,7 @@
 2dfan.com,galge.fun##.leftside-bg
 2dway.com##a[href="https://www.2dway.com/5244/"]
 2fzb.com###diy5
-2fzdao.com###diy_cmn1
+2fzd.com,2fzdao.com###diy_cmn1
 2fzdao.com##div[style="width: 100%;position: relative;margin-top:5px  ;  height: 60px;"]
 2ujj.com#@#.ad350
 324324.cn###gg_468_60
@@ -5321,6 +5321,7 @@ longzhu.com##.chatroom-ap
 longzhu.com##.pop-up-button
 longzhu.com##.recommend-pop-up
 lookae.com##.zhongjian
+lookerpets.com,17goforward.com,lookforward.info,happyday543.com,starfocus.news##.ui_adblock
 loveshang.com##div[class^="float-ad-"]
 lqz.cn###ad_index
 lsj.ac##div[class="col-12"] > div[class="poster"]
@@ -5534,6 +5535,9 @@ mobile01.com##.ad-adblock
 mobile01.com##.admicrobtn
 mobile01.com##.fast-ad
 mobile01.com#@#.googlead
+moe.best###rcm_sidebar
+moe.best##.alert
+moe.best##.markdown-body + div[style="text-align:center;margin-top:40px"]
 moe.gov.cn,qspfw.com#@#.ad_title
 mogewu.com###downloadurl > dl:first-child
 mogewu.com##.download > a[href*="@"]
@@ -6359,6 +6363,7 @@ sgcn.com##.bigaimg
 sgcn.com##.oyad2.cl
 sgcn.com,wangjing.cn##.fad
 shaoxing.com.cn##.top2
+sharonlife.tw#?##sidebar > div.widget:has(> h4:contains(廣告))
 shejiben.com##.bottom_zb_box
 shejidaren.com##.AND
 shejidaren.com##.ads-post-foot
@@ -9712,6 +9717,7 @@ zznews.cn##.ad:not([style])
 ||abcache.com/xc/image/
 ||abcache.com/youlaohu/
 ||abcdcfasda.gushiwen.cn^
+||abcdlm.com^
 ||abcj.dooccn.com^
 ||abckzo.cn^
 ||abdd*.com/js/abc/
@@ -9763,6 +9769,7 @@ zznews.cn##.ad:not([style])
 ||acode.b2b.cn/JS/
 ||acodes.b2b.cn^
 ||acookie.*.gif?
+||acptkgp.com^
 ||acs86.com^$third-party
 ||act.chinatimes.com/aimg/
 ||actingidekex.cn^
@@ -15095,6 +15102,7 @@ zznews.cn##.ad:not([style])
 ||m.ercos.cn^$third-party
 ||m.gongzhilian.com.cn^$third-party
 ||m.gtask.cn^$third-party
+||m.jsr9.com^*.js
 ||m.kankanwu.com/js/
 ||m.lelekan.com/sp/
 ||m.m216j.cn^$third-party
@@ -17434,6 +17442,7 @@ zznews.cn##.ad:not([style])
 ||szvr.com^$third-party
 ||szwjzl.cn^$third-party
 ||szwzjk.cn^
+||szxhybj.com^
 ||szxiuchang.com^
 ||szxpsg.com^
 ||szxzytech.com^
@@ -18932,6 +18941,7 @@ zznews.cn##.ad:not([style])
 ||xu7b.com^
 ||xuanmeiguoji.com^
 ||xuanmin.wang^
+||xuchuang.com^$third-party
 ||xue.zbyw.cn^
 ||xuehelei.com^
 ||xuehi.cn/reward/reward
@@ -19614,6 +19624,8 @@ zznews.cn##.ad:not([style])
 ||zhev.com.cn/file/weixin/
 ||zhfyws.com^
 ||zhgmeitu.xyz/images/*.gif
+||zhibo.me/js/fd.js
+||zhibo.me/js/kh.js
 ||zhibo8.cc/js/adv-slide-toggle.js
 ||zhiboba.org/gg_js/
 ||zhibok8.com/images/*.gif
