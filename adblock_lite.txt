@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202102190153
+! Version: 202102200111
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19941
+! Lenth = 19944
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -4032,7 +4032,7 @@ gitee.com##.wechat-banner.message.icon.ui
 github.com##a[href*=".aliyun.com/minisite/goods?"]
 github.com##a[href="http://gk.link/a/103EK"]
 github.com##a[href="https://start.aliyun.com/"]
-github.com##a[href^="https://cloud.tencent.com/"]
+github.com##a[href^="https://cloud.tencent.com/redirect."] > img
 github.com##a[href^="https://openwrite.cn/"]
 gkstk.com##.layui-layer
 gkstk.com##.layui-layer-shade
@@ -6307,6 +6307,7 @@ ruten.com.tw###search_u_970x90
 ruten.com.tw##.act-promo
 ruten.com.tw##.side-advertise
 ruten.com.tw#@#.adslot
+ruyo.net###sidebar > :not(:first-child):not(:last-child):not([id^="recent-posts"])
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+40)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+45)
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+50)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+55)
 rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+150):-abp-contains(/赌|娱|澳/)) > :nth-child(-n+155)
@@ -14981,6 +14982,7 @@ zznews.cn##.ad:not([style])
 ||longbahao.com/js/ad-
 ||longchengtg.com^
 ||longdidi.top/tpl/mstyle/js/g.js
+||longdidi.top^
 ||longfenfa.com^
 ||longkoupeanut.cn^
 ||longtan.in^
@@ -15075,6 +15077,7 @@ zznews.cn##.ad:not([style])
 ||lyjz001.com^
 ||lylfj.cn^
 ||lymstsc.com^
+||lynr.com^
 ||lyrymy.com^
 ||lyshengtu.cn^
 ||lysq.com/data/attachment/portal/
