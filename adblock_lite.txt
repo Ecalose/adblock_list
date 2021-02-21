@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202102200111
+! Version: 202102210159
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19944
+! Lenth = 19960
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -281,6 +281,7 @@
 141hongkong.com###dialog
 141hongkong.com##.wp.at
 159i.com###body > table[width="100%"]
+159i.com##.adi
 159i.com##.avai
 159i.com##a[href*="ai69"]
 159i.com##div[id^="sidebar"] > :not(form)
@@ -466,7 +467,7 @@
 1m3d.com###klp_adtop
 1point3acres.com##.enhanced_header
 1point3acres.com,alotof.software,android-doc.com,apk.tw,battlecats-db.com,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,moa.tw,numberempire.com,playok.com,shenfendaquan.com,tingfm.com,yabook.org#@#div > .adsbygoogle
-1stchina.net,717dyi.com,86cg.me,aiqiyivip.com,duodada.com,liaocao.tv,qhdi.com##[onclick]
+1stchina.net,717dyi.com,86cg.me,aiqiyivip.com,duodada.com,liaocao.tv,qhdi.com,taotaoxiang.cc##[onclick]
 1ting.com###tingx_5
 1ting.com##div[style="position:fixed;bottom:0;z-index:999"]
 1ydt.com###head
@@ -1063,6 +1064,7 @@
 :10443/*/*-*-*.html$subdocument,third-party
 :10443/*/*-*-*.js$third-party
 :11211/t.js?MAC=
+:12443/*/*-*-*.$script,third-party
 :1314/jiucao/
 :18443/*/*-*-*.html$subdocument,third-party
 :18443/*/*-*-*.js$third-party
@@ -1378,6 +1380,7 @@
 @@||astyle.alicdn.com/??
 @@||atanx.alicdn.com/t/tanxssp.js$domain=alimarket.tmall.com|www.taobao.com|www.tmall.com
 @@||atanx.alicdn.com/t/tanxssp.js$domain=taojinbi.taobao.com
+@@||aternos.org^$generichide
 @@||atm.youku.com/cast/getFlvUrl.
 @@||autohome.com.cn/javascript/fingerprint.js
 @@||autoimg.cn/bi/common/pvevent_all_
@@ -2651,7 +2654,6 @@ bilibili.com##.banner-card
 bilibili.com##.gg-floor-module
 bilibili.com##.index-promote
 bilibili.com##.online + .adpos
-bilibili.com##.online + .operate-card
 bilibili.com##.operate-card[data-target-url*=".miaozhen."]
 bilibili.com##.operate-card[data-target-url*="doubleclick."]
 bilibili.com##.title > span > a[href^="http"]:not([href*=".bilibili."])
@@ -6035,6 +6037,7 @@ pupudy.com##.sidebar
 pupudy.com##.sidebar > .widget-textasst:nth-child(n+3)
 py91.net##.widget_textads
 pzzc.net##.portal_block_summary
+qb-api.com##.panel-success
 qbaobei.com###diyforumdisplaybottom
 qbiao.com##div[id^="aup"]
 qdmm.com,qidian.com##.qdRead_client
@@ -9217,6 +9220,7 @@ zznews.cn##.ad:not([style])
 ||6rrcc.com/style/jquery.
 ||6rrmm.com/style/bootstrap.js
 ||6rrmm.com/style/jquery.
+||6s7v78.cn^
 ||6shuge.com^
 ||6tj.com/ent/fkbg/20191220/a46326c6a57fc066a6d985ceabdc42f6.jpg
 ||6travel.com^$third-party
@@ -10087,6 +10091,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/kf/UTB8tVxYvbPJXKJkSafS5jaqUXXac.gif
 ||alicdn.com/kf/Ub1be4a53456c4dd2a7dbc839969ed856a.gif
 ||alicdn.com/kf/Uc565e19948944fdb860e6847fb145811t.jpg
+||alicdn.com/kf/Ucdaf8165ce43491681d63dc26ecf5d75l.jpg
 ||alicdn.com/kf/Ud73197247afc4a8598f62d3aeb9b9b56K.jpg
 ||alicdn.com/kf/Ufb1c57128ee14e7d88841812d0d280abo.gif
 ||alicdn.com/kf/Ufd682a9d70524fc895a0059f276998196.jpg
@@ -12142,6 +12147,8 @@ zznews.cn##.ad:not([style])
 ||dysitecdn.com/gg
 ||dysitecdn.com^*.php
 ||dyssir.com^
+||dytt.com/oj.js
+||dytt.com/pc.js
 ||dytt.com^*yb.js
 ||dytt8.net/js1/
 ||dytt8.net/js2/
@@ -12565,6 +12572,7 @@ zznews.cn##.ad:not([style])
 ||fpb.sohu.com^
 ||fpb1.apple886.com^
 ||fpb1.chinacar.
+||fpb1.tabuzhe.com^
 ||fpbsnc.com/Runtime/js/psData.js
 ||fpdisplay.com/templates/default/js/palyflash_
 ||fpdisplay.com/upload/n_ad/
@@ -13353,6 +13361,7 @@ zznews.cn##.ad:not([style])
 ||hkdyys.cn^
 ||hkfuy.com^
 ||hkitblog.com^*-banner
+||hkmte.com/seo.js
 ||hktv10.com^
 ||hktvmall.com/api/preroll/getList?
 ||hlcnzz.com^
@@ -14451,6 +14460,7 @@ zznews.cn##.ad:not([style])
 ||k3851.com^$third-party
 ||k7tju.xyz^
 ||k99.cc^$third-party
+||k9dzax.cn^
 ||k9wz7.cn^
 ||ka12138.top^
 ||ka5188.com^
@@ -14982,7 +14992,7 @@ zznews.cn##.ad:not([style])
 ||longbahao.com/js/ad-
 ||longchengtg.com^
 ||longdidi.top/tpl/mstyle/js/g.js
-||longdidi.top^
+||longdidi.top^*.js
 ||longfenfa.com^
 ||longkoupeanut.cn^
 ||longtan.in^
@@ -15260,6 +15270,7 @@ zznews.cn##.ad:not([style])
 ||meituan.com/xiuxianyule/api/getRecommendList?
 ||meituan.xn--io0a7i^
 ||meituan.yoga^
+||meituangov.cn^
 ||meitui.org^*.js
 ||meituing.com/baidu
 ||meitulu.com/css/*showgg.js
@@ -15317,6 +15328,7 @@ zznews.cn##.ad:not([style])
 ||mikanani.me/images/Masha/
 ||mikecrm.com^$domain=bjkd365.com
 ||mikuclub.cn/down/pub/
+||mikuclub.it/pub/
 ||mil.news.sina.com.cn/iframe/109/2012/1024/photo.html
 ||mil.news.sina.com.cn/iframe/109/2013/1015/hotpic.html
 ||milimili.tv/js/loadjs/jquery
@@ -17510,6 +17522,7 @@ zznews.cn##.ad:not([style])
 ||taolicloud.com^
 ||taomochou.cn^
 ||taosq.net/public/250x250.jpg
+||taotaoxiang.cc/111/
 ||taotianran.cn^
 ||taoyuay.top^
 ||taoziba.me/a*.js
@@ -17972,6 +17985,8 @@ zznews.cn##.ad:not([style])
 ||ulink.cc^$third-party
 ||ultraimg.com^$domain=18board.com|18p2p.com
 ||ulukaris.com^$third-party
+||ulzdk.com/Uploads/ulzdkgif/bfq.gif
+||ulzdk.com/statics/v2/js/kulis.js
 ||um29.com^$third-party
 ||umbbs.cn^
 ||umetgle.cn^
@@ -18071,6 +18086,7 @@ zznews.cn##.ad:not([style])
 ||v4.cc/m/common.js
 ||v44i.cn^
 ||v4dwkcv.com/html/click/
+||v9wuyulou.com^
 ||vadioc.cn^
 ||vaedan.top^
 ||vamaker.com^$third-party
