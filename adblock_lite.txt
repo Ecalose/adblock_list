@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202102210159
+! Version: 202102220125
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19960
+! Lenth = 19964
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -7835,6 +7835,8 @@ ziqiangxuetang.com##a[href="/j/coding/"] + .w-text-red
 zixuephp.net###tantips
 ziyouge.com###toadsend
 ziyuanba.com##.top-ad-img
+ziyuanba.com##.top-ad-txt
+ziyuanba.com##A[href^="/ago."]
 zj.com##.adnav
 zj.com##.adnav2
 zj.com##.rt-banner
@@ -11342,6 +11344,7 @@ zznews.cn##.ad:not([style])
 ||cjn.cn^*/ad/
 ||cjsdtj.com^
 ||cjx111.com/ads/
+||cjyjqw.cn^
 ||cjyun.org/assets/js/analytics.js
 ||ck101.com/api.php?mod=ad&
 ||ck101.com/api.php?mod=shopping
@@ -16869,6 +16872,7 @@ zznews.cn##.ad:not([style])
 ||shangyingwm.com^
 ||shannon-porject.com^
 ||shanprint.com^
+||shantelope.com^
 ||shanxiyizhao.com^
 ||shanyuebrowser.com^
 ||shaoxing.com.cn/gg
