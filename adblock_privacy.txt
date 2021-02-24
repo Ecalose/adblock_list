@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202102230157
+! Version: 202102240106
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24774
+! Lenth = 24818
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1106,6 +1106,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /amp-analytics/*
 /amp-geo-
 /amp-omniture-iframe?
+/amp-skimlinks-
 /amp.gif?
 /amp/log.json
 /amp/pingback?
@@ -3337,6 +3338,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /ma.gif?cc=
 /magiq-
 /magnet/render.
+/mail-tracking/*$image
 /mail.sparksport.co.nz/forms/read/*
 /mail_tracking-cg.php
 /mail_tracking.php
@@ -5917,6 +5919,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||adobedtm.com/launch-$script
 @@||adobedtm.com^*-libraryCode_source.min.js$script,domain=disneyplus.disney.co.jp
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=apple.com|foodnetwork.com
+@@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
 @@||adobedtm.com^*/AppMeasurement_Module_$script,domain=foodnetwork.com
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|backcountry.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|newyorker.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|usanetwork.com|vanityfair.com|wired.com|wowway.net
@@ -6226,7 +6229,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cdn.mxpnl.com/libs/mixpanel-*.min.js$domain=voot.com
 @@||cdn.mxpnl.com/libs/mixpanel-2-latest.min.js$domain=twe.no
 @@||cdn.optimizely.com/js/$domain=zdnet.com
-@@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com|historyvault.com|imageshack.com
+@@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com|historyvault.com|imageshack.com|talktalk.co.uk
 @@||cdn.optimizely.com/js/*.js$domain=ns.nl|compassion.com|creditsesame.com|forbes.com|freeshipping.com|heroku.com|hotukdeals.com|imageshack.com|lifelock.com|malwarebytes.org|policymic.com|ricardo.ch|spotify.com|techrepublic.com|zdnet.com|olx.ua|casper.com|dubizzle.com|pullandbear.com
 @@||cdn.optimizely.com/js/*.js$domain=ruggable.com
 @@||cdn.optimizely.com/js/3148790251.js$domain=shopsmarter.com
@@ -7939,6 +7942,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||time.com/wp-content/*/time-tracking.js$script,~third-party
 @@||timvision.it/libs/fingerprint/fingerprint.js
 @@||tinkoffcreditsystems.d3.sc.omtrdc.net/b/ss/$domain=tinkoff.ru
+@@||tinypass.com^*/logAutoMicroConversion?$domain=chicago.suntimes.com
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
 @@||tiscali.it/js/webtrends/$script,domain=mail.tiscali.it
 @@||tiscali.it^*/webtrekk_mediaTracking.min.js$script,~third-party
@@ -8800,13 +8804,18 @@ znak.com##.relap
 ||a02342.worcesternews.co.uk^
 ||a02342.yeovilexpress.co.uk^
 ||a02342.yourlocalguardian.co.uk^
+||a03674778d27211eabe260a5fac8573f-298900439.eu-central-1.elb.amazonaws.com^
 ||a1.huiqituan.com^$third-party
+||a177429ff0a2d11eab4120a5a92844d8-605541764.eu-central-1.elb.amazonaws.com^
 ||a24.biz/pixel/
 ||a3.ogt.jp^$third-party
+||a351fec2c318c11ea9b9b0a0ae18fb0b-1529426863.eu-central-1.elb.amazonaws.com^
 ||a4b-tracking.com^$third-party
 ||a4st.club^$third-party
+||a51404801860511eabe260a5fac8573f-308402611.eu-central-1.elb.amazonaws.com^
 ||a7.org/infol.php?
 ||a8.net^$third-party
+||a88045584548111e997c60ac8a4ec150-1610510072.eu-central-1.elb.amazonaws.com^
 ||a8ht.hipp.fr^
 ||a8ww.net^$third-party
 ||aa.avvo.com/1/collect?*&events=
@@ -9139,6 +9148,7 @@ znak.com##.relap
 ||adyapper.com^$third-party
 ||adzjzewsma.cf^$third-party
 ||ae.dmxleo.com/*/events
+||aea50b96a4dca11ea83360ac4ee80f26-253968598.eu-central-1.elb.amazonaws.com^
 ||aem-collector.daumkakao.io^
 ||aerlingus.com/ahktqsewxjhguuxe.js
 ||aerlingus.com/ahktqsewxjhguuxexhr.js
@@ -9149,10 +9159,12 @@ znak.com##.relap
 ||af-z.jp^$third-party
 ||af.analytics.elx.cloud^$domain=arbetsformedlingen.se
 ||afairweb.com^$third-party
+||afc4d9aa2a91d11e997c60ac8a4ec150-2082092489.eu-central-1.elb.amazonaws.com^
 ||afd.baidu.com^
 ||aff*.kolektiva.net^
 ||affclkr.com^$third-party
 ||affex.org^
+||affex.org^$third-party
 ||affilae.com^$third-party
 ||affilate.hh.ru^
 ||affilbox.cz^$third-party
@@ -9968,6 +9980,7 @@ znak.com##.relap
 ||apm.crittercism.com^
 ||apn.c.appier.net^$third-party
 ||apnews.com/logger
+||apollo.plein.be^
 ||apollofind.com^$third-party
 ||app-analytics-ru.huami.com^
 ||app-analytics.snapchat.com^
@@ -9993,6 +10006,7 @@ znak.com##.relap
 ||app.roximity.com^
 ||app.shoptarget.com.br^$third-party
 ||app.yesware.com/t/$third-party
+||app1.maatwerkonline.nl^
 ||appanalysis.banggood.com^
 ||apparatuslip.com^$third-party
 ||appboycdn.com^$third-party
@@ -10126,6 +10140,7 @@ znak.com##.relap
 ||aswpsdkeu.com^$third-party
 ||aswpsdkus.com^$third-party
 ||at-o.net^
+||at-o.net^$third-party
 ||at.cbsi.com/*/event?
 ||at.cbsi.com^*/event?
 ||at.mklaud.com/at/at_log_*.php
@@ -10448,6 +10463,7 @@ znak.com##.relap
 ||bc.geocities.
 ||bc.marfeelcache.com^
 ||bc.qunar.com^
+||bc.semwerkt.nl^
 ||bc0a.com^$third-party
 ||bcd.esprit.de^$third-party
 ||bcicdn.com/js-min/*/chunks/8.*.js
@@ -10852,6 +10868,7 @@ znak.com##.relap
 ||bouncyproperty.com^$third-party
 ||bournemouthecho-gb.bournemouthecho.co.uk^
 ||boy18tube.com/analytics.js
+||bp01.net^$third-party
 ||bpath.com/count.dll?
 ||bpmonline.com^$third-party
 ||br.de/doTrack
@@ -11250,6 +11267,7 @@ znak.com##.relap
 ||cdn.usefathom.com^
 ||cdn.ustatik.com/vendor/metrica/watch.js
 ||cdn1.pebx.pl^
+||cdn3.lacoquepersonnalisee.fr^
 ||cdn3.net/pixe/
 ||cdnanalytics.xyz^$third-party
 ||cdnds.net/js/s_code.js$domain=digitalspy.ca|digitalspy.co.nz|digitalspy.co.uk|digitalspy.com|digitalspy.com.au|digitalspy.ie
@@ -11586,6 +11604,7 @@ znak.com##.relap
 ||cloudfront.net/dough/*/recipe.js
 ||cloudfront.net/esf.js
 ||cloudfront.net/i?stm=
+||cloudfront.net/i?v=
 ||cloudfront.net/js/ca.js
 ||cloudfront.net/js/grin-sdk.js
 ||cloudfront.net/js/reach.js
@@ -11670,6 +11689,7 @@ znak.com##.relap
 ||cmp.techhive.com^
 ||cmplay.did.ijinshan.com^
 ||cmptch.com^$third-party
+||cms.fyndable.online^
 ||cms.grandcloud.cn^$third-party
 ||cms.lv^$third-party
 ||cmstool.youku.com^
@@ -12480,6 +12500,7 @@ znak.com##.relap
 ||d2tgfbvjf3q6hn.cloudfront.net^
 ||d2u1npnnqecmpq.cloudfront.net^
 ||d2wlwbnaa4keje.cloudfront.net^
+||d2wu036mkcz52n.cloudfront.net^
 ||d2wy8f7a9ursnm.cloudfront.net^
 ||d2xgf76oeu9pbh.cloudfront.net^
 ||d2yh8t8mdj4l9x.cloudfront.net^
@@ -12874,6 +12895,8 @@ znak.com##.relap
 ||discordapp.com^*/track
 ||discordbots.org/api/auctions/impression
 ||discover-path.com^$third-party
+||discover.com/staticweb/
+||discovercard.com/clientlibs/
 ||discovertrail.net^$third-party
 ||discovery.com^*/events
 ||discreetfield.com^$third-party
@@ -13055,6 +13078,7 @@ znak.com##.relap
 ||ds-aksb-a.akamaihd.net^
 ||ds-aksb-a.akamaihd.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 ||ds.haaretz.co.il^
+||ds2.independer.nl^
 ||dsg.interia.pl^
 ||dsg.sc.omtrdc.net^
 ||dsltarife.net/ddd.js
@@ -13072,6 +13096,7 @@ znak.com##.relap
 ||dt.nrjmobile.fr^
 ||dt1pxsve3tgas.cloudfront.net^
 ||dtc-v6t.com^$third-party
+||dtch.brunel.nl^
 ||dti-ranker.com^$third-party
 ||dtiblog.com/hist_count.
 ||dtory.ebs.co.kr/wlo^
@@ -13463,6 +13488,7 @@ znak.com##.relap
 ||erne.co/tags?
 ||erotikcounter.org^$third-party
 ||erotop.lv^$third-party
+||erp2.pvc-strokengordijn.nl^
 ||err.rambler.ru^
 ||erraticreaction.com^$third-party
 ||error.videonow.ru^
@@ -14179,6 +14205,7 @@ znak.com##.relap
 ||ftchinese.com/js/log.js
 ||ftd.de^*/track.php?
 ||ftimg.net/js/log.js?
+||ftp.chromeburner.com^
 ||ftrack.ru^$third-party
 ||ftz.io^$third-party
 ||fuel451.com^$third-party
@@ -15142,6 +15169,8 @@ znak.com##.relap
 ||hoseasons.co.uk/tracking/js.html?
 ||hospitality-optimizer.com^$third-party
 ||host-tracker.com^$third-party
+||host10.hotelissima.fr^
+||host11.vrgh-arena.nl^
 ||hostcontent.live^$third-party
 ||hostelbookers.com/track/request/
 ||hostels.com/includes/lb.php?
@@ -15967,6 +15996,7 @@ znak.com##.relap
 ||k-files.de/screen.js
 ||k-foren.de/screen.js
 ||k-play.de/screen.js
+||k.keyade.com^
 ||k.kolplay.com^
 ||k.rueducommerce.fr^
 ||k.streamrail.com^
@@ -16064,6 +16094,7 @@ znak.com##.relap
 ||klangoo.com^$third-party
 ||klarnaservices.com/?a=$image
 ||klarnaservices.com^$image,third-party
+||klaviyo.map.fastly.net^
 ||klert.com^$third-party
 ||klickly.com/track
 ||klik.nrc.nl/ping?
@@ -16215,6 +16246,7 @@ znak.com##.relap
 ||leadformix.com^$third-party
 ||leadid.com^$third-party
 ||leadin.com^$third-party
+||leadinfo.net^$third-party
 ||leadintel.io^$third-party
 ||leadintelligence.co.uk^$third-party
 ||leadium.com^$third-party
@@ -18420,6 +18452,11 @@ znak.com##.relap
 ||pbstck.com^$third-party
 ||pc-agency24.de^$third-party
 ||pc1.io^$third-party
+||pc4.boxers.be^
+||pc4.shirts.nl^
+||pc4.sokken.be^
+||pc4.sokken.nl^
+||pc4.zwembroeken.nl^
 ||pcfreunde.de/wb.
 ||pcgamer-gb.pcgamer.com^
 ||pcgames.de/webservices/socialShareCount.php
@@ -18813,7 +18850,7 @@ znak.com##.relap
 ||pmbox.biz^$third-party
 ||pmetrics.performancing.com^
 ||pmo.ee/stats/
-||pnc.com/libraries/
+||pnc.com/contents/
 ||pnet.co.za/js/ga.js
 ||pngme.ru^$third-party
 ||pnn.de/counter/
@@ -19902,6 +19939,7 @@ znak.com##.relap
 ||s.yimg.jp/images/listing/tool/cv/ytag.js
 ||s.youtube.com^
 ||s1.daumcdn.net/svc/original/U03/cssjs/userAgent
+||s2.combifit.be^
 ||s2.youtube.com^
 ||s24-analytics.com^
 ||s24cloud.net/log^
@@ -21570,6 +21608,7 @@ znak.com##.relap
 ||stupendousselection.com^$third-party
 ||stupendoussleet.com^$third-party
 ||stupidsnake.com^$third-party
+||style.onvz.nl^
 ||stylelist.com/ping?ts=
 ||stylight.net/track/
 ||su.addthis.com^
@@ -21989,6 +22028,7 @@ znak.com##.relap
 ||tctm.co^$third-party
 ||td573.com^$third-party
 ||tda.io^$third-party
+||tdep.mijnonlineloket.nl^
 ||tdep.vacansoleil.fr^
 ||tdf.ringier.ch^
 ||tdf1.admyjob.com^
@@ -22948,6 +22988,7 @@ znak.com##.relap
 ||trafficfuelpixel.s3-us-west-2.amazonaws.com^
 ||trafficguard.ai^$third-party
 ||trafficjoint.com^$third-party
+||trafficmanager.net^$third-party
 ||trafficmaxx.de^$third-party
 ||trafficregenerator.com^$third-party
 ||trafficscanner.pl^$third-party
@@ -23002,6 +23043,7 @@ znak.com##.relap
 ||treasuredata.com^$third-party
 ||treatme.co.nz^*/Census.js
 ||treato.com/api/analytics?
+||trecker.aklamio.com^
 ||tredir.go.com/capmon/GetDE?$third-party
 ||tree-pixel-log.s3.amazonaws.com^
 ||treehousei.com^$third-party
@@ -23259,6 +23301,7 @@ znak.com##.relap
 ||twitvid.com/mediaplayer/players/tracker.swf
 ||twitvid.com^*/tracker.swf$third-party
 ||twnmm.com^*/promo_tracking.js$script,domain=theweathernetwork.com
+||two.tracedock.com^
 ||twopointo.io^$third-party
 ||txmblr.com^*/pixel^
 ||txmoadserver.net^$third-party
@@ -24241,6 +24284,7 @@ znak.com##.relap
 ||wiwo.de/js/*/webtrekk
 ||wix.com/_api/blog-social-counters/
 ||wizaly.com^
+||wizaly.com^$third-party
 ||wkclick.baidu.com^
 ||wkctj.baidu.com^
 ||wl.jd.com^

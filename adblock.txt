@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202102230157
+! Version: 202102240106
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21967
+! Lenth = 21984
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -430,12 +430,14 @@
 ##.adv_right
 ##.advert-card
 ##.advert_nav
+##.advertising_lightbox
 ##.afc_popup
 ##.anniversary-wrap-2018
 ##.appguide-wrap[onclick*="bcebos.com"]
 ##.area_ad
 ##.artad
 ##.article_ad
+##.article_ad_top
 ##.asb-index
 ##.asb-post
 ##.assort-ad
@@ -3366,7 +3368,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||anyknew.com^$generichide
 @@||aobi.100bt.com/play/ad/ad*.swf
 @@||api.ads.tvb.com^
-@@||apk.tw^$script,~third-party
+@@||apk.tw^*/ads.js$script,~third-party
 @@||app-advertise.zhihuishu.com^
 @@||appledaily.com.hk/admedia/
 @@||appledaily.com.tw^*_ad_logo.
@@ -3530,7 +3532,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||dlkoo.com/down/copy1
 @@||dlkoo.com^$generichide
 @@||dmhy.b168.net^$generichide
-@@||dmhy.org/common/generate-captcha?
 @@||dnbus.com.tw/AD/tab_route.html
 @@||douban.com/popup/login?
 @@||doubibackup.com^$generichide
@@ -3878,7 +3879,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||runative-syndicate.com/do2/*$domain=onemanhua.com
 @@||ruten.com.tw/ahd/fetch_ad.php
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
-@@||s.pacn.ws^*/generate-captcha?$domain=dmhy.org
 @@||s.yimg.com/ja/ap/*/jquery.$domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com|tw.yahoo.com
 @@||sax.sina.com.cn/video/newimpress?
 @@||scorecardresearch.com/beacon.js$domain=hktvmall.com
@@ -7757,6 +7757,7 @@ nick20.com##table[width="702"][bgcolor="#D1DDAA"]
 nicotv.me###ff-slide
 nicotv.me##.clearfix-ads
 nicotv.me##.container > div.slide[style="padding-bottom:0px"]
+nicotv.me##[onclick]
 nicotv.me##a[href^="http://img.kingsnug.cn/gamecenter/"]
 ningmengtiyu.com,ningmengzhibo.com##td[style="width: 50px;font-size: 12px;"]
 ningmengzhibo.com##th[style="width: 80px;"][colspan="3"]
@@ -8949,6 +8950,7 @@ tvapk.net###frame5zglZ4
 tvapk.net###framecd6V1M
 tvapk.net###framelP7piy
 tvboxnow.com##td[style="width:15%;height:100%;"]
+tvbs.com.tw##.smart_banner
 tvmost.com.hk##.main_ad_b
 tvsou.com##.sogou-temp-hidden
 tvsou.com##.sogou-temp-show
@@ -9372,6 +9374,7 @@ xbyuan.com#?#li:-abp-has(>.myad)
 xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
+xchina.co##.slider-ad
 xclient.info###pop_business
 xcmh.cc##div[style="margin:0 auto 12px; adding:0;width:980px;height:250px;overflow:hidden;"]
 xd0.com###HtmlMoKua_775790
@@ -10297,6 +10300,7 @@ zznews.cn##.ad:not([style])
 ||139.196.166.21^
 ||139file.com/jsa/
 ||139site.com^$third-party
+||13hangpifa.com^
 ||13wn.com^
 ||13wnjs.com^
 ||141h.com/data/attachment/noblock/cf/
@@ -11239,6 +11243,7 @@ zznews.cn##.ad:not([style])
 ||711kk.com^
 ||7160.com/js/tiaozhuanquanju.js
 ||717dyi.com/Public/js/zbhf/
+||717dyi.com/js/dh
 ||717dyi.com/js/dibu.js
 ||717dyi.com/js/head.js
 ||717dyi.com/js/zb
@@ -12060,6 +12065,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/img/ibank/*_775661713.
 ||alicdn.com/img/ibank/*_872274545.
 ||alicdn.com/img/ibank/*_951336353.
+||alicdn.com/img/ibank/*_967741881.
 ||alicdn.com/imgextra/*_!!1091819078.
 ||alicdn.com/imgextra/*_!!1974227597.
 ||alicdn.com/imgextra/*_!!823262290.
@@ -12233,6 +12239,7 @@ zznews.cn##.ad:not([style])
 ||apistat.gao7.com^
 ||apistat.wasu.cn^
 ||apjiangte.com^
+||apk.tw/static/js/showpic.js
 ||apkdo.com^
 ||apmengxin.com^
 ||apmnqut.cn^
@@ -12664,6 +12671,7 @@ zznews.cn##.ad:not([style])
 ||bdxnc.com^
 ||bdyxzx.com^
 ||beacon.sina.com.cn^
+||bearad.com^
 ||beareyes.com.cn/2/cat/js/*_centerl
 ||beareyes.com.cn/2/cat/js/*_right
 ||beareyes.com.cn^*/ad/
@@ -13080,6 +13088,7 @@ zznews.cn##.ad:not([style])
 ||cctv567.com/b/
 ||cctvpic.com/photoAlbum/templet/common/*/game_
 ||cctyly.com^
+||cczuxie.com^
 ||cd-best.cn^
 ||cdeledu.com/ADVC/$domain=~chinaacc.com|~ruidaedu.com
 ||cdgfa.ifeng.com^
@@ -14072,6 +14081,7 @@ zznews.cn##.ad:not([style])
 ||dtzysm.com^
 ||du1.bbdj.com^
 ||du9zgx.cn^
+||duamilsyr.com^
 ||duanwenxue.com/functions/
 ||duanwenxue.com/shuang11/
 ||duapp.com^$domain=bjmama.com|ccav1.com|gzmama.com|sexcar.cn
@@ -14387,6 +14397,7 @@ zznews.cn##.ad:not([style])
 ||f1t5pb.cn^
 ||f1zd.com^$third-party
 ||f2zd.com^
+||f4hn9v.com^
 ||f50b5.cn^
 ||f6ce.com^
 ||f70123.com^
@@ -14729,6 +14740,7 @@ zznews.cn##.ad:not([style])
 ||gaoqing.la/wp-content/uploads/*GOOVIS
 ||gaosan.com/js/b.js
 ||garacy.cn^
+||gars57.cn^
 ||gasaq.com/public/flash/
 ||gasxf.com^
 ||gavbus*.com/assets/common/js/ad.js
@@ -15028,6 +15040,7 @@ zznews.cn##.ad:not([style])
 ||guominziben.com^
 ||guoxintdh.com^
 ||guqu.net/Cooperate/
+||gushiwen.org/getTicket.aspx
 ||gutouwang.net^
 ||guvdfs.cn^
 ||guxiaom.cn^
@@ -15240,6 +15253,7 @@ zznews.cn##.ad:not([style])
 ||hdweds.cn^
 ||hdzkjv.cn^
 ||he2d.com/crossdomain.xml
+||he3kz8.com^
 ||headwell.cn^
 ||heartshow.cn^$third-party
 ||heavenwil.top^
@@ -15388,6 +15402,7 @@ zznews.cn##.ad:not([style])
 ||hngzsb.com^
 ||hnhgw.cn^
 ||hnhycp.com^
+||hnjls.com.cn^
 ||hnkuangshan.cn^
 ||hnnuange.com^
 ||hntiantai.cn^
@@ -18643,6 +18658,7 @@ zznews.cn##.ad:not([style])
 ||rockcoke.cn^
 ||romgv.com^
 ||rongchengxxw.com^
+||rongdingkeji.cn^
 ||rongdingwl.cn^
 ||rongnews.com^
 ||root85.com^
@@ -18696,7 +18712,6 @@ zznews.cn##.ad:not([style])
 ||s.360.cn^
 ||s.btime.com^
 ||s.go.sohu.com^*/?callback=
-||s.pacn.ws^*?$image,domain=dmhy.org
 ||s.so.360.cn^
 ||s.union.360.cn^
 ||s.weibo.com/widget.html
@@ -18880,7 +18895,7 @@ zznews.cn##.ad:not([style])
 ||shaqm.com^*.js$third-party
 ||shaque.vip^
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
-||share.dmhy.org^*?$image
+||share.dmhy.org^*.*?$image
 ||share.gzdsw.com^
 ||share44.com/300
 ||share44.com/adad2014/
@@ -20602,6 +20617,7 @@ zznews.cn##.ad:not([style])
 ||x.dmouy.cn^$third-party
 ||x1.52aoteman.com^
 ||x1.kantu.com^
+||x23qb.com/ak
 ||x23qb.com/skin/style
 ||x23qb.com/skin/themex.js
 ||x3cn.com/data/attachment/portal/*.gif
@@ -21306,6 +21322,7 @@ zznews.cn##.ad:not([style])
 ||yongkang6.com^
 ||yongv.com^$third-party
 ||yoobest.cn^
+||yooread.net/ak
 ||yootui19999.com^
 ||yorkbbs.ca/yorkads/
 ||you85.net/ck2/
