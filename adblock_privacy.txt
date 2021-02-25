@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202102240106
+! Version: 202102250151
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24818
+! Lenth = 24829
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -4413,6 +4413,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /skype-analytics.
 /sl.gif?1=
 /slimstat/*
+/slot_cmp.js
 /small.gif?type
 /smartpixel-1.js
 /smartpixel.
@@ -4544,6 +4545,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /static/analytics.js
 /static/cache.php?url=https://mc.yandex.com/metrika/*
 /static/cache/?url=https://mc.yandex.ru/*
+/static/peg_utils/peg_logger$domain=parship.de|elitepartner.de
 /static/tracking/*
 /statics/analytics.js?
 /statistic/*&data=
@@ -6179,7 +6181,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cbsimg.net/js/cbsi/dw.js$domain=cbssports.com
 @@||cbsinteractive.com^*/lib/tracking/comscore/$script
 @@||cbsistatic.com/fly/bundles/flyjs/js/managers/clicktale-1.0.js$domain=cbsnews.com
-@@||cbsistatic.com^*/dw-tracking-1.0.js$domain=techrepublic.com
 @@||ccom-cdn.com/assets/img/clear.gif?ccom_md5=$domain=credit.com
 @@||cdn-care.com/js/analytics/$script,domain=care.com
 @@||cdn-care.com/js/vendor/yarn_components/amplitude-js/amplitude.min.js$script,domain=care.com
@@ -6229,7 +6230,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cdn.mxpnl.com/libs/mixpanel-*.min.js$domain=voot.com
 @@||cdn.mxpnl.com/libs/mixpanel-2-latest.min.js$domain=twe.no
 @@||cdn.optimizely.com/js/$domain=zdnet.com
-@@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com|historyvault.com|imageshack.com|talktalk.co.uk
+@@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com|historyvault.com|imageshack.com
 @@||cdn.optimizely.com/js/*.js$domain=ns.nl|compassion.com|creditsesame.com|forbes.com|freeshipping.com|heroku.com|hotukdeals.com|imageshack.com|lifelock.com|malwarebytes.org|policymic.com|ricardo.ch|spotify.com|techrepublic.com|zdnet.com|olx.ua|casper.com|dubizzle.com|pullandbear.com
 @@||cdn.optimizely.com/js/*.js$domain=ruggable.com
 @@||cdn.optimizely.com/js/3148790251.js$domain=shopsmarter.com
@@ -7140,6 +7141,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||infowarsmedia.com/videojs-event-tracking/dist/videojs-event-tracking.js$script,~third-party
 @@||infra.lync.com/Scheduler/Scripts/aria-web-telemetry-$script,~third-party
 @@||ing-diba.de^*/sitestat.js
+@@||ingest.sentry.io/api/$xmlhttprequest,domain=tesco.com
 @@||ingturkey.tt.omtrdc.net/m2/ingturkey^$domain=ingbank.com.tr
 @@||innovelsolutions.com^*/tracking/$~third-party
 @@||inpref.com/frosmo.xdm.html?
@@ -7502,6 +7504,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||opensubtitles.org/cdn-cgi/pe/bag2?r[]=*google-analytics.com
 @@||optimize.webtrends.com^$domain=peterboroughtoday.co.uk
 @@||optimizely.addmilk.nl^$image,domain=simyo.nl
+@@||optimizely.com/datafiles/$domain=talktalk.co.uk
 @@||optimizely.com/js/geo2.js$domain=cbs.com
 @@||optimost.com/counter/*/event.js?$domain=bebo.com
 @@||optimost.com^*/FT_live.js$domain=ft.com
@@ -7925,6 +7928,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||tc.bankofamerica.com/c?
 @@||tccrestify-dot-tcc-cloud.appspot.com/tracking/$domain=tcc.com.co
 @@||tchibo.de^*/webtrekk_$xmlhttprequest
+@@||techrepublic.com^*/dw-tracking-1.0.js$~third-party
 @@||teenvogue.com/js/eventTracker.js
 @@||telegraph.co.uk/template/ver1-0/js/webtrends/live/wtid.js
 @@||templates.marketo.net/template*/$script,stylesheet,domain=pages.addigy.com
@@ -10826,7 +10830,7 @@ znak.com##.relap
 ||bomp.odmedia.net^$domain=fcb.tv
 ||boneregret.com^$third-party
 ||bonfire.spklw.com^
-||bongacams.com/track?$document
+||bongacams*.com/track?$document
 ||bonitrust.de^$third-party
 ||bonnieradnetwork.se^$third-party
 ||bonsai.internetbrands.com^
@@ -12658,6 +12662,7 @@ znak.com##.relap
 ||datamaster.com.cn^$third-party
 ||datametrical.com^$redirect=nooptext
 ||datamind.ru^$third-party
+||datanoticias.prisasd.com^
 ||dataperforma.com^$third-party
 ||datarating.com^$third-party
 ||datasecu.download^$third-party
@@ -13370,6 +13375,7 @@ znak.com##.relap
 ||elitics.com^$third-party
 ||elmir.ua/response/stats.php
 ||eloqua.com^$~stylesheet,third-party
+||elpais.com/t.gif
 ||elr.sfr.fr^
 ||els-cdn.com^*/analytics.js
 ||elsevier.com/pageReport?
@@ -13458,12 +13464,13 @@ znak.com##.relap
 ||enviousthread.com^$third-party
 ||eolcdn.com^$third-party
 ||ep.xone.com^
-||ep00.epimg.net^
 ||ep4p.com^$third-party
 ||eperfectdata.com^$third-party
 ||epilot.com^$third-party
 ||epimg.net/js/*/satelliteLib-
+||epimg.net/js/gdt/
 ||epimg.net/js/vr/vrs.
+||epimg.net/t.gif
 ||epinions.com/js/stdLauncher.js
 ||epinions.com/js/triggerParams.js
 ||epiodata.com^$third-party
@@ -14365,6 +14372,7 @@ znak.com##.relap
 ||gayfuckporn.tv/stats.gif^
 ||gaysuperman.com/analytics.js
 ||gaysuperman.com/stats.gif^
+||gaza2lote.com^$third-party
 ||gazeta-unp.ru/viewCounter/increment
 ||gazeteduvar.com.tr/hit-increment/$xmlhttprequest
 ||gazetevatan.com/d/generic-counter.asp^
@@ -17923,6 +17931,7 @@ znak.com##.relap
 ||noowho.com^$third-party
 ||nordicresearch.com^$third-party
 ||nordstrom.com/log
+||norm0care.com^$third-party
 ||northstartravelmedia.com^$third-party
 ||nostalgicknot.com^$third-party
 ||nostalgicneed.com^$third-party
@@ -20305,6 +20314,7 @@ znak.com##.relap
 ||sestatic.fi^*/zig.js
 ||sevenload.com/som_
 ||sex-flow.com/js/error.js
+||sex-studentki.pro/system/stat/
 ||sexcounter.com^$third-party
 ||sexu.com/api/events
 ||sexu.com/api/ttrack
@@ -22988,7 +22998,7 @@ znak.com##.relap
 ||trafficfuelpixel.s3-us-west-2.amazonaws.com^
 ||trafficguard.ai^$third-party
 ||trafficjoint.com^$third-party
-||trafficmanager.net^$third-party
+||trafficmanager.net/uet/tracking_script?
 ||trafficmaxx.de^$third-party
 ||trafficregenerator.com^$third-party
 ||trafficscanner.pl^$third-party
@@ -24461,6 +24471,7 @@ znak.com##.relap
 ||xing.com/app_stats/
 ||xing.com/collect/
 ||xing.com/logjam/
+||xinnet.com/dcp/javascript/fingerprint2.min.js
 ||xiti.com^$third-party
 ||xl-counti.com^$third-party
 ||xl-trk.com^$third-party
