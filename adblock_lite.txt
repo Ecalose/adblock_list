@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202102250151
+! Version: 202102260117
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19995
+! Lenth = 20007
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -281,8 +281,8 @@
 141hongkong.com###dialog
 141hongkong.com##.wp.at
 159i.com###body > table[width="100%"]
-159i.com##.adi
 159i.com##.avai
+159i.com##.ddi
 159i.com##a[href*="ai69"]
 159i.com##div[id^="sidebar"] > :not(form)
 159i.com##style + div[align="center"] > .style13
@@ -418,6 +418,9 @@
 18avhub.com,18avtube.com,avmimi.com,mm-cg.com###friendLink
 18avhub.com,18avtube.com,mm-cg.com###partner
 18avhub.com,18avtube.com,mm-cg.com##.CN_qmvtoy
+18avinin.com###custom_html-5
+18avinin.com##A[href^="http"]:not([href*="18avinin."]) > IMG[src*=".18avinin.com/wp-content/uploads/"]
+18avinin.com##A[href^="https://forms.gle/"]
 18board.com,18p2p.com##.altbg2 > td[width="33%"]
 18board.com,18p2p.com##a[target="_blank"] > img[width="320"]
 18board.com,18p2p.com##a[target="_blank"] > img[width="330"]
@@ -5784,6 +5787,9 @@ nmgnews.com.cn###div_ad4
 nobugin.com##.td-a-rec
 nodejs.cn###biz_center
 nodejs.cn###biz_nav
+nongjitong.com##.ad_sms
+nongjitong.com##.div_ad
+nongjitong.com##.recommend
 note.youdao.com##.sidebar-ft
 nowcoder.com###jsSideTopicList
 nowcoder.com##.mini-banner
@@ -9987,6 +9993,7 @@ zznews.cn##.ad:not([style])
 ||aiwen.cc^
 ||aixiaofan.cn/content/uploadfile/tpl_options//Ad_list_
 ||aixiaoju.com/dbxf/*.js
+||aixiawx.com/4B7LlzdA/4I6UpES.js
 ||aixifan.com/appSpreadContents/danmuad
 ||aixifan.com/apsdk/apsdk.js
 ||aixifan.com/cms/*/w/1160/h/100
@@ -11059,6 +11066,7 @@ zznews.cn##.ad:not([style])
 ||cbfw.cn/gonggong/chibi/cf_
 ||cbjg.cqnews.net^
 ||cbjs.baidu.com^
+||cbjs.ciwei.in^
 ||cbsi.com.cn/js/mlt.js
 ||cbvjddh.23txt.com^
 ||cby521.com^
@@ -14261,6 +14269,7 @@ zznews.cn##.ad:not([style])
 ||jjxgly.com^
 ||jjz666.cn^
 ||jk939.com^
+||jkdd.cc^*-
 ||jke1.jianke.com^
 ||jkert.com^
 ||jkgnplk.cn^
@@ -15758,6 +15767,7 @@ zznews.cn##.ad:not([style])
 ||no1.168abc.net/upload/
 ||noahos.cn^
 ||noberlmall.com^
+||nongjitong.com/adm/
 ||nongsalei.com^
 ||nongzhifu.cn^
 ||nongzhifu.cn^$third-party
@@ -16503,6 +16513,7 @@ zznews.cn##.ad:not([style])
 ||qudao.com/common/minisite.js
 ||qudaoweiwang.com^
 ||queene.cn^
+||quehq.com^
 ||quipin.cn^
 ||qujishu.com^
 ||qunale888.com/files/h5/
@@ -18780,6 +18791,7 @@ zznews.cn##.ad:not([style])
 ||xilu.com/js/bd.js
 ||xilu.com/script/tag/2.0/func.js
 ||xin365.org^$third-party
+||xinchen2.com/3.gif
 ||xindelin.cn^
 ||xineurope.com/static/image/banner/
 ||xing678.com^$third-party
