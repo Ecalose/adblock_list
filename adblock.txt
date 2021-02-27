@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202102260117
+! Version: 202102270154
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22002
+! Lenth = 22012
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -2036,7 +2036,7 @@ $websocket,domain=5nj.com|cechi8.com
 0597kk.com##.recommend-container
 0597kk.com##div[style="width:960px; overflow:hidden; margin:2px auto; "]
 0597kk.com##img[width^="37"][height="30"]
-0597ok.com##.div_ad
+0597ok.com,nongjitong.com##.div_ad
 0598yu.com##.v1100_ad
 05sun.com###nowDown1
 05sun.com,7down.com,newasp.net###btndowns
@@ -2416,9 +2416,9 @@ $websocket,domain=5nj.com|cechi8.com
 18avhub.com,18avtube.com,avmimi.com,mm-cg.com###friendLink
 18avhub.com,18avtube.com,mm-cg.com###partner
 18avhub.com,18avtube.com,mm-cg.com##.CN_qmvtoy
-18avinin.com###custom_html-5
-18avinin.com##A[href^="http"]:not([href*="18avinin."]) > IMG[src*=".18avinin.com/wp-content/uploads/"]
-18avinin.com##A[href^="https://forms.gle/"]
+18avinin.com##a[href^="http"]:not([href*="18avinin."]) > img[src*=".18avinin.com/wp-content/uploads/"]
+18avinin.com##a[href^="https://forms.gle/"]
+18avinin.com,sunnylife.tw###custom_html-5
 18board.com,18p2p.com##.altbg2 > td[width="33%"]
 18board.com,18p2p.com##a[target="_blank"] > img[width="320"]
 18board.com,18p2p.com##a[target="_blank"] > img[width="330"]
@@ -6659,7 +6659,7 @@ image.baidu.com##.tjImgli
 image.baidu.com##.tjad
 image.baidu.com##.wrapper_dot_box.dot_black
 image.baidu.com##div[id^="relecom"]
-image.baidu.com,xizi.com##.recommend
+image.baidu.com,nongjitong.com,xizi.com##.recommend
 image.so.com###js_textlink
 image.so.com###starlist
 image.so.com##.cmitem
@@ -7783,8 +7783,6 @@ nobugin.com##.td-a-rec
 nodejs.cn###biz_center
 nodejs.cn###biz_nav
 nongjitong.com##.ad_sms
-nongjitong.com##.div_ad
-nongjitong.com##.recommend
 note.youdao.com##.sidebar-ft
 nowcoder.com###jsSideTopicList
 nowcoder.com##.mini-banner
@@ -8695,7 +8693,6 @@ suizhoushi.com##.sznew_ad_top
 suizhoushi.com##div[id^="sznew_ad"]
 suning.com###sn-sidebar-change-code
 suning.com##.c2c-recommend
-sunnylife.tw###custom_html-5
 suopao.org##.t5[style^="margin-top:8px;"]
 suopao.org##.tr3.t_one[onmouseout]
 superlife.ca##.sidebar-ad-zone
@@ -10690,8 +10687,12 @@ zznews.cn##.ad:not([style])
 ||32414.com^$third-party
 ||32xp.com/upimg/
 ||3324.cn^$third-party
+||3336653.com^
 ||3336657.com^
+||3336670.com^
 ||3336672.com^
+||3336691.com^
+||3337706.com^
 ||3337723.com^
 ||3337729.com^
 ||3337735.com^
@@ -14392,6 +14393,7 @@ zznews.cn##.ad:not([style])
 ||eyouv.cn^$third-party
 ||eyusky.net/weixin-img/zhifubao.jpg
 ||eyuyao.com/yyad/
+||ez2kyh.cn^
 ||ez33.com^$third-party
 ||ezfashion.com.cn^
 ||ezlian.com^$third-party
@@ -15414,6 +15416,7 @@ zznews.cn##.ad:not([style])
 ||hngzsb.com^
 ||hnhgw.cn^
 ||hnhycp.com^
+||hnjcdjx.com^
 ||hnjls.com.cn^
 ||hnkuangshan.cn^
 ||hnnuange.com^
@@ -16726,7 +16729,9 @@ zznews.cn##.ad:not([style])
 ||kxrxh.com^
 ||kxvuv.com^
 ||kyad88.com^
+||kygso.com/js/lrtk.js
 ||kyouad.com^
+||kypzu.cn^
 ||kyqcfj.com^
 ||kyxnz.cn^
 ||kyyqhpi.cn^
@@ -17719,6 +17724,7 @@ zznews.cn##.ad:not([style])
 ||nixingle.com/zhenbuka/statics/js/fuck-debugger.js
 ||njcn888.com^
 ||njcyfpv.cn^
+||njcyt.com^
 ||njdaily.cn/templates/njdaily2014/widget/njdaily-slideAds
 ||njdijiani.com^
 ||njfsk.com^
@@ -17762,6 +17768,7 @@ zznews.cn##.ad:not([style])
 ||no1.168abc.net/upload/
 ||noahos.cn^
 ||noberlmall.com^
+||nongfumg.com^
 ||nongjitong.com/adm/
 ||nongsalei.com^
 ||nongzhifu.cn^
@@ -18156,6 +18163,7 @@ zznews.cn##.ad:not([style])
 ||pnhfc.com^
 ||pniao99.com/statics/js/stat.js
 ||pnxs.com^
+||po*.877zw.com^
 ||pochengweiyuan.com^
 ||poco.cn/v1_1/rank/get_floating_layer_ad
 ||poco.cn^*_info_banner
@@ -20438,6 +20446,7 @@ zznews.cn##.ad:not([style])
 ||whsir.com/image/aliyun
 ||whsjg.cn^
 ||whxhhjx.com^
+||whxjnwzhs.com^
 ||whytoss.com^
 ||wicp.net^*.swf
 ||widget.ezprice.com.tw^$third-party
@@ -21907,6 +21916,7 @@ zznews.cn##.ad:not([style])
 ||zupulu.com/scripts/app/app.js
 ||zutodu.cn^
 ||zwdu.com/static/scripts/1.js
+||zwdu.com/static/scripts/common.
 ||zwenhan.com^
 ||zwhkug.cn^
 ||zwkssb.com^
