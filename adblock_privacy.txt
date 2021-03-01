@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202102280156
+! Version: 202103010102
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 24974
+! Lenth = 24957
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -2448,6 +2448,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /fdlogger.
 /fdlogger/*
 /fe/track/*
+/fe_logger?
 /feature-loader/render.
 /federated-analytics.
 /figanalytics.
@@ -2832,6 +2833,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /hm.pl?p=
 /hmapxy.js
 /hnpprivacy-min.
+/hockeystack.min.js
 /home/Analytic?
 /homeCounter.
 /homePixelTracking.
@@ -7145,6 +7147,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||infra.lync.com/Scheduler/Scripts/aria-web-telemetry-$script,~third-party
 @@||ing-diba.de^*/sitestat.js
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=tesco.com
+@@||ingest.sentry.io/api/$xmlhttprequest,domain=tesco.hu
 @@||ingturkey.tt.omtrdc.net/m2/ingturkey^$domain=ingbank.com.tr
 @@||innovelsolutions.com^*/tracking/$~third-party
 @@||inpref.com/frosmo.xdm.html?
@@ -7192,7 +7195,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||js.vpro.nl/vpro/*/statcounter.js?
 @@||jsonip.com/?callback=$script,domain=pagtel.com.br
 @@||jsonip.com/?callback=jQuery$domain=pagtel.com.br
-@@||jsrdn.com/s/cs.js$domain=distro.tv
+@@||jsrdn.com/s/$script,domain=distro.tv
 @@||jssdkcdns.mparticle.com/js/v*/*/mparticle.js$domain=cwseed.com
 @@||jssdkcdns.mparticle.com/js/v*/*/mparticle.js$domain=cwtv.com
 @@||jssdkcdns.mparticle.com/js/v*/*/mparticle.js$domain=nbc.com
@@ -11570,6 +11573,7 @@ znak.com##.relap
 ||clickzzs.nl^$third-party
 ||client-analytics.braintreegateway.com^
 ||client-event-reporter.twitch.tv^
+||client-log.box.com^
 ||client.perimeterx.net^$third-party
 ||client.tahono.com^$third-party
 ||clientgear.com^$third-party
@@ -11686,30 +11690,8 @@ znak.com##.relap
 ||cmmeglobal.com^$third-party
 ||cmmeglobal.com^*/page-view?
 ||cmp-cdn.ghostery.com^
-||cmp.arnnet.com.au^
 ||cmp.channelpartner.de^
-||cmp.cio.com.au^
-||cmp.cio.com^
-||cmp.cmo.com.au^
-||cmp.computerworld.com.au^
-||cmp.cso.com.au^
-||cmp.csoonline.com^
-||cmp.digitalartsonline.co.uk^
 ||cmp.dreamlab.pl^
-||cmp.greenbot.com^
-||cmp.idginsiderpro.com^
-||cmp.infoworld.com^
-||cmp.javaworld.com^
-||cmp.macworld.co.uk^
-||cmp.macworld.com^
-||cmp.osano.com^
-||cmp.pcworld.co.nz^
-||cmp.pcworld.com^
-||cmp.pcworld.idg.com.au^
-||cmp.tech426.com^
-||cmp.techadvisor.co.uk^
-||cmp.techconnect.com^
-||cmp.techhive.com^
 ||cmplay.did.ijinshan.com^
 ||cmptch.com^$third-party
 ||cms.fyndable.online^
@@ -14307,6 +14289,7 @@ znak.com##.relap
 ||g.itespresso.fr^
 ||g.mashable.com^
 ||g.msn.com^
+||g.pcmag.com^
 ||g.silicon.de^
 ||g.siliconweek.es^
 ||g.vev.io^
@@ -14343,6 +14326,7 @@ znak.com##.relap
 ||g6536783055.co^
 ||g6734867390.co^
 ||g6932951725.co^
+||g7131036060.co^
 ||ga-analytics.com^$third-party
 ||ga-beacon.appspot.com^
 ||ga.canoe.ca^
@@ -14371,6 +14355,7 @@ znak.com##.relap
 ||gamejolt.com/tick/
 ||gamepro.de^*/visitcount.js
 ||gamerdeals.net/aggbug.aspx
+||gamergen.com/ajax/actualites/addVue
 ||games.softgames.de/assets/sg-ga-track-sdk.js
 ||gamesgames.com/WebAnalysis/
 ||gamesgames.com/wdg/performance_tracker-active
@@ -14955,6 +14940,7 @@ znak.com##.relap
 ||gumtree.com.au/?pc=
 ||guoshipartners.com^$third-party
 ||guq9.vente-unique.it^
+||gurgle.pcmag.com^
 ||gus.host/coins.js
 ||gus.host^$third-party
 ||gutefrage.net/__ub.gif?
@@ -15196,6 +15182,7 @@ znak.com##.relap
 ||hocalwire.com/tracking-
 ||hocam.com/gemius/xgemius_v*.js
 ||hocgeese.com^$third-party
+||hockeystack.com^$third-party
 ||holder.com.ua^$third-party
 ||holiday-rentals.co.uk/thirdparty/tag
 ||holiday-rentals.co.uk^*/tracking-home.html
@@ -15894,6 +15881,7 @@ znak.com##.relap
 ||ithinkthereforeiam.net^$third-party
 ||itop.cz^$third-party
 ||itp.net/ga.js
+||itpuk-mms.itpro.co.uk^
 ||itrac.it^$third-party
 ||itracker360.com^$third-party
 ||itrackerpro.com^$third-party
@@ -17386,7 +17374,6 @@ znak.com##.relap
 ||mmccint.com^$third-party
 ||mmi-agency.com^$third-party
 ||mmi.bemobile.ua^
-||mmm.carbuyer.co.uk^
 ||mmm.theweek.co.uk^
 ||mmpool.org^$third-party
 ||mms.al.com^
@@ -17401,7 +17388,6 @@ znak.com##.relap
 ||mms.gizmodo.com^
 ||mms.gocomics.com^
 ||mms.gulflive.com^
-||mms.itpro.co.uk^
 ||mms.jalopnik.com^
 ||mms.jezebel.com^
 ||mms.lehighvalleylive.com^
@@ -17824,7 +17810,6 @@ znak.com##.relap
 ||nelonenmedia.fi/hitcounter$image
 ||neocounter.neoworx-blog-tools.net^
 ||neon-lab.com/neonbctracker.js
-||neowin.net/js/mdn.neowin.js
 ||neowin.net/ws/$websocket
 ||ner-de-mi-nis-6.info^$third-party
 ||nerfherdersolo.com^$third-party
@@ -20683,7 +20668,6 @@ znak.com##.relap
 ||sltrib.com/csp/mediapool/sites/Shared/assets/csp/includes/omniture/SiteCatalystCode_H_17.js
 ||sm-epsilon.com^$third-party
 ||sm.batuu.pl/collect?
-||sm.pcmag.com^$script
 ||smadex.com^$third-party
 ||smallbeginner.com^$third-party
 ||smallcapnetwork.com^*/viewtracker/
@@ -24141,7 +24125,6 @@ znak.com##.relap
 ||weather.com.cn/a1.js
 ||weather.com/api/v*/script/dprSdkScript.js
 ||weather.com/pagelet/metrics/
-||weather.com/weather/*.sourcepoint
 ||weather.com/weather/assets/omniture-app-measurement.*.js
 ||weather.com/weather/assets/omniture-visitorapi.*.js
 ||weather.com^*/dprSdkScript.js
