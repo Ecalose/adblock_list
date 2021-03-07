@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202103060108
+! Version: 202103070132
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20029
+! Lenth = 20039
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -18,7 +18,7 @@
 #@#.has-ad
 012.tw#@#.ad728
 020job.com##A[href^="/Click.aspx?AdPageID="]
-0379home.com,100ec.cn,123.com.cn,22vd.com,2345.cn,234fang.com,265g.com,3gsc.com.cn,52youpiao.com,72g.com,9dcj.com,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,luo8.com,lyd.com.cn,manhuabei.com,maxpda.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,olevod.com,onlinedown.net,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,r3sub.com,sogou.com,sozi.cn,tetimes.com,tv.sohu.com,tzfile.com,u-car.com.tw,wallstreetcn.com,weather.com.cn,xs99.cc,xun9u.com,xyfdcw.com.cn,yawin.cn,yb983.com,ydss.cn,yesky.com,yqxs.net,zhihu.com,zjstv.com##.ad
+0379home.com,100ec.cn,123.com.cn,159i.com,22vd.com,2345.cn,234fang.com,265g.com,3gsc.com.cn,52youpiao.com,72g.com,9dcj.com,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,luo8.com,lyd.com.cn,manhuabei.com,maxpda.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,olevod.com,onlinedown.net,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,r3sub.com,sogou.com,sozi.cn,tetimes.com,tv.sohu.com,tzfile.com,u-car.com.tw,wallstreetcn.com,weather.com.cn,xs99.cc,xun9u.com,xyfdcw.com.cn,yawin.cn,yb983.com,ydss.cn,yesky.com,yqxs.net,zhihu.com,zjstv.com##.ad
 0439.com###kanfang
 0516city.com,cnpingpang.com,jdbbs.com##.a_h
 0517w.com,1x6666.com,365kl.net,3qled.com,52ch.net,bbs.qbaobei.com,chinafix.com,cnyw.net,cqsq.com,gz0668.com,i5qs.com,mahoupao.com,mcncc.com,qilindao.com,xsool.com###diynavtop
@@ -906,12 +906,6 @@
 5imx.com###diy_mxnewsad01
 5imx.com##.ad4:first-child
 5iyq.com##div[class^="index_ad"]
-5izyw.com###leftbottbox
-5izyw.com###rightbottbox
-5izyw.com###sidebar > .box-b img
-5izyw.com##.activity-box
-5izyw.com##.chao_ggw
-5izyw.com##a[href="http://61.160.236.52"]
 5nd.com##.songAds
 5yfz.com##.wrapper > p
 5yfz.com##table[style="width:100%;text-align:center;font-weight:700;"]
@@ -3735,6 +3729,7 @@ eworldship.com###d2
 eworldship.com##a[href*="ad_click&"]
 eworldship.com##div[style="padding: 0px;position: fixed;left: 7px; top: 150px;"]
 eworldship.com##img[height="70"]
+exam58.com##DIV[style="float: none;  width: 305px; height: 254px; text-align: center"]
 examw.com###kefu_in
 examw.com##.acitvieLeftBox
 examw.com##.activeBottomBox
@@ -3939,6 +3934,7 @@ fxykx.com,nyaa.pt,pantsu.cat#@##banner_ad
 fydisk.com###vbox
 fzdao.cn###datu
 fzdao.cn##.adlan
+fzdm.com##[style="width:100%;height:auto;min-height:120px;position:relative;display:block;"]
 fznews.com.cn##.kuang100_right
 g-years.com,ghoffice.com,gpsuu.com,mydigit.cn###main > .textMes
 game.macx.cn#@##google-ad
@@ -7389,6 +7385,12 @@ xbooks.to##.movie-in-ad
 xbooks.to##div[style="width:900px; height:250px; margin: -15px auto 15px auto;"]
 xbyuan.com##.header-logo-ad
 xbyuan.com#?#li:-abp-has(>.myad)
+xc6b.com###leftbottbox
+xc6b.com###rightbottbox
+xc6b.com###sidebar > .box-b img
+xc6b.com##.activity-box
+xc6b.com##.chao_ggw
+xc6b.com##a[href="http://61.160.236.52"]
 xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
@@ -9932,6 +9934,7 @@ zznews.cn##.ad:not([style])
 ||ahuac.com^
 ||ahunai.cn^
 ||ahunui.cn^
+||ahuys.cc/Runtime/js/
 ||ahw3.com^
 ||ahwczn.cn^
 ||ahyau.com^
@@ -10076,6 +10079,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/imgextra/i3/1731999033/TB2lAJufnlYBeNjSszcXXbwhFXa_
 ||alicdn.com/kf/*.gif$domain=tzfile.com
 ||alicdn.com/kf/H23e4be4c556744c4bef772eb0ad9d938G.jpg
+||alicdn.com/kf/H2f43d53d17c74471a2a9e00bc10c5c99j.jpg
 ||alicdn.com/kf/H34fbd8f00853429d937c89c5d4d75e17T.gif
 ||alicdn.com/kf/H4fa310799bf04b33803900c0f629094bQ.jpg
 ||alicdn.com/kf/H8105709d8ee745139cfd5affe30a9d719.jpg
@@ -10192,6 +10196,7 @@ zznews.cn##.ad:not([style])
 ||andmejs.com^$third-party
 ||anews7.nvwu.com^
 ||angelweb.cn/Inc/AngelG.js
+||anhaochem.com^
 ||anhuilitian.net^
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
@@ -12490,6 +12495,7 @@ zznews.cn##.ad:not([style])
 ||feiszw.com/style/w.js
 ||feitian001.com^$third-party
 ||feixiang211.com/tg/
+||feizailin.com^
 ||feizl.com/images/smdd/
 ||fenbengpan.cn^
 ||fengbuy.com/recommend-new.
@@ -12830,6 +12836,7 @@ zznews.cn##.ad:not([style])
 ||gg.gsdlcn.com^
 ||gg.gw032.com^
 ||gg.kugou.com^
+||gg.miued.com^
 ||gg.sonhoo.com^
 ||gg.uuu9.com^
 ||gg.yxdown.com^
@@ -14935,6 +14942,7 @@ zznews.cn##.ad:not([style])
 ||linjiajia.cn^
 ||link114.cn/template/js/showpics_
 ||linkhelper.cn/mmshow
+||linkjingkeji.com^
 ||linkpage.cn^
 ||links.cn/mmshow
 ||linkvans.com^$third-party
@@ -18093,6 +18101,7 @@ zznews.cn##.ad:not([style])
 ||usxpic.com/u/20200629/12340838.gif
 ||ut0ej.cn^
 ||uu1.3gu.com^
+||uu7ey6.cn^
 ||uuaoz.com^
 ||uubiqu.com^*.html$script
 ||uugtv.com/x/app/videoSpread?
@@ -18649,6 +18658,7 @@ zznews.cn##.ad:not([style])
 ||wzaigo.com^
 ||wzbaohe.com/imgadnew/midad.js
 ||wzjijia.com^
+||wzjs1.oss-accelerate.aliyuncs.com^
 ||wzsygdl.com^
 ||wzxw7.com^
 ||wzyywlkj.com^
