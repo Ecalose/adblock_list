@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202103100159
+! Version: 202103110146
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18996
+! Lenth = 19002
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -284,6 +284,7 @@
 159i.com###body > table[width="100%"]
 159i.com###top > div[class]:first-child
 159i.com##.a1d
+159i.com##.a2d
 159i.com##.aa
 159i.com##a[href*="ai69"]
 159i.com##div[id^="sidebar"] > :not(form)
@@ -3178,6 +3179,7 @@ cool-de.com###fwin_popadv
 cool-de.com###fwin_popadv_cover
 cool-de.com##.bustopads
 cool18.com###d_right_ad
+cool3c.com##div[id^="gpt-c3c_all_side_"]
 cool3c.com##div[style="width:98%;border:1px solid #ddd;padding:5px;margin-top:5px;"]
 coolaler.com###hd
 coolhii.com###bottommob
@@ -7086,6 +7088,8 @@ v2ex.com##.sidebar_compliance
 v2ex.com##.sidebar_units
 v2ex.com##div[style="width: 240px; margin: 0px auto 0px auto; text-align: left;"]
 v2ex.com##div[style][onclick*="geekhub."]
+v2ex.com#?##Rightbar > .box > .inner > .sidebar_units:not(:has(+strong)):upward(2)
+v2ex.com#?##Rightbar > .box > .inner:has(>a[href]:only-child) + .sidebar_compliance > a[href="/advertise"]:upward(2)
 v2ex.com#?##Rightbar > div.box:has(> div.inner a[target="_blank"] > img[src*="cdn.v2ex.com/assets/sidebar/"])
 v5pc.com###full_downad
 vansky.com##.top-ad-link
@@ -7968,7 +7972,6 @@ zznews.cn##.ad:not([style])
 |http://js*:8080/$script,third-party
 |http://p.*.com/view.php?uid=$script,third-party
 |http://r.*.com/view.php?uid=$script,third-party
-|http://rc.sz.zj.cn/*.swf^$domain=bbs.sz.zj.cn
 |http://t.cn/$domain=ady8.info|cdsoso.me
 |http://tk.*.php?id=*&s=$script
 |http://tk.*.php?id=*&step=
@@ -12163,6 +12166,7 @@ zznews.cn##.ad:not([style])
 ||farm-cn.plista.com^
 ||fashangji.com/api/ggzz.js
 ||fashangji.com/gunews/*.js
+||fashionabacus.com^
 ||fast8.com/skin/default/images/63065.png
 ||fast8.com/skin/default/js/jquery.filetree
 ||fastable.com^
@@ -12212,7 +12216,6 @@ zznews.cn##.ad:not([style])
 ||fengmishop.cn^
 ||fengniao.com*/pv.js
 ||fengxiangstore.com^$third-party
-||fenvm.com^
 ||fenxiangdashi.com/Res/js/detail_
 ||fenxiangdashi.com/img/banner/
 ||fexiaen.com^
@@ -12275,7 +12278,6 @@ zznews.cn##.ad:not([style])
 ||flowertt.com^
 ||flyv.tv/a/$xmlhttprequest
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
-||fm6w.com^
 ||fmhua.com/template/*/images/g_js/*.html
 ||fnkjj.com^
 ||fnwll.cn^
@@ -12749,7 +12751,6 @@ zznews.cn##.ad:not([style])
 ||gzktpf.com^
 ||gzleilin.com^
 ||gzm.xzbu.com^
-||gzmsm.cn^
 ||gzmxybg.com^
 ||gzmzts.com^
 ||gznsyh.com^
@@ -14094,6 +14095,7 @@ zznews.cn##.ad:not([style])
 ||kc.gouchezj.com^
 ||kccdk.com/Content/img/*.gif
 ||kddf.com/statics/v3/js/baizhu/
+||kddlearn.cn^
 ||kdhome.net/images/banner
 ||kdhome.net/templets/default/img/tpfd.jpg
 ||kdly.net^$third-party
@@ -14340,6 +14342,7 @@ zznews.cn##.ad:not([style])
 ||leeleo.top^
 ||legozu.com^
 ||leiphone.com/uploads/new/category/pic/*/740x140/
+||leixigroup.com^
 ||leju.com/abp/cmslead_new.v2.js
 ||leju.com/scripts/app/pc/indexlayer/v1/indexlayer.js
 ||leju.com^*=abs.processReqChange
@@ -14386,6 +14389,7 @@ zznews.cn##.ad:not([style])
 ||lhafy.com^
 ||lhengilin.com^
 ||lhusy.com^
+||lhy1.xyz^
 ||lhzly.com^$third-party
 ||lianaiyx.com/d/js/cst/
 ||lianfuhuang.cn^
@@ -14441,6 +14445,7 @@ zznews.cn##.ad:not([style])
 ||linkwan.com/gb/javascript/b4.js
 ||linkwan.com/gb/javascript/c5-
 ||linovel.net/cp/lk/ad/externalAd?
+||linovelib.com/scripts/zation.js
 ||lintyone.top^
 ||linuxde.net/wp-content/uploads/ad/
 ||linuxeden.com/plus/web_js.php
@@ -15353,6 +15358,7 @@ zznews.cn##.ad:not([style])
 ||oyksoft.com/show/b.
 ||p.7060.la^
 ||p.junshi881.com^
+||p.junshifuxin.com^
 ||p.kugou.com/?id=
 ||p.ynb2dca.com^$popup
 ||p.zol-img.com.cn^
@@ -16082,6 +16088,7 @@ zznews.cn##.ad:not([style])
 ||s11.cn^$third-party
 ||s2tu.com/images/*.gif
 ||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
+||s7tu.com/images/*.gif
 ||s8bbs.com/ad/
 ||s8bbs.com/g.php?
 ||s8dj.com^$third-party
@@ -18274,6 +18281,7 @@ zznews.cn##.ad:not([style])
 ||ygnoqu.cn^
 ||ygodl.com/wp-content/uploads/*.js
 ||yhdm.io/bar/
+||yhdtns.com^
 ||yhhls.com^
 ||yhsmk.com^
 ||yht7.com/web/assets/js/right.js
@@ -18805,7 +18813,6 @@ zznews.cn##.ad:not([style])
 ||ziyuantx.com^
 ||zizcy.com^
 ||zizidi.com^
-||zj.cn^*/AD?location=
 ||zjg.js.cn/Public/config/Couplet/Index4
 ||zjgfq.com^
 ||zjgfq.com^$third-party
@@ -18882,7 +18889,6 @@ zznews.cn##.ad:not([style])
 ||zqzq*.com:*/da.aspx
 ||zrblog.net/zzimg/
 ||zrmxswrl.com^
-||zrwhartongroup.com^
 ||zsdexun.com.cn^
 ||zsjjob.com/user/member/google.htm
 ||zsjyc.top^
