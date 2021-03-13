@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202103120126
+! Version: 202103130108
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18948
+! Lenth = 18960
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -282,10 +282,11 @@
 141hongkong.com###dialog
 141hongkong.com##.wp.at
 159i.com###body > table[width="100%"]
-159i.com###sop > DIV:first-child
+159i.com###sop > div:first-child
 159i.com###top > div[class]:first-child
 159i.com##.a1d
 159i.com##.a2d
+159i.com##.a3d
 159i.com##.aa
 159i.com##a[href*="ai69"]
 159i.com##div[id^="sidebar"] > :not(form)
@@ -394,6 +395,7 @@
 17ce.com###pr_wrap
 17ce.com###r_share
 17ce.com###s_rows
+17ce.com###tp_banner
 17ce.com###tr_banner
 17ce.com##[style*="important"]
 17ce.com##a[href="/site/api"]
@@ -2978,6 +2980,7 @@ chinaz.com##.red[href*=".wsisp.net/"]
 chinaz.com##.titright
 chinaz.com##.txtAdBox
 chinaz.com,cnbeta.com,oschina.net##a[href^="http://click.aliyun.com/"]
+chinese.engadget.com#?#li[class^="Py(40px)"]:has(> article > div[class^="D(f)"] > div[class^="Pos(r)"][data-ylk*=":AD;"])
 chineseinla.com###weixin_ads2
 chineseinla.com##.deal_discount
 chineseinla.com##.forum_banner_ads
@@ -4906,11 +4909,12 @@ iyaxin.com##.gr-ggtag
 iyaxin.com##.huand3
 iyejie.com###sidebar > .widget:first-child
 iyejie.com###top > div:not([id]):not([class])
+jable.tv###site-content > div.container > section.pb-3.pb-e-lg-40.text-center
 jable.tv##.badge
 jable.tv##.uu-ads
 jable.tv##a[href*="?banner="]
 jable.tv##a[href="http://uus52.com/"]
-jable.tv#?#div[class="col-6 col-sm-4 col-lg-12"] > div.video-img-box:has(> div.img-box > a[href*="?banner="])
+jable.tv#?#div.col-6.col-sm-4.col-lg-12:has(> div.video-img-box > div.img-box > a[href*="?banner="])
 jandan.net##.goods2-list
 jandan.net##a[href^="//api.jandan.net/money.php?"]
 javdove.com##.dn_fix_bottom
@@ -4975,7 +4979,7 @@ jijidown.com##div[style="height: 462px;"]
 jijidown.com##div[style="position: fixed;right: 0;bottom: 0;"]
 jijidown.com##div[style="width: 500px;"]:last-child
 jijidown.com##div[style="width: 525px;"]:last-child
-jijidy.com,vzhuan.cn###box
+jijidy.com###box
 jikexueyuan.com##.pewm2
 jikexueyuan.com##.pewm3
 jiligame.com##img[onerror="zhurl($(this))"]
@@ -7121,7 +7125,7 @@ vpsmm.com###topads_a111
 vpsmm.com##.aside-widget > :nth-last-child(n+3)
 vpsmm.com##.header + .d-none
 vpsmm.com##.sidebarx
-vpsmm.com##DIV[id^="topads"]
+vpsmm.com##div[id^="topads"]
 vsuda.cn,wstimes.cn##.piaofu-left
 vsuda.cn,wstimes.cn##.piaofu-right
 vuejs.org###vm-banner
@@ -8800,6 +8804,7 @@ zznews.cn##.ad:not([style])
 ||3wk.cc/images/*.gif
 ||3y0h.cn^
 ||3y6c.cn^
+||3yai2u.cn^
 ||3ye924.cn^
 ||3ygww.com^
 ||4-bb.com/new/xxx/
@@ -9173,6 +9178,7 @@ zznews.cn##.ad:not([style])
 ||70mao.com/js/sj.
 ||70mao.com^*/52
 ||70txt.com/static/mh
+||70url.com/aiaike/bood.js$domain=yingwangtv.com
 ||70yst.cn^
 ||710070.com^$third-party
 ||711kk.com^
@@ -9769,6 +9775,7 @@ zznews.cn##.ad:not([style])
 ||adsbro.com^$third-party
 ||adsc.wasu.tv^
 ||adsclick.yx.js.cn^
+||adserve.work^$third-party
 ||adshows.21cn.com^
 ||adt.xdrig.com^
 ||adt100.com^$third-party
@@ -11100,6 +11107,7 @@ zznews.cn##.ad:not([style])
 ||chromeba.net/wp-content/uploads/
 ||chromefk.com/common/11/
 ||chromefk.com/common/other/11.png
+||chuangjulm.cn^
 ||chuangyixi.com^
 ||chuantu.biz/t2/22/1450961822x1822613148.gif
 ||chuantu.biz^$domain=7mav2.com|thztv.cc
@@ -11315,6 +11323,7 @@ zznews.cn##.ad:not([style])
 ||cooltool.cc^
 ||coostack.com^$third-party
 ||cornplus.cn^
+||coroplastsheet.cn^
 ||cosxcos.cc/uploads/aaybabc/
 ||couas.com^
 ||count.candou.com^
@@ -11810,6 +11819,7 @@ zznews.cn##.ad:not([style])
 ||dsp.lenovo.com.cn^*&clientType=api|
 ||dssdr.top^
 ||dszan.com^
+||dt02kc9.cn^
 ||dtrcw.cc^
 ||dtxdwl.cn^
 ||dtzysm.com^
@@ -12717,6 +12727,7 @@ zznews.cn##.ad:not([style])
 ||gxnews.com.cn/clientscript/index_duilian_
 ||gxnews.com.cn/upload/index/*.swf
 ||gybdtg.com^
+||gycy2.com^
 ||gydag.com^
 ||gyeet.com^
 ||gyrtg.com^
@@ -12937,6 +12948,7 @@ zznews.cn##.ad:not([style])
 ||hf365.com/0/15/64/87/15648725_922274.jpg
 ||hfjuki.com^
 ||hflvhua.com^
+||hfoyjg.cn^
 ||hfsteel.net^
 ||hfyxdl.com^
 ||hg-labs.com^
@@ -14218,6 +14230,7 @@ zznews.cn##.ad:not([style])
 ||kuwo.cn/static/swf/xctg.swf
 ||kuwoyy.com^
 ||kuxinqi.com^
+||kuzexinxi.com^
 ||kwflvcdn.000dn.com^*.flv
 ||kwntistyuogo.com^
 ||kxd56.com/qq.js
@@ -17223,7 +17236,6 @@ zznews.cn##.ad:not([style])
 ||upload.cc^$domain=141jj.com|mizhiav.com
 ||upload.cc^$domain=99a67.com|99re.com
 ||uploadhouse.com^*.gif$domain=wishct.com
-||uploads.duapp.com^$domain=52vip.net
 ||urlat.cn^
 ||urlet.cn^
 ||usejj.wangkl.com^
@@ -17279,7 +17291,6 @@ zznews.cn##.ad:not([style])
 ||v1.phb123.com^
 ||v1.taksh.cn^
 ||v2rayssr.com/wp-content/plugins/eazy-
-||v4.cc/m/common.js
 ||v4dwkcv.com/html/click/
 ||v5pc.com/static/images/dn
 ||v9wuyulou.com^
@@ -17444,6 +17455,7 @@ zznews.cn##.ad:not([style])
 ||wanyx.com/Public/js/cqby.swf
 ||wanyx.com/Public/js/qian.js
 ||wanyx.com/Public/js/zhuan.js
+||wap.hfoyjg.cn^$third-party
 ||wap001.bytravel.cn^
 ||wap1.laogu.wang^
 ||wapadv.com^
