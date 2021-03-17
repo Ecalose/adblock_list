@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202103160111
+! Version: 202103170115
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 29133
+! Lenth = 29078
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -325,6 +325,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .instructure.com/api/v1/courses/*/ping
 .instructure.com/page_views
 .intercom-mail.com/q/
+.intercom-mail.com/via/$image
 .io/0.gif?
 .io/track?
 .io/w.gif?
@@ -338,8 +339,10 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .js?referrer=
 .jsp/?Log=
 .kijiji.ca/r/
+.klclick.com/$image
 .list-manage.com/track/
 .lms-analytics/
+.maillist-manage.com/clicks/$image
 .me/geoip/
 .me/l.gif?
 .members.babbel.com/mo/
@@ -365,6 +368,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .net/z.gif?
 .ntpagetag.
 .nz/t.gif?
+.oculus.com/collect/
 .org/?js|
 .org/js/ga-
 .org/js/ga.js
@@ -399,6 +403,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .ru/0.gif?
 .ru/stat/?c=$domain=ucoz.net
 .sendcloud.net/track/
+.sendibm1.com/*.gif?
 .sendibm1.com/mk/
 .sg/t.gif?
 .sharecounter.$third-party
@@ -407,12 +412,16 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .siteclarity.
 .sitetracking.
 .skimlinks.js
+.smartrmail.co/o/$image
 .snowplowanalytics.$domain=~snowplowanalytics.com
 .social_tracking.
 .spacepools.*:
+.sparkpostmail2.com/q/$image
+.spmailtechnolo.com/q/$image
 .starbucks.com/a/
 .statData-eup.
 .stats?action=
+.substack.com/o/$image
 .svc/?tracking_id=
 .tealium.
 .titus.de/oo/$image
@@ -2394,6 +2403,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /evt.gif?
 /evtrack-
 /ewtrack.
+/exactag_clientside.js
 /exaonclick.js
 /exelate.htm?
 /exelate.html?
@@ -2753,6 +2763,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /gootics.js
 /gosquared-livestats/*
 /gov-tracking.min.js
+/gp/r.html?$image
 /gps/event$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackexchange.com|stackoverflow.com|superuser.com
 /grappler/log/*
 /gravity-beacon-
@@ -5035,6 +5046,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /tracking.ashx?
 /tracking.cgi?
 /tracking.comp.
+/tracking.fanbridge.com/*
 /tracking.fcgi?
 /tracking.gif?
 /tracking.js?async=
@@ -5908,13 +5920,12 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||adblockanalytics.com/ads.js|
 @@||adclear.teufel.de^*/acv?*&ms=http$image,domain=gewinnspiele.freenet.de
 @@||adconsole.ch/api/ws-businessclick/*/data.json$domain=finanzen.ch
-@@||addgene.org/headers/blat/js/analyze.js
 @@||addicted-sports.com/piwik/piwik.js
 @@||addthisedge.com/live/$xmlhttprequest,domain=serialomaniak.pl
 @@||adidas.com^*/adidasAnalytics.js?
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
-@@||adobedtm.com/*-source.min.js$script,domain=atresplayer.com|backcountry.com|dollargeneral.com|kroger.com
+@@||adobedtm.com/*-source.min.js$script,domain=atresplayer.com|backcountry.com|bt.com|dollargeneral.com|kroger.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|kroger.com
 @@||adobedtm.com/extensions/$script,domain=atresplayer.com
 @@||adobedtm.com/launch-$script
@@ -5932,7 +5943,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.jp|sony.jp
 @@||adobedtm.com^*/s-code-$script
 @@||adobedtm.com^*/satellite-$script
-@@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|aeroplan.com|americanexpress.com|argos.co.uk|backcountry.com|collegeboard.org|costco.com|crackle.com|crimewatchdaily.com|directline.com|eonline.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|jeep.com|laredoute.co.uk|laredoute.com|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|oprah.com|oracle.com|pnc.com|realtor.com|redbull.tv|repco.co.nz|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|sonycrackle.com|stuff.co.nz|subaru.com|telegraph.co.uk|timewarnercable.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
+@@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|aeroplan.com|americanexpress.com|argos.co.uk|backcountry.com|collegeboard.org|costco.com|crackle.com|crimewatchdaily.com|directline.com|eonline.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|jeep.com|laredoute.co.uk|laredoute.com|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|oprah.com|oracle.com|pnc.com|realtor.com|redbull.tv|repco.co.nz|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|stuff.co.nz|subaru.com|telegraph.co.uk|timewarnercable.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
 @@||adobedtm.com^*/satelliteLib-$script,domain=ceair.com|fcbarcelona.cn
 @@||adobedtm.com^*/satelliteLib-$script,domain=conad.it|ilsole24ore.com|laredoute.it
 @@||adobedtm.com^*/satelliteLib-$script,domain=crackle.com.ar|crackle.com.ec|crackle.com.mx|crackle.com.pe|crackle.com.py|fcbarcelona.cat|fcbarcelona.es|laredoute.es|vtr.com
@@ -5971,7 +5982,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||alfadirect.ru/api/analytics/latest?$~third-party,xmlhttprequest
 @@||aliunicorn.com^*/click_stat/
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
-@@||alltube.tv/jsverify.php$~third-party,xmlhttprequest
 @@||alternate.de/js/emos2.js
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=programme-tv.net
 @@||amazonaws.com/angular-ui-router.min.js*-google-analytics.js$script,domain=dcard.tw
@@ -6023,7 +6033,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||aolcdn.com/omniunih_int.js$domain=autoblog.com
 @@||aolcdn.com^*/beacon.min.js$domain=autoblog.com|dailyfinance.com
 @@||api-track.delhivery.com/track?waybillId=$~third-party,xmlhttprequest
-@@||api.academia.edu^*/stats?callback$script,~third-party
 @@||api.chartbeat.com^script,domain=financialpost.com|wcpo.com|couriermail.com.au|betabeat.com
 @@||api.curalate.com^$domain=potterybarn.com
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
@@ -6047,8 +6056,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.segment.io/v1/$xmlhttprequest,domain=instacart.com
 @@||api.taboola.com^$domain=samsung.com|thestartmagazine.com
-@@||api.vidaxl.com^*/trackingservice/customerportal/*?$xmlhttprequest,domain=tracking.vidaxl.com
-@@||aplus.com/p.gif?$~third-party
 @@||app-sjf.marketo.com^$domain=live.altium.com
 @@||appapi.inspsearchapi.com^$domain=search.pch.com
 @@||appboycdn.com^*/appboy.min.js$script,domain=bakkt.com
@@ -6064,7 +6071,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||arte.tv^*/xtcore.js
 @@||asadcdn.com/adlib/pages/sport1.js$domain=sport1.de
 @@||asendiausa.com/tracking/js/tracking/customertracking.js?
-@@||askubuntu.com/tags/$~third-party,xmlhttprequest
 @@||asset.pagefair.com/measure.min.js$domain=www.gamespot.com
 @@||assets.adobedtm.com/*-source.min.js$domain=samsung.com
 @@||assets.adobedtm.com/*/satelliteLib-*.js$domain=docs.nvidia.com
@@ -6090,7 +6096,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||axiell.com/arena/google-analytics.js$domain=gotabiblioteken.se
 @@||az416426.vo.msecnd.net/next/ai.2.min.js$domain=ams.cdn.arkadiumhosted.com
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
-@@||azureedge.net^*/eventtracking.js$domain=crimemapping.com
 @@||b.scorecardresearch.com/beacon.js$domain=news.tvb.com
 @@||b.scorecardresearch.com/beacon.js$domain=ntvspor.net
 @@||b.scorecardresearch.com/beacon.js$domain=premiumsporthd.it
@@ -6103,12 +6108,9 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||bam.nr-data.net^$script,domain=play.spotify.com
 @@||bancosantander.es/pagos-inmediatos/common/js/modules/tealium.js$~third-party
 @@||banned.video/videojs-event-tracking/dist/videojs-event-tracking.js$script,domain=banned.video|infowars.com
-@@||barclays.co.uk/content/dam/$script
-@@||barclays.co.uk/touchclarity/mbox.js
 @@||barclays.touchclarity.com^$domain=barclaycard.co.uk
 @@||bat.bing.com/bat.js$domain=airbnb.ru
 @@||bbc.co.uk/frameworks/nedstat/$script,~third-party
-@@||bbc.co.uk/radio/player/*/logger.js$script,~third-party
 @@||bc.geocities.*/not_found/
 @@||beacon.guim.co.uk/accept-beacon?
 @@||beatthetraffic.com/traffic/?partner=$subdocument
@@ -6130,7 +6132,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||bobbibrowncosmetics.com^*/analytics.min.js$~third-party
 @@||bolha.com/clicktracker/
 @@||bookmate.com^*/impressions?$xmlhttprequest
-@@||bootcamp.mit.edu/js/angulartics-google-analytics.min.js
 @@||bose.tt.omtrdc.net/*/bose/mbox/json?$domain=bose.fr
 @@||boxberry.ru/bitrix/templates/main.adaptive/js/tracking.js
 @@||boxberry.ru/local/templates/site-boxberry/js/tracking_service.js$xmlhttprequest
@@ -6140,8 +6141,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||britishairways.com/cms/global/scripts/applications/tracking/visualsciences.js
 @@||britishtelecom.112.2o7.net^$domain=bt.com
 @@||brm-core-0.brsrvr.com/api/*/core/?account_id=$domain=m.toysrus.com
-@@||broadcastt.xyz/apps/$websocket
-@@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|connect.shore.com|crrowd.com|eco-clobber.co.uk|gina-phillips.com|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|simonparkes.org|stockforecasttoday.com|tekku.co.za|theangryviking1776.com|thegivingblock.com|thepittsburghoratory.org|truenews4u.com|washingtonpost.com|wix.com
 @@||browser.sentry-cdn.com^$domain=marshmallow-qa.com
 @@||browserscope.org/user/beacon/*?callback=$script,domain=jsperf.com
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
@@ -6159,14 +6158,12 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||c.mmcdn.net^*/flash/config/metrics.xml$domain=moshimonsters.com
 @@||c.newsinc.com/getids^$domain=washingtonexaminer.com
 @@||c.paypal.com/da/r/fb.js$script
-@@||c212.net^$image,domain=prnewswire.com
 @@||c5n.com^*/angulartics-google-analytics.min.js
 @@||cache.nymag.com^*/clickability.js
 @@||cache2.delvenetworks.com/crossdomain.xml$domain=lapresse.ca
 @@||cache2.delvenetworks.com/ps/c/v1/$domain=lapresse.ca
 @@||caf.fr/*/smarttag.js
 @@||caf.fr^*/smarttag.js$script,~third-party
-@@||calpinesolutions.com/assets/gtm/gtm.js$script
 @@||canada.com/js/ooyala/comscore.js
 @@||canadiantire.ca^*/analytics.sitecatalyst.js
 @@||care2.com/assets/scripts/cookies/care2/NitroCookies.js
@@ -6297,7 +6294,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cleverbridge.com/*/cleveranalytics.js^$domain=secure.ccleaner.com
 @@||clicktale.net/WRc5.js$domain=telefonkonyv.hu
 @@||clicktale.net/wrb.js$domain=microsoft.com
-@@||clicsante.ca^*/angulartics-google-tag-manager.min.js$domain=clicsante.ca
 @@||cloud.roistat.com/api/site/$script,domain=britvabarber.ru
 @@||cloud.roistat.com/api/site/$script,domain=britvabarber.ru|tickets.bckhimki.ru
 @@||cloud.roistat.com/dist/module.*$script,stylesheet,domain=britvabarber.ru
@@ -6316,8 +6312,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cloudfront.net/opentag*.js$domain=telegraph.co.uk
 @@||cloudfront.net/opentag-*.js$domain=telegraph.co.uk
 @@||cloudfront.net/vis_opt.js$script,domain=gre.magoosh.com
-@@||cloudfront.net^*/VisitorAPI.js$domain=financialpost.com
-@@||cloudfront.net^*/comscore.$script,domain=my5.tv
 @@||cloudfront.net^*/jquery.google-analytics.js$domain=homepath.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
 @@||cmoney.tw/follow/js/google_analytics.js
@@ -6345,6 +6339,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||collusion.com/static/analytics.js$script,~third-party
 @@||collusion.com/static/newrelic.js$script,~third-party
 @@||comcastresidentialservices.tt.omtrdc.net/m2/comcastresidentialservices^$domain=xfinity.com
+@@||communityenergysolutions.com/ui/assets/gtm/gtm.js$script,~third-party
 @@||computerworld.com/resources/scripts/lib/demandbase.js$script
 @@||confiant-integrations.global.ssl.fastly.net^$script,domain=seeitlive.co
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
@@ -6378,7 +6373,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||ctv.ca/players/mediaplayer/*/comscorebeacon.js
 @@||cvs.com/shop-assets/js/VisitorAPI.js
 @@||cxense.com/cx.cce.js$domain=tn.com.ar
-@@||cxense.com/cx.js$domain=brandonsun.com|channelnewsasia.com|winnipegfreepress.com
 @@||cxense.com^$domain=ikea.com
 @@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
 @@||d1z2jf7jlzjs58.cloudfront.net/p.js$domain=nfl.com
@@ -6397,7 +6391,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||d8rk54i4mohrb.cloudfront.net/js/video.js$domain=forbes.com
 @@||dailyfinance.com/traffic/?
 @@||dailymail.co.uk/brightcove/tracking/ted3.js
-@@||darksky.net^*/analytics.js$script,~third-party
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
 @@||datadoghq-browser-agent.com/datadog-rum-us.js$script,domain=usa.experian.com
 @@||daumcdn.net/tiara/js/v1/tiara.min.js$domain=kakao.com
@@ -6437,8 +6430,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||doortodoor.co.kr/jsp/cmn/Tracking.jsp^
 @@||doubleclick.net/activityi;src=$domain=cicispizza.com
 @@||dove.com/etc/ui/dovemencare/clientlibs/core/core/config/analytics.js$script,~third-party
-@@||dplay.com^*/comscore.streaming.min.js
-@@||dplay.com^*/google_analytics.js
 @@||dpm.demdex.net/id?$xmlhttprequest,domain=foxnews.com
 @@||dpm.zebestof.com/*/tag.js$domain=commentcamarche.net
 @@||dpm.zebestof.com/*/tag.js$domain=sante.journaldesfemmes.fr
@@ -6459,7 +6450,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||dynamicyield.com/st?$script,domain=computeruniverse.net|croma.com|fendi.com|zalora.com.my|zalora.com.ph|zalora.sg
 @@||e.cquotient.com/recs/*?callback=$domain=karstadt.de
 @@||e.cquotient.com/recs/*?callback=$domain=sloggi.com
-@@||e2e-comms.pearson.com/osbrowserchecker/prd/thirdPartyCookie.html?$subdocument,domain=pearsonmylabandmastering.com
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
 @@||easypari.fr^*/sitestat.js
 @@||easyship.com/api/v1/track/$xmlhttprequest,domain=trackmyshipment.co
@@ -6467,11 +6457,9 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||eatstreet.com/api/v2/tracking/$~third-party
 @@||ebayrtm.com/rtm?$script,domain=annonces.ebay.fr|ebay.it
 @@||ec.atdmt.com/b/$domain=starwoodhotels.com
-@@||ec.europa.eu^*/piwik.js
 @@||ecestaticos.com/build/js/common/statistics/engines/deepbieventadapter.$domain=elconfidencial.com
 @@||ecostream.tv/js/ecos.js
 @@||eddiebauer.com/__ssobj/core.js+ssdomvar.js+generic-adapter.js
-@@||edgedatg.com/aws/apps/datg/web-player-unity/externals/comscore.$script,domain=abc.com
 @@||edgesuite.net/crossdomain.xml$domain=sbs.com.au
 @@||edgesuite.net^*/frontend_webtrekk.js$domain=goertz.de
 @@||editorx.com/_api/*count?type$~third-party
@@ -6497,7 +6485,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||ensighten.com^*/scode/$script,domain=norton.com
 @@||ensighten.com^*/serverComponent.php?$script
 @@||epicgames.com/id/api/analytics$~third-party,xmlhttprequest
-@@||eplayerhtml5.performgroup.com/js/tsEplayerHtml5/js/Eplayer/js/quantcast/$script
 @@||epub.ekh.no/*/static/analytics.js
 @@||equifaxps.122.2o7.net^
 @@||espn.com/b/ss/$domain=espn.com
@@ -6531,7 +6518,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||files.mycloud.com/js/analytics/google_analytics.js$domain=files.mycloud.com
 @@||firstdirect.com^*/logging-code.js
 @@||firststatesuper.com.au^*/js/analytics.js$script
-@@||flagshipmerchantservices.com/clickpathmedia.js
 @@||flipboard.com/setcookie?$~third-party
 @@||flipdesk.jp/wp/wp-content/themes/flipdesk/images/analytics3.png$image
 @@||flippingbook.com^*/static/analytics.js$script,~third-party
@@ -6577,7 +6563,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||geni.us/snippet.min.js$script,domain=pcmonitors.info
 @@||geo-targetly.com/geolocation?id$script,third-party
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
-@@||geo.kaloo.ga/json/?$script,domain=telesurtv.net
 @@||geo.ngtv.io/locate/$domain=hbo.com
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=ibanez.com
@@ -6621,7 +6606,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/analytics.js$domain=atv.com.tr
 @@||google-analytics.com/analytics.js$domain=avselectro.ru
 @@||google-analytics.com/analytics.js$domain=beinsports.com
-@@||google-analytics.com/analytics.js$domain=beinsports.com|health2000.co.nz|jackbox.tv|readyrefresh.com|tracking.narvar.com|westernunion.com
+@@||google-analytics.com/analytics.js$domain=beinsports.com|jackbox.tv|tracking.narvar.com|westernunion.com
 @@||google-analytics.com/analytics.js$domain=biomedglobal.net
 @@||google-analytics.com/analytics.js$domain=blt.se
 @@||google-analytics.com/analytics.js$domain=blue-tomato.com
@@ -6762,12 +6747,11 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/cx/api.js$domain=pcloud.com
 @@||google-analytics.com/cx/api.js$domain=stern.de
 @@||google-analytics.com/ga.js$domain=7digital.com|account.hirezstudios.com|aebn.net|aftonbladet.se|alatest.com|americanapparel.net|apps.facebook.com|asus.com|avast.com|babylon.com|bangbros.com|banshee.fm|billabong.com|billboard.com|bolha.com|bookadumpster.com|boostmobile.com|break.com|brobible.com|change.org|cinemassacre.com|comingsoon.net|everydayhealth.com|dailyfreegames.com|dailysteals.com|donanimhaber.com|echo.msk.ru|ehow.com|eonline.com|filmweb.pl|fora.tv|fossil.com|foxsports.com.au|frequency.com|g4tv.com|gasbuddy.com|globaltv.com|google.com|gumtree.com.au|hoerzu.de|imageshack.us|intellicast.com|jetbrains.com|jobsite.co.uk|justjared.com|juxtapoz.com|kaspersky.pl|kleinanzeigen.ebay.de|latimes.com|lemonfree.com|liptonicetea.com|logitech.com|lucasarts.com|mashable.com|maxcdn.com|medonet.pl|meetme.com|mevio.com|mommyish.com|newyorker.com|nme.com|nuts.co.uk|opendns.com|oyster.com|philips.com|photobucket.com|priceme.co.nz|priestville.org|salon.com|search.diy.com|seekingalpha.com|sundance.org|techbargains.com|tempe12.com|theblaze.com|thegrindstone.com|thevine.com.au|theweek.com|threatfire.com|timberland.com|tomshardware.com|tube8.com|tvunetworks.com|tweetgrid.com|umbro.com|videochart.net|weeworld.com|wonka.com|xda-developers.com|yellow.co.nz|youtube.com|zoo.org.au
-@@||google-analytics.com/ga.js$domain=aftonbladet.se|apps.facebook.com|asus.com|everydayhealth.com|expensify.com|filmweb.pl|fora.tv|fossil.com|hoerzu.de|jetbrains.com|kleinanzeigen.ebay.de|medonet.pl|opendns.com
+@@||google-analytics.com/ga.js$domain=apps.facebook.com|everydayhealth.com
 @@||google-analytics.com/ga.js$domain=justsystems.com
 @@||google-analytics.com/gtm/js$domain=glamour.de
 @@||google-analytics.com/gtm/js$domain=jump.com.tr
 @@||google-analytics.com/gtm/js$domain=maz-online.de|ostsee-zeitung.de|lvz.de
-@@||google-analytics.com/gtm/js$script,domain=readyrefresh.com
 @@||google-analytics.com/gtm/js?id=$domain=15min.lt
 @@||google-analytics.com/gtm/js?id=$domain=chainreactioncycles.com
 @@||google-analytics.com/gtm/js?id=$domain=chess24.com
@@ -6790,7 +6774,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/gtm/js^$domain=waipu.tv
 @@||google-analytics.com/plugins/$domain=amd.com
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=lovehoney.co.uk|opendns.com|openshift.com|vimeo.com
-@@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=opendns.com|openshift.com|westernunion.com
+@@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||google-analytics.com/plugins/ua/ec.js$domain=arcelik.com.tr
 @@||google-analytics.com/plugins/ua/ec.js$domain=askona.ru
 @@||google-analytics.com/plugins/ua/ec.js$domain=avselectro.ru
@@ -6820,7 +6804,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/plugins/ua/ec.js$domain=uspoloassn.com
 @@||google-analytics.com/plugins/ua/ec.js$domain=xxl.se
 @@||google-analytics.com/plugins/ua/ec.js$domain=zolotoyvek.ua
-@@||google-analytics.com/plugins/ua/ec.js$script,domain=health2000.co.nz
 @@||google-analytics.com/plugins/ua/ec.js^$domain=cosstores.com
 @@||google-analytics.com/plugins/ua/ecommerce.js$domain=displate.com
 @@||google-analytics.com/plugins/ua/ecommerce.js$domain=flyingv.cc
@@ -7059,7 +7042,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||grapeshot.co.uk/sare-api/
 @@||graphracer.com/js/libs/heatmap.js
 @@||gruposantander.es^*/scripts/log.js
-@@||gstatic.com^*/analytics.js$domain=google.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||guidestar.org/ga.$~third-party,xmlhttprequest
 @@||guim.co.uk/flash/video/embedded/player-$object,domain=thedailywh.at
@@ -7094,7 +7076,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||homebank.ro/public/HomeBankLogin/js/fingerprint/fingerprint.js
 @@||homedepot.com/static/scripts/resxclsa.js
 @@||homedepotrebates11percent.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
-@@||hopx.cedexis.com^$xmlhttprequest,domain=play.aetv.com|play.history.com|play.mylifetime.com
 @@||hostlogr.com/etc/geo.php?
 @@||hotmail.com/mail/*/i2a.js
 @@||hotwirestatic.com^*/opinionLab.js$domain=hotwire.com
@@ -7104,7 +7085,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||i-scmp.com/production/mixpanel.$domain=scmp.com
 @@||i.onthe.io^$script,image,stylesheet,domain=nur.kz
 @@||ia.hit.interia.pl/spider/date?$domain=interia.pl
-@@||ibispaint.com/js/googleAnalytics.js
 @@||ibm.com/software/reports/compatibility/clarity-reports/js/$script,~third-party
 @@||identity.mparticle.com/v*/identify$domain=cwseed.com
 @@||identity.mparticle.com/v*/identify$domain=nbc.com
@@ -7116,7 +7096,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||images-dl.taboola.com^$domain=samsung.com|thestartmagazine.com
 @@||images.apple.com/metrics/scripts/s_code_h.js$domain=apple.com
 @@||images.taboola.com^$domain=samsung.com|thestartmagazine.com
-@@||imaster.space^$websocket
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||img.blesk.cz/js/base-cz/gemius.js
 @@||imgur.com/min/px.js$~third-party
@@ -7151,10 +7130,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||ingturkey.tt.omtrdc.net/m2/ingturkey^$domain=ingbank.com.tr
 @@||innovelsolutions.com^*/tracking/$~third-party
 @@||inpref.com/frosmo.xdm.html?
-@@||inpref.com/frosmo.xdm.html?$subdocument
 @@||inpref.com/messageApi?
-@@||inpref.com/messageApi?$xmlhttprequest
-@@||inpref.s3.amazonaws.com/frosmo.easy.js$script,third-party
 @@||inpref.s3.amazonaws.com/frosmo.easy.js$third-party
 @@||inpref.s3.amazonaws.com/sites/$script,domain=kauppahalli24.fi
 @@||inpref.s3.amazonaws.com/sites/eventim_$script,third-party
@@ -7182,7 +7158,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||ivwextern.prosieben.de^*/ivw_flashscript.php?$script
 @@||iwa.iplsc.com/iwa.js$script
 @@||iwin.com/gtm.json$~third-party,xmlhttprequest
-@@||jabra.com/api/Analytics/$xmlhttprequest,domain=jabra.com
 @@||jbj.co.uk^*/analytics.js$script,~third-party
 @@||jeevansathi.com/minify.php?files=$script,stylesheet
 @@||jetztspielen.de^*/EventTracker.js
@@ -7245,9 +7220,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||lesacasino.com^*/EMERPEventCollector.$script,subdocument
 @@||letelegramme.fr/js/xtcore.js
 @@||levexis.com/nbty/$domain=puritan.com
-@@||lexus.com/lexus-share/js/tracking_omn/$xmlhttprequest
 @@||lgr.visilabs.net/kapsamaharitasi/om.gif$domain=kapsamaharitasi.turktelekom.com.tr
-@@||lightningmaps.org^*/piwik.js
 @@||link.theplatform.com/*/tracker.log?
 @@||link.theplatform.com/*?affiliate=
 @@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
@@ -7282,7 +7255,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||marktest.pt/netscope-gemius.js$script,domain=ojogo.pt
 @@||matchesfashion.com/_ui/shared/js/analyticsmediator.js
 @@||matchid.adfox.yandex.ru/?url=$script,domain=ctc.ru
-@@||mathoverflow.net/tags/$~third-party,xmlhttprequest
 @@||maxmind.com/app/country.js$domain=lenovo.com|nationalgeographic.com
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
 @@||maxmind.com/geoip/$xmlhttprequest,domain=dcshoes.fr
@@ -7351,9 +7323,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||medianetworkinternational.com/js/fingerprint2.js$script
 @@||mediaweaver.jp^$image,domain=ismedia.jp
 @@||mediaworld.it^*/GoogleTagManager.js?
-@@||medicare.gov/SharedResources/widgets/foresee/foresee-trigger.js
 @@||megafon.ru/static/?files=*/tealeaf.js
-@@||mercedes-benz-mobile.com/js/tracking/tracker.min.js?
 @@||metric.gstatic.com^$domain=ipv6test.google.com
 @@||metrics.ancestry.com/b/ss/$image
 @@||metrics.bitdefender.com/b/ss/*$domain=bitdefender.com
@@ -7367,7 +7337,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||metrics.foxnews.com/id^$domain=video.foxnews.com|video.foxbusiness.com
 @@||metrics.howstuffworks.com/b/ss/$image
 @@||metrics.howstuffworks.com/b/ss/*&ot=
-@@||metrics.mozilla.com^$~third-party
 @@||metrics.nationwide.co.uk/b/ss/$image
 @@||metrics.nissanusa.com/b/ss/$image
 @@||metrics.nissanusa.com/b/ss/nissanusacom/
@@ -7419,8 +7388,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
 @@||mybuys.com/webrec/wr.do?
 @@||mycargo.rzd.ru/dst/scripts/common/analytics-helper.js$~third-party
-@@||mycdn.me/chat$websocket
-@@||mycdn.me/publish$websocket
 @@||mycokerewards.com^*/webtrends/mcr3-webtrends_POST_$script
 @@||mycommunitynow.com/includes/JI_trafficTracking.js$domain=mycommunitynow.com
 @@||myfamilycominc.tt.omtrdc.net^$domain=ancestry.com|ancestry.co.uk|ancestry.ca|ancestry.de|ancestry.it|ancestry.fr|ancestry.se|ancestry.mx
@@ -7469,7 +7436,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||oceanstatejoblot.com^*/widget/osjl-google-analytics/$script,~third-party
 @@||odb.outbrain.com^$domain=nypost.com
 @@||odcdn.com^*/cm.js
-@@||office365.com^*/owa.Analytics.js$script
 @@||officedepot.co.cr/_ui/shared/js/analyticsmediator.js
 @@||officeworks.com.au^*/site-tracker.js
 @@||olx.*/static/*/js/xgemius.js$domain=olx.kz|olx.ua|olx.pl
@@ -7478,27 +7444,24 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||oms.dowjoneson.com/b/ss/$image,domain=wsj.com
 @@||omtrdc.net/b/ss/$domain=macworld.com
 @@||omtrdc.net/b/ss/$image,domain=britishairways.com|costco.com|halifax-online.co.uk|logmein.com|macworld.com|msnbc.com|nbc.com|pcworld.com|techhive.com|usanetwork.com
-@@||omtrdc.net/cdn/target.js$script,domain=swisscom.ch
-@@||omtrdc.net/crossdomain.xml$domain=crackle.com
 @@||omtrdc.net/rest/$xmlhttprequest
 @@||omtrdc.net^$domain=abbyy.ru
 @@||omtrdc.net^$domain=amazon.co.uk|amazon.com|amazon.de
 @@||omtrdc.net^$domain=geico.com
 @@||omtrdc.net^$domain=nydailynews.com
 @@||omtrdc.net^$domain=pcworld.com
-@@||omtrdc.net^*/mbox/ajax?$script,domain=barclays.co.uk|swisscom.ch
+@@||omtrdc.net^*/mbox/ajax?$script,domain=swisscom.ch
 @@||omtrdc.net^*/mbox/ajax?$script,other,domain=canadiantire.ca
-@@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|argos.co.uk|att.com|barclays.co.uk|homedepot.com|swisscom.ch|t-mobile.com
+@@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|argos.co.uk|att.com|homedepot.com|swisscom.ch|t-mobile.com
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=argos.co.uk|att.com|t-mobile.com
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=vodafone.it
-@@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.co.uk|ancestry.com|ancestry.com.au|ancestry.it|barclays.co.uk|blogtalkradio.com|swisscom.ch
+@@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.co.uk|ancestry.com|ancestry.com.au|ancestry.it|blogtalkradio.com|swisscom.ch
 @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.com|ancestry.com.au|blogtalkradio.com
 @@||ondemand.sas.com^$subdocument
 @@||onecall.whoson.com/stat.js$xmlhttprequest
 @@||online-metrix.net/*/tags.js$domain=smartsource.com
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
 @@||online.bcs.ru^*/piwik.bcs.js$script
-@@||onlinevideoconverter.com/webservice|$~third-party,xmlhttprequest
 @@||ooyala.com/3rdparty/comscore_$domain=livetvcafe.net
 @@||ooyala.com/3rdparty/comscore_*.swf$domain=bloomberg.com|businessweek.com|greentechmedia.com
 @@||ooyala.com/crossdomain.xml
@@ -7514,8 +7477,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||orange.fr/medias/toolkit/js/Wtinit.js
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
-@@||ourworld.com/ow/evercookie_
-@@||ourworld.com/ow/js/evercookie/$script
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
 @@||p.typekit.net/*.css$domain=cfr.org
 @@||p.typekit.net/*.css$domain=store.steampowered.com|nejm.org
@@ -7563,14 +7524,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||pladform.ru/dive/$xmlhttprequest
 @@||pladform.ru/player$subdocument
 @@||plantyn.com/optiext/optiextension.dll$~third-party
-@@||play.aetv.com/vendor/AppMeasurement.js$script,~third-party
-@@||play.aetv.com/vendor/FacebookPixel.min.js$script,~third-party
 @@||play.google.com/log?$xmlhttprequest,domain=google.com
 @@||play.google.com/log?format=json$domain=news.google.com
-@@||play.history.com/vendor/AppMeasurement.js$script,~third-party
-@@||play.history.com/vendor/FacebookPixel.min.js$script,~third-party
-@@||play.mylifetime.com/vendor/AppMeasurement.js$script,~third-party
-@@||play.mylifetime.com/vendor/FacebookPixel.min.js$script,~third-party
 @@||playcanvas.com.*/keen.min.js
 @@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player-feedback-v1.glomex.com/pf/|$domain=player.glomex.com
@@ -7590,7 +7545,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||plplayer.online/log_event$~third-party,xmlhttprequest
 @@||plugins.matomo.org^$image,~third-party
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
-@@||pnas.org^*/fingerprint.js$script,~third-party
 @@||pobeda.aero/*/check-in/$document
 @@||pokemonblackwhite.com^*/jquery.google-analytics.js
 @@||polfan.pl/*/fingerprint2.min.js$script,~third-party
@@ -7630,7 +7584,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||rawstory.com/decor/javascript/magnify_stats.js
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||real.de/fileadmin/template/javascript/emos2.js
-@@||realtime.tracker.network^$websocket
 @@||recommender.scarabresearch.com/js/$domain=nkd.com|stiefelparadies.de
 @@||recommender.scarabresearch.com/js^$domain=digikala.com
 @@||recommender.scarabresearch.com/js^$domain=tekzen.com.tr
@@ -7717,7 +7670,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||scdn.cxense.com/cx.js$script,domain=ksml.fi|savonsanomat.fi
 @@||scorecardresearch.com$domain=bt.com
 @@||scorecardresearch.com/beacon.js$domain=agame.com|allrecipes.com|apl.tv|babycenter.com|cbc.ca|deviantart.com|fastcompany.com|firstwefeast.com|hitfix.com|huffingtonpost.com|laptopmag.com|last.fm|linkinpark.com|mainstreet.com|ning.com|ouramazingplanet.com|outsideonline.com|plixi.com|radaronline.com|salon.com|thedailybeast.com|thinkatheist.com
-@@||scorecardresearch.com/beacon.js$domain=agame.com|apl.tv|babycenter.com|bonappetit.com|calgaryherald.com|canada.com|cbc.ca|dailymail.co.uk|dailymotion.com|deviantart.com|discovery.com|doctoroz.com|edmontonjournal.com|fastcompany.com|financialpost.com|firstwefeast.com|hitfix.com|investigationdiscovery.com|landandfarm.com|last.fm|leaderpost.com|m.tmz.com|montrealgazette.com|nationalpost.com|newsday.com|ottawacitizen.com|outsideonline.com|radaronline.com|syfy.com|theprovince.com|thestar.com|thestarphoenix.com|thinkatheist.com|tlc.com|tmz.com|v3.co.uk|vancouversun.com|windsorstar.com
 @@||scorecardresearch.com/beacon.js$domain=spielen.com
 @@||scorecardresearch.com/c2/plugins/streamingtag_plugin_jwplayer.js
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_html5.js
@@ -7748,7 +7700,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||seewhy.com^$domain=nixon.com
 @@||segment-data.zqtk.net^$domain=wsj.com
 @@||segment.com/v1/projects/$xmlhttprequest,domain=benchling.com
-@@||segment.io/analytics.js/*/analytics.min.js$script
 @@||segmentify.com//*/events/v1.json?apiKey=$domain=flo.com.tr
 @@||segmentify.com//add/events/v*.json?apiKey=$domain=gittigidiyor.com
 @@||segmentify.com//add/events/v*.json?apiKey=$domain=migros.com.tr
@@ -7758,7 +7709,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||segundamano.mx^*/tealium.js
 @@||sellpoint.net/smart_button/$script,domain=walmart.com
 @@||serve-ts.amagi.tv^*/beacon?$xmlhttprequest,domain=watch.truecrimenetworktv.com
-@@||serverfault.com/tags/$~third-party,xmlhttprequest
 @@||service.collarity.com/cust/nbcu/ucs.js$xmlhttprequest
 @@||service.maxymiser.net/api/eu/mediamarkt.tr/*/mmapi.js$domain=mediamarkt.com.tr
 @@||service.maxymiser.net/cdn/nbty/puritan/js/mmcore.js$domain=puritan.com
@@ -7823,9 +7773,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||st.dynamicyield.com/st$domain=mediamarkt.de
 @@||st.dynamicyield.com/st?$domain=dafiti.com.co
 @@||st.top100.ru/top100/top100.js$domain=m.gazeta.ru
-@@||stackapps.com/tags/$~third-party,xmlhttprequest
-@@||stackexchange.com/tags/$~third-party,xmlhttprequest
-@@||stackoverflow.com/tags/$~third-party,xmlhttprequest
 @@||star-telegram.com/mistats/sites/dfw/startelegram.js
 @@||starbucksassets.com/weblx/static/optimizely.$script,domain=starbucks.ca|starbucks.com
 @@||startpage.com/js/abp.js^
@@ -7881,7 +7828,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||sundaysky.com/sundaysky.js?$domain=lenovo.com
 @@||sundaysky.com^*/default/sundaysky.js$domain=lenovo.com
 @@||supertaxi.com/webclient/scripts/tracking/tracking.js$script,~third-party
-@@||superuser.com/tags/$~third-party,xmlhttprequest
 @@||support.brother.com^*/js/analytics.js$script,~third-party
 @@||support.thesslstore.com/visitor/index.php
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
@@ -7973,10 +7919,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||tracker.mattel.com^$domain=barbie.com
 @@||tracking.narvar.com/tracking/$~third-party
 @@||tracking.narvar.com/trackinginfo/$~third-party
-@@||tracking.unrealengine.com/tracking.js
 @@||trackjs.com^$~third-party
 @@||travel-assets.com/platform-analytics-prime/$script
-@@||travix.com/searchoptions?affiliate=$xmlhttprequest
 @@||trc.taboola.com/alluremedia-gizmodoau/trc/*$domain=gizmodo.com.au
 @@||trc.taboola.com/ilmeteo-*/trc/$domain=ilmeteo.it
 @@||trc.taboola.com/inncoil/log/3/available$subdocument,domain=inn.co.il
@@ -8012,7 +7956,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||ultimedia.com/js/common/jquery.gatracker.js
 @@||unifi.me/mootools/classes/*-tracking
 @@||unileversolutions.com^*/config/analytics.js
-@@||unisys.com^*/track.gif$image,~third-party
 @@||ups.com/*/WebTracking/track&dcs
 @@||ups.com/*/tracking.cgi
 @@||ups.com/WebTracking/$xmlhttprequest
@@ -8060,7 +8003,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||vodafone.com.au/analytics/js/$script
 @@||vodafonelimited.tt.omtrdc.net^
 @@||vodgc.net^*/genoa-event-tracking.min.js
-@@||vouchercodes.co.uk/__wsm.gif$ping
 @@||vplayer.ilsemedia.nl/swf/im_player.swf?
 @@||vpro.nl/vpro/htmlplayer/0.3-snapshot/statcounter.js?
 @@||vsh.visilabs.net/Visilabs.js^$domain=boyner.com.tr
@@ -13537,6 +13479,7 @@ znak.com##.relap
 ||drift.com/impressions/
 ||drift.com/track
 ||dripappliance.com^$third-party
+||driv-analytics.com^$third-party
 ||driverequest.com^$third-party
 ||drivingdirt.com^$third-party
 ||drkxae.lenovo.com^
@@ -14830,6 +14773,7 @@ znak.com##.relap
 ||freetrafficsystem.com^$third-party
 ||freeusersonline.com^$third-party
 ||freeweblogger.com^$third-party
+||freexcafe.com/js/analytics.js
 ||freihit.de^$third-party
 ||fremaks.net^$third-party
 ||fresh.inlinkz.com^$third-party
@@ -16832,6 +16776,7 @@ znak.com##.relap
 ||jeuxjeux2.com/stats.php
 ||jeuxvideo.com/contenu/medias/video/countv.php?
 ||jewelcheese.com^$third-party
+||jg.wensixuetang.com^$third-party
 ||jiankongbao.com^$third-party
 ||jiayuan.com^*/pv.js
 ||jilhub.net.daraz.com^
@@ -25708,8 +25653,8 @@ znak.com##.relap
 ||tap.idg.de^$third-party
 ||tapad.com^$third-party
 ||tapfiliate.com^$third-party
-||tapjoy.com^
-||tapjoy.net^
+||tapjoy.com^$third-party
+||tapjoy.net^$third-party
 ||taplytics.com^$third-party
 ||taps.io^$third-party
 ||tapstat.ru^$third-party
