@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202103180116
+! Version: 202103190126
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 29033
+! Lenth = 29034
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -269,7 +269,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .composeTrack.htm
 .content_tracking.
 .core.tracking-min-
-.ct.sendgrid.net/
+.ct.sendgrid.net/$image
 .d-engine.js
 .de/h.gif?
 .de/l.gif?
@@ -6036,7 +6036,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||api.dmcdn.net/pxl/cpe/client.min.js$domain=m.sondakika.com
 @@||api.etherscan.io/api$domain=sushiswap.fi
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
-@@||api.github.com^*/log?ref=$xmlhttprequest
 @@||api.ipify.org^$xmlhttprequest,domain=account.pennytel.com.au
 @@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
 @@||api.mixpanel.com/engage/?data=$xmlhttprequest,domain=deezer.com
@@ -6054,7 +6053,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||applet.polfan.pl/vendor/fingerprint2.min.js$script,domain=applet.polfan.pl
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
 @@||ara.cat/static/BB3Core/images/pixel.gif?hash=$image,domain=ara.cat
-@@||aramex.co.nz/Umbraco/Api/Tracking/
+@@||aramex.co.nz/Umbraco/Api/Tracking/$~third-party
 @@||argep.hu/googleanalytics.js
 @@||arstechnica.com/services/incr.php?*=interactions.adblock-annoy.click$xmlhttprequest
 @@||arte.tv^*/xtcore.js
@@ -6072,10 +6071,9 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||atdmt.com^*/direct*01$domain=sprint.com
 @@||atl-paas.net/analytics/event
 @@||atm.acecounter.com/ac.js?tid=$domain=agabangmall.com
-@@||atptour.com/assets/atpwt/scripts/util/googleAnalytics.js
-@@||att.com/scripts/adobe/prod/$script
-@@||att.com/scripts/adobe/virtual/detm-container-hdr.js
-@@||att.com/ui/*/jsnlog.js
+@@||atptour.com/assets/atpwt/scripts/util/googleAnalytics.js$~third-party
+@@||att.com/scripts/adobe/prod/$script,~third-party
+@@||att.com/scripts/adobe/virtual/detm-container-hdr.js$~third-party
 @@||att.tv^*/VisitorAPI.js$script,~third-party
 @@||attservicesinc.tt.omtrdc.net^$domain=att.com
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
@@ -6109,17 +6107,17 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||bestbuy.com/*/vendor/analytics*/dist/analyticsQ.bundle.js
 @@||bettycrocker.com/Shared/Javascript/UnicaTag.js
 @@||bettycrocker.com/Shared/Javascript/ntpagetag.js
-@@||bgp.he.net/images/flags/*.gif?$image
+@@||bgp.he.net/images/flags/*.gif?$image,~third-party
 @@||bhg.com/web/js-min/common/js/dwr/RemoteTargetingService.js
 @@||billiger.de/js/emos2.js
-@@||bjjhq.com/HttpCombiner.ashx?$script
+@@||bjjhq.com/HttpCombiner.ashx?$script,~third-party
 @@||blackcircles.ca^*/gtm.js$~third-party
 @@||blocket.se^*/xtcore.js
 @@||bluecare.express/js/tracking/$script,~third-party
 @@||bnc.lt/a/key_live$domain=pinterest.co.kr|pinterest.com|pinterest.de|pinterest.com.au|pinterest.com.mx|pinterest.es|pinterest.jp|pinterest.it|pinterest.ca|pinterest.co.uk|pinterest.ru|pinterest.ch|pinterest.fr|pinterest.cl|pinterest.at|pinterest.pt|pinterest.nz|pinterest.dk|pinterest.se|pinterest.ie|pinterest.ph|pinterest.info
 @@||bobbibrowncosmetics.com^*/analytics.min.js$~third-party
 @@||bolha.com/clicktracker/
-@@||bookmate.com^*/impressions?$xmlhttprequest
+@@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||bose.tt.omtrdc.net/*/bose/mbox/json?$domain=bose.fr
 @@||boxberry.ru/bitrix/templates/main.adaptive/js/tracking.js
 @@||boxberry.ru/tracking.service/
@@ -6207,7 +6205,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cdn.mxpnl.com/libs/mixpanel-2-latest.min.js$domain=twe.no
 @@||cdn.optimizely.com/datafiles/*.json$domain=talktalk.co.uk
 @@||cdn.optimizely.com/js/$domain=zdnet.com
-@@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com|historyvault.com|imageshack.com
+@@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com
 @@||cdn.optimizely.com/js/*.js$domain=ns.nl|compassion.com|creditsesame.com|forbes.com|freeshipping.com|heroku.com|hotukdeals.com|imageshack.com|lifelock.com|malwarebytes.org|policymic.com|ricardo.ch|spotify.com|techrepublic.com|zdnet.com|olx.ua|casper.com|dubizzle.com|pullandbear.com
 @@||cdn.optimizely.com/js/*.js$domain=ruggable.com
 @@||cdn.optimizely.com/js/3148790251.js$domain=shopsmarter.com
@@ -6234,6 +6232,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cdn.segmentify.com/*/segmentify.js$domain=koctas.com.tr
 @@||cdn.segmentify.com/*/segmentify.js$domain=migros.com.tr
 @@||cdn.segmentify.com/account-js/segmentify_flo.js$domain=flo.com.tr
+@@||cdn.segmentify.com^$domain=pttavm.com
 @@||cdn.static.zdbb.net/js/zd-email.min.js$domain=pcmag.com
 @@||cdn.taboola.com/libtrc/*/loader.js$domain=ilmeteo.it
 @@||cdn.taboola.com/libtrc/alluremedia-network/loader.js$domain=gizmodo.com.au
@@ -6297,7 +6296,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cloudfront.net^*/jquery.google-analytics.js$domain=homepath.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
 @@||cmoney.tw/follow/js/google_analytics.js
-@@||cnbcfm.com/applications/cnbc.com/staticcontent/scripts/libraries/QuoteRedesign/quote_analytics.js$script,domain=cnbc.com
 @@||cnetcontent.com/jsc/h.js$domain=atea.fi
 @@||cntcerber.rambler.ru/counter.js$domain=id.rambler.ru
 @@||code.etracker.com/t.js?et=$script,domain=apotheken-umschau.de|compo-hobby.de|diabetes-ratgeber.net|kaguma.com|krombacher.de
@@ -6326,11 +6324,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||confiant-integrations.global.ssl.fastly.net^$script,domain=seeitlive.co
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
-@@||connect.squareup.com/payments/analytics/frame.html$subdocument
-@@||connect.squareupsandbox.com/payments/analytics/frame.html$subdocument
 @@||constantcontact.com/js/WebTracking/
 @@||conversion.im/images/icons/google-analytics.png
-@@||coral-talk.ext.nile.works/talk/static/embed.js$domain=washingtonpost.com
 @@||coremetrics.com*/eluminate.js
 @@||coremetrics.com/eluminate.js
 @@||coronavirus-monitor.ru/scripts/statistics/statistics.$script,~third-party
@@ -6345,7 +6340,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
 @@||crowdscience.com/max-$script,domain=everydayhealth.com
 @@||crowdscience.com/start-$script,domain=everydayhealth.com
-@@||crowdtwist.com/img/$image
 @@||crwdcntrl.net/*callback=setPIDForPlayer$domain=static.rtl.nl
 @@||csdata1.com/data/js/$domain=acehardware.com
 @@||csid.com/wp-content/plugins/bwp-minify/min/?*/google-analyticator/$script
@@ -6353,7 +6347,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||csr.inspsearchapi.com/lib/infospace.search.js$domain=search.pch.com
 @@||csub.edu/static/js/google-analytics.js
 @@||ctv.ca/players/mediaplayer/*/comscorebeacon.js
-@@||cvs.com/shop-assets/js/VisitorAPI.js
+@@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||cxense.com/cx.cce.js$domain=tn.com.ar
 @@||cxense.com^$domain=ikea.com
 @@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
@@ -6496,7 +6490,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||files.mycloud.com/js/analytics/google_analytics.js
 @@||files.mycloud.com/js/analytics/google_analytics.js$domain=files.mycloud.com
 @@||firstdirect.com^*/logging-code.js
-@@||firststatesuper.com.au^*/js/analytics.js$script
+@@||firststatesuper.com.au^*/js/analytics.js$script,~third-party
 @@||flipboard.com/setcookie?$~third-party
 @@||flipdesk.jp/wp/wp-content/themes/flipdesk/images/analytics3.png$image
 @@||flippingbook.com^*/static/analytics.js$script,~third-party
@@ -6518,6 +6512,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||gameplayer.io^*/EventTracker.js
 @@||gamespot.com/js/compiled/trackingWithCT.js$domain=gamespot.com
 @@||gandalf.segmentify.com/*/add/events/v1.json$domain=koctas.com.tr
+@@||gandalf.segmentify.com^$domain=pttavm.com
 @@||gapl.hit.gemius.pl/gplayer.js$domain=player.antyradio.pl
 @@||gapt.hit.gemius.pl/gplayer.js$domain=radiocomercial.iol.pt
 @@||gardenista.com/media/js/libs/ga_social_tracking.js
@@ -7046,7 +7041,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||hlidacstatu.cz/scripts/highcharts-6/modules/heatmap.js
 @@||hlserve.com/Delivery/$domain=costco.com,script
 @@||hm.baidu.com/h.js?$domain=weaku.com
-@@||hmhco.com/one/js/conf/trackjs.config.$script,~third-party,xmlhttprequest
 @@||hobbyking.com^*/gtm.js$script,~third-party
 @@||homebank.ro/public/HomeBankLogin/js/fingerprint/fingerprint.js
 @@||homedepot.com/static/scripts/resxclsa.js
@@ -7160,6 +7154,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kentucky.com/mistats/finalizestats.js
+@@||kentucky.com/mistats/finalizestats.js$~third-party
 @@||keremerkan.net/wp-content/plugins/wp-minify/min/*/google-analyticator/
 @@||kiplinger.112.2o7.net^
 @@||klp.no/person/plugins/komponentbiblioteket/utils/tracking/Tracking.js
@@ -7184,7 +7179,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||latimes.com/hive/javascripts/loggingService.js
 @@||lazada.co.th/js/tracking.js
 @@||lcs.naver.com/*?u=*service_id$image,domain=smartstore.naver.com
-@@||legendstracking.com/js/legends-tracking.js
+@@||legendstracking.com/js/legends-tracking.js$~third-party
 @@||leiki.com/focus/$script,domain=anna.fi|como.fi|episodi.fi|fum.fi|inferno.fi|kaksplus.fi|rumba.fi|seura.fi|soundi.fi|tilt.fi
 @@||lekane.net/lekane/dialogue-tracking.js?$script
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
@@ -7247,7 +7242,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||mc.yandex.ru/metrika/tag.js$domain=stopgame.ru
 @@||mc.yandex.ru/metrika/tag.js$domain=woman.ru
 @@||mc.yandex.ru/metrika/tag.js$script,domain=auto.yandex|coddyschool.com
-@@||mc.yandex.ru/metrika/watch.js$domain=101.ru
 @@||mc.yandex.ru/metrika/watch.js$domain=2mb.ru
 @@||mc.yandex.ru/metrika/watch.js$domain=auth.wi-fi.ru
 @@||mc.yandex.ru/metrika/watch.js$domain=bombcat.ru
@@ -7375,14 +7369,14 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||newsinc.com^*/getPlacements.js?pid=$domain=washingtonexaminer.com
 @@||newsource-cdn-static.ns.cnn.com/prd/analytics/*/cnnvan-omniture.min.js$domain=6abc.com
 @@||ngastatic.com/*/tracker.js$domain=ads.allegro.pl
-@@||nhl.com/components/shared/omniture-tracking-scripts/newRelic.js
+@@||nhl.com/components/shared/omniture-tracking-scripts/newRelic.js$~third-party
 @@||nihongo.alc.co.jp/theme/Japanese/img/home/nf/us.gif$image,~third-party
 @@||nike.com/assets/measure/data-capture/analytics-client.min.js$script,~third-party
 @@||nike.com/checkout/analytics/js/analyticFunctions.js$domain=nike.com
 @@||ninja.onap.io/ninja-*.js$domain=olx.kz|olx.ua|olx.pl
 @@||ninja.onap.io/ninja-cee.js$domain=olx.pl
 @@||ninja.onap.io/ninja-cee.js$script,domain=olx.ua
-@@||nintendo.com/apps/noa/scripts/analytics.js
+@@||nintendo.com/apps/noa/scripts/analytics.js$~third-party
 @@||nmac.to/cdn-cgi/pe/bag2?r[]=*google-analytics.com
 @@||nmac.to/cdn-cgi/pe/bag2?r[]=*histats.com
 @@||noaa.gov/maps/resources/scripts/ga.js$script,~third-party
@@ -7394,9 +7388,9 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||nymag.com/vltr/scripts/analytics.js$domain=vulture.com
 @@||nyt.com/analytics/json-$script,domain=nytimes.com
 @@||nyt.com/bi/js/tagx/tagx.js$domain=nytimes.com
-@@||nytimes.com^*/EventTracker.js
+@@||nytimes.com^*/EventTracker.js$~third-party
 @@||o2.de/resource/js/tracking/ntpagetag.js
-@@||oakley.com^*/tealium.js
+@@||oakley.com^*/tealium.js$~third-party
 @@||oceanstatejoblot.com^*/widget/osjl-google-analytics/$script,~third-party
 @@||odb.outbrain.com^$domain=nypost.com
 @@||odcdn.com^*/cm.js
@@ -9286,6 +9280,7 @@ znak.com##.relap
 ||akamaihd.net^$script,domain=wayfair.de
 ||akamaihd.net^*.gif?d=
 ||akamaized.net/?u=
+||akamaized.net/cookie_check/
 ||akamaized.net/js3/tracker.js
 ||akanoo.com/tracker/
 ||akanoo.com^$third-party
@@ -9554,6 +9549,7 @@ znak.com##.relap
 ||analytics.adfreetime.com^
 ||analytics.ae.com^
 ||analytics.agoda.com^
+||analytics.aimtell.com^
 ||analytics.allovoisins.com^
 ||analytics.amakings.com^
 ||analytics.amplitude.com^$domain=~analytics.amplitude.com
@@ -11719,6 +11715,7 @@ znak.com##.relap
 ||clicks.hurriyet.com.tr^
 ||clicks.tableau.com^
 ||clicks.traffictrader.net^
+||clicks.wawlabs.com^
 ||clicksagent.com^$third-party
 ||clicksen.se^$third-party
 ||clicksgate.com^$third-party
@@ -12033,6 +12030,7 @@ znak.com##.relap
 ||collector.tescocompare.com^
 ||collector.trendmd.com^
 ||collector.wallapop.com^
+||collector.wawlabs.com/epttavm.js
 ||collector.xhamster*.desi^
 ||collector.xhamster.com^
 ||collector1.afreecatv.com^
@@ -12586,6 +12584,7 @@ znak.com##.relap
 ||cv.ee/static/stat.php
 ||cvhefd.ixbt.com^
 ||cvs.com/tnadstlinj.js
+||cvs.com/webcontent/46ac76a3ui232cf1d2907350f79ccd
 ||cvtr.io^$third-party
 ||cws.conviva.com^
 ||cx.atdmt.com^
@@ -13524,6 +13523,7 @@ znak.com##.relap
 ||dymlo6ffhj97l.cloudfront.net^
 ||dynameex.com^$third-party
 ||dynamicyield.com^$third-party
+||dynatrace.com/jstag/$third-party
 ||dynatrace.com^$third-party
 ||dynatracesaas.com^$third-party
 ||dyntrk.com^$third-party
@@ -14538,6 +14538,7 @@ znak.com##.relap
 ||flocktory.com^$third-party
 ||flocktory.com^*/tracks/
 ||floodprincipal.com^$third-party
+||flooranddecor.com/v1HqbVho/init.js
 ||flow8free.com^
 ||floweryoperation.com^$third-party
 ||fls-*.amazon.*%
@@ -21778,7 +21779,6 @@ znak.com##.relap
 ||s.rbk.ru/*/browser-updater/main.js
 ||s.renren.com^
 ||s.rosettastone.com^
-||s.search.naver.com^
 ||s.shopify.com/visit/record.gif?
 ||s.sick.com^
 ||s.sniphub.com^
@@ -27712,6 +27712,7 @@ znak.com##.relap
 ||viralninjas.com^$third-party
 ||viralnova.com/track.php
 ||viralogy.com/javascript/viralogy_tracker.js
+||viraltrackings.com^$third-party
 ||virgilio.it/clientinfo.gif?
 ||virgilio.it/js/web-vitals-evnt/tracking.js
 ||virgingames.com/tracker/
