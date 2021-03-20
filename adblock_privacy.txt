@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202103190126
+! Version: 202103200118
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 29034
+! Lenth = 29042
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -349,6 +349,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .microsoft.*/broker.js$domain=~technet.microsoft.com
 .microsoft.com/trans_pixel.
 .microsoft.com/wupixel/
+.mjt.lu/oo/$image
 .n.2.1.js^$third-party
 .n.2.1.l50.js^$third-party
 .n.2.1.l60.js^$third-party
@@ -5576,7 +5577,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /wp-clickmap/*
 /wp-content/cache/busting/google-tracking/*
 /wp-content/plugins/asmb-tracking/*
-/wp-content/plugins/google-analytics-for-wordpress/*$domain=graphicdesignresources.net|ebonyo.com
+/wp-content/plugins/google-analytics-for-wordpress/*$domain=graphicdesignresources.net|ebonyo.com|paesenews.it
 /wp-content/plugins/pageviews/pageviews.js
 /wp-content/plugins/wp-google-analytics-events/*
 /wp-content/themes/vip/pmc-plugins/pmc-global-functions/js/geoPosition.js
@@ -6879,6 +6880,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=jump.com.tr
 @@||googletagmanager.com/gtm.js$domain=koctas.com.tr
 @@||googletagmanager.com/gtm.js$domain=kompas.com
+@@||googletagmanager.com/gtm.js$domain=komputronik.pl
 @@||googletagmanager.com/gtm.js$domain=kruidvat.nl
 @@||googletagmanager.com/gtm.js$domain=lgn.edu.gov.il
 @@||googletagmanager.com/gtm.js$domain=liga.net
@@ -7217,6 +7219,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||marcokrenn.com/public/js/logger.js
 @@||marketingsolutions.com.pl^*/googleanalytics-$image,domain=marketingsolutions.com.pl
 @@||marketo.com/*/form$domain=orcad.com
+@@||marketo.com//index.php/form/
+@@||marketo.com//js/forms$script,stylesheet
 @@||marketo.com/index.php/form/
 @@||marketo.com/js/forms$script,stylesheet
 @@||marktest.pt/netscope-gemius.js$script,domain=ojogo.pt
@@ -8337,6 +8341,7 @@ tap.az##.links-sites > .counters
 tensaigakkou.ru###custom_html-16
 the-ans.jp##.side-reccomend
 thehill.com###block-thehill-blocks-amp-outbrain
+timesnownews.com#%#//scriptlet("set-constant", "ga", "noopFunc")
 tinyletterapp.com$image
 track.customer.io/e/o$image
 track.mixmax.com/api$image
@@ -13523,8 +13528,8 @@ znak.com##.relap
 ||dymlo6ffhj97l.cloudfront.net^
 ||dynameex.com^$third-party
 ||dynamicyield.com^$third-party
-||dynatrace.com/jstag/$third-party
 ||dynatrace.com^$third-party
+||dynatrace.com^$third-party,domain=~dynatracelabs.com
 ||dynatracesaas.com^$third-party
 ||dyntrk.com^$third-party
 ||dyo.gs/track/
@@ -18629,6 +18634,7 @@ znak.com##.relap
 ||metrigo.com^$third-party,domain=~metrigo.de
 ||metrigo.zalan.do^
 ||metrika-informer.com^$third-party
+||metrika.lookmovie.io^
 ||metrika.myseldon.com^
 ||metrika.yandex.ru/stat/?id=$third-party
 ||metriweb.be^$third-party
@@ -21165,6 +21171,7 @@ znak.com##.relap
 ||rampanel.com^$third-party
 ||rampmetrics.com^$third-party
 ||rand.com.ru^
+||randiul.com^$third-party
 ||rang.com.ua^$third-party
 ||rangecake.com^$third-party
 ||rangers.co.uk^*/tracking.js
@@ -21758,6 +21765,7 @@ znak.com##.relap
 ||s.clicktex.ru^$third-party
 ||s.conyak.com^$third-party
 ||s.d.adup-tech.com/services/track.js
+||s.deepl.com^
 ||s.edeka.de^
 ||s.frida.vse42.ru^
 ||s.hdsupplysolutions.com^
