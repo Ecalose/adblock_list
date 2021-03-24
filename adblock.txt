@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202103230137
+! Version: 202103240107
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21113
+! Lenth = 21124
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -518,6 +518,7 @@
 ##.footer > #box[style="width:100%;height:100%;position:fixed;top:0"]
 ##.footer-ad
 ##.frAd
+##.frontpageAdvM
 ##.full-ads
 ##.full.banners12
 ##.getads
@@ -943,7 +944,6 @@ $script,subdocument,third-party,xmlhttprequest,domain=alicili.me|alicili8.com|al
 $script,third-party,domain=512539700c.top|ahri-hentai.com
 $script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.supfree.net|wltmv.com|xiepp.com
 $script,third-party,domain=cilimao.co|cilimao.one
-$script,third-party,domain=cocomanhua.com
 $script,third-party,domain=dybee.tv
 $script,third-party,domain=m.1kkk.com|m.dm5.com
 $script,third-party,domain=rijutv.com
@@ -2315,6 +2315,7 @@ $websocket,domain=5nj.com|cechi8.com
 159i.com##div[id^="sidebar"] > :not(form)
 159i.com##style + div[align="center"]
 159i.com#?#.style15:-abp-has(> img[src="//159i.com/images/arrow3.gif"])
+159i.com#?#:-abp-has(> img+a)
 159i.com#?#:-abp-has(> img[src*="gif"])
 159i.com,china.com.cn##.ab
 159i.com,techroomage.com,zhaopin.com#@#.adsBox
@@ -6441,6 +6442,7 @@ html-js.com##div[style="margin:10px auto;width:1000px;"]
 htmleaf.com##.htmleaf-adv
 htmlsucai.com,sucai8.cn,ui.cn#@#.adv_img
 huaban.com###top_promotion
+huaban.com##.hb-ad
 huaban.com,start.firefoxchina.cn##.extra
 huaban.com,zcool.com.cn##.ad
 hualongxiang.com##.bbs_box_gg
@@ -6659,6 +6661,7 @@ ifkdy.com,ilxdh.com##a[href*=".yhm11.com"]
 ifooday.cn##.myzs
 ifsp.tv###PB
 ifsp.tv###PR1
+ifsp.tv##.video-page-right
 ifxtx.com##.ppsy_content758
 igo.cn###NewigoBox
 igo.cn##.adBG
@@ -7528,6 +7531,7 @@ megatime.com.tw,pchome.com.tw###sixi
 megatime.com.tw,pchome.com.tw##.tripplead
 megatime.com.tw,pchome.com.tw##div[class^="ad_ec"]
 megatime.com.tw,pchome.com.tw##div[id^="ad_div_"]
+meijumi.me###app_left
 meijuniao.com###widget-weixin
 meijuniao.com##.player-ad1
 meijutt.tv###weixin_clos
@@ -9171,15 +9175,17 @@ vpsdx.com##.gsfha3-form
 vpsdx.com##.gthfdsa
 vpsdx.com##.span4 > a > img
 vpser.net##div[class*="_textlink"]
-vpsmm.com##.header + div
+vpsmm.com##.header + div + div
 vpsmm.com##.text-center
 vpsmm.com##.toptables
+vpsmm.com##DIV[id^="saxidexbar"]
 vpsmm.com##[class*="max"]
 vpsmm.com##a[href*="/go/"]
 vpsmm.com##a[style]
 vpsmm.com##a[target="_blank"]
 vpsmm.com##div > a > img
 vpsmm.com##div[class*="sidebar"]
+vpsmm.com##div[id^="saxidexbar"]
 vpsmm.com##div[id^="side"]
 vpsmm.com##div[id^="top"]
 vpsmm.com##div[id^="tox"]
@@ -10776,6 +10782,7 @@ zznews.cn##.ad:not([style])
 ||360buyimg.com/jzt/temp/js/
 ||360buyimg.com^$domain=qianggou5.com
 ||360doc.com/js/index7/mask_index_yc.js
+||360doc.com/js/showarticle.js
 ||360doc.com^*.html?t=
 ||360doo.com^$third-party
 ||360kan.com/special/
@@ -11597,6 +11604,7 @@ zznews.cn##.ad:not([style])
 ||a.baomihua.com^
 ||a.breaktime.com.tw^$third-party
 ||a.cnki.net/a/
+||a.dlads.cn^$third-party
 ||a.duanmeiwen.com^
 ||a.duduji.com^
 ||a.dxzy163.com^
@@ -13515,6 +13523,7 @@ zznews.cn##.ad:not([style])
 ||cxb4.cn^
 ||cxcxt.com^
 ||cxfzw.cn^
+||cxgfq.pinlue.com^
 ||cxgh.net^
 ||cxmob.net^
 ||cxtv1.com/partner/
@@ -16743,6 +16752,7 @@ zznews.cn##.ad:not([style])
 ||m.9wx.org/statics/js/new.js
 ||m.ailezhai.cn^$third-party
 ||m.aty.sohu.com^
+||m.audio699.com/template/m/js/qqwweef
 ||m.dglscm.cn^$third-party
 ||m.ercos.cn^$third-party
 ||m.gongzhilian.com.cn^$third-party
@@ -17462,6 +17472,7 @@ zznews.cn##.ad:not([style])
 ||oycslic.xyz^
 ||oyksoft.com/assets/images/*.gif
 ||oyksoft.com/show/b.
+||oyvyxj.cn^$third-party
 ||p.7060.la^
 ||p.eikuaitao.com^$third-party
 ||p.gmkykj.com^$third-party
@@ -20825,6 +20836,7 @@ zznews.cn##.ad:not([style])
 ||zhenben.cc/2000/
 ||zhenbuka.com/loading.html
 ||zhengjie.com/a_d?
+||zhengyahong.cn^
 ||zhengyejixie.com^
 ||zhengzhoupengbo.com^
 ||zhenjiang365.cn/*/ad_
@@ -21108,7 +21120,6 @@ zznews.cn##.ad:not([style])
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"]
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"] + .bg + img
 ~lechinois.com##.container > .ads
-~nongjizhijia.com,~qq.com##div[id^="_"] > iframe[scrolling="no"][src^="http"][width][height][frameborder="0"]
 ~sinaimg.cn##a > img[src*=".sinaimg."][src$=".gif"][style*="width:960"]
 ~sinaimg.cn##a > img[width="960"][src*=".sinaimg."]
 ~sinaimg.cn##a > img[width="980"][src*=".sinaimg."]
