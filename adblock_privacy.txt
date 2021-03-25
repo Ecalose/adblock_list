@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202103240107
+! Version: 202103250107
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 28965
+! Lenth = 28977
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1901,6 +1901,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /cn-fe-stats/*
 /cn-track?
 /cn.wasm$third-party
+/cnavperf?
 /cnstats.
 /cnstats/*
 /cnt-combined.php?
@@ -3264,6 +3265,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /logHandler.
 /logImpressions?
 /logLoad/?
+/logPerf?
 /logStatistic?
 /logStatistics?
 /logViewImpression/*
@@ -4004,6 +4006,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /production/analytics.
 /profile_tracker.
 /projectpoi.min.js
+/promo/impression?
 /promo_tracking.
 /promo_tracking/*
 /promos/pixels?
@@ -4331,6 +4334,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
+/sentry.*/?sentry_key=
 /seo-track.
 /seo.googleAnalytics-
 /seo.googleAnalytics.
@@ -6088,6 +6092,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||attservicesinc.tt.omtrdc.net^$domain=att.com
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
 @@||auto.cz/*/foto$jsinject
+@@||autoaudience.com/tag/$script,domain=mazda.ca
 @@||autoscout24.net/unifiedtracking/ivw.js
 @@||axiell.com/arena/google-analytics.js$domain=gotabiblioteken.se
 @@||az416426.vo.msecnd.net/next/ai.2.min.js$domain=ams.cdn.arkadiumhosted.com
@@ -6886,9 +6891,11 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=incehesap.com
 @@||googletagmanager.com/gtm.js$domain=info.lifecell.ua
 @@||googletagmanager.com/gtm.js$domain=iphoneitalia.com
+@@||googletagmanager.com/gtm.js$domain=iphoneitalia.com|la7.it|raiplayradio.it|savethechildren.it
 @@||googletagmanager.com/gtm.js$domain=itv.com
 @@||googletagmanager.com/gtm.js$domain=jbc.be
 @@||googletagmanager.com/gtm.js$domain=jump.com.tr
+@@||googletagmanager.com/gtm.js$domain=kakuyomu.jp
 @@||googletagmanager.com/gtm.js$domain=koctas.com.tr
 @@||googletagmanager.com/gtm.js$domain=kompas.com
 @@||googletagmanager.com/gtm.js$domain=komputronik.pl
@@ -6988,7 +6995,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js?$domain=ebuyer.com|google.com
 @@||googletagmanager.com/gtm.js?$domain=feex.co.il
 @@||googletagmanager.com/gtm.js?$domain=grandhood.dk
-@@||googletagmanager.com/gtm.js?$domain=iphoneitalia.com|la7.it|raiplayradio.it
 @@||googletagmanager.com/gtm.js?$domain=mac-torrent-download.net
 @@||googletagmanager.com/gtm.js?$domain=ozon.ru
 @@||googletagmanager.com/gtm.js?$domain=renault.ua
@@ -10390,6 +10396,7 @@ znak.com##.relap
 ||aviva.co.uk/metrics/
 ||avmws.com^$third-party
 ||avn.com/server/visitors/
+||avo.app^*/track
 ||avstat.it^$third-party
 ||avstop.com^*/poll.gif?
 ||avtoradio.ru/design/images/site-design/top100.gif
@@ -10553,6 +10560,7 @@ znak.com##.relap
 ||basuey.toyscenter.it^
 ||bat.adforum.com^
 ||bat.bing.com^
+||bataryapil.com/Scripts/ticimax/analytics.js
 ||batbuilding.com^$third-party
 ||batchlogging*-eu.truecaller.com^
 ||batchlogging*-noneu.truecaller.com^
@@ -13761,6 +13769,7 @@ znak.com##.relap
 ||eec.crunchyroll.com/v*/track
 ||eec.crunchyroll.com^
 ||eec.crunchyroll.com^$domain=crunchyroll.com
+||eel.transistor.fm^
 ||ef.futuroscope.com^
 ||ef.futuroscope.mobi^
 ||efatik.me^$third-party
@@ -15607,6 +15616,7 @@ znak.com##.relap
 ||handsomeindustry.com^$third-party
 ||handyfield.com^$third-party
 ||hanksgalleries.com/stxt/counter.php?
+||hankyung.com/resource/js/w/view.gtmet.js
 ||haostat.qihoo.com^
 ||happen.spkt.io^
 ||happenhistory.com^$third-party
@@ -18065,6 +18075,7 @@ znak.com##.relap
 ||mc.webvisor.org^
 ||mc.yandex.ru^
 ||mcdp-*.outbrain.com^
+||mci1.co.kr^$third-party
 ||mcloud.to/log/
 ||mcloudglobal.com^$third-party
 ||mcount.ru^$third-party
@@ -24613,6 +24624,7 @@ znak.com##.relap
 ||static.cotemaison.fr/min/js/tagcommander_
 ||static.dditscdn.com/arms-datacollectorjs/
 ||static.gazeta.pl/info/http/xgemius-min.jsgz
+||static.hankyung.com/js/ga/googleTagManager.js
 ||static.iqiyi.com/js/pingback/
 ||static.karte.io^$third-party
 ||static.klaviyo.com/onsite/js/klaviyo.js

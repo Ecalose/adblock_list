@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202103240107
+! Version: 202103250107
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21124
+! Lenth = 21138
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -904,6 +904,7 @@
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[onclick*="/ayx600.com/"]
+##img[onclick*="/ayx700.com/"]
 ##img[src$="/img/tianbo.gif"]
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
@@ -913,6 +914,7 @@
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
+##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
 ##vg-pause-ads
@@ -4739,6 +4741,7 @@ biz.zjol.com.cn##.rBlok1[style=" margin-bottom:10px;"]
 biz.zjol.com.cn##.zsFooterBox + .close
 biz.zjol.com.cn,cgown.com,taohuayun.cn##img[width="980"]
 biznetvigator.com#@##container_ad
+bjcxqd.com##.box-vdgd
 bjhockey.org###homeVideoModal
 bjnews.com.cn##a[href*="/ads/"]
 bjx.com.cn##.layer_right2
@@ -5190,6 +5193,7 @@ cnzol.com#?#li:-abp-has(> a[href*="/un/"])
 cnzol.com#?#li:-abp-has(> a[href*="mmtp.net"])
 cnzol.com#?#li:-abp-has(> a[href*="tu."])
 co188.com##.suspen
+cocomanhua.com###ics
 cocomanhua.com,ohmanhua.com,onemanhua.com#%#//scriptlet("prevent-setTimeout", "checkSiteNormalLoad")
 cocomanhua.com,ohmanhua.com,onemanhua.com#%#//scriptlet("set-constant", "NativeAd", "noopFunc")
 cocomanhua.com,ohmanhua.com,onemanhua.com#%#//scriptlet("set-constant", "__jsadsuccess", "true")
@@ -8695,6 +8699,7 @@ sonimei.cn##.style01
 sonimei.cn##.style03
 soopat.com###SoopatAside
 sosg.net###postlist + .cc
+sou-yun.cn###ads_index_2
 soufun.com##.danmu_inbox
 soundofhope.org##div[class*="AD_"]
 soyoung.com###pubWideBanner
@@ -9175,10 +9180,11 @@ vpsdx.com##.gsfha3-form
 vpsdx.com##.gthfdsa
 vpsdx.com##.span4 > a > img
 vpser.net##div[class*="_textlink"]
+vpsmm.com##.col-lg-8 + STYLE + DIV
 vpsmm.com##.header + div + div
 vpsmm.com##.text-center
 vpsmm.com##.toptables
-vpsmm.com##DIV[id^="saxidexbar"]
+vpsmm.com##BODY > STYLE + DIV + DIV + DIV
 vpsmm.com##[class*="max"]
 vpsmm.com##a[href*="/go/"]
 vpsmm.com##a[style]
@@ -11065,6 +11071,7 @@ zznews.cn##.ad:not([style])
 ||5588.tv/js/piaofuImg.js
 ||55aaee.com/detail/
 ||55cc.xyz/myjs/all.js
+||55kk.tv^
 ||55shuba.com/files/article/html/
 ||55sky.com/js/diecuo/
 ||55yyy.cc/5Cjs/
@@ -13020,6 +13027,7 @@ zznews.cn##.ad:not([style])
 ||cdgfa.ifeng.com^
 ||cdgxq.com^
 ||cdhenfan.com^
+||cdhhbyy.cn^
 ||cdiah.com^
 ||cdjkngs.cn^
 ||cdlinli.com^
@@ -13567,6 +13575,7 @@ zznews.cn##.ad:not([style])
 ||d15cjcet1djbmv.cloudfront.net^
 ||d1ad.com^$third-party
 ||d2.sina.com.cn^$object,script
+||d2kadvyeq051an.cloudfront.net^$third-party
 ||d3.sina.com.cn^$object,script
 ||d36gyu.cn^
 ||d4.sina.com.cn^$object,script
@@ -13618,6 +13627,7 @@ zznews.cn##.ad:not([style])
 ||dakawm.cc^
 ||dake.net.cn^
 ||dalianhengtai.com^
+||dalianruosen.com^
 ||daliantong.com.cn^
 ||daliantong.com.cn^$third-party
 ||dalipan.com/api/taobao
@@ -13982,6 +13992,7 @@ zznews.cn##.ad:not([style])
 ||dy2018.com/js/tj.js
 ||dy2018.com/js17/
 ||dy2018.com/jsdd/
+||dy6d.com/js/hf
 ||dy886.cn^
 ||dy8c.com/JieShaoBu-secret/uploads/hongbao
 ||dybee.tv/gg
@@ -14589,6 +14600,7 @@ zznews.cn##.ad:not([style])
 ||gdt.qq.com^
 ||gdxxb.com^$third-party
 ||gdyjs.com^
+||gdzidong.com/static/js/plugin.js
 ||ge95.com^
 ||gedus.cn^
 ||geekbang.org/public/serving/
@@ -16584,6 +16596,7 @@ zznews.cn##.ad:not([style])
 ||livku.com/g1000/
 ||lixiangmo.com^
 ||lixianze.top^
+||lixiaodie.com^
 ||lixuanbaojie.com^
 ||lixudong.top^
 ||liyelaowu.cn^
@@ -19296,6 +19309,7 @@ zznews.cn##.ad:not([style])
 ||u26u.com^$popup,third-party
 ||u2c8.cn^
 ||u88.cn^$third-party
+||u98ql6o.top^
 ||uadsaa.com^
 ||ub1.job592.com^
 ||ubalh.com^
