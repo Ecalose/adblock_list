@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202103250107
+! Version: 202103260100
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19119
+! Lenth = 19108
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -480,6 +480,7 @@
 1kkk.com,dm5.com,dm5.hk##.adform_1
 1kkk.com,dm5.com,dm5.hk##.adform_2
 1m3d.com###klp_adtop
+1point3acres.com##.bm.a_c
 1point3acres.com##.enhanced_header
 1point3acres.com##.wp.a_t
 1point3acres.com,android-doc.com,apk.tw,battlecats-db.com,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,moa.tw,numberempire.com,playok.com,shenfendaquan.com,tingfm.com,yabook.org#@#div > .adsbygoogle
@@ -3025,7 +3026,7 @@ cilil.cn,magnet2048.com##.hotwords
 cilimao.co,cilimao.one##div[class^="FixBanner"]
 cjjjs.com,cnblogs.com,fastadmin.net##a[href^="https://promotion.aliyun.com/"]
 cjn.cn###slidelr
-cjn.cn,vpsmm.com##.sidebar
+cjn.cn##.sidebar
 ck101.com###av_a
 ck101.com###canvas-section
 ck101.com###image_ad_long
@@ -7161,23 +7162,7 @@ vpsdx.com##.gsfha3-form
 vpsdx.com##.gthfdsa
 vpsdx.com##.span4 > a > img
 vpser.net##div[class*="_textlink"]
-vpsmm.com##.col-lg-8 + STYLE + DIV
-vpsmm.com##.header + div + div
-vpsmm.com##.text-center
-vpsmm.com##.toptables
-vpsmm.com##BODY > STYLE + DIV + DIV + DIV
-vpsmm.com##[class*="max"]
-vpsmm.com##a[href*="/go/"]
-vpsmm.com##a[style]
-vpsmm.com##a[target="_blank"]
-vpsmm.com##div > a > img
-vpsmm.com##div[class*="sidebar"]
-vpsmm.com##div[id^="saxidexbar"]
-vpsmm.com##div[id^="side"]
-vpsmm.com##div[id^="top"]
-vpsmm.com##div[id^="tox"]
-vpsmm.com##td > a
-vpsmm.com##th > a
+vpsmm.com##div[id^="t"]
 vsuda.cn,wstimes.cn##.piaofu-left
 vsuda.cn,wstimes.cn##.piaofu-right
 vuejs.org###vm-banner
@@ -9301,6 +9286,7 @@ zznews.cn##.ad:not([style])
 ||797sun.com/include/js/common_footer.
 ||7a096v.cn^
 ||7av.club^$domain=11papapa.com
+||7b6l2j.cn^
 ||7bwan.com^$third-party
 ||7c.com/7c_
 ||7car.com.cn^
@@ -9760,6 +9746,7 @@ zznews.cn##.ad:not([style])
 ||actoys.net/js/beitou.js
 ||actoys.net/statics/js/index/ad.js
 ||acwifi.net/wp-content/uploads/2019/11/20191119.jpg
+||ad-1258444056.cos.accelerate.myqcloud.com^
 ||ad-api.cnblogs.com^
 ||ad-img.diyidan.net^
 ||ad-plus.cn^$third-party
@@ -16198,6 +16185,7 @@ zznews.cn##.ad:not([style])
 ||s1.wan1979.com^
 ||s1.wesiedu.com^
 ||s11.cn^$third-party
+||s28xvp.com^
 ||s2tu.com/images/*.gif
 ||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
 ||s7tu.com/images/*.gif
@@ -18631,6 +18619,7 @@ zznews.cn##.ad:not([style])
 ||yun-pdm2000.cn^
 ||yun-pdm5000.cn^
 ||yundaquan.com/data/attachment/portal/
+||yundingmap.com^
 ||yunfanlm.com^$third-party
 ||yunfile.com/ex/pop/
 ||yunl1.com^
