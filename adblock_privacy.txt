@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202103260100
+! Version: 202103270156
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 28996
+! Lenth = 29011
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -49,6 +49,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 &ref=*&tag=
 &refer=http$script
 &refererPageDetail=
+&tag=IMPRESSION&
 &trackingserver=
 &visitor=*&referrer=
 &visitorUuid=
@@ -458,6 +459,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /!crd_prm!.
 /([0-9]{1,3}\.){3}[0-9]{1,3}.*(\/proxy|\.wasm|\.wsm|\.wa)$/$third-party,websocket
 /.*(\/proxy|\.wasm|\.wsm|\.wa)$/$websocket,xmlhttprequest,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to
+/.bootscripts/analytics.min.js
 /.well-known/private-click-measurement
 //feedproxy.*/~r/*$image
 //t100.ru^$third-party
@@ -712,6 +714,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /PageviewsTracker.
 /Peermap/Log/*
 /PhoenixGoogleAnalytics.
+/PhoenixGoogleAnalytics.min.js
 /PingPixel.
 /Pixel.pl?
 /Pixel/Script/Behavior?
@@ -2514,6 +2517,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /fpv2.js
 /freecgi/count.cgi?
 /friendbuy.min.js
+/frontend-sentry-
 /frosmo.easy.js
 /frtrack.
 /fsrscripts/*
@@ -5840,6 +5844,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 ?hmtrackerjs=
 ?log=stats&
 ?log=stats-
+?logType=impression&
+?logType=trackEvent&
 ?log_visibility=
 ?mf_referrer=
 ?pageviews=$third-party
@@ -5914,6 +5920,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||79423.analytics.edgekey.net^|
 @@||9cdn.net^*/js/tracking/$script,domain=nine.com.au
 @@||a.klaviyo.com/forms/api/*/full-forms?company_id=$domain=complyfoam.com
+@@||a.klaviyo.com/media/js/onsite/onsite.js$domain=kravebeauty.com
 @@||a.klaviyo.com/onsite/api/*/modules?company_id=$domain=complyfoam.com
 @@||a.visualrevenue.com/vrs.js$domain=nydailynews.com
 @@||a.visualrevenue.com/vrs.js$domain=t-online.de
@@ -6164,6 +6171,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cache2.delvenetworks.com/ps/c/v1/$domain=lapresse.ca
 @@||caf.fr/*/smarttag.js
 @@||caf.fr^*/smarttag.js$script,~third-party
+@@||calendar.naver.com/js/dist/lib/clickcr.js$domain=calendar.naver.com
 @@||canada.com/js/ooyala/comscore.js
 @@||canadiantire.ca^*/analytics.sitecatalyst.js
 @@||care2.com/assets/scripts/cookies/care2/NitroCookies.js
@@ -7912,6 +7920,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||udottraffic.utah.gov/javascripts/Piwik.js
 @@||uefa.com/inc/js/core/projects/statistics/statistics.js?$script
 @@||ugdturner.com/xd.sjs$domain=tbs.com
+@@||uid.mavencoalition.io/v$domain=owlcation.com
 @@||uid.mavencoalition.io^$xmlhttprequest,domain=fashionista.com|maxim.com|mtonews.com|thestreet.com
 @@||uid.mavencoalition.io^$xmlhttprequest,domain=mtonews.com|thestreet.com
 @@||uim.tifbs.net/js/$script,domain=web.de
@@ -15974,6 +15983,7 @@ znak.com##.relap
 ||hub.hubinternational.com^
 ||hubmetrics.samsclub.com^
 ||hubpages.com/c/*.gif?
+||hubpages.com/ctracker/
 ||hubpd.com^$third-party
 ||hubrus.com^$third-party
 ||hubspot.com/analytics/
@@ -16265,6 +16275,7 @@ znak.com##.relap
 ||incentivesnetwork.net^$third-party
 ||ind.sh/view.php?$third-party
 ||indeed.com/rpc/$~xmlhttprequest
+||indeed.com/rpc/log/
 ||independentmail.com/metrics/
 ||index.ru^$third-party
 ||indexsite.ru/online_user.php$third-party
@@ -16579,6 +16590,7 @@ znak.com##.relap
 ||ip-whois.net/img_ip*.php$third-party
 ||ip-whois.net/test-speed-internet/$third-party
 ||ip.breitbart.com^
+||ip.cliphunter.com^
 ||ip.goguardian.com^
 ||ip.hivps.xyz^$third-party
 ||ip.pichunter.com^
@@ -16726,6 +16738,7 @@ znak.com##.relap
 ||janrain.xyz^$third-party
 ||janus.r.jakuli.com^
 ||jaomlf.giftmall.co.jp^
+||jas.indeednps.com^
 ||jaup0lake.com^
 ||javascriptcounter.appspot.com^
 ||javhd.com/ascripts/gcu.js
@@ -20036,6 +20049,7 @@ znak.com##.relap
 ||ovudil.sendo.vn^
 ||owhvte.alltime.ru^
 ||owlanalytics.io^$third-party
+||owlcation.com/.bootscripts/hubPages*Tracker.min.js
 ||owldata.com^$third-party
 ||owlsr.us^$third-party
 ||ownerdriver.com.au/ga.
@@ -21980,6 +21994,7 @@ znak.com##.relap
 ||sail-horizon.com^$third-party
 ||sailsuit.com^$third-party
 ||sailthru.com/Sailthru_spacer_1x1.gif
+||sailthru.com/horizon/track?*http$image,domain=bookriot.com
 ||sailthru.com/img/$image,third-party
 ||sailthru.com^$domain=washingtonpost.com
 ||sajari.com/js/sj.js$third-party
