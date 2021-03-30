@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202103290142
+! Version: 202103300116
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21140
+! Lenth = 21142
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -3461,7 +3461,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||beyondsoft.com/dataservice/img/ad_
 @@||bilibili.com^*/web_page_view?$domain=message.bilibili.com
 @@||bing.com/translator/api/Translate/TranslateArray?$third-party,xmlhttprequest
-@@||bingfeng.tw/data/attachment/common/ad/common_ad_icon.png
 @@||bingfeng.tw^$generichide
 @@||bitauto.com/bglogpostlog.js
 @@||blackmod.net^$generichide
@@ -4327,6 +4326,7 @@ appinn.com##.ads-m
 appinn.com##a[rel^="sponsored"]
 apple.com.cn##.adv-wrapper
 apple.com.cn#$#html { margin-top: 0 !important; }
+apple.com.cn#$#main[role="main"] { padding-top: 0 !important; }
 appledaily.com###ebBannerTopDiv + A[href^="http://bit.ly/"]
 appledaily.com.tw##.adblock_splash
 appledaily.com.tw##.owl-lazy[tcode^="AD:"]
@@ -4720,6 +4720,7 @@ bing.com##.OpInNwWndw
 bing.com##.b_ad
 bing.com##.b_adBottom
 bingdou.com.cn,hoteastday.com##.float_ad
+bingfeng.tw###adbt
 bingfeng.tw##.wow-ad-link
 bingfeng.tw##div[style="position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 999;"]
 bioon.com###ad_tb
@@ -12704,8 +12705,6 @@ zznews.cn##.ad:not([style])
 ||bilibili.com/x/web-show/res/locs?*=getAdCallback&
 ||bilibilijj.com/image/right_bottom.gif
 ||billionfocus.com^
-||bingfeng.tw/data/attachment/common/cf/$redirect=1x1-transparent.gif,domain=bingfeng.tw
-||bingfeng.tw/data/attachment/common/cf/$rewrite=abp-resource:1x1-transparent-gif,domain=bingfeng.tw
 ||bingyinq.com^
 ||bio-equip.com/dimg/
 ||bio-equip.com/dimgs/
@@ -14805,6 +14804,7 @@ zznews.cn##.ad:not([style])
 ||gtmucs.cn^
 ||gtnde.com^
 ||gtpso.com/Home/TopSdk/getFavCoupItems
+||gts991.com^
 ||guaas.com^
 ||guahao.cn/blank.gif?
 ||guang.sdsgwy.com^
@@ -19638,6 +19638,7 @@ zznews.cn##.ad:not([style])
 ||wcail.com^
 ||wcnmd.top^
 ||wdeie.com^
+||wdfhl.weidianyuedu.com^
 ||wdjm.com.cn/index.php?m=poster&
 ||wdstatic.cn/tg/v2ex/
 ||wdxxx.top^
@@ -20810,6 +20811,7 @@ zznews.cn##.ad:not([style])
 ||zg.mmyuer.com^
 ||zgbbtjt.com^
 ||zgc66.com^
+||zgchaye123.com^
 ||zgdfvih.cn^
 ||zgdtro.com^
 ||zgfszs.com^

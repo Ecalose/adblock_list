@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202103290142
+! Version: 202103300116
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 29021
+! Lenth = 29031
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1079,6 +1079,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /ajax-track-view.
 /ajax/analytics/*
 /ajax/eulerian/*
+/ajax/fdlogger/send
 /ajax/heatmap-
 /ajax/log?
 /ajax/stat/*
@@ -2720,6 +2721,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /gomez.js
 /gomez/*$script
 /google-analyticator/*
+/google-analyticator/*$script
 /google-analytics-$~image
 /google-analytics.
 /google-analytics.$~image
@@ -6544,7 +6546,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||gapl.hit.gemius.pl/gplayer.js$domain=player.antyradio.pl
 @@||gapt.hit.gemius.pl/gplayer.js$domain=radiocomercial.iol.pt
 @@||gardenista.com/media/js/libs/ga_social_tracking.js
-@@||gatheringmagic.com/wp-content/plugins/bwp-minify/min/*/google-analyticator/$script
 @@||gatr.hit.gemius.pl/gplayer.js
 @@||gatr.hit.gemius.pl/gplayer.js$domain=kanald.com.tr
 @@||gatr.hit.gemius.pl/gplayer.js$domain=netd.com
@@ -6997,8 +6998,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=youfoodz.com
 @@||googletagmanager.com/gtm.js$domain=yourstory.com
 @@||googletagmanager.com/gtm.js$domain=zolotoyvek.ua
+@@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|book.impress.co.jp|kakuyomu.jp|sankei.com
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|mediamarkt.nl
-@@||googletagmanager.com/gtm.js$script,domain=book.impress.co.jp|kakuyomu.jp|sankei.com
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
 @@||googletagmanager.com/gtm.js$script,domain=linternaute.com|sciencesetavenir.fr|wamiz.com
 @@||googletagmanager.com/gtm.js$script,domain=olx.ro
@@ -7187,7 +7188,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kentucky.com/mistats/finalizestats.js
 @@||kentucky.com/mistats/finalizestats.js$~third-party
-@@||keremerkan.net/wp-content/plugins/wp-minify/min/*/google-analyticator/
 @@||kiplinger.112.2o7.net^
 @@||klp.no/person/plugins/komponentbiblioteket/utils/tracking/Tracking.js
 @@||klpinteraktiv.klp.no^*/Tracking.js?
@@ -7948,7 +7948,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||uverseonline.att.net/report/click_tracking_nes.json
 @@||uwants.com/include/*/swfaddress.js
 @@||v.me/personal/assets/ntpagetag-$script
-@@||vacayvitamins.com/wp-content/plugins/wp-minify/min/?*/google-analyticator/$script
 @@||vaillant.de/inc/assets/js/webtrekk_$script
 @@||vanclimg.com/js.ashx?*/google-analytics.js$domain=vancl.com
 @@||varagesale.com/assets/analytics-$script,~third-party
@@ -8616,6 +8615,7 @@ znak.com##.relap
 ||a-counters.com^$third-party
 ||a-mo.net^$third-party
 ||a-pagerank.net^$third-party
+||a-reporting.nytimes.com^
 ||a.20minutes.fr^
 ||a.appbaqend.com^
 ||a.beliefnet.com^
@@ -9397,6 +9397,7 @@ znak.com##.relap
 ||alogs.umeng.com^
 ||alogs.umengcloud.com^
 ||aloofmetal.com^$third-party
+||aloofvest.com^$third-party
 ||alooma.com/track/
 ||alooma.io/track/?
 ||alpixtrack.com^$third-party
@@ -9794,6 +9795,7 @@ znak.com##.relap
 ||analytics.similarweb.com^
 ||analytics.simplyhealth.co.uk^
 ||analytics.sitewit.com^
+||analytics.sitewit.com^$third-party
 ||analytics.sketchup.com^
 ||analytics.skyscanner.net^
 ||analytics.slashdotmedia.com^
@@ -11225,6 +11227,7 @@ znak.com##.relap
 ||c.hit.ua^$third-party
 ||c.holmesmind.com^
 ||c.imedia.cz^
+||c.imedia.cz^$third-party
 ||c.imrk.net^$third-party
 ||c.ipaddress.com^
 ||c.lazada.co.id/t/v.gif?__t=
@@ -11441,6 +11444,7 @@ znak.com##.relap
 ||cdn.branch.io^$domain=underarmour.com
 ||cdn.c-i.as^$script,third-party
 ||cdn.c-i.as^$third-party
+||cdn.cohesionapps.com/cohesion/xs1.html?xsid=
 ||cdn.cohesionapps.com^$domain=gamespot.com
 ||cdn.contalyze.com^$third-party
 ||cdn.contx.net/collect.js
@@ -13726,6 +13730,7 @@ znak.com##.relap
 ||ecn5.com^$third-party
 ||eco-tag.jp^$third-party
 ||ecomm.events^
+||ecomm.events^$third-party
 ||ecommstats.com^$third-party
 ||ecommstats.s3.amazonaws.com^$third-party
 ||econda-monitor.de^$third-party
@@ -14741,7 +14746,6 @@ znak.com##.relap
 ||freecurrencyrates.com/statgif.
 ||freedom.com^*/analytic/
 ||freedom.com^*/analytics/
-||freedownloadscenter.com^*/empty.gif?
 ||freegames.io/log
 ||freegeoip.app^$third-party
 ||freegeoip.net^$third-party
@@ -15758,6 +15762,7 @@ znak.com##.relap
 ||hiconversion.com^$third-party
 ||hiddencounter.de^$third-party
 ||hide.ovh^
+||hif.to/rkstat/
 ||hif.to^$third-party
 ||higheredjobs.com/ClickThru/
 ||higherengine.com^$third-party
@@ -16176,6 +16181,7 @@ znak.com##.relap
 ||ilyonanalytics.herokuapp.com^
 ||im-apps.net^$third-party
 ||im.aol.de^
+||im.cbsileads.com^$third-party
 ||image.ard.de^
 ||image.cauly.co.kr/script/caulytracker_async.js
 ||image.kfw.de^
@@ -16412,6 +16418,7 @@ znak.com##.relap
 ||ingage.tech^$third-party
 ||ingenioustech.biz^$third-party
 ||ingest.crittercism.com^
+||ingest.make.rvapps.io^$domain=zdnet.com
 ||inimbus.com.au^$third-party
 ||ininmacerad.pro^$third-party
 ||inistrack.net^$third-party
@@ -21021,6 +21028,7 @@ znak.com##.relap
 ||px.mvfglobal.com^
 ||px.owneriq.net^
 ||px.reactrmod.com^$third-party
+||px.redgifs.com/px.gif
 ||px.spiceworks.com^
 ||px.staticfiles.at^
 ||px.staticfiles.at^$third-party
@@ -26533,6 +26541,7 @@ znak.com##.relap
 ||tracker.financialcontent.com^
 ||tracker.giftd.ru^$third-party
 ||tracker.icerocket.com^
+||tracker.idocdn.com^$third-party
 ||tracker.iltrovatore.it^
 ||tracker.iqnomy.com^
 ||tracker.jawcloud.co^
@@ -27356,6 +27365,7 @@ znak.com##.relap
 ||unagi.amazon.*/events/$domain=~aws.amazon.com
 ||unarmedindustry.com^$third-party
 ||unbecominghall.com^$third-party
+||unblockia.com^$third-party
 ||unblog.fr/cu.js
 ||uncn.jp^$third-party
 ||uncoveredcircle.com^$third-party
