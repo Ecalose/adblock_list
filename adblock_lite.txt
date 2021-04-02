@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202104010250
+! Version: 202104020220
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19142
+! Lenth = 19147
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -6057,6 +6057,7 @@ polyapt.com#@#.ad-one
 popart.hk###slideshow
 popbee.com##.adblocker
 popo.tw#@#.header_ad
+porn87.com#%#//scriptlet('abort-current-inline-script', '$', 'popunder')
 portablesoft.org##.downcenter
 portablesoft.org##.rightside > :nth-child(n+2)
 portablesoft.org##.sidebar-box
@@ -12120,6 +12121,7 @@ zznews.cn##.ad:not([style])
 ||eeyy.com/templates/js/popback.js
 ||eeyy.com/uploadfile/img/beitou
 ||eeyy.com^$third-party
+||ef9i0f3oev47.com^
 ||efyt6.com^$third-party
 ||egjq.com.cn^
 ||egooad.com^$third-party
@@ -12754,6 +12756,7 @@ zznews.cn##.ad:not([style])
 ||gsdpw.com/file/script/A
 ||gshtrl.top^
 ||gsjdzx.com^$third-party
+||gssdsj.com^
 ||gssxb.com^
 ||gsycdb.com^
 ||gsycl.top^
@@ -14733,6 +14736,7 @@ zznews.cn##.ad:not([style])
 ||lyjiuban.com^
 ||lyjz001.com^
 ||lylfj.cn^
+||lylifa.com^
 ||lymstsc.com^
 ||lynr.com^
 ||lysq.com/data/attachment/portal/
@@ -15870,6 +15874,7 @@ zznews.cn##.ad:not([style])
 ||qixingquan.com/qxq-images/dawangka.png
 ||qixingquan.com/qxq-images/js/qxq_t.js
 ||qiyeb.iaskbus.com^
+||qiyegongqiu1.qiyegongqiu.com^
 ||qiyipic.com/common/*%E9%80%9A%E6%A0%8F
 ||qiyipic.com/common/*/225x230.jpg
 ||qiyipic.com/common/*/250-230.
