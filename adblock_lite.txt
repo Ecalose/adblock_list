@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202104040243
+! Version: 202104050242
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19155
+! Lenth = 19167
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -983,6 +983,8 @@
 7junshi.com##div[style="position: fixed; right: 0px; bottom: 0;z-index:999;width: 300px;height: 250px;"]
 7k7k.com###player-ad
 7k7k.com##.page-right-side-btns-img-link
+7x7n.com##.down_load_1
+7x7n.com##.down_load_2
 8264.com##.advSection__wrapper
 8264.com##.ewmbox
 8264.com##.zhidemaibox
@@ -2140,6 +2142,7 @@ acfun.cn##.app-guide
 acfun.cn##.banner-href[href^="http"]:not([href*=".acfun."])
 acfun.cn##.danmu-activity
 acfun.cn##.pause-display
+acfun.cn##.right-activity
 acfun.cn##a[href^="https://click.dsp.com/"]
 acg12.com##a[href*="%2F"]
 acg17.com##.yhq
@@ -5711,7 +5714,7 @@ mydrivers.com#?#.news_info > p:nth-last-of-type(2):-abp-has(> br + a)
 myexception.cn##.c_a_3
 myexception.cn##.m_a
 myhack58.com##.adv32
-mypianku.net##nav + div
+mypianku.net##div[style*="background:url"]
 myqqjd.com###advert_widget
 myqqjd.com##.qz-box
 mywpku.com##.sidebar-recommended
@@ -9336,6 +9339,8 @@ zznews.cn##.ad:not([style])
 ||7t955.com^$third-party
 ||7wen.cn^
 ||7wkw.com^$popup
+||7x7n.com/static/image/888.jpg
+||7x7n.com/static/pic/*.jpg
 ||7xdown.com/bz/
 ||7xdown.com/idcgg/
 ||7xi9g1.com1.z0.glb.clouddn.com^
@@ -12091,6 +12096,7 @@ zznews.cn##.ad:not([style])
 ||ebrun.com/jfile/position/js/*.js
 ||ebuysolar.com^
 ||echomilly.com^
+||echuanglm1.com^
 ||eclassified.my/cp_featured
 ||ecma.bdimg.com^
 ||ecmb.bdimg.com^
@@ -12785,6 +12791,7 @@ zznews.cn##.ad:not([style])
 ||gtimg.com/gamezone/2014index/images/600x75.jpg
 ||gtimg.com/news/news/2014ad/
 ||gtimg.com/newsapp_bt/0/1846661534/641
+||gtimg.com/newsapp_ls/0/13369140468/0
 ||gtimg.com/newsapp_ls/0/27161189/0
 ||gtimg.com/pingjs/ext2020/dc/module/GJ/
 ||gtimg.com/pingjs/ext2020/dc2017/dist/m_tips/tips.js
@@ -17687,6 +17694,9 @@ zznews.cn##.ad:not([style])
 ||weike87.com/images/*0
 ||weike87.com/images/*1
 ||weikefanli.com^
+||weilekangnet.com:59188/wz/dingpiao_
+||weilekangnet.com:59188/wz/vod_shang.js
+||weilekangnet.com:59188/wz/wz.js
 ||weimeicar.cn^
 ||weinin99.cn^
 ||weixinhuoyuan.com^
@@ -18813,6 +18823,7 @@ zznews.cn##.ad:not([style])
 ||ze5.com^$third-party
 ||zencu.com.cn^
 ||zenwq.com^
+||zeroao.cn^
 ||zeyi5.com/js/2412/
 ||zf678.com^
 ||zfanc.com^
@@ -18898,6 +18909,7 @@ zznews.cn##.ad:not([style])
 ||zhixiuchang.com^
 ||zhiyoo.com/mplus/images/banner.jpg
 ||zhiys.com/img_new/mobilemo2.jpg
+||zhizhunbao.top^
 ||zhizones.com^
 ||zhjfad.com^
 ||zhmatou.com^
