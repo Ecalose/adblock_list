@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202104050242
+! Version: 202104060255
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 32010
+! Lenth = 32034
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -26,6 +26,7 @@
 #%#var AG_removeElementBySelector = function(selector) { if (!document.querySelectorAll) { return; } var nodes = document.querySelectorAll(selector); if (nodes) { for (var i = 0; i < nodes.length; i++) { if (nodes[i] && nodes[i].parentNode) { nodes[i].parentNode.removeChild(nodes[i]); } } } };
 #%#var AG_removeParent = function(el, fn) { while (el && el.parentNode) { if (fn(el)) { el.parentNode.removeChild(el); return; } el = el.parentNode; } };
 #%#var AG_setConstant=function(e,a){if("undefined"===a)a=void 0;else if("false"===a)a=!1;else if("true"===a)a=!0;else if("noopFunc"===a)a=function(){};else if("trueFunc"===a)a=function(){return!0};else if("falseFunc"===a)a=function(){return!1};else if(/^\d+$/.test(a)){if(a=parseFloat(a),isNaN(a)||32767<Math.abs(a))return}else return;var b=!1;AG_defineProperty(e,{get:function(){return a},set:function(c){if(b)var d=!0;else void 0!==c&&void 0!==a&&typeof c!==typeof a&&(b=!0),d=b;d&&(a=c)}})};
+$cookie=utag_main
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|skyback.ru|szukajka.tv|thepiratebay.org|vidoza.net
 $subdocument,third-party,domain=estream.to
@@ -683,6 +684,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /MCookieCheck.aspx
 /MCookieReturn.aspx
 /Maxymiser/*
+/MetricsAjax^
 /NNAnalytics.
 /NNAnalytics/*
 /NNAnalyticsWPSites.
@@ -2251,6 +2253,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /dw-tracking-
 /dw/hit?
 /dwanalytics-
+/dwanalytics-$domain=wefashion.de
 /dwanalytics.
 /dwell/log?
 /dynaTraceMonitor?
@@ -2441,6 +2444,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /facash.
 /facebook-retargeting-
 /facebook-tracking/*
+/facebookPixel.
 /facebook_fbevents.
 /facebookpixel.
 /facebookpixel/*
@@ -3325,6 +3329,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /logging/React-
 /logging/log-
 /logging/log.do
+/logging/logjs
 /logging/pageView
 /logging/pixel?
 /logging/v1/log|
@@ -5969,7 +5974,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.jp|sony.jp
 @@||adobedtm.com^*/s-code-$script
 @@||adobedtm.com^*/satellite-$script
-@@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|americanexpress.com|argos.co.uk|backcountry.com|collegeboard.org|costco.com|crackle.com|crimewatchdaily.com|directline.com|eonline.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|jeep.com|laredoute.co.uk|laredoute.com|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|oprah.com|oracle.com|pnc.com|realtor.com|redbull.tv|repco.co.nz|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|stuff.co.nz|subaru.com|telegraph.co.uk|timewarnercable.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
+@@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|americanexpress.com|argos.co.uk|backcountry.com|bmw.com.au|collegeboard.org|costco.com|crackle.com|crimewatchdaily.com|directline.com|eonline.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|jeep.com|laredoute.co.uk|laredoute.com|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|oprah.com|oracle.com|pnc.com|realtor.com|redbull.tv|repco.co.nz|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|stuff.co.nz|subaru.com|telegraph.co.uk|timewarnercable.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
 @@||adobedtm.com^*/satelliteLib-$script,domain=ceair.com|fcbarcelona.cn
 @@||adobedtm.com^*/satelliteLib-$script,domain=conad.it|ilsole24ore.com|laredoute.it
 @@||adobedtm.com^*/satelliteLib-$script,domain=crackle.com.ar|crackle.com.ec|crackle.com.mx|crackle.com.pe|crackle.com.py|fcbarcelona.cat|fcbarcelona.es|laredoute.es|vtr.com
@@ -7713,6 +7718,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||seznam.cz/?spec=*&url=$image,domain=search.seznam.cz
 @@||sfdict.com/app/*/click_tracking.js$domain=thesaurus.com
 @@||sgqcvfjvr.onet.pl^$script,domain=kobieta.onet.pl
+@@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||shopify.com/*assets/pixel.gif$image,domain=metrovac.com
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/publishertag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
@@ -9724,6 +9730,7 @@ znak.com##.relap
 ||analytics*.carambo.la^
 ||analytics*.clickdimensions.com^
 ||analytics-api.a-f.io^
+||analytics-api.smzdm.com^
 ||analytics-beacon-*.amazonaws.com^
 ||analytics-cdiscount.com^$third-party
 ||analytics-cms.whitebeard.me/js/
@@ -10446,6 +10453,7 @@ znak.com##.relap
 ||as.yomonda.de^
 ||asadcdn.com/bt^
 ||asadcdn.com^$third-party
+||asahibeer.co.jp/tracking.js
 ||asana.r-hx-1.net.daraz.com^
 ||asayer.io/tracker.js
 ||asc.solidworks.com^
@@ -10934,6 +10942,7 @@ znak.com##.relap
 ||beadbears.com^$third-party
 ||beagle.prod.tda.link^
 ||beak.bd.313.nl^
+||beak.bigdata.dpgmmservices.nl^$third-party
 ||beam.koddi.com^$third-party
 ||beam.remp.impresa.pt^
 ||beam.remp.nv.ua^
@@ -13345,6 +13354,7 @@ znak.com##.relap
 ||data.adobedc.net^$third-party
 ||data.alexa.com^
 ||data.all-in.de^
+||data.bilibili.com/log/
 ||data.caroda.io^$third-party
 ||data.circulate.com^
 ||data.cofinoga.fr^
@@ -14705,6 +14715,7 @@ znak.com##.relap
 ||estara.com^$third-party
 ||estat.com^$third-party
 ||estat.zum.com^
+||estatcounter.co.uk^$third-party
 ||estrack.net^$third-party
 ||estream.to/bootstrap.min.js$script
 ||estream.to/player.js
@@ -14868,6 +14879,7 @@ znak.com##.relap
 ||events.practo.com^
 ||events.privy.com^
 ||events.realgravity.com^
+||events.reclamefolder.nl^
 ||events.reddit.com^
 ||events.redditmedia.com^
 ||events.shareably.net^
@@ -15678,6 +15690,7 @@ znak.com##.relap
 ||game9time.com^
 ||gameanalisys.appcpi.net^
 ||gameanalytics.com^$third-party
+||gamedistribution.com/collect?
 ||gameforge.de/init.gif?
 ||gamefront.com/wp-content/plugins/tracker/
 ||gamegecko.com/gametrack?
@@ -16846,6 +16859,7 @@ znak.com##.relap
 ||hubvisor.io^$third-party
 ||hudb.pl^$third-party
 ||hudong.com/flux.js
+||huffingtonpost.fr/px.gif^
 ||huffpost.com/ping?
 ||hukuki.net/analyticsjs.js
 ||hulkshare.com/ajax/tracker.php
@@ -18481,6 +18495,7 @@ znak.com##.relap
 ||live.mrf.io/statics/marfeel/gardac-sync.js
 ||live.rezync.com^
 ||live2support.com^*/js_lstrk.
+||livechatinc.com/tracking.js
 ||livechatinc.com^*/control.cgi?
 ||livecount.fr^$third-party
 ||livecounter.dk^$third-party
@@ -22485,6 +22500,7 @@ znak.com##.relap
 ||poisedpig.com^$third-party
 ||pokernews.com/track-views.php?
 ||poki.com/observer/
+||poki.com/observer/t.js
 ||pol3.cheque-domicile.fr^
 ||polarbyte.com^$third-party
 ||polarcdn-pentos.com^$third-party
@@ -23331,6 +23347,7 @@ znak.com##.relap
 ||request.issuu.com^
 ||requestmetrics.com^$third-party
 ||rertrc.abc-mart.net^
+||res-ga.smzdm.com/gtm.js
 ||res-x.com^$third-party
 ||res.elle.fr^
 ||res.femina.fr^
@@ -24072,6 +24089,7 @@ znak.com##.relap
 ||sas15k01.com^$third-party
 ||sasc.solidworks.com^
 ||sasontnwc.net/track/
+||sat.public.bd.313.nl^$third-party
 ||sat.sanoma.fi^
 ||satisfycork.com^$third-party
 ||satisfyingshow.com^$third-party
@@ -24837,7 +24855,7 @@ znak.com##.relap
 ||smartology.co^$third-party
 ||smartpixel.auditorius.ru^
 ||smartracker.net^$third-party
-||smartworld.it^$cookie=/utag_main|__mx_log/
+||smartworld.it^$cookie=__mx_log
 ||smartzonessva.com^$third-party
 ||smashsurprise.com^$third-party
 ||smassets.net/assets/anonweb/anonweb-click-$script
@@ -26320,6 +26338,7 @@ znak.com##.relap
 ||sp.desmoinesregister.com^
 ||sp.detroitnews.com^
 ||sp.dnj.com^
+||sp.dpgmedia.net^$third-party
 ||sp.fanatical.com/i?cd_c=*&aid=
 ||sp.fanatical.com^
 ||sp.fdlreporter.com^
@@ -27059,6 +27078,7 @@ znak.com##.relap
 ||static.vdmximg.com/wp-includes/js/u_hits_control.js
 ||static.wellsfargo.com/tracking/
 ||static.yandex.net/browser-updater/stripe/script.js
+||static1.dmcdn.net/js/cpe/cpeEvent.min.js
 ||static1.dmcdn.net/js/cpe/cpeEventTracking.min.js
 ||staticflickr.com/ap/build/javascripts/snow-$script,domain=flickr.com
 ||staticice.com.au/cgi-bin/stats.cgi?
@@ -27714,6 +27734,7 @@ znak.com##.relap
 ||stupendousselection.com^$third-party
 ||stupendoussleet.com^$third-party
 ||stupidsnake.com^$third-party
+||stuttgarter-zeitung.de/cms/hitcount
 ||style.onvz.nl^
 ||stylelist.com/ping?ts=
 ||stylight.net/track/
@@ -28047,6 +28068,7 @@ znak.com##.relap
 ||t.enbw.com^
 ||t.etraveli.com^
 ||t.felmat.net^
+||t.felmat.net^$third-party
 ||t.festo.com^
 ||t.flix360.com^
 ||t.freelancer.com^
@@ -28371,6 +28393,7 @@ znak.com##.relap
 ||tellerreport.com/react/pixel
 ||temnos.com^$third-party
 ||tempo.inc.com^
+||temptation.ad.nl^
 ||tempttalk.com^$third-party
 ||tend-table.com/cgi-bin/WebLog.dll
 ||tendatta.com^$third-party
@@ -30353,6 +30376,7 @@ znak.com##.relap
 ||v.oui.sncf^
 ||v.shopify.com^
 ||v12group.com^$third-party
+||v1sts.me^$third-party
 ||v2-keele-nnw-leis-mc-leis.net.daraz.com^
 ||v3.fstats.xyz^
 ||v3cdn.net^$third-party
