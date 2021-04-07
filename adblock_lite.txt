@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202104060255
+! Version: 202104070201
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19177
+! Lenth = 19182
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -2092,6 +2092,7 @@
 @@||zhaopin.cn/js/app/popShow.
 @@||zhaopin.cn^*/adbox_
 @@||zmtt.net^$script,domain=luoqiuzw.com
+@@||zpmobi.cn^*/ad.css?$stylesheet
 _!!1731999033.
 _1xhtml?$script
 _300_250.
@@ -3181,7 +3182,6 @@ cnzol.com#?#li:-abp-has(> a[href*="/un/"])
 cnzol.com#?#li:-abp-has(> a[href*="mmtp.net"])
 cnzol.com#?#li:-abp-has(> a[href*="tu."])
 co188.com##.suspen
-cocomanhua.com###ics
 cocomanhua.com,ohmanhua.com,onemanhua.com#%#//scriptlet("prevent-setTimeout", "checkSiteNormalLoad")
 cocomanhua.com,ohmanhua.com,onemanhua.com#%#//scriptlet("set-constant", "NativeAd", "noopFunc")
 cocomanhua.com,ohmanhua.com,onemanhua.com#%#//scriptlet("set-constant", "__jsadsuccess", "true")
@@ -10530,6 +10530,7 @@ zznews.cn##.ad:not([style])
 ||bccyyc.com^
 ||bceapp.com/jj/1716mid.js
 ||bcebos.com/ad/
+||bcebos.com/contentAdSecend_
 ||bcebos.com/im-cs/a69c0123ae867534560f1a0df1b6b2a8.png
 ||bcquan.me/front/*_ad
 ||bcquan.me/front/*_game
@@ -11868,6 +11869,7 @@ zznews.cn##.ad:not([style])
 ||doczj.com/js/common.js
 ||dodo8.com/template/*/images/g_js/
 ||dodomo.info^
+||dofkfhv.cn^
 ||doko.moe^$domain=pantsu.cat
 ||dol.tianya.cn/s?z=tianya&
 ||dongchedi.com/motor/ad/
@@ -15219,6 +15221,7 @@ zznews.cn##.ad:not([style])
 ||nbegame.com/nbeos/*.jpg
 ||nbhotpo.com^
 ||nbhxgjz.com^
+||nbwmsod.cn^
 ||nbyayu.cn/player.swf
 ||nbzq.net^
 ||ncdiy.com/webindex/300-250AD.swf
@@ -16837,6 +16840,7 @@ zznews.cn##.ad:not([style])
 ||swyhome.com^
 ||swzhaohuo.com.cn^
 ||sxbhzs.net^
+||sxbxzc.com^
 ||sxdyrq.com^
 ||sxehny.cn^
 ||sxeimg.com/u/20191108/13082210.gif
@@ -18867,6 +18871,7 @@ zznews.cn##.ad:not([style])
 ||zhandi.cc/Runtime/js/900
 ||zhandi.cc/Runtime/js/index
 ||zhandi.cc^$third-party
+||zhangdujia.com^
 ||zhangguangzong.com^$third-party
 ||zhangkc.com^
 ||zhangranfilm.com^
