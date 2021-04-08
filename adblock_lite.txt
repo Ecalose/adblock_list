@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202104070201
+! Version: 202104080200
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19182
+! Lenth = 19187
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -2282,7 +2282,6 @@ ant.design##.snd-ad
 antdv.com###right-bottom
 antpedia.com###luxury_car
 antpedia.com,chinamedevice.cn,lcxw.cn,msdn.hk,xinhuanet.com,yuanliled.com##.gg1
-ants.tw##.acca-block
 ants.tw#?##sidebar > section.widget_text > div.textwidget > script[src^="//pagead2.googlesyndication.com/"]:upward(2)
 anywlan.com##.bscekvofc_o
 aoji.cn##.xiaoxi_phone
@@ -2957,6 +2956,7 @@ chinabyte.com###adv-button
 chinacar.com.cn##.advertising
 chinacar.com.cn##.left_pouple_box
 chinacbe.com##div[style="width:960px; padding:0px; margin:4px 0; border:0px solid #CCC;"]
+chinacsbs.com##a[href^="/plus/view.php?aid="]
 chinafix.com###diy_col_1-3
 chinafix.com##div[id^="diy_vk_ad_"]
 chinairn.com##.bizrpt
@@ -4725,6 +4725,8 @@ infoq.cn##.live-fixed-bar
 infoq.cn##.widget-slide-weekly
 infoq.com###psa-note
 infoq.com##.ab_detect
+inmywordz.com,ants.tw##.acca-block
+inmywordz.com,sharonlife.tw##.adsbyfalcon
 instrument.com.cn###leftFlash
 instrument.com.cn##a[href*="/ad/"]
 ip.cn##.well > p > a
@@ -6436,7 +6438,6 @@ shanxivideo.net##[class^="c-ad"]
 shanxivideo.net##div[style^="width: 300px; height: 250px"]
 shanxivideo.net#$#.with-ad.only-one-row.main { width: auto !important; }
 shaoxing.com.cn##.top2
-sharonlife.tw##.adsbyfalcon
 sharonlife.tw#?##sidebar > div.widget:has(> h4:contains(廣告))
 shejiben.com##.bottom_zb_box
 shejidaren.com##.AND
@@ -10879,6 +10880,7 @@ zznews.cn##.ad:not([style])
 ||buydee.org^
 ||buyihao.com^
 ||buyuninfo.com^
+||buzx53.cn^
 ||buzzads.com^$third-party
 ||buzzhand.com/images/$subdocument
 ||bv8888.com^
@@ -11468,6 +11470,7 @@ zznews.cn##.ad:not([style])
 ||cpu.baidu.com^$third-party
 ||cpv6.com^
 ||cqbaitong.cn^
+||cqerbihou.com^
 ||cqfangduan.com^
 ||cqftonline.com^
 ||cqgya.com^
@@ -12332,6 +12335,7 @@ zznews.cn##.ad:not([style])
 ||fenglan.oss-cn-shenzhen.aliyuncs.com^*.gif
 ||fengmishop.cn^
 ||fengniao.com*/pv.js
+||fengousm.com^
 ||fengxiangstore.com^$third-party
 ||fenxiangdashi.com/Res/js/detail_
 ||fenxiangdashi.com/img/banner/
@@ -18632,6 +18636,7 @@ zznews.cn##.ad:not([style])
 ||yqqlm.vip^
 ||yqrta.xyz^$third-party
 ||yqw88.com^
+||yrqwyn.cn^
 ||yrrsckr.cn^
 ||ys.muhoujiemi.com^
 ||ys2000.cdn.bcebos.com^
