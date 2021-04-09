@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202104080200
+! Version: 202104090115
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 32066
+! Lenth = 32082
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -26,6 +26,8 @@
 #%#var AG_removeElementBySelector = function(selector) { if (!document.querySelectorAll) { return; } var nodes = document.querySelectorAll(selector); if (nodes) { for (var i = 0; i < nodes.length; i++) { if (nodes[i] && nodes[i].parentNode) { nodes[i].parentNode.removeChild(nodes[i]); } } } };
 #%#var AG_removeParent = function(el, fn) { while (el && el.parentNode) { if (fn(el)) { el.parentNode.removeChild(el); return; } el = el.parentNode; } };
 #%#var AG_setConstant=function(e,a){if("undefined"===a)a=void 0;else if("false"===a)a=!1;else if("true"===a)a=!0;else if("noopFunc"===a)a=function(){};else if("trueFunc"===a)a=function(){return!0};else if("falseFunc"===a)a=function(){return!1};else if(/^\d+$/.test(a)){if(a=parseFloat(a),isNaN(a)||32767<Math.abs(a))return}else return;var b=!1;AG_defineProperty(e,{get:function(){return a},set:function(c){if(b)var d=!0;else void 0!==c&&void 0!==a&&typeof c!==typeof a&&(b=!0),d=b;d&&(a=c)}})};
+$cookie=_parsely_session
+$cookie=_parsely_visitor
 $cookie=utag_main
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|skyback.ru|szukajka.tv|thepiratebay.org|vidoza.net
@@ -4457,6 +4459,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /sl.gif?1=
 /slimstat/*
 /slot_cmp.js
+/sluurpy_track.js
 /small.gif?type
 /smartpixel-1.js
 /smartpixel.
@@ -4876,6 +4879,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /track-img.php?
 /track-imp?
 /track-internal-links.
+/track-internal-links.js$domain=balkangunlugu.com.tr
 /track-opening/*
 /track-page-view.
 /track-pixel.
@@ -5331,6 +5335,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /uo-stat?
 /updateBotStatus.do?
 /updateStats.
+/update_hits3/*
 /urchin.gif?
 /urchin.html?
 /urchin.js
@@ -6314,6 +6319,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||check.ddos-guard.net/check.js$script
 @@||chessfriends.com/js/live/GoogleAnalytics.js?$~third-party
 @@||chiptec.net/skin/*/GoogleAnalyticsPlus/$script
+@@||chronopost.fr/tracking-no-cms/resources/js/lib/atinternet/smarttag.prod.$script
 @@||cio.com/js/demandbase.js?
 @@||circuitv.com/assets/js/analytics.js$~third-party
 @@||cisco.com/web/fw/lib/ntpagetag.js
@@ -6878,7 +6884,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=anond.hatelabo.jp
 @@||googletagmanager.com/gtm.js$domain=argeweb.nl
 @@||googletagmanager.com/gtm.js$domain=askona.ru
-@@||googletagmanager.com/gtm.js$domain=atptour.com|bsa-whitelabel.com|chipotle.com|complex.com|cyclingnews.com|easternbank.com|nflgamepass.com|pioneer.eu|royalbank.com|scotsman.com|trademe.co.nz
+@@||googletagmanager.com/gtm.js$domain=atptour.com|bsa-whitelabel.com|chipotle.com|complex.com|crello.com|cyclingnews.com|easternbank.com|nflgamepass.com|pioneer.eu|royalbank.com|scotsman.com|trademe.co.nz
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|sportmaster.ru|teddyfood.com
 @@||googletagmanager.com/gtm.js$domain=besplatnyeprogrammy.ru|softobase.com|freeversion.ru|softmen.ru|freeversions.ru|moiprogrammy.net
@@ -7027,7 +7033,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|book.impress.co.jp|kakuyomu.jp|sankei.com
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|mediamarkt.nl
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
-@@||googletagmanager.com/gtm.js$script,domain=linternaute.com|sciencesetavenir.fr|wamiz.com
+@@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
 @@||googletagmanager.com/gtm.js$script,domain=olx.ro
 @@||googletagmanager.com/gtm.js$script,domain=telia.no
 @@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
@@ -7112,6 +7118,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||hse24.de^*/emos2.js
 @@||i-scmp.com/production/mixpanel.$domain=scmp.com
 @@||i.onthe.io^$script,image,stylesheet,domain=nur.kz
+@@||i.snssdk.com/log/sentry/$domain=lv.ulikecam.com
 @@||ia.hit.interia.pl/spider/date?$domain=interia.pl
 @@||ibm.com/software/reports/compatibility/clarity-reports/js/$script,~third-party
 @@||identity.mparticle.com/v*/identify$domain=cwseed.com
@@ -7334,6 +7341,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||mc.yandex.ru/watch/$xmlhttprequest,domain=mtstv.mts.ru
 @@||mc.yandex.ru/webwisor/$domain=metrika.yandex.ru|metrika.yandex.ua|metrika.yandex.by|metrika.yandex.kz|metrika.yandex.com.tr
 @@||mc.yandex.ru^$domain=planeta.ru
+@@||mcs.snssdk.com/*/user/webid$domain=lv.ulikecam.com
 @@||mec.ca/media/javascript/resxclsx.js
 @@||media-imdb.com^*/clickstream.js
 @@||media.bnd.com/mistats/finalizestats.js
@@ -9873,6 +9881,7 @@ znak.com##.relap
 ||analytics.ghostery.com^$subdocument,domain=www.ghostery.com
 ||analytics.global.sky.com^
 ||analytics.go.com^
+||analytics.google.com/g/collect?v=
 ||analytics.gorillanation.com^
 ||analytics.greensender.pl^$third-party
 ||analytics.groupe-seb.com^
@@ -10593,6 +10602,7 @@ znak.com##.relap
 ||audienceiq.com^$third-party
 ||audiencemanager.de^$third-party
 ||audiencepixel.com^$third-party
+||audienceplay.com^$third-party
 ||audiencerate.com^$third-party
 ||audiencesquare.com^$third-party
 ||audiencia.r7.com^
@@ -16211,6 +16221,7 @@ znak.com##.relap
 ||google-analytics.com^*/__utm.gif
 ||google-pagerank.net^$third-party
 ||google-rank.org^$third-party
+||google.*/ads/ga-audiences$image
 ||google.*/api/sclk?
 ||google.*/gwt/x/ts?
 ||google.*/log204?
@@ -18061,6 +18072,7 @@ znak.com##.relap
 ||kickass.immunicity.gold/analyze*.js
 ||kickass.unlockproj.party/analyze*.js
 ||kicker.de^*/videocount?
+||kickstarter.com/Uy3R669N/init.js
 ||kiddbs.baby-calendar.jp^
 ||kieden.com^$third-party
 ||kiehls.com/IZ/G8ATFja1/
@@ -24126,6 +24138,7 @@ znak.com##.relap
 ||satisfyingshow.com^$third-party
 ||satisfyingspark.com^$third-party
 ||satracking.finning.com^
+||sats.manager-magazin.de^
 ||savecart.pl/d/
 ||savoryorange.com^$third-party
 ||savorystructure.com^$third-party
@@ -28174,6 +28187,7 @@ znak.com##.relap
 ||ta.taxslayer.com^
 ||ta.trs.cn^
 ||tab.co.nz/track?
+||taboola.com.cn^$third-party
 ||taboola.com/?uid=
 ||taboola.com/libtrc/impl.
 ||taboola.com/libtrc/userx.
@@ -30230,6 +30244,7 @@ znak.com##.relap
 ||uncoveredcircle.com^$third-party
 ||uncoveredexpert.com^$third-party
 ||underthesnow.ru/engine/modules/counter-
+||undom.net^$third-party
 ||unequalbrake.com^$third-party
 ||unevenstring.com^$third-party
 ||uni-duesseldorf.de/cgi-bin/nph-count?
@@ -31676,6 +31691,7 @@ znak.com##.relap
 ||yahoo.com/neo/ymstat
 ||yahoo.com/p.gif;
 ||yahoo.com/p.gif?
+||yahoo.com/p?
 ||yahoo.com/pageview
 ||yahoo.com/perf.gif?
 ||yahoo.com/serv?s

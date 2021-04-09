@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202104080200
+! Version: 202104090115
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19187
+! Lenth = 19201
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -948,6 +948,7 @@
 6park.com##table[width="89%"][height="60"]
 6parknews.com##.other_list_ad
 703804.com##.hotad
+717dyi.com##.qptp + *,.vdgd + *,.qpgd + *,a > video
 720yun.com##DIV[class^="Ads_ads_"]
 7255.com###J_search_bd > div:last-child
 7255.com###right > div:first-child
@@ -1685,6 +1686,7 @@
 @@||icbc.com.cn/icbc/include/AD_
 @@||ifengimg.com/a/201*Player
 @@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
+@@||ifsp.tv/ads.js
 @@||ifsp.tv/assets/lib/ads.js
 @@||ifvod.tv/ads.js
 @@||ifvod.tv/assets/lib/ads.js
@@ -3101,6 +3103,7 @@ cnbeta.com##.wdj_box
 cnbeta.com##a[href^="http://note.youdao.com/"]
 cnbeta.com##a[href^="http://www.dangbei.com/"]
 cnbeta.com##a[href^="https://915.im/"]
+cnbeta.com##div[style="width:285px;height:360px;background:#fff;"]
 cnbeta.com##div[style^="display:block !important;"]
 cnbeta.com##h2 > a[href^="https://active.greatroma.com"]
 cnbeta.com#?#.cnbeta-swiper-container-285x360 .swiper-slide:-abp-has(a[href^="http"]:not([href^="http://www.cnbeta."]))
@@ -3792,6 +3795,8 @@ fanyi.baidu.com##.extra-banners
 fanyi.baidu.com##.hot-link-middle
 fanyi.baidu.com##.trans-side-ad-wrap
 fanyi.baidu.com,longzhu.com##.banner-wrap
+fanyi.sogou.com##.img-banner
+fanyi.sogou.com##.survey
 fashion.qq.com##.rv-js-root
 fastadmin.net###detail-recommend
 fastadmin.net##.panel-body > a[href$="="]
@@ -8961,6 +8966,7 @@ zznews.cn##.ad:not([style])
 ||51dengshan.cn^
 ||51dianji.cn^
 ||51dmn.top^
+||51elandt.com^
 ||51ertong.com^
 ||51fanli.net/misc/images/invite-v4/banner.gif
 ||51fishplace.com^
@@ -12746,6 +12752,7 @@ zznews.cn##.ad:not([style])
 ||govgift.com^
 ||govhunan.cn^
 ||govjiangsu.cn^
+||govshenzhen.cn^
 ||gowin01.com^
 ||gowinxp.com^$third-party
 ||gp.jstv.com^
@@ -12780,6 +12787,7 @@ zznews.cn##.ad:not([style])
 ||gsdpw.com/file/script/A
 ||gshtrl.top^
 ||gsjdzx.com^$third-party
+||gslyxny.com^
 ||gssdsj.com^
 ||gssxb.com^
 ||gsycdb.com^
@@ -14742,6 +14750,7 @@ zznews.cn##.ad:not([style])
 ||lvse.cn/output/block/html/
 ||lvse.com/9
 ||lvsechufang.com^
+||lvt1980.cn^
 ||lvuptech.com/wp-content/plugins/deblocker/
 ||lvyinba.com/templets/*/js/couplet-ad.
 ||lw54.com/js/
@@ -16514,6 +16523,8 @@ zznews.cn##.ad:not([style])
 ||sinaimg.cn/large/5431d036ly1fh6gmu6gxmg20tg02i3yr.gif
 ||sinaimg.cn/large/5431d036ly1fhxbxz31nkj20tg02ignm.jpg
 ||sinaimg.cn/large/61ac6637gy1go7az1zmucj20pc08cjts.jpg
+||sinaimg.cn/large/61ac6637gy1gpciz97x5og21rw0go1kx.gif
+||sinaimg.cn/large/61ac6637gy1gpcjble96hg21e00dwaum.gif
 ||sinaimg.cn/large/6f8a2832gy1g7qyw7suqjj21400p0ake.jpg
 ||sinaimg.cn/large/8c8bd65d$domain=loldk.com
 ||sinaimg.cn/large/a518ed97jw1eu4mxubbe6j209q01e3ys.jpg
@@ -17132,6 +17143,7 @@ zznews.cn##.ad:not([style])
 ||tmdm.tv/fgr/
 ||tmea116.oss-cn-beijing.aliyuncs.com^
 ||tmrmixer.cn^
+||tn34lkn.com^
 ||tnarzc.com^
 ||tngmn.com^
 ||tngmn.com^$third-party
@@ -17338,6 +17350,7 @@ zznews.cn##.ad:not([style])
 ||u17i.com/readad/
 ||u26u.com^$popup,third-party
 ||u2c8.cn^
+||u5wzi0h.cn^
 ||u88.cn^$third-party
 ||u98ql6o.top^
 ||uadsaa.com^
@@ -17487,6 +17500,7 @@ zznews.cn##.ad:not([style])
 ||v1.taksh.cn^
 ||v2rayssr.com/wp-content/plugins/eazy-
 ||v4dwkcv.com/html/click/
+||v5levm1.com^
 ||v5pc.com/static/images/dn
 ||v9wuyulou.com^
 ||vaedan.top^
