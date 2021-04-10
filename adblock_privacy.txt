@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202104090115
+! Version: 202104100152
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 32082
+! Lenth = 32097
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1824,6 +1824,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /click?mode=*&action=
 /clickAnalyse.
 /clickLogger?
+/clickTrackingAjaxController?
 /click_metrics-jquery.js
 /click_stat/*
 /click_statistics/*
@@ -3411,6 +3412,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /measurement/access/contents?
 /measurementBeacon.
 /media-analytics.min.
+/media-analytics/*
 /media.sailthru.com/5ik/1k4/9/*.gif
 /media/miner.
 /media_viewed_tracking.
@@ -4937,6 +4939,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /track/track.php?
 /track/usage.
 /track/view/*
+/track/view?
 /track/view|
 /track/visitors/?
 /track/visits/?
@@ -7278,6 +7281,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||lsi.com^*/google-analytics.js
 @@||luluhypermarket.com/_ui/shared/js/analyticsmediator.js
 @@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
+@@||lzstatic.com^*/gdpr/consentHandler/google_analytics.js$domain=ladenzeile.de
+@@||lzstatic.com^*/gdpr/consentHandler/optimizely.js$domain=ladenzeile.de
 @@||mail-www.baynote.net^$domain=mail.com
 @@||mail.biz.rr.com/images/portal/blank.gif$domain=mail.biz.rr.com
 @@||mail.yahoo.com/neo/ymstat$xmlhttprequest
@@ -7818,6 +7823,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||static.chartbeat.com/js/chartbeat_mab.js$domain=usatoday.com
 @@||static.chartbeat.com/js/chartbeat_video.js$domain=gamespot.com
 @@||static.criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
+@@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
 @@||static.klaviyo.com/onsite/js/klaviyo.js$domain=bunkerbranding.com
 @@||static.klaviyo.com/onsite/js/klaviyo.js$domain=complyfoam.com
 @@||static.lci.fr/assets/scripts/common/tracker.js?$script,~third-party
@@ -7931,6 +7937,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||track.atom-data.io/|$xmlhttprequest,domain=globes.co.il
 @@||track.mybloglog.com/js/jsserv.php?$domain=egotastic.com
 @@||track.mz-web.de/*/tracking/tracking.js
+@@||track.nnn.de/cre-*/tracking/tracking.js
 @@||track.nzz.ch/cre-*/tracking/tracking.js
 @@||track.svz.de/cre-*/tracking/tracking.js
 @@||track2.royalmail.com^
@@ -7976,6 +7983,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||ultimedia.com/api/widget/getwidget/$xmlhttprequest,domain=ouest-france.fr
 @@||ultimedia.com/js/common/jquery.gatracker.js
 @@||unifi.me/mootools/classes/*-tracking
+@@||uniqlo.com^*/trackingservice/$~third-party
 @@||ups.com/*/WebTracking/track&dcs
 @@||ups.com/*/tracking.cgi
 @@||ups.com/WebTracking/$xmlhttprequest
@@ -15074,9 +15082,11 @@ znak.com##.relap
 ||facebook.com*/impression.php
 ||facebook.com*/impression.php$domain=autobild.de|focus.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tellows.de|transfermarkt.de
 ||facebook.com/a/bz?
+||facebook.com/adnw_request?
 ||facebook.com/ai.php?
 ||facebook.com/ajax/*/log.php
 ||facebook.com/ajax/*logging.
+||facebook.com/ajax/bz?*__comet_req=
 ||facebook.com/ajax/mtouch_perf_page_load_timings/
 ||facebook.com/brandlift.php
 ||facebook.com/common/cavalry_endpoint.php?
@@ -15697,6 +15707,7 @@ znak.com##.relap
 ||g7329120395.co^
 ||g7527204730.co^
 ||g7725289065.co^
+||g7923373400.co^
 ||ga-analytics.com^$third-party
 ||ga-beacon.appspot.com^
 ||ga.canoe.ca^
@@ -16221,7 +16232,7 @@ znak.com##.relap
 ||google-analytics.com^*/__utm.gif
 ||google-pagerank.net^$third-party
 ||google-rank.org^$third-party
-||google.*/ads/ga-audiences$image
+||google.*/ads/ga-audiences?v=
 ||google.*/api/sclk?
 ||google.*/gwt/x/ts?
 ||google.*/log204?
@@ -28876,6 +28887,7 @@ znak.com##.relap
 ||tp.universal.at^
 ||tp.yomonda.de^
 ||tp.yourhome.de^
+||tp88trk.com^$third-party
 ||tpa7.iahorro.com^
 ||tpe-csr41.net.daraz.com^
 ||tpm.pw^$third-party
@@ -29547,6 +29559,7 @@ znak.com##.relap
 ||tracking.newyorklifeinvestments.com^
 ||tracking.nextdoor.com^
 ||tracking.nl.visma.com^
+||tracking.noen.at^
 ||tracking.notizie.it^$script
 ||tracking.novem.pl^
 ||tracking.oceaneering.com^
@@ -30086,7 +30099,9 @@ znak.com##.relap
 ||twcount.com^$third-party
 ||twcouponcenter.com^$third-party
 ||tweakers.net/ajax/ping/
+||tweakers.net/x/scripts/min/TyYQlL.js
 ||tweakers.net/x/scripts/min/ptBO.js
+||tweakers.net^*&p=$image
 ||tweakimg.net/x/vendor/wt/
 ||tweako.com/imp.php
 ||tweakreviews.com/count-banner

@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202104090115
+! Version: 202104100152
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21232
+! Lenth = 21241
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -656,6 +656,7 @@
 ##.rtcenter_game
 ##.s.u.m.o.me.scrollbox-popup
 ##.scupioadslot
+##.search + #midBox
 ##.self-gg
 ##.side-ad
 ##.side_ad
@@ -839,6 +840,7 @@
 ##a[href*="/ayx600.com/"]
 ##a[href*="/cslpldyc.me"]
 ##a[href*="/du505.com"]
+##a[href*="/hth567.cn"]
 ##a[href*="/md0c.oss-cn-beijing.aliyuncs.com/"]
 ##a[href*="/mda1.site/"]
 ##a[href*="/mdapp03.com/"]
@@ -922,6 +924,7 @@
 ##script + #coupletBox
 ##script + #rbbox
 ##script[src="/js/sy2.js"] + div[align="center"]
+##script[src="/skin/base.js"] + #couplet
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
@@ -2089,7 +2092,7 @@ $websocket,domain=5nj.com|cechi8.com
 0772fang.com###v_topAD_1
 0772fang.com##.box0
 0772fang.com##.top_blft
-0du123.com,100ec.cn,24en.com,3gsc.com.cn,591hx.com,acgnx.se,aguitar.cn,btzx2017.com,e0514.com,eastmoney.com,guitarchina.com,gz0668.com,hk.on.cc,iguaji.com,iqiyi.com,jia360.com,jojf.cn,kdnet.net,kumi.cn,mikuclub.org,netbian.com,qiuziti.com,rain2.top,solarbe.com,tiboo.cn,v2rayssr.com,wallstreetcn.com,woniuyulew.com,xingkbjm.com,xizi.com,zgfznews.com,zyue.com##.banner
+0du123.com,100ec.cn,24en.com,3gsc.com.cn,591hx.com,acgnx.net,acgnx.se,aguitar.cn,btzx2017.com,e0514.com,eastmoney.com,guitarchina.com,gz0668.com,hk.on.cc,iguaji.com,iqiyi.com,jia360.com,jojf.cn,kdnet.net,kumi.cn,mikuclub.org,netbian.com,qiuziti.com,rain2.top,solarbe.com,tiboo.cn,v2rayssr.com,wallstreetcn.com,woniuyulew.com,xingkbjm.com,xizi.com,zgfznews.com,zyue.com##.banner
 10.0.0.211###toolbar
 10.10.5.12#@#.banner_ad
 10086.cn###bottomBigBanner
@@ -4191,7 +4194,7 @@ acgking.com,dbtmn.com,typin.cn##.asst
 acglala.net##.gg_img
 acglala.net,boke112.com,ruanyifeng.com,techug.com,vaikan.com,webhek.com##a[href^="http://t.cn/"]
 acglover.me##.myas
-acgnx.se##a > img[src^="/images/"]
+acgnx.net,acgnx.se##a > img[src^="/images/"]
 actoys.net##.p_new_ad
 actoys.net##.p_top_ad
 actoys.net,hualongxiang.com##div[id^="ads_d_"]
@@ -6150,7 +6153,7 @@ gpshk.cc,yxzp.net##img[width="770"]
 gpsuu.com##div[class^="top_96"]
 gpsuu.com##div[style="margin:0 auto; padding-bottom:10px;width:960px;height:60px;"]
 greatwuyi.com##.main_ad2
-greenxf.com###speed-downloader
+greenxf.com,xzji.com###speed-downloader
 greenxiazai.com##.downbtn > a:last-child
 greenxiazai.com##.yinsu_xz
 gs.chinanews.com.cn##.div1000_2 + .div980
@@ -7501,6 +7504,7 @@ mafengwo.cn###banner-con-gloable
 mafengwo.cn###float-pannel-gloable
 mafengwo.cn###smartGuideFeng
 mafengwo.cn##.hotel-banner
+maguays.cc##.animate-bounce-up
 mahua.com##.hidden_ab
 maiche.com##a.some-img
 mail.126.com,mail.163.com##.gWel-bottom
@@ -9582,7 +9586,7 @@ xitongcheng.com##.hzj_adv
 xitongcheng.com##.r_adv
 xitonghe.com##.sidebar-wx
 xitongtiandi.net##.btn-dr
-xitongtiandi.net##.speed
+xitongtiandi.net,xzji.com##.speed
 xitongzhijia.net###top_gg
 xitongzhijia.net##.btn-dl_swift
 xitongzhijia.net##.m_swift
@@ -14367,7 +14371,7 @@ zznews.cn##.ad:not([style])
 ||feizl.com/images/smdd/
 ||fengbuy.com/recommend-new.
 ||fengchedaomall.cn^
-||fengcv.cn/script/
+||fengcv.cn/script
 ||fenggejiaju.com^
 ||fenglan.oss-cn-shenzhen.aliyuncs.com^*.gif
 ||fengmishop.cn^
@@ -14441,6 +14445,7 @@ zznews.cn##.ad:not([style])
 ||fnbocll.cn^
 ||fnkjj.com^
 ||fnwll.cn^
+||fo.iphonevip.cn^$third-party
 ||fobshanghai.com/bbsad/
 ||focuscat.com^
 ||focusprolight.com^
@@ -16791,6 +16796,7 @@ zznews.cn##.ad:not([style])
 ||lxbjs.baidu.com^$third-party
 ||lxqcgj.com^
 ||lxting.com^
+||ly2si17.cn^
 ||ly5200.cn^
 ||lyadu.com^
 ||lyaeccn.com^
@@ -18469,6 +18475,7 @@ zznews.cn##.ad:not([style])
 ||showguide.cn/templets/*/qqcenter.js
 ||showguide.cn/templets/*/sg-ad.js
 ||showhaotu.$domain=18board.com|18p2p.com
+||shrtswkj.com^
 ||shsnjj.top^
 ||shspdt.com^$domain=11papapa.com
 ||shtiesen.cn^
@@ -20390,6 +20397,7 @@ zznews.cn##.ad:not([style])
 ||xzbu.com/xueshu/btxm.jpg
 ||xzbu.com/xueshu/zwyc.gif
 ||xzdchl.com^$third-party
+||xzji.com/data/block_js/softShow_
 ||xztms.com^
 ||xzyituo.com^
 ||y.21haodianmt.com^$third-party
@@ -20743,6 +20751,7 @@ zznews.cn##.ad:not([style])
 ||yunlaige.com/configs/article/*gg
 ||yunlaige.com/configs/article/*zx
 ||yunmowu.com^
+||yunnanpulasi.com^
 ||yunpifu.cn^
 ||yunrong360.com^
 ||yunsennet.com^$popup
