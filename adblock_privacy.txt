@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202104110226
+! Version: 202104120239
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 32104
+! Lenth = 32113
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -15,6 +15,7 @@
 ##amp-embed[type="taboola"]
 ##img[src*="counter.yadro.ru"]
 ##img[src^="http://c.bigmir.net/"]
+#%#//scriptlet('set-constant', 'Document.prototype.interestCohort', 'undefined')
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -3977,6 +3978,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /planetstat.
 /platform-analytics-
 /plausible.js
+/player/stats.php?
 /player_counter.ashx?
 /playerlogger.
 /playerstats.gif?
@@ -8285,6 +8287,7 @@ armyrecognition.com##a[href^="http://cqcounter.com/"]
 artmoney.ru##a[href^="http://top.list.ru/"]
 artmoney.ru##a[href^="http://www.one.ru"]
 artmoney.ru##noindex > a
+automesseweb.jp#?##_popIn_ranking:upward(.code_php_in_widget)
 beauty.ua##.footer-counters
 bl-1.com$image
 blogovo.ru##.metrika_sapaclick
@@ -8383,7 +8386,7 @@ mp3.run.az###lsidebar > .mpblok:last-child
 msn.com##.tbla
 msn.com##.trc_related_container
 musicrock24.ru#?#.art-layout-cell > div.art-box:has(> div.art-box-body > div.art-blockheader > h3:contains(Счётчики))
-myfirstcomp.ru##.tm-sidebar-b > div.uk-panel:has(script[src^="https://adcounter"])
+myfirstcomp.ru#?#.tm-sidebar-b > div.uk-panel:has(script[src^="https://adcounter"])
 nadavi.com.ua##img[src^="http://banstat.nadavi.net/"]
 nethunt.com/api/v1/track/email/$image
 newslab.ru##.r-recommend
@@ -11622,6 +11625,7 @@ znak.com##.relap
 ||calculatingtoothbrush.com^$third-party
 ||calculatorcamera.com^$third-party
 ||calculatorstatement.com^$third-party
+||caliente.mx/integration-scripts/tracking.min.js
 ||call-tracking.by^$third-party
 ||call-tracking.co.uk^$third-party
 ||caller.com/metrics/
@@ -14084,7 +14088,9 @@ znak.com##.relap
 ||du8783wkf05yr.cloudfront.net^$third-party
 ||dubox.com/api/analytics
 ||duckdns.org^$third-party,websocket
+||duckduckgo.com/t.js
 ||duckduckgo.com/t/
+||duckduckgo.com/y.js
 ||dugout.co/das2.js
 ||dull.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||dumpster.cam4.com^
@@ -14758,6 +14764,7 @@ znak.com##.relap
 ||estat.com^$third-party
 ||estat.zum.com^
 ||estatcounter.co.uk^$third-party
+||estore.jp/beacon/
 ||estrack.net^$third-party
 ||estream.to/bootstrap.min.js$script
 ||estream.to/player.js
@@ -20562,6 +20569,7 @@ znak.com##.relap
 ||moniteurautomobile.be^$cookie=/_dc_gtm_|_gat_/
 ||monitis.com^$third-party
 ||monitor-targeting-failures.sqrt-5041.de^
+||monitor.channel4.com^
 ||monitor.ebay.com^
 ||monitor.phorm.com^$third-party
 ||monitor.uu.qq.com/analytics/
@@ -23650,6 +23658,7 @@ znak.com##.relap
 ||rt.ru/proxy?
 ||rta.dailymail.co.uk^
 ||rta2.metro.co.uk^
+||rta2.newzit.com^
 ||rtax.criteo.com^$third-party
 ||rtb-seller.com^$third-party
 ||rtb.loopa.net.au^$domain=junkmail.co.za
