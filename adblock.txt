@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202104130251
+! Version: 202104140134
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20959
+! Lenth = 20965
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -744,6 +744,8 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
+##A[href*="/170hth.com/"]
+##A[href*="/hth104.com/"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class][onclick="window.location.href='/api/goapp/'"]
@@ -3684,7 +3686,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||google.sn/translate_$media,third-party,xmlhttprequest
 @@||google.so/translate_$media,third-party,xmlhttprequest
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
-@@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com
+@@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|www.gamer.com.tw
 @@||gooogle.how^$generichide
 @@||gov.cn/scripts/Comm/AdRotator.js
@@ -4347,8 +4349,10 @@ appinn.com###sidebar > .widget_text:first-child
 appinn.com##.ads-m
 appinn.com##a[rel^="sponsored"]
 apple.com.cn##.adv-wrapper
+apple.com.cn#$##ac-globalnav { top: 0 !important; }
+apple.com.cn#$#.ac-gn-blur { top: 0 !important; }
 apple.com.cn#$#html { margin-top: 0 !important; }
-apple.com.cn#$#main[role="main"] { padding-top: 0 !important; }
+apple.com.cn#$#main[role="main"] { padding-top: var(--global-nav-main-height) !important; }
 appledaily.com###ebBannerTopDiv + A[href^="http://bit.ly/"]
 appledaily.com.tw##.adblock_splash
 appledaily.com.tw##.owl-lazy[tcode^="AD:"]
@@ -5399,7 +5403,7 @@ ddooo.com#?#span:-abp-has(>p:-abp-contains(高速))
 ddooo.com#?#ul:-abp-has(>dd:-abp-contains(高速))
 ddrk.me##a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddrk.me##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
-ddrk.me#$#a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"]) { height: 0 !important; wigth: 0 !important; }
+ddrk.me#$#a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"]) { height: 0 !important; width: 0 !important; }
 ddrk.me#@#a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 dealmoon.com,weibo.com##.pic_ad
 demaxiya.com##.tp_box
@@ -18759,6 +18763,7 @@ zznews.cn##.ad:not([style])
 ||t.cn/RkHfjHk|
 ||t.cn^$domain=28kys.com|92kvip.com
 ||t.cnscore.com^
+||t.inping.com^
 ||t.njzrxx.xyz^$third-party
 ||t.yzwr588.com^$third-party
 ||t1.612.com^
@@ -20491,6 +20496,7 @@ zznews.cn##.ad:not([style])
 ||yuxiangrc.com^
 ||yuxiny.com^
 ||yuyanbaojie.cn^
+||yuyanhe.com^
 ||yuyue008.cn^
 ||yvktmda.cn^
 ||ywadf.cn^

@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202104130251
+! Version: 202104140134
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 32126
+! Lenth = 32135
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -2807,6 +2807,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /gtag.min.js
 /gtag/js?
 /gtagTracking/*
+/gtm-*.js$domain=livingtraditionally.com|myhealthgazette.com
 /gtm-listeners.
 /gtm-tracking-events.
 /gtm.js
@@ -4014,6 +4015,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /pp/micro.tag.min.js
 /pphlogger.
 /ppms.js
+/pqt.email/o/*$image
 /pr.php?
 /preparecookies?callback=$domain=~mirapodo.de|~mytoys.de|~yomonda.de
 /presslabs.js$script,~third-party
@@ -7502,6 +7504,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||online-metrix.net/*/tags.js$domain=smartsource.com
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
 @@||online.bcs.ru^*/piwik.bcs.js$script
+@@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||ooyala.com/3rdparty/comscore_$domain=livetvcafe.net
 @@||ooyala.com/3rdparty/comscore_*.swf$domain=bloomberg.com|businessweek.com|greentechmedia.com
 @@||ooyala.com/crossdomain.xml
@@ -7750,7 +7753,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||services.fliqz.com/metrics/*/applications/$domain=leftlanenews.com
 @@||seznam.cz/?spec=*&url=$image,domain=search.seznam.cz
 @@||sfdict.com/app/*/click_tracking.js$domain=thesaurus.com
-@@||sgqcvfjvr.onet.pl^$script,domain=kobieta.onet.pl
+@@||sgqcvfjvr.onet.pl^$script,domain=kobieta.onet.pl|newsweek.pl
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||shopify.com/*assets/pixel.gif$image,domain=metrovac.com
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
@@ -13169,6 +13172,7 @@ znak.com##.relap
 ||d.sourcepoint.capitalfm.com^
 ||d.sudouest.fr/logs^
 ||d.uni-medias.com^
+||d.wi-fi.ru^$third-party
 ||d10gj7yjsfriaj.cloudfront.net^
 ||d10lpsik1i8c69.cloudfront.net^
 ||d10lpsik1i8c69.cloudfront.net^$third-party
@@ -14093,6 +14097,7 @@ znak.com##.relap
 ||du4rq1xqh3i1k.cloudfront.net^
 ||du8783wkf05yr.cloudfront.net^$third-party
 ||dubox.com/api/analytics
+||dubox.com/statistics^
 ||duckdns.org^$third-party,websocket
 ||duckduckgo.com/t.js
 ||duckduckgo.com/t/
@@ -18607,7 +18612,6 @@ znak.com##.relap
 ||livewebstats.dk^$third-party
 ||livinglanguage.com/content/_ui/js/View.Analytics.Controller.min.js
 ||livinglanguage.com/js/View.Analytics.
-||livingtraditionally.com/wp-content/cache/busting/1/gtm-*.js
 ||lizardslaugh.com^$third-party
 ||lk.vectoranalytics.ru^$third-party
 ||lkiqkq.mumzworld.com^
@@ -22292,6 +22296,7 @@ znak.com##.relap
 ||pippio.com^$third-party
 ||piquantpigs.com^$third-party
 ||piquantstove.com^$third-party
+||piratepx.com^$third-party
 ||pistyll.bleacherreport.com^
 ||piti.bplaced.net^
 ||pitomec.ru/top.gif
@@ -27014,6 +27019,7 @@ znak.com##.relap
 ||stat.cncenter.cz^
 ||stat.dbschenker.com^
 ||stat.dealtime.com^
+||stat.download.xunlei.com^
 ||stat.duokanbox.com^
 ||stat.eagleplatform.com^
 ||stat.eagleplatform.com^$third-party
@@ -28355,6 +28361,7 @@ znak.com##.relap
 ||taringa.net/ajax/track-visit.php
 ||tarot.com/stats/
 ||tarttendency.com^$third-party
+||tasclap.jp/static/logger.js
 ||taskanalytics.com^$third-party
 ||taskapi.net^
 ||taskulu.com/mtc/event
@@ -29559,6 +29566,7 @@ znak.com##.relap
 ||tracking.liwest.at^
 ||tracking.lqm.io^$third-party
 ||tracking.m.premier.info.shutterstock.com^
+||tracking.m6r.eu^$third-party
 ||tracking.magnetmail.net^
 ||tracking.mammemagazine.it^$script
 ||tracking.markethero.io^
@@ -31886,6 +31894,7 @@ znak.com##.relap
 ||younewstv.com/js/easyxdm.min.js
 ||youngmarble.com^$third-party
 ||youporn.com^*/tracker.js
+||your-analytics.org^$third-party
 ||your-counter.be^$third-party
 ||youramigo.com^$third-party
 ||yourbittorrent.com/collect.php
