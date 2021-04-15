@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202104140134
+! Version: 202104150102
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20965
+! Lenth = 20971
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -728,6 +728,7 @@
 ##.wp.a_h
 ##.wp_headline + .ad1
 ##.wpcom_ad_wrap
+##.wrap + #btmBox
 ##.wrap.mt10.clearfix > .box.top_box
 ##.wumii-bottom-popup
 ##.wumii-widget-ad
@@ -744,8 +745,6 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
-##A[href*="/170hth.com/"]
-##A[href*="/hth104.com/"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class][onclick="window.location.href='/api/goapp/'"]
@@ -834,6 +833,7 @@
 ##a[href*=".yyk2.com/"]
 ##a[href*=".zhongguohao123.com/"]
 ##a[href*="/111.231.78.194/"]
+##a[href*="/170hth.com/"]
 ##a[href*="/602034.com"]
 ##a[href*="/?INTR="]
 ##a[href*="/?Intr="]
@@ -842,6 +842,7 @@
 ##a[href*="/ayx600.com/"]
 ##a[href*="/cslpldyc.me"]
 ##a[href*="/du505.com"]
+##a[href*="/hth104.com/"]
 ##a[href*="/hth567.cn"]
 ##a[href*="/md0c.oss-cn-beijing.aliyuncs.com/"]
 ##a[href*="/mda1.site/"]
@@ -1255,6 +1256,7 @@ $websocket,domain=5nj.com|cechi8.com
 /500ad/*
 /52meiju_7
 /58pic/index.php?m=adManageSystem&
+/5ixcmbwj/js/ad.js
 /640_120_javhd.jpg
 /69tang6_*/html/abc/image/*
 /728-90.
@@ -2404,7 +2406,7 @@ $websocket,domain=5nj.com|cechi8.com
 163disk.com##.gg_990_90
 163disk.com##.mads
 16668.biz,16668.cc,16668.com,16668.info,16668.net,16668.org,16668tu.com##div[id^="Div"]
-16668.biz,16668.cc,16668.com,16668.info,16668.net,16668.org,16668tu.com,alibuybuy.com,chewen.com,faloo.com,newhua.com,ph66.com,tv.cntv.cn##div[class^="ad_"]
+16668.biz,16668.cc,16668.com,16668.info,16668.net,16668.org,16668tu.com,alibuybuy.com,chewen.com,faloo.com,newhua.com,ph66.com,tv.cntv.cn,weishangshijie.cn##div[class^="ad_"]
 167k.com##.icon_ad
 1688.com###cpm-ad
 1688.com###cpm-ad-2
@@ -9357,13 +9359,12 @@ weibo.com#?#.card-content > ul > li:-abp-has(> p > .icon-txt-recommend)
 weibo.com#?#.card-wrap:-abp-has(> .card-film > .card-head > .title:-abp-contains(广告))
 weibo.com#?#tr:-abp-has(> .td-03 > .icon-txt-recommend)
 weike87.com##.copy
-weishangshijie.com###wad_left
-weishangshijie.com###wad_right
-weishangshijie.com##.ads228_1_r
-weishangshijie.com##.head_0905
-weishangshijie.com##.news_ads1200
-weishangshijie.com##.news_ads_1028
-weishangshijie.com##.nleft_ads
+weishangshijie.cn###wad_left
+weishangshijie.cn###wad_right
+weishangshijie.cn##.head_0905
+weishangshijie.cn##.head_imgwl
+weishangshijie.cn##.w_bzb_1
+weishangshijie.cn##div[class^="news_a"]
 weiyun.com#@#.page-ad
 weiyun.com#@#.page-share
 weiyun001.com##.agency-list
@@ -11947,6 +11948,7 @@ zznews.cn##.ad:not([style])
 ||aimto.cn^
 ||ainunu.*/vad.js
 ||ainuody.com/wp-content/uploads/2017/07/%E5%85
+||aipp99.com/haose/
 ||airav.cc/AirADPic/
 ||airav.cc/Ucenter/*_Ad
 ||airav.cc/iframe/
@@ -14344,6 +14346,7 @@ zznews.cn##.ad:not([style])
 ||flash.mycar168.com/data/js/
 ||flashwing.net^$third-party
 ||flbmfc.com^
+||flctbg.com^
 ||flighty.cn/images/
 ||fll007.com^
 ||flowcodeapp.com^
@@ -18465,6 +18468,7 @@ zznews.cn##.ad:not([style])
 ||soduso.com/js/4
 ||soduso.com/js/sat.js
 ||soduso.com/js/so.js
+||sofseo.cn^$third-party
 ||soft.mumayi.net/images/download.gif
 ||soft.mumayi.net/js/
 ||soft4fun.net/wp-content/themes/arthemia/js/common_footer_min.js
@@ -19976,6 +19980,7 @@ zznews.cn##.ad:not([style])
 ||xl720.com/tmp/
 ||xlcun.com^$third-party
 ||xlgqy.com^
+||xlhwzx.cn^
 ||xlingdi.com^$third-party
 ||xlpu.cc/adv/
 ||xls.go.sohu.com^
@@ -20643,6 +20648,7 @@ zznews.cn##.ad:not([style])
 ||zgktxx.com^
 ||zglww.net/jsnew/pfkf.js
 ||zgncpjyw.cn^
+||zgnieka.cn^
 ||zgrsq.cn^
 ||zgsxhx.com^
 ||zgtcar.com^
