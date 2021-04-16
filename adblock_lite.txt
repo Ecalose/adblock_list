@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202104150102
+! Version: 202104160208
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18932
+! Lenth = 18931
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1291,7 +1291,6 @@
 @@||58cdn.com.cn/tuiguang/center/
 @@||58huanbao.com/skin/defaultcs2660/images/ad
 @@||590103.idv.tw/advertisement.js
-@@||5bisheng.com/pagead2.
 @@||5qidgde.com^$generichide
 @@||5tps.com/playm/flw.
 @@||5w8s.com/myads/img/otherwp.gif
@@ -2050,7 +2049,6 @@
 @@||wl.jd.com/wl.js
 @@||worldssl.net/wp-content/themes/mts_ad_sense/js/ads.js
 @@||wowsai.com/data/files/ad/
-@@||wubisheng.net^*.js
 @@||wuyou.com.cn/Js/ad.js
 @@||www.google.*/adsense/$~third-party,domain=google.cn
 @@||wx.qq.com/c/=/mpres/*/video_ad_
@@ -7211,7 +7209,6 @@ vx666.com##.async[href^="http"]
 w3cplus.com###home-page-widgets
 w3cplus.com##.region-sidebar-second > :nth-last-child(n+3)
 w3cschool.cn##.abox-item
-w3cschool.cn##.content-abox
 w3cschool.cn##.widget-main
 w3school.com.cn###foogz
 w3school.com.cn###sp_sidebar
@@ -7248,7 +7245,6 @@ wasu.cn##div[class^="play_ads"]
 wbiao.cn###popupImgCorner
 wbiao.cn##.wb-panel
 wbzol.com##.sg
-wcjbb.com###frame2TVWk2
 wcjbb.com###frame37boCx
 wcjbb.com###frameo834m9
 wdzj.com###footbanner
@@ -7281,8 +7277,6 @@ webkaka.com##a[href*="/click/a_d_"]
 webkaka.com##td[id$="_SPONSOR"]
 webkaka.com##td[id*="Mid"]
 webkaka.com#?#:-abp-has(>[href*="100/"])
-wed114.cn###leftdiv
-wed114.cn###rightdiv
 wed114.cn##.adtwo
 weebly.com##a[href^="https://www.ebay.com"]
 weibo.com###Pl_Core_P7MultiPicPlay__7
@@ -7395,8 +7389,7 @@ wishdown.com##img[href*=".41gw.com/"]
 witcp.com##.global_ifmobile_mask
 wjx.cn###ctl01_ContentPlaceHolder1_divProMsg
 wmsj.pw,wmav.pw##[class^="asb-"]
-wmzhe.com##.a_dwrap
-wmzhe.com##.ads_wmzhe_software_bannerRight
+wmzhe.com##.aibyte_ad
 wmzhe.com##.downloader
 wmzhe.com##a[href*=".jd.com/"]
 wn789.com##.sidebar > .widget:not(:first-child):not(.widget_ui_posts)
@@ -10777,6 +10770,7 @@ zznews.cn##.ad:not([style])
 ||bqiapp.com/api/config/ad?
 ||braincf.com^
 ||brand.sogou.com/micro?yyid=
+||bridline.cn^
 ||brysj.vip^
 ||bs.baidu.com/app-ads%
 ||bs777.net^$third-party
@@ -13189,6 +13183,7 @@ zznews.cn##.ad:not([style])
 ||huician.cn^
 ||huigoushop.com^
 ||huigun.top^
+||huiji-fs.oss-cn-qingdao.aliyuncs.com/huijiad/
 ||huijiamei.cn^
 ||huimee.com^$third-party
 ||huimee.net^
@@ -15321,6 +15316,7 @@ zznews.cn##.ad:not([style])
 ||oodcd.cn/pan/config/history.
 ||ooo.0o0.ooo/2017/11/03/59fc6b3c5b723.jpg
 ||ooqiu.com/ad_js/
+||opapxq.com^
 ||open8.cn^$third-party
 ||opengam.com^
 ||openxt.cn^
@@ -15946,6 +15942,7 @@ zznews.cn##.ad:not([style])
 ||reliancevalve.com^
 ||rencai56.com^
 ||renfas.com^
+||renrentoutiao.cn^
 ||renshengyiyi.com^
 ||rentiyishu.org/*.js
 ||repian.com/a/
@@ -16385,6 +16382,7 @@ zznews.cn##.ad:not([style])
 ||sjy-stone.com.cn^
 ||sjzdaily.com.cn/sjznewsad/
 ||skads.gxsky.com^$script
+||skeimg.com/i/*.gif
 ||skeyword.browser.qq.com/getHotRank
 ||skywinners.com.cn^
 ||slit.cn/slimages/
@@ -17464,6 +17462,7 @@ zznews.cn##.ad:not([style])
 ||wbiao.co/src2/js/expand/fudong/
 ||wbiev.com^
 ||wbzol.com/swf/352X76.swf
+||wcjbb.com/data/attachment/freeaddon_banner/
 ||wcnmd.top^
 ||wdfhl.weidianyuedu.com^
 ||wdjm.com.cn/index.php?m=poster&
