@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202104170135
+! Version: 202104180243
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 33822
+! Lenth = 33831
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -3479,10 +3479,12 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /metrics/log-
 /metrics/metrics$domain=~spatineo.com
 /metrics/onload
+/metrics/ping?
 /metrics/rum
 /metrics/stat.
 /metrics/statsd/*
 /metrics/survey/*
+/metrics/tpi?
 /metrics/track/*
 /metrics/v1/frontend/*
 /metrics/vanity/?
@@ -6476,6 +6478,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||deals.nextag.com^*/ClickTracker.jsp
 @@||debenhams.com/foresee/foresee-trigger.js
 @@||decision.taplytics.com^$domain=royalbank.com
+@@||delet.jhi.pl/bower_components/angular-google-analytics/$script,~third-party
 @@||demdex.net/dest4.html?d_nsid=$subdocument,domain=multipack.com.mx
 @@||deprisa.com/scripts/tracking/tracking.js
 @@||derwesten.de/resources/*/img/transparent_pixel.png$image,~third-party
@@ -13839,6 +13842,7 @@ znak.com##.relap
 ||datadsk.com^$third-party
 ||datafeedfile.com^$third-party
 ||datafront.co^$third-party
+||datagroup-reporting.shopeemobile.com^
 ||datam.com^$third-party
 ||datamaster.com.cn^$third-party
 ||datametrical.com^$redirect=nooptext
@@ -16089,6 +16093,7 @@ znak.com##.relap
 ||frog.wix.com/pre?
 ||frog.wix.com^$ping,xmlhttprequest
 ||frog9alea.com^
+||froglytics.eventfrog.ch^
 ||front.optimonk.com^
 ||front.sspicy.ru/collect?$third-party
 ||frontdoor.com/_track?
@@ -16868,6 +16873,7 @@ znak.com##.relap
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=theverge.com,important
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=viu.com,important
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=whatcar.com,important
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=x-kom.pl
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=yargici.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=zeelandnet.nl
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,important,domain=displate.com
@@ -17200,6 +17206,7 @@ znak.com##.relap
 ||hexus.net/trk/$image
 ||heyhelga.net/analytics.js
 ||heyhelga.net^$third-party
+||heylink.com^$third-party
 ||heyloyalty.com^$third-party
 ||heymatic.com^$third-party
 ||heystaks.com^$third-party
@@ -27753,6 +27760,7 @@ znak.com##.relap
 ||sp.desmoinesregister.com^
 ||sp.detroitnews.com^
 ||sp.dnj.com^
+||sp.dpgmedia.net^
 ||sp.dpgmedia.net^$third-party
 ||sp.fanatical.com/i?cd_c=*&aid=
 ||sp.fanatical.com^
@@ -30748,6 +30756,7 @@ znak.com##.relap
 ||track.recreativ.ru^
 ||track.recreativ.ru^$third-party
 ||track.rediff.com^$script
+||track.rundschau-online.de^
 ||track.saygames.io^
 ||track.searchignite.com^
 ||track.searchiq.co/api/tr?callback=*&event=
