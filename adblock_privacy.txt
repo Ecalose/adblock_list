@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202104180243
+! Version: 202104190209
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 33831
+! Lenth = 33836
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -3237,6 +3237,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /librato-collector.
 /libs/tracker.js
 /liferay-analytics-
+/lightspeed_tracker.
 /lingabot.
 /link-tracker-
 /link.coindesk.com/img/*
@@ -4440,7 +4441,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /setbucket?signature=
 /setcooki.
 /setcookie.php?
-/setcookie?
 /setcookieADV.js
 /sfCounter/*
 /share/analytics?
@@ -4779,6 +4779,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /surphace_track.
 /surveyoverlay/*
 /svc/comscore/*
+/sw/analytics.js
 /swa_t.gif?
 /swatag.js
 /swfaddress.js?tracker=
@@ -8482,6 +8483,8 @@ track.customer.io/e/o$image
 track.mixmax.com/api$image
 trackedlink.net$image
 tracking.cirrusinsight.com$image
+tweakers.net#%#//scriptlet('abort-on-property-read', 'WebTrekkClickMap')
+tweakers.net#%#//scriptlet('abort-on-property-read', 'snowplow')
 unilad.co.uk###sidebar > #text-64 > .block-title
 uniongang.net##a[href^="http://whos.amung.us/stats/"]
 uniongang.org#?#td[align="center"][height="27"]:contains(Счётчики)
@@ -16819,6 +16822,7 @@ znak.com##.relap
 ||google.*/ads/ga-audiences?v=
 ||google.*/api/sclk?
 ||google.*/gwt/x/ts?
+||google.*/imgevent?
 ||google.*/log204?
 ||google.*/logxhraction?
 ||google.*/ping?
@@ -24686,6 +24690,7 @@ znak.com##.relap
 ||rhybey.gap.co.jp^
 ||rhymezebra.com^$third-party
 ||rhythmmoney.com^$third-party
+||ria.ru/ping?
 ||ria.ru/polling?ticket=
 ||riastats.com^$third-party
 ||rich-agent.s3.amazonaws.com^

@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202104180243
+! Version: 202104190209
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20915
+! Lenth = 20932
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -3093,6 +3093,9 @@ $websocket,domain=5nj.com|cechi8.com
 99a67.com,99re.com##.dmcenter
 99a67.com,99re.com##.spots
 99danji.com,eeyy.com##.top-bg
+99kubo.tv##DIV[style="width:970px; height:250px;"]
+99kubo.tv##TABLE[width="970"][height="260"]
+99kubo.tv#?#div[style*="width"]:-abp-has(> div[style] > img[src="/static/img/adsfree.png"])
 99meijutv.com##.follow-qrcode
 99tianji.com###banner_gg
 99tianji.com##.kf1
@@ -4697,6 +4700,7 @@ bestopview.com###pubtextnone
 bestopview.com##.Adv_c
 bfmusic.com.tw,workercn.cn#@#.ad_content
 bh.sb##.large
+bibgame.com##.topicContent > FONT[color="red"]:last-child
 big-cup.tv,g-cup.tv##.col-md-12.text-center[style="margin-top: 3px;"]
 big5.china.com.cn##.Advertising > a
 big5.china.com.cn##a[href^="http://big5.china.com.cn/gate/big5/"]:not([href*="/science."])
@@ -7528,6 +7532,7 @@ makepolo.com##.cpc_tgs
 makepolo.com##a[href*=".rong360.com"]
 makepolo.com##div[class*="_ad"]
 makepolo.com,mycar168.com,mysteel.com,pchome.net,qz828.com,rjfcw.cn##div[id^="ad"]
+malimali.cc##A[href*=".taobao.com"]
 mamecn.com##.njjGsxzLeft > dl > .cont1
 mamecn.com##.njjGsxzRight
 manhua.weibo.com###p-nav-fix + .p-area.w980
@@ -9378,8 +9383,10 @@ wenmi114.com###xiezuo
 wenxuecity.com###marquee
 wenxuecity.com###morehealth-banner-1
 wenxuecity.com##.otherposts
+wenxuecity.com##.otherposts > ul > li > a[target="_blank"]
 wenxuecity.com##a[href^="http://bbs.wenxuecity.com/bbs/advpost/"]
 wenxuecity.com##a[href^="http://oascentral.wenxuecity.com/"]
+wenxuecity.com#@#.otherposts
 whcykj.cn###BDBridgeInviteWrap
 whcykj.cn###InviteContainerl
 whcykj.cn##.swt_bottom
@@ -11517,6 +11524,7 @@ zznews.cn##.ad:not([style])
 ||99danji.com/otherhtml/
 ||99down.com/index.php?m=poster&
 ||99dqw.com^
+||99kubo.tv/static/img/adsfree.png
 ||99l.co^$third-party
 ||99lolo.com^
 ||99mst.com/upfiles/adv/main02.jpg
@@ -11819,6 +11827,7 @@ zznews.cn##.ad:not([style])
 ||adpush.cn^$third-party
 ||adreal.cn^
 ||adreep.cn^$third-party
+||adrian.net.cn^
 ||adrs.sdo.com^
 ||ads-union.jd.com^
 ||ads.sohu.com^
@@ -12440,6 +12449,7 @@ zznews.cn##.ad:not([style])
 ||balmoralmkt.com^$third-party
 ||bang5mai.com^$third-party
 ||bangbang521.com^
+||bangdu2.com^
 ||banjuanmao.com^
 ||banma.com/get_ad/
 ||banma.com/js/adi.js
@@ -13141,6 +13151,7 @@ zznews.cn##.ad:not([style])
 ||chinesetoday.cn/2017/ad/*.gif
 ||chiphell.com/activity/
 ||chiuhua.com.cn^
+||chkwwg.cn^
 ||chnci.com^$third-party
 ||chnmoney.com/dfile/
 ||chongdiantou.com/wp-content/uploads/2019/02/pzb.jpg
@@ -14759,6 +14770,7 @@ zznews.cn##.ad:not([style])
 ||gwbangshou.com^
 ||gwbnsh.net.cn/hd/unicom/ad.html
 ||gwylm.com^
+||gxdianhua.com^
 ||gxejgs.com^
 ||gxfc2021.top^
 ||gxgzyny.com^
@@ -15820,6 +15832,7 @@ zznews.cn##.ad:not([style])
 ||jisuxz.com/180226/b180226.js
 ||jisuxz.com/180226/downshare
 ||jitapu.com/inc/adv
+||jituangongsi.cn^
 ||jiudiandyw.com^
 ||jiudianhudong.com^$third-party
 ||jiuhui878.com^
@@ -16366,6 +16379,7 @@ zznews.cn##.ad:not([style])
 ||letvimg.com^*/108x70$object
 ||lewxs.com/file/script/
 ||lewxs.com/m-
+||lexph.com^
 ||lezai.com^$third-party
 ||lezengxin.com^
 ||lezhuan.com/js/spread.js
@@ -17637,6 +17651,7 @@ zznews.cn##.ad:not([style])
 ||qdaily.com/mount_details/pc/
 ||qdchunyu.com^
 ||qdhhdsw.cn^
+||qdilmak.cn^
 ||qdjimo.com/html/js/
 ||qdkzjdsb.cn^
 ||qdmeifeng.cn^
@@ -19103,6 +19118,7 @@ zznews.cn##.ad:not([style])
 ||typin.cn/movie/tuijian
 ||typin.cn/static/images/elm.png
 ||tyrghj.cn^
+||tyue.me^
 ||tyyjzs.cn^
 ||tz-dsp.com^$third-party
 ||tzfdc.com.cn/userfiles/flash/
@@ -19314,6 +19330,7 @@ zznews.cn##.ad:not([style])
 ||videospeedy.com/myimg/
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
+||vinuxhome.com^
 ||vip.luanren.com/data/*.gif
 ||vip.ludu319.com^$third-party
 ||vip.min1319.com^$third-party
