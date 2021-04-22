@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202104210243
+! Version: 202104220202
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18907
+! Lenth = 18917
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1057,6 +1057,7 @@
 99kubo.tv##div[style="width:970px; height:250px;"]
 99kubo.tv##table[width="970"][height="260"]
 99kubo.tv#?#div[style*="width"]:-abp-has(> div[style] > img[src="/static/img/adsfree.png"])
+99kubo.tv,manhuafen.com##.ad
 99meijutv.com##.follow-qrcode
 99tianji.com###banner_gg
 99tianji.com##.kf1
@@ -5501,7 +5502,6 @@ makepolo.com,mycar168.com,mysteel.com,pchome.net,qz828.com,rjfcw.cn##div[id^="ad
 mamecn.com##.njjGsxzLeft > dl > .cont1
 mamecn.com##.njjGsxzRight
 manhua.weibo.com###p-nav-fix + .p-area.w980
-manhuafen.com##.ad
 manmanw.net##.tlads
 maolihui.com##.con-ad
 maomaomom.com###execphp-15
@@ -9138,6 +9138,7 @@ zznews.cn##.ad:not([style])
 ||61.235.249.195^*/Default.aspx?id=
 ||614514.com^
 ||62422.cn/ggimg/
+||627sf.cn^
 ||62mao.com/52
 ||62wm.com^
 ||63007.com:82/haodxi.js
@@ -9835,6 +9836,7 @@ zznews.cn##.ad:not([style])
 ||afpcreative.wasu.cn^
 ||afzhan.com/JavaScript/ad_Couplet.js
 ||ag1.zuszw.com^
+||agilehw.online^
 ||agoda.com/Dynamic/index/
 ||agogo.tv/images//uploads/ad/
 ||agpligj.cn^
@@ -12997,6 +12999,7 @@ zznews.cn##.ad:not([style])
 ||highter.top^
 ||hihifenxiang.com^
 ||hiido.com^$third-party
+||hikin.online^
 ||hinet.net/product/promotion/$popup
 ||hinet.net/radio/getAdcode.do
 ||hisnote.cc^$third-party
@@ -13441,6 +13444,7 @@ zznews.cn##.ad:not([style])
 ||imgbus.com^$domain=88files.net
 ||imgchili.net/media/image*.gif
 ||imgchili.net/media/top.gif
+||imgdb.cn/item/6059cb598322e6675c4ddcdc.gif
 ||imghost.top/kita/
 ||imgjiajiao.cn/jiajiao/js/lxonline.js
 ||imglnkd.com^$domain=xiuren.org
@@ -13461,6 +13465,7 @@ zznews.cn##.ad:not([style])
 ||imgur.com^*.gif$domain=18p2p.com
 ||imgxr.com^$domain=xiuren.org
 ||imiek.com^
+||imim.me^
 ||immedlinkum.info^
 ||imneinei.com^
 ||imooc.com/open/courselistrandjs
@@ -13810,6 +13815,7 @@ zznews.cn##.ad:not([style])
 ||jiujhzp.com^
 ||jiuku.cc^
 ||jiumishow.com^
+||jiuqihb.cn^
 ||jiuwanzi.com^
 ||jiuzhilan.com^$third-party
 ||jixiby.cn^
@@ -13980,6 +13986,7 @@ zznews.cn##.ad:not([style])
 ||just9229.cn^
 ||jutou5.com^
 ||juuhe.com^
+||juvbzle.cn^
 ||juweixin.com/static/spk
 ||juxia.com/jxtp/indexbg.jpg
 ||juxiangyou.com^$third-party
@@ -14139,6 +14146,7 @@ zznews.cn##.ad:not([style])
 ||kingpolo.com.cn^
 ||kingsnug.cn/Uploads/vod/2019-05-25/5ce964f0c66e0.jpg
 ||kingwam.com^
+||kinlivme.cn^
 ||kitchenfurniture.cc^
 ||kiwi8.top/media/plugins/jquery_confirm/
 ||kiwihk.net^$third-party
@@ -14295,6 +14303,7 @@ zznews.cn##.ad:not([style])
 ||laogu.com/cms/images/ad
 ||laojiayoufang.com^
 ||laolinow.com^
+||laoliulaoliu.com^
 ||laomaoxs.com/static/image/qrcode.png
 ||laosiji.com/static/js/lib/od_statistics.js
 ||laowang81.com/getfuolist
@@ -17771,6 +17780,7 @@ zznews.cn##.ad:not([style])
 ||xfya3.cn^
 ||xghylt.com/api.php?mod=ad&adid=
 ||xgo.com.cn/pv.js
+||xgxq518.com^
 ||xhbqczl.com^
 ||xhct66.com^
 ||xhd.cn/topic/leyu-piaofu/
