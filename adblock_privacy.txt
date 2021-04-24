@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202104230236
+! Version: 202104240204
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 34911
+! Lenth = 34920
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -106,6 +106,7 @@ $cookie=_opt_expid
 $cookie=_opt_utmc
 $cookie=_parsely_session
 $cookie=_parsely_visitor
+$cookie=_pubcid
 $cookie=_tb_sess_r
 $cookie=_tb_t_ppg
 $cookie=_tmae
@@ -126,10 +127,16 @@ $cookie=adcloud
 $cookie=ajs_anonymous_id
 $cookie=anj
 $cookie=audit
+$cookie=bf_lead
+$cookie=bf_visit
 $cookie=cX_G
 $cookie=cX_LSS
 $cookie=cX_P
 $cookie=cX_S
+$cookie=clRequestId
+$cookie=clVisitorId
+$cookie=cto_bidid
+$cookie=cto_bundle
 $cookie=demdex
 $cookie=dextp
 $cookie=disqus_unique
@@ -156,7 +163,8 @@ $cookie=lms_analytics
 $cookie=obuid
 $cookie=optimizelyEndUserId
 $cookie=outbrain_cid_fetch
-$cookie=rbzid
+$cookie=pbjs-unifiedid
+$cookie=personalization_id
 $cookie=rbzsessionid
 $cookie=s_cc
 $cookie=s_ecid
@@ -192,7 +200,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 $subdocument,third-party,domain=estream.to
 $third-party,xmlhttprequest,domain=alltube.pl|alltube.tv
 $third-party,xmlhttprequest,domain=opensubtitles.org
-$websocket,domain=123moviesgo.nl|123movieshub.asia|123movieshub.cx|123telugu.com|7tors.com|ajplugins.com|akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.net|bigspeeds.com|biter.tv|bitvid.sx|bmovie123.me|bmoviego.me|bmovies123.me|btstors.com|bypassed.ws|byter.tv|catrumahminimalis.me|centrum-dramy.pl|cinemafacil.com|clipwatching.com|cmovieshd.nl|coinfaucet.eu|coinhub.win|coinminingonline.com|crictime.com|crictime.is|dekoder.ws|deltabit.co|descargas2020.com|djs.sk|dragonballzpolo.blogspot.com|drama-cool.me|estream.to|estream.xyz|extratorrent.cd|fbmovies.org|fileone.tv|filmstreamvk.site|flashx.cc|flashx.co|flashx.sx|flashx.to|flashx.tv|flashx.ws|fmoviesgo.me|gomovie123.me|gomovies123.me|hdvid.tv|hdyayinmac1.com|hentai-online.pl|hqq.tv|hqq.watch|ianimes.co|idope.tv|ifrp.xyz|jkanime.net|kinohabr.net|kinokongo.cc|kinokrad.co|kinoprofi.org|kinosha.cc|kinostuff.com|lafmacun.net|leitor.net|leon08.tk|leon12.tk|leon16.tk|lewd.ninja|logovo.net|love-drama.pl|mladipodnikatelia.sk|monero-miner.com|movie4k.is|mp3free.pw|myeffect.net|netiap.com|netu.tv|nowvideo.sx|onlinevideoconverter.com|onvid.club|onvid.fun|onvid.online|onvid.pw|onvid.xyz|pebx.pl|potomy.ru|povw1deo.com|powvideo.cc|powvideo.net|protect-iframe.com|proxyportal.eu|reactor.cc|replaytvstreaming.com|seventorrents.cc|severita-service.ru|sherlockonline.ru|shortbitsfree.net|shrink-service.it|skyback.ru|skytorrents.co|skytorrents.me|sleeptimer.org|sorteosrd.com|stream247.me|streambeam.io|streamplay.me|streamplay.to|szukajka.tv|tainies.online|theappguruz.com|thepiratebay.org|tomadivx.tv|unblockall.org|unblocked.gdn|vidoza.net|vidtodo.com|vidtodo.me|vidtodo.pro|vidup.io|vidup.tv|vidzi.tv|void.cat|wallpoper.com|watchfreemovies.tv|wearesaudis.net|wwtors.com|xmovies8.nl|ya3ale.com|yazilir.com|zenexplayer.com|zona.plus
+$websocket,domain=123moviesgo.nl|123movieshub.asia|123movieshub.cx|123telugu.com|7tors.com|ajplugins.com|akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.net|bigspeeds.com|biter.tv|bitvid.sx|bmovie123.me|bmoviego.me|bmovies123.me|btstors.com|bypassed.ws|byter.tv|catrumahminimalis.me|centrum-dramy.pl|cinemafacil.com|clipwatching.com|cmovieshd.nl|coinfaucet.eu|coinhub.win|coinminingonline.com|crictime.com|crictime.is|dekoder.ws|deltabit.co|descargas2020.com|djs.sk|dragonballzpolo.blogspot.com|drama-cool.me|estream.to|estream.xyz|extratorrent.cd|fbmovies.org|fileone.tv|filmstreamvk.site|flashx.cc|flashx.co|flashx.sx|flashx.to|flashx.tv|flashx.ws|fmoviesgo.me|gomovie123.me|gomovies123.me|hdvid.tv|hdyayinmac1.com|hentai-online.pl|hqq.tv|hqq.watch|ianimes.co|idope.tv|ifrp.xyz|jkanime.net|kinohabr.net|kinokongo.cc|kinokrad.co|kinoprofi.org|kinosha.cc|kinostuff.com|lafmacun.net|leitor.net|leon08.tk|leon12.tk|leon16.tk|lewd.ninja|logovo.net|love-drama.pl|mladipodnikatelia.sk|monero-miner.com|movie4k.is|mp3free.pw|myeffect.net|netiap.com|netu.tv|nowvideo.sx|onlinevideoconverter.com|onvid.club|onvid.fun|onvid.online|onvid.pw|onvid.xyz|pebx.pl|potomy.ru|povw1deo.com|powvideo.cc|powvideo.net|protect-iframe.com|proxyportal.eu|reactor.cc|replaytvstreaming.com|seventorrents.cc|sherlockonline.ru|shortbitsfree.net|shrink-service.it|skyback.ru|skytorrents.co|skytorrents.me|sleeptimer.org|sorteosrd.com|stream247.me|streambeam.io|streamplay.me|streamplay.to|szukajka.tv|tainies.online|theappguruz.com|thepiratebay.org|tomadivx.tv|unblockall.org|unblocked.gdn|vidoza.net|vidtodo.com|vidtodo.me|vidtodo.pro|vidup.io|vidup.tv|vidzi.tv|void.cat|wallpoper.com|watchfreemovies.tv|wearesaudis.net|wwtors.com|xmovies8.nl|ya3ale.com|yazilir.com|zenexplayer.com|zona.plus
 $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|flashx.cc|freecontent.stream|leon08.tk|leon12.tk|leon16.tk|myeffect.net|nowvideo.sx|onlinevideoconverter.com|povw1deo.com|powvideo.cc|powvideo.net|sleeptimer.org|sorteosrd.com|streambeam.io|szukajka.tv|tainies.online
 &EventType=Impression&
 &action=js_stats&
@@ -5795,6 +5803,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /wp-content/cache/busting/google-tracking/*
 /wp-content/plugins/asmb-tracking/*
 /wp-content/plugins/google-analytics-for-wordpress/*$domain=graphicdesignresources.net|ebonyo.com|paesenews.it
+/wp-content/plugins/google-analytics-premium/*
 /wp-content/plugins/pageviews/pageviews.js
 /wp-content/plugins/wp-google-analytics-events/*
 /wp-content/themes/vip/pmc-plugins/pmc-global-functions/js/geoPosition.js
@@ -6662,7 +6671,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||easyship.com/api/v1/track/$xmlhttprequest,domain=trackmyshipment.co
 @@||eatsmarter.de^*/webtrekk.js
 @@||eatstreet.com/api/v2/tracking/$~third-party
-@@||ebay-kleinanzeigen.de^$cookie=rbzid
 @@||ebayrtm.com/rtm?$script,domain=annonces.ebay.fr|ebay.it
 @@||ec.atdmt.com/b/$domain=starwoodhotels.com
 @@||ecestaticos.com/build/js/common/statistics/engines/deepbieventadapter.$domain=elconfidencial.com
@@ -7167,6 +7175,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=shieldsgazette.com
 @@||googletagmanager.com/gtm.js$domain=shop.kyivstar.ua
 @@||googletagmanager.com/gtm.js$domain=shop.mango.com
+@@||googletagmanager.com/gtm.js$domain=sk.club.iqos.com
 @@||googletagmanager.com/gtm.js$domain=skoda-auto.pl
 @@||googletagmanager.com/gtm.js$domain=sloggi.com
 @@||googletagmanager.com/gtm.js$domain=society6.com
@@ -7830,7 +7839,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||rtl.nl/system/s4m/xldata/get_comscore.js?
 @@||rtoaster.jp^$domain=3ple.jp
 @@||rtoaster.jp^$domain=attenir.co.jp
-@@||rtoaster.jp^$script,domain=animate-onlineshop.jp|lexus.jp|peachjohn.co.jp|rtoaster.com|rurubu.jp|shop.hikaritv.net|melonbooks.co.jp
+@@||rtoaster.jp^$script,domain=animate-onlineshop.jp|brainpad.co.jp|lexus.jp|peachjohn.co.jp|rurubu.jp|shop.hikaritv.net|melonbooks.co.jp
 @@||rtoaster.jp^$script,domain=melonbooks.co.jp
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||rules.atgsvcs.com/EERules/view/$domain=lenovo.com
@@ -7923,7 +7932,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||services.fliqz.com/metrics/*/applications/$domain=leftlanenews.com
 @@||seznam.cz/?spec=*&url=$image,domain=search.seznam.cz
 @@||sfdict.com/app/*/click_tracking.js$domain=thesaurus.com
-@@||sgqcvfjvr.onet.pl^$script,domain=kobieta.onet.pl|newsweek.pl
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||shopify.com/*assets/pixel.gif$image,domain=metrovac.com
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
@@ -11310,6 +11318,7 @@ znak.com##.relap
 ||balloonbit.com^$third-party
 ||balloontexture.com^$third-party
 ||ballymoregroup.actonservice.com^
+||baltimorefishbowl.com/detroitchicago/cmb.js
 ||bam-x.com^$third-party
 ||bamgrid.com/dust
 ||bamgrid.com/telemetry
@@ -13369,7 +13378,6 @@ znak.com##.relap
 ||conversions.genieventures.co.uk^
 ||convertcart.com^$third-party
 ||convertexperiments.com^$third-party
-||convertflow.co^*/events/
 ||convertflow.co^*/visitors/
 ||convertglobal.com^$third-party
 ||convertkit.com^*/visit
@@ -17280,6 +17288,7 @@ znak.com##.relap
 ||googletagmanager.com/gtag/js$script,other,redirect=googletagmanager-gtm,domain=guardaserie.*
 ||googletagmanager.com/gtag/js$script,other,redirect=googletagmanager-gtm,domain=playphrase.me
 ||googletagmanager.com/gtag/js?id=$script,other,redirect=noopjs,domain=view.epageview.com,important
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=asicstr.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=avast.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=beymen.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=chip.com.tr
@@ -18289,7 +18298,7 @@ znak.com##.relap
 ||indianpornvideotube.com/incnt
 ||indiatimes.com/personalisation/logdata/
 ||indiatimes.com/pixel?
-||indiatimes.com^$cookie=/deviceid|lgc_deviceid|_pubcid|ak_bmsc/
+||indiatimes.com^$cookie=/deviceid|lgc_deviceid|ak_bmsc/
 ||indiatimes.com^$cookie=/pfuuid|fpid/
 ||indiatimes.com^$cookie=deviceid
 ||indicative.com^$third-party
@@ -19937,6 +19946,7 @@ znak.com##.relap
 ||log.etoday.co.kr^
 ||log.f-tra.com^
 ||log.flight.qunar.com^
+||log.g-enews.com^
 ||log.go.com^
 ||log.go2s.co^
 ||log.gs3.goo.ne.jp^
@@ -26637,7 +26647,6 @@ znak.com##.relap
 ||sgmnt.ticketswap.com^
 ||sgnxcn.omni7.jp^
 ||sgphctileh-a.akamaihd.net^
-||sgqcvfjvr.onet.pl^
 ||sgw-analytics.panasonic.com^
 ||sgwqoz.toddsnyder.com^
 ||sh.st/bundles/smeweb/img/tracking-
