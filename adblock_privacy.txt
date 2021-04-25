@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202104240204
+! Version: 202104250214
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 34920
+! Lenth = 34925
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -664,6 +664,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /?mailoptin-ajax=track_optin_impression
 /?mob.ct=
 /?record&key=
+/?sentry_key=
 /?swift-performance-tracking
 /A-LogAnalyzer/*
 /AD/PageHits.
@@ -2576,6 +2577,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /events/capture?
 /events/counter?
 /events/pixel/*$image
+/events/pixelEvent
 /events?*&referrer=
 /events?_trigger=
 /events?data=
@@ -4537,8 +4539,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
-/sentry.*/?sentry_key=
-/sentry/*/?sentry_key=
 /seo-track.
 /seo.googleAnalytics-
 /seo.googleAnalytics.
@@ -4582,6 +4582,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /share/analytics?
 /shareCounts.
 /shareTrackClient.
+/shared/sentry/*
 /sherlock.gif?
 /shinystat.
 /shinystat_
@@ -6085,6 +6086,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 ?utmad=*&utmac=
 ?viewsToCount=
 ?wpgb_public_action=*&referrer=
+@@$cookie=ct0
 @@.2o7.net/$domain=today.com
 @@.googleadservices.*.js$domain=ponominalu.ru
 @@/adrum.js$domain=usbank.com
@@ -7443,6 +7445,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||levexis.com/nbty/$domain=puritan.com
 @@||lgr.visilabs.net/kapsamaharitasi/om.gif$domain=kapsamaharitasi.turktelekom.com.tr
 @@||line-scdn.net/*/torimochi.js/$script,domain=demae-can.com
+@@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
 @@||link.theplatform.com/*/tracker.log?
 @@||link.theplatform.com/*?affiliate=
 @@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
@@ -8023,6 +8026,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||static.s-sfr.fr/eTagP/$image,~third-party
 @@||static.s-sfr.fr/stats/footer.js$script,~third-party
 @@||static.s-sfr.fr/stats/header.js$script,~third-party
+@@||static.wikia.nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
 @@||staticflickr.com^*/analytics-min.js$domain=flickr.com
 @@||statics.cfmcdn.net/*/scripts/webtrends-$script,domain=cheapflights.com
 @@||stats.e-go.gr/rx.asp?$domain=megatv.com
@@ -8064,6 +8068,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||tag.aticdn.net/*/smarttag.js$domain=compteczam.fr
 @@||tag.aticdn.net/*/smarttag.js$domain=rte.ie
 @@||tag.aticdn.net/*/smarttag.js$domain=uktvplay.uktv.co.uk
+@@||tag.aticdn.net/583901/at.js$script,domain=tv5monde.com
 @@||tag.aticdn.net^*/smarttag.js$domain=mon.compteczam.fr
 @@||tag.md-nx.com^$script,domain=weather.us
 @@||tag.perfectaudience.com/serve/*.js$domain=asana.com
@@ -11951,7 +11956,6 @@ znak.com##.relap
 ||browser-updater.yandex.net^
 ||browser.events.data.microsoft.com/OneCollector/
 ||browser.events.data.msn.com^
-||browser.sentry-cdn.com^
 ||browsermine.com^$third-party
 ||browserpusher.com^$third-party
 ||browserscope.org/user/beacon/
@@ -17903,6 +17907,7 @@ znak.com##.relap
 ||hpr.outbrain.com^$domain=focus.de
 ||hqgkmj.marine-deals.co.nz^
 ||hqjuww.kolesa-darom.ru^
+||hqpornstream.com/tools/stats.php
 ||hqq.tv/cdn-cgi/trace
 ||hqq.tv/js/amung_counter.js
 ||hqq.tv/js/counters.js
@@ -26566,6 +26571,7 @@ znak.com##.relap
 ||sensor.org.ua^$third-party
 ||sensors.snappea.com^
 ||sentifi.com^$third-party
+||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||sentry.io^$third-party
 ||sentry01.zerg.rambler.ru^$third-party
 ||seo-master.net^$third-party
@@ -28400,7 +28406,6 @@ znak.com##.relap
 ||snapdeal.biz^$third-party
 ||snapkit.com/v1/sdk/metrics/
 ||snaps.vidiemi.com^$third-party
-||snapsmedia.io^$third-party
 ||snat.goguardian.com^
 ||snazzyspace.com/generators/viewer-counter/counter.php$third-party
 ||snbwyi.heine.at^

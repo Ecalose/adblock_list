@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202104240204
+! Version: 202104250214
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20977
+! Lenth = 20982
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -1790,6 +1790,7 @@ $websocket,domain=5nj.com|cechi8.com
 /matongwu/img/gg_
 /meinv/js/*_banner.js
 /mfad/*
+/mhw0/duniao/*
 /mhw0/leilang/*
 /mmday/91porn_
 /mmday/hgame_
@@ -3111,6 +3112,7 @@ $websocket,domain=5nj.com|cechi8.com
 9u8u.com##.tc-box
 9upk.com,ouyaoxiazai.com,smzy.com##.ad_show
 ://*.tv/ad/$domain=~moviedj.tv
+://*/*hsdsjTT/$script,third-party,xmlhttprequest
 ://*/1*modelBudai*.js$script,third-party,xmlhttprequest
 ://*/gg/$domain=~11185.cn|~chinatax.gov.cn|~dydog.org|~fanfou.com|~gg1z.com|~ha47.cn|~i-moe.eu.org|~jszwfw.gov.cn|~usr.cn|~xzdj.cn
 ://*:*/s.php?id=$script,third-party
@@ -3882,7 +3884,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||orientaldaily.on.cc/js/oncc-ad.js
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=battlecats-db.com|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|haoweichi.com|logi.im|monnsutogatya.com|numberempire.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|wenxuecity.com|yabook.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=battlecats-db.com|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|haoweichi.com|it365.abctool.info|logi.im|monnsutogatya.com|numberempire.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|wenxuecity.com|yabook.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
@@ -4700,7 +4702,7 @@ bendibao.com###wxbox
 bendibao.com##.content_r_ad300
 benyixiwang.com##p img[src*=".dlssyht.cn/u/"][title]
 benyixiwang.com#?#p:-abp-has(a[href="http://www.sm9166.com"])
-bestcclm.com##.wp.cl > A
+bestcclm.com##.wp.cl > a
 bestopview.com###pubtextnone
 bestopview.com##.Adv_c
 bfmusic.com.tw,workercn.cn#@#.ad_content
@@ -5397,10 +5399,10 @@ ddooo.com##.guoasu
 ddooo.com##.xzbtn
 ddooo.com#?#span:-abp-has(>p:-abp-contains(高速))
 ddooo.com#?#ul:-abp-has(>dd:-abp-contains(高速))
-ddrk.me##a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
-ddrk.me##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddrk.me#$#a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"]) { height: 0 !important; width: 0 !important; }
 ddrk.me#@#a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
+ddrk.me,ddys.tv##a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
+ddrk.me,ddys.tv##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 dealmoon.com,weibo.com##.pic_ad
 demaxiya.com##.tp_box
 dianping.com##.J_midas-3
@@ -7290,7 +7292,6 @@ kuaihou.com##.ul_Address[style="border-bottom:1px solid #ddd;width:280px;"]
 kuaishou.com#@#.share-page
 kuaishouba.com##.index_adbox
 kuakao.com##.addTQBar
-kudm.net###msn
 kukuw.com###gg_rl
 kuman.com##.guide-download-footer-box
 kumi.cn##.ad64060Box
@@ -12103,7 +12104,6 @@ zznews.cn##.ad:not([style])
 ||aliyoo999.com^
 ||aliyuncs.com/ad/jd-smoofit-ad.jpg
 ||aliyuncs.com/ghdb.gif
-||aliyuncs.com/img/$domain=ddrk.me
 ||aliyuncs.com/public/v1/js/ad-config.
 ||aliyuncs.com/vss/haotu.js
 ||aliyuncs.com/wjy99re/
@@ -19108,6 +19108,7 @@ zznews.cn##.ad:not([style])
 ||tutudao.net/js/gg*.js
 ||tuwan.com/events/courseiframe?
 ||tuwan.com/myad/
+||tuwo-audio.cn^
 ||tuyiyi.com/images/zone/201706/1-1F62G232310-L.png
 ||tuyiyi.com/tuyiyi/m.js
 ||tuzz.cn/AD_
@@ -19500,6 +19501,7 @@ zznews.cn##.ad:not([style])
 ||waptime.net^
 ||watakaw133.xyz^
 ||watchsk.com^
+||waterincloud.cn^
 ||waterserver.cn^
 ||wbiao.cn/common/adapi/
 ||wbiao.cn/common/newsbannerAds/
@@ -19570,6 +19572,7 @@ zznews.cn##.ad:not([style])
 ||wenku8.net/js/
 ||wenkuxiazai.com^*reward
 ||wenlang.com^$third-party
+||wenqixiefu.cn^
 ||wenshenbang.com^$third-party
 ||wenxiu998.com/static/js/top.js
 ||wenxuecity.com/script/wxc_ab_help.js
@@ -20245,6 +20248,7 @@ zznews.cn##.ad:not([style])
 ||yesky.com/s?z=
 ||yeyajipp.com^
 ||yeyou.com/2013/new/yeyou-float-window.js
+||yeyushe.cn^
 ||yezi.cn/_ad/
 ||yezilm.com^$third-party
 ||yf898.com^
@@ -20443,6 +20447,7 @@ zznews.cn##.ad:not([style])
 ||ysgsq.cn^
 ||ysjkbk.com^
 ||ysjwj.com^
+||yskanba.com^
 ||ysm.ezprice.net^$third-party
 ||ysnj74ed.com^
 ||ysont.cn^
