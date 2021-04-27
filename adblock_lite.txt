@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202104260257
+! Version: 202104270220
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 18954
+! Lenth = 18963
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1072,6 +1072,7 @@
 9upk.com,ouyaoxiazai.com,smzy.com##.ad_show
 ://*.tv/ad/$domain=~moviedj.tv
 ://*/*hsdsjTT/$script,third-party,xmlhttprequest
+://*/*hsdsjTT_$script,third-party,xmlhttprequest
 ://*/1*modelBudai*.js$script,third-party,xmlhttprequest
 ://*/gg/$domain=~11185.cn|~chinatax.gov.cn|~dydog.org|~fanfou.com|~gg1z.com|~ha47.cn|~i-moe.eu.org|~jszwfw.gov.cn|~usr.cn|~xzdj.cn
 ://*:*/s.php?id=$script,third-party
@@ -1447,6 +1448,7 @@
 @@||bitauto.com/bglogpostlog.js
 @@||blackmod.net^$generichide
 @@||blog.ztjal.info^$generichide
+@@||bookwalker.com.tw/images/p_img/pc_ad*.png$~third-party
 @@||bootcss.com^$script,domain=jx.la
 @@||bootcss.com^$script,domain=kan-tv.com
 @@||briian.com/advert.
@@ -6381,6 +6383,7 @@ ruian.com##.ad_opera
 ruian.com##div[class^="gg_"]
 runningmanzx.com##.guangao
 runoob.com###sidebar-right-re
+ruten.com.tw###AdRelatedTitle
 ruten.com.tw###ad-467
 ruten.com.tw###search_u_970x90
 ruten.com.tw##.act-promo
@@ -9858,7 +9861,6 @@ zznews.cn##.ad:not([style])
 ||agxclick.com^$third-party
 ||ah.sina.com.cn/iframe/
 ||ah808.com^
-||ahd.ruten.com.tw^
 ||ahgame.com/js/new_ad.js
 ||ahidna.cn^
 ||ahjzys.com^
@@ -10770,6 +10772,7 @@ zznews.cn##.ad:not([style])
 ||bs.baidu.com/app-ads%
 ||bs777.net^$third-party
 ||bshare.cn/bshare_view?Callback=
+||bsjgc.com^
 ||bsjgqhe.cn^
 ||bskchina.cn/js/
 ||bskeye.com^
@@ -11333,6 +11336,7 @@ zznews.cn##.ad:not([style])
 ||codejie.net/wp-content/uploads/*/1120-50.
 ||codejumps.com^
 ||codekon.xyz/wp-content/uploads/yHX
+||codelabbeijing.cn^
 ||codenong.com/dq.png
 ||codesocang.com/js/a.js
 ||codesocang.com/plus/*baoyue
@@ -13781,6 +13785,7 @@ zznews.cn##.ad:not([style])
 ||jijidy.com/640x200down.
 ||jijistatic.duapp.com/Squall/1.jpg
 ||jijunlongchengxinxi.cn^
+||jikelian.xyz^
 ||jiliw.com^$third-party
 ||jimeilm.com^
 ||jin10.com/assets/img/sites/index/vip_ad
@@ -14062,6 +14067,7 @@ zznews.cn##.ad:not([style])
 ||k22x6.cn^
 ||k2n0f.cn^$third-party
 ||k3851.com^$third-party
+||k5p8f2.cn^
 ||k99.cc^$third-party
 ||k9dzax.cn^
 ||ka12138.top^
@@ -15422,6 +15428,7 @@ zznews.cn##.ad:not([style])
 ||pcgames.com.cn/g/
 ||pchome.com.tw/iframe/$domain=mail.pchome.com.tw
 ||pchome.com.tw/js/fancybox/
+||pchome.com.tw/js/overlay_ad.js
 ||pchome.net/flow.php
 ||pcmx.autohome.com.cn/impress?
 ||pcmzn.com^
@@ -15885,6 +15892,7 @@ zznews.cn##.ad:not([style])
 ||quxiangkeji.cn^$third-party
 ||qvpublish.com^
 ||qwblog.cn/localfile/20200612230036.gif
+||qwddcwmwqiqwd18.cn^
 ||qwfknhc.cn^
 ||qwxcs.com^$third-party
 ||qx568.com^$popup
@@ -18341,6 +18349,7 @@ zznews.cn##.ad:not([style])
 ||ylnet.com.cn/dl*.js
 ||ylnet.com.cn/gj.js
 ||ylnet.com.cn/inc/ad$subdocument
+||ylykd.cn^
 ||ylzx.net^$third-party
 ||ymcqb.com^
 ||ymlykj.com/nuxt/static/liveBanner.jpg

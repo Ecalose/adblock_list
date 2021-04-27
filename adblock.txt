@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202104260257
+! Version: 202104270220
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20992
+! Lenth = 21003
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -802,6 +802,7 @@
 ##a[href*=".iziyo.com/"]
 ##a[href*=".liaochuo.com/"]
 ##a[href*=".mieseng.com/"]
+##a[href*=".nksauiiya0214.top"]
 ##a[href*=".qpokok.com/"]
 ##a[href*=".qtj5.com/"]
 ##a[href*=".quankan.tv"]
@@ -1656,6 +1657,7 @@ $websocket,domain=5nj.com|cechi8.com
 /iframe/ad/*
 /iframe/baidu_*.html
 /iframe/ss/baidu_*.html
+/iframe_pfbad/*
 /ikanfan/b.js
 /ikanfan/i.js
 /image/ad/*
@@ -3113,6 +3115,7 @@ $websocket,domain=5nj.com|cechi8.com
 9upk.com,ouyaoxiazai.com,smzy.com##.ad_show
 ://*.tv/ad/$domain=~moviedj.tv
 ://*/*hsdsjTT/$script,third-party,xmlhttprequest
+://*/*hsdsjTT_$script,third-party,xmlhttprequest
 ://*/1*modelBudai*.js$script,third-party,xmlhttprequest
 ://*/gg/$domain=~11185.cn|~chinatax.gov.cn|~dydog.org|~fanfou.com|~gg1z.com|~ha47.cn|~i-moe.eu.org|~jszwfw.gov.cn|~usr.cn|~xzdj.cn
 ://*:*/s.php?id=$script,third-party
@@ -3488,6 +3491,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||bitauto.com/bglogpostlog.js
 @@||blackmod.net^$generichide
 @@||blog.ztjal.info^$generichide
+@@||bookwalker.com.tw/images/p_img/pc_ad*.png$~third-party
 @@||bootcss.com^$script,domain=jx.la
 @@||bootcss.com^$script,domain=kan-tv.com
 @@||briian.com/advert.
@@ -8419,6 +8423,7 @@ ruian.com##.ad_opera
 ruian.com##div[class^="gg_"]
 runningmanzx.com##.guangao
 runoob.com###sidebar-right-re
+ruten.com.tw###AdRelatedTitle
 ruten.com.tw###ad-467
 ruten.com.tw###search_u_970x90
 ruten.com.tw##.act-promo
@@ -11896,7 +11901,6 @@ zznews.cn##.ad:not([style])
 ||agxclick.com^$third-party
 ||ah.sina.com.cn/iframe/
 ||ah808.com^
-||ahd.ruten.com.tw^
 ||ahgame.com/js/new_ad.js
 ||ahidna.cn^
 ||ahjzys.com^
@@ -12808,6 +12812,7 @@ zznews.cn##.ad:not([style])
 ||bs.baidu.com/app-ads%
 ||bs777.net^$third-party
 ||bshare.cn/bshare_view?Callback=
+||bsjgc.com^
 ||bsjgqhe.cn^
 ||bskchina.cn/js/
 ||bskeye.com^
@@ -13371,6 +13376,7 @@ zznews.cn##.ad:not([style])
 ||codejie.net/wp-content/uploads/*/1120-50.
 ||codejumps.com^
 ||codekon.xyz/wp-content/uploads/yHX
+||codelabbeijing.cn^
 ||codenong.com/dq.png
 ||codesocang.com/js/a.js
 ||codesocang.com/plus/*baoyue
@@ -15819,6 +15825,7 @@ zznews.cn##.ad:not([style])
 ||jijidy.com/640x200down.
 ||jijistatic.duapp.com/Squall/1.jpg
 ||jijunlongchengxinxi.cn^
+||jikelian.xyz^
 ||jiliw.com^$third-party
 ||jimeilm.com^
 ||jin10.com/assets/img/sites/index/vip_ad
@@ -16100,6 +16107,7 @@ zznews.cn##.ad:not([style])
 ||k22x6.cn^
 ||k2n0f.cn^$third-party
 ||k3851.com^$third-party
+||k5p8f2.cn^
 ||k99.cc^$third-party
 ||k9dzax.cn^
 ||ka12138.top^
@@ -17460,6 +17468,7 @@ zznews.cn##.ad:not([style])
 ||pcgames.com.cn/g/
 ||pchome.com.tw/iframe/$domain=mail.pchome.com.tw
 ||pchome.com.tw/js/fancybox/
+||pchome.com.tw/js/overlay_ad.js
 ||pchome.net/flow.php
 ||pcmx.autohome.com.cn/impress?
 ||pcmzn.com^
@@ -17923,6 +17932,7 @@ zznews.cn##.ad:not([style])
 ||quxiangkeji.cn^$third-party
 ||qvpublish.com^
 ||qwblog.cn/localfile/20200612230036.gif
+||qwddcwmwqiqwd18.cn^
 ||qwfknhc.cn^
 ||qwxcs.com^$third-party
 ||qx568.com^$popup
@@ -20379,6 +20389,7 @@ zznews.cn##.ad:not([style])
 ||ylnet.com.cn/dl*.js
 ||ylnet.com.cn/gj.js
 ||ylnet.com.cn/inc/ad$subdocument
+||ylykd.cn^
 ||ylzx.net^$third-party
 ||ymcqb.com^
 ||ymlykj.com/nuxt/static/liveBanner.jpg
