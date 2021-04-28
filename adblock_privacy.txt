@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202104270220
+! Version: 202104280231
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 35327
+! Lenth = 35322
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1494,7 +1494,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /analyticsjs.
 /analyticsjs/*
 /analyticsmediator.
-/analyticsmediator.js
 /analyticsscript_
 /analyticssdk.js
 /analyticstick.
@@ -2327,6 +2326,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /d_tracking.ashx?
 /dart_wrapper.html?
 /data.do?session_
+/data.mistat.
 /data/collect/*$xmlhttprequest
 /data_collect.js
 /datacapture/track
@@ -3979,7 +3979,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /pageview?user_guid=
 /pageviews-counter-
 /pageviews.gif?
-/pageviews/*$domain=~pageviews.toolforge.org|~stats.wikimedia.org|~tools.wmflabs.org
+/pageviews/*$domain=~pageviews.toolforge.org|~tools.wmflabs.org|~wikimedia.org|~wikipedia.org
 /pageviews?token=
 /pageviews_counter.
 /pap.swf?
@@ -6569,9 +6569,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||coremetrics.com*/eluminate.js
 @@||coremetrics.com/eluminate.js
 @@||coronavirus-monitor.ru/scripts/statistics/statistics.$script,~third-party
-@@||costco.co.kr/_ui/shared/js/analyticsmediator.js
-@@||costco.co.uk/_ui/shared/js/analyticsmediator.js$domain=costco.co.uk
-@@||costco.com.tw/_ui/shared/js/analyticsmediator.js
 @@||cot.priceminister.com/res/static/*/xtcore.js
 @@||count.ly^$~third-party
 @@||count.rtl.de/crossdomain.xml$domain=n-tvnow.de|rtl-now.rtl.de|rtl2now.rtl2.de|rtlnitronow.de|superrtlnow.de|voxnow.de
@@ -7468,7 +7465,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||lp.longtailvideo.com/5/yourlytics/yourlytics-1.js$domain=indiedb.com|indieroyale.com|moddb.com
 @@||lprs*.fr/assets/js/lib/squid/smarttag.js$domain=leparisien.fr
 @@||lsi.com^*/google-analytics.js
-@@||luluhypermarket.com/_ui/shared/js/analyticsmediator.js
 @@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 @@||lzstatic.com^*/gdpr/consentHandler/google_analytics.js$domain=ladenzeile.de
 @@||lzstatic.com^*/gdpr/consentHandler/optimizely.js$domain=ladenzeile.de
@@ -7484,7 +7480,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||marketo.com/index.php/form/
 @@||marketo.com/js/forms$script,stylesheet
 @@||marktest.pt/netscope-gemius.js$script,domain=ojogo.pt
-@@||matchesfashion.com/_ui/shared/js/analyticsmediator.js
 @@||matchid.adfox.yandex.ru/?url=$script,domain=ctc.ru
 @@||maxmind.com/app/country.js$domain=lenovo.com|nationalgeographic.com
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
@@ -7584,7 +7579,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||mobile.flypgs.com/tealeaf.js
 @@||monetate.net/js/$domain=nike.com
 @@||mongoosemetrics.com/jsfiles/js-correlation/mm-rules.min.js$domain=subaru.com
-@@||mopas.com.tr/_ui/shared/js/analyticsmediator.js$domain=mopas.com.tr
 @@||motherboard.vice.com^*/vmp_analytics.js
 @@||motika.com.mk/wp-content/plugins/ajax-hits-counter/display-hits.rapid.php$~third-party
 @@||moulinex.com/js/xtroi.js
@@ -7660,7 +7654,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||oceanstatejoblot.com^*/widget/osjl-google-analytics/$script,~third-party
 @@||odb.outbrain.com^$domain=nypost.com
 @@||odcdn.com^*/cm.js
-@@||officedepot.co.cr/_ui/shared/js/analyticsmediator.js
 @@||officeworks.com.au^*/site-tracker.js
 @@||olx.*/static/*/js/xgemius.js$domain=olx.kz|olx.ua|olx.pl
 @@||olx.pl^*/js/tracking/ninja.js$domain=olx.pl
@@ -7822,7 +7815,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||renault.de/js/sitestat.js
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
 @@||repco.co.nz/_ui/shared/js/analyticsmediator.js
-@@||repco.com.au/_ui/shared/js/analyticsmediator.js
 @@||repstatic.it/minify/sites/common/config_webtrekk_$script,domain=video.repubblica.it
 @@||repstatic.it^*/Nielsen.js
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
@@ -8040,6 +8032,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||stippleit.com/stipple.js$domain=photos.toofab.com
 @@||stomp.com.sg/xtcore.js
 @@||storage.embluemail.com/pixeltracking^$domain=lavoz.com.ar
+@@||store.drweb.ru^$cookie=guest_id
 @@||store.usps.com/media/js/metrics/metrics.js
 @@||stroeerdigitalgroup.de/metatag/live/bauer-autozeitung/metaTag.min.js$domain=autozeitung.de
 @@||stylished.de/js/vendors/emos2.js$domain=stylished.de
@@ -8267,7 +8260,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||widgets.outbrain.com^*/comScore/comScore.htm
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
 @@||wikia.nocookie.net^*/AnalyticsEngine/js/analytics_prod.js
-@@||wilko.com/_ui/shared/js/analyticsmediator.js
 @@||willhaben.apa.net/clientscript/xtcore.js
 @@||wishpost.cn/api/tracking/
 @@||wix-dashboard.visitor-analytics.net/backoffice/restricted-demo$domain=wix.com
@@ -9745,7 +9737,7 @@ znak.com##.relap
 ||adsaccount.appcpi.net^
 ||adschoom.com^$third-party
 ||adscore.com^$third-party
-||adsdk.yandex.ru^$third-party
+||adsdk.yandex.ru^
 ||adsensedetective.com^$third-party
 ||adserver.snapads.com^
 ||adsettings.com^$third-party
@@ -10316,6 +10308,7 @@ znak.com##.relap
 ||analytics.cynapse.com^
 ||analytics.datahc.com^
 ||analytics.datasavannah.com^
+||analytics.dev.htmedia.in^
 ||analytics.dev.springboardvideo.com^
 ||analytics.developer.riotgames.com^
 ||analytics.dns-shop.ru^
@@ -10406,7 +10399,6 @@ znak.com##.relap
 ||analytics.mlstatic.com^
 ||analytics.mobile.walmart.com^
 ||analytics.mobile.yandex.net^
-||analytics.mobile.yandex.net^$third-party
 ||analytics.mobilegamestats.com^
 ||analytics.mondoweiss.net^
 ||analytics.mopub.com^
@@ -11404,6 +11396,7 @@ znak.com##.relap
 ||bachecaannunci.it/statins3.php?
 ||back.marketing^$third-party
 ||backend-r-ht-1.net.daraz.com^
+||backend.turtlemobile.com.tw^$third-party
 ||backend.www.net.daraz.com^
 ||backendr-oa-2.net.daraz.com^
 ||backlink-test.de^$third-party
@@ -11495,6 +11488,7 @@ znak.com##.relap
 ||batchlogging*-eu.truecaller.com^
 ||batchlogging*-noneu.truecaller.com^
 ||batiactu.com/cap_
+||batmobile.com.tw^$third-party
 ||bats.video.yahoo.com^
 ||batsavcdn.ksmobile.net^
 ||battlebalance.com^$third-party
@@ -13414,6 +13408,7 @@ znak.com##.relap
 ||comunicazioni.bancamediolanum.it^
 ||comunidade.globalmediagroup.pt//tracker/tracker.ashx
 ||comvel.media/etc/designs/comvel/clientlibs/tracking
+||con.arbeitsagentur.de/prod/matomo/
 ||concernedcondition.com^$third-party
 ||concert.io/lookup/
 ||conde.io/beacon
@@ -16268,7 +16263,7 @@ znak.com##.relap
 ||extautumn.net.daraz.com^
 ||extendoffice.com/analytics.js
 ||external-promo-metrics.yandex.net^
-||extmaps-api.yandex.net^$third-party,xmlhttprequest
+||extmaps-api.yandex.net^
 ||extole.com^$third-party
 ||extole.io^$third-party
 ||extra.cz/counter.php?id=
@@ -20503,6 +20498,7 @@ znak.com##.relap
 ||logs1257.at.pagesjaunes.fr^
 ||logsbin.dantri.com.vn^
 ||logservice.hicloud.com^
+||logservice1.hicloud.com^
 ||logsink.zedge.net^
 ||logstat.caixin.com^
 ||logua.com^$third-party
@@ -22693,6 +22689,7 @@ znak.com##.relap
 ||msgesr.askona.ru^
 ||msgfocus.com^$third-party
 ||msgs.jp^$third-party
+||msgsndr.com/funnel/event
 ||msgtag.com^$third-party
 ||mshcdn.com/assets/lib/aab-$script,domain=mashable.com
 ||mshcdn.com/assets/metrics-
@@ -30281,7 +30278,6 @@ znak.com##.relap
 ||stats.rcsobjects.it^
 ||stats.readng.co^
 ||stats.redditmedia.com^
-||stats.redditmedia.com^$third-party
 ||stats.referralhero.com^
 ||stats.remotebear.io^
 ||stats.reprage.com^
@@ -32754,7 +32750,7 @@ znak.com##.relap
 ||trackinglabs.com^$third-party
 ||trackingmms.accenture.com^
 ||trackingpro.pro^$third-party
-||trackingshipment.apple.com^$third-party
+||trackingshipment.apple.com^
 ||trackingssl.aginsurance.be^
 ||trackjay.cool3c.com^
 ||trackjs.com/agent/$script,third-party
@@ -32993,7 +32989,6 @@ znak.com##.relap
 ||trk.optum.com^
 ||trk.performanceplay.co.kr^
 ||trk.pinterest.com^
-||trk.pinterest.com^$third-party
 ||trk.pswec.com^$third-party
 ||trk.s.sephora.com^
 ||trk.sele.co^
@@ -34409,7 +34404,7 @@ znak.com##.relap
 ||widgetbox.com/syndication/track/
 ||widgethost.com/pax/counter.js?
 ||widgets.pinterest.com/*/urls/count.json
-||widgets.pinterest.com^$third-party
+||widgets.pinterest.com^$domain=d3ward.github.io
 ||widgets.trustedshops.com^$third-party
 ||widgetserver.com/metrics/
 ||widgetserver.com/t/
@@ -34982,7 +34977,7 @@ znak.com##.relap
 ||yandex.ru/cycounter?
 ||yandex.ru/log?
 ||yandex.ru/metrika/
-||yandexadexchange.net^$third-party
+||yandexadexchange.net^
 ||yandexcdn.com/ajax.php
 ||yansk.ru/counter/
 ||yarpp.org/pixels/
