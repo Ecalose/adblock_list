@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202105030215
+! Version: 202105040117
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21065
+! Lenth = 21073
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -285,6 +285,7 @@
 ###windlocation
 ###wp > .V-video-floats
 ###wp > .V-videoFloat
+###wp > div > #top_banner
 ###wrapper > .topad
 ###wrapper > div[style="padding:3px;"] > #pic
 ###xianliaome_ads
@@ -404,6 +405,7 @@
 ##.add-gg
 ##.adline
 ##.adlist
+##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
 ##.ads-2
@@ -458,6 +460,7 @@
 ##.bn728-100
 ##.bn728-93
 ##.bottom-adv
+##.bottom-gg
 ##.bottomAd
 ##.bottomSponsor
 ##.bottom_mengcheng_ad_wrap
@@ -639,6 +642,7 @@
 ##.pop[style="right: 10px;"]
 ##.privilege-promote
 ##.propa_bottom
+##.pull-right > #video_playr_sider
 ##.qq_nr_lad
 ##.qzhfaaa
 ##.r-ad
@@ -703,6 +707,7 @@
 ##.twavt-ads
 ##.txp_ad_center
 ##.ui-ad
+##.video-player-container > #player_bottom_banner
 ##.w100b > .m_adv
 ##.w_ad
 ##.wemziguanggao
@@ -2069,7 +2074,7 @@ $websocket,domain=5nj.com|cechi8.com
 0516city.com,cnpingpang.com,jdbbs.com##.a_h
 0517w.com,1x6666.com,365kl.net,3qled.com,52ch.net,bbs.qbaobei.com,chinafix.com,cnyw.net,cqsq.com,gz0668.com,i5qs.com,mahoupao.com,mcncc.com,qilindao.com,xsool.com###diynavtop
 0517w.com,lysq.com###diyad
-0562.cc,114shouji.com,1x6666.com,2fzw.cn,528500.com,52jscn.com,5378cc.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bansha.com,bbs.52life.cc,bestcclm.com,chcj.com,cm868.com,cnyw.net,cqfishing.net,discuzlab.com,gebi1.com,hh010.com,i5qs.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,sh419.net,suizhoushi.com,txahz.com,wishct.com,xsool.com,ybvv.com,ytshe.com###diy1
+0562.cc,114shouji.com,1x6666.com,2fzw.cn,528500.com,52jscn.com,5378cc.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bansha.com,bbs.52life.cc,bestcclm.com,chcj.com,cm868.com,cnyw.net,cqfishing.net,discuzlab.com,gebi1.com,hh010.com,i5qs.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,sh419.net,suizhoushi.com,txahz.com,wishct.com,xsool.com,xydai.cn,ybvv.com,ytshe.com###diy1
 0573ren.com##div[style="width:1200px;height:60px;margin:5px auto 0 auto;overflow:hidden;"]
 0573ren.com##li[data-sort] > a[href^="http://app-api.0573ren.com/store-view/store/detail/id/"]
 0579.cn,xizi.com##.top_gg
@@ -2792,6 +2797,7 @@ $websocket,domain=5nj.com|cechi8.com
 4c.cn##div[id^="mid_ad"]
 4c.cn##div[id^="top_ad"]
 4gamers.com.tw##.home-carousel-container
+4gamers.com.tw##img[alt="ads"]
 4gtv.tv,80s.ai,ft.com,ftchinese.com,ftchinese.com.sz-dns.net,kartinfo.me,long7.qq.com,reh.tw,typecho.wiki#@#.adsbox
 500.com###live_top_ad
 500.com##.tz_pai
@@ -3273,6 +3279,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@/share/js/*$domain=yunpanjingling.com
 @@/show_ad_$domain=wb.qq.com
 @@/site/ad/*$domain=islide.cc
+@@/social-share.$domain=patentguru.com
 @@/store_ad/*$domain=pcstore.com.tw
 @@/transparent.gif?ray=$image,~third-party
 @@/unadblock/adjs_$domain=bingfeng.tw
@@ -3772,7 +3779,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||joyk.com^$generichide
 @@||jrhot.com/data/attachment/*_300_250_
 @@||js.tudouui.com/bin/player2/$object
-@@||jsdelivr.net/combine/npm/jquery@3,npm/social-share.js
 @@||jsdelivr.net/gh/bde4admin/*/prebid-ads.js$domain=bde4.cc
 @@||jsdelivr.net/opensug/1.1.2/opensug.js
 @@||jsjiami.com^$generichide
@@ -5299,6 +5305,7 @@ creaders.net##.pinglun > .btmlist-title
 creaders.net##a[title^="www.136888.com/"]
 crsky.com##.Adown_v_gs
 crsky.com##.banner-leader
+crsky.com##.ml10.Gs_d
 crsky.com##a[href^="http://count."][href$=".exe"]
 crx4.com,galacg.me,moneyweekly.com.tw###carousel-example-generic
 cs.com.cn##.js-ad1
@@ -10733,6 +10740,7 @@ zznews.cn##.ad:not([style])
 ||2d4f.com/love/
 ||2f.com^$third-party
 ||2g2h.com^
+||2gmbbl.cn^
 ||2gvuukm1lm.com^
 ||2gz9nc.cn^
 ||2kandy.com/js/123/
@@ -10954,7 +10962,6 @@ zznews.cn##.ad:not([style])
 ||4df5ef.xyz^$third-party
 ||4ekx.cn^
 ||4excel.cn^
-||4gamers.com.tw/site/api/aols/media?
 ||4ggame8.com^
 ||4gtv.tv/4gTV_OTT.json
 ||4htixb.cn^
@@ -18300,6 +18307,7 @@ zznews.cn##.ad:not([style])
 ||shang.hlgnet.com/code/
 ||shangc.net/ipquery.ashx
 ||shangc.net/static/js/relate_news.js
+||shanghebaizhou.cn^
 ||shanghuitianxia.cn^
 ||shangjiabiao.com^$third-party
 ||shangqun.com/webforms/embed/
