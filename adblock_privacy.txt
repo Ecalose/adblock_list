@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202105040117
+! Version: 202105050135
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 35266
+! Lenth = 35292
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -2303,6 +2303,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /csp_204?
 /csp_log?
 /csp_report.gne?
+/cta-loaded.js
 /ctd-sourcepoint.
 /ctd-tealium.
 /ctr_tracker.
@@ -2696,6 +2697,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /fp/fp.swf
 /fp/tags.js?
 /fp/top_fp.
+/fpTracker/*
 /fp_204?
 /fpc.pl?a=
 /fpcookie?
@@ -2828,6 +2830,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /gatrackthis.
 /gatrackwww.
 /gb-tracker-
+/gc?id=*&refurl=
 /gciAnalytics.
 /gcount.pl?
 /gcui_vidtracker/*
@@ -3416,13 +3419,14 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /log.cfm?
 /log.collect.
 /log.gif?
-/log.htm?
+/log.htm?$domain=~192.168.0.1|~192.168.1.1
 /log.jphp?
 /log.jsp?
 /log.php?*http
 /log.php?id
 /log.php?owa_timestamp=
 /log/1.gif?
+/log/?pixel=
 /log/ad-
 /log/analytics
 /log/browser/event
@@ -4725,7 +4729,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /stat.aspx?
 /stat.cgi?
 /stat.gif?
-/stat.htm?
+/stat.htm?$domain=~192.168.0.1|~192.168.1.1
 /stat.js?
 /stat.php?
 /stat.png?
@@ -5801,6 +5805,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /wmps_tracker.
 /wmxtracker.js
 /woopra.js
+/wordpress/wp-json/pum/*/analytics/*
 /worldwide_analytics/*
 /wp-admin/admin-ajax.php?action=adblockvisitor$~third-party
 /wp-click-track/*
@@ -6263,6 +6268,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||aolcdn.com^*/beacon.min.js$domain=autoblog.com|dailyfinance.com
 @@||api.chartbeat.com^script,domain=financialpost.com|wcpo.com|couriermail.com.au|betabeat.com
 @@||api.curalate.com^$domain=potterybarn.com
+@@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
 @@||api.cxense.com/public/widget/data?json$domain=tn.com.ar
 @@||api.cxense.com/public/widget/data?json=$domain=lavoz.com.ar
@@ -6270,6 +6276,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||api.cxense.com/public/widget/data?json=$domain=wsj.com
 @@||api.cxense.com/public/widget/data?json=$domain=yenisafak.com
 @@||api.cxense.com/public/widget/data?json=$script,domain=ksml.fi|savonsanomat.fi
+@@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.kodansha.co.jp
 @@||api.dmcdn.net/pxl/cpe/app.min.js$domain=m.sondakika.com
 @@||api.dmcdn.net/pxl/cpe/client.min.js$domain=m.sondakika.com
 @@||api.etherscan.io/api$domain=sushiswap.fi
@@ -6619,6 +6626,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||datadoghq-browser-agent.com/datadog-rum-us.js$script,domain=usa.experian.com
 @@||daumcdn.net/tiara/js/v1/tiara.min.js$domain=kakao.com
 @@||dcinfos.abtasty.com/geolocAndWeather.php^$domain=tf1.fr
+@@||dcinside.com$cookie=_ga
 @@||ddmcdn.com^*/adobe.visitor-$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
 @@||ddmcdn.com^*/comscore.streaming.$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
 @@||deals.nextag.com^*/ClickTracker.jsp
@@ -6868,6 +6876,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/analytics.js$domain=etcher.io
 @@||google-analytics.com/analytics.js$domain=eugene.kaspersky.co.jp|eugene.kaspersky.com|eugene.kaspersky.com.br|eugene.kaspersky.com.mx|eugene.kaspersky.de|eugene.kaspersky.es|eugene.kaspersky.fr|eugene.kaspersky.hk|eugene.kaspersky.it|eugene.kaspersky.ru
 @@||google-analytics.com/analytics.js$domain=factor.ua
+@@||google-analytics.com/analytics.js$domain=flazio.com
 @@||google-analytics.com/analytics.js$domain=flyingv.cc
 @@||google-analytics.com/analytics.js$domain=frenchfrysoftware.com
 @@||google-analytics.com/analytics.js$domain=glamour.de
@@ -6967,6 +6976,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/analytics.js$domain=whatcar.com
 @@||google-analytics.com/analytics.js$domain=wikium.ru
 @@||google-analytics.com/analytics.js$domain=zolotoyvek.ua
+@@||google-analytics.com/analytics.js$script,domain=m.dcinside.com|mupload.dcinside.com
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=tv-media.at,important
 @@||google-analytics.com/analytics.js^$domain=cosstores.com
 @@||google-analytics.com/analytics.js^$domain=jackbox.tv
@@ -7990,6 +8000,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||src.litix.io/videojs/*/videojs-mux.js$domain=dplay.co.uk
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
 @@||ssl.google-analytics.com/ga.js$domain=gmail.com
+@@||ssl.google-analytics.com/ga.js$script,domain=m.dcinside.com|mupload.dcinside.com
 @@||ssl.gstatic.com/analytics/$script,domain=analytics.google.com
 @@||ssp.rambler.ru/acp/capirs_main.$script,domain=afisha.ru
 @@||ssp.rambler.ru/capirs.js$domain=afisha.ru
@@ -8141,7 +8152,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||track.atom-data.io/report$domain=russian.rt.com
 @@||track.atom-data.io/|$xmlhttprequest,domain=globes.co.il
 @@||track.mybloglog.com/js/jsserv.php?$domain=egotastic.com
-@@||track.mz-web.de/*/tracking/tracking.js
 @@||track.nnn.de/cre-*/tracking/tracking.js
 @@||track.nzz.ch/cre-*/tracking/tracking.js
 @@||track.rundschau-online.de/cre-*/tracking/tracking.js
@@ -10605,6 +10615,7 @@ znak.com##.relap
 ||analytics.ubs.com^
 ||analytics.underarmour.com^
 ||analytics.unibuddy.co^
+||analytics.unilogcorp.com^
 ||analytics.unister-gmbh.de^
 ||analytics.unive.nl^
 ||analytics.upworthy.com^
@@ -10634,6 +10645,7 @@ znak.com##.relap
 ||analytics.worldtable.co^
 ||analytics.xyscdn.com^
 ||analytics.yahoo.com^
+||analytics.yext-static.com^
 ||analytics.yola.net^
 ||analytics.yolacdn.net^
 ||analytics.yomedia.vn^
@@ -14905,6 +14917,7 @@ znak.com##.relap
 ||digitaladvisor.dk^$third-party
 ||digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||digitalmarketing.nglantz.com^
+||digitaloceanspaces.com/pixel/
 ||digitaloptout.com^$third-party
 ||digitalpush.org^$third-party
 ||digitalriver.com^*/globaltracking
@@ -15267,6 +15280,7 @@ znak.com##.relap
 ||ds-aksb-a.akamaihd.net^
 ||ds-aksb-a.akamaihd.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 ||ds.haaretz.co.il^
+||dsb.yahoo.co.jp^
 ||dsg.interia.pl^
 ||dsg.sc.omtrdc.net^
 ||dsltarife.net/ddd.js
@@ -15301,7 +15315,6 @@ znak.com##.relap
 ||dubox.com/api/analytics
 ||dubox.com/statistics^
 ||duckdns.org^$third-party,websocket
-||duckduckgo.com/t.js
 ||duckduckgo.com/t/
 ||dugout.co/das2.js
 ||duhnet.tv/*/*/stats/init.min.js
@@ -16989,6 +17002,7 @@ znak.com##.relap
 ||fugetech.com^$third-party
 ||fujifilm.com/js/shared/analyzer.js
 ||fujiladder.com^$third-party
+||fullcircleinsights.com^$third-party
 ||fullepisodes.me/ajax.php?p=stats&
 ||fullstory.com/s/fs.js$third-party
 ||fullstory.com/s/fs.js^
@@ -17105,6 +17119,7 @@ znak.com##.relap
 ||g7329120395.co^
 ||g7527204730.co^
 ||g7725289065.co^
+||g792337340.co^
 ||g7923373400.co^
 ||g8121457735.co^
 ||g8319542070.co^
@@ -19298,6 +19313,7 @@ znak.com##.relap
 ||iptracker-lb-*.amazonaws.com^
 ||ipummv.pharao24.de^
 ||ipv6monitoring.eu^$third-party
+||iq.sixaxisllc.com^
 ||iqcontentplatform.de/tracking/
 ||iqdata.ai^$third-party
 ||iqdcaz.santehnika-online.ru^
@@ -19707,6 +19723,7 @@ znak.com##.relap
 ||kickass.immunicity.gold/analyze*.js
 ||kickass.unlockproj.party/analyze*.js
 ||kicker.de^*/videocount?
+||kickfire.com^$third-party
 ||kickstarter.com/Uy3R669N/init.js
 ||kiddbs.baby-calendar.jp^
 ||kieden.com^$third-party
@@ -20366,6 +20383,7 @@ znak.com##.relap
 ||llkdiu.chacos.com^
 ||lloogg.com^$third-party
 ||lloydspharmacy.com^*/vwo.js
+||lltrck.com^
 ||lm.pcworld.com/db/*/1.gif
 ||lmcdn.ru^*/statistics.js
 ||lmiutil.com^$third-party
@@ -20409,6 +20427,7 @@ znak.com##.relap
 ||log.adap.tv^
 ||log.adtimaserver.vn^
 ||log.aimtell.com^
+||log.ajunews.com^
 ||log.aliyuncs.com^
 ||log.api.zaloapp.com^
 ||log.apk.v-mate.mobi^
@@ -20674,6 +20693,7 @@ znak.com##.relap
 ||lsv5.belambra.fr^
 ||lsxuph.kidrobot.com^
 ||lt*.tritondigital.com^
+||lt.logly.co.jp^$image,third-party
 ||lt.tritondigital.com^
 ||ltam2.secureforms.mcafee.com^
 ||ltaoei.rendez-vous.ru^
@@ -22752,6 +22772,7 @@ znak.com##.relap
 ||mpc.nicequest.com^$third-party
 ||mpglie.apartmentguide.com^
 ||mpianalytics.com^$third-party
+||mpio.io^$third-party
 ||mplxtms.com^$third-party
 ||mppapi.io^$third-party
 ||mps-gba.de^$third-party
@@ -22800,6 +22821,7 @@ znak.com##.relap
 ||mshcdn.com/assets/metrics-
 ||msigbs.actonservice.com^
 ||msmetrics.ws.sonos.com^
+||msn.com/OneCollector/
 ||msn.com/collect/
 ||msn.com/ro.aspx?
 ||msn.com/script/tracking*.js
@@ -31626,6 +31648,7 @@ znak.com##.relap
 ||toolcount.ru^$third-party
 ||tools.ranker.com^
 ||tools.ricoh.co.uk^
+||toolss.net/rainbow/track
 ||toonget.net.daraz.com^
 ||toonjoa.net.daraz.com^
 ||toothbrushnote.com^$third-party
@@ -32289,6 +32312,7 @@ znak.com##.relap
 ||tracker.marinsoftware.com^
 ||tracker.mattel.com^
 ||tracker.metricool.com^$third-party
+||tracker.mrpfd.com^
 ||tracker.mspy.com^
 ||tracker.mtrtb.com^
 ||tracker.nbcuas.com^
@@ -33694,6 +33718,7 @@ znak.com##.relap
 ||vimeo.com/ablincoln/
 ||vimeocdn.com/add/player-stats?
 ||vimeocdn.com/add/player-stats?beacon=
+||vimeocdn.com/ga/
 ||vinchenmedia.club^
 ||vindicosuite.com/track/
 ||vindicosuite.com/tracking/
@@ -35213,6 +35238,7 @@ znak.com##.relap
 ||zoomflow.com^$third-party
 ||zoomin.tv/impressions/
 ||zoomin.tv/impressionsplayers/
+||zoominfo.com/pixel/
 ||zoomino.com^$third-party
 ||zoosnet.net^$third-party
 ||zoossoft.net^$third-party
