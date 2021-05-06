@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202105050135
+! Version: 202105060123
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19028
+! Lenth = 19033
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -926,6 +926,7 @@
 5nd.com##.songAds
 5yfz.com##.wrapper > p
 5yfz.com##table[style="width:100%;text-align:center;font-weight:700;"]
+5ykj.com##.ls-b-large-margin
 6.cn##.min-ad-box
 6080.tv,ixinshijue.com,yy6080.cn##a[href^="http"] > img[src*=".pstatp."]
 6090ba.com,717dyi.com,aiqiyivip.com,duodada.com,poxiaotv.com,qhdi.com##[ontouchstart]
@@ -13421,6 +13422,7 @@ zznews.cn##.ad:not([style])
 ||ifkdy.com/ifkdy/weixin/isFollowMe
 ||ifocus.cn^$third-party
 ||ifooday.cn/index.php?m=poster&
+||ifsp.tv/a/$xmlhttprequest
 ||ifufen.com^
 ||ifulidh.*/images/xb.jpg
 ||ifunmac.com/wp-content/uploads/*/alipay-
@@ -14342,6 +14344,7 @@ zznews.cn##.ad:not([style])
 ||l0l.top^
 ||l29qi.xyz^
 ||l4elb.cn^
+||l570mb.cn^
 ||la61d.cn^
 ||labuladong.github.io/algo/pictures/ad/
 ||ladsblue.com^
@@ -15412,6 +15415,7 @@ zznews.cn##.ad:not([style])
 ||oumazg.com^
 ||ousns.net/daohang/
 ||outbrain.com^$domain=wenxuecity.com
+||outbrain.com^$third-party
 ||overlordtea.cn^
 ||ow*.biqugego.com^
 ||ox11.com^
@@ -17524,6 +17528,7 @@ zznews.cn##.ad:not([style])
 ||wangkeduo.cn^
 ||wangketuan.com^
 ||wangliqin.top^
+||wangmingsort.cn^
 ||wangpan007.com/themes/default/js/global.js
 ||wangqing7.top^
 ||wangqipu.com^
