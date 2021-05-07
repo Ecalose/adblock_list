@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202105060123
+! Version: 202105070134
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21082
+! Lenth = 21088
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -812,7 +812,6 @@
 ##a[href*=".qpokok.com/"]
 ##a[href*=".qtj5.com/"]
 ##a[href*=".quankan.tv"]
-##a[href*=".tapdb.net/"]
 ##a[href*=".tbb168.com"]
 ##a[href*=".tduou.com/"]
 ##a[href*=".tea123.me"]
@@ -2313,15 +2312,6 @@ $websocket,domain=5nj.com|cechi8.com
 123cha.com##div[style^="float:left;margin:8px 0;width:790px;border:1px dashed #ccc;"]
 123du.cc,bokon.net###float_r
 123du.cc,bokon.net,eol.cn###float_l
-12580sky.com##.index-ad
-12580sky.com##.logo-right-decation
-12580sky.com##.xiaogao
-12580sky.com##.xiaogao2
-12580sky.com##a[href*="/ad."]
-12580sky.com#?#li[class]:-abp-has(> .mark > h3 > a:-abp-contains(/广告|推荐/))
-12580sky.com,ccoo.cn,hackhome.com,vipcn.com##.adn
-12580sky.com,chinaz.com,ofweek.com,yawin.cn##.adtext
-12580sky.com,xbyuan.com##.dad
 126.com,163.com##.gWel-promt
 131458.com###header_gg
 131458.com##.divGuanggao
@@ -4945,6 +4935,7 @@ ccb.com.cn###leftSideAd
 cccpan.com,ys168.com###zdy_wz0
 ccoo.cn##.ad-wrap1
 ccoo.cn##.n_adbox
+ccoo.cn,hackhome.com,vipcn.com,xg3q.com##.adn
 cctime.com###ad_three
 cctime.com##.nav_banner
 cctime.com,ck101.com,doyo.cn###top_banner
@@ -5068,6 +5059,7 @@ chinaz.com##.red[href*=".wsisp.net/"]
 chinaz.com##.titright
 chinaz.com##.txtAdBox
 chinaz.com,cnbeta.com,oschina.net##a[href^="http://click.aliyun.com/"]
+chinaz.com,ofweek.com,xg3q.com,yawin.cn##.adtext
 chinese.engadget.com#?#li[class^="Py(40px)"]:has(> article > div[class^="D(f)"] > div[class^="Pos(r)"][data-ylk*=":AD;"])
 chineseinla.com###weixin_ads2
 chineseinla.com##.deal_discount
@@ -9481,6 +9473,7 @@ wpjam.com###wpjam_blog_300x250_1
 wps.cn##.school
 wuhaozhan.net##.xsl111
 wuhaozhan.net#?#.l-box:-abp-has(.l-a > span[style="margin-left:-5px;"])
+wuyong.fun##.riplus_ads_wrap
 www.163.com##.float-bar
 www.17173.com##.pn-tg
 www.duba.com##.tiyan_a
@@ -9517,6 +9510,7 @@ x6d.com##a[href^="/ad.php?"]
 x6d.com#?#li:-abp-has(>.myad)
 xblian.com##a[href^="https://page.pe/"]
 xblian.com##img[alt*="广告"]
+xbyuan.com##.dad
 xbyuan.com##.header-logo-ad
 xbyuan.com#?#li:-abp-has(>.myad)
 xc6b.com###leftbottbox
@@ -9538,6 +9532,8 @@ xdf.cn##.middleadv
 xdf.cn##.popup-wrap
 xdf.cn##div[style="position:fixed;top:120px;left:4px;width:210px;height:298px;isplay:block;background-position:initial initial;background-repeat:no-repeat no-repeat;"]
 xdowns.com###part_1
+xg3q.com##a[href*="/ad."]
+xg3q.com#?#li[class]:-abp-has(> .mark > h3 > a:-abp-contains(/广告|推荐/))
 xgrb.cn##.d_2016_ggw
 xh127.com###isubpi
 xh127.com###pzlhdd
@@ -10356,7 +10352,6 @@ zznews.cn##.ad:not([style])
 ||116b.com^$third-party
 ||117.25.133.209^
 ||118.144.88.216^
-||118.24.199.184^
 ||118114.cn^$third-party
 ||1188.com^$third-party
 ||119.29.207.87^
@@ -10597,6 +10592,7 @@ zznews.cn##.ad:not([style])
 ||1qwe3r.com^$third-party
 ||1s8pj.cn^$third-party
 ||1stchina.net/static/js/jquery.in.
+||1ug8jn.cn^
 ||1v7.cn^$third-party
 ||1x26q3.cn^
 ||1x3x.com^$third-party
@@ -13032,6 +13028,7 @@ zznews.cn##.ad:not([style])
 ||cctv5.name/js/*foot.js
 ||cctv567.com/b/
 ||cctvpic.com/photoAlbum/templet/common/*/game_
+||ccuyuna.cn^
 ||cczuxie.com^
 ||cdeledu.com/ADVC/$domain=~chinaacc.com|~ruidaedu.com
 ||cdgfa.ifeng.com^
@@ -13104,6 +13101,7 @@ zznews.cn##.ad:not([style])
 ||chaospace.fun/wp-content/uploads/*/%E6%A3%8B%E7%89%8C-
 ||chaospace.fun/wp-content/uploads/*/tg-
 ||chapm.com^$third-party
+||chaxiaoyin.cn^
 ||chaxinyong.net^
 ||chayayeon.com^
 ||chayibu.com^
@@ -13675,7 +13673,6 @@ zznews.cn##.ad:not([style])
 ||daweijita.com/201*ad.
 ||daweijita.com/2014/08/ad_head
 ||daxishi.com^$third-party
-||daybox.net^$domain=12580sky.com
 ||dayfund.cn/images/uds/
 ||daylskg.cn^
 ||daynews.co/cdn-cgi/apps/
@@ -13741,6 +13738,7 @@ zznews.cn##.ad:not([style])
 ||dfcfw.com/tg/
 ||dfcfw.com/zndh/
 ||dfcwg.com^
+||dfjbgfldsjdsnldksjalld1235.cn^
 ||dfseafood.com^
 ||dftoutiao.com/dfpcitv/pcitv?jsonpcallback=
 ||dftoutiao.com/dfpcitv/pcitv?type=
@@ -15748,6 +15746,8 @@ zznews.cn##.ad:not([style])
 ||iztwp.com/images/
 ||izuis.com^
 ||izzs.cc/wp-content/mm/
+||j.9136.com^
+||j.98158.com^
 ||j.avz4.com^
 ||j.baminw.cn^
 ||j.diangon.com^
@@ -16445,7 +16445,6 @@ zznews.cn##.ad:not([style])
 ||laozuo.org/wp-content/themes/weisaysimple/js/content40width.js
 ||laozuo.org/wp-content/themes/weisaysimple/js/index-top.js
 ||laozuo.org/wp-content/themes/weisaysimple/js/sidebar
-||last2.cn^$third-party
 ||law-lib.com/wstyle/images/gffirm.jpg
 ||lawtv.com.cn/jd_ceshi.html
 ||lawtv.com.cn/skin/newplayer/ads_dianshi.php
@@ -16668,6 +16667,7 @@ zznews.cn##.ad:not([style])
 ||longzhu.com/i/api/videos/dailyRecommend?
 ||longzhu.com/recommendad/
 ||looyu.com^$third-party
+||lordtao.cn^
 ||lotour.net/analytics/statsv2.js
 ||lotour.net/bcef/388.js
 ||loubiqu.com^*.js?
@@ -17524,6 +17524,7 @@ zznews.cn##.ad:not([style])
 ||partner.googleadservices.com^$third-party
 ||partner.toutiao.com^
 ||pb.shuxigua.com^
+||pbbgfsm.cn^
 ||pbmp.ali213.net/js/
 ||pbpb.tv^*/640x200.js
 ||pbtxt.win^
@@ -18135,6 +18136,7 @@ zznews.cn##.ad:not([style])
 ||rongnews.com^
 ||root85.com^
 ||rqgsf.com^
+||rqjhhg.cn^
 ||rr.pochengweiyuan.com^$third-party
 ||rrjc.com/home/seo/ad/
 ||rrsubway.com^
@@ -18482,7 +18484,7 @@ zznews.cn##.ad:not([style])
 ||sinaimg.cn/tech/zcapp2018/zcapp.js
 ||sinaimg.cn/unipro/
 ||sinaimg.cn/wap/project/blog_to_news_banner/
-||sinaimg.cn^$domain=04stream.tv|11luba.com|11papapa.com|12580sky.com|18board.com|18p2p.com|360bifen.com|46bk.com|500xxxx.com|522dy.com|63ef.com|678pan.vip|7mav2.com|7mshipin.org|94xxmm.com|999hdhd.com|99a21.com|abminbuy.com|acglover.me|aotu101.com|aotu103.com|blz105.com|blz20.com|blz24.com|caibaojian.com|cangjige.net|caoliuzx.com|ccxx99.com|cgfdjz.net|cnmysoft.com|ems183.cn|fdzone.org|ifulidh.in|izzs.cc|kccdk.com|kiees.cn|kisssub.org|landiannews.com|lifan.moe|llj22.com|mahuazy.net|niluba.cc|pianyuan.net|rarbt.cc|sbme.me|se533.com|subku.net|supfree.net|thztv.cc|tiantianzhibo.com|tiyulive.cn|viidii.info|vx666.com|yaoshe1.com|zhibo8.xyz|zimuku.la|zuqiu009.com
+||sinaimg.cn^$domain=04stream.tv|11luba.com|11papapa.com|18board.com|18p2p.com|360bifen.com|46bk.com|500xxxx.com|522dy.com|63ef.com|678pan.vip|7mav2.com|7mshipin.org|94xxmm.com|999hdhd.com|99a21.com|abminbuy.com|acglover.me|aotu101.com|aotu103.com|blz105.com|blz20.com|blz24.com|caibaojian.com|cangjige.net|caoliuzx.com|ccxx99.com|cgfdjz.net|cnmysoft.com|ems183.cn|fdzone.org|ifulidh.in|izzs.cc|kccdk.com|kiees.cn|kisssub.org|landiannews.com|lifan.moe|llj22.com|mahuazy.net|niluba.cc|pianyuan.net|rarbt.cc|sbme.me|se533.com|subku.net|supfree.net|thztv.cc|tiantianzhibo.com|tiyulive.cn|viidii.info|vx666.com|yaoshe1.com|zhibo8.xyz|zimuku.la|zuqiu009.com
 ||sinaimg.cn^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
 ||sinaimg.cn^$domain=2c2.website|2p8.space|adultgao.com|caopop.com|caoporn.com|caouoo.com|caox.cc|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vwan.xyz|xhao1.com
 ||sinaimg.cn^$domain=99a67.com|99re.com
@@ -19832,6 +19834,7 @@ zznews.cn##.ad:not([style])
 ||wuwho.cn^
 ||wuxibus.com/Image/title
 ||wuxinb.com^$third-party
+||wuyong.fun^$csp=script-src 'self' * 'unsafe-inline'
 ||wuyuande.com^
 ||wuyulou.com^*.php
 ||wvcdn.cn^
@@ -19849,6 +19852,7 @@ zznews.cn##.ad:not([style])
 ||wwwcdn.kimiss.net/btn/
 ||wx.sina.com.cn/iframe/pdps/
 ||wxbdfm.com^
+||wxbdwj.cn^
 ||wxdown.net/images/*.gif
 ||wxebgpj.cn^
 ||wxhdwy.com^
@@ -20295,6 +20299,7 @@ zznews.cn##.ad:not([style])
 ||yaodianzhineng.cn^
 ||yaohq.com^
 ||yaojingweiba.com/inc/
+||yaokuan01.cn^
 ||yaolan.com/wenku_debris/time_debris/images/mary
 ||yaolan.com/ylk.mini.js
 ||yaolanimage.cn/assets/ask/js/ask_video_popup.js
@@ -20696,6 +20701,7 @@ zznews.cn##.ad:not([style])
 ||yzyszy.com^
 ||yzytb.com^
 ||yzz.cn/global_gg/
+||z.grfyw.com^
 ||z.nowscore.com^
 ||z.tudouxy01.com^
 ||z1.chezhuzhinan.com^

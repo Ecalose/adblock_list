@@ -1,5 +1,5 @@
 [uniartisan's Privacy List]
-! Version: 202105060123
+! Version: 202105070134
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
@@ -42,6 +42,8 @@ $cookie=/^adptset_\d+/
 $cookie=/^amplitude_id_/
 $cookie=/^evid_\d+/
 $cookie=/^evid_set_\d+/
+$cookie=/^ezoadgid_/
+$cookie=/^ezopvc_/
 $cookie=/^ezoref_/
 $cookie=/^ezovuuid_/
 $cookie=/^ezovuuidtime_/
@@ -1371,7 +1373,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /analytics.google.js
 /analytics.html?
 /analytics.init.js
-/analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
+/analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net
 /analytics.js/v1/*
 /analytics.js?
 /analytics.json?
@@ -1985,6 +1987,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /click-logger.
 /click-stat.js
 /click-tracker
+/click.*/q/$image
 /click.cgi?callback=
 /click.email.$image
 /click.php?c=
@@ -2982,7 +2985,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /gtag.min.js
 /gtag/js?
 /gtagTracking/*
-/gtm-*.js$domain=livingtraditionally.com|myhealthgazette.com|kediportal.com|koinbulteni.com
+/gtm-*.js$domain=livingtraditionally.com|myhealthgazette.com|kediportal.com|koinbulteni.com|teknop.net
 /gtm-listeners.
 /gtm-tracking-events.
 /gtm.js
@@ -4779,6 +4782,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /static/analytics.js
 /static/cache.php?url=https://mc.yandex.com/metrika/*
 /static/cache/?url=https://mc.yandex.ru/*
+/static/js/analytics-helper.js
 /static/peg_utils/peg_logger$domain=parship.de|elitepartner.de
 /static/tracking/*
 /statistic/*&data=
@@ -6570,6 +6574,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||collect.igodigital.com/collect.js$domain=vitalsource.com
 @@||collect.igodigital.com/collect.js$domain=wilsonparking.com.au
 @@||collect.igodigital.com^$domain=m.harborfreight.com
+@@||collector-*.px-client.net/res/uc$domain=walmart.com
 @@||collector.appconsent.io/hello$domain=linternaute.com
 @@||collector.appconsent.io/save$domain=linternaute.com
 @@||collector.leaddyno.com/shopify.js$script,domain=s4l.us
@@ -8265,6 +8270,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||waitrosecellar.com^*/eventTracking-Cellar.js$domain=waitrosecellar.com
 @@||walmart.com/__ssobj/core.js
 @@||walmart.com/b/ss/
+@@||walmart.com/px/*/captcha/captcha.js
 @@||walmart.com^*/track?event=$xmlhttprequest
 @@||walmartimages.com/webanalytics/omniture/omniture.jsp$domain=walmart.com
 @@||walmartimages.com/webanalytics/wmStat/wmStat.jsp$domain=walmart.com
@@ -8650,7 +8656,8 @@ track.customer.io/e/o$image
 track.mixmax.com/api$image
 trackedlink.net$image
 tracking.cirrusinsight.com$image
-tweakers.net#%#//scriptlet('abort-current-inline-script', '_wtq', 'trackId')
+tweakers.net#%#//scriptlet('abort-current-inline-script', 'AbStats', 'trackId')
+tweakers.net#%#//scriptlet('abort-on-property-read', 'GlobalSnowplowNamespace')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'WebTrekkClickMap')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'snowplow')
 unilad.co.uk###sidebar > #text-64 > .block-title
@@ -8811,7 +8818,6 @@ znak.com##.relap
 ||404tracker.com^$third-party
 ||40nuggets.com^$third-party
 ||44-trk-srv.com^
-||44-trk-srv.com^$third-party
 ||44tele-infra.com^
 ||45.32.105.134^
 ||4de141c5-7211-4615-be13-b3774dde16f8.legaltile.com^
@@ -8886,7 +8892,6 @@ znak.com##.relap
 ||85st.com/static/js/logging.js
 ||88688.ru/api/geoip/
 ||88infra-strat.com^
-||88infra-strat.com^$third-party
 ||913nd.dieti-natura.es^
 ||9735476.sender.skyscanner.net^
 ||9735476.test.skyscanner.net^
@@ -9829,6 +9834,7 @@ znak.com##.relap
 ||adtraction.com^$third-party
 ||adtraxx.de^$third-party
 ||adtriba.com^$third-party
+||adult-trade.nl/lo/track.php
 ||adultblogtoplist.com^$third-party
 ||adultmastercash.com/e1.php$third-party
 ||adultvideotop.com/js/ga.js
@@ -13140,6 +13146,7 @@ znak.com##.relap
 ||cls.ichotelsgroup.com^
 ||cls7.theushuaiaexperience.com^
 ||clshkv.labirint.ru^
+||cltgtstor001.blob.core.windows.net^
 ||clubcollector.com^$third-party
 ||clubic.com/editorial/publier_count.php?
 ||clue6load.com^
@@ -15998,7 +16005,6 @@ znak.com##.relap
 ||eventapi.libring.com^
 ||eventapi.libring.com^$third-party
 ||eventcapture03.com^
-||eventcapture03.com^$third-party
 ||eventcom.api.np.km.playstation.net/event^
 ||eventful.com/apps/generic/$image,third-party
 ||eventgateway.soundcloud.com^
@@ -17422,7 +17428,6 @@ znak.com##.relap
 ||google.com/images/phd/gfl.gif
 ||google.com/images/phd/px.gif
 ||google.com/insights/$script
-||google.com/insights/$script,third-party
 ||google.com/log?
 ||google.com/reader/logging?
 ||google.com/stream_204?
@@ -28331,7 +28336,6 @@ znak.com##.relap
 ||somniture.lightingdirect.com^
 ||somniture.scotiabank.com^
 ||somniture.stuff.co.nz^
-||somniture.theglobeandmail.com^
 ||somniture.ventingpipe.com^
 ||somnivis.overstock.com^
 ||somt.honda.com^
@@ -29851,7 +29855,6 @@ znak.com##.relap
 ||support.ns1.twtelecom.net.daraz.com^
 ||support2.flex.com^
 ||supportlib-ln-1.net.daraz.com^
-||supportmetrics.apple.com/content/services/stats
 ||supportmetrics.apple.com^
 ||supportxmr.com^$third-party
 ||surace-jujitsu.fr/outils/compteur_php/
@@ -30052,7 +30055,7 @@ znak.com##.relap
 ||t.a3cloud.net^
 ||t.ac.pandora.com^
 ||t.adlpo.com^
-||t.afi-b.com^
+||t.afi-b.com^$third-party
 ||t.allmodern.com^
 ||t.ao.argyleforum.com^
 ||t.appsflyer.com^
@@ -30291,7 +30294,6 @@ znak.com##.relap
 ||target.ukr.net^
 ||targetfuel.com^$third-party
 ||targeting.*.arcpublishing.com^
-||targeting.perso.aws.arc.pub^
 ||targeting.tbt.arcpublishing.com^
 ||targeting.voxus.tv^
 ||targetix.net^$third-party
@@ -32234,7 +32236,6 @@ znak.com##.relap
 ||uh.nakanohito.jp^$third-party
 ||uhit.eu/id/$third-party
 ||uhygtf1.com^
-||uhygtf1.com^$third-party
 ||uhytajrtpo-a.akamaihd.net^
 ||ui-portal.com/1and1/mailcom/s?
 ||ui-portal.com^*;ns_referrer=
@@ -33515,7 +33516,6 @@ znak.com##.relap
 ||www.desrem.in^
 ||www.enterprises.proximus.be^
 ||www.google.*/imgevent?
-||www.google.*/imgevent?$script
 ||www.google.*/imghover?$image
 ||www.healthcare-distribution.com^
 ||www.hey.lt^$third-party
