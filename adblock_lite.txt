@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202105080123
+! Version: 202105090119
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19054
+! Lenth = 19060
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -8957,6 +8957,7 @@ zznews.cn##.ad:not([style])
 ||51cto.com/iframe/get-station-ads
 ||51cto.com/js/activity_pop.js
 ||51dengshan.cn^
+||51df7z.cn^
 ||51dianji.cn^
 ||51dmn.top^
 ||51elandt.com^
@@ -14084,6 +14085,7 @@ zznews.cn##.ad:not([style])
 ||jx.renrensousuo.com^
 ||jx118114.net^
 ||jxad.jx163.com^
+||jxaucs1802.cn^
 ||jxbtl.com^
 ||jxcn.cn/assets/images/downWeatherApp.png
 ||jxcn.cn/assets/js/dspshow.js
@@ -15027,6 +15029,7 @@ zznews.cn##.ad:not([style])
 ||mps.yuwenba.cn^
 ||mq.d6s3mov.cn^$third-party
 ||mql5.com/rq?
+||mrjfsc.cn^
 ||mrksys.com^
 ||ms.cnbanbao.com^
 ||ms758.com^
@@ -15968,6 +15971,7 @@ zznews.cn##.ad:not([style])
 ||qwddcwmwqiqwd18.cn^
 ||qwddcwmwqiqwd19.cn^
 ||qwddcwmwqiqwd20.cn^
+||qwddcwmwqiqwd21.cn^
 ||qwfknhc.cn^
 ||qwxcs.com^$third-party
 ||qx568.com^$popup
@@ -16061,6 +16065,7 @@ zznews.cn##.ad:not([style])
 ||rgdhct.cn^
 ||rh.qq.com^
 ||riaway.com/statics/idea.jpg
+||riccol.cn^
 ||ricqo.com^
 ||rigengjihua.cn/banner/
 ||right.com.cn/forum/static/image/common/logo*.gif
@@ -16900,7 +16905,6 @@ zznews.cn##.ad:not([style])
 ||tdain.com^
 ||tdayi.com^
 ||tdtsd.com^
-||tdtxt.net/js/baidu.js
 ||tdtxt.xyz/js/baidu.js
 ||teads.tv^$third-party
 ||tebaidu.cn^$third-party
@@ -17614,6 +17618,7 @@ zznews.cn##.ad:not([style])
 ||weike87.com/images/*0
 ||weike87.com/images/*1
 ||weikefanli.com^
+||weikeys.com/js/zt.js
 ||weilekangnet.com:59188/wz/dingpiao_
 ||weilekangnet.com:59188/wz/vod_shang.js
 ||weilekangnet.com:59188/wz/wz.js
@@ -18584,6 +18589,7 @@ zznews.cn##.ad:not([style])
 ||yuyanhe.com^
 ||yuyue008.cn^
 ||yvktmda.cn^
+||yvrpeky.cn^
 ||ywadf.cn^
 ||ywbwsm.com^
 ||ywjxsp168.cn^
