@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202105090119
+! Version: 202105100257
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21111
+! Lenth = 21116
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -409,6 +409,7 @@
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
 ##.ads-2
+##.ads-all
 ##.ads-content
 ##.ads-item
 ##.ads02
@@ -974,7 +975,6 @@ $script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=dybee.tv
 $script,third-party,domain=m.1kkk.com|m.dm5.com
-$script,third-party,domain=rijutv.com
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.net|torrentkitty.se|torrentkitty.tv
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
 $script,third-party,xmlhttprequest,domain=btsow.cam
@@ -2491,7 +2491,7 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.org,18comic.vip##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip##div[style^="position: fixed; top:"]
 18comic.org,18comic.vip##img[style*="300px"]
-18comic.org,18comic.vip,52movieba.com,5dm.tv,acglala.net,ainuody.com,awaker.cn,bimiacg.com,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.com,epinv.com,eroacg.com,galacg.me,gmgard.com,halitv.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.im,jitapu.com,jiyingw.net,kisssub.org,kuaikan33.com,languang.co,liuli.pw,malimali.cc,meijutt.tv,mikuclub.org,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,tingroom.com,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
+18comic.org,18comic.vip,52movieba.com,5dm.tv,acglala.net,ainuody.com,awaker.cn,bimiacg.com,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.com,epinv.com,eroacg.com,galacg.me,gmgard.com,halitv.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.im,jitapu.com,jiyingw.net,kisssub.org,kuaikan33.com,languang.co,liuli.pw,malimali.cc,meijutt.tv,mikuclub.org,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,tingroom.com,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
 18comic.vip##.bot-per
 18comic.vip##.modal-body > ul.pop-list
 18comic.vip##.top-a2db
@@ -2779,6 +2779,7 @@ $websocket,domain=5nj.com|cechi8.com
 40407.com,lzep.cn,qudong.com,xitong8.com,xt700.com##.top_banner
 423down.com##a[href^="https://mp.weixin.qq.com/"]
 423down.com##h3 > a[href^="https://mp.weixin.qq.com/s/"][target="_blank"] > span
+423down.com#?#li:-abp-has(> .pic[href^="http"]:not([href*="423down."]))
 42xz.com##.xzbox-lf > ul:not(:last-child)
 42xz.com##[onclick*="godownload"]
 42xz.com,kuhou.com,pcsoft.com.cn##.gsxz
@@ -3521,7 +3522,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||cdn.bcebos.com^*/$domain=jx.la
 @@||cdn.bootcss.com/fuckadblock/3.2.1/fuckadblock.min.js$domain=share1223.com
 @@||cdn.bootcss.com^$script,domain=59xs.com|biqudd.com|didaxiaoshuo.cc|geilwx.com|gll8.com|luoqiuzw.com|shudai.cc|xbiqugela.com|xhxswz.com|xsw55.net|ysxs8.com
-@@||cdn.bootcss.com^$script,domain=rijutv.com
 @@||cdn.doublemax.net/js/rwd_cap.js$domain=ibf.tw
 @@||cdn.jsdelivr.net^$script,domain=booksky.org
 @@||cdn.optimizely.com/js/*.js$domain=kktv.me
@@ -3529,7 +3529,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||cdn.sssam.com/static/js/*.js
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xs.com|31xiaoshuo.org|49zw.com|biququ.info|tsxsw.net|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=dybee.tv
-@@||cdn.staticfile.org^$script,domain=rijutv.com
 @@||cdndm5.com^$script,domain=m.1kkk.com|m.dm5.com
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.min.js$domain=linetv.tw
 @@||cgmodel.com/plugin/share/
@@ -9882,6 +9881,7 @@ zhangxinxu.com###topRecomm
 zhangxinxu.com##.col-aside
 zhangxinxu.com##.col-google
 zhangxinxu.com##.da_bottom
+zhangxinxu.com##.sldebar_out + *,style[id] + a[class]
 zhangxinxu.com##.top_da
 zhangxinxu.com##[class*="_block-"]
 zhangxinxu.com##[class*="bottom_"]
@@ -9897,7 +9897,6 @@ zhangxinxu.com##a[style^="background-image"]
 zhangxinxu.com##article > .link + :not(p)
 zhangxinxu.com##div[class^="top_da_out_"]
 zhangxinxu.com##div[style^="height: 300px;"]
-zhangxinxu.com##style[id] + a[class]
 zhangxinxu.com#?#.top_da_out
 zhanqi.tv###js-room-flash-banner-panel
 zhanqi.tv##.game-banner
@@ -11745,6 +11744,7 @@ zznews.cn##.ad:not([style])
 ||abc.hkepc.com^
 ||abc.hkepc.net^
 ||abc.rwpt.top^
+||abc88866.com^
 ||abcache.com/tg/
 ||abcache.com/xc/image/
 ||abcache.com/youlaohu/
@@ -11947,6 +11947,7 @@ zznews.cn##.ad:not([style])
 ||ahwczn.cn^
 ||ahyau.com^
 ||ahyuns.com^
+||ahzhongzhan.cn^
 ||ai.bioon.com^
 ||aiai123.cc/js/*.js
 ||aibangzs.com^
@@ -18947,6 +18948,7 @@ zznews.cn##.ad:not([style])
 ||tbaia.com^
 ||tbaocdn.com^
 ||tbcdn.cn/mm/tanxssp-custom/sina_
+||tc.18moe.net^
 ||tc600.com^
 ||tchep.com^
 ||tcmap.com.cn/js/b_
@@ -19510,6 +19512,7 @@ zznews.cn##.ad:not([style])
 ||vjcdn.com/wp-content/uploads/*640x200
 ||vjie.com^$third-party
 ||vjptye.cn^
+||vk920.com/img1/
 ||vk922.com/img/
 ||vk923.com/img/
 ||vkeke.net/public/agd
@@ -19870,6 +19873,7 @@ zznews.cn##.ad:not([style])
 ||www1.wxnmh.com^
 ||wwwbaiducom.xyz/4/js4/
 ||wwwcdn.kimiss.net/btn/
+||wwwlongjiekejijishu.com^
 ||wx.sina.com.cn/iframe/pdps/
 ||wxbdfm.com^
 ||wxbdwj.cn^
@@ -19901,6 +19905,7 @@ zznews.cn##.ad:not([style])
 ||x23qb.com/ak
 ||x23qb.com/skin/style
 ||x23qb.com/skin/themex.js
+||x23qb.com/skin/xiu.js
 ||x3cn.com/data/attachment/portal/*.gif
 ||x6img.com^$domain=picturedata.org
 ||x6z6.com^
