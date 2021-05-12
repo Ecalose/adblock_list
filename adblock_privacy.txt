@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202105110257
+! Version: 202105120205
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 34782
+! Lenth = 34789
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -6276,6 +6276,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||api.chartbeat.com^script,domain=financialpost.com|wcpo.com|couriermail.com.au|betabeat.com
 @@||api.curalate.com^$domain=potterybarn.com
 @@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp
+@@||api.cxense.com/public/widget/data?$domain=marketwatch.com
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
 @@||api.cxense.com/public/widget/data?json$domain=tn.com.ar
 @@||api.cxense.com/public/widget/data?json=$domain=lavoz.com.ar
@@ -6444,6 +6445,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cdn.cxense.com/cx.js$domain=lavoz.com.ar
 @@||cdn.cxense.com/cx.js$domain=stomp.com.sg
 @@||cdn.cxense.com/cx.js$domain=yenisafak.com
+@@||cdn.cxense.com^$script,domain=marketwatch.com
 @@||cdn.dimml.io/dimml.js$domain=consumentenbond.nl
 @@||cdn.dimml.io/static/*.js$domain=consumentenbond.nl
 @@||cdn.dynamicyield.com^$domain=dafiti.com.co
@@ -8313,6 +8315,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||wplogout.com/wp-content/uploads/*Google$image,~third-party
 @@||ws.skoda-auto.com/sap/*_piwik/Piwik.js
 @@||ws.webcaster.pro^$websocket
+@@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 @@||wwe.com/sites/all/modules/wwe/wwe_analytics/s_wwe_code.js
 @@||www.googletagmanager.com^$domain=onlineshop.smt.docomo.ne.jp
 @@||www.ups.com/WebTracking/processInputRequest
@@ -9858,6 +9861,7 @@ znak.com##.relap
 ||adtd.douglas.ch^
 ||adtd.douglas.de^
 ||adtd.douglas.pl^
+||adtector.com^$third-party
 ||adtelligence.de^$third-party
 ||adten.eu^$third-party
 ||adthletic.com^$third-party
@@ -10429,6 +10433,7 @@ znak.com##.relap
 ||analytics.edgekey.net^
 ||analytics.edgekey.net^$third-party
 ||analytics.edgesuite.net^
+||analytics.eggoffer.com^
 ||analytics.eip.telegraph.co.uk^
 ||analytics.electro-com.ru^$third-party
 ||analytics.elx.cloud^
@@ -10546,6 +10551,7 @@ znak.com##.relap
 ||analytics.ostr.io^
 ||analytics.ovh.com^
 ||analytics.paddle.com^
+||analytics.pagefly.io^
 ||analytics.performable.com^
 ||analytics.pgatour.com^
 ||analytics.photorank.me^
@@ -19739,6 +19745,7 @@ znak.com##.relap
 ||l.www.naver.com^
 ||l2.io/ip.js
 ||l2.io^$third-party
+||l2.revotas.com/trc/api/rvts*_tracker.js
 ||l2.visiblemeasures.com^$object,third-party
 ||l2k30jsa.theochu.com^
 ||la-sync.taboola.com^
