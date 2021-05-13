@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202105120205
+! Version: 202105130213
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19072
+! Lenth = 19076
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -7053,6 +7053,7 @@ tuwan.com##div[style$="height:90px;"]
 tuwan.com##div[style="width: 360px;margin-top:10px;"]
 tuyiyi.com###tuyiyi_zfb
 tv.52pili.com##.pic-box
+tv.ci##a[target="_blank"] > img[src^="https://cdn.jsdelivr.net/gh/dsx0095/img/"]
 tv.sohu.com###miaozhenad
 tv.sohu.com###referr_bd_box
 tvapk.net###frame5zglZ4
@@ -9874,6 +9875,7 @@ zznews.cn##.ad:not([style])
 ||afzhan.com/JavaScript/ad_Couplet.js
 ||ag1.zuszw.com^
 ||agilehw.online^
+||agjy6.com^
 ||agoda.com/Dynamic/index/
 ||agogo.tv/images//uploads/ad/
 ||agpligj.cn^
@@ -15140,6 +15142,7 @@ zznews.cn##.ad:not([style])
 ||myyxapp.com^$third-party
 ||myzk1.com^
 ||myzwqwe12.com^$third-party
+||mzbb8872.cn^
 ||mzhhdn.com/hongbao.jpg
 ||mzirmall.com^
 ||mzy2014.com^$third-party
@@ -16248,6 +16251,7 @@ zznews.cn##.ad:not([style])
 ||sdjjr.com^
 ||sdo.com/static/image/mkads/
 ||sdqoi2d.com^
+||sdweldrobot.cn^
 ||sdxctr.com^
 ||sdxkdj.cn^
 ||sdytsh.com^
