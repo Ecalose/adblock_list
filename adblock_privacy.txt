@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202105130213
+! Version: 202105140224
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 34798
+! Lenth = 34809
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -214,6 +214,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 &funnel_state=
 &http_referer=$script,xmlhttprequest,domain=~facebook.com
 &idsite=*&send_image=$image
+&mi_ecmp=
 &pageReferrer=
 &pagegroup=*&url=$script
 &ref=*&tag=
@@ -230,6 +231,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 -action/ping?
 -ad-targeting?
 -adobe-analytics.
+-adobeDatalayer_
 -ads-tracking-
 -ajax.php?action=ajax-hits-counter-
 -amp-error-reporting.
@@ -258,6 +260,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 -conversion-tracking-
 -criteo.
 -datacollection.
+-didomi.js
 -dspcookiematching.
 -dtaectolog-
 -event-tracking.
@@ -514,6 +517,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .klclick.com/$image
 .list-manage.com/track/
 .lms-analytics/
+.mailbutler.io/tracking/
 .maillist-manage.com/clicks/$image
 .me/geoip/
 .me/l.gif?
@@ -2433,7 +2437,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /dtmtag.js
 /dtrack.js
 /dtstats.
-/duracelltomi-google-tag-manager/*$script,domain=adexchanger.com|digiato.com|infosecinstitute.com
+/duracelltomi-google-tag-manager/*$script
 /dw-tracking-
 /dw/hit?
 /dwanalytics-
@@ -4602,6 +4606,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /shinystat_
 /shopify-boomerang-
 /shopify_stats.js
+/shoutout.wix.com/*$image
 /showcounter.
 /showcounter.$domain=~showcounter.com
 /showhits.php?
@@ -8075,6 +8080,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||store.drweb.ru^$cookie=guest_id
 @@||store.usps.com/media/js/metrics/metrics.js
 @@||stroeerdigitalgroup.de/metatag/live/bauer-autozeitung/metaTag.min.js$domain=autozeitung.de
+@@||stuttgarter-zeitung.de/cre-*/tracking/tracking.js
 @@||stylished.de/js/vendors/emos2.js$domain=stylished.de
 @@||sunday.de/skin/*/googleanalytics.js$script
 @@||sundaysky.com/sundaysky.js?$domain=lenovo.com
@@ -8538,6 +8544,7 @@ continentseven.com##.gaoop
 crimea-kurort.com#@#img[width="88"][height="31"]
 ctvnews.ca##img[alt="comscorebeacon"]
 customeriomail.com/e/o$image
+da-te.jp##.counter
 directtrack.*.js
 dizibey.com##.sidebar > #text-19
 dokonline.com###Counters
@@ -10443,6 +10450,7 @@ znak.com##.relap
 ||analytics.erepublic.com^
 ||analytics.explained-from-first-principles.com^
 ||analytics.facebook.com^$third-party
+||analytics.faceitanalytics.com^
 ||analytics.fairfax.com.au^$third-party
 ||analytics.favcy.com^
 ||analytics.faw.sky.com^
@@ -14582,6 +14590,7 @@ znak.com##.relap
 ||datasteam.io^$third-party
 ||dataunion.com.br^$third-party
 ||dataxpand.com^$third-party
+||datayi.cn^$third-party
 ||datehookup.com/strk/dateadvertreg?
 ||daten.union-investment.de^
 ||datum.appfleet.com^
@@ -14906,7 +14915,6 @@ znak.com##.relap
 ||digitalriver.com^*/globaltracking
 ||digitalspy.co.uk/gip1.php
 ||digitaltarget.ru^$third-party
-||digitiminimi.com^$third-party
 ||digitru.st^$third-party
 ||dignityhealth.hrm.healthgrades.com^
 ||dignow.org^$third-party
@@ -17331,6 +17339,7 @@ znak.com##.relap
 ||gigcount.com^$third-party
 ||gigya.com^*/cimp.gif?
 ||gim.co.il^$third-party
+||giocdn.com^$third-party
 ||giojhm.finya.de^
 ||giosg.com^*/public/trace/
 ||giphy.com/*/xhr/api/*/collector
@@ -19730,6 +19739,7 @@ znak.com##.relap
 ||l-tike.com/akam/$script
 ||l.aaxads.com/log^
 ||l.create.canva.com^
+||l.da-te.jp^
 ||l.email.livingsocial.co.uk^
 ||l.email.nxtwowcher.co.uk^
 ||l.email.wowcher.co.uk^
@@ -26753,7 +26763,6 @@ znak.com##.relap
 ||seelive.me/wau.php
 ||seemlysociety.com^$third-party
 ||seesaa.jp/ot_square.pl?
-||seesaa.jp^$third-party
 ||seesaawiki.jp/img/rainman.gif?
 ||seevolution.com^$third-party
 ||seewhy.com^$third-party
@@ -29653,6 +29662,7 @@ znak.com##.relap
 ||static.dditscdn.com/arms-datacollectorjs/
 ||static.gazeta.pl/info/http/xgemius-min.jsgz
 ||static.hankyung.com/js/ga/googleTagManager.js
+||static.herr.io^$third-party
 ||static.iqiyi.com/js/pingback/
 ||static.karte.io^$third-party
 ||static.klaviyo.com/onsite/js/klaviyo.js
@@ -30017,6 +30027,7 @@ znak.com##.relap
 ||stats.proff.no^
 ||stats.propublica.org^
 ||stats.pselookup.vrymel.com^
+||stats.pstream.net^
 ||stats.pusher.com^
 ||stats.qawl.app^
 ||stats.qbitstore.nl^

@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202105130213
+! Version: 202105140224
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19076
+! Lenth = 19083
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -4292,6 +4292,7 @@ hao123.com##.mp-app-ad
 hao123.com##.navrecommend-hjw
 hao123.com##.navrecommend-top
 hao123.com##.newskin-tip
+hao123.com##.product-banner-wrap
 hao123.com##.recommend-link
 hao123.com##.sc-tips
 hao123.com##.siye
@@ -4304,6 +4305,7 @@ hao123.com##.widget-hlbar > span
 hao123.com##.widget-topbanner
 hao123.com##.wm
 hao123.com##a[class^="gameyixing-link-"]
+hao123.com##div[alog-alias="hot-goods"]
 hao123.com,jiegeng.com###siye
 hao123.com,jiegeng.com##.rightTip
 hao123.com,sohu.com,tieba.baidu.com##.advertise
@@ -5031,6 +5033,7 @@ jiankang.com##.three_hot
 jianshen114.com##.index_temp
 jianshu.com###note-fixed-ad-container
 jianshu.com###web-note-ad-1
+jianshu.com##.self-flow-ad
 jianshu.com##.top
 jianshu.com##section[aria-label="jianshu-ad"]
 jianshu.com#?#div[id]:-abp-has(> .ad-badge)
@@ -10066,6 +10069,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/kf/Ucdaf8165ce43491681d63dc26ecf5d75l.jpg
 ||alicdn.com/kf/Ucdb60470db0f4e2ca6a52706ec252313S.jpg
 ||alicdn.com/kf/Ud73197247afc4a8598f62d3aeb9b9b56K.jpg
+||alicdn.com/kf/Ue69786430095482ba55b38ae31ee44e7I.jpg
 ||alicdn.com/kf/Ufb1c57128ee14e7d88841812d0d280abo.gif
 ||alicdn.com/kf/Ufd682a9d70524fc895a0059f276998196.jpg
 ||alicdn.com/mtb/lib-smartbanner-
@@ -10898,6 +10902,7 @@ zznews.cn##.ad:not([style])
 ||c.tvsou.com^
 ||c.tysjkw.cn^$third-party
 ||c1.4qx.net^
+||c1.chajiaotong.com^
 ||c1.china.cn^
 ||c114.com.cn/default_inc/a/images/
 ||c114.com.cn/js/channel.js
@@ -12872,6 +12877,7 @@ zznews.cn##.ad:not([style])
 ||haichengdzsp.com^
 ||haidaocn.com^
 ||haireig.com^
+||haishengwh123.cn^
 ||haituie.com^*.gif
 ||haiwainet.cn*/k.js
 ||haiwaiyy.com/B970X90.gif
@@ -16951,6 +16957,7 @@ zznews.cn##.ad:not([style])
 ||theta.sogoucdn.com^
 ||thetestpage.39.net^
 ||thindsoo.cn^
+||this-is-living.cn^
 ||thisav.com/0*.js
 ||thisav.com/index.js
 ||thisav.com/nb/
