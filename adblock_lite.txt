@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202105150228
+! Version: 202105160218
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19091
+! Lenth = 19100
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -276,6 +276,7 @@
 159i.com###header + div > style + div[class]
 159i.com###sop > div:first-child
 159i.com###top > div[class]:first-child
+159i.com##.a1.style25
 159i.com##.a1d
 159i.com##.a2.style25
 159i.com##.a2d
@@ -1036,7 +1037,9 @@
 920share.com###layui-layer1
 92wy.com##.adhengfu
 9312.net##.pop-up
+939394.org###left_layer
 939394.org##.j_r_ad
+939394.org##.submenu > a
 95ziyuan.cn##.jiuwu
 962.net##.g-962-ad
 96weixin.com###lifelong
@@ -1217,7 +1220,7 @@
 @@/pic/ad/*$domain=ybjk.com
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
-@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|imooc.com|modian.com|shanbay.com|tianyancha.com
+@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share/js/*$domain=yunpanjingling.com
 @@/show_ad_$domain=wb.qq.com
@@ -1560,6 +1563,7 @@
 @@||doubleclick.net/gpt/pubads_impl$domain=www.gamer.com.tw
 @@||doubleclick.net/gpt/pubads_impl_$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@||doubleclick.net/instream/ad_status.js$domain=investing.com
+@@||douyucdn.cn^*-share-master/
 @@||down.cc/down/js/ad.js
 @@||download.mokeedev.com^$genericblock,generichide
 @@||dqzsteel.com/Website/Image/guanggao/
@@ -10803,6 +10807,7 @@ zznews.cn##.ad:not([style])
 ||bp.blogspot.com^$domain=avmimi.com
 ||bp.blogspot.com^*/s1600/dealer
 ||bpdffh.cn^
+||bpimg.com/4851/19f7543667f26682.jpg
 ||bqhnj.cn^
 ||bqiapp.com/api/config/ad?
 ||braincf.com^
@@ -12326,6 +12331,7 @@ zznews.cn##.ad:not([style])
 ||file.ws.126.net/house/nj/*.swf
 ||files.jb51.net/image/
 ||findx2.info^
+||fintechpi.com^
 ||firefoxchina.cn/2014/*_foxphone.png
 ||firefoxchina.cn/chome_pmt_
 ||firefoxchina.cn/img/201912/7_5de5c6289dd340.png
@@ -14104,6 +14110,7 @@ zznews.cn##.ad:not([style])
 ||jxcn.cn/assets/images/downWeatherApp.png
 ||jxcn.cn/assets/js/dspshow.js
 ||jxcn.cn/js/hotpic_
+||jxczy.cn^
 ||jxdown.com/statics/js/all.js
 ||jxdown.com^$third-party
 ||jxdzoy.cn^
@@ -14476,6 +14483,7 @@ zznews.cn##.ad:not([style])
 ||lfdydk.com^
 ||lflili.com^
 ||lflucky.com^
+||lfsenmei.com^
 ||lfzxcp.com^
 ||lgjygg.com^
 ||lglady.cn^
@@ -17637,6 +17645,7 @@ zznews.cn##.ad:not([style])
 ||wei2008.com/js/t_
 ||wei2008.com/skin/js/top.js
 ||weidehuagong.com^
+||weidianyuedu.com^$third-party
 ||weifengtianxia.com^
 ||weiguanwang888.com^
 ||weihaojiaju.com/tu888/
