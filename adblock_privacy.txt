@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202105160218
+! Version: 202105170244
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 34817
+! Lenth = 34822
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1993,7 +1993,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /click-logger.
 /click-stat.js
 /click-tracker
-/click.*/q/$image
+/click.*/q/*$image
 /click.cgi?callback=
 /click.email.$image
 /click.php?c=
@@ -2520,8 +2520,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /endpoint/stats.
 /engine/ping?
 /ent_counter?
-/entry.count.image?
-/entry.count?
 /entry_stats?
 /envoy.sb?sbaid
 /eo?_t=$image
@@ -6286,6 +6284,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||api.curalate.com^$domain=potterybarn.com
 @@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp
 @@||api.cxense.com/public/widget/data?$domain=marketwatch.com
+@@||api.cxense.com/public/widget/data?$script,domain=wpb.shueisha.co.jp
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
 @@||api.cxense.com/public/widget/data?json$domain=tn.com.ar
 @@||api.cxense.com/public/widget/data?json=$domain=lavoz.com.ar
@@ -6453,6 +6452,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||cdn.cxense.com/cx.js$domain=itmedia.co.jp
 @@||cdn.cxense.com/cx.js$domain=lavoz.com.ar
 @@||cdn.cxense.com/cx.js$domain=stomp.com.sg
+@@||cdn.cxense.com/cx.js$domain=wpb.shueisha.co.jp
 @@||cdn.cxense.com/cx.js$domain=yenisafak.com
 @@||cdn.cxense.com^$script,domain=marketwatch.com
 @@||cdn.dimml.io/dimml.js$domain=consumentenbond.nl
@@ -7265,6 +7265,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
+@@||googletagmanager.com/gtm.js$script,domain=dpoint.jp
+@@||googletagmanager.com/gtm.js$script,domain=maidonanews.jp
 @@||googletagmanager.com/gtm.js$script,domain=olx.ro
 @@||googletagmanager.com/gtm.js$script,domain=telia.no
 @@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
@@ -7883,7 +7885,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||rtoaster.jp^$domain=3ple.jp
 @@||rtoaster.jp^$domain=attenir.co.jp
 @@||rtoaster.jp^$script,domain=animate-onlineshop.jp|brainpad.co.jp|lexus.jp|peachjohn.co.jp|rurubu.jp|shop.hikaritv.net|melonbooks.co.jp
-@@||rtoaster.jp^$script,domain=melonbooks.co.jp
+@@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||rules.atgsvcs.com/EERules/view/$domain=lenovo.com
 @@||rum.perfops.net/rum.min.js$script,domain=cdnperf.com
@@ -7914,6 +7916,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||sb.scorecardresearch.com/beacon.js$domain=velocity.com
 @@||sbg.hit.gemius.pl/gplayer.js$domain=play.nova.bg
 @@||scdn.cxense.com/cx.cce.js$domain=pcgames.de
+@@||scdn.cxense.com/cx.cce.js$domain=wpb.shueisha.co.jp
 @@||scdn.cxense.com/cx.cce.js$domain=wsj.com
 @@||scdn.cxense.com/cx.js$domain=13.cl
 @@||scdn.cxense.com/cx.js$domain=atmarkit.co.jp
@@ -18535,6 +18538,7 @@ znak.com##.relap
 ||imagetwist.com/?op=
 ||imaipn.themarket.com^
 ||imcht.net^$third-party
+||imdb.com/api/_ajax/metrics/
 ||imdb.com/rd/?q
 ||imdb.com/tr/
 ||imdb.com/tr/?
@@ -21439,6 +21443,7 @@ znak.com##.relap
 ||medals.bizrate.com^$third-party
 ||medhyg.actonservice.com^
 ||media-allrecipes.com/assets/deployables/*/analytics.bundled.js
+||media-amazon.com/images/S/sash/$domain=imdb.com
 ||media-imdb.com/*/js/ads/beacon-
 ||media-imdb.com/images/*/imdbads/js/beacon-$script
 ||media-imdb.com/twilight/?
