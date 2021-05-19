@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202105180203
+! Version: 202105190201
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 35120
+! Lenth = 35138
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -755,6 +755,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /CountContent?
 /Counter.ashx?
 /Counter.woa/*
+/CoveoForSitecore.
 /CreateAnalytics.js
 /CreateCookieSSO_
 /CreateVIDCookie.aspx?
@@ -4181,6 +4182,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /plog?id
 /pluck-tracking.
 /plugin/trackEvents.
+/plugins/aurora-heatmap$stylesheet,script
 /plugins/catman/*
 /plugins/exactmetrics-
 /plugins/stat-dfp/*
@@ -5028,6 +5030,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /thirdPartyTags.js
 /thirdPartyTagscachebuster.js
 /thirdpartyCookie.
+/thixel.js
 /thuzianayltics.
 /ti.gif?slotid=
 /tiara/tracker/*
@@ -5200,6 +5203,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /track_visitor?
 /track_yt_vids.
 /trackad.
+/trackad.$third-party
 /trackalyze/*$script
 /trackconversion?
 /tracker-config.js
@@ -5698,7 +5702,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /vmtracking.
 /vpstats.
 /vptrack_
-/vrbo-analytics.
 /vs-track.js
 /vs.gif?
 /vs/track.
@@ -7267,6 +7270,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
 @@||googletagmanager.com/gtm.js$script,domain=dpoint.jp
+@@||googletagmanager.com/gtm.js$script,domain=kanaloco.jp
 @@||googletagmanager.com/gtm.js$script,domain=maidonanews.jp
 @@||googletagmanager.com/gtm.js$script,domain=olx.ro
 @@||googletagmanager.com/gtm.js$script,domain=telia.no
@@ -7409,7 +7413,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||iocdn.coremetrics.com^*.js?V=$script,domain=adidas.de
 @@||iocdn.coremetrics.com^*/io_config.js?ts=$domain=24ace.co.uk
 @@||iocdn.coremetrics.com^*/io_config.js?ts=$domain=adidas.de
-@@||ipapi.co/json/$xmlhttprequest,domain=audius.co
+@@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipcheck.tmgrup.com.tr/ipcheck/get$domain=atv.com.tr
 @@||ipcheck.tmgrup.com.tr/ipcheck/get$domain=sabah.com.tr
 @@||ipcheck.tmgrup.com.tr/ipcheck/getcountry?json=$xmlhttprequest,domain=ahaber.com.tr
@@ -7886,7 +7890,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||rtl.nl/system/s4m/xldata/get_comscore.js?
 @@||rtoaster.jp^$domain=3ple.jp
 @@||rtoaster.jp^$domain=attenir.co.jp
-@@||rtoaster.jp^$script,domain=animate-onlineshop.jp|brainpad.co.jp|lexus.jp|peachjohn.co.jp|rurubu.jp|shop.hikaritv.net|melonbooks.co.jp
+@@||rtoaster.jp^$script,domain=animate-onlineshop.jp|brainpad.co.jp|hikaritv.net|lexus.jp|peachjohn.co.jp|rurubu.jp|melonbooks.co.jp
+@@||rtoaster.jp^$script,domain=kanaloco.jp
 @@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||rules.atgsvcs.com/EERules/view/$domain=lenovo.com
@@ -8532,6 +8537,7 @@ artmoney.ru##a[href^="http://www.one.ru"]
 artmoney.ru##noindex > a
 automesseweb.jp#?##_popIn_ranking:upward(.code_php_in_widget)
 beauty.ua##.footer-counters
+biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 bl-1.com$image
 blogovo.ru##.metrika_sapaclick
 business.nikkei.com##.cbCxense
@@ -8615,6 +8621,7 @@ lurkmo.re,lurkmore.to###p-counters
 luxhard.com#?##sidebar-primary > .widget-container:has(a[href^="https://metrika.yandex.ru/stat/"])
 m.lenta.ru##.b-footer_counters
 m24.ru##.b-counters > ul
+mag.osdn.jp##div[id^="logly-lift-"]
 mailfoogae.appspot.com$image
 mailstat.us/tr$image
 mailtrack.io/trace/$image
@@ -10348,6 +10355,7 @@ znak.com##.relap
 ||analytic.press^
 ||analytic.rocks^
 ||analytic.rocks^$third-party
+||analytic.rollout.io^
 ||analytic.surfline.com^
 ||analytic.underarmour.com^
 ||analytic.xingcloud.com^$third-party
@@ -10502,6 +10510,7 @@ znak.com##.relap
 ||analytics.ghostery.com^$subdocument,domain=www.ghostery.com
 ||analytics.global.sky.com^
 ||analytics.go.com^
+||analytics.google.com/g/collect?*&tid=
 ||analytics.google.com/g/collect?v=
 ||analytics.gorillanation.com^
 ||analytics.greensender.pl^$third-party
@@ -16477,6 +16486,7 @@ znak.com##.relap
 ||f-emc.ngsp.gov.vn^
 ||f-secure.com^*/wtsdc.js
 ||f.email.bjs.com^*/1x2.gif
+||f.schemeflood.com^
 ||f.staticlp.com^
 ||f.zgbmw.com.cn^$third-party
 ||f0nn.oney.fr^
@@ -20647,6 +20657,7 @@ znak.com##.relap
 ||logs.juspay.in
 ||logs.naukri.com^
 ||logs.ntvplus.tv^
+||logs.psm.wmcdp.io^
 ||logs.psm.wmcdp.io^$third-party
 ||logs.ptable.com^
 ||logs.roku.com^
@@ -20915,6 +20926,7 @@ znak.com##.relap
 ||manager-magazin.de/static/sys/pixel.gif
 ||mandatebright.club^
 ||mandrillapp.com/track/
+||mangapedia.com/js/abb.
 ||mango.seloger.com^
 ||mangomolo.com/tracking/
 ||maniacalappliance.com^$third-party
@@ -24847,6 +24859,7 @@ znak.com##.relap
 ||play.googleapis.com/log|
 ||play.googleapis.com/play/log^
 ||play.mix.kinostuff.com^
+||play.tv3.lt/static/scripts/trackdb/events.gif$image,redirect=1x1-transparent.gif
 ||playboy.com/libs/analytics/
 ||playbrain.io/analytics/
 ||playdom.com/affl/show_pixel?
@@ -25084,7 +25097,9 @@ znak.com##.relap
 ||privacy-api.9gag.com^
 ||privacy-center.org^*/events
 ||privacy-policy.truste.com^$third-party
+||privacy.outdoorsg.com^
 ||privacy.www.nu.nl/pixel^
+||privacycounter.com^$third-party
 ||privacytool.org/AnonymityChecker/js/fontdetect.js$third-party
 ||private.r-hx-1.net.daraz.com^
 ||privatecar31.net.daraz.com^
@@ -25296,6 +25311,7 @@ znak.com##.relap
 ||pwrlkyotm.com^$third-party
 ||px-cdn.net/*main.min.js
 ||px-cdn.net/b/s
+||px-cdn.net^*/collector
 ||px-cloud.net^
 ||px-cloud.net^$third-party
 ||px.derstandard.at^
@@ -30299,6 +30315,7 @@ znak.com##.relap
 ||stats.pixify.net^
 ||stats.pixyship.com^
 ||stats.planillaplus.com^
+||stats.podcastwebsites.com^
 ||stats.polekatfitness.com^
 ||stats.polldaddy.com^
 ||stats.popcap.com^
@@ -32225,6 +32242,7 @@ znak.com##.relap
 ||trackcommon.hujiang.com^
 ||trackconsole.com^$third-party
 ||trackcustomer.laredoute.com^$image
+||trackdb.go3.tv^
 ||trackdiscovery.net^$third-party
 ||trackeame.com^$third-party
 ||trackedlink.net^$third-party
