@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202105190201
+! Version: 202105200202
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21202
+! Lenth = 21211
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -846,6 +846,7 @@
 ##a[href*="/111.231.78.194/"]
 ##a[href*="/170hth.com/"]
 ##a[href*="/171hth.com/"]
+##a[href*="/182hth.com"]
 ##a[href*="/3337818.com/"]
 ##a[href*="/33hth.cn"]
 ##a[href*="/602034.com"]
@@ -863,6 +864,7 @@
 ##a[href*="/hth567.cn"]
 ##a[href*="/l1y5.com"]
 ##a[href*="/l1y9.com"]
+##a[href*="/ly1111.vip"]
 ##a[href*="/ly288.net"]
 ##a[href*="/md0c.oss-cn-beijing.aliyuncs.com/"]
 ##a[href*="/mda1.site/"]
@@ -986,10 +988,10 @@ $script,third-party,domain=512539700c.top|ahri-hentai.com
 $script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.supfree.net|wltmv.com|xiepp.com
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=dybee.tv
-$script,third-party,domain=m.1kkk.com|m.dm5.com
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.net|torrentkitty.se|torrentkitty.tv
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
 $script,third-party,xmlhttprequest,domain=btsow.cam
+$script,third-party,xmlhttprequest,domain=btsow.digital
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
 $webrtc,domain=avgle.com
 $websocket,domain=5nj.com|cechi8.com
@@ -3547,7 +3549,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||cdn.sssam.com/static/js/*.js
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xs.com|31xiaoshuo.org|49zw.com|biququ.info|tsxsw.net|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=dybee.tv
-@@||cdndm5.com^$script,domain=m.1kkk.com|m.dm5.com
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.min.js$domain=linetv.tw
 @@||cgmodel.com/plugin/share/
 @@||changyan.sohu.com/debug/cookie?
@@ -3913,6 +3914,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=battlecats-db.com|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|haoweichi.com|it365.abctool.info|logi.im|monnsutogatya.com|numberempire.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|wenxuecity.com|yabook.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=xiebruce.top
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
@@ -7375,6 +7377,7 @@ laohu8.com##.app-button
 laohu8.com##.top-recommend
 laohu8.com#@#.tweet-article
 laosiji.com#@#.sns-wrapper
+laowang.vip###frameYl5IOf
 laozuo.org##.s_ad125
 las.ac.cn###img
 lawtv.com.cn##div[style=" width:664px; height:260px;  margin-top:10px;"]
@@ -9619,6 +9622,7 @@ xici.net##.banners-slide
 xici.net##.doc_tl
 xici.net##.msgl_ad
 xici.net##td.doc_sign
+xiebruce.top#%#//scriptlet("prevent-addEventListener", "", "showRemoveAdBlocker")
 xigua110.com##.ui-detail + .ui-detail-info
 xijucn.com###topc
 xilinjie.com##.xlj-sponsors
@@ -16244,6 +16248,7 @@ zznews.cn##.ad:not([style])
 ||k9dzax.cn^
 ||ka12138.top^
 ||ka5188.com^
+||kagdf.com^
 ||kaihutai.cn^
 ||kaipuyun.cn/count/
 ||kaixin001.com.cn/js/cpm-
@@ -17074,6 +17079,7 @@ zznews.cn##.ad:not([style])
 ||miyaluorenliziuan.cn^
 ||mjita.cn^
 ||mjtowot.cn^
+||mjvmypr.cn^
 ||mjx123.com^
 ||mkaqh.cn^
 ||mkd88.cc/16.32.jpg
@@ -17585,6 +17591,7 @@ zznews.cn##.ad:not([style])
 ||p8u.hinet.net^
 ||pababy.cn^$third-party
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication-adsbygoogle,domain=youneed.win
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=xiebruce.top
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,important,domain=haoweichi.com
 ||pagechoice.net^$third-party
 ||panc.cc/uploads/hongbao.png
@@ -20216,6 +20223,7 @@ zznews.cn##.ad:not([style])
 ||xmtsyg.com^
 ||xmxxwl.com^
 ||xmysinter.com^
+||xmzwdgm.com^
 ||xn--2qu92fhtx4ff.icu^
 ||xn--2qu92fhtx4ff.ink^
 ||xn--2qu92fhtx4ff.ren^
@@ -20579,6 +20587,7 @@ zznews.cn##.ad:not([style])
 ||ylnet.com.cn/dl*.js
 ||ylnet.com.cn/gj.js
 ||ylnet.com.cn/inc/ad$subdocument
+||ylppppp.cn^
 ||ylykd.cn^
 ||ylzx.net^$third-party
 ||ymcqb.com^
