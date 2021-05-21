@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202105200202
+! Version: 202105210206
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 35163
+! Lenth = 35169
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -3724,7 +3724,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /monitor_analytic.
 /monitus.js
 /monsido.js
-/mooc/controllers/course_ajax.php
 /moose-track.
 /morega.js
 /mormont.js
@@ -7772,6 +7771,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||pbskids.org/js/ga-current.js
 @@||pcworldcommunication.d2.sc.omtrdc.net/b/ss/$domain=techhive.com
 @@||pdrnetwork.112.2o7.net/b/ss/pdrnetworkpdrnetprod/
+@@||personaclick.com^$domain=skechers.com.tr
 @@||picsearch.com/js/comscore.js$domain=dn.se
 @@||pillsbury.com/Shared/StarterKit/Javascript/UnicaTag.js
 @@||pillsbury.com/Shared/StarterKit/Javascript/ntpagetag.js
@@ -7844,7 +7844,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
 @@||quantcast.mgr.consensu.org/tcfv2/cmp2.js$script,domain=cnews.fr
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|cyclingnews.com|digitalcameraworld.com|einthusan.tv|f1aldia.com|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cyclingnews.com|digitalcameraworld.com|einthusan.tv|f1aldia.com|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|caranddriver.com|g4tv.com|nymag.com|salon.com|theblaze.com
 @@||quattroruote.it^*/webtrekk_mediaTracking.min.js$script,~third-party
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=lanacion.com.ar
@@ -7904,6 +7904,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||rv.treehousei.com/prm/js/*/public.min.js$domain=partnerportal.fortinet.com
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
 @@||s-sfr.fr/stats/header.js$script,domain=sfr.fr
+@@||s.go-mpulse.net/boomerang/$domain=royalmail.com
 @@||s.imgur.com/min/px.js$domain=imgur.com
 @@||s.visilabs.net/Target.js^$domain=boyner.com.tr
 @@||s.visilabs.net/Target.js^$domain=evidea.com
@@ -8151,6 +8152,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||tags.tiqcdn.com/utag/tegna^$domain=kvue.com
 @@||tags.w55c.net/rs?*&t=marketing$image
 @@||takeda.com.dxcloud.episerver.net^$domain=takeda.com
+@@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
 @@||taximaxim.com/assets/*/fingerprint2.min.js
 @@||tc.bankofamerica.com/c?
@@ -8700,8 +8702,8 @@ trackedlink.net$image
 tracking.cirrusinsight.com$image
 tweakers.net#%#//scriptlet('abort-current-inline-script', 'AbStats', 'trackId')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'GlobalSnowplowNamespace')
-tweakers.net#%#//scriptlet('abort-on-property-read', 'WebTrekkClickMap')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'snowplow')
+tweakers.net#%#//scriptlet('set-constant', 'WebTrekkClickMap', 'noopFunc')
 unilad.co.uk###sidebar > #text-64 > .block-title
 uniongang.net##a[href^="http://whos.amung.us/stats/"]
 uniongang.org#?#td[align="center"][height="27"]:contains(Счётчики)
@@ -9971,7 +9973,6 @@ znak.com##.relap
 ||aero.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||aesus.so-net.ne.jp^
 ||aetv.hb-api.omtrdc.net^
-||aevents.izooto.com^
 ||af-event-logger.appsflyer.com^
 ||af-z.jp^$third-party
 ||af.analytics.elx.cloud^$domain=arbetsformedlingen.se
@@ -10333,6 +10334,7 @@ znak.com##.relap
 ||an.worldbaseballclassic.com^
 ||an.yandex.ru/count/
 ||an.yandex.ru^
+||ana.mediable.info^
 ||ana.tv5unis.ca^
 ||analdin.com/de/player/html.php
 ||analdin.com/js/analytics.js
@@ -10456,6 +10458,7 @@ znak.com##.relap
 ||analytics.ceneo.pl^
 ||analytics.cervellio.com^
 ||analytics.chase.com^
+||analytics.chegg.com^
 ||analytics.churchthemes.com^
 ||analytics.cibc.com^
 ||analytics.cibcrewards.com^
@@ -11958,6 +11961,8 @@ znak.com##.relap
 ||bilanx.dcard.tw/*/configs
 ||bilanx.dcard.tw/*/events
 ||bilanx.dcard.tw^*/events
+||bilanx.dtto.com/*/configs
+||bilanx.dtto.com/*/events
 ||bild.de/code/jiffy,*.js
 ||bild.de/code/linktracking,*.js
 ||bild.de/code/webtrekk-core*.bild.js
@@ -12590,6 +12595,7 @@ znak.com##.relap
 ||campaign.onetrust.com^
 ||campaign.ruukki.com^
 ||campaigncog.com^$third-party
+||campaigns-collector.albacross.com^$third-party
 ||campaigns.amadeus.com^
 ||campaigns.cm.be^
 ||campaigns.husky.ca^
@@ -16321,7 +16327,6 @@ znak.com##.relap
 ||events.guesttoguest.com^
 ||events.il.fi^
 ||events.ingatlan.com^
-||events.izooto.com^
 ||events.jora.com^
 ||events.jotform.com^
 ||events.kaloo.ga^$third-party
@@ -16375,7 +16380,6 @@ znak.com##.relap
 ||evnt.iol.it^
 ||evri.com/analytics/
 ||evt.collarity.com^$image
-||evt.izooto.com^
 ||evyy.net^$third-party
 ||ew3.io^$third-party
 ||ewaline.su/stats.js
@@ -17819,6 +17823,7 @@ znak.com##.relap
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=dafiti.com.co
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=game8.jp
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=pcmag.com,important
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=skechers.com.tr
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=store.line.me
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=straitstimes.com
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=suwen.com.tr
@@ -23313,6 +23318,7 @@ znak.com##.relap
 ||netzero.net/account/event.do?$image
 ||netzstat.ch^$third-party
 ||neulion.vo.llnwd.net^*/track.js
+||new-collect.albacross.com^$third-party
 ||newatlas.com/_track
 ||newbie.dk/topref.php?
 ||newbie.dk^*/counter.php?
