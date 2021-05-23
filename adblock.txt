@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202105220210
+! Version: 202105230246
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21239
+! Lenth = 21258
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -823,6 +823,7 @@
 ##a[href*=".tbb168.com"]
 ##a[href*=".tduou.com/"]
 ##a[href*=".tea123.me"]
+##a[href*=".thejierou.net"]
 ##a[href*=".tnelb.xyz/"]
 ##a[href*=".ttz5.cn"]
 ##a[href*=".tudown.com/"]
@@ -857,6 +858,7 @@
 ##a[href*="/Register?a="]
 ##a[href*="/aiyoubet178.com/"]
 ##a[href*="/ayx600.com/"]
+##a[href*="/ayxbet846.vip"]
 ##a[href*="/cslpldyc.me"]
 ##a[href*="/du505.com"]
 ##a[href*="/htbet1536.com"]
@@ -1036,6 +1038,7 @@ $websocket,domain=5nj.com|cechi8.com
 .cn/showpage.asp?u=$script,third-party
 .cn/v/*.xmtl?$third-party
 .cn/vs.php?id=$script,third-party
+.cn^*/1.js?r=
 .co/ads/
 .co/js/ads/
 .com*/ps/psCreat.js
@@ -1256,6 +1259,7 @@ $websocket,domain=5nj.com|cechi8.com
 /104_150/1360_1|
 /11431a7ff0f5.swf$domain=tieba.baidu.com
 /160_600_
+/168modelBudai51.
 /1982/java/static/js/*headad.js
 /1MObaudu.$script,xmlhttprequest
 /1linbAte_mplatk/*
@@ -1301,6 +1305,7 @@ $websocket,domain=5nj.com|cechi8.com
 /9CCMSPC/images/*.gif
 /:[0-9]{4,6}\/[a-z]{2}\/[a-z]-[0-9]{2,4}-[0-9]{2,3}-[0-9]\.html/$subdocument,third-party
 /:[0-9]{4,6}\/[a-z]{2}\/[a-z]-[0-9]{2,4}-[0-9]{2,3}\.js/$script,third-party
+/A-duoduo/Add-
 /AD2v1.1.js
 /AShow.aspx?AID=
 /AdPreview/*
@@ -3382,6 +3387,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||88box.com/images/ad_images/
 @@||8ox.cn/pge/?s=$script,domain=dlkoo.cc
 @@||930mh.com/js/config.js
+@@||939394.org/ad-blocker.js
 @@||95306.cn/public/images/ad/
 @@||95504.net/Advertisement_
 @@||95599.cn^*ad
@@ -4891,6 +4897,7 @@ btime.com###ad_full_button_placehoder
 btime.com###download
 btime.com##.shop-guid
 btime.com##.top-bar
+btmulu.com#?#.item:-abp-has(> a[target="_blank"])
 btring.com##div[style="margin: 10px 0px;"]
 btring.com##img[style="width: 25%"]
 bttop.net###top_bottom + div[style="float:left;width:100%;"]
@@ -7028,6 +7035,7 @@ ithome.com##a[href="/html/363216.htm"]
 ithome.com##a[href^="http://e.cn.miaozhen."]
 ithome.com##div[style^="width:960px;height:60px;"]
 ithome.com#$?#.t-b.sel > ul.nl > li:has(> a[href*="/lapin."]) { remove: true; }
+ithome.com#?#.bl > li:has(> a[href*="/lapin."])
 ithome.com#?#.placeholder:-abp-has(> a > .plc-con > .plc-footer > .tip-gray)
 ithome.com#?#li:-abp-has(>.block a[href*="/lapin."])
 ithome.com,zhihu.com##.AdblockBanner
@@ -7221,6 +7229,8 @@ jsphp.net##.adleft-wrap
 jsphp.net##.rightAdBtm-wrap
 jsphp.net##.widget_tuijian
 jspoo.com##img[id^="float_img_"]
+jsr9.com##.vod-gd
+jsr9.com##div[onclick*="location"]
 jstv.com###vplayad
 jstv.com##.TuiGuang
 jstv.com##.jadv
@@ -12041,6 +12051,7 @@ zznews.cn##.ad:not([style])
 ||aixifan.com/apsdk/apsdk.js
 ||aixifan.com/cms/*/w/1160/h/100
 ||aixifan.com/static/*/appGuide/
+||aixuyoupin.cn^
 ||aiyidu.com/aiyidu/adver/
 ||aiyuke.com/position_js*_*_
 ||aiyyu.com^
@@ -12887,6 +12898,7 @@ zznews.cn##.ad:not([style])
 ||bootcss.com^$domain=diyifuli.top|idaohang.top|ifulione.com|onedh.xyz
 ||bosatria.cn^
 ||bosiwangzi.cn^
+||bostonceltics.com.cn^
 ||bosw.net/js/bos/*960
 ||botcm.com/zhanqun/
 ||boweineng.cn^
@@ -12927,6 +12939,7 @@ zznews.cn##.ad:not([style])
 ||btkat.com/style/l.js
 ||btmao.cc/Public/yd/
 ||btmp4.net^
+||btmulu.com/assets/*/ad02.gif
 ||btn.onlylady.com^
 ||btn.pchome.net^
 ||btpian.com/static/*960.js
@@ -15673,6 +15686,7 @@ zznews.cn##.ad:not([style])
 ||indiebuff.cn^
 ||info.vip.iqiyi.com/promotion/
 ||infobabo.*/da.aspx
+||infobbs.xyz^
 ||infvb.com^
 ||inhe.*/Uploadfiles/adpublish
 ||inhe.net/Uploadfiles/inhegg2016/
@@ -18033,6 +18047,7 @@ zznews.cn##.ad:not([style])
 ||qpgyy.com/add01.html
 ||qpic.cn/qq_public/$domain=xgan.cn
 ||qpic.ws/images/pk*.gif
+||qpix.com/2021/05/20/Aqcp.gif
 ||qpmue.xyz^
 ||qpmztk.cn^
 ||qpokok.com^
@@ -18173,6 +18188,7 @@ zznews.cn##.ad:not([style])
 ||rbmry.com^
 ||rbywg.com^
 ||rc.ie13.com^
+||rcyl-uni.com^
 ||rcynoe.cn^
 ||rdance.cn^
 ||rdbd.xsread.com^
@@ -20002,6 +20018,7 @@ zznews.cn##.ad:not([style])
 ||wxyun168.xyz^
 ||wy213.com^$popup,third-party
 ||wyhzzy.com^
+||wysmq.cn^
 ||wyttech.cn^
 ||wywna.cn^
 ||wywsdx.com^
@@ -20246,6 +20263,7 @@ zznews.cn##.ad:not([style])
 ||xmstpay.com^
 ||xmtsyg.com^
 ||xmxxwl.com^
+||xmyejun.cn^
 ||xmysinter.com^
 ||xmzwdgm.com^
 ||xn--2qu92fhtx4ff.icu^
@@ -20627,6 +20645,7 @@ zznews.cn##.ad:not([style])
 ||ynjkkj.com^
 ||ynjyhm.com^
 ||ynwqls.com^
+||ynyyx168.com^
 ||ynzby.cn^
 ||ynzd.org/dict/uploads/20111007/ad_710.jpg
 ||ynzhby.com^

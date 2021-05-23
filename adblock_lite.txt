@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202105220210
+! Version: 202105230246
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19171
+! Lenth = 19185
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1311,6 +1311,7 @@
 @@||88box.com/images/ad_images/
 @@||8ox.cn/pge/?s=$script,domain=dlkoo.cc
 @@||930mh.com/js/config.js
+@@||939394.org/ad-blocker.js
 @@||95306.cn/public/images/ad/
 @@||95504.net/Advertisement_
 @@||95599.cn^*ad
@@ -2823,6 +2824,7 @@ btime.com###ad_full_button_placehoder
 btime.com###download
 btime.com##.shop-guid
 btime.com##.top-bar
+btmulu.com#?#.item:-abp-has(> a[target="_blank"])
 btring.com##div[style="margin: 10px 0px;"]
 btring.com##img[style="width: 25%"]
 bttop.net###top_bottom + div[style="float:left;width:100%;"]
@@ -4960,6 +4962,7 @@ ithome.com##a[href="/html/363216.htm"]
 ithome.com##a[href^="http://e.cn.miaozhen."]
 ithome.com##div[style^="width:960px;height:60px;"]
 ithome.com#$?#.t-b.sel > ul.nl > li:has(> a[href*="/lapin."]) { remove: true; }
+ithome.com#?#.bl > li:has(> a[href*="/lapin."])
 ithome.com#?#.placeholder:-abp-has(> a > .plc-con > .plc-footer > .tip-gray)
 ithome.com#?#li:-abp-has(>.block a[href*="/lapin."])
 ithome.com,zhihu.com##.AdblockBanner
@@ -5153,6 +5156,8 @@ jsphp.net##.adleft-wrap
 jsphp.net##.rightAdBtm-wrap
 jsphp.net##.widget_tuijian
 jspoo.com##img[id^="float_img_"]
+jsr9.com##.vod-gd
+jsr9.com##div[onclick*="location"]
 jstv.com###vplayad
 jstv.com##.TuiGuang
 jstv.com##.jadv
@@ -9973,6 +9978,7 @@ zznews.cn##.ad:not([style])
 ||aixifan.com/apsdk/apsdk.js
 ||aixifan.com/cms/*/w/1160/h/100
 ||aixifan.com/static/*/appGuide/
+||aixuyoupin.cn^
 ||aiyidu.com/aiyidu/adver/
 ||aiyuke.com/position_js*_*_
 ||aiyyu.com^
@@ -10819,6 +10825,7 @@ zznews.cn##.ad:not([style])
 ||bootcss.com^$domain=diyifuli.top|idaohang.top|ifulione.com|onedh.xyz
 ||bosatria.cn^
 ||bosiwangzi.cn^
+||bostonceltics.com.cn^
 ||bosw.net/js/bos/*960
 ||botcm.com/zhanqun/
 ||boweineng.cn^
@@ -10859,6 +10866,7 @@ zznews.cn##.ad:not([style])
 ||btkat.com/style/l.js
 ||btmao.cc/Public/yd/
 ||btmp4.net^
+||btmulu.com/assets/*/ad02.gif
 ||btn.onlylady.com^
 ||btn.pchome.net^
 ||btpian.com/static/*960.js
@@ -13605,6 +13613,7 @@ zznews.cn##.ad:not([style])
 ||indiebuff.cn^
 ||info.vip.iqiyi.com/promotion/
 ||infobabo.*/da.aspx
+||infobbs.xyz^
 ||infvb.com^
 ||inhe.*/Uploadfiles/adpublish
 ||inhe.net/Uploadfiles/inhegg2016/
@@ -15965,6 +15974,7 @@ zznews.cn##.ad:not([style])
 ||qpgyy.com/add01.html
 ||qpic.cn/qq_public/$domain=xgan.cn
 ||qpic.ws/images/pk*.gif
+||qpix.com/2021/05/20/Aqcp.gif
 ||qpmue.xyz^
 ||qpmztk.cn^
 ||qpokok.com^
@@ -16105,6 +16115,7 @@ zznews.cn##.ad:not([style])
 ||rbmry.com^
 ||rbywg.com^
 ||rc.ie13.com^
+||rcyl-uni.com^
 ||rcynoe.cn^
 ||rdance.cn^
 ||rdbd.xsread.com^
@@ -17934,6 +17945,7 @@ zznews.cn##.ad:not([style])
 ||wxyun168.xyz^
 ||wy213.com^$popup,third-party
 ||wyhzzy.com^
+||wysmq.cn^
 ||wyttech.cn^
 ||wywna.cn^
 ||wywsdx.com^
@@ -18178,6 +18190,7 @@ zznews.cn##.ad:not([style])
 ||xmstpay.com^
 ||xmtsyg.com^
 ||xmxxwl.com^
+||xmyejun.cn^
 ||xmysinter.com^
 ||xmzwdgm.com^
 ||xn--2qu92fhtx4ff.icu^
@@ -18559,6 +18572,7 @@ zznews.cn##.ad:not([style])
 ||ynjkkj.com^
 ||ynjyhm.com^
 ||ynwqls.com^
+||ynyyx168.com^
 ||ynzby.cn^
 ||ynzd.org/dict/uploads/20111007/ad_710.jpg
 ||ynzhby.com^
