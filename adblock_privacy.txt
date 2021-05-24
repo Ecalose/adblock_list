@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202105230246
+! Version: 202105240225
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 35177
+! Lenth = 35199
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -231,6 +231,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 -action/ping?
 -ad-targeting?
 -adobe-analytics.
+-adobe-analytics/
 -adobeDatalayer_
 -ads-tracking-
 -ajax.php?action=ajax-hits-counter-
@@ -2280,6 +2281,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /countstat.php?
 /countubn.
 /countus.php
+/coveo.analytics.js/*
 /cp2.gif?
 /cpeEvent.
 /cpeEventTracking.
@@ -4012,6 +4014,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /pc-log?
 /pcookie_get_key
 /pcount.asp
+/pdst-events-prod-sink
 /pepperjam.js
 /perf-beacon-
 /perflog/*
@@ -4020,6 +4023,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /performance-logger.
 /performance-metrics.js
 /performance.fcgi?
+/performance/metrics
 /performanceMetrics?
 /performance_timing/*
 /performance_tracker-
@@ -4171,6 +4175,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /platform-analytics-
 /plausible.js
 /plausible.js$domain=~plausible.io
+/player-test-impression?
 /player/stats.php?
 /player_counter.ashx?
 /playerlogger.
@@ -4585,6 +4590,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /session-hit.
 /session-tracker/tracking-
 /session/preparecookies?$domain=~mirapodo.de|~mytoys.de|~yomonda.de
+/session/update-beacon
 /sessioncam.min.$script
 /sessioncam.recorder.js
 /sessioncam/*
@@ -6423,6 +6429,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||canadiantire.ca^*/analytics.sitecatalyst.js
 @@||care2.com/assets/scripts/cookies/care2/NitroCookies.js
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
+@@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
 @@||cbsimg.net/js/cbsi/dw.js$domain=cbssports.com
 @@||cbsinteractive.com^*/lib/tracking/comscore/$script
 @@||cbsistatic.com/fly/bundles/flyjs/js/managers/clicktale-1.0.js$domain=cbsnews.com
@@ -8317,6 +8324,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||washingtonpost.com/wp-stat/analytics/latest/main.js
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
 @@||wcs.naver.com/m$image,domain=sooldamhwa.com
+@@||webapp.simplisafe.com^*/angulartics-ga.min.js$script,~third-party
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 @@||webcenter.tiscali.it/distribuzione/_script/audience_science.js$domain=mail.tiscali.it
 @@||websimages.com/JS/Tracker.js
@@ -9383,6 +9391,7 @@ znak.com##.relap
 ||ab-in-den-urlaub.de/resources/cjs/tracking
 ||ab-in-den-urlaub.de/usertracking
 ||ab-in-den-urlaub.de/usertracking/
+||ab-machine.forbes.com^
 ||abackchain.com^$third-party
 ||abakus.freenet.de^
 ||abandonedaction.com^$third-party
@@ -10078,6 +10087,7 @@ znak.com##.relap
 ||aimtell.com^$third-party
 ||aip-cdn.sozcu.com.tr/aip/analytics.min.js
 ||aip.actonservice.com^
+||air.audioeye.com^
 ||air2s.com^$third-party
 ||air360tracker.net^$third-party
 ||airbnb.*/facebook_advanced_matchings?
@@ -10097,6 +10107,8 @@ znak.com##.relap
 ||ajaralarm.com^$third-party
 ||ajbeqy.delfi.lt^
 ||ajigzt.lampenwelt.de^
+||ajinomoto.co.jp/shared_file/js/header_log.js
+||ajinomoto.co.jp/shared_file/js/log.js
 ||ak0gsh40.com^$third-party
 ||akamai.com/crs/lgsitewise.js
 ||akamai.net/*.babylon.com/trans_box/
@@ -10653,6 +10665,7 @@ znak.com##.relap
 ||analytics.ratioform.it^
 ||analytics.ratopanda.com^$third-party
 ||analytics.rayjump.com^
+||analytics.realestate.com.au^
 ||analytics.rechtslupe.org^
 ||analytics.recruitics.com^
 ||analytics.redlink.com.ar^
@@ -11609,6 +11622,7 @@ znak.com##.relap
 ||backlinkdino.de^$third-party
 ||backstage.funnelenvy.com^
 ||backup-bar-navig.yandex.ru/u
+||bacon.getcarro.com^
 ||bacon.section.io^
 ||badb5refl.com^
 ||badger.roidi.gr^
@@ -13063,6 +13077,7 @@ znak.com##.relap
 ||ck.ncclick.co.kr^$third-party
 ||ckozwx.n11.com^
 ||cksfgh.jaycar.com.au^
+||cl.canva.com^
 ||cl.expedia.com^
 ||cl.ly/metrics?
 ||clamcelery.com^$third-party
@@ -14471,6 +14486,7 @@ znak.com##.relap
 ||d2ry9vue95px0b.cloudfront.net^
 ||d2san7t27xb2pn.cloudfront.net^
 ||d2so4705rl485y.cloudfront.net^
+||d2t77mnxyo7adj.cloudfront.net^
 ||d2tcg4i9q4js4a.cloudfront.net^
 ||d2tgfbvjf3q6hn.cloudfront.net^
 ||d2u1npnnqecmpq.cloudfront.net^
@@ -17713,6 +17729,7 @@ znak.com##.relap
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||golfsmith.com/ci/
 ||golp4elik.com^
+||gomoxie.solutions^*/events
 ||gondolagnome.com^$third-party
 ||goneviral.com^$third-party
 ||goo.ne.jp^*/vltracedmd.js
@@ -24457,6 +24474,7 @@ znak.com##.relap
 ||pdmsmrt.chevrolet.com^
 ||pdmsmrt.gmc.com^
 ||pdrnetwork.112.2o7.net/b/ss/pdrnetworkpdrnetprod/$image,redirect=2x2-transparent.png,important
+||pdst.fm^$third-party
 ||peacepowder.com^$third-party
 ||peach-static.ebu.io/pipe-*.min.js
 ||peacocks.co.uk^*/analytics.js
@@ -24543,6 +24561,7 @@ znak.com##.relap
 ||petri.co.il/akit/?
 ||peuzhq.bookspot.be^
 ||pevftg.shopee.sg^
+||pexa.realestate.com.au^
 ||pf.intuit.com^
 ||pf.newegg.com^
 ||pfdqxv.bibloo.ro^
@@ -25102,6 +25121,7 @@ znak.com##.relap
 ||previouspotato.com^$third-party
 ||prezi.com/*/log/json^
 ||prezi.com/log/
+||prf.vagnt.com^
 ||prfct.co^$third-party
 ||pricegrabber.com/analytics.php
 ||priceline.com/9aTjSd0n/init.js
@@ -25271,6 +25291,7 @@ znak.com##.relap
 ||pubstack.io^$third-party
 ||pubstr.acs.org^
 ||pubstr.acspubs.org^
+||pubxtag1.com^$third-party
 ||pudra.co/counter/
 ||puds.ucweb.com^
 ||puffyloss.com^$third-party
@@ -32091,6 +32112,7 @@ znak.com##.relap
 ||trace.events^$third-party
 ||trace.insead.edu^
 ||trace.qq.com^$third-party
+||tracead.com^$third-party
 ||traceless.me^$third-party
 ||tracelog.www.alibaba.com^
 ||tracelytics.com^$third-party
