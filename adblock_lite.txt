@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202105240225
+! Version: 202105250214
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19188
+! Lenth = 19209
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1484,6 +1484,7 @@
 @@||cdn.staticfile.org^$script,domain=dybee.tv
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.min.js$domain=linetv.tw
 @@||cgmodel.com/plugin/share/
+@@||chaintv.xyz/homestatic/js/adjs.js
 @@||changyan.sohu.com/debug/cookie?
 @@||changyou.com^$generichide
 @@||cheshi-img.com/ad/csad_2019.js
@@ -3374,7 +3375,7 @@ ddooo.com##.guoasu
 ddooo.com##.xzbtn
 ddooo.com#?#span:-abp-has(>p:-abp-contains(高速))
 ddooo.com#?#ul:-abp-has(>dd:-abp-contains(高速))
-ddrk.me#$#a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"]) { position: absolute!important; left: -3000px!important; }
+ddrk.me#$#a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"]) { max-width: 10%!important; transform: translate(-3000px,0) !important; }
 ddrk.me#@#a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddrk.me,ddys.tv##a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddrk.me,ddys.tv##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
@@ -3475,6 +3476,7 @@ douyu.com###js-live-room-recommend
 douyu.com###js-room-activity
 douyu.com###sign_p_1
 douyu.com##.ActPayDialog
+douyu.com##.BargainingKit
 douyu.com##.PaladinPop
 douyu.com##.PrivilegeGiftModalDialog
 douyu.com##.bglink
@@ -3502,6 +3504,7 @@ douyu.com##.vcode9-sign
 douyu.com##.video-info-download
 douyu.com##a[href*=".miaozhen.com"]
 douyu.com##a[href*=".youzan.com"]
+douyu.com##a[href^="http://tracking.ad-survey.com/"]
 douyu.com##div[id^="sign_p_"]
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
@@ -5924,6 +5927,9 @@ olevod.com##.ad1
 olevod.com##a[style*="/upload/site/"]
 olevod.eu##.guangao
 olevod.eu##a.wbalist_thumb[target="_blank"]
+olgame.tw##.nex_floor_banner
+olgame.tw##.nex_index_ads
+olgame.tw##.nex_mid_ads
 on.cc#@##CONTENTAD
 oneinstack.com##.sidebar > .widget:last-child
 onemanhua.com##body > div[style^="position: fixed;"][style*="z-index:"]
@@ -7723,6 +7729,7 @@ yesky.com##div[class^="ad3"]
 yesky.com##div[class^="ad6"]
 yesky.com##div[class^="ad7"]
 yesky.com##div[class^="ad9"]
+yeyemo4.com,yeyemo5.com,yeyemo6.com,yeyemo7.com,yeyemo8.com,yeyemo9.com,yeyemo10.com##center > a[target="_blank"] > img
 yeyulingfeng.com##a[href^="http://woaigouwu.top"]
 ygdy8.cc##.container > a[href^="/"]
 ygdy8.cc##body > a[href^="/"]
@@ -8756,6 +8763,8 @@ zznews.cn##.ad:not([style])
 ||32414.com^$third-party
 ||32xp.com/upimg/
 ||3324.cn^$third-party
+||3332899.com^$third-party
+||3336637.com^$third-party
 ||3336639.com^
 ||3336653.com^
 ||3336657.com^
@@ -12200,6 +12209,7 @@ zznews.cn##.ad:not([style])
 ||eol.cn/images/ed/gaokao/*-85.jpg
 ||eol.cn/js/eol/
 ||eol.cn/js/global/jQuery_ads.js
+||eoncreativity.com^
 ||eoof.net/PicZone/qzgg
 ||epcqyac.cn^
 ||epinv.com/wp-content/themes/ep/banner
@@ -12901,6 +12911,7 @@ zznews.cn##.ad:not([style])
 ||h4kdxs.com^
 ||h501.cn^$third-party
 ||h6295.com^$popup
+||habyc.com^
 ||hackhome.com/js/*top.js
 ||hackhome.com/js/bhref.js
 ||hackhome.com/js/dright.js
@@ -14346,6 +14357,7 @@ zznews.cn##.ad:not([style])
 ||koolearn.com/zt/poster_js/$domain=~www.koolearn.com
 ||koopei.com^$third-party
 ||kostool.cn/screenshot/
+||koudaiyundong.com^$third-party
 ||koukou7.com^
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
 ||kpirog.com^
@@ -14384,6 +14396,7 @@ zznews.cn##.ad:not([style])
 ||kuaizitech.com^$third-party
 ||kuakao.com/index.php?m=content&c=index&a=show_ad
 ||kuakao.com:6053/floatcard?
+||kugoucdn.com/rest/*?_t=
 ||kuheju.com^$popup
 ||kuhu168.com/web/js/17mb.js
 ||kuk8.com^$third-party
@@ -14803,6 +14816,7 @@ zznews.cn##.ad:not([style])
 ||m.audio699.com/template/m/js/qqwweef
 ||m.dglscm.cn^$third-party
 ||m.ercos.cn^$third-party
+||m.feisucn.com/assets/js/m.js
 ||m.gongzhilian.com.cn^$third-party
 ||m.gtask.cn^$third-party
 ||m.jsr9.com^*.js
@@ -15062,6 +15076,7 @@ zznews.cn##.ad:not([style])
 ||mnks.cn/jk/appAD_
 ||mnptinibfbv.com^
 ||mnrrk.com/yuhe/ote/js/pcgg.js
+||mnwor.xuanlishi.com^
 ||mnxtu.com^
 ||mo-tuo.com^
 ||mo.vlpyj.xy^$third-party
@@ -15141,6 +15156,7 @@ zznews.cn##.ad:not([style])
 ||mudezs.com^
 ||muimg.com^$domain=lsjsoso.me
 ||music.163.com^$domain=mvcat.com
+||muxingkj.com^$third-party
 ||muyang888.top/js/
 ||muyuge.com/fw.html/
 ||muyys.com/img/
@@ -17117,6 +17133,7 @@ zznews.cn##.ad:not([style])
 ||tingvoa.com/images/*img.js
 ||tingvoa.com/images/top_600_80.js
 ||tingyun.com^$third-party
+||tinychinacdnweb.qiniu.com.w.kunlunno.com^
 ||tinypic.com^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
 ||tinypic.com^$domain=fdzone.org|jandown.com|mimima.com
 ||tiojk.com^
@@ -17263,6 +17280,7 @@ zznews.cn##.ad:not([style])
 ||ttzw.tv/tz/true.js
 ||tu.7j813.cn^$third-party
 ||tu.zx110.org^
+||tu2.taohuaimg.com^$third-party
 ||tuadong.com^
 ||tuan.cs090.com/gettuan.php?
 ||tucao.one/uploadfile/20*/20*.gif
@@ -18181,6 +18199,7 @@ zznews.cn##.ad:not([style])
 ||xls.go.sohu.com^
 ||xm9178.com^
 ||xmcimg.com/js/m.js
+||xmcs99885.cn^
 ||xmcxz.com^
 ||xmfish.com/chanel/www/cpm.html
 ||xmliw.com^
@@ -18439,6 +18458,7 @@ zznews.cn##.ad:not([style])
 ||yesky.com/monitorjs/imp-
 ||yesky.com/s?z=
 ||yeyajipp.com^
+||yeyemo4.com^$third-party
 ||yeyou.com/2013/new/yeyou-float-window.js
 ||yeyushe.cn^
 ||yezi.cn/_ad/
@@ -18608,6 +18628,7 @@ zznews.cn##.ad:not([style])
 ||youngalsobeautiful.com^
 ||youpukeji.cn^
 ||youquba.net/js/
+||youqunjx.com^$third-party
 ||yousee.com^
 ||youshouge513.cn^
 ||youth.cn/hezuo/index.js
