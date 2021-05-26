@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202105250214
+! Version: 202105260207
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36082
+! Lenth = 36108
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -168,6 +168,17 @@ $cookie=outbrain_cid_fetch
 $cookie=pbjs-unifiedid
 $cookie=personalization_id
 $cookie=rbzsessionid
+$cookie=remixgp
+$cookie=remixlhk,domain=~vk.com
+$cookie=remixrefkey
+$cookie=remixscreen_depth
+$cookie=remixscreen_dpr
+$cookie=remixscreen_height
+$cookie=remixscreen_orient
+$cookie=remixscreen_width
+$cookie=remixscreen_winzoom
+$cookie=remixseenads
+$cookie=remixstid,domain=~vk.com
 $cookie=s_cc
 $cookie=s_ecid
 $cookie=s_fid
@@ -5332,6 +5343,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /tracking/at.js
 /tracking/beacon/?
 /tracking/call.
+/tracking/call.$script
 /tracking/click?
 /tracking/clicks
 /tracking/common.
@@ -6940,6 +6952,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||google-analytics.com/analytics.js$domain=linetv.tw
 @@||google-analytics.com/analytics.js$domain=m.chosun.com
 @@||google-analytics.com/analytics.js$domain=m.investing.com
+@@||google-analytics.com/analytics.js$domain=m.kinomax.ru
 @@||google-analytics.com/analytics.js$domain=m.n11.com
 @@||google-analytics.com/analytics.js$domain=m.papajohns.ru
 @@||google-analytics.com/analytics.js$domain=mamibuy.com.tw
@@ -7196,6 +7209,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=lgn.edu.gov.il
 @@||googletagmanager.com/gtm.js$domain=liga.net
 @@||googletagmanager.com/gtm.js$domain=linline-clinic.ru
+@@||googletagmanager.com/gtm.js$domain=m.kinomax.ru
 @@||googletagmanager.com/gtm.js$domain=m.n11.com
 @@||googletagmanager.com/gtm.js$domain=m.papajohns.ru
 @@||googletagmanager.com/gtm.js$domain=malltina.com
@@ -7289,6 +7303,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$script,domain=maidonanews.jp
 @@||googletagmanager.com/gtm.js$script,domain=okwave.jp
 @@||googletagmanager.com/gtm.js$script,domain=olx.ro
+@@||googletagmanager.com/gtm.js$script,domain=radiko.jp
 @@||googletagmanager.com/gtm.js$script,domain=telia.no
 @@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
 @@||googletagmanager.com/gtm.js?$domain=autorevue.cz|e15.cz|mobilmania.cz|zive.cz
@@ -14911,6 +14926,7 @@ znak.com##.relap
 ||datafeedfile.com^$third-party
 ||datafront.co^$third-party
 ||datagroup-reporting.shopeemobile.com^
+||datalytics.utair.io^
 ||datam.com^$third-party
 ||datamaster.com.cn^$third-party
 ||datametrical.com^$redirect=nooptext
@@ -18126,6 +18142,7 @@ znak.com##.relap
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=chip.com.tr
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=dafiti.com.co
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=game8.jp
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=morningstar.nl
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=pcmag.com,important
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=skechers.com.tr
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=store.line.me
@@ -18386,6 +18403,7 @@ znak.com##.relap
 ||hardware-infos.com/counter/
 ||hardwarelabs.de/stat/
 ||hardwareschotte.de/na/mdc.php?
+||hardwarezone.com.sg/js/hwz/hwzgtm.js
 ||harm6stop.com^
 ||harryrosen.com/analytics/
 ||hartgeld.com^*/count.cgi?
@@ -18482,6 +18500,7 @@ znak.com##.relap
 ||hemnes.win^$third-party
 ||henkel.com.tr/resources/*/webtrekk.js
 ||hentaicounter.com^$third-party
+||hepsiburada.com/webcontent/
 ||herald.loginside.co.kr^
 ||heraldandtimeslabs.com/sugar.js
 ||heraldtimesonline.com/js/tk.js
@@ -19052,6 +19071,7 @@ znak.com##.relap
 ||images-amazon.com^*/beacon-$domain=imdb.com
 ||images-amazon.com^*/clog/clog-platform*.js$script
 ||images.dmca.com^$~image,third-party
+||images.hepsiburada.net/webtrekk/webtrekk.js
 ||images.military.com/pixel.gif
 ||images.search.yahoo.com/viewer;_ylt=
 ||images1.test.de^
@@ -19069,6 +19089,7 @@ znak.com##.relap
 ||imeetcentral.pgi.com^
 ||imetrix.it^$third-party
 ||imfhie.brighterblooms.com^
+||img*.en25.com/i/elqCfg.min.js
 ||img-bahn.de/v/*/js/s_code.js$domain=bahn.de
 ||img.bwin.com^
 ||img.bwin.it^
@@ -33894,6 +33915,7 @@ znak.com##.relap
 ||tv.naver.com/resources/release/js_*/player*Logge
 ||tv.sohu.com/upload/trace/
 ||tv2.hb-api.omtrdc.net^
+||tv3play.skaties.lv/static/scripts/trackdb/events.gif$image,redirect=1x1-transparent.gif
 ||tv8.com.tr/Ajax/icerik/save_video_event
 ||tvid.in/log/logs
 ||tvigle.ru/track/
@@ -34063,7 +34085,11 @@ znak.com##.relap
 ||ultraoranges.com^$third-party
 ||um-public-panel-prod.s3.amazonaws.com^
 ||umbel.com^$third-party
+||umeng.com.gds.alibabadns.com^
 ||umeng.com/app_logs
+||umengacs.m.taobao.com^
+||umengcloud.com.gds.alibabadns.com^
+||umengjmacs.m.taobao.com^
 ||umirs.com/counter*.
 ||umirs.com/counters/
 ||umqdof.primrose-garten.de^
