@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202105260207
+! Version: 202105270336
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36108
+! Lenth = 36111
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -6441,6 +6441,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||caf.fr/*/smarttag.js
 @@||caf.fr^*/smarttag.js$script,~third-party
 @@||calendar.naver.com/js/dist/lib/clickcr.js$domain=calendar.naver.com
+@@||calo.extole.io^$script,xmlhttprequest,domain=refer.calo.app
 @@||canada.com/js/ooyala/comscore.js
 @@||canadiantire.ca^*/analytics.sitecatalyst.js
 @@||care2.com/assets/scripts/cookies/care2/NitroCookies.js
@@ -6844,7 +6845,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||geo.ngtv.io/locate/$domain=hbo.com
 @@||geoip-db.com/jsonp/$script,third-party
-@@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=ibanez.com
+@@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com
+@@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=freshdesk.com|ibanez.com
 @@||geoloc.hurriyet.com.tr/api/country/$domain=hurriyet.com.tr
 @@||geolocation.stroeerdp.de^$domain=t-online.de
 @@||geoplugin.net/javascript.gp$domain=aljazeera.net
@@ -7783,6 +7785,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||orange.fr/medias/toolkit/js/Wtinit.js
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
+@@||oriflame.ru^$cookie=SC_ANALYTICS_GLOBAL_COOKIE
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
 @@||p.typekit.net/*.css$domain=cfr.org
 @@||p.typekit.net/*.css$domain=store.steampowered.com|nejm.org
@@ -25092,7 +25095,7 @@ znak.com##.relap
 ||pdmsmrt.chevrolet.com^
 ||pdmsmrt.gmc.com^
 ||pdrnetwork.112.2o7.net/b/ss/pdrnetworkpdrnetprod/$image,redirect=2x2-transparent.png,important
-||pdst.fm^$third-party
+||pdst.fm^$script,third-party
 ||peacepowder.com^$third-party
 ||peach-static.ebu.io/pipe-*.min.js
 ||peacocks.co.uk^*/analytics.js
