@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202105270336
+! Version: 202105280355
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36111
+! Lenth = 36119
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -4842,6 +4842,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /statisticsv2/*
 /statlogger.
 /stats-amp.
+/stats-collect
 /stats-dc1.
 /stats-js.cgi?
 /stats-listener.js
@@ -7877,7 +7878,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
 @@||quantcast.mgr.consensu.org/tcfv2/cmp2.js$script,domain=cnews.fr
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cyclingnews.com|digitalcameraworld.com|einthusan.tv|f1aldia.com|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cyclingnews.com|digitalcameraworld.com|einthusan.tv|f1aldia.com|fantacalcio.it|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|caranddriver.com|g4tv.com|nymag.com|salon.com|theblaze.com
 @@||quattroruote.it^*/webtrekk_mediaTracking.min.js$script,~third-party
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=lanacion.com.ar
@@ -8627,6 +8628,7 @@ europcar.com###wt_overlay
 exct.net/open.aspx$image
 facebook.com,facebookcorewwi.onion#%#new MutationObserver(function(){var t=["?fbclid","%3Ffbclid","&fbclid","%26fbclid","&__tn__","%__26tn__","%3Futm","?utm","&fbc=","%26fbc%3D","?share=","%3Fshare%3D","%3F__twitter_impression%3D","?__twitter_impression=","?wtmc=","%3Fwtmc%3D","?originalReferrer=","%3ForiginalReferrer%3D","?wtrid=","%3Fwtrid%3D","?trbo=","%3Ftrbo%3D","?GEPC=","%3FGEPC%3D","?whatsapp=","%3Fwhatsapp%3D","?fbc=","%3Ffbc%3D","?dmcid=","%3Fdmcid%3D"];document.querySelectorAll('a[target="_blank"]').forEach(function(e){for(i=0;i<t.length;i++){var r;e.href.includes(t[i])&&(r=(r=(r=e.href.split("#!")[1])||e.href.split("%23%21")[1])||"",e.href.includes("#!")&&(r="#!"+r),e.href.includes("%23%21")&&(r="%23%21"+r),r=(r=(r=e.href.split("&feature=share&")[1])||e.href.split("%26feature%3Dshare%26")[1])||"",e.href.includes("&feature=share&")&&(r="?"+r),e.href.includes("%26feature%3Dshare%26")&&(r="%3F"+r),r=(r=(r=e.href.split("&h=")[1])||e.href.split("%26h%3D")[1])||"",e.href.includes("&h=")&&(r="&h="+r),e.href.includes("%26h%3D")&&(r="%26h%3D"+r),e.setAttribute("href",e.href.split(t[i])[0]+r))}})}).observe(document,{childList:!0,subtree:!0});
 facebook.com,facebookcorewwwi.onion#%#new MutationObserver(function(){var t=["&eid=","%26eid%3D","?eid=","%3Feid%3D","?__tn__=","%3F%5F%5Ftn%5F%5F%3D","&__tn__=","%26%5F%5Ftn%5F%5F%3D","?source=","%3Fsource%3D","?__xts__","%3F%5F%5Fxts%5F%5F","&__xts__","%26%5F%5Fxts%5F%5F","&amp;__xts__%5B","?ref=","%3Fref%3D","?fref=","%3Ffref%3D","?epa=","%3Fepa%3D","&ifg=","%26ifg%3D","?comment_tracking=","%3Fcomment_tracking%3D","?av=","%3Fav%3D","&av=","%26av%3D","?acontext=","%3Facontext%3D","&session_id=","%26session_id%3D","&amp;session_id=","?hc_location=","%3Fhc_location%3D","&fref=","%26fref%3D","?__cft","%3f__cft"];document.querySelectorAll('a:not([target="_blank"]):not([href*="2fac/"])').forEach(function(e){for(i=0;i<t.length;i++)e.href.includes(t[i])&&e.setAttribute("href",e.href.split(t[i])[0])})}).observe(document,{childList:!0,subtree:!0});
+fatcatslim.ru#?#.sidebar > div.widget:has(> div > a[href$="liveinternet.ru/click"])
 ferra.ru##div[data-widget="plista_widget_belowArticle_desktop_nocss"]+div[class^="_"] > svg
 ferra.ru##div[data-widget="plista_widget_webApp_mobile_nocss"]+div[class^="_"] > svg
 football-ukraine.com###reachMedia
@@ -13514,8 +13516,10 @@ znak.com##.relap
 ||cloudfrontcar31.net.daraz.com^
 ||cloudfrontlib-ln-1.net.daraz.com^
 ||cloudfunctions.net/commonBonnierDataLayer
+||cloudfunctions.net/conversionEventCondition|
 ||cloudfunctions.net/function-record-stream-metric?
 ||cloudfunctions.net/ingest?
+||cloudfunctions.net/trackEvent|
 ||cloudhosting.actonservice.com^
 ||cloudsdestruction.com^$third-party
 ||cloudsummer.net.daraz.com^
@@ -20692,6 +20696,7 @@ znak.com##.relap
 ||likes.com/api/track_pv
 ||likiwh.vagabondstudio.com^
 ||lilb2.shutterstock.com^
+||limone.iltrovatore.it^
 ||limpet.padbury.app^
 ||linclik.com/info.php^
 ||lincolnfinancialgroup.lfg.com^
@@ -25012,6 +25017,7 @@ znak.com##.relap
 ||pasta.esfile.duapps.com^
 ||pastepot.com^$third-party
 ||pastoralcorn.com^$third-party
+||pastoralroad.com^$third-party
 ||path5wall.com^
 ||pathful.com^$third-party
 ||patreon.com/api/tracking
@@ -33168,6 +33174,7 @@ znak.com##.relap
 ||tracker.publico.pt^
 ||tracker.realclearpolitics.com^
 ||tracker.redditmedia.com^
+||tracker.relaido.jp^
 ||tracker.remp.impresa.pt^
 ||tracker.revip.info^
 ||tracker.roitesting.com^
@@ -35342,6 +35349,7 @@ znak.com##.relap
 ||wp-monero-miner.de^$third-party
 ||wp-r.github.io/*/assets/js/jquery.iframetracker.js
 ||wp-stats.com^$third-party
+||wp.aliexpress.com/trace.gif?event=
 ||wp.com/i/mu.gif$image
 ||wp.com/wp-content/themes/vip/metrouk/js/site-catalyst.js$domain=metro.co.uk
 ||wp.pl/?rid=
