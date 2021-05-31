@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202105300451
+! Version: 202105310449
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36139
+! Lenth = 36146
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -937,7 +937,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /RegisterWebPageVisit.
 /RemoteTargetingService.
 /RequestTrackerServlet?
-/RequestVideoTag.
 /ResonateAnalytics.
 /RevenueScienceAPI.
 /RioTracking2.
@@ -5662,6 +5661,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /videojs-tracking.
 /videojs.ga.
 /videolog?vid=
+/videotracking-v3/*
 /videotracking/*
 /vidtrack.
 /view-log?
@@ -7303,6 +7303,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=zolotoyvek.ua
 @@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|book.impress.co.jp|cyclestyle.net|kakuyomu.jp|sankei.com|ymobile.jp
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
+@@||googletagmanager.com/gtm.js$script,domain=carcareplus.jp|cinemacafe.net|cyclestyle.net|gamebusiness.jp|gamespark.jp|mycar-life.com|reanimal.jp|resemom.jp|response.jp
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
 @@||googletagmanager.com/gtm.js$script,domain=dpoint.jp
@@ -8279,7 +8280,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||uim.tifbs.net/js/3423.js$domain=top.de
 @@||uim.tifbs.net/js/7732.js$domain=gewinnspiel.gmx.de|gewinnspiel.web.de
 @@||ukrposhta.ua/js/tracking.js
-@@||uliza.jp/IF/RequestVideoTag.aspx$script,domain=jsports.co.jp|kobe-np.co.jp|toonippo.co.jp
 @@||ultimedia.com/api/widget/getwidget/$xmlhttprequest,domain=ouest-france.fr
 @@||ultimedia.com/js/common/jquery.gatracker.js
 @@||unifi.me/mootools/classes/*-tracking
@@ -8745,6 +8745,7 @@ tracking.cirrusinsight.com$image
 tweakers.net#%#//scriptlet('abort-current-inline-script', 'AbStats', 'trackId')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'GlobalSnowplowNamespace')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'snowplow')
+tweakers.net#%#//scriptlet('abort-on-property-write', 'webtrekkConfig')
 tweakers.net#%#//scriptlet('set-constant', 'WebTrekkClickMap', 'noopFunc')
 tweakers.net#%#//scriptlet('set-constant', 'tweakersConfig.wtConfig.scriptUrl', '')
 unilad.co.uk###sidebar > #text-64 > .block-title
@@ -10693,7 +10694,6 @@ znak.com##.relap
 ||analytics.mobile.yandex.net^
 ||analytics.mobilegamestats.com^
 ||analytics.mondoweiss.net^
-||analytics.mopub.com^
 ||analytics.mouthshut.com^
 ||analytics.move.ru^
 ||analytics.moviepilot.de^
@@ -12915,6 +12915,7 @@ znak.com##.relap
 ||cbsi.com/lib/api/client-info
 ||cbsimg.net/js/cbsi/dw.js
 ||cbsistatic.com^*/siteTracking.js
+||cbsivideo.com/measurements/
 ||cbslocal.com^*/cbs1x1.gif?
 ||cbsnews.com/i/trk/
 ||cbssports.com/common/p?
@@ -15573,6 +15574,7 @@ znak.com##.relap
 ||doomna.com^$third-party
 ||doorbrazil.com^$third-party
 ||dop3jnx8my3ym.cloudfront.net/sg-track-sdk.js
+||doppler-reporting.cbsivideo.com^
 ||dot-stat.radikal.ru^
 ||dot.wp.pl^
 ||dot.wp.pl^$script
@@ -16809,6 +16811,8 @@ znak.com##.relap
 ||f-counter.jp^$third-party
 ||f-counter.net^$third-party
 ||f-emc.ngsp.gov.vn^
+||f-log-at.grammarly.io^
+||f-log-test.grammarly.io^
 ||f-secure.com^*/wtsdc.js
 ||f.email.bjs.com^*/1x2.gif
 ||f.schemeflood.com^
@@ -16839,6 +16843,7 @@ znak.com##.relap
 ||facebook.com/rtb_impression/?tr=
 ||facebook.com/search/web/instrumentation.php?
 ||facebook.com/sem_pixel^
+||facebook.com/tr/
 ||facebook.com/tr/?
 ||facebook.com/tr/?$domain=cnet.com,important
 ||facebook.com/tr/?$domain=metal-hammer.de|musikexpress.de|rollingstone.de
@@ -23521,6 +23526,7 @@ znak.com##.relap
 ||mtvema.com/media/module/ENT_Reporting
 ||mtvnservices.com/aria/projectX/
 ||mtvnservices.com/aria/uuid.html
+||mtvnservices.com/measurements/
 ||mtvnservices.com/metrics/
 ||mtx.belfius.be^
 ||muatui.com^
@@ -25154,6 +25160,7 @@ znak.com##.relap
 ||perf.af.funneldrivers.com^
 ||perf.dugout.com^
 ||perf.mouser.com^
+||perfalytics.com^$third-party
 ||perfdrive.com^$third-party
 ||perfect-privacy.com^*/?a_aid=$third-party
 ||perfectaudience.com^$third-party
@@ -31976,6 +31983,7 @@ znak.com##.relap
 ||tagmngrs.com^$third-party
 ||tags.aljazeera.
 ||tags.bluekai.com^
+||tags.catapultx.com^
 ||tags.cdn.circlesix.co^
 ||tags.clickagy.com^
 ||tags.creativille.co.uk^
@@ -34610,7 +34618,6 @@ znak.com##.relap
 ||visitping.rossel.be^
 ||visits.lt^$third-party
 ||visits.tommi.space^
-||visitstats.com^$third-party
 ||visitstreamer.com^$third-party
 ||visto1.net^$third-party
 ||visual.ly/track.php?
