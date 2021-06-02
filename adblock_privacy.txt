@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202106010454
+! Version: 202106020414
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36198
+! Lenth = 36210
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -470,6 +470,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 .demdex.net/event?
 .demdex.net/id^$redirect=nooptext,important
 .do_tracking&
+.doubleclick.net/$image
 .drive-analytics.
 .duolingo.com/open/
 .efeedbacktrk.com/$third-party
@@ -2971,12 +2972,12 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /google_analytics.$~image
 /google_analytics/*
 /google_analytics3_
-/google_analytics_$domain=~github.com
+/google_analytics_$script,domain=~github.com
 /google_page_track
 /google_tag.
 /google_tag/*
 /google_tag/*$script
-/google_tag_
+/google_tag_$script
 /google_tracker.
 /googleana.
 /googleanalytics-
@@ -7360,6 +7361,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||grapeshot.co.uk/sare-api/
 @@||graphracer.com/js/libs/heatmap.js
 @@||gruposantander.es^*/scripts/log.js
+@@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||guim.co.uk/flash/video/embedded/player-$object,domain=thedailywh.at
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
@@ -10397,6 +10399,7 @@ znak.com##.relap
 ||amazonaws.com/initialize/$third-party
 ||amazonaws.com/js/reach.js
 ||amazonaws.com/ki.js/
+||amazonaws.com/lp/js/tag.js?
 ||amazonaws.com/new.cetrk.com/
 ||amazonaws.com/pixelpop/app/pixelpop-
 ||amazonaws.com/prod/entities
@@ -11032,6 +11035,7 @@ znak.com##.relap
 ||api-adservices.apple.com^
 ||api-analytics-bootstrap.metaps.com^
 ||api-analytics.metaps.com^
+||api-analytics.prod.birdapp.com^
 ||api-analytics.rozetka.com.ua^
 ||api-cf.affirm.com/api/v*/session/touch_track
 ||api-docs-r-oa-2.net.daraz.com^
@@ -11097,7 +11101,6 @@ znak.com##.relap
 ||api.leadpages.io/analytics/$domain=~my.leadpages.net
 ||api.limbik.com^$third-party
 ||api.logmatic.io^$third-party
-||api.mediarithmics.com^
 ||api.mindbox.ru/scripts/*/tracker.js
 ||api.miui.security.xiaomi.com^
 ||api.mixpanel.com^
@@ -14082,7 +14085,6 @@ znak.com##.relap
 ||convertkit.com^*/visit
 ||convertro.com^$third-party
 ||convsgmp.taboola.com^
-||cookie-matching.mediarithmics.com^
 ||cookie.fuel451.com^$third-party
 ||cookie.sync.usonar.jp^
 ||cookiejar.atea.no^
@@ -16720,7 +16722,6 @@ znak.com##.relap
 ||events.lbesecapi.com^
 ||events.mapbox.com^
 ||events.matterport.com^
-||events.mediarithmics.com^
 ||events.medio.com^
 ||events.mobile.optimizely.com^
 ||events.mywd.com^
@@ -17205,6 +17206,8 @@ znak.com##.relap
 ||flux.com/geo.html?
 ||flx1.com^$third-party
 ||flxpxl.com^$third-party
+||fly.gentside.com^
+||fly.ohmymag.com^
 ||flyasiana.com/wlo/
 ||flybmi.com/livetrack/
 ||flyingfish.jak-zrobic-strone.pl^
@@ -20983,7 +20986,6 @@ znak.com##.relap
 ||live.mrf.io/statics/marfeel/gardac-sync.js
 ||live.rezync.com^
 ||live2support.com^*/js_lstrk.
-||livechatinc.com/tracking.js
 ||livechatinc.com^*/control.cgi?
 ||livecount.fr^$third-party
 ||livecounter.dk^$third-party
@@ -21005,6 +21007,7 @@ znak.com##.relap
 ||livelib.ru/service/visitlist/
 ||livelumber.com^$third-party
 ||lively-collect-elb-*.amazonaws.com^$third-party
+||livelylaugh.com^$third-party
 ||livelyvideo.tv/lb/logger
 ||liveperson.net/hc/*/?visitor=
 ||liverail.com/?metric=
@@ -21090,6 +21093,8 @@ znak.com##.relap
 ||log.api.zaloapp.com^
 ||log.apk.v-mate.mobi^
 ||log.artipbox.net^$third-party
+||log.avlyun.com^
+||log.avlyun.sec.intl.miui.com^
 ||log.bitauto.com^
 ||log.ca.gov.vn^
 ||log.china.cn^
@@ -25102,6 +25107,7 @@ znak.com##.relap
 ||pan.render.com^
 ||pandanetwork.club/le/in.php^$third-party
 ||pandasecurity.com/js/ahref/ahref.js
+||pandg.tapad.com^
 ||panel-lib-ht-1.net.daraz.com^
 ||panel.www.net.daraz.com^
 ||panelprint-mo.net.daraz.com^
@@ -25198,6 +25204,7 @@ znak.com##.relap
 ||pb.m.naver.com^
 ||pbbl.co^$third-party
 ||pbgrd.com^$third-party
+||pbjs.sskzlabs.com^$third-party
 ||pbox.no.photobox.com^
 ||pbox.photobox.be^
 ||pbox.photobox.ch^
@@ -25947,6 +25954,7 @@ znak.com##.relap
 ||prism.app-us1.com^$script,third-party
 ||prism.noordermeer.ch^
 ||prism.pandora.tv^
+||prisma-tr.prismamedia.com^
 ||prismaconnect.fr/prd/ping
 ||priv-car13.net.daraz.com^
 ||privacy-api.9gag.com^
@@ -28053,7 +28061,6 @@ znak.com##.relap
 ||semiocast.com^$third-party
 ||semnicneposilejte.cz^$third-party
 ||semtracker.de^$third-party
-||sendbird.com^$third-party,websocket
 ||sendibm4.com^*/op/$third-party
 ||sendpulse.com^$third-party
 ||sendsay.ru/js/target/tracking.js
@@ -31958,6 +31965,7 @@ znak.com##.relap
 ||tagcommander.com^$third-party
 ||tagcommander.laredoute.be^
 ||tagcommander.laredoute.co.uk^
+||tagdatax.com^$third-party
 ||tagesschau.de/resources/framework/js/sitestat.js
 ||tagesschau.de/resources/framework/js/tracking.js
 ||tagesspiegel.de/analytics/
@@ -31993,6 +32001,7 @@ znak.com##.relap
 ||tags.tiqcdn.com/utag/telenor/telenor.no/prod/utag.*js$script,redirect=noopjs,domain=kabel.canaldigital.no,important
 ||tagsd.com/newServing/tracking_id.php^
 ||tagsrvcs.com^$third-party
+||tagstaticx.com^$third-party
 ||tagtracking.vibescm.com^
 ||tagtray.com/api^$third-party
 ||tagtray.com^$third-party
@@ -32216,6 +32225,8 @@ znak.com##.relap
 ||tenping.kr^$third-party
 ||tent0mown.com^
 ||tentaculos.net^$third-party
+||terabox.com/api/analytics
+||terabox.com/statistics^
 ||terabytemedia.com^$third-party
 ||teraes.hgreg.com^
 ||teralog.techhub.co.kr^
@@ -34516,6 +34527,7 @@ znak.com##.relap
 ||videa.hu/flvplayer_setcookie.php?
 ||video-ad-stats.googlesyndication.com^
 ||video-cdn.net/event?
+||video-library.showheroes.com/player/ad_tag?
 ||video-stats.video.google.com^
 ||video.golem.de/download/*&cpxl=$image
 ||video.google.com/api/stats/

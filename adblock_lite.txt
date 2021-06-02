@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202106010454
+! Version: 202106020414
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19274
+! Lenth = 19284
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -21,9 +21,9 @@
 0379home.com,100ec.cn,123.com.cn,159i.com,22vd.com,2345.cn,234fang.com,265g.com,2j0.cn,3gsc.com.cn,52youpiao.com,72g.com,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,luo8.com,manhuabei.com,maxpda.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,olevod.com,onlinedown.net,pc0359.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,r3sub.com,sogou.com,sozi.cn,tetimes.com,tv.sohu.com,tzfile.com,u-car.com.tw,wallstreetcn.com,weather.com.cn,xs99.cc,xun9u.com,xyfdcw.com.cn,yawin.cn,yb983.com,ydss.cn,yesky.com,yqxs.net,zhihu.com,zjstv.com##.ad
 0439.com###kanfang
 0516city.com,cnpingpang.com,jdbbs.com##.a_h
-0517w.com,1x6666.com,365kl.net,3qled.com,52ch.net,bbs.qbaobei.com,chinafix.com,cnyw.net,cqsq.com,gz0668.com,i5qs.com,mahoupao.com,mcncc.com,qilindao.com,xsool.com###diynavtop
+0517w.com,1x6666.com,365kl.net,3qled.com,52ch.net,bbs.qbaobei.com,chinafix.com,cnyw.net,cqsq.com,gz0668.com,i5qs.com,mahoupao.com,mcncc.com,qilindao.com,susongbbs.com,xsool.com###diynavtop
 0517w.com,lysq.com###diyad
-0562.cc,114shouji.com,1x6666.com,2fzw.cn,528500.com,52jscn.com,5378cc.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bansha.com,bbs.52life.cc,bestcclm.com,chcj.com,cm868.com,cnyw.net,cqfishing.net,discuzlab.com,gebi1.com,hh010.com,i5qs.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,sh419.net,suizhoushi.com,txahz.com,wishct.com,xsool.com,xydai.cn,ybvv.com,ytshe.com###diy1
+0562.cc,114shouji.com,1x6666.com,2fzw.cn,528500.com,52jscn.com,5378cc.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bansha.com,bbs.52life.cc,bestcclm.com,chcj.com,cm868.com,cnyw.net,cqfishing.net,discuzlab.com,gebi1.com,hh010.com,i5qs.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,sh419.net,suizhoushi.com,susongbbs.com,txahz.com,wishct.com,xsool.com,xydai.cn,ybvv.com,ytshe.com###diy1
 0573ren.com##div[style="width:1200px;height:60px;margin:5px auto 0 auto;overflow:hidden;"]
 0573ren.com##li[data-sort] > a[href^="http://app-api.0573ren.com/store-view/store/detail/id/"]
 0579.cn,xizi.com##.top_gg
@@ -1433,6 +1433,7 @@
 @@||baidu.com^*&cb=BaiduSuggestion.
 @@||baixing.net/combine/*,/css/ad-
 @@||banma.com/statics/js/??
+@@||bcebos.com/static/translation/widget/translate/output/AdBanner/AdBanner.js
 @@||bcebos.com^$script,domain=31xiaoshuo.org
 @@||bde4.cc/ad/
 @@||bde4.cc^$generichide
@@ -2811,6 +2812,8 @@ boke112.com##a[href*=".tencent.com"]
 boke112.com##a[href*="url.cn"]
 boke112.com##a[href^="https://dwz.cn/"]
 boke112.com,dzbhdm.com,mzh.ren,techweb.com.cn,whsir.com##a[href*=".aliyun.com"]
+boniu123.cc##.left_side
+boniu123.cc##.right_side
 boniu123.cc##.td_item
 boniu123.cc##a[href^="http"] > img[src*="/bn_"]
 boo.tw##.blockUI
@@ -3525,6 +3528,7 @@ downg.com##.download-list:first-child
 downhot.com##.guans
 download.csdn.net##.ad_area_1
 download.csdn.net##.quake-slider
+downsx.net##.adbox
 downxia.com###gaosu_div0
 downyi.com###BzDown
 downyi.com##.bzYouDao
@@ -6841,6 +6845,7 @@ suning.com##.c2c-recommend
 suopao.org##.t5[style^="margin-top:8px;"]
 suopao.org##.tr3.t_one[onmouseout]
 superlife.ca##.sidebar-ad-zone
+susongbbs.com#@#.ad_banner
 suxzp.com##.full-screen-cover
 sxrom.com##.tmk
 syd.com.cn##div[class^="eap"]
@@ -8780,8 +8785,8 @@ zznews.cn##.ad:not([style])
 ||32414.com^$third-party
 ||32xp.com/upimg/
 ||3324.cn^$third-party
-||3332899.com^$third-party
-||3336637.com^$third-party
+||3332899.com^$third-party,image
+||3336637.com^$third-party,image
 ||3336639.com^
 ||3336653.com^
 ||3336657.com^
@@ -9235,6 +9240,7 @@ zznews.cn##.ad:not([style])
 ||64bobo.com/ckplay/js.jpg
 ||64ma.com/tv/images/web.png
 ||64si.com^
+||652696.com^
 ||65tgh.com^
 ||66.212.56.229^
 ||66.fmx.cn/js/
@@ -10935,6 +10941,7 @@ zznews.cn##.ad:not([style])
 ||bxjpl.cn^
 ||bxw666.com/storage/*.gif
 ||bxwxorg.com/ui/vue/element.
+||by.dyq.cn^
 ||by4d.com/dh/
 ||by4d.com/love/
 ||bydonline.com^
@@ -11636,6 +11643,7 @@ zznews.cn##.ad:not([style])
 ||d8360.com^$third-party
 ||d8ekco.com^
 ||da-fan-shu.cn/images/kuaijie.jpg
+||da.daji.com^
 ||da.duowan.com/loc/
 ||da.mgtv.com^
 ||dabai28.com/img/*.gif
@@ -13639,6 +13647,7 @@ zznews.cn##.ad:not([style])
 ||imgur.com^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
 ||imgur.com^$domain=560996.com|histock.tw|wgun.net
 ||imgur.com^*.gif$domain=18p2p.com
+||imgxb.top^
 ||imgxr.com^$domain=xiuren.org
 ||imiek.com^
 ||imim.me^
@@ -15199,7 +15208,7 @@ zznews.cn##.ad:not([style])
 ||mudezs.com^
 ||muimg.com^$domain=lsjsoso.me
 ||music.163.com^$domain=mvcat.com
-||muxingkj.com^$third-party
+||muxingkj.com^$third-party,image
 ||muyang888.top/js/
 ||muyuge.com/fw.html/
 ||muyys.com/img/
@@ -15423,6 +15432,7 @@ zznews.cn##.ad:not([style])
 ||nmqbg.com^
 ||nmqdnykj.com^
 ||nmtouzi.com^
+||nnsbbd.com^
 ||no1.168abc.net/upload/
 ||nongfumg.com^
 ||nongjitong.com/adm/
@@ -16466,6 +16476,7 @@ zznews.cn##.ad:not([style])
 ||share44.com/adad2014/
 ||sharedaddomain.com^
 ||sharele.cn^$third-party
+||sharonyean.com^
 ||sharrysweb.com^
 ||shbear.com^*/ad/
 ||shcy3.com^
@@ -17190,7 +17201,6 @@ zznews.cn##.ad:not([style])
 ||tingvoa.com/images/*img.js
 ||tingvoa.com/images/top_600_80.js
 ||tingyun.com^$third-party
-||tinychinacdnweb.qiniu.com.w.kunlunno.com^
 ||tinypic.com^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
 ||tinypic.com^$domain=fdzone.org|jandown.com|mimima.com
 ||tiojk.com^
@@ -18518,7 +18528,7 @@ zznews.cn##.ad:not([style])
 ||yesky.com/monitorjs/imp-
 ||yesky.com/s?z=
 ||yeyajipp.com^
-||yeyemo4.com^$third-party
+||yeyemo4.com^$third-party,image
 ||yeyou.com/2013/new/yeyou-float-window.js
 ||yeyushe.cn^
 ||yezi.cn/_ad/
