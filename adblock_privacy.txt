@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202106020414
+! Version: 202106030402
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36210
+! Lenth = 36190
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -5746,6 +5746,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /vwFiles/analytics/*
 /vzTracker/*
 /vztrack.gif?
+/w_js.php|$script,~third-party
 /wa01.gif?log=
 /wa?ctag
 /wa_process.js
@@ -7251,6 +7252,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=radiorur.de
 @@||googletagmanager.com/gtm.js$domain=realestate.co.nz
 @@||googletagmanager.com/gtm.js$domain=redbull.com
+@@||googletagmanager.com/gtm.js$domain=renault.ru
 @@||googletagmanager.com/gtm.js$domain=rewards.msi.com
 @@||googletagmanager.com/gtm.js$domain=rollingstone.com
 @@||googletagmanager.com/gtm.js$domain=rottentomatoes.com
@@ -7956,6 +7958,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||s.visilabs.net/Target.js^$domain=evidea.com
 @@||s.visilabs.net/Target.js^$domain=makyajtrendi.com
 @@||s.yimg.com^*/advertisement/sponsor/promo/ad.png$image,domain=news.yahoo.com
+@@||s.yjtag.jp/tag.js$domain=www.epson.jp
 @@||s.yjtag.jp/tag.js$script,domain=mail.yahoo.co.jp
 @@||s.youtube.com/api/stats/playback?
 @@||s.youtube.com^|
@@ -12988,7 +12991,6 @@ znak.com##.relap
 ||cdn-adn.rayjump.com^
 ||cdn-alliancegravity.s3.amazonaws.com^
 ||cdn-analytics.ladmedia.fr^
-||cdn-b.notsy.io^$third-party
 ||cdn-channels-pixel.ex.co^
 ||cdn-code.host^
 ||cdn-files.prsmedia.fr^*/xiti/
@@ -13033,7 +13035,6 @@ znak.com##.relap
 ||cdn.milffox.com/static/milffox.com/js/gtm.js
 ||cdn.mosoah.com/analytics.js
 ||cdn.net.elogia.net^
-||cdn.notsy.io^$third-party
 ||cdn.odoscope.cloud^$third-party
 ||cdn.omuz.com.tr/connect/pub-min.js
 ||cdn.pmweb.com.br/df/tag.js
@@ -13516,6 +13517,7 @@ znak.com##.relap
 ||cloudfront.net*/sp.js|
 ||cloudfront.net*/tracker.js
 ||cloudfront.net*/trk.js
+||cloudfront.net./script.js$script,third-party
 ||cloudfront.net/?a=
 ||cloudfront.net/abw.js
 ||cloudfront.net/amznUrchin.js
@@ -13548,6 +13550,7 @@ znak.com##.relap
 ||cloudfront.net/pt1x1.gif
 ||cloudfront.net/rc.js?
 ||cloudfront.net/rum/bacon.min.js
+||cloudfront.net/script.js$script,third-party
 ||cloudfront.net/scripts/cookies.js
 ||cloudfront.net/sentinel.js
 ||cloudfront.net/sitegainer_
@@ -18235,32 +18238,8 @@ znak.com##.relap
 ||googlerank.info^$third-party
 ||googlesyndication.com/safeframe/$third-party
 ||googletagmanager.com/gtag/$third-party
-||googletagmanager.com/gtag/js$script,other,redirect=googletagmanager-gtm,domain=guardaserie.*
-||googletagmanager.com/gtag/js$script,other,redirect=googletagmanager-gtm,domain=playphrase.me
 ||googletagmanager.com/gtag/js?id=$script,other,redirect=noopjs,domain=view.epageview.com,important
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=asicstr.com
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=avast.com
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=beymen.com
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=chip.com.tr
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=dafiti.com.co
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=game8.jp
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=morningstar.nl
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=pcmag.com,important
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=skechers.com.tr
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=store.line.me
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=straitstimes.com
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=suwen.com.tr
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=theverge.com,important
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=viu.com,important
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=whatcar.com,important
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=x-kom.pl|al.to
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=yargici.com
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=zeelandnet.nl
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,important,domain=displate.com
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,important,domain=flyingv.cc
 ||googletagmanager.com/gtm.js$script,redirect=noopjs,domain=kabel.canaldigital.no,important
-||googletagmanager.com/gtm.js$script,xmlhttprequest,important,redirect=googletagmanager-gtm,domain=gazin.com.br
-||googletagmanager.com/gtm.js$script,xmlhttprequest,redirect=googletagmanager-gtm,important,domain=northantstelegraph.co.uk
 ||googletagmanager.com/gtm.js?$domain=autobild.de|transfermarkt.de
 ||googletagmanager.com/gtm.js?$domain=tvspielfilm.de
 ||googletagmanager.com/gtm.js?$third-party
@@ -26689,6 +26668,7 @@ znak.com##.relap
 ||rehouse-cs.mf-realty.jp^
 ||reindaks.com^$third-party
 ||reindeer.cablemod.com^
+||reingod.com^$third-party
 ||reinvigorate.net^$third-party
 ||reise.com/js/webtrekk
 ||reisen.de/usertracking^
@@ -28208,7 +28188,6 @@ znak.com##.relap
 ||shermore.info^$third-party
 ||shesubscriptions.com^$third-party
 ||shifoagn.uk^$third-party
-||shiftdelete.net/api/banner_
 ||shinesavage.com^$third-party
 ||shinobi.jp/track?
 ||shinobi.jp/zen?
@@ -28263,6 +28242,7 @@ znak.com##.relap
 ||shutseashore.com^$third-party
 ||shutterfly.com^*/pageloadtime.gif?
 ||shutterstock.com/b.png?
+||shutto.com/images/pv_beacon.gif
 ||shwahh.vestiairecollective.com^
 ||shyseed.com^$third-party
 ||sibautomation.com^$third-party

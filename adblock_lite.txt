@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202106020414
+! Version: 202106030402
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19284
+! Lenth = 19295
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -510,6 +510,7 @@
 2345.com###J_acts11_footerfixed
 2345.com###J_bgSug1st
 2345.com###J_go_erweima
+2345.com###J_hot_event
 2345.com###J_s11_foot
 2345.com###J_tip_stopXP
 2345.com###abanner
@@ -5250,6 +5251,9 @@ keywin.org##.pindaolist
 kikinote.net##.pc_ad
 kingkong.com.tw##.public-activity
 kingkong.com.tw##.room-banner-wrap
+kissjojo99.com###text-16
+kissjojo99.com##.g-adv
+kissjojo99.com##.single-top
 kisssub.org##a > img[src*=".0o0.ooo/"]
 kisstube.top##.footer-gg
 kjsv.com###advertisingMap
@@ -9443,6 +9447,7 @@ zznews.cn##.ad:not([style])
 ||88818122.cn^
 ||8881919.cc^
 ||888dizhi.com/888/
+||888lianmeng.com^
 ||88cpc.com^$third-party
 ||88eg.cn^
 ||88liu.com/data/attachment/portal/
@@ -9710,7 +9715,6 @@ zznews.cn##.ad:not([style])
 ||a1.gexing.me^
 ||a1.lshou.com^
 ||a1.q6u.com^
-||a1.qqjay.com^
 ||a1.qqtn.com^
 ||a1.shusanqi.com^
 ||a1.sumiaowang.com^
@@ -10393,6 +10397,7 @@ zznews.cn##.ad:not([style])
 ||b1.b2b168.net^
 ||b1.baomihua.com^
 ||b1.c1km4.com^
+||b1.qqjay.com^
 ||b1.xiao84.com^
 ||b168.net^*.*?$image
 ||b17.8794.cn^
@@ -15305,6 +15310,7 @@ zznews.cn##.ad:not([style])
 ||namemek.com^
 ||nancyface.com^
 ||nanfengyl.com/static/js/zdad.js
+||nanofine.cn^
 ||nanrenfuli.*/zb_users/upload/
 ||nanyangqiaoxiang.cn^
 ||naolifanghealth.com^
@@ -16965,6 +16971,7 @@ zznews.cn##.ad:not([style])
 ||sxzmj.cn^
 ||sxzzhj.com^
 ||sycbbs.com^
+||sydswxx.com^
 ||sykty.com^
 ||symad.cn^
 ||symag.cn^
@@ -17849,6 +17856,7 @@ zznews.cn##.ad:not([style])
 ||west.cn/vcp/getJScode/
 ||westca.com/server/
 ||weste.net/js/showpagead.js
+||wetips.cn^
 ||wew.dushiwenxue.net^
 ||wf321.com^
 ||wfaffwshop.xyz^
@@ -18269,6 +18277,7 @@ zznews.cn##.ad:not([style])
 ||xmcimg.com/js/m.js
 ||xmcs99885.cn^
 ||xmcs99886.cn^
+||xmcs99888.cn^
 ||xmcxz.com^
 ||xmfish.com/chanel/www/cpm.html
 ||xmliw.com^
@@ -18724,6 +18733,7 @@ zznews.cn##.ad:not([style])
 ||yp868.com/js/54h/
 ||ypa.focusoftime.com^
 ||ypmob.com^
+||yqgjq.com^
 ||yqhlty.com^
 ||yqqlm.vip^
 ||yqrta.xyz^$third-party
@@ -18761,6 +18771,7 @@ zznews.cn##.ad:not([style])
 ||yttz113.com^
 ||yu0123456.com^$third-party
 ||yu520o.top^
+||yuailairuci.com^
 ||yuanbao777.com/download/*.gif
 ||yuandongoffice.com^
 ||yuanhsu.com^$third-party
