@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202106030402
+! Version: 202106040326
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21378
+! Lenth = 21388
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -765,10 +765,6 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
-##A[href*="/hth377.com/"]
-##A[href*="/hth908.com"]
-##A[href*="/ly0909.com"]
-##A[href*="/odty55.cc"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class][onclick="window.location.href='/api/goapp/'"]
@@ -876,10 +872,13 @@
 ##a[href*="/htbet1536.com"]
 ##a[href*="/hth104.com/"]
 ##a[href*="/hth107.com/"]
+##a[href*="/hth377.com/"]
 ##a[href*="/hth567.cn"]
 ##a[href*="/hth907.com"]
+##a[href*="/hth908.com"]
 ##a[href*="/l1y5.com"]
 ##a[href*="/l1y9.com"]
+##a[href*="/ly0909.com"]
 ##a[href*="/ly1111.vip"]
 ##a[href*="/ly288.net"]
 ##a[href*="/md0c.oss-cn-beijing.aliyuncs.com/"]
@@ -889,6 +888,7 @@
 ##a[href*="/mdb1.site/"]
 ##a[href*="/mobads.php?"]
 ##a[href*="/nf.brushshopy.com"]
+##a[href*="/odty55.cc"]
 ##a[href*="/ppffj.me/"]
 ##a[href*="/uuzb50.cc/"]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
@@ -1269,6 +1269,7 @@ $websocket,domain=5nj.com|cechi8.com
 /1*.html?|$script,third-party,xmlhttprequest
 /1*.xhtml?|$script,third-party,xmlhttprequest
 /1.html?$script,third-party
+/1.js?ssfrid=$script,third-party,xmlhttprequest
 /104_150/1360_1|
 /11431a7ff0f5.swf$domain=tieba.baidu.com
 /160_600_
@@ -2881,6 +2882,7 @@ $websocket,domain=5nj.com|cechi8.com
 51cto.com##.suspend
 51cto.com##.upopbg
 51cto.com##DIV[id^="topbanner"]
+51cto.com#$#.top_bg { height: 60px !important; }
 51cto.com#@#.addarea
 51cto.com,chinaacc.com,yidianzixun.com##.banner
 51dll.com,fulisuo.com,papa1024.com###aa
@@ -4195,6 +4197,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 @@||zpmobi.cn^*/ad.css?$stylesheet
 _!!1731999033.
+_1MObaudu.js
 _1xhtml?$script
 _300_250.
 _300_250_
@@ -4633,6 +4636,7 @@ baidu.com##.wgt-bottom-union
 baidu.com##.wgt-union
 baidu.com##.yitiao-box
 baidu.com##div[class$="-ecom-ads"]
+baidu.com##div[class*="fc-"][data-placeid]
 baidu.com##div[data-ad]
 baidu.com##div[id^="toast"]
 baidu.com##div[style="padding: 20px 9px 20px 10px;widget:250px;height:250px;"]
@@ -5142,6 +5146,7 @@ cilimao.co,cilimao.one##div[class^="FixBanner"]
 cjjjs.com,cnblogs.com,fastadmin.net##a[href^="https://promotion.aliyun.com/"]
 cjn.cn###slidelr
 cjn.cn##.sidebar
+cjw123.com##A[href="http://tb.cjw123.com"]
 ck101.com###av_a
 ck101.com###canvas-section
 ck101.com###image_ad_long
@@ -5470,7 +5475,7 @@ ddooo.com##.guoasu
 ddooo.com##.xzbtn
 ddooo.com#?#span:-abp-has(>p:-abp-contains(高速))
 ddooo.com#?#ul:-abp-has(>dd:-abp-contains(高速))
-ddrk.me#$#a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"]) { max-width: 10%!important; transform: translate(-3000px,0) !important; }
+ddrk.me#$?#a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"]) { remove: true; }
 ddrk.me#@#a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddrk.me,ddys.tv##a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddrk.me,ddys.tv##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
@@ -7574,7 +7579,6 @@ m.babytree.com##script + a[class]
 m.baidu.com##.ec_adv
 m.baidu.com##.news_ad
 m.baidu.com##a[href*="m.lecai.com"]
-m.baidu.com##div[class*="fc-"][data-placeid]
 m.biqiugege8.com#%#//scriptlet("set-constant", "lists", "undefined")
 m.cnbeta.com##.article-hd + div[style="text-align:center"]
 m.cnbeta.com##.cbimage-fixed
@@ -8924,7 +8928,7 @@ subaibai.com###note
 subhd.com##div[style="position:fixed;bottom:20px;left:20px;"]
 subku.net##.btn-success
 sui.com#@#.fb-btn
-suibiankan.cc##style + div[id],.vdtp + a,a > video
+suibiankan.cc##.vddb + a,.vddb,.vddb_qq,style + div[id],a > video
 suizhoushi.com##.sznew_ad_top
 suizhoushi.com##div[id^="sznew_ad"]
 suning.com###sn-sidebar-change-code
@@ -13397,6 +13401,7 @@ zznews.cn##.ad:not([style])
 ||cjjjs.com/image/banner/ali
 ||cjjjs.com/script/ad.js
 ||cjn.cn^*/ad/
+||cjw123.com/jx/static/picture/tm.png
 ||cjx111.com/ads/
 ||cjyjqw.cn^
 ||cjyun.org/assets/js/analytics.js
@@ -13997,6 +14002,7 @@ zznews.cn##.ad:not([style])
 ||dn*.ixinwei.com^
 ||dnfkong.com^
 ||dngz.net/x/
+||dnjszp.cn^
 ||dnpz123.com^$third-party
 ||dnskuu.com^
 ||dnvod.tv/listprovider/ajaxlist.async.ashx
@@ -15394,6 +15400,7 @@ zznews.cn##.ad:not([style])
 ||hsmkj.net^$third-party
 ||hsyjxzl.cn^
 ||ht12366.top^
+||htdzwy.com^
 ||htfmbt.com^
 ||htg-x.com^$third-party
 ||htjsk.com^
@@ -15655,6 +15662,7 @@ zznews.cn##.ad:not([style])
 ||im286.net/286/
 ||image-shop.baidu.com/n/imageproduct?
 ||image.39.net/style/
+||image.51cto.com/ad/
 ||image.qndown.com^$third-party
 ||image66.top2099.com^
 ||imagebed.org^$domain=kisstube.top
@@ -16360,6 +16368,7 @@ zznews.cn##.ad:not([style])
 ||kanfaxing.com^
 ||kangerlu.com^
 ||kanguba.com/file/js/wwwifr.asp
+||kangxifan.com^
 ||kanjiantu.com/images/2020/*.gif
 ||kanjiaqun.cn^
 ||kanjuba.me/js/bbk/
@@ -17629,6 +17638,7 @@ zznews.cn##.ad:not([style])
 ||onedala.tv/uploads/banner/
 ||onegreen.net/MyFile/
 ||oneinstack.com/images/oneinstack-
+||onenews.vip^
 ||onetad.com^$third-party
 ||onetvb.com/assets/javascripts/
 ||onewhee.com^$third-party
