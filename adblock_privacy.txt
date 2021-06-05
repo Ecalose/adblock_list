@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202106040326
+! Version: 202106050343
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36192
+! Lenth = 36206
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -772,7 +772,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /CountContent?
 /Counter.ashx?
 /Counter.woa/*
-/CoveoForSitecore.
 /CreateAnalytics.js
 /CreateCookieSSO_
 /CreateVIDCookie.aspx?
@@ -1423,6 +1422,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /analytics/collector/*
 /analytics/content?
 /analytics/core.
+/analytics/custom
 /analytics/data-
 /analytics/dealerfire/*
 /analytics/dfa.
@@ -1466,6 +1466,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /analytics/report/*
 /analytics/rt?
 /analytics/script/*
+/analytics/searches
 /analytics/smarttag-
 /analytics/sockjs.
 /analytics/tags
@@ -7214,6 +7215,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$domain=jbc.be
 @@||googletagmanager.com/gtm.js$domain=jump.com.tr
 @@||googletagmanager.com/gtm.js$domain=kakuyomu.jp
+@@||googletagmanager.com/gtm.js$domain=keramundo-onlineshop.de
 @@||googletagmanager.com/gtm.js$domain=koctas.com.tr
 @@||googletagmanager.com/gtm.js$domain=kompas.com
 @@||googletagmanager.com/gtm.js$domain=komputronik.pl
@@ -7401,6 +7403,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||hotwirestatic.com^*/opinionLab.js$domain=hotwire.com
 @@||hr-online.de/website/includes/webanalyse/xtcore.js
 @@||hse24.de^*/emos2.js
+@@||humaninterest.com/api/analytics/$script,~third-party
 @@||i-scmp.com/production/mixpanel.$domain=scmp.com
 @@||i.onthe.io^$script,image,stylesheet,domain=nur.kz
 @@||i.snssdk.com/log/sentry/$domain=lv.ulikecam.com
@@ -8940,6 +8943,7 @@ znak.com##.relap
 ||4seeresults.com^
 ||4sqt6jq.de^
 ||4stats.de^$third-party
+||5-fifth.com/assets/js/pc/analytics.js
 ||50.net.daraz.com^
 ||50bang.org^$third-party
 ||51network.com^$third-party
@@ -9647,6 +9651,7 @@ znak.com##.relap
 ||acc.ns2.cl.bellsouth.net.daraz.com^
 ||acc.r-dw-1.net.daraz.com^
 ||accaii.com^$third-party
+||accdab.net^$third-party
 ||accengage.net^$third-party
 ||acceptableserver.com^$third-party
 ||acces-charme.com/fakebar/track.php?
@@ -10703,6 +10708,7 @@ znak.com##.relap
 ||analytics.lunge.de^
 ||analytics.ma.tune.com^
 ||analytics.mail-corp.com^
+||analytics.maileon.com^
 ||analytics.mailmunch.co^
 ||analytics.mambaui.com^
 ||analytics.matchbin.com^
@@ -11782,6 +11788,7 @@ znak.com##.relap
 ||b8cdn.com^*/analytics.js
 ||b92.yahoo.co.jp/js/s_retargeting.js
 ||b92.yahoo.co.jp/search^
+||b97.yahoo.co.jp^
 ||bab.frb.io^
 ||babator.com^$domain=focus.de
 ||babator.com^$third-party
@@ -13305,6 +13312,7 @@ znak.com##.relap
 ||clck.yandex.ru^
 ||clck.yandex.ru^$other
 ||cleananalytics.com^$third-party
+||clearbitjs.com^$third-party
 ||clearcabbage.com^$third-party
 ||clearcomb.com^$third-party
 ||clearsale.com.br^$third-party
@@ -14172,6 +14180,7 @@ znak.com##.relap
 ||count.upc.rakuten.co.jp^
 ||count.video.sina.com.cn^
 ||count.vrs.sohu.com^
+||count.webstatistik-bw.de^$third-party
 ||count.yandeg.ru^
 ||count24.de^$third-party
 ||count5.pconline.com.cn^
@@ -16918,6 +16927,7 @@ znak.com##.relap
 ||facebook.com/ajax/*logging.
 ||facebook.com/ajax/bz?*__comet_req=
 ||facebook.com/ajax/mtouch_perf_page_load_timings/
+||facebook.com/ajax/qm/
 ||facebook.com/brandlift.php
 ||facebook.com/common/cavalry_endpoint.php?
 ||facebook.com/common/scribe_endpoint.php$domain=transfermarkt.de
@@ -19242,6 +19252,7 @@ znak.com##.relap
 ||imrworldwide.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 ||imrworldwide.com^$domain=prosieben.at|prosieben.ch|prosieben.de
 ||imrworldwide.com^$third-party
+||imstream.jp/analytics/js/
 ||imtop.ru/*/count$third-party
 ||imtwjwoasak.com^$third-party
 ||imwalking.de/servlet/LandmarkServlet?clientId
@@ -19848,6 +19859,7 @@ znak.com##.relap
 ||ipstat.com^$third-party
 ||ipstatp.com/growth/fe_sdk/reportsdk/$third-party
 ||ipstatp.com/static_magic/pgc/tech/collect/$third-party
+||iptrack.io^$third-party
 ||iptracker-lb-*.amazonaws.com^
 ||ipummv.pharao24.de^
 ||ipv6monitoring.eu^$third-party
@@ -23806,6 +23818,7 @@ znak.com##.relap
 ||mzbcdn.net/mngr/mtm.js
 ||mzhuzu.ycmc.com^
 ||mzjruy.yocoyoco.com^
+||n-analytics.io^
 ||n-core-pipe.com^
 ||n-tv.de/stats^
 ||n.mailfire.io^$third-party
@@ -30666,6 +30679,7 @@ znak.com##.relap
 ||stat.uuu9.com^
 ||stat.valica.it^
 ||stat.videonow.ru^$third-party
+||stat.vulkanvegas.com^
 ||stat.web-regie.com^
 ||stat.webevolutis.com^
 ||stat.wioau.com^$third-party
@@ -34774,7 +34788,6 @@ znak.com##.relap
 ||vttics.world.co.jp^
 ||vudjof.tiu.ru^
 ||vuorrx.aromantic.co.uk^
-||vuukle.com^$third-party
 ||vuzkbh.jshealthvitamins.com^
 ||vv.ricardo.ch^
 ||vvaaol.enuygun.com^
@@ -34910,6 +34923,7 @@ znak.com##.relap
 ||waves.retentionscience.com^
 ||wawacity.*/bypass
 ||way2traffic.com^$third-party
+||wazzup.me/libs/track.js
 ||wbcygu.wardow.com^
 ||wbdds.allocine.fr^
 ||wbdx.fr^$third-party
