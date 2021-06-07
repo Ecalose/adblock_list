@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202106060245
+! Version: 202106070328
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21417
+! Lenth = 21422
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -536,6 +536,7 @@
 ##.frontpageAdvM
 ##.full-ads
 ##.full.banners12
+##.g1_wz > .g1_tp
 ##.getads
 ##.gg1000
 ##.gg430
@@ -963,6 +964,7 @@
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[onclick*=".aiyou305.com/"]
+##img[onclick*="/2e9c9aa9.com"]
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
@@ -1012,8 +1014,7 @@ $script,third-party,domain=512539700c.top|ahri-hentai.com
 $script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.supfree.net|wltmv.com|xiepp.com
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=dybee.tv
-$script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.net|torrentkitty.lol|torrentkitty.se|torrentkitty.tv
-$script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.net|torrentkitty.se|torrentkitty.tv
+$script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
 $script,third-party,xmlhttprequest,domain=btsow.digital
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
@@ -1721,7 +1722,6 @@ $websocket,domain=5nj.com|cechi8.com
 /images/sgcrwj*.$domain=imoutolove.me|level-plus.net|south-plus.org|spring-plus.net|white-plus.net
 /images/ta1234.js
 /images/uploads/index_banner/a201*.gif
-/images/vpn*.gif$domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.net|torrentkitty.se|torrentkitty.tv
 /img/91/*_1280_
 /img/91/*_600.
 /img/91/*_600_
@@ -1750,8 +1750,7 @@ $websocket,domain=5nj.com|cechi8.com
 /jdzjgg/*
 /jfjs/ad.js
 /jianshen8/images/plan_banner_
-/jquery.bpopup.$domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.net|torrentkitty.lol|torrentkitty.se|torrentkitty.tv
-/jquery.bpopup.$domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.net|torrentkitty.se|torrentkitty.tv
+/jquery.bpopup.$domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
 /js/AD_tv.js
 /js/aa.htm$script
 /js/aahome.htm
@@ -9150,9 +9149,7 @@ tophub.today##.axx
 tophub.today##.c-d.c-d-e > .qc + div
 tophub.today##div[class^="ne"]
 tophub.today##div[class^="qc"]
-torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.lol,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
-torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv###fixedbanner
-torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
+torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
 toutiao.com##.J_add
 toutiao.com##.J_qihu_ad
 toutiao.com##.article_link[data-tag="ad"]
@@ -9611,6 +9608,7 @@ wxrb.com##.ADtxt
 x-mol.com###floatWindow
 x3cn.com###portal_block_12045
 x3cn.com#?#.commonDiv:-abp-has(.ad)
+x6d.com##.tmall_tab
 x6d.com##a[href^="/ad.php?"]
 x6d.com#?#li:-abp-has(>.myad)
 xblian.com##a[href^="https://page.pe/"]
@@ -10834,6 +10832,7 @@ zznews.cn##.ad:not([style])
 ||28kys.com/92kviptupian/
 ||28kys.com/cpstupian/
 ||28wangmeng.com^
+||292812.com^
 ||293870.com^
 ||29spp.com/js/tj.js
 ||29wjns.com^
@@ -11289,6 +11288,7 @@ zznews.cn##.ad:not([style])
 ||5leji.com^$third-party
 ||5lu8.com^$popup,third-party
 ||5mgurg.cn^
+||5mn.net^$third-party
 ||5mnh.com^$third-party
 ||5nf0ec.cn^
 ||5nj.com/images/appdown.gif
@@ -11520,6 +11520,7 @@ zznews.cn##.ad:not([style])
 ||827649.com^
 ||83.locksmaker.com.cn^$third-party
 ||83133.com/api/
+||833761.com^
 ||8521448.com^
 ||8585go.com/recommend
 ||85tgw.com^
@@ -11556,6 +11557,7 @@ zznews.cn##.ad:not([style])
 ||88ys.cc/js/abcd.js
 ||88ysg.com^$third-party
 ||892155.com^
+||899792.com^
 ||89h8.com^
 ||8ao8ao.com^
 ||8bnwuz.cn^
@@ -15021,6 +15023,7 @@ zznews.cn##.ad:not([style])
 ||gxgzyny.com^
 ||gxklsftz.cn^
 ||gxkyl.com^
+||gxmbr.cn^
 ||gxnews.com.cn/clientscript/index_duilian_
 ||gxnews.com.cn/upload/index/*.swf
 ||gybdtg.com^
@@ -17714,6 +17717,7 @@ zznews.cn##.ad:not([style])
 ||oycslia.xyz^
 ||oycslib.xyz^
 ||oycslic.xyz^
+||oyknmi.cn^
 ||oyksoft.com/assets/images/*.gif
 ||oyksoft.com/show/b.
 ||oyvyxj.cn^$third-party
@@ -18337,6 +18341,7 @@ zznews.cn##.ad:not([style])
 ||renrentoutiao.cn^
 ||renshengyiyi.com^
 ||rentiyishu.org/*.js
+||renyantian.top^
 ||repian.com/a/
 ||replays.net/j/dazui
 ||replays.net/j/pinglunshang.png

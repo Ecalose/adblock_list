@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202106060245
+! Version: 202106070328
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36213
+! Lenth = 36219
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -6270,6 +6270,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||akamaized.net^*/tracking/ninja.js$domain=olx.pl
 @@||alfadirect.ru/api/analytics/latest?$~third-party,xmlhttprequest
 @@||aliunicorn.com^*/click_stat/
+@@||alkosto.cdn.adglare.net^$image,xmlhttprequest,domain=alkosto.com|ktronix.com
+@@||alkosto.engine.adglare.net^$script,xmlhttprequest,domain=alkosto.com|ktronix.com
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
 @@||allsoft.kaspersky.ru^$cookie=guest_id
 @@||alternate.de/js/emos2.js
@@ -6721,6 +6723,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||disqus.com/api/3.0/embed/threadDetails.json
 @@||disqus.com/api/3.0/posts/$document
 @@||djtflbt20bdde.cloudfront.net^$domain=feedly.com
+@@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
 @@||docodoco.jp^*/docodoco?key=$script,domain=nidec-copal-electronics.com
 @@||docs.amplify.aws^*/platform/js/autotrack.json$~third-party
 @@||dominos.com^*/assets/build/js/modules/dpz.tealium.js$script
@@ -8739,6 +8742,7 @@ sendgrid.net/wf/open$image
 setafi.com##.footer_bl-3
 sinoptik.ua###bigmirTop
 specialcom.net#?##sidebar > div.widget:has(span#openstat1)
+sports.goo.ne.jp###taboola-below-sokuho-thumbnails
 store.line.me#%#//scriptlet('remove-class', 'async-hide', 'html')
 t.hsms06.com$image
 t.hubspotemail.net/e2t/o$image
@@ -10204,6 +10208,7 @@ znak.com##.relap
 ||airbnb.*/facebook_advanced_matchings?
 ||airbnb.*/tracking/
 ||airbnb.de/pg_pixel^
+||airbrake.io^$third-party
 ||aircanada.com/shared/common/sitecatalyst/s_code.js
 ||airfrance.com/s/?tcs=
 ||airnewzealand.eu^$ping
@@ -25296,6 +25301,7 @@ znak.com##.relap
 ||perezhilton.com/gtjs.php
 ||perezhilton.com/services/geo/
 ||perezhilton.com^*/stat/
+||perf-events.cloud.unity3d.com^
 ||perf-serving.com^$third-party
 ||perf.af.funneldrivers.com^
 ||perf.dugout.com^

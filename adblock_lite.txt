@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202106060245
+! Version: 202106070328
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19329
+! Lenth = 19335
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -7062,9 +7062,7 @@ tophub.today##.axx
 tophub.today##.c-d.c-d-e > .qc + div
 tophub.today##div[class^="ne"]
 tophub.today##div[class^="qc"]
-torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.lol,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
-torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv###fixedbanner
-torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
+torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
 toutiao.com##.J_add
 toutiao.com##.J_qihu_ad
 toutiao.com##.article_link[data-tag="ad"]
@@ -7523,6 +7521,7 @@ wxrb.com##.ADtxt
 x-mol.com###floatWindow
 x3cn.com###portal_block_12045
 x3cn.com#?#.commonDiv:-abp-has(.ad)
+x6d.com##.tmall_tab
 x6d.com##a[href^="/ad.php?"]
 x6d.com#?#li:-abp-has(>.myad)
 xblian.com##a[href^="https://page.pe/"]
@@ -8746,6 +8745,7 @@ zznews.cn##.ad:not([style])
 ||28kys.com/92kviptupian/
 ||28kys.com/cpstupian/
 ||28wangmeng.com^
+||292812.com^
 ||293870.com^
 ||29spp.com/js/tj.js
 ||29wjns.com^
@@ -9201,6 +9201,7 @@ zznews.cn##.ad:not([style])
 ||5leji.com^$third-party
 ||5lu8.com^$popup,third-party
 ||5mgurg.cn^
+||5mn.net^$third-party
 ||5mnh.com^$third-party
 ||5nf0ec.cn^
 ||5nj.com/images/appdown.gif
@@ -9432,6 +9433,7 @@ zznews.cn##.ad:not([style])
 ||827649.com^
 ||83.locksmaker.com.cn^$third-party
 ||83133.com/api/
+||833761.com^
 ||8521448.com^
 ||8585go.com/recommend
 ||85tgw.com^
@@ -9468,6 +9470,7 @@ zznews.cn##.ad:not([style])
 ||88ys.cc/js/abcd.js
 ||88ysg.com^$third-party
 ||892155.com^
+||899792.com^
 ||89h8.com^
 ||8ao8ao.com^
 ||8bnwuz.cn^
@@ -12933,6 +12936,7 @@ zznews.cn##.ad:not([style])
 ||gxgzyny.com^
 ||gxklsftz.cn^
 ||gxkyl.com^
+||gxmbr.cn^
 ||gxnews.com.cn/clientscript/index_duilian_
 ||gxnews.com.cn/upload/index/*.swf
 ||gybdtg.com^
@@ -15626,6 +15630,7 @@ zznews.cn##.ad:not([style])
 ||oycslia.xyz^
 ||oycslib.xyz^
 ||oycslic.xyz^
+||oyknmi.cn^
 ||oyksoft.com/assets/images/*.gif
 ||oyksoft.com/show/b.
 ||oyvyxj.cn^$third-party
@@ -16249,6 +16254,7 @@ zznews.cn##.ad:not([style])
 ||renrentoutiao.cn^
 ||renshengyiyi.com^
 ||rentiyishu.org/*.js
+||renyantian.top^
 ||repian.com/a/
 ||replays.net/j/dazui
 ||replays.net/j/pinglunshang.png
