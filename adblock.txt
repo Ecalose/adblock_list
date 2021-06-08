@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202106070328
+! Version: 202106080237
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21422
+! Lenth = 21447
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -766,7 +766,10 @@
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
+##A[href*=".c43066a9.com"]
 ##A[href*=".com/?Agent="]
+##A[href*=".com/entry/register/?i_code="] > img
+##A[href*="/10093813.com"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class][onclick="window.location.href='/api/goapp/'"]
@@ -810,6 +813,7 @@
 ##a[href*=".com/?p="][target="_blank"] > img[src$=".gif"]
 ##a[href*=".com/Register.aspx?aid="]
 ##a[href*=".com/Register/?a="]
+##a[href*=".com/register/?i_code="] > img
 ##a[href*=".com/tg.html?id="]
 ##a[href*=".com?aff="]
 ##a[href*=".com?intr="]
@@ -869,6 +873,7 @@
 ##a[href*="/?Intr="]
 ##a[href*="/?intr="]
 ##a[href*="/Register?a="]
+##a[href*="/ads/adscenter."]
 ##a[href*="/aiyoubet178.com/"]
 ##a[href*="/ayx600.com/"]
 ##a[href*="/ayxbet846.vip"]
@@ -892,6 +897,7 @@
 ##a[href*="/mdapp2.cc/"]
 ##a[href*="/mdb1.site/"]
 ##a[href*="/mobads.php?"]
+##a[href*="/nba9.lol"]
 ##a[href*="/nf.brushshopy.com"]
 ##a[href*="/odty55.cc"]
 ##a[href*="/ppffj.me/"]
@@ -1417,6 +1423,7 @@ $websocket,domain=5nj.com|cechi8.com
 /adcode/*
 /adcomp.
 /addon/assets/common/gg.js
+/addon/indexad.php
 /adfile.
 /adfiles/*
 /adflash/*
@@ -1593,6 +1600,7 @@ $websocket,domain=5nj.com|cechi8.com
 /cpv/i.php?z=
 /crazyad.
 /crifan_com/padaili.png
+/css/78dfj/*.js
 /css/ad.
 /css/ads.
 /cv/*&uuid=$object-subrequest
@@ -6684,6 +6692,8 @@ iciba.com##.footer_baidu
 iciba.com##.info-product
 iciba.com##.pc-entry
 iciba.com##.recommend-item:not([href*=".iciba."])
+icook.tw##.amp-parallax-ad
+icook.tw##.recipe-ad-placeholder
 icourse163.org###courseLearn-inner-box > div > div.m-lessonDetail > div.j-lscontent.lscontent:last-child > div.j-unitct.unitct:nth-child(2) > div.m-learnunitUI.f-pr.learn-plan-container:last-child > div.j-unitctBox.unitctBox.f-pr:first-child > div.ux-modal.um-recommend-modal.ux-modal-fadeIn:last-child > div.ux-modal_dialog
 icourse163.org###j-activityBanner
 icourse163.org###j-learningState-container
@@ -6895,6 +6905,7 @@ iplaysoft.com##div[style*="width:6"][style*="height:1"]
 iplaysoft.com##div[style="margin:-10px 0 0 0;overflow:hidden"]
 ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###con-ar > .result-op[mu*="nourl.ubs.baidu.com"]
+ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .result ~ div:not([class]):not([style])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > div
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > tbody
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > ul
@@ -12338,6 +12349,7 @@ zznews.cn##.ad:not([style])
 ||ann5.net^
 ||annabelleabe.com^
 ||anoneko.com^*.*?$image
+||anqpq.cn^
 ||anqu.com/b.js
 ||anquanzhuomian.cn^
 ||anquanzhuomian.com^
@@ -12991,6 +13003,7 @@ zznews.cn##.ad:not([style])
 ||brysj.vip^
 ||bs.baidu.com/app-ads%
 ||bs777.net^$third-party
+||bsfishing.cn^
 ||bshare.cn/bshare_view?Callback=
 ||bsjgc.com^
 ||bsjgqhe.cn^
@@ -13446,6 +13459,7 @@ zznews.cn##.ad:not([style])
 ||clmmw.com^
 ||cloudad.asia^$third-party
 ||clouddn.com/960x60.gif
+||cloudflare.com/ajax/libs/jBox/$domain=localmv1.com
 ||cloudflare.com/ajax/libs/jquery.blockUI/$domain=wantgoo.com
 ||cloudfront-666.kxcdn.com/v4.js
 ||cloudfront.net/?$domain=olevod.com
@@ -13787,6 +13801,7 @@ zznews.cn##.ad:not([style])
 ||daima.yuzhulin.com^
 ||daiwofei2019.top^
 ||daiyanbao.com/flash/md
+||daizhangguanjia.com.cn^
 ||dajean.com^
 ||dajiadu8.com/17.js
 ||dajiazhao.com/login/reg.js
@@ -16839,6 +16854,7 @@ zznews.cn##.ad:not([style])
 ||lobmuc.cn^
 ||local.hniux.cn^$third-party
 ||localau.vip/plugin/ad_
+||localau.vip/plugin/show.php
 ||lofter.com/blogPhotoAd?
 ||lofter.com/mailEntry.do?blogad
 ||lofter.com/mailEntryMobile.do
@@ -16953,6 +16969,7 @@ zznews.cn##.ad:not([style])
 ||ly5200.cn^
 ||lyadu.com^
 ||lyaeccn.com^
+||lycc72.com/resources/js/content.js
 ||lychangxu.cn^
 ||lychangxu.cn^$third-party
 ||lyczhb.com^
@@ -17030,6 +17047,7 @@ zznews.cn##.ad:not([style])
 ||mafengwo.cn/uva/i.gif?
 ||mafengwo.net/s13/M00/D0/6D/wKgEaVza2HCAJw8sAAOVHkWHw_c98.jpeg
 ||magedu.com/wp-content/uploads/*/xwzx
+||magic-future.com^
 ||magictreehouse.cn^
 ||magiphone.cn^
 ||magnetdog.net^$popup
@@ -17811,6 +17829,8 @@ zznews.cn##.ad:not([style])
 ||peiliao-china.com^
 ||pekingpk10.com^
 ||pengmingx.cn^
+||pengwei168.com/addons/321.gif
+||pengwei168.com/template/stui_tpl/html/vod/f.js
 ||pentaxaws.cn^
 ||penxiangge.com^
 ||people.com.cn/adv/
@@ -18418,6 +18438,7 @@ zznews.cn##.ad:not([style])
 ||ruguoapp.com^$domain=aixiaoju.com
 ||ruian.com/img/2016/a1-6-1.gif
 ||ruian.com/img/y13/
+||ruigezx.com^
 ||ruishungp.com/assetscms2019/js/get_content.js
 ||ruiwen.com/js/p.js
 ||ruizhimu.cn^
@@ -19387,6 +19408,8 @@ zznews.cn##.ad:not([style])
 ||tom.com/adsender/
 ||tongbaimi.cn^$third-party
 ||tongbuchi.com^
+||tongchengoz.com^$redirect=noopmp3-0.1s,domain=localmv1.com
+||tongchengoz.com^$rewrite=abp-resource:blank-mp3,domain=localmv1.com
 ||tongdejiayuan.com^
 ||tonghao.ltd^
 ||tonghao.ltd^$third-party
@@ -19432,6 +19455,7 @@ zznews.cn##.ad:not([style])
 ||toujing8.top^
 ||toujing9.top^
 ||toutiao.haotui.com/data/js/0.js
+||toutiao.social^
 ||towers-shield.com^
 ||tp.sgcn.com^
 ||tpe163.com^
@@ -19838,6 +19862,7 @@ zznews.cn##.ad:not([style])
 ||w010w.com.cn^$subdocument
 ||w11.zhongkaohelp.com^
 ||w18.9939.com^
+||w3.ting55.com^
 ||w3397.com/e/public/onclick/
 ||w3989.com^
 ||w3c.5txs.com^
