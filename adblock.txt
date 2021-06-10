@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202106090211
+! Version: 202106100239
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21454
+! Lenth = 21464
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -767,6 +767,7 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
+##A[href*="/odnb.vip"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class][onclick="window.location.href='/api/goapp/'"]
@@ -781,6 +782,7 @@
 ##a[href$="/liyusheng.com"]
 ##a[href$="/lol8.co"]
 ##a[href$="/my15.tv"]
+##a[href$="/od567.net"]
 ##a[href$="s.hw226.cn"]
 ##a[href*=".05bq.com/"]
 ##a[href*=".05cg.com/"]
@@ -1686,6 +1688,7 @@ $websocket,domain=5nj.com|cechi8.com
 /gigi/ad/*
 /googleads.
 /guang/guang*.js
+/guang/mhys.jpg
 /guangao/*
 /guangg/*
 /guanggao.
@@ -4821,7 +4824,7 @@ bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"]
 bilibili.com#@#.follow-wrapper
 bilibili.com,douyu.com,oschina.net#@#.follow-btn
 bimiacg.net##.tuiguang
-bimibimi.cc##.ssr1
+bimiacg.net,bimibimi.cc##.ssr1
 bing.com###BottomAppPro
 bing.com###b_results > li[style*="padding-bottom: 8px;"][style*="235, 235, 235"]
 bing.com###bingBrand
@@ -7967,7 +7970,7 @@ nfmovies.com##div[onclick="openurl()"]
 nfmovies.com#$##adleft { position: absolute!important; left: -3000px!important; }
 nfmovies.com#$##adright { position: absolute!important; left: -3000px!important; }
 nfmovies.com#$#img[src^="/pic/tu/"] { visibility: hidden!important; }
-nfmovies.com#$?#body > .hidden-xs > div[id]:has(> img[src^="/static/"][onclick^="open"]) { position: absolute!important; top: -9999px!important; left: -9999px!important; bottom: unset!important; }
+nfmovies.com#$?#body > .hidden-xs > div[id]:has(> img[src^="/static/"][onclick*="open"]) { position: absolute!important; top: -9999px!important; left: -9999px!important; bottom: unset!important; }
 nfmovies.com#$?#div[id^="aaaDiv"] { remove: true; }
 nfmovies.com#%#//scriptlet("adjust-setInterval", "timerAdCountdownCount", "", "0.02")
 nfmovies.com#%#//scriptlet("prevent-setTimeout", "/document\.getElementById[\s\S]*?\.style\.display\.indexOf/")
@@ -11239,6 +11242,7 @@ zznews.cn##.ad:not([style])
 ||55shuba.com/files/article/html/
 ||55sky.com/js/diecuo/
 ||55yyy.cc/5Cjs/
+||563217.com^
 ||565882.com^$third-party
 ||56ads.com/js/main.js
 ||56img.com^*/baidu-promotion.js
@@ -12342,6 +12346,7 @@ zznews.cn##.ad:not([style])
 ||angryme.cn^
 ||angryme.cn^$third-party
 ||anhaochem.com^
+||anhuigecui.cn^
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
 ||anixwallpaper.com^$csp=script-src 'self' * 'unsafe-inline'
@@ -12912,6 +12917,7 @@ zznews.cn##.ad:not([style])
 ||bjename.cn^
 ||bjgtsh.com^
 ||bjhengdiao.com^
+||bjhmdy.vip^
 ||bjhockey.org/public/pc/video/test.mp4
 ||bjhuhangjy.com^
 ||bjmama.net/a/spc_
@@ -14514,6 +14520,7 @@ zznews.cn##.ad:not([style])
 ||fengniao.com*/pv.js
 ||fengousm.com^
 ||fengxiangstore.com^$third-party
+||fenhao14.com^
 ||fenxiangdashi.com/Res/js/detail_
 ||fenxiangdashi.com/img/banner/
 ||fexiaen.com^
@@ -15806,6 +15813,7 @@ zznews.cn##.ad:not([style])
 ||innvitor.com^
 ||inone517.com^
 ||inoreader.com/adv/$domain=inoreader.com
+||inping.com^$third-party
 ||instreet.cn^$third-party
 ||inszu.com/js/qian/
 ||inte.sogou.com^
@@ -15940,6 +15948,7 @@ zznews.cn##.ad:not([style])
 ||iwanad.baidu.com^
 ||iwansf.com^
 ||iwwacgx.cn^
+||ixiunv.com^$third-party
 ||iy.com.cn^$third-party
 ||iyingdi.com/goood?
 ||iyoowi.com^
@@ -16021,6 +16030,7 @@ zznews.cn##.ad:not([style])
 ||jfqkj.com^
 ||jg1668.com^$third-party
 ||jgchq.com^
+||jgcq3003.com^
 ||jghcy.com^
 ||jgstny.com^$third-party
 ||jgwsmqx.com^
@@ -16257,10 +16267,11 @@ zznews.cn##.ad:not([style])
 ||jscode.jbzj.com^
 ||jscsd.cn^
 ||jsdelivr.net/gh/*/%E7%89%9B960-80.gif
+||jsdelivr.net/gh/*/1200-60.gif
 ||jsdelivr.net/gh/*/960-100.
 ||jsdelivr.net/gh/*/960-80.gif
+||jsdelivr.net/gh/*/960x100.gif
 ||jsdelivr.net/gh/*/960x60.
-||jsdelivr.net/gh/801qq/qweasd@main/960x100.gif
 ||jsdelivr.net/gh/a901361/
 ||jsdelivr.net/gh/bde4admin/*/js/common.$domain=bde4.cc
 ||jsdelivr.net/gh/cdnjsdelivr001/182cdn*.js
@@ -19175,7 +19186,6 @@ zznews.cn##.ad:not([style])
 ||t.cn/RkHfjHk|
 ||t.cn^$domain=28kys.com|92kvip.com
 ||t.cnscore.com^
-||t.inping.com^
 ||t.njzrxx.xyz^$third-party
 ||t.yzwr588.com^$third-party
 ||t1.612.com^
@@ -20313,7 +20323,6 @@ zznews.cn##.ad:not([style])
 ||xiaogouzhuanqian.cn^
 ||xiaohui2.cn^
 ||xiaokeaiapp.com^
-||xiaoling.ixiunv.com^
 ||xiaoma.com/images/form/getclueforxiaomazonghe.js
 ||xiaoma.com/images/form/overlay
 ||xiaoma.com/kf.php?arg=
@@ -20669,6 +20678,7 @@ zznews.cn##.ad:not([style])
 ||yczbb.*/ggimg/
 ||ydcpc.com^$third-party
 ||ydfz.org^
+||ydqcjy.cn^
 ||ydqzkj.com^
 ||ydss.cn/static/js/autoAd.js
 ||ydss.cn/test.www.jdpay.com
