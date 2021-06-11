@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202106100239
+! Version: 202106110126
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36382
+! Lenth = 36413
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -270,7 +270,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 -coin-hive.js
 -coin-hive/$script
 -comscore.
--conversion-tracking-
 -criteo.
 -datacollection.
 -didomi.js
@@ -286,7 +285,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 -google-analytics-$domain=~wordpress.org
 -google-analytics.
 -google-analytics/$domain=~wordpress.org
--google-tag-manager/$script,domain=~wordpress.org
 -heatmaps-analytics/
 -imppix/
 -inview-tracker.
@@ -2356,7 +2354,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /cxense-video/*
 /cxense/cx.js
 /cyberestat/*
-/d.gif?id=
+/d.gif?
 /d1VisitsCounter.
 /d_tracking.ashx?
 /dart_wrapper.html?
@@ -2557,6 +2555,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /estatnativeflashtag.swf
 /etag?
 /etarget/*
+/etrack01.com/*$image
 /etracker.
 /etracker/*
 /etrackercode.
@@ -3419,6 +3418,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /lingabot.
 /link-tracker-
 /link.coindesk.com/img/*
+/link.divenewsletter.com/img/*$image
 /link.e-mail.*/mo/*$image
 /link.morningbrew.com/img/*.gif
 /link_track.
@@ -3599,6 +3599,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /magnet/render.
 /mail-tracking/*$image
 /mail.sparksport.co.nz/forms/read/*
+/mail.sparksport.co.nz/mail/read/*
 /mail_tracking-cg.php
 /mail_tracking.php
 /mailstatstrk/*
@@ -4199,6 +4200,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /platform-analytics-
 /plausible.js
 /plausible.js$domain=~plausible.io
+/plausible.outbound-links.js$domain=~plausible.io
 /player-test-impression?
 /player/stats.php?
 /player_counter.ashx?
@@ -4366,7 +4368,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /rcpganalytics/*
 /rd-js-integration.min.js
 /rdir.baur.de/g.html?uid=$image
-/rdir.inxmail.com^*/d.gif?
 /rdstation-popup.min.js
 /re-engage/render.
 /readReceipt/notify/?img=$image
@@ -6035,6 +6036,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 ://datalayer-*.sky.com^$domain=sky.com
 ://email.*/blankpixel.gif
 ://email.*/e/o/
+://fathom.$domain=~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gdyn.*/1.gif?
 ://geoip.*/country.json
 ://ivw.*/get?referrer=
@@ -6052,6 +6054,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 ://rum.*/rum/
 ://sett.*/log.js
 ://sp.*/xyz?$image
+://stats.*/index.js
+://stats.*/script.js
 ://stats.*/stats.aspx
 ://top.*/count/cnt.php?
 ://top.*/hit/
@@ -8798,7 +8802,7 @@ washingtonpost.com##.social-tools-wrapper-bottom
 web.frontapp.com/api$image
 welovepg.polymail.io$image
 westnews.com.ua##a[href="http://www.bigmir.net/"]
-www.google.*#%#//scriptlet('remove-attr', 'ping|data-ved', 'div[id="search"] a[data-ved][ping]')
+www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][ping]')
 xtreme.rip##td[class^="counter"]
 yamm-track.appspot$image
 ytics.disneyplus.com^
@@ -9059,6 +9063,7 @@ znak.com##.relap
 ||a.check24.net/misc/click.php?
 ||a.cloud.ns.emailvision.net.daraz.com^
 ||a.docs-ns.emailvision.net.daraz.com^
+||a.electerious.com^
 ||a.europaplus.ru/*/event?p2=
 ||a.evergage.com^
 ||a.fdmedia.io^
@@ -9664,6 +9669,7 @@ znak.com##.relap
 ||ac.berlinonline.de^
 ||ac.ecai-report.com^
 ||ac.express.de^
+||ac.miovp.com^
 ||ac.mz-web.de^
 ||academia.edu/record_hit
 ||acadian-asset.actonservice.com^
@@ -10323,6 +10329,7 @@ znak.com##.relap
 ||alkemics.com^$third-party
 ||all-top.ru/cgi-bin/topcount.cgi?
 ||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
+||allaboutberlin.com/whoisthere.js
 ||allanalpass.com/track/
 ||allcarpictures.com/stat/
 ||allergy.thermofisher.com^
@@ -11898,6 +11905,7 @@ znak.com##.relap
 ||basaru.net.ru/js/coin32.js
 ||basicstat.com^$third-party
 ||basilic.io^$third-party
+||basis.net/assets/up.js
 ||basketballbelieve.com^$third-party
 ||baskettexture.com^$third-party
 ||bass.goulet.dev^
@@ -11966,6 +11974,7 @@ znak.com##.relap
 ||beacon.affil.walmart.com^
 ||beacon.aimtell.com^
 ||beacon.carfax.com^
+||beacon.digima.com^
 ||beacon.ehow.com^
 ||beacon.errorception.com^
 ||beacon.examiner.com^
@@ -12018,6 +12027,8 @@ znak.com##.relap
 ||beagle.prod.tda.link^
 ||beak.bd.313.nl^
 ||beak.bigdata.dpgmmservices.nl^$third-party
+||beam-ws.giraffe360.com^
+||beam.giraffe360.com^
 ||beam.koddi.com^$third-party
 ||beam.mjhlifesciences.com^
 ||beam.remp.impresa.pt^
@@ -14376,6 +14387,7 @@ znak.com##.relap
 ||crashfootwork.com^$third-party
 ||crawlclocks.com^$third-party
 ||crayfish.fansubbing.com^
+||crayfish.thingelstad.com^
 ||crayoncompetition.com^$third-party
 ||crazyclickstats.com^$third-party
 ||crazyegg.com^$third-party
@@ -14393,6 +14405,8 @@ znak.com##.relap
 ||creator.zmags.com^
 ||creditcards.com/actions/page_view.php?
 ||creditcards.com/sb.php?
+||creema.jp/ad/click-log
+||creema.jp/ad/impression-log
 ||cri.cn/a1.js
 ||cri.cn/js/a1.js
 ||cri.cn/wrating.js
@@ -14965,6 +14979,7 @@ znak.com##.relap
 ||data.glamour.ru^
 ||data.goertz.de^
 ||data.gosquared.com^$third-party
+||data.gov.in/ogdp-stats-
 ||data.hicloud.com^$third-party
 ||data.html5games.com/event/ad
 ||data.imakenews.com^$third-party
@@ -17027,8 +17042,10 @@ znak.com##.relap
 ||faststart.ru^$third-party
 ||fastwebcounter.com^$third-party
 ||fatcoil.com^$third-party
+||fathom.app.silverbeak.com^
 ||fathom.pixeldrain.com^
 ||fathom.status.im^
+||fathom.tdvm.net^
 ||fathomdns.com^$third-party
 ||fathomseo.com^$third-party
 ||faultycanvas.com^$third-party
@@ -19316,8 +19333,10 @@ znak.com##.relap
 ||incentivesnetwork.net^$third-party
 ||incline9edge.com^
 ||ind.sh/view.php?$third-party
+||indeed.com/indeedapply/tracking/
 ||indeed.com/rpc/$~xmlhttprequest
 ||indeed.com/rpc/log/
+||indeed.com/rpc/vjslog?
 ||independence.americanportfolios.com^
 ||independentmail.com/metrics/
 ||index.ru^$third-party
@@ -25684,6 +25703,7 @@ znak.com##.relap
 ||plausible.notiontweet.app^
 ||plausible.nova.app^
 ||plausible.nubemia.com^
+||plausible.nuqu.org^
 ||plausible.panic.com^
 ||plausible.pgmustard.com^
 ||plausible.phuctm97.com^
@@ -25706,6 +25726,7 @@ znak.com##.relap
 ||plausible.test.sketch.com^
 ||plausible.vaughanesports.org^
 ||plausible.zorin.com^
+||plausibleio.workers.dev^$third-party
 ||plavxml.com^$third-party
 ||play.com/analytics/
 ||play.com/sitetrak/
@@ -25961,6 +25982,7 @@ znak.com##.relap
 ||privacy.outdoorsg.com^
 ||privacy.www.nu.nl/pixel^
 ||privacycounter.com^$third-party
+||privacyfriendly.brainbits.in^
 ||privacytool.org/AnonymityChecker/js/fontdetect.js$third-party
 ||privatelands.biz^$third-party
 ||privatestats.whatsapp.net^
@@ -26044,6 +26066,7 @@ znak.com##.relap
 ||provesrc.com^$third-party
 ||providence.voxmedia.com^$third-party
 ||proxify.com/xyz.php$third-party
+||proxy.dzeio.com^
 ||proxypage.msn.com^
 ||prprocess.com^$third-party
 ||prstats.postrelease.com^
@@ -31011,6 +31034,7 @@ znak.com##.relap
 ||stats.cnevids.com^
 ||stats.code-it-studio.de^
 ||stats.cohere.so^
+||stats.comovee.com^
 ||stats.computecmedia.de^
 ||stats.console.dev^
 ||stats.contentwritingjobs.com^
@@ -31136,6 +31160,7 @@ znak.com##.relap
 ||stats.itsol.it^
 ||stats.itweb.co.za^
 ||stats.ivankahl.com^
+||stats.jacksellwood.com^
 ||stats.jackwhiting.co.uk^
 ||stats.jansix.at^
 ||stats.jatan.space^
@@ -31211,6 +31236,7 @@ znak.com##.relap
 ||stats.norton.com^
 ||stats.nota.md^
 ||stats.nothingbutnylon.com^
+||stats.nrcaknights.com^
 ||stats.nymag.com^
 ||stats.nytecomics.com^
 ||stats.olark.com^
@@ -31337,6 +31363,7 @@ znak.com##.relap
 ||stats.studypages.com^
 ||stats.stylight.it^
 ||stats.sublimesecurity.com^
+||stats.suenicholls.com^
 ||stats.suite101.com^
 ||stats.svenadolph.net^
 ||stats.t-online.de/include-ivw-agof-szmng-js/
@@ -31368,6 +31395,7 @@ znak.com##.relap
 ||stats.travelsnag.com^
 ||stats.travroulette.org^
 ||stats.tresor.one^
+||stats.trimbles.ie^
 ||stats.tripsnag.com^
 ||stats.tubecalculator.co.uk^
 ||stats.tudou.com^
@@ -31438,6 +31466,7 @@ znak.com##.relap
 ||stats.yourdallashandyman.com^
 ||stats.yourfone.de^
 ||stats.zaloapp.com^
+||stats.zeitimpuls.at^
 ||stats.zmags.com^
 ||stats.zotabox.com^
 ||stats01.20min.ch^
@@ -35724,6 +35753,7 @@ znak.com##.relap
 ||www.fabzongroup.net.daraz.com^
 ||www.google.*/imgevent?
 ||www.google.*/imghover?$image
+||www.google.*/velog/
 ||www.healthcare-distribution.com^
 ||www.hey.lt^$third-party
 ||www.imdb.*/rd/?q=
@@ -35867,6 +35897,7 @@ znak.com##.relap
 ||xludzt.alfastrah.ru^
 ||xmrpool.net^$third-party
 ||xn--e1aaipcdgnfsn.su^*/counter.php
+||xn--pckua2a7gp15o89zb.com/api/tracking.js
 ||xnbwsp.c-and-a.com^
 ||xnewsletter.de/count/counter.php?
 ||xnkcgu.bussgeldkatalog.de^
