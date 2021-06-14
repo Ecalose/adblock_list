@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202106130325
+! Version: 202106140116
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19383
+! Lenth = 19384
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -6934,6 +6934,7 @@ teddysun.com##.sidebar > .widget:nth-child(2)
 teddysun.com##.sidebar > .widget:nth-child(3)
 teepr.com###topAdBlock
 teepr.com##.shop-widget
+tgbus.com###guide-download
 tgbus.com###neck_970
 tgfcer.com##.ad_headerbanner
 tgfcer.com##.ad_text
@@ -10579,6 +10580,7 @@ zznews.cn##.ad:not([style])
 ||baomihua.com/yy/
 ||baomitu.duapp.com/js/layer.js
 ||bas.boshi.tv^
+||bashiyy.com/static/js/plugin.js
 ||bb1nn.com/js/i.js
 ||bb999.net/pic/n/agents/C-79.gif
 ||bbbx.xyz^
@@ -10708,7 +10710,6 @@ zznews.cn##.ad:not([style])
 ||bdstatic.com^*/plugins/every_cookie_
 ||bdstatic.com^*/resource/tuijian/widget/guesslikesite/guesslikesite.
 ||bdstatic.com^*/static/itemrep/afdTuJiTuiJian/
-||bdstatic.com^*/tam-ogel/
 ||bdstatic.eastmoney.com^
 ||bdtongfei.cn^
 ||bdu.focus.cn^
@@ -10884,6 +10885,7 @@ zznews.cn##.ad:not([style])
 ||bodapet.com^
 ||bodu365.co/t/
 ||bole.asia^
+||bole8dns.com^
 ||boleimg.com^
 ||bolili.info^
 ||bolimen.top^
@@ -12706,7 +12708,6 @@ zznews.cn##.ad:not([style])
 ||gdt.qq.com^
 ||gdxxb.com^$third-party
 ||gdyjs.com^
-||gdzidong.com/static/js/plugin.js
 ||ge95.com^
 ||gedus.cn^
 ||geekbang.org/public/serving/

@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202106130325
+! Version: 202106140116
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36419
+! Lenth = 36422
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1043,6 +1043,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /YuduStatistics/*
 /ZagUser.js
 /\/(public|resources|static|assets)\/([a-f0-9]){28,31}$/$script,xmlhttprequest,~third-party
+/\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{4,9}\.js$/$script,third-party
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
 /^https?:\/\/.*[a-f0-9]{6,}\.cdn.*\.forter\.com\//$script,third-party
 /^https?:\/\/.*\.corsair\.(fr|ci|ca|gp|mq|re)\/[a-z0-9]{19,}\?/$script,xmlhttprequest
@@ -1051,7 +1052,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/ir\.ebaystatic\.com\/rs\/v\/[a-zA-Z0-9]{18,}\.js/$script,domain=vipr.ebaydesc.com
 /^https?:\/\/js.*\/t\/[0-9]{3}\/[0-9]{3}\/[a-z0-9]{7,8}\.js/$script,third-party
-/^https?:\/\/js\.[-.0-9a-z]+\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{7,9}\.js$/$script,third-party
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
 /^https?:\/\/src\.ebay-us\.com\/[_a-zA-Z0-9]{10,}\?/$script,domain=pages.ebay.com
@@ -7607,6 +7607,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||marketo.com/js/forms$script,stylesheet
 @@||marktest.pt/netscope-gemius.js$script,domain=ojogo.pt
 @@||matchid.adfox.yandex.ru/?url=$script,domain=ctc.ru
+@@||matsukiyo.co.jp^*/js/analytics/GoogleTagManager.js$~third-party
 @@||maxmind.com/app/country.js$domain=lenovo.com|nationalgeographic.com
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
 @@||maxmind.com/geoip/$xmlhttprequest,domain=dcshoes.fr
@@ -15796,7 +15797,6 @@ znak.com##.relap
 ||dtmssl.bobcat.com^
 ||dtmxst.66girls.co.kr^
 ||dtory.ebs.co.kr/wlo^
-||dtrace.nvidia.com^
 ||dtscout.com^$third-party
 ||dtxngr.com^$third-party
 ||dtxtngytz5im1.cloudfront.net^
@@ -28485,6 +28485,7 @@ znak.com##.relap
 ||smart-dmp.com^$third-party
 ||smart-ip.net^$third-party
 ||smart-traffik.com^$third-party
+||smart-widget-assets.ekomiapps.de^$third-party
 ||smartbroker.efscle.com^
 ||smartclip-services.com^$third-party
 ||smartctr.com^$third-party
@@ -33891,6 +33892,7 @@ znak.com##.relap
 ||treatme.co.nz^*/Census.js
 ||trecker.aklamio.com^
 ||tredir.go.com/capmon/GetDE?$third-party
+||tredir.go.com^
 ||tree-pixel-log.s3.amazonaws.com^
 ||treehousei.com^$third-party
 ||trekmedia.net^$third-party
@@ -35002,6 +35004,7 @@ znak.com##.relap
 ||vttics.world.co.jp^
 ||vudjof.tiu.ru^
 ||vuorrx.aromantic.co.uk^
+||vuukle.com/bq-publish?
 ||vuzkbh.jshealthvitamins.com^
 ||vv.ricardo.ch^
 ||vvaaol.enuygun.com^
