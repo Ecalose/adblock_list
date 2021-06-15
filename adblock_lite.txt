@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202106140116
+! Version: 202106150208
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19384
+! Lenth = 19397
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1107,6 +1107,7 @@
 :18443/*/*-*-*.js$third-party
 :2048/b.js
 :2048/jsb?
+:4433/hm/cdn/static/jq_
 :52789/gg/
 :538/attachment/js/
 :538/attachment/xjdb.jpg
@@ -1399,6 +1400,7 @@
 @@||alimama.com^$domain=tanx.com
 @@||aliyun.com/nocaptcha/analyze.js
 @@||aliyun.com/scratchCardSlide/analyze.jsonp?
+@@||aliyundrive.com^*/share_link/$xmlhttprequest
 @@||analytics.163.com/ntes.js$domain=3g.163.com
 @@||ananas.chaoxing.com^*video/ad/
 @@||anhuinews.com/zhuyeguanli/2020ad/xidad.jpg
@@ -1638,6 +1640,7 @@
 @@||gg.wudizuqiu.com/72nba.js
 @@||gg.yxdown.com/count/countzt.js
 @@||ggg50.pw^$generichide
+@@||gias.jd.com/js/td.js
 @@||gifshow.com/rest/wd/common/log/collect/acfun
 @@||github.io/videojs-ima/node_modules/video.$domain=setn.com
 @@||golangnote.com^$generichide
@@ -3019,6 +3022,7 @@ chinatp.com.cn###FloatRb
 chinaxinge.com##.sy05
 chinaxinge.com##.sy07
 chinayk.com##.yb_banner
+chinaz.com###centerTxt
 chinaz.com###loc.Mnav-right02
 chinaz.com###setHomeTonglanCMedia
 chinaz.com###setPbottomMedia
@@ -5872,6 +5876,7 @@ nfmovies.com##div[id^="sponsorAdDiv"]
 nfmovies.com##div[onclick="openurl()"]
 nfmovies.com#$##adleft { position: absolute!important; left: -3000px!important; }
 nfmovies.com#$##adright { position: absolute!important; left: -3000px!important; }
+nfmovies.com#$#a[onclick*="openurl"][target="_blank"] img[src^="/static/"] { position: absolute!important; top: -9999px!important; left: -9999px!important; bottom: unset!important; }
 nfmovies.com#$#img[src^="/pic/tu/"] { visibility: hidden!important; }
 nfmovies.com#$?#body > .hidden-xs > div[id]:has(> img[src^="/static/"][onclick*="open"]) { position: absolute!important; top: -9999px!important; left: -9999px!important; bottom: unset!important; }
 nfmovies.com#$?#div[id^="aaaDiv"] { remove: true; }
@@ -9149,6 +9154,7 @@ zznews.cn##.ad:not([style])
 ||55shuba.com/files/article/html/
 ||55sky.com/js/diecuo/
 ||55yyy.cc/5Cjs/
+||560378.com^
 ||563217.com^
 ||565882.com^$third-party
 ||56ads.com/js/main.js
@@ -13264,8 +13270,10 @@ zznews.cn##.ad:not([style])
 ||hljyjm.cn^
 ||hlstlyy.com^
 ||hlstlyy.com^$third-party
+||hltoon.com/hanman/static/dist/ppm/js/foot
 ||hm.baidu.com/mkt.js
 ||hm.baidu.com^$third-party
+||hmaqz.top^
 ||hmfcyy.com^
 ||hmghmg.com/tb
 ||hmnjf.com^
@@ -14155,6 +14163,7 @@ zznews.cn##.ad:not([style])
 ||js.9136.com^
 ||js.98158.com^
 ||js.bju888.com^
+||js.ccmeng.com^
 ||js.duotegame.com^
 ||js.hkslg520.com^
 ||js.jianbihuadq.com^
@@ -14674,6 +14683,7 @@ zznews.cn##.ad:not([style])
 ||liangmeiyuan.com/Yin.js
 ||liangmeiyuan.com/baidu2/
 ||liangpinge.com^$third-party
+||liangxiaoru.cn^
 ||liangyi360.com^$third-party
 ||liangziweixg.com^
 ||lianjie.phpwind.com^$third-party
@@ -15438,6 +15448,7 @@ zznews.cn##.ad:not([style])
 ||nfmovies.com/pic/tu/ad
 ||nfmovies.com/pic/tu/banner
 ||nfmovies.com/static/*.jpg
+||nfmovies.com/static/*.jpg$image,redirect=1x1-transparent.gif
 ||nfmovies.com/static/210203.png
 ||nfydd.com/template/wap1/js/dd.js
 ||ngceq.cn^
@@ -16866,6 +16877,7 @@ zznews.cn##.ad:not([style])
 ||sozi.cn/templets/sozi/js/js.js
 ||sp.dnqc.com^
 ||sp.qf.56.com^
+||spanking.wiki/morning-bread-
 ||spaung.cn^
 ||spcode.baidu.com^
 ||spectram.pro^
@@ -17392,6 +17404,7 @@ zznews.cn##.ad:not([style])
 ||toutiao.social^
 ||towers-shield.com^
 ||tp.sgcn.com^
+||tpcdn.top^
 ||tpe163.com^
 ||tq.cn/floatcard?
 ||tq121.com.cn/j/ad/

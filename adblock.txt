@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202106140116
+! Version: 202106150208
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21493
+! Lenth = 21507
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -767,6 +767,7 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
+##A[href*="/hth678.cn"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class][onclick="window.location.href='/api/goapp/'"]
@@ -3219,6 +3220,7 @@ $websocket,domain=5nj.com|cechi8.com
 :18443/*/*-*-*.js$third-party
 :2048/b.js
 :2048/jsb?
+:4433/hm/cdn/static/jq_
 :52789/gg/
 :538/attachment/js/
 :538/attachment/xjdb.jpg
@@ -3511,6 +3513,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||alimama.com^$domain=tanx.com
 @@||aliyun.com/nocaptcha/analyze.js
 @@||aliyun.com/scratchCardSlide/analyze.jsonp?
+@@||aliyundrive.com^*/share_link/$xmlhttprequest
 @@||analytics.163.com/ntes.js$domain=3g.163.com
 @@||ananas.chaoxing.com^*video/ad/
 @@||anhuinews.com/zhuyeguanli/2020ad/xidad.jpg
@@ -3750,6 +3753,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||gg.wudizuqiu.com/72nba.js
 @@||gg.yxdown.com/count/countzt.js
 @@||ggg50.pw^$generichide
+@@||gias.jd.com/js/td.js
 @@||gifshow.com/rest/wd/common/log/collect/acfun
 @@||github.io/videojs-ima/node_modules/video.$domain=setn.com
 @@||golangnote.com^$generichide
@@ -5128,6 +5132,7 @@ chinatp.com.cn###FloatRb
 chinaxinge.com##.sy05
 chinaxinge.com##.sy07
 chinayk.com##.yb_banner
+chinaz.com###centerTxt
 chinaz.com###loc.Mnav-right02
 chinaz.com###setHomeTonglanCMedia
 chinaz.com###setPbottomMedia
@@ -7981,6 +7986,7 @@ nfmovies.com##div[id^="sponsorAdDiv"]
 nfmovies.com##div[onclick="openurl()"]
 nfmovies.com#$##adleft { position: absolute!important; left: -3000px!important; }
 nfmovies.com#$##adright { position: absolute!important; left: -3000px!important; }
+nfmovies.com#$#a[onclick*="openurl"][target="_blank"] img[src^="/static/"] { position: absolute!important; top: -9999px!important; left: -9999px!important; bottom: unset!important; }
 nfmovies.com#$#img[src^="/pic/tu/"] { visibility: hidden!important; }
 nfmovies.com#$?#body > .hidden-xs > div[id]:has(> img[src^="/static/"][onclick*="open"]) { position: absolute!important; top: -9999px!important; left: -9999px!important; bottom: unset!important; }
 nfmovies.com#$?#div[id^="aaaDiv"] { remove: true; }
@@ -11258,6 +11264,7 @@ zznews.cn##.ad:not([style])
 ||55shuba.com/files/article/html/
 ||55sky.com/js/diecuo/
 ||55yyy.cc/5Cjs/
+||560378.com^
 ||563217.com^
 ||565882.com^$third-party
 ||56ads.com/js/main.js
@@ -15373,8 +15380,10 @@ zznews.cn##.ad:not([style])
 ||hljyjm.cn^
 ||hlstlyy.com^
 ||hlstlyy.com^$third-party
+||hltoon.com/hanman/static/dist/ppm/js/foot
 ||hm.baidu.com/mkt.js
 ||hm.baidu.com^$third-party
+||hmaqz.top^
 ||hmfcyy.com^
 ||hmghmg.com/tb
 ||hmnjf.com^
@@ -16264,6 +16273,7 @@ zznews.cn##.ad:not([style])
 ||js.9136.com^
 ||js.98158.com^
 ||js.bju888.com^
+||js.ccmeng.com^
 ||js.duotegame.com^
 ||js.hkslg520.com^
 ||js.jianbihuadq.com^
@@ -16783,6 +16793,7 @@ zznews.cn##.ad:not([style])
 ||liangmeiyuan.com/Yin.js
 ||liangmeiyuan.com/baidu2/
 ||liangpinge.com^$third-party
+||liangxiaoru.cn^
 ||liangyi360.com^$third-party
 ||liangziweixg.com^
 ||lianjie.phpwind.com^$third-party
@@ -17547,6 +17558,7 @@ zznews.cn##.ad:not([style])
 ||nfmovies.com/pic/tu/ad
 ||nfmovies.com/pic/tu/banner
 ||nfmovies.com/static/*.jpg
+||nfmovies.com/static/*.jpg$image,redirect=1x1-transparent.gif
 ||nfmovies.com/static/210203.png
 ||nfydd.com/template/wap1/js/dd.js
 ||ngceq.cn^
@@ -18975,6 +18987,7 @@ zznews.cn##.ad:not([style])
 ||sozi.cn/templets/sozi/js/js.js
 ||sp.dnqc.com^
 ||sp.qf.56.com^
+||spanking.wiki/morning-bread-
 ||spaung.cn^
 ||spcode.baidu.com^
 ||spectram.pro^
@@ -19501,6 +19514,7 @@ zznews.cn##.ad:not([style])
 ||toutiao.social^
 ||towers-shield.com^
 ||tp.sgcn.com^
+||tpcdn.top^
 ||tpe163.com^
 ||tq.cn/floatcard?
 ||tq121.com.cn/j/ad/
