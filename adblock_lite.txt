@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202106150208
+! Version: 202106160129
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19397
+! Lenth = 19401
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -3397,7 +3397,7 @@ ddooo.com##.guoasu
 ddooo.com##.xzbtn
 ddooo.com#?#span:-abp-has(>p:-abp-contains(高速))
 ddooo.com#?#ul:-abp-has(>dd:-abp-contains(高速))
-ddrk.me#$?#a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"]) { remove: true; }
+ddrk.me#$?#a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"]) { opacity: 0.001 !important; transform: scaleY(0.5) !important; }
 ddrk.me#@#a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddrk.me,ddys.tv##a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddrk.me,ddys.tv##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
@@ -4991,7 +4991,7 @@ ithome.com##a[href*="/lapin."]
 ithome.com##a[href="/html/363216.htm"]
 ithome.com##a[href^="http://e.cn.miaozhen."]
 ithome.com##div[style^="width:960px;height:60px;"]
-ithome.com#$?#.t-b.sel > ul.nl > li:has(> a[href*="/lapin."]) { remove: true; }
+ithome.com#$?#.t-b.sel > ul.nl > li:has(> a[href*="/lapin."]) { visibility: hidden !important; }
 ithome.com#?#.bl > li:has(> a[href*="/lapin."])
 ithome.com#?#.placeholder:-abp-has(> a > .plc-con > .plc-footer > .tip-gray)
 ithome.com#?#li:-abp-has(>.block a[href*="/lapin."])
@@ -8691,6 +8691,7 @@ zznews.cn##.ad:not([style])
 ||222im.com^
 ||22588888.com^$popup
 ||22pixx.xyz/l/
+||22qzhao5.cn^
 ||23.224.89.2^$third-party
 ||23.244.43.212^
 ||23.251.45.156^
@@ -9998,6 +9999,7 @@ zznews.cn##.ad:not([style])
 ||ahwangtao.com^
 ||ahwczn.cn^
 ||ahyau.com^
+||ahylong.cn^
 ||ahyuns.com^
 ||ahzhongzhan.cn^
 ||ai.bioon.com^
@@ -11401,6 +11403,7 @@ zznews.cn##.ad:not([style])
 ||cn-3drp.com^
 ||cn.bidushe.com^
 ||cn.ntdtv.com/assets/themes/ntd/js/article_ads.js
+||cn3k5.com^*_*_
 ||cna5.cc/skins/js/
 ||cnbeta.com/assets/images/*_670_90.
 ||cnbeta.com/js/pages/inteladv.js
@@ -14504,6 +14507,7 @@ zznews.cn##.ad:not([style])
 ||kuaidibiaoju.com^
 ||kuaidibox.cn^
 ||kuaidiwo.cn/kdwkxmlt.jpg
+||kuaidube.cn^
 ||kuaihou.com/c/shuoming.js
 ||kuaihou.com/c/you1.js
 ||kuaihou.com/js/new/xiazai
@@ -15458,6 +15462,7 @@ zznews.cn##.ad:not([style])
 ||nhrlzy.com^
 ||ni22.com^$third-party
 ||ni87.com^
+||nicelook.cn^
 ||niegg.com^
 ||nihao987654.top^
 ||ningbojipiao.com^
@@ -17944,7 +17949,6 @@ zznews.cn##.ad:not([style])
 ||wenlang.com^$third-party
 ||wenqixiefu.cn^
 ||wenshenbang.com^$third-party
-||wenwen120.com^
 ||wenxiu998.com/static/js/top.js
 ||wenxuecity.com/script/wxc_ab_help.js
 ||wenzhougy.cn^
