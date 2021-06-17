@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202106160129
+! Version: 202106170106
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36455
+! Lenth = 36464
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -335,6 +335,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 -universal-analytics/
 -v1/tracking/
 -vdn.ops.beeline.ru/p?ssp=vdn&id=
+-vlybypoc2019.cloudfunctions.net/vtrack?vid=
 -xtcore.js
 .1.1.1.l80.js^$third-party
 .AdmPixelsCacheController?
@@ -2659,6 +2660,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /facebook_fbevents.
 /facebookpixel.
 /facebookpixel/*
+/facebookproductad/*$script
 /facebookproductad/views/js/pixel.js
 /faciliti-tag.
 /fairfax_tracking.js
@@ -11126,6 +11128,7 @@ znak.com##.relap
 ||api.apptentive.com^
 ||api.aws.mapquest.com/logger
 ||api.b2c.com/api/x.gif
+||api.biggylabs.com.br/event-api/
 ||api.bit.ly/*/clicks?$third-party
 ||api.branch.io^
 ||api.bunzlaucastle.com^
@@ -16716,6 +16719,7 @@ znak.com##.relap
 ||eu-survey.com^$third-party
 ||eu.angsrvr.com/count
 ||eu.groupondata.com^
+||eu.groupondata.com^$third-party
 ||euclid.kuula.co^
 ||eucsoft.com^$third-party
 ||eue.d-teknoloji.com.tr^$third-party
@@ -17431,6 +17435,8 @@ znak.com##.relap
 ||foxpush.net^$third-party
 ||foxsports.com.au/akam/$script
 ||foxtel.com.au/cms/fragments/corp_analytics/
+||foxtime.ru^$cookie=/^pvc_visits/
+||foxtime.ru^$cookie=cherry_trend_views
 ||fp-cdn.azureedge.net/prod/
 ||fp.mandatumtrader.fi^
 ||fp.measure.office.com^
@@ -18089,6 +18095,7 @@ znak.com##.relap
 ||global.canon^*/analytics.js
 ||global.cmcs.service.amazonsilk.com/metrics
 ||global.px.quantserve.com^
+||global.ssl.fastly.net/native/
 ||global.ssl.fastly.net^$script,domain=wayfair.de
 ||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||global.sueddeutsche.de/globalassets/standalone/szstats/configuration.json
@@ -28253,6 +28260,7 @@ znak.com##.relap
 ||service.charitiesaidfoundation.org.uk^
 ||service.frankwatching.com^
 ||service.geico.com/insite/js/mbox2.js
+||service.smarthint.co/track/
 ||serviceo.comcast.net^
 ||serviceo.xfinity.com^
 ||serviceos.comcast.net^
@@ -36403,6 +36411,7 @@ znak.com##.relap
 ||zope.net^*/ghs_wa.js
 ||zorosrv.com$third-party
 ||zowary.com^$third-party
+||zozo.jp/common/js/ads-inner-tracking.js
 ||zprk.io^$third-party
 ||zqkdzl.invia.sk^
 ||zqtizs.bonprix.ru^

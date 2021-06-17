@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202106160129
+! Version: 202106170106
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19401
+! Lenth = 19417
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -3151,6 +3151,7 @@ cnbeta.com,sojson.com##a[href*=".upyun."]
 cnblogs.com###div_digg
 cnblogs.com###xiaociguai
 cnblogs.com##.adPopup
+cnblogs.com##.bannerbar
 cnblogs.com##.c_ad_block
 cnblogs.com##.focus-gg
 cnblogs.com##.h_ads
@@ -7942,6 +7943,8 @@ zhcw.com##.news_blanck
 zhcw.com##.tgtc
 zhenbuka.com##.jq-toast-wrap
 zhenbuka.com#%#//scriptlet("prevent-setTimeout", "ad_ids")
+zhenbuka2.com,bukaivip.com#%#//scriptlet("adjust-setTimeout", "CloseAd", "", "0.02")
+zhenbuka2.com,bukaivip.com#%#//scriptlet("prevent-setTimeout", "ad_load_fail")
 zhibo8.cc###m_adv
 zhibo8.cc##.ad_box_250
 zhibo8.cc##a[href*=".ftxgame.com"]
@@ -9086,6 +9089,7 @@ zznews.cn##.ad:not([style])
 ||51xuediannao.com/uploads/un/
 ||51xumei.com^
 ||51yhzp.com^$third-party
+||51zdwy.cn^
 ||51ztzj.com/js/you.js
 ||51ztzj.com/res/web/img/download_sign
 ||51ztzj.com/res/web/img/pic/inshow.jpg
@@ -10012,6 +10016,7 @@ zznews.cn##.ad:not([style])
 ||aifei.info^$third-party
 ||aifei0755.net/123/
 ||aifu-pay.com^
+||aigzk.com^
 ||aijiamao.top^
 ||aijielang.cn^
 ||aikan6.com^
@@ -10849,6 +10854,7 @@ zznews.cn##.ad:not([style])
 ||bjygfd.com^
 ||bjytdqwx.com^
 ||bjzcbx.com^
+||bjzshy.cn^
 ||bjzsyx.cn^
 ||bjzywuxian.com^
 ||bk9gun.vpser.net^
@@ -11733,6 +11739,7 @@ zznews.cn##.ad:not([style])
 ||dajean.com^
 ||dajiadu8.com/17.js
 ||dajiazhao.com/login/reg.js
+||dakang-energy.com^
 ||dakawm.cc^
 ||dake.net.cn^
 ||dalianhengtai.com^
@@ -12455,6 +12462,7 @@ zznews.cn##.ad:not([style])
 ||ffpp.xyz^
 ||ffupiiv.cn^
 ||ffyyfy.top^
+||fg-z.com^
 ||fghlmiaoqrtyfl65ha0ss22k3dqi6lng.com^
 ||fgo22.info^$third-party
 ||fh21.com.cn/js/passport/createQuickMenu.js
@@ -14660,6 +14668,7 @@ zznews.cn##.ad:not([style])
 ||leztc.com^
 ||lfcepgb.cn^
 ||lfdydk.com^
+||lflable.com^
 ||lflili.com^
 ||lflucky.com^
 ||lfsenmei.com^
@@ -14858,6 +14867,7 @@ zznews.cn##.ad:not([style])
 ||lqmohun.com^$third-party
 ||lr96.top^
 ||lraa.xiaoniutui.com^
+||lrwgc.com^
 ||lsaeb.com^
 ||lscckgm.cn^
 ||lsforum.net/cam2/*.gif
@@ -15261,6 +15271,7 @@ zznews.cn##.ad:not([style])
 ||mql5.com/rq?
 ||mrjfsc.cn^
 ||mrksys.com^
+||mrzhifu.net^
 ||ms.cnbanbao.com^
 ||ms758.com^
 ||mscbsc.com/images/5g300x90.jpg
@@ -15738,6 +15749,7 @@ zznews.cn##.ad:not([style])
 ||pbmp.ali213.net/js/
 ||pbpb.tv^*/640x200.js
 ||pbtxt.win^
+||pc.weizhenwx.com/pc/rich-tf.js$script,redirect=nooptext,domain=zhenbuka2.com|bukaivip.com
 ||pc6.com/img/
 ||pc841.com/show/
 ||pcauto.com.cn/forum/1508/intf7631.js
@@ -16208,6 +16220,7 @@ zznews.cn##.ad:not([style])
 ||quandangdang.net^
 ||quanjiapp.cn^
 ||quansj.cn^
+||quantao8.top^
 ||quanxiaozi.com^
 ||qubilou.com^$third-party
 ||qubo94.com^
@@ -16591,6 +16604,7 @@ zznews.cn##.ad:not([style])
 ||shentupk85.com^
 ||shentuwang1.com^$third-party
 ||shenyunkeji.com^
+||shenzhengov.work^
 ||shffcy.cn^
 ||shfq.com/data/attachment/portal/
 ||shfq.com/wuyue
@@ -17447,6 +17461,7 @@ zznews.cn##.ad:not([style])
 ||ttbc33.com^
 ||ttrar.com/live/
 ||ttrar.com/statics/pos_js/
+||ttshort.xyz^
 ||tttxx.cn^$third-party
 ||ttx.cn/js/float.js
 ||ttz.com^$third-party
@@ -17967,6 +17982,7 @@ zznews.cn##.ad:not([style])
 ||wgnlz.com^
 ||whafwl.com^
 ||whale123.com^$third-party
+||whbhsoft.cn^
 ||whfpbc.99.com.cn^
 ||whhxnz.com^
 ||whichav.*/qq/qq.js

@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202106160129
+! Version: 202106170106
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21512
+! Lenth = 21533
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -767,7 +767,7 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
-##A[href*="/od005.vip"]
+##A[href*=".hthty24.app"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class][onclick="window.location.href='/api/goapp/'"]
@@ -833,6 +833,7 @@
 ##a[href*=".hth379.com/"]
 ##a[href*=".hth399.com"]
 ##a[href*=".hthvip20.com"]
+##a[href*=".htvip24.app"]
 ##a[href*=".iziyo.com/"]
 ##a[href*=".liaochuo.com/"]
 ##a[href*=".mieseng.com/"]
@@ -910,6 +911,7 @@
 ##a[href*="/mobads.php?"]
 ##a[href*="/nba9.lol"]
 ##a[href*="/nf.brushshopy.com"]
+##a[href*="/od005.vip"]
 ##a[href*="/od05.vip"]
 ##a[href*="/odnb.vip"]
 ##a[href*="/odty55.cc"]
@@ -990,6 +992,7 @@
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
+##img[onclick*="/statics/js/"]
 ##img[onclick="window.open(this.url)"][src*="qq.com"]
 ##img[src$="/img/tianbo.gif"]
 ##img[src*=".qpic.cn"][width="980"][height="80"]
@@ -1296,10 +1299,12 @@ $websocket,domain=5nj.com|cechi8.com
 /1*.html?|$script,third-party,xmlhttprequest
 /1*.xhtml?|$script,third-party,xmlhttprequest
 /1.html?$script,third-party
+/1.js?r=0|$script,third-party
 /1.js?ssfrid=$script,third-party,xmlhttprequest
 /104_150/1360_1|
 /11431a7ff0f5.swf$domain=tieba.baidu.com
 /160_600_
+/168*.xtml?$script,third-party
 /168modelBudai51.
 /1982/java/static/js/*headad.js
 /1MObaudu.$script,xmlhttprequest
@@ -5262,6 +5267,7 @@ cnbeta.com,sojson.com##a[href*=".upyun."]
 cnblogs.com###div_digg
 cnblogs.com###xiaociguai
 cnblogs.com##.adPopup
+cnblogs.com##.bannerbar
 cnblogs.com##.c_ad_block
 cnblogs.com##.focus-gg
 cnblogs.com##.h_ads
@@ -10053,6 +10059,8 @@ zhcw.com##.news_blanck
 zhcw.com##.tgtc
 zhenbuka.com##.jq-toast-wrap
 zhenbuka.com#%#//scriptlet("prevent-setTimeout", "ad_ids")
+zhenbuka2.com,bukaivip.com#%#//scriptlet("adjust-setTimeout", "CloseAd", "", "0.02")
+zhenbuka2.com,bukaivip.com#%#//scriptlet("prevent-setTimeout", "ad_load_fail")
 zhibo8.cc###m_adv
 zhibo8.cc##.ad_box_250
 zhibo8.cc##a[href*=".ftxgame.com"]
@@ -11197,6 +11205,7 @@ zznews.cn##.ad:not([style])
 ||51xuediannao.com/uploads/un/
 ||51xumei.com^
 ||51yhzp.com^$third-party
+||51zdwy.cn^
 ||51ztzj.com/js/you.js
 ||51ztzj.com/res/web/img/download_sign
 ||51ztzj.com/res/web/img/pic/inshow.jpg
@@ -12123,6 +12132,7 @@ zznews.cn##.ad:not([style])
 ||aifei.info^$third-party
 ||aifei0755.net/123/
 ||aifu-pay.com^
+||aigzk.com^
 ||aijiamao.top^
 ||aijielang.cn^
 ||aikan6.com^
@@ -12960,6 +12970,7 @@ zznews.cn##.ad:not([style])
 ||bjygfd.com^
 ||bjytdqwx.com^
 ||bjzcbx.com^
+||bjzshy.cn^
 ||bjzsyx.cn^
 ||bjzywuxian.com^
 ||bk9gun.vpser.net^
@@ -13844,6 +13855,7 @@ zznews.cn##.ad:not([style])
 ||dajean.com^
 ||dajiadu8.com/17.js
 ||dajiazhao.com/login/reg.js
+||dakang-energy.com^
 ||dakawm.cc^
 ||dake.net.cn^
 ||dalianhengtai.com^
@@ -14566,6 +14578,7 @@ zznews.cn##.ad:not([style])
 ||ffpp.xyz^
 ||ffupiiv.cn^
 ||ffyyfy.top^
+||fg-z.com^
 ||fghlmiaoqrtyfl65ha0ss22k3dqi6lng.com^
 ||fgo22.info^$third-party
 ||fh21.com.cn/js/passport/createQuickMenu.js
@@ -16771,6 +16784,7 @@ zznews.cn##.ad:not([style])
 ||leztc.com^
 ||lfcepgb.cn^
 ||lfdydk.com^
+||lflable.com^
 ||lflili.com^
 ||lflucky.com^
 ||lfsenmei.com^
@@ -16969,6 +16983,7 @@ zznews.cn##.ad:not([style])
 ||lqmohun.com^$third-party
 ||lr96.top^
 ||lraa.xiaoniutui.com^
+||lrwgc.com^
 ||lsaeb.com^
 ||lscckgm.cn^
 ||lsforum.net/cam2/*.gif
@@ -17372,6 +17387,7 @@ zznews.cn##.ad:not([style])
 ||mql5.com/rq?
 ||mrjfsc.cn^
 ||mrksys.com^
+||mrzhifu.net^
 ||ms.cnbanbao.com^
 ||ms758.com^
 ||mscbsc.com/images/5g300x90.jpg
@@ -17849,6 +17865,7 @@ zznews.cn##.ad:not([style])
 ||pbmp.ali213.net/js/
 ||pbpb.tv^*/640x200.js
 ||pbtxt.win^
+||pc.weizhenwx.com/pc/rich-tf.js$script,redirect=nooptext,domain=zhenbuka2.com|bukaivip.com
 ||pc6.com/img/
 ||pc841.com/show/
 ||pcauto.com.cn/forum/1508/intf7631.js
@@ -18319,6 +18336,7 @@ zznews.cn##.ad:not([style])
 ||quandangdang.net^
 ||quanjiapp.cn^
 ||quansj.cn^
+||quantao8.top^
 ||quanxiaozi.com^
 ||qubilou.com^$third-party
 ||qubo94.com^
@@ -18702,6 +18720,7 @@ zznews.cn##.ad:not([style])
 ||shentupk85.com^
 ||shentuwang1.com^$third-party
 ||shenyunkeji.com^
+||shenzhengov.work^
 ||shffcy.cn^
 ||shfq.com/data/attachment/portal/
 ||shfq.com/wuyue
@@ -19558,6 +19577,7 @@ zznews.cn##.ad:not([style])
 ||ttbc33.com^
 ||ttrar.com/live/
 ||ttrar.com/statics/pos_js/
+||ttshort.xyz^
 ||tttxx.cn^$third-party
 ||ttx.cn/js/float.js
 ||ttz.com^$third-party
@@ -20078,6 +20098,7 @@ zznews.cn##.ad:not([style])
 ||wgnlz.com^
 ||whafwl.com^
 ||whale123.com^$third-party
+||whbhsoft.cn^
 ||whfpbc.99.com.cn^
 ||whhxnz.com^
 ||whichav.*/qq/qq.js
