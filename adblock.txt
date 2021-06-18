@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202106170106
+! Version: 202106180204
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21533
+! Lenth = 21541
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -149,6 +149,7 @@
 ###header > a[target="_blank"] > img[style="width:100%;height:60px;margin-bottom:2px;"]
 ###header_ad
 ###hellobox > .mylist
+###hengfu > #jiukan
 ###hfad
 ###homead
 ###htmlContent > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -217,6 +218,7 @@
 ###playerAd
 ###player_ad
 ###player_banner[style*="fixed;"]
+###player_pause[style^="position"] > a[target="_blank"]
 ###pop_hongbao
 ###popup.t
 ###pp-modal-id
@@ -474,6 +476,7 @@
 ##.bottomSponsor
 ##.bottom_mengcheng_ad_wrap
 ##.bottomads + .leftd
+##.bottomd > .closebox2
 ##.box-ad
 ##.box_con[style="border-radius:10px;background-color:#ff0000;padding:15px;"]
 ##.broadcastMe[style="width: 1200px;"]
@@ -767,7 +770,6 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
-##A[href*=".hthty24.app"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class][onclick="window.location.href='/api/goapp/'"]
@@ -832,6 +834,7 @@
 ##a[href*=".hndazhan.com/"]
 ##a[href*=".hth379.com/"]
 ##a[href*=".hth399.com"]
+##a[href*=".hthty24.app"]
 ##a[href*=".hthvip20.com"]
 ##a[href*=".htvip24.app"]
 ##a[href*=".iziyo.com/"]
@@ -944,6 +947,7 @@
 ##a[href^="https://luolidao.vip/"]
 ##a[onclick*="/dasp.php?a="]
 ##a[onclick^="_czc."] > .ads
+##a[onclick^="_czc.push(['_trackEvent', '广告"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
 ##a[style="display:inline-block;font-weight:bold;color:#f00;border:1px solid #f00;border-radius:15px;padding:2px 5px 2px 5px;margin:5px 5px 5px 0px;"]
 ##body .has-ad
@@ -4918,6 +4922,7 @@ blog.sina.cn###pl-blog-artad
 blog.sina.cn###pl-blog-tbyy
 blog.sina.cn###pl-float-bar
 blog.sina.com.cn##div[style*="WiDTH: 200px;"][style$="HeiGHT: 300px"]
+blphoto.net##.float-ck
 bmcx.com##div[id^="ggwz"]
 bmlink.com##.Tg_1190x70
 bmlink.com##.Tg_190x70
@@ -16402,7 +16407,6 @@ zznews.cn##.ad:not([style])
 ||jxaucs1802.cn^
 ||jxbtl.com^
 ||jxcn.cn/assets/images/downWeatherApp.png
-||jxcn.cn/assets/js/dspshow.js
 ||jxcn.cn/js/hotpic_
 ||jxczy.cn^
 ||jxdown.com/statics/js/all.js
@@ -18359,6 +18363,7 @@ zznews.cn##.ad:not([style])
 ||quxiandu.com^
 ||quxiangkeji.cn^
 ||quxiangkeji.cn^$third-party
+||quzhizhongye.top^
 ||qvpublish.com^
 ||qwblog.cn/localfile/20200612230036.gif
 ||qwddcwmwqiqwd18.cn^
@@ -19596,6 +19601,7 @@ zznews.cn##.ad:not([style])
 ||tui.gtimg.com//res/
 ||tuia.cn^$third-party
 ||tuicool.com/images/upload/aliyun
+||tuifish.com^
 ||tuituiyoo999.com^
 ||tujigu.com/css/gg.js
 ||tukeai.com^
@@ -19861,6 +19867,7 @@ zznews.cn##.ad:not([style])
 ||vf5c.com^$third-party
 ||vf5yb4.cn^
 ||vgao.xyz/images/*.gif
+||vgimer.cn^
 ||vhpxa.top^
 ||vi1.souid.com^
 ||victorjx.com^
@@ -21310,6 +21317,7 @@ zznews.cn##.ad:not([style])
 ||zhujiangroad.com/js/alltop.js
 ||zhujib.com/wp-content/uploads/*/baiducdn.png
 ||zhujiceping.com/F/
+||zhujiwiki.com/ad/
 ||zhulang.com/zlpv.php
 ||zhulong.com/detail/floorOneAd?
 ||zhulong.com/poster/get?*_960
