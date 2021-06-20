@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202106190137
+! Version: 202106200215
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19439
+! Lenth = 19438
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1211,7 +1211,7 @@
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|pop-fashion.com
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com
 @@/fingerprintjs2.min.js$domain=imooc.com
-@@/fuckadblock.$domain=bde4.cc|ck101.com|datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|papalah.com|poedb.tw|share1223.com
+@@/fuckadblock.$domain=ck101.com|datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|papalah.com|poedb.tw|share1223.com
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
@@ -1440,10 +1440,8 @@
 @@||banma.com/statics/js/??
 @@||bcebos.com/static/translation/widget/translate/output/AdBanner/AdBanner.js
 @@||bcebos.com^$script,domain=31xiaoshuo.org
-@@||bde4.cc/ad/
-@@||bde4.cc^$generichide
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
-@@||bdimg.com/libs/$domain=00ksw.com|147xs.com|18xs.org|1biquge.com|23xsw.cc|266ks.com|52biquge.com|abcxs.com|b5200.net|biqiuge8.com|biqiugexsw.com|biquge.lu|biquge.tv|biquge5200.cc|biquge99.cc|biqugecd.com|biqugeg.com|biqugeq.com|biqugetv.com|biqugewu.net|biquw.com|bixia.org|boquge.com|bqg999.cc|bqkan.com|bqwxg.com|ddbiquge.cc|didaxiaoshuo.cc|gdbzkz.com|gzbpi.com|huanyue123.com|iqksw.com|janpn.com|jx.la|kshuwx.com|kuxiaoshuo.com|ldks.cc|lindiankanshu.cc|mxguan5.com|paoshu8.com|piaotian5.com|qianrenge.cc|sizhicn.com|taiuu.com|ttzw.tv|txtwan.com|viviyzw.com|x23us.me|xbiqugecc.com|xinxs.la|xmalshenzu.com|xqianqian.com|xshengyan.com|xshuyaya.com|xsw55.net|xxqb5200.com|ygwh.cc|ymxxs.com|yssm.info|yuyouge.com|zanghaihuatxt.com|zbzw.la|ztv.la
+@@||bdimg.com/libs/$domain=00ksw.com|147xs.com|18xs.org|1biquge.com|23xsw.cc|266ks.com|52biquge.com|abcxs.com|b5200.net|biqiuge8.com|biqiugexsw.com|biquge.lu|biquge.tv|biquge5200.cc|biquge99.cc|biqugecd.com|biqugeg.com|biqugeq.com|biqugetv.com|biqugewu.net|biquw.com|bixia.org|boquge.com|bqg999.cc|bqkan.com|bqwxg.com|ddbiquge.cc|didaxiaoshuo.cc|exiaoshuo.com|gdbzkz.com|gzbpi.com|huanyue123.com|iqksw.com|janpn.com|jx.la|kshuwx.com|kuxiaoshuo.com|ldks.cc|lindiankanshu.cc|mxguan5.com|paoshu8.com|piaotian5.com|qianrenge.cc|sizhicn.com|taiuu.com|ttzw.tv|txtwan.com|viviyzw.com|x23us.me|xbiqugecc.com|xinxs.la|xmalshenzu.com|xqianqian.com|xshengyan.com|xshuyaya.com|xsw55.net|xxqb5200.com|ygwh.cc|ymxxs.com|yssm.info|yuyouge.com|zanghaihuatxt.com|zbzw.la|ztv.la
 @@||bdimg.com/libs/$domain=dybee.tv
 @@||bdimg.com/libs/$domain=wuzuowei.net
 @@||bdimg.com/static/wapwenku/static/common/widget/share/share_
@@ -1738,7 +1736,7 @@
 @@||joyk.com^$generichide
 @@||jrhot.com/data/attachment/*_300_250_
 @@||js.tudouui.com/bin/player2/$object
-@@||jsdelivr.net/gh/bde4admin/*/prebid-ads.js$domain=bde4.cc
+@@||jsdelivr.net/gh/bde4admin/*/prebid-ads.js$domain=mp4er.com
 @@||jsdelivr.net/opensug/1.1.2/opensug.js
 @@||jsjiami.com^$generichide
 @@||jswenhui.com^*/ad/
@@ -2645,11 +2643,6 @@ bccn.net##div[style*="height:90"]
 bccn.net##img[src*="data:"]
 bcquan.me##.bcqad
 bd2020.com###fmtdiv
-bde4.cc###ayx
-bde4.cc##a[href*=".yabo816."]
-bde4.cc##center[style*="background"]
-bde4.cc##div[onclick*=".yabo816.com"]
-bde4.cc##div[style^="position: fixed;bottom:"]
 bde4.cc#$##ayx { position: absolute !important; left: -3000px !important; }
 bde4.cc#$#a[href*=".yabo816."] { position: absolute !important; left: -3000px !important; }
 bde4.cc#$#div[style^="position: fixed;bottom:"] { position: absolute !important; left: -3000px !important; }
@@ -5707,6 +5700,11 @@ moyu16.com##img[height="85px"]
 moyu16.com##img[style="width:1238px;height:100px"]
 mp4ba.la##.hd + table
 mp4ba.la##td[width="300"][height="300"]
+mp4er.com###ayx
+mp4er.com##a[href*=".yabo816."]
+mp4er.com##center[style*="background"]
+mp4er.com##div[onclick*=".yabo816.com"]
+mp4er.com##div[style^="position: fixed;bottom:"]
 mpyit.com###sidebar a > img
 mpyit.com###sidebar div[style*="background"]
 mpyit.com##.cboxElement + a[target="_blank"]
@@ -8012,7 +8010,8 @@ zhujib.com###b2-widget-html-2
 zhujib.com#@#.social-top:not(html):not(body)
 zhujiboke.com##.cjtz-border
 zhujiboke.com##.posts-top-cjtz
-zhujiwiki.com##.tips
+zhujiwiki.com##.asb-post-footer
+zhujiwiki.com##.msg
 zhuna.cn##a[href*="quchuchai."]
 zhuwang.cc###main_newad
 zimushe.com###rightFixed
@@ -10668,8 +10667,6 @@ zznews.cn##.ad:not([style])
 ||bdcode.youke.com^
 ||bdcouc.xyz^
 ||bdcpro*.techweb.com.cn^
-||bde4.cc/js/aes.js
-||bde4.cc^$csp=script-src 'self' * 'unsafe-inline'
 ||bdgg.qjy168.com^
 ||bdimg.com/brands/yxtg/source/juhe-v2.js
 ||bdimg.com/muzhi/adwap/top-banner.jpg
@@ -12859,6 +12856,7 @@ zznews.cn##.ad:not([style])
 ||gouweida.cn^
 ||govbeijing.cn^
 ||govchongqing.cn^
+||govgaungzhou.cn^
 ||govgift.com^
 ||govhunan.cn^
 ||govjiangsu.cn^
@@ -12983,6 +12981,7 @@ zznews.cn##.ad:not([style])
 ||gxdianhua.com^
 ||gxejgs.com^
 ||gxfc2021.top^
+||gxfkkj.com^
 ||gxgzyny.com^
 ||gxklsftz.cn^
 ||gxkyl.com^
@@ -14216,7 +14215,6 @@ zznews.cn##.ad:not([style])
 ||jsdelivr.net/gh/*/960x100.gif
 ||jsdelivr.net/gh/*/960x60.
 ||jsdelivr.net/gh/a901361/
-||jsdelivr.net/gh/bde4admin/*/js/common.$domain=bde4.cc
 ||jsdelivr.net/gh/cdnjsdelivr001/182cdn*.js
 ||jsdelivr.net/gh/dashange123/
 ||jsdelivr.net/gh/fzdm/st*/js/fzwap-
@@ -18562,6 +18560,7 @@ zznews.cn##.ad:not([style])
 ||xxooos.com/mm/
 ||xxx55tp.com^*.gif
 ||xxyxmdq.cn^
+||xxzzsj.xyz^
 ||xy98.com.cn^
 ||xyad316ea.vip^
 ||xyad3hada.com^
