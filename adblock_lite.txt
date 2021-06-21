@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202106200215
+! Version: 202106210208
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19438
+! Lenth = 19440
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -438,12 +438,14 @@
 18board.com,18p2p.com##a[target="_blank"] > img[width="728"]
 18board.com,18p2p.com##a[target="_blank"] > img[width="900"]
 18board.com,18p2p.com##a[target="_blank"] > img[width="920"]
+18comic.org###guide-modal
 18comic.org,18comic.vip##a[href^="http"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip##div[data-height="250"][data-width="300"]
 18comic.org,18comic.vip##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip##div[style^="position: fixed; top:"]
 18comic.org,18comic.vip##img[style*="300px"]
 18comic.org,18comic.vip,52movieba.com,5dm.tv,acglala.net,ainuody.com,awaker.cn,bimiacg.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.com,epinv.com,eroacg.com,galacg.me,gmgard.com,halitv.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.im,jitapu.com,jiyingw.net,kisssub.org,kuaikan33.com,languang.co,liuli.pw,malimali.cc,meijutt.tv,mikuclub.org,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
+18comic.org,pianyuan.net,qixingquan.com##.modal-backdrop
 18comic.vip##.bot-per
 18comic.vip##.modal-body > ul.pop-list
 18comic.vip##.top-a2db
@@ -6094,7 +6096,6 @@ pianba.tv,pianba.net##.play-btn > a[target="_blank"]
 pianhd.com###myCarousel
 pianku.me###playad
 pianyuan.net###myModal
-pianyuan.net,qixingquan.com##.modal-backdrop
 piaoliang.com##.hot990
 piaotian5.com##script + div[style="padding:15px;"]
 pic.sogou.com##.floating
@@ -6826,7 +6827,7 @@ ssnn.net###nrk_gg
 sspai.com##.content hr:nth-last-child(-n+4) ~ p
 ssr.tools##.asb
 ssr.tools##.widget_custom_html:nth-child(n+2)
-ssr.tools,woniupai.net##.asb-post-footer
+ssr.tools,woniupai.net,zhujiwiki.com##.asb-post-footer
 sssam.com##.widget_html_ad
 sssam.com#%#//scriptlet("set-constant", "ads", "")
 starbaby.cn###top_ad_show
@@ -8010,7 +8011,6 @@ zhujib.com###b2-widget-html-2
 zhujib.com#@#.social-top:not(html):not(body)
 zhujiboke.com##.cjtz-border
 zhujiboke.com##.posts-top-cjtz
-zhujiwiki.com##.asb-post-footer
 zhujiwiki.com##.msg
 zhuna.cn##a[href*="quchuchai."]
 zhuwang.cc###main_newad
@@ -8597,7 +8597,7 @@ zznews.cn##.ad:not([style])
 ||18comic.*/templates/frontend/airav/js/avs-0.4.js
 ||18comic.*/templates/frontend/airav/js/jqa
 ||18comic.*/templates/frontend/airav/js/jquery.Dn
-||18comic.*/templates/frontend/airav/js/jquery.avs-0.3.
+||18comic.*/templates/frontend/airav/js/jquery.avs-0.4.
 ||18comic.*/templates/frontend/airav/js/jquery.n
 ||18tzx.com^
 ||191ysw.com/Public/html/191.html
@@ -9477,6 +9477,7 @@ zznews.cn##.ad:not([style])
 ||87uq.com^$third-party
 ||88-baidu.com^
 ||88.yunqishi.net^
+||88.yunqishi8.com^
 ||880sy.com/Public/js/*_gg.js
 ||88148.com/UpFile/a/2016040849191350.jpg
 ||883ads.com^*.js
@@ -10096,6 +10097,7 @@ zznews.cn##.ad:not([style])
 ||alicdn.com/ad-product/
 ||alicdn.com/app/wxbpromotion/*/js/cpm/cpm_jq.js
 ||alicdn.com/g/mm/afp-cdn/JS/
+||alicdn.com/img/ibank/*_!!2200581616124-
 ||alicdn.com/img/ibank/*_!!2208043467212-
 ||alicdn.com/img/ibank/*_!!2210231227621-0-cib.
 ||alicdn.com/img/ibank/*_!!3820217494-0-cib.

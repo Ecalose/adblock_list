@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202106200215
+! Version: 202106210208
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36471
+! Lenth = 36473
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -7571,7 +7571,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||letelegramme.fr/js/xtcore.js
 @@||levexis.com/nbty/$domain=puritan.com
 @@||lgr.visilabs.net/kapsamaharitasi/om.gif$domain=kapsamaharitasi.turktelekom.com.tr
-@@||line-scdn.net/*/torimochi.js/$script,domain=demae-can.com
 @@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
 @@||link.theplatform.com/*/tracker.log?
 @@||link.theplatform.com/*?affiliate=
@@ -8653,6 +8652,7 @@ crimea-kurort.com#@#img[width="88"][height="31"]
 ctvnews.ca##img[alt="comscorebeacon"]
 customeriomail.com/e/o$image
 da-te.jp##.counter
+demae-can.com#%#//scriptlet('remove-attr', 'data-trm-action|data-trm-category|data-trm-label', '.trm_event')
 directtrack.*.js
 dizibey.com##.sidebar > #text-19
 dokonline.com###Counters
@@ -8810,7 +8810,7 @@ washingtonpost.com##.social-tools-wrapper-bottom
 web.frontapp.com/api$image
 welovepg.polymail.io$image
 westnews.com.ua##a[href="http://www.bigmir.net/"]
-woman.excite.co.jp#%#//scriptlet('set-constant', 'makeAnalyticsTag', 'noopFunc')
+woman.excite.co.jp#%#//scriptlet('remove-attr', 'data-woman-ex', 'a[href][data-woman-ex]')
 www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][ping]')
 xtreme.rip##td[class^="counter"]
 yamm-track.appspot$image
@@ -11847,6 +11847,7 @@ znak.com##.relap
 ||b5media.com/bbpixel.php
 ||b6ft.zone-turf.fr^
 ||b8cdn.com^*/analytics.js
+||b90.yahoo.co.jp^
 ||b92.yahoo.co.jp/js/s_retargeting.js
 ||b92.yahoo.co.jp/search^
 ||b97.yahoo.co.jp^
@@ -11991,6 +11992,7 @@ znak.com##.relap
 ||bc.geocities.
 ||bc.law.com^
 ||bc.marfeelcache.com^
+||bc.nhk.jp^
 ||bc.qunar.com^
 ||bc.semwerkt.nl^
 ||bc0a.com^$third-party
