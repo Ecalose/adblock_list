@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202106210208
+! Version: 202106220139
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19440
+! Lenth = 19451
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -3626,6 +3626,7 @@ dybee.tv##a[style^="position: fixed;bottom:"]
 dyhjw.com##.guessEntranceOpen
 dyhjw.com##.index_luckdraw
 dyhjw.com##.nn_link
+dyxs11.com###play-pause
 dzbhdm.com##.inn-nav__placeholder + .poi-container > a[target="_blank"]
 dzbhdm.com##a[href*=".weixin.qq.com/"]
 dzbhdm.com##a[href*="/xzgg/"]
@@ -10597,6 +10598,7 @@ zznews.cn##.ad:not([style])
 ||baomeidiaosu.cn^
 ||baomihua.com/yy/
 ||baomitu.duapp.com/js/layer.js
+||baoxian28.cn^
 ||bas.boshi.tv^
 ||bashiyy.com/static/js/plugin.js
 ||bb1nn.com/js/i.js
@@ -11322,6 +11324,7 @@ zznews.cn##.ad:not([style])
 ||chromefk.com/common/11/
 ||chromefk.com/common/other/11.png
 ||chuangjulm.cn^
+||chuanjiae.cn^
 ||chuantu.biz/t2/22/1450961822x1822613148.gif
 ||chuantu.biz^$domain=7mav2.com|thztv.cc
 ||chuantu.biz^$domain=thzk.cc
@@ -11663,6 +11666,7 @@ zznews.cn##.ad:not([style])
 ||cz9k8b.top^
 ||czgjhotel.com^
 ||czhcloud.cn^
+||czhongbao.net^
 ||czlhgz.com^
 ||czlongle.cn^
 ||czpush.com^
@@ -11715,6 +11719,7 @@ zznews.cn##.ad:not([style])
 ||dacedsfa.cn^
 ||dachadu.cn^
 ||dadawm.cc^
+||daddywu.cn^
 ||dadedaxue.com^
 ||dadjia.com^
 ||daf-rs.com/imageViewer/wpAd
@@ -12138,6 +12143,7 @@ zznews.cn##.ad:not([style])
 ||dytt8.net/jsd/app.js
 ||dyuadask.com^
 ||dyx0878.cn^
+||dyxs11.com/statics/recommend/$image
 ||dyzyhj.com/Jk/
 ||dz19.net/addimg/
 ||dzimg.cn^$domain=2fzdao.com
@@ -13198,6 +13204,7 @@ zznews.cn##.ad:not([style])
 ||henanlvyi.com^
 ||henduoqian.com^
 ||henghost.com^$third-party
+||hepburn.net.cn^
 ||herogame.com^$subdocument,domain=gamer.com.tw
 ||hesxz.com^
 ||hexun.*/hxpage/index.html
@@ -16261,6 +16268,7 @@ zznews.cn##.ad:not([style])
 ||qwddcwmwqiqwd19.cn^
 ||qwddcwmwqiqwd20.cn^
 ||qwddcwmwqiqwd21.cn^
+||qweoc88123.top^
 ||qwfknhc.cn^
 ||qwxcs.com^$third-party
 ||qx568.com^$popup
@@ -17929,6 +17937,7 @@ zznews.cn##.ad:not([style])
 ||web.51fishplace.com^$third-party
 ||web.900.la^
 ||web8.net^$third-party
+||webbridcar.xyz^
 ||webjx.com/zanzhushang/
 ||webkaka.com*/click/$image
 ||webkaka.com/info/script/articleAd.js
@@ -18501,6 +18510,7 @@ zznews.cn##.ad:not([style])
 ||xs.houyi.baofeng.net^
 ||xs8.cn/qreport?
 ||xsc.x81zw.com^
+||xsjyun.cn^
 ||xspic.com/css/asd
 ||xstt5.com/skin/v3/js/dibu.js
 ||xstt5.com/template/js/fx
@@ -19350,6 +19360,7 @@ zznews.cn##.ad:not([style])
 ||zunss.com^
 ||zuofang05.com/template/mytheme/statics/image/1/
 ||zuopp.com^
+||zuoss.net^
 ||zuowen.hydcd.com^
 ||zuoyebang.cc/static/question/pkg/wap-qb_
 ||zuoyebang.cc/static/question/question/resource/QRCode_
