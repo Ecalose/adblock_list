@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202106220139
+! Version: 202106230157
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 19451
+! Lenth = 19459
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -3413,6 +3413,8 @@ dianping.com##.layer-container[data-view-bid="b_njcmobox"]
 dianping.com##.votelist + .aside-box
 dianping.com##.weixin1
 diantai.ifeng.com#@#.ad-b
+dianyingim.com,dyxs11.com##.popup-tips
+dianyingim.com,dyxs11.com##.shortcuts-mobile-overlay
 dict.baidu.com##.tran-download-ad
 dict.cn###tjcd
 dict.cn##.search-right-ad5
@@ -5268,6 +5270,7 @@ kingkong.com.tw##.room-banner-wrap
 kissjojo99.com###text-16
 kissjojo99.com##.g-adv
 kissjojo99.com##.single-top
+kisssub.org###kanban
 kisssub.org##a > img[src*=".0o0.ooo/"]
 kisstube.top##.footer-gg
 kjsv.com###advertisingMap
@@ -5898,6 +5901,7 @@ nfuwow.com##.adtopnewnewbox
 nfuwow.com##.bannermid3box
 nfuwow.com##.crightbtad
 nfuwow.com##.midbgdbox
+nfuwow.com##a[href*="myyj.net"]
 niaogebiji.com##.adImgBox
 nicemoe13.com##img[src*=".opacg."][style="width:100%;margin-top:0px;"]
 nicemoe13.com##img[src*=".picloli-1."][style="width:100%;margin-top:0px;"]
@@ -9019,6 +9023,7 @@ zznews.cn##.ad:not([style])
 ||4kyu.cn^
 ||4nzrqw.cn^
 ||4paradigm.com^$domain=sina.com.cn
+||4tdbbs.cn^
 ||4z5o27.cn^
 ||5.douben8.com^
 ||5.gzfenda.com^
@@ -13111,6 +13116,7 @@ zznews.cn##.ad:not([style])
 ||haoxianyangrouye.com^
 ||haoxxoo.com/player/ad.html
 ||haoxxwang.com^$third-party
+||haoyundm.com^
 ||hapic1.zhuangxiu22.com^
 ||happyhongkong.com/images/client/
 ||happyyong.com^
@@ -13922,6 +13928,7 @@ zznews.cn##.ad:not([style])
 ||jable.tv/assets/images/wejo/$image
 ||jacklm1.com^
 ||jacklm2.com^
+||jacquelinelaura.com^
 ||jads.co^$domain=avgle.com
 ||jandan.net/static/sos/recreate-games.gif
 ||jandan.net/static/ss/
@@ -15016,6 +15023,7 @@ zznews.cn##.ad:not([style])
 ||macfans.org/vip/
 ||macx.cn/js/blockadblock.js
 ||macx.cn/js/jquery.$domain=game.macx.cn
+||madisonjamesphotography.com^
 ||mafengwo.cn/uva/i.gif?
 ||mafengwo.net/s13/M00/D0/6D/wKgEaVza2HCAJw8sAAOVHkWHw_c98.jpeg
 ||magedu.com/wp-content/uploads/*/xwzx
@@ -15925,7 +15933,6 @@ zznews.cn##.ad:not([style])
 ||poke88.com^
 ||polkoa.com^
 ||pop800.com^$third-party
-||popin.cc^$third-party,badfilter
 ||porn87.com/static/stream_ads/
 ||pos.baidu.com^
 ||pos68.cn^
@@ -16639,6 +16646,7 @@ zznews.cn##.ad:not([style])
 ||shili.wanyx.com^
 ||shilian168.cn^$third-party
 ||shimo.im^*/ads?
+||shirleyyean.com^
 ||shishishiguixinfangfuzhuangshanghan.cn^
 ||shiyaokejishanghai.com^
 ||shjrwh.cn^

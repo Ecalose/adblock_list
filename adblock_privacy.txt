@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202106220139
+! Version: 202106230157
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36181
+! Lenth = 36191
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -5870,6 +5870,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /wp-clickmap/*
 /wp-content/cache/busting/google-tracking/*
 /wp-content/plugins/asmb-tracking/*
+/wp-content/plugins/google-analytics-dashboard-for-wp/*$domain=xpornass.com
 /wp-content/plugins/google-analytics-for-wordpress/*$domain=graphicdesignresources.net|ebonyo.com|paesenews.it
 /wp-content/plugins/google-analytics-premium/*
 /wp-content/plugins/pageviews/pageviews.js
@@ -6895,6 +6896,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||github.com/carlomorgenstern/piwik-angular/$domain=github.com
 @@||gjensidige.lv/Content/dev/scripts/analytics.js
 @@||gjensidige.lv/Content/dev/scripts/analytics.min.js
+@@||glenat.com^*/static/analytics.js$script,~third-party
 @@||global.fncstatic.com/static/isa/app/lib/VisitorAPI.js$domain=video.foxnews.com|video.foxbusiness.com
 @@||globalnews.ca/b/ss/
 @@||globecharge.com/images/ping.gif?
@@ -7839,6 +7841,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||pagure.io/static/issues_stats.js?
 @@||panel.flops.ru/js/member/evercookie_init.js
 @@||panorama.it/wp-content/themes/panorama/js/google-nielsen-analytics.js?
+@@||parma.am/js/counter.js
 @@||partner.googleadservices.com/gpt/pubads_$domain=mlb.com
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=ukr.net
 @@||pastebin.com/etc/geo.php?
@@ -7874,9 +7877,11 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||pixel.quantserve.com/seg/$script,domain=photos.essence.com
 @@||pixel.quantserve.com/seg/r;a=$domain=cbs.com|filefront.com|imdb.com|laobserved.com|tv.com
 @@||pixelpressmedia.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=pixelpressmedia.com
+@@||pl.smotrim.ru/js/stat.js$script,domain=player.vgtrk.com
 @@||places.mercedes-benz.com/*/adrum.js
 @@||pladform.ru/dive/$xmlhttprequest
 @@||pladform.ru/player$subdocument
+@@||planetazdorovo.ru/pics/transparent_pixel.png$image,~third-party
 @@||plantyn.com/optiext/optiextension.dll$~third-party
 @@||play.google.com/log?$xmlhttprequest,domain=google.com
 @@||play.google.com/log?format=json$domain=news.google.com
@@ -13078,6 +13083,7 @@ znak.com##.relap
 ||cdn-sitegainer.com^$third-party
 ||cdn.1337x.to/ip*.php
 ||cdn.abcotvs.net/abcotv/assets/news/global/js/analytics/VideoHeartbeat.min.js
+||cdn.adsquirrel.ai^$third-party
 ||cdn.ampproject.org/*/amp-analytics-
 ||cdn.api.twitter.com/*/urls/count.json$third-party
 ||cdn.appdynamics.com/adrum
@@ -13104,6 +13110,7 @@ znak.com##.relap
 ||cdn.hiido.cn^$third-party
 ||cdn.hivps.xyz/analytics-
 ||cdn.jsdelivr.net/npm/perfops-rom$domain=kropic.com|opensubtitles.org
+||cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js
 ||cdn.lmiutil.com/lpassets/track-
@@ -15088,7 +15095,7 @@ znak.com##.relap
 ||datacaciques.com^$third-party
 ||datacar40.net.daraz.com^
 ||datacollect*.abtasty.com^$third-party
-||datacollector-drru.dt.hicloud.com^
+||datacollector-*.dt.hicloud.com^
 ||datacomm.ch^*/count.cgi?
 ||datacoral.com^$third-party
 ||datacoral.io^$third-party
@@ -19410,6 +19417,7 @@ znak.com##.relap
 ||inbox.lv^*/ga.js
 ||inboxtag.com/tag.swf
 ||inboxtag.com^$third-party
+||incapdns.net^$third-party
 ||incentivesnetwork.net^$third-party
 ||incline9edge.com^
 ||ind.sh/view.php?$third-party
@@ -19819,7 +19827,6 @@ znak.com##.relap
 ||insights.plista.com^$third-party
 ||insights.prophet.com^
 ||insights.radiometer.com^
-||insights.samsung.com^
 ||insights.sitesearch360.com^
 ||insights.sport1.de^
 ||insights.thisisgrow.com^
@@ -25341,6 +25348,7 @@ znak.com##.relap
 ||pcmag.com/mst/
 ||pcmag.com/tview/$image
 ||pcmag.com^*/analytics.js
+||pcmweb.nl/track/
 ||pcnet.com.tr/?wordfence_logHuman=
 ||pcrl.co/js/jstracker.min.js
 ||pcspeedup.com^$third-party
@@ -30806,6 +30814,7 @@ znak.com##.relap
 ||static.stylight.net/js_external/trackjs.*.js
 ||static.talpanetwork.com/prod/js/components/talpa-analytics/
 ||static.vdmximg.com/wp-includes/js/u_hits_control.js
+||static.vocento.com/tag-manager/latest/vtm.js
 ||static.wellsfargo.com/tracking/
 ||static.yandex.net/browser-updater/stripe/script.js
 ||static1.dmcdn.net/js/cpe/cpeEvent.min.js
@@ -34472,6 +34481,7 @@ znak.com##.relap
 ||vde1.voyage-prive.de^
 ||vdna-assets.com^$third-party
 ||vdo.ai/core/logger.php?
+||vdo.ai/core/scantrad-net/
 ||vdoing.com^$third-party
 ||vectorstock.com^*/tracking
 ||vedomosti.ru/boom?
