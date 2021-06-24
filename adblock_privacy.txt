@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202106230157
+! Version: 202106240148
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36191
+! Lenth = 36200
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -2349,6 +2349,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /cvborder.gif?
 /cwTRACK.js
 /cwtracking-
+/cx-tracking.
 /cx-video-analytics.js
 /cx_tracking.js
 /cxense-candy.js
@@ -4199,7 +4200,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /pixy.gif?
 /pladtrack.
 /planetstat.
-/platform-analytics-
 /plausible.js
 /plausible.js$domain=~plausible.io
 /plausible.outbound-links.js$domain=~plausible.io
@@ -6102,6 +6102,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 ?act=counter&
 ?action=event&
 ?action=log_promo_impression
+?action=statsjs&
 ?action=track_visitor&
 ?action=tracking_script
 ?ad_played=
@@ -6326,6 +6327,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||ancestrycdn.com/ui-static/lib/tracking/$domain=ancestry.com
 @@||androidgalaxys.net/wp-content/plugins/*/google-analyticator/$script
 @@||annuaire.118000.fr/js/xtcore.js
+@@||anteraja.id/api/api/tracking/api/captchaImg$~third-party
+@@||anteraja.id/api/api/tracking/api/reloadCaptchaImg$~third-party
 @@||anthem.com/includes/foresee/foresee-trigger.js
 @@||aol.com/mm_track/slideshow/$subdocument
 @@||aolcdn.com/js/mg2.js$domain=autoblog.com|autos.aol.com|dailyfinance.com
@@ -8767,6 +8770,7 @@ salesforceiq.com/t.png$image
 seclub.org##a[href^="http://waplog.net/"]
 semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 sendgrid.net/wf/open$image
+seshop.com,shoeisha.co.jp###cceol
 setafi.com##.footer_bl-3
 sinoptik.ua###bigmirTop
 specialcom.net#?##sidebar > div.widget:has(span#openstat1)
@@ -11155,6 +11159,7 @@ znak.com##.relap
 ||api.exc.mob.com^
 ||api.facebook.com/method/logging.clientevent
 ||api.flocktory.com^$third-party
+||api.fw.tv/embed/
 ||api.gameanalytics.com^
 ||api.gameofwhales.com^
 ||api.giga.de/*tracking
@@ -19417,7 +19422,7 @@ znak.com##.relap
 ||inbox.lv^*/ga.js
 ||inboxtag.com/tag.swf
 ||inboxtag.com^$third-party
-||incapdns.net^$third-party
+||incapdns.net/monitor.js
 ||incentivesnetwork.net^$third-party
 ||incline9edge.com^
 ||ind.sh/view.php?$third-party
@@ -25865,6 +25870,7 @@ znak.com##.relap
 ||plugin.ws^$third-party
 ||plugins.longtailvideo.com/googlytics
 ||plugins.longtailvideo.com/yourlytics
+||plugins.soclminer.com.br^$third-party
 ||pluralsight.hb.omtrdc.net^
 ||pluso.ru/counter.php?
 ||pluso.ru/ping.php?
@@ -26959,8 +26965,6 @@ znak.com##.relap
 ||rigi9bury.com^
 ||rihappy.com.br/Site/Track.aspx
 ||rihappy.com.br/api/sessions?items
-||rihappy.vteximg.com.br/scripts/track.js
-||rihappy.vteximg.com.br/scripts/vtex.tagmanager.helper.js
 ||riirlw.blackmonster.kr^
 ||rime8lope.com^
 ||rimxqx.slickdeals.net^
@@ -28159,6 +28163,8 @@ znak.com##.relap
 ||seogift.ru^$third-party
 ||seomonitor.ro^$third-party
 ||seomoz.org^$third-party
+||seon.io^$third-party
+||seondnsresolve.com^$third-party
 ||seoparts.net^$third-party
 ||seoquake.com/seoadv/audience/3.gif
 ||seoradar.ro^$third-party
@@ -34836,6 +34842,8 @@ znak.com##.relap
 ||vstats.digitaltrends.com^
 ||vtex.com.br/portal-ui/*/scripts/vtex-analytics.js
 ||vtex.com.br/rc/rc.js
+||vteximg.com.br/scripts/track.js
+||vteximg.com.br/scripts/vtex.tagmanager.helper.js
 ||vtf2f.banque-casino.fr^
 ||vtnlog-*.elb.amazonaws.com^
 ||vtracker.net^$third-party
@@ -36184,6 +36192,7 @@ znak.com##.relap
 ||zyq2.destinia.sk^
 ||zytpirwai.net/track/
 ||zz.bdstatic.com^
+||zz.bdstatic.com^$third-party
 ||zznfip.bork.ru^
 ||zzsiqn.happyxnature.com^
 ~ads.google.com#%#navigator.getBattery = undefined;
