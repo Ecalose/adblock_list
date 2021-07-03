@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202107020147
+! Version: 202107030123
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36444
+! Lenth = 36473
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -1207,6 +1207,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /adobe/VisitorAPI-
 /adobe/VisitorAPI_$script
 /adobe/app-measurement.
+/adobe/logging/*
 /adobe/visitor-
 /adobeAnalytics/*
 /adobeMonitor.
@@ -6050,6 +6051,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 ://geoip.*/country.json
 ://ivw.*/get?referrer=
 ://ivwextern.
+://l.*/script.php?i=$script,~third-party
 ://lightning.*/launch/
 ://media.*/escenic$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
 ://media.*/micb.js|$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
@@ -6187,6 +6189,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@/cdn-cgi/pe/bag2?*yieldbot.intent.js$domain=droid-life.com
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/fingerprint2.min.js$domain=livacha.com
+@@/fingerprint2.min.js^$domain=ganyancanavari.com
 @@/fingerprint2.min.js^$domain=justfreethemes.com|ukit.com
 @@/friendbuy.min.js$script,domain=butcherbox.com
 @@/frosmo.easy.js$domain=sklep.pl.canalplus.com
@@ -8761,6 +8764,15 @@ novate.ru#?##right > h2:contains(Рекомендуем)
 outrch.com/api/mailings/opened$image
 overclockers.ru#%#AG_onLoad(function() { window.trackOutboundLink = window.open; });
 pb.wtf,piratbit.org,piratbit.pw,piratbit.top##a[href="//www.liveinternet.ru/click"]
+petyado.com##.font12[height="184"]
+petyado.com##center > table[width="100%"][cellpadding="0"] + table[width="700"][cellspacing="0"][cellpadding="0"]:not([height])
+petyado.com##map ~ table[width="700"][cellspacing="0"]:not(table:last-child)
+petyado.com##table[width="200"][height="109"]
+petyado.com##table[width="700"][height="42"]
+petyado.com##table[width="728"][height="90"]
+petyado.com##table[width="728"][height="90"] + hr
+petyado.com##table[width="785"][height="30"]
+petyado.com##td[valign="top"][height="10"] > table[width="795"]
 pioneer.eu#%#//scriptlet('remove-attr', 'onclick', 'a[href][onclick^="trackOutboundLink"]')
 polymail.io/v2/z$image
 popmech.ru#%#AG_onLoad(function() { window.POPMECH.increaseCounters = function() {} });
@@ -9784,6 +9796,7 @@ znak.com##.relap
 ||actie.milieudefensie.nl^
 ||action.advisorycloud.com^
 ||action.dstillery.com/orbserv^
+||action.metaffiliation.com/trk.php
 ||actionallocator.com^$third-party
 ||actirinius.com^$third-party
 ||activate.latimes.com/pc/caltimes/?pulse2001=
@@ -10369,6 +10382,7 @@ znak.com##.relap
 ||alexametrics.com^$third-party
 ||alexandria.marfeelcdn.com^
 ||alfemminile.com/logpix.php
+||algolia.io/1/isalive
 ||algopine.com^$third-party
 ||aliasdmc.fr/js/general_sts.js
 ||alibaba.com/js/beacon_
@@ -10615,6 +10629,7 @@ znak.com##.relap
 ||analytics-egain.com^$third-party
 ||analytics-engine.net^$third-party
 ||analytics-events.inshorts.com^
+||analytics-ingestion.production-public.tubi.io^
 ||analytics-ingress-global.bitmovin.com^
 ||analytics-ingress.bitmovin.com^
 ||analytics-production.hapyak.com^
@@ -14895,6 +14910,7 @@ znak.com##.relap
 ||d1z2jf7jlzjs58.cloudfront.net^$rewrite=abp-resource:blank-js,domain=voici.fr
 ||d1z2jf7jlzjs58.cloudfront.net^$third-party
 ||d2-apps.net/*/impressions/log
+||d2-apps.net/js/tr.js
 ||d2-apps.net^$third-party
 ||d20duyjzb7cuoc.cloudfront.net^
 ||d20kffh39acpue.cloudfront.net^
@@ -20712,20 +20728,33 @@ znak.com##.relap
 ||l.email.wowcher.co.uk^
 ||l.engage.canva.com^
 ||l.fairblocker.com^$third-party
+||l.ffsagami.com^
 ||l.ffx.io^$third-party
 ||l.ghostery.com/api/page/?d=
+||l.hamazo.tv^
+||l.ikora.tv^
 ||l.iplsc.com/logger/
 ||l.ivi.ru/logger/px/?b=
+||l.junglekouen.com^
+||l.kyo2.jp^
 ||l.logly.co.jp^$third-party
 ||l.m.naver.com^
+||l.miyachan.cc^
 ||l.msdl.naver.com^
+||l.namjai.cc^
+||l.naturum.ne.jp^
 ||l.niiblo.jp^
 ||l.ooyala.com^
+||l.osakazine.net^
 ||l.player.ooyala.com^
 ||l.popin.cc^
+||l.sagafan.jp^
 ||l.sharethis.com^
 ||l.support.canva.com^
+||l.tamaliver.jp^
+||l.tenkomori.tv^
 ||l.thumbtack.com^
+||l.ti-da.net^
 ||l.typesquare.com^
 ||l.www.naver.com^
 ||l2.io/ip.js

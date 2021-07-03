@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202107020147
+! Version: 202107030123
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21629
+! Lenth = 21641
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -772,7 +772,6 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##A[href*=".com/?Agent="]
-##A[href*="/entry/register/?i_code="]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href^="/e/public/ClickAd?adid="]
 ##[class][onclick="window.location.href='/api/goapp/'"]
@@ -821,7 +820,6 @@
 ##a[href*=".com/?p="][target="_blank"] > img[src$=".gif"]
 ##a[href*=".com/Register.aspx?aid="]
 ##a[href*=".com/Register/?a="]
-##a[href*=".com/entry/register/?i_code="] > img
 ##a[href*=".com/register/?i_code="] > img
 ##a[href*=".com/tg.html?id="]
 ##a[href*=".com?aff="]
@@ -905,6 +903,7 @@
 ##a[href*="/ayxbet846.vip"]
 ##a[href*="/cslpldyc.me"]
 ##a[href*="/du505.com"]
+##a[href*="/entry/register/?i_code="]
 ##a[href*="/htbet1536.com"]
 ##a[href*="/hth104.com/"]
 ##a[href*="/hth107.com/"]
@@ -1065,6 +1064,7 @@ $webrtc,domain=avgle.com
 $websocket,domain=5nj.com|cechi8.com
 &ad_type=
 &adsrc=
+&xhtml?$script,third-party
 (com?$script
 (com|$script
 -1688-wp-media/ads/
@@ -2619,10 +2619,10 @@ $websocket,domain=5nj.com|cechi8.com
 1kkk.com,dm5.com,dm5.hk##.adform_1
 1kkk.com,dm5.com,dm5.hk##.adform_2
 1m3d.com###klp_adtop
-1point3acres.com##.bm.a_c
 1point3acres.com##.enhanced_header
 1point3acres.com##.wp.a_t
 1point3acres.com,android-doc.com,apk.tw,battlecats-db.com,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,moa.tw,numberempire.com,playok.com,shenfendaquan.com,tingfm.com,yabook.org#@#div > .adsbygoogle
+1point3acres.com,xianzhenyuan.cn##.bm.a_c
 1stchina.net,717dyi.com,86cg.me,aiqiyivip.com,duodada.com,liaocao.tv,nicotv.me,qhdi.com,taotaoxiang.vip##[onclick]
 1ting.com###tingx_5
 1ting.com##div[style="position:fixed;bottom:0;z-index:999"]
@@ -2846,7 +2846,7 @@ $websocket,domain=5nj.com|cechi8.com
 3dmgame.com##.tonglona_4
 3dmgame.com##A[href^="http://web.3dmgame.com/h5/game?"]
 3dmgame.com##a[href^="https://down.hyds360.com/"] > div[style]
-3dmgame.com##a[onclick^="goxiazai"]
+3dmgame.com##a[onclick^="gotoxiazai"]
 3g.163.com##.ne_rps
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com###banner_call + div[id]
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>.openBox-container)
@@ -3868,6 +3868,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||jd.com/adclick?$~third-party
 @@||jd.com/setCookie?
 @@||jd.com^*&refer=http$script
+@@||jiav000.com^$generichide
 @@||jiayuan.com^*/pv.js
 @@||jin10.com^$generichide
 @@||jinyongci.com^$generichide
@@ -7854,6 +7855,7 @@ mp4ba.la##td[width="300"][height="300"]
 mp4er.com###ayx
 mp4er.com##a[href*=".yabo816."]
 mp4er.com##center[style*="background"]
+mp4er.com##div[onclick*=".exing101.com"]
 mp4er.com##div[onclick*=".yabo816.com"]
 mp4er.com##div[onclick*="exvip23.com"]
 mp4er.com##div[style^="position: fixed;bottom:"]
@@ -13020,6 +13022,7 @@ zznews.cn##.ad:not([style])
 ||bostonceltics.com.cn^
 ||bosw.net/js/bos/*960
 ||botcm.com/zhanqun/
+||bowei666.xyz^
 ||boweineng.cn^
 ||bozhihua.com^$third-party
 ||bozhixiang.top^
@@ -16178,6 +16181,7 @@ zznews.cn##.ad:not([style])
 ||jin10.com/news_service/static/config/details.config.
 ||jinchaoyu.com^
 ||jindingguopin.com^
+||jindongsheng.top^
 ||jindowins.com^
 ||jindu179.com^
 ||jinfu.love/files/h5/
@@ -18816,6 +18820,7 @@ zznews.cn##.ad:not([style])
 ||shuangshiyihightgo.top^
 ||shucaihangjia.com^
 ||shuccn.com^
+||shufan.club^
 ||shuihulu.com^$third-party
 ||shujuwu.com^$third-party
 ||shukongshebei.net^
@@ -19145,6 +19150,7 @@ zznews.cn##.ad:not([style])
 ||static*.365inews.com^
 ||static-cn.plista.com^
 ||static-ssp.yidianzixun.com^
+||static.chinatimes.com/scripts/2019/ad2019.min.js
 ||static.doyouhike.net/partner/
 ||static.gridsumdissector.com^
 ||static.ichehome.com^
@@ -19657,6 +19663,7 @@ zznews.cn##.ad:not([style])
 ||tucao.one/uploadfile/20*/20*.gif
 ||tudouui.com/tspecial/assets/PauseContainer.swf
 ||tudown.com^$third-party
+||tuezse.cn^
 ||tui.cnzz.net^$third-party
 ||tui.gtimg.com//res/
 ||tuia.cn^$third-party
@@ -20060,6 +20067,7 @@ zznews.cn##.ad:not([style])
 ||wangpan007.com/themes/default/js/global.js
 ||wangqing7.top^
 ||wangqipu.com^
+||wangyuekun.xyz^
 ||wangzhanmeng.com/link/link.html
 ||wanmcy.com/toolsda/
 ||wanmei.com/public/js/stat.js
@@ -20187,6 +20195,7 @@ zznews.cn##.ad:not([style])
 ||whrles.com^
 ||whshangsha.com^
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
+||whsseqpcs.top^
 ||whxhhjx.com^
 ||whxjnwzhs.com^
 ||whytoss.com^
@@ -20555,6 +20564,7 @@ zznews.cn##.ad:not([style])
 ||xiongdong.com^
 ||xiongyin.com^$third-party
 ||xiongzhangad.com^
+||xisea.top^
 ||xitangwenhua.com/muban/mh/js/asd.js
 ||xitao3.com^$third-party
 ||xitek.com/idzone
@@ -20847,6 +20857,7 @@ zznews.cn##.ad:not([style])
 ||yeeyi.com/bbs/api.php?mod=js&bid=
 ||yefu365.com/rebo/function.js
 ||yehaobo5.com/js/
+||yemingxing.top^
 ||yenlm.com^
 ||yerecpa.cn/uploadsb/app_adv/
 ||yes1.feng.com^$domain=feng.com
@@ -21253,6 +21264,7 @@ zznews.cn##.ad:not([style])
 ||zbsybh.cn^$third-party
 ||zc173.com/173fee/
 ||zc173.com/pp/
+||zc710956.top^
 ||zcaijing.com/images/
 ||zcand.com^
 ||zchot.com/images/web.gif
