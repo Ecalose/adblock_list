@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202107090115
+! Version: 202107100109
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22445
+! Lenth = 22462
 ###Ad_windows
 ###Layeraa1
 ###Layeraa2
@@ -1333,6 +1333,7 @@ $websocket,domain=5nj.com|cechi8.com
 //s.php?id=$script,third-party
 //vs.php?id=$script,third-party
 /0xhtml?$script,third-party
+/1(csss?r=$script,third-party
 /1*.html?|$script,third-party,xmlhttprequest
 /1*.xhtml?|$script,third-party,xmlhttprequest
 /1.css?r=$script,third-party
@@ -1589,6 +1590,7 @@ $websocket,domain=5nj.com|cechi8.com
 /api/apiFetchAdsData
 /api/autosda.php
 /api/goods/v1/get.script.core?
+/api/v4/g?$script,third-party
 /app_ad/slade.js
 /apps/misc.php?action=advert&
 /assets/banners/600x100/*
@@ -2415,6 +2417,9 @@ $websocket,domain=5nj.com|cechi8.com
 11px.cn##.adg
 11px.cn##.ag
 120ask.com##.b_right > div[style]
+121xz.com###gsxzdz
+121xz.com##.btn + .btn
+121xz.com##.c_money
 123.chinaso.com##.right-list6
 123.com.cn##.bottom-ylink
 123.com.cn##.fixed-top
@@ -2921,7 +2926,7 @@ $websocket,domain=5nj.com|cechi8.com
 423down.com#?#li:-abp-has(> .pic[href^="http"]:not([href*="423down."]))
 42xz.com##.xzbox-lf > ul:not(:last-child)
 42xz.com##[onclick*="godownload"]
-42xz.com,kuhou.com,pcsoft.com.cn##.gsxz
+42xz.com,aiweibk.com,kuhou.com,pcsoft.com.cn##.gsxz
 4399.com###ads1_1
 4399.com###defaultbglink
 4399.com##.setlide a[href^="http"]:not([href*=".4399."])
@@ -4242,7 +4247,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||softwarebrother.com^$generichide
 @@||sogou.com/adpub/cfg/sendmsg.
 @@||sogou.com/pv.gif?*&stype=showskinpanel
-@@||sohu.com/cityjson$domain=114shouji.com|51credit.com|castech.com|eduyun.cn|jdboshi.com|jialingmm.net|lcm88.com|meiju11.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn|yxdm.me
+@@||sohu.com/cityjson$domain=114shouji.com|51credit.com|castech.com|eduyun.cn|ems.com.cn|jdboshi.com|jialingmm.net|lcm88.com|meiju11.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn|yxdm.me
 @@||sohu.com/integration-api/mix/region/*&refer=http
 @@||sohu.com/play/videonew.do?*/share_play.
 @@||sohu.com/upload/static/share/share_play.html
@@ -4401,6 +4406,7 @@ $websocket,domain=5nj.com|cechi8.com
 MoBi*.baidu.js$script,third-party
 _!!1731999033.
 _1MObaudu.js
+_1_qqbr.js?$script,third-party
 _1baidu.js$script,third-party
 _1xhtml?$script
 _300_250.
@@ -4533,6 +4539,7 @@ airav.cc##div[id^="Billing"]
 aishoujizy.com###ShouYe_ShangBu > .HtmlMoKua:first-child
 aishoujizy.com,xd0.com##a[target="_blank"] > img[src^="/upload/1/"]
 aishs.top###frameu9916W_left > .block:nth-child(-n+6)
+aiweibk.com##.lili
 aiweibk.com##.pc
 aiyuke.com###Playerpad
 aiyuke.com###js-ad-type4
@@ -10271,6 +10278,7 @@ x3cn.com#?#body > div#qmenu_menu ~ div[style]:has(> a[target="_blank"])
 x6d.com##.tmall_tab
 x6d.com##a[href^="/ad.php?"]
 x6d.com#?#li:-abp-has(>.myad)
+x6g.com##.addd
 xblian.com##a[href^="https://page.pe/"]
 xblian.com##img[alt*="广告"]
 xbyuan.com##.dad
@@ -11523,6 +11531,7 @@ zznews.cn##.ad:not([style])
 ||3.guidaye.com^
 ||3.ssqzj.com^
 ||301848.com^
+||30mksr.cn^
 ||30sy.com/ucweb/
 ||310v.com/images/lingdai.gif
 ||310v.com/images/wap_520x60.gif
@@ -12206,6 +12215,7 @@ zznews.cn##.ad:not([style])
 ||883ads.com^*.js
 ||88448.com/images/appkai980x100.gif
 ||887251.com^
+||887591.com^
 ||88818122.cn^
 ||8881919.cc^
 ||888dizhi.com/888/
@@ -14804,6 +14814,7 @@ zznews.cn##.ad:not([style])
 ||doubleclick.ctfile.com^
 ||doudao.cn^
 ||douguo.net/upload/post/d/
+||doujl.cn^
 ||doulaihai.top^
 ||doupocangqiong1.com/js/ptwap.js
 ||doutula.com/img/upupoo/
@@ -15956,6 +15967,7 @@ zznews.cn##.ad:not([style])
 ||hbyingchang.cn^
 ||hbyyzm.com^
 ||hbzhan.com/images/index/*.swf
+||hbzhenquan.cn^
 ||hbzjht.com^
 ||hbzjht.com^$third-party
 ||hc360.com/images/14826/289x90.jpg
@@ -18082,6 +18094,7 @@ zznews.cn##.ad:not([style])
 ||mimg.hicooer.cn^$third-party
 ||mindopu.com^
 ||mini.hao123.com^
+||miniholiday.cn^
 ||minixiazai.com/others/all_soft.js
 ||minixiazai.com/statics/js/soft/index.js
 ||miniye.xjts.cn^
@@ -18431,6 +18444,7 @@ zznews.cn##.ad:not([style])
 ||njwxh.com^
 ||njxczy.com^
 ||njxzwh.com/pcsoft/statics/ycgg/
+||njzyjy.cn^
 ||nkscdn.com^
 ||nktcw.cn^
 ||nkyyls.cn^
@@ -18860,6 +18874,7 @@ zznews.cn##.ad:not([style])
 ||prazpf.cn^
 ||prettyvirgin.com/images/banners/
 ||prettyvirgin.com/js/show.html
+||prfuxl.xyz^
 ||price.com.hk/dfp_price.php?
 ||price.com.hk/ec-discuss-widget.php
 ||price.com.hk/scripts/ysm.js
@@ -21828,6 +21843,7 @@ zznews.cn##.ad:not([style])
 ||youku.com/cms/tool/pub/get_putdata.
 ||youku.com/dress/
 ||youle55.com^$third-party
+||youlejia.xyz^
 ||youmw.com^$third-party
 ||youngalsobeautiful.com^
 ||youpukeji.cn^
@@ -22136,6 +22152,7 @@ zznews.cn##.ad:not([style])
 ||zhaolianmeng.com/plushuan/ad_js.php
 ||zhaoyafang.cn^
 ||zhaozi.cn/d/js/mini/extended
+||zhcps.cn^
 ||zhekoudajie.com^
 ||zhenben.cc/2000/
 ||zhenbuka*/statics/js/toastr/jquery.toast.js
