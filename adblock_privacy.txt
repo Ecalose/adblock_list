@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202107100109
+! Version: 202107110141
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36392
+! Lenth = 36394
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -2955,10 +2955,10 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /google-analytics-$~image
 /google-analytics.
 /google-analytics.$~image
-/google-analytics/*
+/google-analytics/*$domain=~stackexchange.com|~superuser.com
 /google-nielsen-analytics.
 /google-tag-manager.
-/google-tag-manager/*
+/google-tag-manager/*$domain=~stackexchange.com|~superuser.com
 /google-tracking/*
 /google.analytics.
 /google/analytics.js
@@ -6076,6 +6076,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 ://stats.*/index.js
 ://stats.*/script.js
 ://stats.*/stats.aspx
+://temptation.*/temptation.js
 ://top.*/count/cnt.php?
 ://top.*/hit/
 ://track.*/collect
@@ -8158,6 +8159,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||st.dynamicyield.com/st?$domain=dafiti.com.co
 @@||st.top100.ru/top100/top100.js$domain=m.gazeta.ru
 @@||star-telegram.com/mistats/sites/dfw/startelegram.js
+@@||starbucks.ca/weblx/static/optimizely.$script
+@@||starbucks.com/weblx/static/optimizely.$script
 @@||starbucksassets.com/weblx/static/optimizely.$script,domain=starbucks.ca|starbucks.com
 @@||startpage.com/js/abp.js^
 @@||stat.prsmedia.fr/tag/stat.js$domain=bienpublic.com
@@ -10135,7 +10138,6 @@ znak.com##.relap
 ||adgainersolutions.com^$third-party
 ||adgeo.163.com^
 ||adgjl13.com^
-||adgjl13.com^$third-party
 ||adgreed.com^$third-party
 ||adguard.com/-/event/
 ||adheart.de^$third-party
@@ -17286,6 +17288,7 @@ znak.com##.relap
 ||facebook.com/ct.php
 ||facebook.com/impression.php
 ||facebook.com/method/links.getstats?
+||facebook.com/platform/scribe_endpoint.php/
 ||facebook.com/rtb_impression/?tr=
 ||facebook.com/search/web/instrumentation.php?
 ||facebook.com/sem_pixel^
@@ -19175,6 +19178,7 @@ znak.com##.relap
 ||hocam.com/gemius/xgemius_v*.js
 ||hocgeese.com^$third-party
 ||hockeystack.com^$third-party
+||hog.tv/api/events|
 ||holder.com.ua^$third-party
 ||holiday-rentals.co.uk/thirdparty/tag
 ||holiday-rentals.co.uk^*/tracking-home.html
@@ -20955,7 +20959,6 @@ znak.com##.relap
 ||landsnail.bindle.io^
 ||languagelake.com^$third-party
 ||lansrv030.com^
-||lansrv030.com^$third-party
 ||lansrv040.com^
 ||lansrv050.com^
 ||lansrv060.com^
@@ -30782,7 +30785,6 @@ znak.com##.relap
 ||srv.onedio.com/track
 ||srv1.srv-stat.com/*/?tid=
 ||srv1010elan.com^
-||srv1010elan.com^$third-party
 ||srv2020real.com^
 ||srvmath.com^*/analytics.js
 ||srvtrck.com^$third-party
@@ -32280,6 +32282,7 @@ znak.com##.relap
 ||t.paydirekt.de^
 ||t.paypal.com^
 ||t.perigold.com^
+||t.pointandplace.com^
 ||t.powerreviews.com^$third-party
 ||t.premii.com^
 ||t.prod1.discover.binge.com.au^
@@ -34228,7 +34231,6 @@ znak.com##.relap
 ||trkn.us^$third-party
 ||trkpzz.dcinside.com^
 ||trksrv44.com^
-||trksrv44.com^$third-party
 ||trksrv45.com^
 ||trksrv46.com^
 ||trl.upperbooking.com^$third-party
