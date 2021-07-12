@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202107110141
+! Version: 202107120104
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36394
+! Lenth = 36404
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -6402,6 +6402,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||assets.adobedtm.com^*-source.min.js$domain=manager-magazin.de
 @@||assets.customer.io/assets/track.js$domain=buffer.com
 @@||assets.espn.go.com/espn360/builds/nielsen/ggce*.swf
+@@||assets.strossle.com/strossle-widget-sdk/$script,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 @@||astatic.ccmbg.com/fc/js/prebid?v=$domain=sante.journaldesfemmes.fr
 @@||atdmt.com/ds/yusptsprtspr/
 @@||atdmt.com^*/direct*01$domain=sprint.com
@@ -6437,6 +6438,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||bat.bing.com/bat.js$domain=airbnb.ru
 @@||bbc.co.uk/frameworks/nedstat/$script,~third-party
 @@||bc.geocities.*/not_found/
+@@||bdash-cloud.com/recommend-script/$script,domain=junonline.jp
+@@||bdash-cloud.com/tracking-script/*/tracking.js$domain=junonline.jp
 @@||beacon.guim.co.uk/accept-beacon?
 @@||beatthetraffic.com/traffic/?partner=$subdocument
 @@||behanceserved.com/stats/stats.js?
@@ -7361,6 +7364,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
 @@||googletagmanager.com/gtm.js$script,domain=dpoint.jp
 @@||googletagmanager.com/gtm.js$script,domain=girlsnews.tv
+@@||googletagmanager.com/gtm.js$script,domain=junonline.jp
 @@||googletagmanager.com/gtm.js$script,domain=kanaloco.jp
 @@||googletagmanager.com/gtm.js$script,domain=maidonanews.jp
 @@||googletagmanager.com/gtm.js$script,domain=okwave.jp
@@ -7463,6 +7467,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||images*.engageya.com^$image,domain=popmech.ru
 @@||images-dl.taboola.com^$domain=samsung.com|thestartmagazine.com
 @@||images.apple.com/metrics/scripts/s_code_h.js$domain=apple.com
+@@||images.sprinklecontent.com^$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 @@||images.taboola.com^$domain=samsung.com|thestartmagazine.com
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||img.blesk.cz/js/base-cz/gemius.js
@@ -8446,6 +8451,8 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||widget.myrentacar.me^$script,subdocument
 @@||widget.trustpilot.com/bootstrap/$script,domain=exodus.co.uk
 @@||widgets.outbrain.com^*/comScore/comScore.htm
+@@||widgets.spklw.com/v1/$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
+@@||widgets.sprinklecontent.com/v2/$script,xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
 @@||wikia.nocookie.net^*/AnalyticsEngine/js/analytics_prod.js
 @@||willhaben.apa.net/clientscript/xtcore.js
@@ -8734,6 +8741,7 @@ kerch.com.ru,kerch.net##a[href^="http://www.kerch.net/counter/"]
 kinoman.me#?##extra_block > div.extra_mod > div.extra_mod:has(> div.extra_mod_title:contains(Счетчики))
 kinotan.ru##.counts
 kizi.com#%#window.google_trackConversion = function() {};
+komachi.yomiuri.co.jp##.topi-popin-relation
 koneta.nifty.com###custom_html-2
 latino-serialo.tv#?##sidebar-left > div.block[-ext-has="> div.box > h2:contains(Счетчик)"]
 launchbit.com/taz-pixel$image
@@ -8774,6 +8782,7 @@ nnmclub.ro,nnm-club.t0r.xyz,nnm-club-me.appspot.com,nnm-club.lib,nnm-club.me,nnm
 notonthehighstreet.com#%#//scriptlet('set-constant', 'window.DD_RUM.init', 'noopFunc')
 novate.ru#?##right > div.bordered:has(> script:contains(relap))
 novate.ru#?##right > h2:contains(Рекомендуем)
+otekomachi.yomiuri.co.jp###_popIn_right
 outrch.com/api/mailings/opened$image
 overclockers.ru#%#AG_onLoad(function() { window.trackOutboundLink = window.open; });
 pb.wtf,piratbit.org,piratbit.pw,piratbit.top##a[href="//www.liveinternet.ru/click"]
@@ -25489,6 +25498,7 @@ znak.com##.relap
 ||osur.dell.com^
 ||osuwzo.oyunfor.com^
 ||osxau.de^$third-party
+||ot.ebis.ne.jp^
 ||ot.obi-italia.it^
 ||ot.obi.at^
 ||ot.obi.ch^
