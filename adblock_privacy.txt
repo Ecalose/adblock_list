@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202107140104
+! Version: 202107150153
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36797
+! Lenth = 36806
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -4481,6 +4481,9 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /rook.tracking.
 /rot_in.php
 /rover.ebay.com/roveropen/*
+/roverclk/*
+/roverimp/*
+/roversync/?
 /rpFingerprint?
 /rpc.gif?ac=
 /rpc/log?
@@ -6199,6 +6202,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@/cdn-cgi/pe/bag2?*static.getclicky.com%2Fjs$domain=amazingpics.net
 @@/cdn-cgi/pe/bag2?*yieldbot.intent.js$domain=droid-life.com
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
+@@/clarity-*.js$domain=clarity-project.info
 @@/fingerprint2.min.js$domain=livacha.com
 @@/fingerprint2.min.js^$domain=ganyancanavari.com
 @@/fingerprint2.min.js^$domain=justfreethemes.com|ukit.com
@@ -7542,6 +7546,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||js-agent.newrelic.com/nr-*.min.js$domain=copy.com
 @@||js-agent.newrelic.com/nr-spa-$script,domain=kapwing.com
 @@||js.agkn.com/prod/v0/tag.js$domain=netd.com
+@@||js.appboycdn.com/web-sdk/*/appboy.min.js$domain=equinox.com
 @@||js.appboycdn.com/web-sdk/*/appboy.min.js$domain=learning.edx.org
 @@||js.datadome.co/tags.js^$domain=hermes.com
 @@||js.dmtry.com/channel.js$domain=zillow.com
@@ -12873,7 +12878,7 @@ znak.com##.relap
 ||browser-statistik.de^$third-party
 ||browser-update.org^$third-party
 ||browser-updater.yandex.net^
-||browser.events.data.microsoft.com/OneCollector/
+||browser.events.data.microsoft.com^
 ||browser.events.data.msn.com^
 ||browsermine.com^$third-party
 ||browserpusher.com^$third-party
@@ -17207,6 +17212,7 @@ znak.com##.relap
 ||events.strategic-i.com^
 ||events.textme-app.com^
 ||events.tubecup.org^
+||events.tubecup.org^$third-party
 ||events.turbosquid.com^
 ||events.uber.com^
 ||events.whisk.com^
@@ -27096,7 +27102,9 @@ znak.com##.relap
 ||qvmucs.abluestore.com^
 ||qvnpxc.technopark.ru^
 ||qwant.com/*/api/ux/surveys?
+||qwant.com/action/
 ||qwant.com/apm/intake/*/rum/events
+||qwant.com/impression/
 ||qwopeo.soothe.com^
 ||qxauwo.sportisimo.ro^
 ||qxhydkz8.hmjdaw.ntt.com^
@@ -27708,7 +27716,6 @@ znak.com##.relap
 ||roughroll.com^$third-party
 ||routeapp.io/route-analytics/
 ||rovauy.share-now.com^
-||rover.ebay.$image,object,script
 ||rover.ebay.$image,object,script,badfilter
 ||rover.ebay.*/roverclk/*?trknvp=$image
 ||rover.ebay.*/roverimp/*&trknvp=$image
@@ -28758,6 +28765,7 @@ znak.com##.relap
 ||seevolution.com^$third-party
 ||seewhy.com^$third-party
 ||seg.sharethis.com^
+||segment-cdn.producthunt.com^
 ||segment.com^$third-party
 ||segment.io^$third-party
 ||segmentify.com^$third-party
@@ -36299,6 +36307,7 @@ znak.com##.relap
 ||xhcdn.com/js/track.
 ||xhit.com^$third-party
 ||xhqpgt.skullpig.com^
+||xiaohuangshu.me/visit.php
 ||xiaomi.com/js/mstr.js?
 ||xing.com/app_stats/
 ||xing.com/collect/
