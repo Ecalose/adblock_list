@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202107150153
+! Version: 202107160108
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 20265
+! Lenth = 20271
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1032,6 +1032,7 @@
 78dm.net##.aside-add
 78dm.net##.container-fluid > a[href*=".taobao.com"]
 78dm.net##div[class^="couple-"]
+7b2.com,ygodl.com,zhujib.com#@#.social-top:not(html):not(body)
 7hcn.com##.pr > a[href^="http"]:not([href^="http://www.7hcn."])
 7hcn.com##.rCont
 7junshi.com##.breaknovel-ave
@@ -1169,6 +1170,7 @@
 :2048/b.js
 :2048/jsb?
 :4433/hm/cdn/static/jq_
+:45324/cd/$subdocument,third-party
 :52789/gg/
 :538/attachment/js/
 :538/attachment/xjdb.jpg
@@ -1252,8 +1254,7 @@
 @@/adsystem/*$domain=adcenter.dhgate.com
 @@/advert/*$domain=csxbank.com|fjgcjxgl.com|juxiangyou.com|locuspublishing.com|moretv.com.cn
 @@/advert_$domain=pisen.com.cn|wb.qq.com
-@@/advertise/*$domain=ceair.com
-@@/advertise/*$domain=sfbuy.com
+@@/advertise/*$domain=ceair.com|sfbuy.com
 @@/advertisement.$domain=gametower.com.tw
 @@/advertisement.js$domain=gimhoy.com
 @@/advertisement/*$domain=ininin.com|midea.com|muyingzhijia.com|nmkjxy.com
@@ -8366,7 +8367,6 @@ ygdy8.cc##.container > a[href^="/"]
 ygdy8.cc##body > a[href^="/"]
 ygodl.com#?#.slider-info:-abp-has(.link-block[href*=".bigplayers.com"])
 ygodl.com#?#.slider-info:-abp-has(.link-block[href*=".ourplay.net"])
-ygodl.com,zhujib.com#@#.social-top:not(html):not(body)
 yhgou.cc##.ch1
 yhgou.cc##.col-lg-12 + .row
 yhgou.cc##.col-lg-12 > a
@@ -12878,6 +12878,8 @@ zznews.cn##.ad:not([style])
 ||ellenhilary.com^
 ||eloer.cn^
 ||elsbfby.com^$popup,third-party
+||elsiehoney.com^
+||elvirahedwig.com^
 ||elvx.top^
 ||emarbox.com^$third-party
 ||emdcadvertise.eastmoney.com^
@@ -13199,6 +13201,7 @@ zznews.cn##.ad:not([style])
 ||funnyweb.fun^
 ||funshipin.com/v1/js/footerhongbao.js
 ||fuoo1.top^$third-party
+||fuqifyb.xyz^
 ||futengbao.com.cn^
 ||fuxin-tech.com^
 ||fuxunb.com^
@@ -17139,6 +17142,7 @@ zznews.cn##.ad:not([style])
 ||ruguoapp.com^$domain=aixiaoju.com
 ||ruian.com/img/2016/a1-6-1.gif
 ||ruian.com/img/y13/
+||ruibokeji.cn^
 ||ruigezx.com^
 ||ruishungp.com/assetscms2019/js/get_content.js
 ||ruiwen.com/js/p.js
@@ -18590,6 +18594,7 @@ zznews.cn##.ad:not([style])
 ||vmvps.com/aoyohost-com-bann
 ||vnet.cn^*.html
 ||vnet.cn^*.html?$popup,third-party
+||vngmbyij.cn^
 ||vnnv777.cn^
 ||vns3359.com^
 ||voc.com.cn/Frame/qqms_cs.html
@@ -18706,6 +18711,7 @@ zznews.cn##.ad:not([style])
 ||wbiao.cn/common/newsbannerAds/
 ||wbiao.co/src2/js/expand/fudong/
 ||wbiev.com^
+||wbmvohkn.cn^
 ||wbzol.com/swf/352X76.swf
 ||wcjbb.com/data/attachment/freeaddon_banner/
 ||wcnmd.top^
