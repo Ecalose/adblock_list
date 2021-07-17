@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202107160108
+! Version: 202107170151
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 36818
+! Lenth = 36837
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -226,7 +226,6 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 &event=view&
 &funnel_state=
 &http_referer=$script,xmlhttprequest,domain=~facebook.com
-&idsite=*&send_image=$image
 &mi_ecmp=
 &pageReferrer=
 &pagegroup=*&url=$script
@@ -3477,6 +3476,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /log/analytics
 /log/browser/event
 /log/collect/*
+/log/counter?
 /log/error?
 /log/event?
 /log/exposed?
@@ -3773,6 +3773,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /mpulse.js
 /mpulse.min.js
 /mrliteLogger.$image,script
+/msa-vowels/1/OP/*
 /msftaudience.
 /mstartracking/*
 /mstat/*
@@ -5577,6 +5578,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 /ucount.php?
 /udctrack.
 /uds/stats?
+/uecomscore_
 /uedata?
 /uem-ep.js
 /uf-stat?
@@ -8515,6 +8517,7 @@ $xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|f
 @@||zeit.de/piwik/piwik.js$domain=schach.zeit.de
 @@||zeit.de/static/js/webtrekk/webtrekk_$script,domain=schach.zeit.de
 @@||zillowstatic.com/c/*/linktrack.js$domain=zillow.com
+@@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
 ^name=atatracker^
@@ -10595,6 +10598,7 @@ znak.com##.relap
 ||alicdn.com/tkapi/click.js
 ||alice.it/cnt/
 ||aliexpress.com/js/beacon_
+||aliexpress.ru/aer-assets/ext/analytics.
 ||alikeaddition.com^$third-party
 ||alikearm.com^$third-party
 ||alimama.cn/inf.js
@@ -14047,7 +14051,14 @@ znak.com##.relap
 ||cmon.congress.gov^
 ||cmp-cdn.ghostery.com^
 ||cmp.channelpartner.de^
+||cmp.courrierinternational.com^
 ||cmp.dreamlab.pl^
+||cmp.finn.no^
+||cmp.huffingtonpost.fr^
+||cmp.netzwelt.de^
+||cmp.nouvelobs.com^
+||cmp.tek.no^
+||cmp.telerama.fr^
 ||cmplay.did.ijinshan.com^
 ||cmptch.com^$third-party
 ||cms-a.ns.emailvision.net.daraz.com^
@@ -15752,6 +15763,7 @@ znak.com##.relap
 ||dgkpzy.2ch2.net^
 ||dgynnj.koctas.com.tr^
 ||dhenr54m.com^
+||dhl.com/uskl7n/
 ||di-capt.com^$third-party
 ||di.ifolor.ch^
 ||di.ifolor.net^
@@ -19598,6 +19610,7 @@ znak.com##.relap
 ||icas.ikea.com^
 ||icbdr.com/images/pixel.gif
 ||icebergindigo.com^$third-party
+||ichnaea-web.netflix.com^
 ||ichnaea.netflix.com^$third-party
 ||iclive.com^$third-party
 ||iconstab.club^
@@ -31514,6 +31527,8 @@ znak.com##.relap
 ||static.spankbang.com/static_desktop/gen/*-ai-with-privacy.js
 ||static.stylight.net/js_external/trackjs.*.js
 ||static.talpanetwork.com/prod/js/components/talpa-analytics/
+||static.terratraf.io^$third-party
+||static.user-red.com^
 ||static.vdmximg.com/wp-includes/js/u_hits_control.js
 ||static.vocento.com/tag-manager/latest/vtm.js
 ||static.wellsfargo.com/tracking/
@@ -31728,6 +31743,7 @@ znak.com##.relap
 ||stats.glassmountains.co.uk^
 ||stats.grafana.org^
 ||stats.grafikart.fr^
+||stats.gruporeforma.com^
 ||stats.gslc.utah.edu^
 ||stats.guersanguillaume.com^
 ||stats.guiamais.com.br^
@@ -32468,6 +32484,7 @@ znak.com##.relap
 ||sync.1dmp.io^$third-party
 ||sync.adap.tv^
 ||sync.adotmob.com^
+||sync.bumlam.com^$third-party
 ||sync.ebis.ne.jp^$third-party
 ||sync.morgdm.ru^$third-party
 ||sync.outbrain.com^$third-party
@@ -33072,6 +33089,7 @@ znak.com##.relap
 ||thetimes.co.uk/mvt-assets/www/mvt.js
 ||thetradedesk-tags.s3.amazonaws.com^
 ||thetrafficstat.net^
+||thetrainline.com/bDKQTvkBW0tRiEJC_Q/
 ||theweek.com/decor/track/
 ||thewhizmarketing.com^$third-party
 ||thewhizproducts.com^$third-party
@@ -34058,6 +34076,7 @@ znak.com##.relap
 ||tracking.carsales.com.au^
 ||tracking.cat898.com^
 ||tracking.cengage.com^
+||tracking.cerdmann.com^
 ||tracking.chacha.com^
 ||tracking.chem-agilent.com^
 ||tracking.christianpost.com^
